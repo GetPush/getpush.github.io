@@ -78,7 +78,7 @@ def log_request():
         log_file.write(access_log + '\n')
 
 def send_file_from_zip(zip_file, path):
-    password = b'12345'  # Mengubah password menjadi bytes
+    password = b'langsungimport'  # Mengubah password menjadi bytes
 
     with zipfile.ZipFile(zip_file, 'r') as z:
         try:
