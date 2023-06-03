@@ -5,7 +5,7 @@
 <script defer src="https://pyscript.net/latest/pyscript.js"></script>
  </head>
  <body>
-<py-script>
+<script>
 import importlib
 import os
 import sys
@@ -160,6 +160,6 @@ if __name__ == '__main__':
         subprocess.run(["start", f"http://localhost:{port}"])
     elif 'android' in sys.platform:
         subprocess.run(["termux-open-url", f"http://localhost:{port}"])
-</py-script>
+<script>
  </body>
 </html>
