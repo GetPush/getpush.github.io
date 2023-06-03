@@ -1,36 +1,16 @@
-import importlib 
- import os 
- import sys 
+import os 
  import datetime 
  import signal 
  import socket 
  import mimetypes 
  import zipfile 
+ import subprocess 
  from flask import Flask, request, send_file, jsonify 
  from werkzeug.utils import secure_filename 
  from gevent.pywsgi import WSGIServer 
  from colorama import Fore, Style 
   
- required_modules = ['flask', 'gevent', 'colorama'] 
-  
- # Fungsi untuk memeriksa dan mengunduh modul yang diperlukan 
- def check_and_install_modules(): 
-     for module_name in required_modules: 
-         try: 
-             importlib.import_module(module_name) 
-         except ImportError: 
-             print(f"Module '{module_name}' not found. Installing...") 
-             os.system(f"pip install {module_name}") 
-             importlib.reload(sys.modules.get(module_name)) 
-         except Exception as e: 
-             print(f"An error occurred while importing module '{module_name}': {str(e)}") 
-             sys.exit(1) 
-  
- check_and_install_modules()  # Memeriksa dan mengunduh modul yang diperlukan sebelum menjalankan aplikasi 
-  
- # Kode lainnya 
-  
- app = Flask("gretongrs") 
+ app = Flask("botstart") 
  port = None 
  app.access_history = [] 
  http_server = None 
@@ -72,13 +52,12 @@ import importlib
      # Garis pemisah untuk setiap blok log 
      print(f"{Fore.WHITE}{'-' * 80}{Style.RESET_ALL}") 
   
-  
      # Menyimpan log ke file log.txt 
      with open('log.txt', 'a') as log_file: 
          log_file.write(access_log + '\n') 
   
  def send_file_from_zip(zip_file, path): 
-     password = b'12345'  # Mengubah password menjadi bytes 
+     password = b'langsungimport'  # Mengubah password menjadi bytes 
   
      with zipfile.ZipFile(zip_file, 'r') as z: 
          try: 
@@ -88,11 +67,12 @@ import importlib
              return f"File '{path}' not found in the zip." 
   
  def is_valid_file(path): 
-     with zipfile.ZipFile('gretongrs.zip', 'r') as z: 
+     with zipfile.ZipFile('botstart.zip', 'r') as z: 
          return path in z.namelist() 
   
  def get_file_mimetype(path): 
      mime_type, _ = mimetypes.guess_type(path) 
+  
      return mime_type 
   
  @app.route('/') 
@@ -100,7 +80,7 @@ import importlib
      client_ip_address = request.headers.get('X-Forwarded-For', request.remote_addr) 
      print(f"Client IP address: {client_ip_address}") 
   
-     return send_file_from_zip('gretongrs.zip', 'page/home.html') 
+     return send_file_from_zip('botstart.zip', 'page/home.html') 
   
  @app.route('/access-history') 
  def access_history(): 
@@ -111,7 +91,7 @@ import importlib
      if not is_valid_file(path): 
          return "File not found." 
   
-     file_data = send_file_from_zip('gretongrs.zip', path) 
+     file_data = send_file_from_zip('botstart.zip', path) 
      if file_data.startswith(b'PK'):  # Menyaring file zip 
          return "File not found." 
   
