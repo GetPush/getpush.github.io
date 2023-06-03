@@ -5,6 +5,7 @@ import socket
 import mimetypes
 import zipfile
 import subprocess
+import sys
 from flask import Flask, request, send_file, jsonify
 from werkzeug.utils import secure_filename
 from gevent.pywsgi import WSGIServer
