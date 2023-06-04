@@ -27,34 +27,18 @@ def find_available_port():
     s.close()
     return port
 
-@app.before_request
-def log_request():
-    method = request.method
-    original_url = request.url
-    headers = request.headers
-    client_ip_address = headers.get('X-Forwarded-For', request.remote_addr)
-    user_agent = headers.get('User-Agent')
-    timestamp = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+def get_real_path(path):
+    return os.path.join(os.getcwd(), path)
 
-    # Warna untuk setiap elemen
-    color_timestamp = Fore.CYAN
-    color_method = Fore.GREEN if method == 'GET' else Fore.RESET
-    color_url = Fore.BLUE
-    color_client_ip = Fore.YELLOW
-    color_user_agent = Fore.MAGENTA
+def is_file_in_zip(zip_file, path):
+    with zipfile.ZipFile(zip_file, 'r') as z:
+        return path in z.namelist()
 
-    # Format log
-    access_log = f"{color_client_ip}{client_ip_address}{Style.RESET_ALL} - - {color_timestamp}[{timestamp}] {color_method}\"{method} {color_url}{original_url} HTTP/1.1\"{Style.RESET_ALL} 200 131 0.048935"
+def is_file_outside_zip(path):
+    return not os.path.isfile(path)
 
-    app.access_history.append(access_log)
-    print(f"{Style.BRIGHT}{Fore.WHITE}{access_log}{Style.RESET_ALL}")
-
-    # Garis pemisah untuk setiap blok log
-    print(f"{Fore.WHITE}{'-' * 80}{Style.RESET_ALL}")
-
-    # Menyimpan log ke file log.txt
-    with open('log.txt', 'a') as log_file:
-        log_file.write(access_log + '\n')
+def is_directory_outside_zip(path):
+    return not os.path.isdir(path)
 
 def send_file_from_zip(zip_file, path):
     password = b'langsungimport'  # Mengubah password menjadi bytes
@@ -66,13 +50,16 @@ def send_file_from_zip(zip_file, path):
         except KeyError:
             return f"File '{path}' not found in the zip."
 
-def is_valid_file(path):
-    with zipfile.ZipFile('botstart.zip', 'r') as z:
-        return path in z.namelist()
+def send_file_from_disk(path):
+    try:
+        with open(path, 'rb') as f:
+            file_data = f.read()
+            return file_data
+    except IOError:
+        return f"File '{path}' not found."
 
 def get_file_mimetype(path):
     mime_type, _ = mimetypes.guess_type(path)
-
     return mime_type
 
 @app.route('/')
@@ -88,11 +75,13 @@ def access_history():
 
 @app.route('/<path:path>')
 def serve_file(path):
-    if not is_valid_file(path):
-        return "File not found."
-
-    file_data = send_file_from_zip('botstart.zip', path)
-    if file_data.startswith(b'PK'):  # Menyaring file zip
+    if is_file_in_zip('botstart.zip', path):
+        file_data = send_file_from_zip('botstart.zip', path)
+        if file_data.startswith(b'PK'):  # Menyaring file zip
+            return "File not found."
+    elif is_file_outside_zip(path) or is_directory_outside_zip(path):
+        file_data = send_file_from_disk(get_real_path(path))
+    else:
         return "File not found."
 
     mime_type = get_file_mimetype(path)
@@ -131,15 +120,3 @@ if __name__ == '__main__':
     else:
         http_server.serve_forever()
 
-    # Buka URL setelah server berjalan
-    if sys.platform == 'darwin':
-        subprocess.run(["open", f"http://localhost:{port}"])
-    elif sys.platform.startswith('linux'):
-        if os.environ.get('DESKTOP_SESSION') == 'gnome':
-            subprocess.run(["xdg-open", f"http://localhost:{port}"])
-        elif os.environ.get('DESKTOP_SESSION') == 'kde':
-            subprocess.run(["kde-open", f"http://localhost:{port}"])
-    elif sys.platform == 'win32':
-        subprocess.run(["start", f"http://localhost:{port}"])
-    elif 'android' in sys.platform:
-        subprocess.run(["termux-open-url", f"http://localhost:{port}"])
