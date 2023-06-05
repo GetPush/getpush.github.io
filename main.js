@@ -1,22 +1,31 @@
-const { execSync } = require('child_process');
+const { spawn } = require('child_process');
 const path = require('path');
 
-function runPythonScript(scriptPath, args) {
-  const pythonScript = path.join(__dirname, scriptPath);
-  const command = `python ${pythonScript} ${args.join(' ')}`;
-  
-  try {
-    const output = execSync(command);
-    const result = output.toString().trim();
-    return result;
-  } catch (error) {
-    console.error('Error:', error);
-    throw error;
-  }
+function runPythonScript(scriptName, args) {
+  const scriptPath = path.join(__dirname, scriptName);
+
+  return new Promise((resolve, reject) => {
+    const python = spawn('python', [scriptPath, ...args], { stdio: 'inherit' });
+
+    python.on('close', (code) => {
+      if (code === 0) {
+        resolve();
+      } else {
+        reject(`Python script execution failed with code ${code}`);
+      }
+    });
+
+    python.on('error', (err) => {
+      reject(err);
+    });
+  });
 }
 
-module.exports = (req, res) => {
-  const result = runPythonScript('main.py', ['arg1', 'arg2']);
-  res.status(200).json({ result });
-};
-
+// Contoh penggunaan
+runPythonScript('main.py', ['arg1', 'arg2'])
+  .then(() => {
+    console.log('Python script executed successfully');
+  })
+  .catch((error) => {
+    console.error('Error:', error);
+  });
