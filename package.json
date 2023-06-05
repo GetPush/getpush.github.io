@@ -1,16 +1,12 @@
 {
   "name": "botstart",
   "version": "1.0.0",
-  "description": "Description of your project",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
-  "author": "Toppay Official",
-  "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1",
-    "mime-types": "^2.1.31",
-    "adm-zip": "^0.5.3"
+    "express": "^4.17.1"
   }
 }
