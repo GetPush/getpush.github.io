@@ -3,14 +3,20 @@ proxy-groups:
   - name: Clash
     type: select
     use:
-      - Inject 
+      - Clash 1
+      - Clash 2
+      - Clash 3
+      - Clash 4
     proxies:
-      - FALLBACK
+      - Clash 1
+      - Clash 2
+      - Clash 3
+      - Clash 4
       - DIRECT
   - name: BlockAds
     type: select
     proxies:
-      - FALLBACK
+      - Clash
       - DIRECT
       - REJECT
   - name: Streaming
@@ -18,14 +24,20 @@ proxy-groups:
     strategy: consistent-hashing
     disable-udp: false
     use:
-      - Inject
+      - Clash 1
+      - Clash 2
+      - Clash 3
+      - Clash 4
     url: http://www.gstatic.com/generate_204
     interval: '300'
   - name: trafficIndo
     type: url-test
     disable-udp: false
     use:
-      - Inject
+      - Clash 1
+      - Clash 2
+      - Clash 3
+      - Clash 4
     url: http://www.gstatic.com/generate_204
     interval: '300'
   - name: Sosmed 
@@ -33,29 +45,74 @@ proxy-groups:
     strategy: consistent-hashing
     disable-udp: false
     use:
-      - Inject
+      - Clash 1
+      - Clash 2
+      - Clash 3
+      - Clash 4
     url: http://www.gstatic.com/generate_204
     interval: '300'
   - name: Gaming
     type: url-test
     disable-udp: false
     use:
-      - Inject 
+      - Clash 1
+      - Clash 2
+      - Clash 3
+      - Clash 4
     url: http://www.gstatic.com/generate_204
     interval: '600'
-  - name: FALLBACK
+  - name: Clash 1
     type: fallback
     url: http://hi.bonds.id/ping
     interval: 300
     use:
-      - Inject
+      - Clash 1
+  - name: Clash 2
+    type: fallback
+    url: http://hi.bonds.id/ping
+    interval: 300
+    use:
+      - Clash 2
+  - name: Clash 3
+    type: fallback
+    url: http://hi.bonds.id/ping
+    interval: 300
+    use:
+      - Clash 3
+  - name: Clash 4
+    type: fallback
+    url: http://hi.bonds.id/ping
+    interval: 300
+    use:
+      - Clash 4
 proxy-providers:
-  Inject:
+  Clash 1:
     type: http
-    path: ./Inject.yaml
+    path: ./Clash 1.yaml
     health-check:
     enable: true
-    url: "http://localhost:3000/user/proxies/sg3.yaml"
+    url: "https://toppay-office.onrender.com/page/clash/sg1.yaml"
+    interval: 1200
+  Clash 2:
+    type: http
+    path: ./Clash 2.yaml
+    health-check:
+    enable: true
+    url: "https://toppay-office.onrender.com/page/clash/sg2.yaml"
+    interval: 1200
+  Clash 3:
+    type: http
+    path: ./Clash 3.yaml
+    health-check:
+    enable: true
+    url: "https://toppay-office.onrender.com/page/clash/sg3.yaml"
+    interval: 1200
+  Clash 4:
+    type: http
+    path: ./Clash 4.yaml
+    health-check:
+    enable: true
+    url: "https://toppay-office.onrender.com/page/clash/sg4.yaml"
     interval: 1200
 redir-port: 7892
 port: 7890
