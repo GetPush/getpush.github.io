@@ -1,5 +1,5 @@
 proxies:
-  - name: layanan
+  - name: layanan alt
     server: layanan.ruangguru.com
     port: 80
     type: vmess
