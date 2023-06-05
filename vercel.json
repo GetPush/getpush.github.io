@@ -1,23 +1,14 @@
-{
-  "version": 2,
-  "builds": [
-    {
-      "src": "main.py",
-      "use": "@vercel/python",
-      "config": {
-        "maxLambdaSize": "10mb"
-      },
-      "buildCommand": "python -m pip install -r requirements.txt",
-      "output": {
-        "source": ".",
-        "destination": "/var/task"
-      }
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "main.py"
-    }
-  ]
-}
+ {
+     "builds": [
+         {
+             "src": "/main.py",
+             "use": "@vercel/python"
+         }
+     ],
+     "routes": [
+         {
+             "src": "/(.*)",
+             "dest": "/main.py"
+         }
+     ]
+ }
