@@ -1,5 +1,5 @@
 proxies:
-  - name: layanan sg1
+  - name: layanan
     server: layanan.ruangguru.com
     port: 80
     type: vmess
@@ -15,7 +15,7 @@ proxies:
       headers:
         Host: sg1-v2ray.sshkit.org
     udp: true
-  - name: Axis Game 1 sg1
+  - name: 1GB Day v1
     server: 104.16.108.96
     port: 80
     type: vmess
