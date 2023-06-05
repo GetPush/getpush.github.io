@@ -1,4 +1,5 @@
-flask
-gevent
-colorama
-werkzeug
+flask==2.0.1
+requests==2.26.0
+gevent==21.8.0
+colorama==0.4.4
+werkzeug==2.0.1
