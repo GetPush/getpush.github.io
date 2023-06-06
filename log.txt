@@ -2846,3 +2846,39 @@
 [33m127.0.0.1[0m - - [36m[2023-06-05 02:08:20] [32m"GET [34mhttp://localhost:8080/favicon.ico HTTP/1.1"[0m 200 131 0.048935
 [33m127.0.0.1[0m - - [36m[2023-06-05 02:09:37] [32m"GET [34mhttp://localhost:8080/favicon.ico HTTP/1.1"[0m 200 131 0.048935
 >>>>>>> 3ac4c4e2c559d05800ebded8b785b27122fb195a
+6/6/2023, 11:40:57 AM - GET / (127.0.0.1) - User Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+6/6/2023, 11:40:58 AM - GET /linked/base.js (127.0.0.1) - User Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+6/6/2023, 11:40:58 AM - GET /linked/style.css (127.0.0.1) - User Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+6/6/2023, 11:40:58 AM - GET /linked/log.js (127.0.0.1) - User Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+6/6/2023, 11:40:58 AM - GET /linked/names.js (127.0.0.1) - User Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+6/6/2023, 11:40:58 AM - GET /data.json (127.0.0.1) - User Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+6/6/2023, 11:40:58 AM - GET /linked/favicon.js (127.0.0.1) - User Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+6/6/2023, 11:40:59 AM - GET /linked/bg_random_color.js (127.0.0.1) - User Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+6/6/2023, 11:40:59 AM - GET /linked/google.js (127.0.0.1) - User Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+6/6/2023, 11:40:59 AM - GET /linked/teks-kedip.js (127.0.0.1) - User Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+6/6/2023, 11:40:59 AM - GET /linked/speed.js (127.0.0.1) - User Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+6/6/2023, 11:40:59 AM - GET /linked/teks-config.js (127.0.0.1) - User Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+6/6/2023, 11:40:59 AM - GET /linked/ip-address.js (127.0.0.1) - User Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+6/6/2023, 11:40:59 AM - GET /linked/update.js (127.0.0.1) - User Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+6/6/2023, 11:40:59 AM - GET /linked/komenwa.js (127.0.0.1) - User Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+6/6/2023, 11:40:59 AM - GET /linked/jam-digital.js (127.0.0.1) - User Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+6/6/2023, 11:40:59 AM - GET /linked/jam-analog.js (127.0.0.1) - User Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+6/6/2023, 11:40:59 AM - GET /linked/penutup.js (127.0.0.1) - User Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+6/6/2023, 5:24:56 PM - GET / (127.0.0.1) - User Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+6/6/2023, 5:24:57 PM - GET /linked/style.css (127.0.0.1) - User Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+6/6/2023, 5:24:57 PM - GET /linked/base.js (127.0.0.1) - User Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+6/6/2023, 5:24:57 PM - GET /linked/log.js (127.0.0.1) - User Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+6/6/2023, 5:24:57 PM - GET /linked/names.js (127.0.0.1) - User Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+6/6/2023, 5:24:57 PM - GET /data.json (127.0.0.1) - User Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+6/6/2023, 5:24:57 PM - GET /linked/favicon.js (127.0.0.1) - User Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+6/6/2023, 5:24:57 PM - GET /linked/bg_random_color.js (127.0.0.1) - User Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+6/6/2023, 5:24:57 PM - GET /linked/google.js (127.0.0.1) - User Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+6/6/2023, 5:24:57 PM - GET /linked/update.js (127.0.0.1) - User Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+6/6/2023, 5:24:57 PM - GET /linked/teks-kedip.js (127.0.0.1) - User Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+6/6/2023, 5:24:57 PM - GET /linked/ip-address.js (127.0.0.1) - User Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+6/6/2023, 5:24:57 PM - GET /linked/teks-config.js (127.0.0.1) - User Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+6/6/2023, 5:24:57 PM - GET /linked/speed.js (127.0.0.1) - User Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+6/6/2023, 5:24:57 PM - GET /linked/komenwa.js (127.0.0.1) - User Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+6/6/2023, 5:24:58 PM - GET /linked/jam-digital.js (127.0.0.1) - User Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+6/6/2023, 5:24:58 PM - GET /linked/jam-analog.js (127.0.0.1) - User Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+6/6/2023, 5:24:58 PM - GET /linked/penutup.js (127.0.0.1) - User Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
