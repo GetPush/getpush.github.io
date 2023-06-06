@@ -14,5 +14,10 @@
       "src": "/(.*)",
       "dest": "/server.js"
     }
-  ]
+  ],
+  "server": {
+    "fs": {
+      "basePath": "."
+    }
+  }
 }
