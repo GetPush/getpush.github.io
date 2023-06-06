@@ -8,11 +8,11 @@ proxy-groups:
       - Clash 3
       - Clash 4
     proxies:
+      - Service
       - Clash 1
       - Clash 2
       - Clash 3
       - Clash 4
-      - Service
       - DIRECT
   - name: Service
     type: fallback
