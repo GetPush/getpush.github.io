@@ -312,7 +312,7 @@ rules:
 - DST-PORT,22,DIRECT,no-resolve
 - RULE-SET,ChatGPT,Clash
 - RULE-SET,rule_BlockAds,BlockAds
-- RULE-SET,rule_reject,REJECT
+- RULE-SET,rule_reject,BlockAds
 - RULE-SET,rule_basicads,BlockAds
 - RULE-SET,rule_privacy,BlockAds
 - RULE-SET,rule_porn,REJECT
