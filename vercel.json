@@ -12,9 +12,10 @@
       "dest": "/server.js"
     }
   ],
-  "server": {
-    "fs": {
-      "basePath": "/"
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/server.js"
     }
-  }
+  ]
 }
