@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "node server.js"
+    "dev": "next dev"
   },
   "author": "toppay official",
   "license": "MIT",
