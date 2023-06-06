@@ -9,14 +9,9 @@ proxy-groups:
       - Clash3
       - Clash4
     proxies:
-      - Automatis
-      - Service
-      - Clash1
-      - Clash2
-      - Clash3
-      - Clash4
+      - Otomatis 
       - DIRECT
-  - name: Automatis
+  - name: Otomatis
     type: fallback
     disable-udp: false
     use:
@@ -30,7 +25,7 @@ proxy-groups:
   - name: BlockAds
     type: select
     proxies:
-      - Clash
+      - Otomatis
       - DIRECT
       - REJECT
   - name: Streaming
@@ -79,36 +74,7 @@ proxy-groups:
       - Clash4
     url: http://www.gstatic.com/generate_204
     interval: '600'
-  - name: Service
-    type: fallback
-    url: http://hi.bonds.id/ping
-    interval: 300
-    use:
-      - Service
-  - name: Clash1
-    type: fallback
-    url: http://hi.bonds.id/ping
-    interval: 300
-    use:
-      - Clash1
-  - name: Clash2
-    type: fallback
-    url: http://hi.bonds.id/ping
-    interval: 300
-    use:
-      - Clash2
-  - name: Clash3
-    type: fallback
-    url: http://hi.bonds.id/ping
-    interval: 300
-    use:
-      - Clash3
-  - name: Clash4
-    type: fallback
-    url: http://hi.bonds.id/ping
-    interval: 300
-    use:
-      - Clash4
+
 proxy-providers:
   Clash1:
     type: http
@@ -143,7 +109,7 @@ proxy-providers:
     path: ./service.yaml
     health-check:
     enable: true
-    url: "https://raw.githubusercontent.com/botstart/botstart.github.io/master/user/service/kboy.yaml"
+    url: "https://raw.githubusercontent.com/botstart/botstart.github.io/master/user/service/service.yaml"
     interval: 1200
 redir-port: 7892
 port: 7890
