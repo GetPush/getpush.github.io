@@ -10,5 +10,6 @@
 
 ❗️ Melanggar larangan ini dapat berakibat pada tindakan hukum serius. Pemilik repository berhak melindungi hak-haknya sesuai dengan undang-undang yang berlaku.
 
-Terima kasih atas pengertian dan kepatuhan Anda.
+### Mohon Hargai
+## Terima kasih atas pengertian dan kepatuhan Anda.
 
