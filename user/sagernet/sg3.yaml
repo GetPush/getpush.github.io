@@ -1,0 +1,91 @@
+---
+  #############################################################
+proxies:
+  #############################################################
+  # vmess, vless, Trojan, Shadowsocks, pokoknya yang support untuk open clash lah.
+  #Letakan Akun yang sudah di convert ke bawah ini, jangan pakai proxies: lagi
+# di bawah ini
+
+  - name: 1 gb v1
+    server: 104.16.108.96
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg3-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/5932679710/647331b35c2a4/
+      headers:
+        Host: sg3-v2ray.sshkit.org
+    udp: true
+  - name: 1 gb v2
+    server: 104.19.142.89
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg3-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/5932679710/647331b35c2a4/
+      headers:
+        Host: sg3-v2ray.sshkit.org
+    udp: true
+  - name: kuota layanan
+    server: layanan.ruangguru.com
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg3-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/5932679710/647331b35c2a4/
+      headers:
+        Host: sg3-v2ray.sshkit.org
+    udp: true
+  - name: kuota apps
+    server: www.sushioll.co.id
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg3-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/5932679710/647331b35c2a4/
+      headers:
+        Host: sg3-v2ray.sshkit.org
+    udp: true
+  - name: kuota bonus
+    server: 104.22.28.102
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg3-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/5932679710/647331b35c2a4/
+      headers:
+        Host: sg3-v2ray.sshkit.org
+    udp: true
+
+ ############################################
+    path: "/pathAkun/"

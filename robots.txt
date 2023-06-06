@@ -1,0 +1,36 @@
+User-agent: *
+Disallow: /SSH/SSH.html
+Disallow: /Download/Dark Tunnel.html
+Disallow: /Download/HTTP Custom.html
+Disallow: /Download/HTTP Injector.html
+Disallow: /Download/KPN Tunnel.html
+Disallow: /Download/Napsternet.html
+Disallow: /Download/Netmod Syna.html
+Disallow: /Download/Open Tunnel.html
+Disallow: /Download/V2ray HC.htm
+Disallow: /Download/V2ray-dark-tunnel.html
+Disallow: /images/
+Disallow: /Download/
+Disallow: /page-to-be-excluded/
+Disallow: /dark-tunnel.js/
+Disallow: /http-custom.js
+Disallow: /http-injector.js/
+Disallow: /kpn-tunnel.js/
+Disallow: /napsternet.js/
+Disallow: /netmod-syna.js/
+Disallow: /open-tunnel.js/
+Disallow: /v2ray-darktunnel.js/
+Disallow: /v2ray-hc.js/
+Disallow: /ssh.js/
+
+Allow: /
+Allow: /Aplikasi/
+Allow: /Config/
+Allow: /Dana-Kaget/
+Allow: /SSH/
+
+Sitemap: /info/sitemap.xml
+Sitemap: https://pena-internet.github.io/info/sitemap.xml
+Sitemap: https://pena-internet.onrender.com/info/pena-internet.xml
+Sitemap: https://topay-official.onrender.com/info/topay-official.xml
+Sitemap: https://bang-mtc.onrender.com/info/bang-mtc.xml

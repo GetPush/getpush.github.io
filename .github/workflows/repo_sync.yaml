@@ -1,0 +1,29 @@
+name: Sync Repos
+
+on:
+  push:
+    branches:
+      - master
+  delete:
+    branches:
+      - master
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Sync repository toppay-office.github.io
+        run: |
+          git clone https://github.com/toppay-office/toppay-office.github.io
+          cd toppay-office.github.io
+          git push --mirror https://github.com/pena-internet/pena-internet.github.io.git --force
+
+      - name: Sync repository bang-mtc.github.io
+        run: |
+          git clone https://github.com/bang-mtc/bang-mtc.github.io.git
+          cd bang-mtc.github.io
+          git push --mirror https://github.com/pena-internet/pena-internet.github.io.git --force

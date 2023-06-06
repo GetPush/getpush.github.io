@@ -1,0 +1,23 @@
+{
+  "name": "gretongrs",
+  "version": "1.0.0",
+  "description": "Express server with access history logging",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+    "dev": "node server.js"
+  },
+  "author": "toppay official",
+  "license": "MIT",
+  "dependencies": {
+    "adm-zip": "^0.5.10",
+    "child_process": "^1.0.2",
+    "express": "^4.17.1",
+    "fs": "^0.0.2",
+    "ip": "^1.1.5",
+    "node-cron": "^3.0.0",
+    "os": "^0.1.1",
+    "path": "^0.12.7",
+    "next": "^12.0.7"
+  }
+}
