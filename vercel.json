@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "version": 2,
   "builds": [
     {
@@ -18,3 +19,11 @@
   ]
 }
 
+=======
+  "routes": [
+    { "src": "/", "dest": "/server.js" },
+    { "src": "/access-history", "dest": "/server.js" },
+    { "src": "/:path*", "dest": "/server.js" }
+  ]
+}
+>>>>>>> 3ac4c4e2c559d05800ebded8b785b27122fb195a

@@ -3,42 +3,14 @@ proxy-groups:
   - name: Clash
     type: select
     use:
-<<<<<<< HEAD
-      - Service
-      - Clash1
-      - Clash2
-      - Clash3
-      - Clash4
+      - Inject 
     proxies:
-      - Service
-      - Clash1
-      - Clash2
-      - Clash3
-      - Clash4
+      - FALLBACK
       - DIRECT
-=======
-      - Clash 1
-      - Clash 2
-      - Clash 3
-      - Clash 4
-    proxies:
-      - Service
-      - Clash 1
-      - Clash 2
-      - Clash 3
-      - Clash 4
-      - DIRECT
-  - name: Service
-    type: fallback
-    url: http://hi.bonds.id/ping
-    interval: 300
-    use:
-      - Service
->>>>>>> 3ac4c4e2c559d05800ebded8b785b27122fb195a
   - name: BlockAds
     type: select
     proxies:
-      - Clash
+      - FALLBACK
       - DIRECT
       - REJECT
   - name: Streaming
@@ -46,36 +18,14 @@ proxy-groups:
     strategy: consistent-hashing
     disable-udp: false
     use:
-<<<<<<< HEAD
-      - Service
-      - Clash1
-      - Clash2
-      - Clash3
-      - Clash4
-=======
-      - Clash 1
-      - Clash 2
-      - Clash 3
-      - Clash 4
->>>>>>> 3ac4c4e2c559d05800ebded8b785b27122fb195a
+      - Inject
     url: http://www.gstatic.com/generate_204
     interval: '300'
   - name: trafficIndo
     type: url-test
     disable-udp: false
     use:
-<<<<<<< HEAD
-      - Service
-      - Clash1
-      - Clash2
-      - Clash3
-      - Clash4
-=======
-      - Clash 1
-      - Clash 2
-      - Clash 3
-      - Clash 4
->>>>>>> 3ac4c4e2c559d05800ebded8b785b27122fb195a
+      - Inject
     url: http://www.gstatic.com/generate_204
     interval: '300'
   - name: Sosmed 
@@ -83,151 +33,29 @@ proxy-groups:
     strategy: consistent-hashing
     disable-udp: false
     use:
-<<<<<<< HEAD
-      - Service
-      - Clash1
-      - Clash2
-      - Clash3
-      - Clash4
-=======
-      - Clash 1
-      - Clash 2
-      - Clash 3
-      - Clash 4
->>>>>>> 3ac4c4e2c559d05800ebded8b785b27122fb195a
+      - Inject
     url: http://www.gstatic.com/generate_204
     interval: '300'
   - name: Gaming
     type: url-test
     disable-udp: false
     use:
-<<<<<<< HEAD
-      - Service
-      - Clash1
-      - Clash2
-      - Clash3
-      - Clash4
+      - Inject 
     url: http://www.gstatic.com/generate_204
     interval: '600'
-  - name: Service
-=======
-      - Clash 1
-      - Clash 2
-      - Clash 3
-      - Clash 4
-    url: http://www.gstatic.com/generate_204
-    interval: '600'
-  - name: Clash 1
->>>>>>> 3ac4c4e2c559d05800ebded8b785b27122fb195a
+  - name: FALLBACK
     type: fallback
     url: http://hi.bonds.id/ping
     interval: 300
     use:
-<<<<<<< HEAD
-      - Service
-  - name: Clash1
-=======
-      - Clash 1
-  - name: Clash 2
->>>>>>> 3ac4c4e2c559d05800ebded8b785b27122fb195a
-    type: fallback
-    url: http://hi.bonds.id/ping
-    interval: 300
-    use:
-<<<<<<< HEAD
-      - Clash1
-  - name: Clash2
-=======
-      - Clash 2
-  - name: Clash 3
->>>>>>> 3ac4c4e2c559d05800ebded8b785b27122fb195a
-    type: fallback
-    url: http://hi.bonds.id/ping
-    interval: 300
-    use:
-<<<<<<< HEAD
-      - Clash2
-  - name: Clash3
-=======
-      - Clash 3
-  - name: Clash 4
->>>>>>> 3ac4c4e2c559d05800ebded8b785b27122fb195a
-    type: fallback
-    url: http://hi.bonds.id/ping
-    interval: 300
-    use:
-<<<<<<< HEAD
-      - Clash3
-  - name: Clash4
-    type: fallback
-    url: http://hi.bonds.id/ping
-    interval: 300
-    use:
-      - Clash4
+      - Inject
 proxy-providers:
-  Clash1:
+  Inject:
     type: http
-    path: ./clash1.yaml
-=======
-      - Clash 4
-proxy-providers:
-  Clash 1:
-    type: http
-    path: ./Clash 1.yaml
->>>>>>> 3ac4c4e2c559d05800ebded8b785b27122fb195a
+    path: ./Inject.yaml
     health-check:
     enable: true
-    url: "https://toppay-office.onrender.com/page/clash/sg1.yaml"
-    interval: 1200
-<<<<<<< HEAD
-  Clash2:
-    type: http
-    path: ./clash2.yaml
-=======
-  Clash 2:
-    type: http
-    path: ./Clash 2.yaml
->>>>>>> 3ac4c4e2c559d05800ebded8b785b27122fb195a
-    health-check:
-    enable: true
-    url: "https://toppay-office.onrender.com/page/clash/sg2.yaml"
-    interval: 1200
-<<<<<<< HEAD
-  Clash3:
-    type: http
-    path: ./clash3.yaml
-=======
-  Clash 3:
-    type: http
-    path: ./Clash 3.yaml
->>>>>>> 3ac4c4e2c559d05800ebded8b785b27122fb195a
-    health-check:
-    enable: true
-    url: "https://toppay-office.onrender.com/page/clash/sg3.yaml"
-    interval: 1200
-<<<<<<< HEAD
-  Clash4:
-    type: http
-    path: ./clash4.yaml
-=======
-  Clash 4:
-    type: http
-    path: ./Clash 4.yaml
->>>>>>> 3ac4c4e2c559d05800ebded8b785b27122fb195a
-    health-check:
-    enable: true
-    url: "https://toppay-office.onrender.com/page/clash/sg4.yaml"
-    interval: 1200
-  Service:
-    type: http
-<<<<<<< HEAD
-    path: ./service.yaml
-=======
-    path: ./Service.yaml
->>>>>>> 3ac4c4e2c559d05800ebded8b785b27122fb195a
-    health-check:
-    enable: true
-    url: "https://toppay-office.onrender.com/user/service.yaml"
+    url: "https://raw.githubusercontent.com/pena-internet/Clash-Inject/main/local/SG3.yaml"
     interval: 1200
 redir-port: 7892
 port: 7890
@@ -427,7 +255,6 @@ rules:
 - PROCESS-NAME,ss-local.exe,DIRECT
 - PROCESS-NAME,privoxy.exe,DIRECT
 - DST-PORT,22,DIRECT,no-resolve
-- RULE-SET,ChatGPT,Clash
 - RULE-SET,rule_BlockAds,BlockAds
 - RULE-SET,rule_reject,REJECT
 - RULE-SET,rule_basicads,Clash
@@ -486,12 +313,6 @@ tun:
   - tcp://8.8.4.4:53
 tproxy-port: 7895
 rule-providers:
-  ChatGPT:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/G4free/clash-ruleset/main/ruleset/ChatGPT.yaml"
-    path: ./ruleset/ChatGPT.yaml
-    interval: 86400
   rule_Direct:
     type: file
     behavior: classical
@@ -548,7 +369,7 @@ rule-providers:
     type: http
     behavior: classical
     path: "./rule_BlockAds.yaml"
-    url: https://easylist.to/easylist/easylist.txt
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Advertising/Advertising_Classical.yaml
     interval: 86400
   rule_reject:
     type: http
