@@ -47,7 +47,7 @@ proxies:
       headers:
         Host: sg-3.0rd.net
     udp: true
-  - name: 1 gb per day 4
+  - name: apps bro
     server: www.sushiroll.co.id
     port: 80
     type: vmess
