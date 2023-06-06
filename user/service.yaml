@@ -13,7 +13,7 @@ proxies:
     ws-opts:
       path: /l2ujo3mp
       headers:
-        Host: sg1-v2ray.sshkit.org
+        Host: sg-8.0rd.net
     udp: true
   - name: 1GB Day v1
     server: 104.16.108.96
@@ -29,5 +29,5 @@ proxies:
     ws-opts:
       path: /l2ujo3mp
       headers:
-        Host: sg1-v2ray.sshkit.org
+        Host: sg-8.0rd.net
     udp: true
