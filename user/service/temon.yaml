@@ -1,6 +1,6 @@
 proxies:
-  - name: 1 gb per day
-    server: sg-3.0rd.net
+  - name: layanan alt
+    server: layanan.ruangguru.com
     port: 80
     type: vmess
     uuid: 55c61930-0478-11ee-b039-205c6d5f5d78
