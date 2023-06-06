@@ -48,7 +48,7 @@ proxies:
         Host: sg-3.0rd.net
     udp: true
   - name: 1 gb per day 4
-    server: sg-3.0rd.net
+    server: www.sushiroll.co.id
     port: 80
     type: vmess
     uuid: 55c61930-0478-11ee-b039-205c6d5f5d78
