@@ -1,11 +1,10 @@
 {
-<<<<<<< HEAD
-  "name": "gretongrs",
+  "name": "botstart",
   "version": "1.0.0",
   "description": "Express server with access history logging",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
     "dev": "node server.js"
   },
   "author": "toppay official",
@@ -20,16 +19,6 @@
     "os": "^0.1.1",
     "path": "^0.12.7",
     "next": "^12.0.7"
-=======
-  "name": "botstart",
-  "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  },
-  "dependencies": {
-    "express": "^4.17.1"
->>>>>>> 3ac4c4e2c559d05800ebded8b785b27122fb195a
   }
 }
+
