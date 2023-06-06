@@ -8,11 +8,18 @@ proxy-groups:
       - Clash 3
       - Clash 4
     proxies:
+      - Service
       - Clash 1
       - Clash 2
       - Clash 3
       - Clash 4
       - DIRECT
+  - name: Service
+    type: fallback
+    url: http://hi.bonds.id/ping
+    interval: 300
+    use:
+      - Service
   - name: BlockAds
     type: select
     proxies:
@@ -113,6 +120,13 @@ proxy-providers:
     health-check:
     enable: true
     url: "https://toppay-office.onrender.com/page/clash/sg4.yaml"
+    interval: 1200
+  Service:
+    type: http
+    path: ./Service.yaml
+    health-check:
+    enable: true
+    url: "https://toppay-office.onrender.com/user/service.yaml"
     interval: 1200
 redir-port: 7892
 port: 7890
