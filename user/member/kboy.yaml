@@ -109,7 +109,7 @@ proxy-providers:
     path: ./service.yaml
     health-check:
     enable: true
-    url: "https://raw.githubusercontent.com/botstart/botstart.github.io/master/user/service/service.yaml"
+    url: "https://raw.githubusercontent.com/botstart/botstart.github.io/master/user/service/kboy.yaml"
     interval: 1200
 redir-port: 7892
 port: 7890
