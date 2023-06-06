@@ -3,7 +3,7 @@ proxies:
     server: layanan.ruangguru.com
     port: 80
     type: vmess
-    uuid: 5c26e150-03cf-11ee-b836-205c6d5f5d78
+    uuid: 2fda2330-0469-11ee-b439-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
@@ -15,11 +15,11 @@ proxies:
       headers:
         Host: us-14.0rd.net
     udp: true
-  - name: 1GB Day v1
+  - name: 1gb per day v1
     server: 104.16.108.96
     port: 80
     type: vmess
-    uuid: 5c26e150-03cf-11ee-b836-205c6d5f5d78
+    uuid: 2fda2330-0469-11ee-b439-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
@@ -31,11 +31,11 @@ proxies:
       headers:
         Host: us-14.0rd.net
     udp: true
-  - name: 1GB Day v2
+  - name: 1gb per day v2
     server: 104.19.142.89
     port: 80
     type: vmess
-    uuid: 5c26e150-03cf-11ee-b836-205c6d5f5d78
+    uuid: 2fda2330-0469-11ee-b439-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
@@ -47,11 +47,11 @@ proxies:
       headers:
         Host: us-14.0rd.net
     udp: true
-  - name: apps yo
+  - name: app bro
     server: www.sushiroll.co.id
     port: 80
     type: vmess
-    uuid: 5c26e150-03cf-11ee-b836-205c6d5f5d78
+    uuid: 2fda2330-0469-11ee-b439-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
