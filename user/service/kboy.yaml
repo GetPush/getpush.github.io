@@ -3,7 +3,7 @@ proxies:
     server: layanan.ruangguru.com
     port: 80
     type: vmess
-    uuid: 5c26e150-03cf-11ee-b836-205c6d5f5d78
+    uuid: 8b2441e0-0433-11ee-b038-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
@@ -11,7 +11,7 @@ proxies:
     servername: sg-3.0rd.net
     network: ws
     ws-opts:
-      path: /l2ujo3mp
+      path: /l52t0b39
       headers:
         Host: sg-3.0rd.net
     udp: true
@@ -19,7 +19,7 @@ proxies:
     server: 104.16.108.96
     port: 80
     type: vmess
-    uuid: 5c26e150-03cf-11ee-b836-205c6d5f5d78
+    uuid: 8b2441e0-0433-11ee-b038-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
@@ -27,7 +27,7 @@ proxies:
     servername: sg-3.0rd.net
     network: ws
     ws-opts:
-      path: /l2ujo3mp
+      path: /l52t0b39
       headers:
         Host: sg-3.0rd.net
     udp: true
@@ -35,7 +35,7 @@ proxies:
     server: 104.19.142.89
     port: 80
     type: vmess
-    uuid: 5c26e150-03cf-11ee-b836-205c6d5f5d78
+    uuid: 8b2441e0-0433-11ee-b038-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
@@ -43,7 +43,7 @@ proxies:
     servername: sg-3.0rd.net
     network: ws
     ws-opts:
-      path: /l2ujo3mp
+      path: /l52t0b39
       headers:
         Host: sg-3.0rd.net
     udp: true
@@ -51,7 +51,7 @@ proxies:
     server: www.sushiroll.com
     port: 80
     type: vmess
-    uuid: 5c26e150-03cf-11ee-b836-205c6d5f5d78
+    uuid: 8b2441e0-0433-11ee-b038-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
@@ -59,7 +59,7 @@ proxies:
     servername: sg-3.0rd.net
     network: ws
     ws-opts:
-      path: /l2ujo3mp
+      path: /l52t0b39
       headers:
         Host: sg-3.0rd.net
     udp: true
