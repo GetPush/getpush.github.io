@@ -3,7 +3,7 @@ import subprocess
 import socket
 import sys
 import platform
-from flask import Flask, send_file, jsonify, request
+from flask import Flask, send_from_directory, jsonify, request
 from gevent.pywsgi import WSGIServer
 
 app = Flask(__name__)
@@ -38,7 +38,11 @@ def get_open_command():
 def home():
     client_ip_address = request.headers.get('X-Forwarded-For', request.remote_addr)
     print(f"Client IP address: {client_ip_address}")
-    return send_file(os.path.join(os.path.dirname(__file__), 'page', 'home.html'))
+    return send_from_directory(os.path.join(os.path.dirname(__file__), 'page'), 'home.html')
+
+@app.route('/<path:path>')
+def serve_file(path):
+    return send_from_directory(os.path.dirname(path), os.path.basename(path))
 
 @app.route('/access-history')
 def access_history():
