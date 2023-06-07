@@ -6,7 +6,7 @@ import platform
 from flask import Flask, send_from_directory, jsonify, request
 from gevent.pywsgi import WSGIServer
 
-app = Flask(__name__)
+app = Flask("botstart")
 
 required_modules = ['flask', 'pathlib', 'ipaddress', 'gevent']
 
