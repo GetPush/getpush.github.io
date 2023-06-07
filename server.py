@@ -1,120 +1,71 @@
 import os
-import datetime
-import signal
-import socket
-import mimetypes
-import zipfile
+import ipaddress
 import subprocess
-from flask import Flask, request, send_file, jsonify
-from werkzeug.utils import secure_filename
-from gevent.pywsgi import WSGIServer
+import socket
+import sys
+import platform
+import time
+from datetime import datetime
+import json
+from flask import Flask, send_file, jsonify
 
-app = Flask("botstart")
-port = None
-app.access_history = []
-http_server = None
+app = Flask(__name__)
 
-def find_available_port():
-    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    port = 8080
-    while True:
+required_modules = ['flask', 'pathlib', 'os', 'ipaddress', 'subprocess', 'datetime', 'json', 'socket', 'netifaces']
+
+def check_modules():
+    missing_modules = []
+    for module in required_modules:
         try:
-            s.bind(('localhost', port))
-            break
-        except OSError:
-            port += 1
-    s.close()
-    return port
+            __import__(module)
+            print(f"Module {module} sudah terpasang.")
+        except ImportError:
+            print(f"Module {module} tidak ditemukan. Menginstal module...")
+            install_command = f"pip install {module}"
+            subprocess.check_call(install_command, shell=True)
+            print(f"Module {module} berhasil diinstal.")
 
-def get_real_path(path):
-    return os.path.join(os.getcwd(), path)
-
-def is_file_in_zip(zip_file, path):
-    with zipfile.ZipFile(zip_file, 'r') as z:
-        return path in z.namelist()
-
-def is_file_outside_zip(path):
-    return not os.path.isfile(path)
-
-def is_directory_outside_zip(path):
-    return not os.path.isdir(path)
-
-def send_file_from_zip(zip_file, path):
-    password = b'langsungimport'  # Mengubah password menjadi bytes
-
-    with zipfile.ZipFile(zip_file, 'r') as z:
-        try:
-            file_data = z.read(path, pwd=password)
-            return file_data
-        except KeyError:
-            return "File '{}' not found in the zip.".format(path)
-
-def send_file_from_disk(path):
-    try:
-        with open(path, 'rb') as f:
-            file_data = f.read()
-            return file_data
-    except IOError:
-        return "File '{}' not found.".format(path)
-
-def get_file_mimetype(path):
-    mime_type, _ = mimetypes.guess_type(path)
-    return mime_type
+def get_open_command():
+    platform_name = platform.system()
+    if platform_name == 'Windows':
+        return 'start chrome'
+    elif platform_name == 'Darwin':
+        return 'open -a "Google Chrome"'
+    elif platform_name == 'Linux':
+        if 'termux' in platform_name:
+            return 'termux-open-url || xdg-open || sensible-browser || x-www-browser || gnome-open'
+        else:
+            return 'google-chrome || x-www-browser || gnome-open'
+    return 'xdg-open'
 
 @app.route('/')
 def home():
     client_ip_address = request.headers.get('X-Forwarded-For', request.remote_addr)
-    print("Client IP address: {}".format(client_ip_address))
-
-    return send_file_from_zip('botstart.zip', 'page/home.html')
+    print(f"Client IP address: {client_ip_address}")
+    return send_file(os.path.join(os.path.dirname(__file__), 'page', 'home.html'))
 
 @app.route('/access-history')
 def access_history():
-    return jsonify(app.access_history)
+    return jsonify(accessHistory)
 
-@app.route('/<path:path>')
-def serve_file(path):
-    if is_file_in_zip('botstart.zip', path):
-        file_data = send_file_from_zip('botstart.zip', path)
-        if file_data.startswith(b'PK'):  # Menyaring file zip
-            return "File not found."
-    elif is_file_outside_zip(path) or is_directory_outside_zip(path):
-        file_data = send_file_from_disk(get_real_path(path))
-    else:
-        return "File not found."
+def find_available_port(port):
+    while True:
+        try:
+            with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+                s.bind(('0.0.0.0', port))
+            return port
+        except OSError:
+            port += 1
 
-    mime_type = get_file_mimetype(path)
-    response = app.make_response(file_data)
-    response.headers.set('Content-Type', mime_type)
-    return response
-
-def stop_server(signal, frame):
-    global http_server
-    if http_server is not None:
-        http_server.stop()
-        print("Server stopped")
-    sys.exit(0)
-
-import sys
-
-# Fungsi untuk menampilkan log
-def log(message):
-    print(message)
-    sys.stdout.flush()  # Memastikan output segera ditampilkan di terminal
-
-# Contoh penggunaan log
-log(" - success... 🚬")
-log(" - subscribe channel YouTube Toppay Official")
+def reset_log():
+    with open('log.txt', 'w') as file:
+        file.write('')
 
 if __name__ == '__main__':
-    port = find_available_port()
-    signal.signal(signal.SIGINT, stop_server)
-    signal.signal(signal.SIGTERM, stop_server)
-    http_server = WSGIServer(("0.0.0.0", port), app)
-    print("Server running on http://localhost:{}".format(port))
-    print("Server running on http://{}:{}".format(socket.gethostbyname(socket.gethostname()), port))
+    check_modules()
+    port = 3000
+    app.debug = True
+    app.use_reloader = False
+    accessHistory = []
 
-    if 'RENDER' in os.environ:
-        http_server.serve_forever()
-    else:
-        http_server.serve_forever()
+    app.run('0.0.0.0', find_available_port(port))
