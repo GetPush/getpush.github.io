@@ -21,6 +21,9 @@ def check_modules():
             subprocess.check_call(install_command)
             print(f"Modul {module_name} berhasil diinstal.")
 
+def update_pip():
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "--upgrade", "pip"])
+
 def get_open_command():
     platform_name = platform.system()
     if platform_name == 'Windows':
@@ -62,6 +65,7 @@ def reset_log():
         file.write('')
 
 if __name__ == '__main__':
+    update_pip()
     check_modules()
     port = 3000
     app.debug = True
