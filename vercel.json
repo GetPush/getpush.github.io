@@ -3,13 +3,13 @@
   "builds": [
     {
       "src": "next.js",
-      "use": "@vercel/next"
+      "use": "@vercel/node"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/$1"
+      "dest": "next.js"
     }
   ]
 }
