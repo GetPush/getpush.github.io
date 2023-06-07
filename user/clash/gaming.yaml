@@ -1,4 +1,20 @@
 proxies:
+  - name: Axis Game V1 Gaming
+    server: 104.19.142.89
+    port: 80
+    type: vmess
+    uuid: ec82f1ef-b051-4a2e-80d6-af71d17696f3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg.goserver.pw
+    network: ws
+    ws-opts:
+      path: /v2ray-vmess/ntls
+      headers:
+        Host: sg.goserver.pw
+    udp: true
   - name: Axis Game V2 Gaming
     server: 104.19.142.89
     port: 80
@@ -15,8 +31,8 @@ proxies:
       headers:
         Host: sg.goserver.pw
     udp: true
-  - name: Axis Game V2 Gaming 2
-    server: 104.19.142.89
+  - name: layanan Gaming 
+    server: layanan.ruangguru.com
     port: 80
     type: vmess
     uuid: ec82f1ef-b051-4a2e-80d6-af71d17696f3
@@ -31,24 +47,8 @@ proxies:
       headers:
         Host: sg.goserver.pw
     udp: true
-  - name: Axis Game V2 Gaming 3
-    server: 104.19.142.89
-    port: 80
-    type: vmess
-    uuid: ec82f1ef-b051-4a2e-80d6-af71d17696f3
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: sg.goserver.pw
-    network: ws
-    ws-opts:
-      path: /v2ray-vmess/ntls
-      headers:
-        Host: sg.goserver.pw
-    udp: true
-  - name: Axis Game V2 Gaming 4
-    server: 104.19.142.89
+  - name: Apps Gaming 
+    server: www.sushiroll.co.id
     port: 80
     type: vmess
     uuid: ec82f1ef-b051-4a2e-80d6-af71d17696f3
