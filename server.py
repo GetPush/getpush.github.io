@@ -8,10 +8,11 @@ import time
 from datetime import datetime
 import json
 from flask import Flask, send_file, jsonify
+from gevent.pywsgi import WSGIServer
 
 app = Flask(__name__)
 
-required_modules = ['flask', 'pathlib', 'os', 'ipaddress', 'subprocess', 'datetime', 'json', 'socket', 'netifaces']
+required_modules = ['flask', 'pathlib', 'os', 'ipaddress', 'subprocess', 'datetime', 'json', 'socket', 'netifaces', 'gevent']
 
 def check_modules():
     missing_modules = []
@@ -68,4 +69,5 @@ if __name__ == '__main__':
     app.use_reloader = False
     accessHistory = []
 
-    app.run('0.0.0.0', find_available_port(port))
+    http_server = WSGIServer(('0.0.0.0', find_available_port(port)), app)
+    http_server.serve_forever()
