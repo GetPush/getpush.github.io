@@ -1,6 +1,6 @@
 proxies:
   - name: Axis Game V1 Gaming
-    server: 104.19.142.89
+    server: 104.16.108.96
     port: 80
     type: vmess
     uuid: ec82f1ef-b051-4a2e-80d6-af71d17696f3
