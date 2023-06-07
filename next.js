@@ -98,7 +98,63 @@ findAvailablePort(port, (err, availablePort) => {
     return;
   }
 
-  app.listen(availablePort, '0.0.0.0', () => {
+app.listen(availablePort, '0.0.0.0', () => {
     const localIp = ip.address();
     console.log('Server berjalan pada:');
-    console.log(`- URL
+    console.log(`- URL localhost: http://localhost:${availablePort}`);
+    if (localIp) {
+        console.log(`- URL IP lokal: http://${localIp}:${availablePort}`);
+    }
+    console.log('');
+
+    const openUrl = `http://localhost:${availablePort}`;
+
+    const openBrowser = () => {
+        const platform = os.platform();
+        let command = '';
+
+        if (platform === 'win32') {
+            command = 'start';
+        } else if (platform === 'darwin') {
+            command = 'open';
+        } else if (platform === 'linux') {
+            command = 'xdg-open';
+        }
+
+        exec(`${command} ${openUrl}`, (error) => {
+            if (error) {
+                console.error('Gagal membuka URL di browser:', error);
+            } else {
+                console.log('Berhasil membuka URL di browser');
+            }
+        });
+    };
+
+    openBrowser();
+
+    cron.schedule('0 0 * * *', () => {
+        fs.writeFile('log.txt', '', (err) => {
+            if (err) {
+                console.error('Gagal mereset log:', err);
+            } else {
+                console.log('Log telah direset');
+            }
+        });
+    });
+
+    process.on('SIGINT', () => {
+        console.log('Menghentikan server...');
+        server.close(() => {
+            console.log('Server dihentikan.');
+            process.exit();
+        });
+    });
+
+    process.on('SIGTERM', () => {
+        console.log('Menghentikan server...');
+        server.close(() => {
+            console.log('Server dihentikan.');
+            process.exit();
+        });
+    });
+});
