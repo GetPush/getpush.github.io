@@ -26,7 +26,6 @@ proxy-groups:
     type: select
     proxies:
       - Otomatis
-      - DIRECT
       - REJECT
   - name: Streaming
     type: load-balance
@@ -76,40 +75,40 @@ proxy-groups:
     interval: '600'
 
 proxy-providers:
-  Service:
-    type: http
-    path: ./service.yaml
-    health-check:
-    enable: true
-    url: "https://raw.githubusercontent.com/botstart/botstart.github.io/master/user/service/tesaroh.yaml"
-    interval: 1200
+  Service: 
+     type: http 
+     path: ./service.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/botstart/botstart.github.io/master/page/user/vip/service.yaml"
+     interval: 1200
   Clash1:
     type: http
     path: ./clash1.yaml
     health-check:
     enable: true
-    url: "https://raw.githubusercontent.com/botstart/botstart.github.io/master/user/clash/sg1.yaml"
+    url: "https://raw.githubusercontent.com/botstart/botstart.github.io/master/page/user/vip/sg1.yaml"
     interval: 1200
   Clash2:
     type: http
     path: ./clash2.yaml
     health-check:
     enable: true
-    url: "https://raw.githubusercontent.com/botstart/botstart.github.io/master/user/clash/sg2.yaml"
+    url: "https://raw.githubusercontent.com/botstart/botstart.github.io/master/page/user/vip/sg2.yaml"
     interval: 1200
   Clash3:
     type: http
     path: ./clash3.yaml
     health-check:
     enable: true
-    url: "https://raw.githubusercontent.com/botstart/botstart.github.io/master/user/clash/sg3.yaml"
+    url: "https://raw.githubusercontent.com/botstart/botstart.github.io/master/page/user/vip/sg3.yaml"
     interval: 1200
   Clash4:
     type: http
     path: ./clash4.yaml
     health-check:
     enable: true
-    url: "https://raw.githubusercontent.com/botstart/botstart.github.io/master/user/clash/sg4.yaml"
+    url: "https://raw.githubusercontent.com/botstart/botstart.github.io/master/page/user/vip/sg4.yaml"
     interval: 1200
 
 redir-port: 7892
@@ -312,8 +311,8 @@ rules:
 - DST-PORT,22,DIRECT,no-resolve
 - RULE-SET,ChatGPT,Clash
 - RULE-SET,rule_BlockAds,BlockAds
-- RULE-SET,rule_reject,REJECT
-- RULE-SET,rule_basicads,Clash
+- RULE-SET,rule_reject,BlockAds
+- RULE-SET,rule_basicads,DIRECT
 - RULE-SET,rule_privacy,REJECT
 - RULE-SET,rule_porn,REJECT
 - RULE-SET,rule_nsfw,REJECT
