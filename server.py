@@ -12,19 +12,18 @@ from gevent.pywsgi import WSGIServer
 
 app = Flask(__name__)
 
-required_modules = ['flask', 'pathlib', 'os', 'ipaddress', 'subprocess', 'datetime', 'json', 'socket', 'netifaces', 'gevent']
+required_modules = ['flask', 'pathlib', 'os', 'ipaddress', 'subprocess', 'datetime', 'json', 'socket', 'cron', 'net', 'gevent']
 
 def check_modules():
-    missing_modules = []
-    for module in required_modules:
+    for module_name in required_modules:
         try:
-            __import__(module)
-            print(f"Module {module} sudah terpasang.")
+            __import__(module_name)
+            print(f"Modul {module_name} sudah terpasang.")
         except ImportError:
-            print(f"Module {module} tidak ditemukan. Menginstal module...")
-            install_command = f"pip install {module}"
+            print(f"Modul {module_name} tidak ditemukan. Menginstal modul...")
+            install_command = f"pip install {module_name}"
             subprocess.check_call(install_command, shell=True)
-            print(f"Module {module} berhasil diinstal.")
+            print(f"Modul {module_name} berhasil diinstal.")
 
 def get_open_command():
     platform_name = platform.system()
