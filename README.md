@@ -1,5 +1,7 @@
-## botstart.github.io
- 🚬 🍚 ☕
+## https://botstart.github.io/
+- 🚬
+- 🍚
+- ☕
 ### Peringatan Larangan Clone dan Menjalankan Repository
 
 ⚠️ **warning**: Dilarang keras melakukan cloning atau menjalankan repository ini tanpa izin tertulis dari pemiliknya.
@@ -11,5 +13,5 @@
 ❗️ Melanggar larangan ini dapat berakibat pada tindakan hukum serius. Pemilik repository berhak melindungi hak-haknya sesuai dengan undang-undang yang berlaku.
 
 ### Mohon Hargai
-## Terima kasih atas pengertian dan kepatuhan Anda.
+### `Terima kasih atas pengertian dan kepatuhan Anda.`
 
