@@ -1,12 +1,8 @@
 import os
-import ipaddress
 import subprocess
 import socket
 import sys
 import platform
-import time
-from datetime import datetime
-import json
 from flask import Flask, send_file, jsonify, request
 from gevent.pywsgi import WSGIServer
 
@@ -21,8 +17,8 @@ def check_modules():
             print(f"Modul {module_name} sudah terpasang.")
         except ImportError:
             print(f"Modul {module_name} tidak ditemukan. Menginstal modul...")
-            install_command = f"pip install {module_name}"
-            subprocess.check_call(install_command, shell=True)
+            install_command = [sys.executable, "-m", "pip", "install", module_name]
+            subprocess.check_call(install_command)
             print(f"Modul {module_name} berhasil diinstal.")
 
 def get_open_command():
