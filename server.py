@@ -12,7 +12,7 @@ from gevent.pywsgi import WSGIServer
 
 app = Flask(__name__)
 
-required_modules = ['flask', 'pathlib', 'os', 'ipaddress', 'subprocess', 'datetime', 'json', 'socket', 'cron', 'net', 'gevent']
+required_modules = ['flask', 'pathlib', 'ipaddress', 'gevent']
 
 def check_modules():
     for module_name in required_modules:
