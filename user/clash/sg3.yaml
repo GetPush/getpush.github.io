@@ -48,7 +48,7 @@ proxies:
         Host: sg3-v2ray.sshkit.org
     udp: true
   - name: apps sg3 
-     server: www.sushiroll.co.id 
+     server: 172.67.213.134 
      port: 80 
      type: vmess 
      uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3 
