@@ -16,7 +16,6 @@ proxy-groups:
     disable-udp: false
     use:
       - Service
-      - Gaming
       - Clash1
       - Clash2
       - Clash3
