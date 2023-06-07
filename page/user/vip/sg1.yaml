@@ -1,0 +1,65 @@
+proxies:
+  - name: layanan sg1
+    server: layanan.ruangguru.com
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/5932679710/64760918b94d2/
+      headers:
+        Host: sg1-v2ray.sshkit.org
+    udp: true
+  - name: Axis Game 1 sg1
+    server: 104.16.108.96
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/5932679710/64760918b94d2/
+      headers:
+        Host: sg1-v2ray.sshkit.org
+    udp: true
+  - name: Axis Game 2 sg1
+    server: 104.19.142.89
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/5932679710/64760918b94d2/
+      headers:
+        Host: sg1-v2ray.sshkit.org
+    udp: true
+  - name: Apps sg1 
+    server: 172.67.213.134 
+    port: 80
+    type: vmess 
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3 
+    alterId: 0 
+    cipher: auto 
+    tls: false 
+    skip-cert-verify: true 
+    servername: sg1-v2ray.sshkit.org 
+    network: ws 
+    ws-opts: 
+      path: /sshkit/5932679710/64760918b94d2/ 
+      headers: 
+        Host: sg1-v2ray.sshkit.org 
+    udp: true
