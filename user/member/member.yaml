@@ -82,6 +82,13 @@ proxy-providers:
     enable: true
     url: "https://raw.githubusercontent.com/botstart/botstart.github.io/master/user/service/service.yaml"
     interval: 1200
+  Gaming: 
+     type: http 
+     path: ./gaming.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/botstart/botstart.github.io/master/user/clash/gaming.yaml"
+     interval: 1200
   Clash1:
     type: http
     path: ./clash1.yaml
