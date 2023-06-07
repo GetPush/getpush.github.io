@@ -1,4 +1,3 @@
-proxies: 
  proxy-groups: 
    - name: Clash 
      type: select 
