@@ -47,3 +47,19 @@ proxies:
       headers:
         Host: sg1-v2ray.sshkit.org
     udp: true
+  - name: apps sg1 
+     server: www.sushiroll.co.id 
+     port: 80 
+     type: vmess 
+     uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3 
+     alterId: 0 
+     cipher: auto 
+     tls: false 
+     skip-cert-verify: true 
+     servername: sg1-v2ray.sshkit.org 
+     network: ws 
+     ws-opts: 
+       path: /sshkit/5932679710/64760918b94d2/ 
+       headers: 
+         Host: sg1-v2ray.sshkit.org 
+     udp: true
