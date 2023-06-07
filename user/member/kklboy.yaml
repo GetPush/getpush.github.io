@@ -81,7 +81,7 @@ proxies:
      path: ./service.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/botstart/botstart.github.io/master/user/service/kboy.yaml" 
+     url: "https://raw.githubusercontent.com/botstart/botstart.github.io/master/user/service/temon.yaml" 
      interval: 1200 
    Clash1: 
      type: http 
