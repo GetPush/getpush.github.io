@@ -1,24 +1,25 @@
 {
-  "name": "botstart",
-  "version": "1.0.0",
-  "description": "Deskripsi proyek Anda",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js",
-    "dev": "next dev",
-    "build": "next build"
-  },
-  "author": "toppay official",
-  "license": "MIT",
-  "dependencies": {
-    "express": "^4.17.1",
-    "ip": "^1.1.5",
-    "node-cron": "^3.0.0",
-    "os": "^0.1.1",
-    "path": "^0.12.7",
-    "next": "^12.0.7",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "net": "^1.0.2"
-  }
+   "name": "botstart",
+   "version": "1.0.0",
+   "description": "Deskripsi proyek Anda",
+   "main": "server.js",
+   "scripts": {
+      "start": "node server.js",
+      "dev": "next dev",
+      "build": "next build",
+      "yarn": "yarn start"
+   },
+   "author": "toppay official",
+   "license": "MIT",
+   "dependencies": {
+      "express": "^4.17.1",
+      "ip": "^1.1.5",
+      "node-cron": "^3.0.0",
+      "os": "^0.1.1",
+      "path": "^0.12.7",
+      "next": "^12.0.7",
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2",
+      "net": "^1.0.2"
+   }
 }
