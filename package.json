@@ -2,7 +2,7 @@
    "name": "botstart",
    "version": "1.0.0",
    "description": "Deskripsi proyek Anda",
-   "main": "server.js",
+   "main": "next.js",
    "scripts": {
       "start": "node server.js",
       "dev": "next dev",
