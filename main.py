@@ -5,8 +5,10 @@ import sys
 import platform
 from flask import Flask, send_from_directory, jsonify, request
 from gevent.pywsgi import WSGIServer
+from colorama import init, Fore
 
 app = Flask("botstart")
+init()
 
 required_modules = ['flask', 'pathlib', 'ipaddress', 'gevent']
 
@@ -14,15 +16,11 @@ def check_modules():
     for module_name in required_modules:
         try:
             __import__(module_name)
-            print(f"Modul {module_name} sudah terpasang.")
         except ImportError:
             print(f"Modul {module_name} tidak ditemukan. Menginstal modul...")
             install_command = [sys.executable, "-m", "pip", "install", module_name]
             subprocess.check_call(install_command)
             print(f"Modul {module_name} berhasil diinstal.")
-
-def update_pip():
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "--upgrade", "pip"])
 
 def get_open_command():
     platform_name = platform.system()
@@ -65,12 +63,30 @@ def reset_log():
         file.write('')
 
 if __name__ == '__main__':
-    update_pip()
+    # Log 1
+    print(Fore.RED + " 🚬 Jangan lupa untuk SUBSCRIBE")
+    # Log 2
+    print(Fore.YELLOW + " ☕ YouTube Toppay Official")
+
     check_modules()
     port = 3000
     app.debug = True
     app.use_reloader = False
     accessHistory = []
 
-    http_server = WSGIServer(('0.0.0.0', find_available_port(port)), app)
-    http_server.serve_forever()
+    ip_address = socket.gethostbyname(socket.gethostname())
+    ip_url = f"http://{ip_address}:{port}"
+    localhost_url = f"http://localhost:{port}"
+
+    print(Fore.GREEN + " 🍚 Server berjalan di 🚀", end=" ")
+    print(Fore.BLUE + localhost_url)
+    print(Fore.BLUE + " 🥤 Server berjalan di 🪄", end=" ")
+    print(Fore.GREEN + ip_url)
+
+    try:
+        http_server = WSGIServer(('0.0.0.0', find_available_port(port)), app)
+        http_server.serve_forever()
+    except KeyboardInterrupt:
+        print("Server dihentikan")
+        http_server.stop()
+
