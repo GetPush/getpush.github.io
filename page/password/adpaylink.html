@@ -1,1 +1,60 @@
 
+<!DOCTYPE html>
+<html lang="id">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="index, follow">
+  <meta content='width=device-width, initial-scale=0.5' name='viewport' />
+  <title>Password Config</title>
+  <link rel="stylesheet" type="text/css" href="/style.css">
+  <link rel="stylesheet" type="text/css" href="/generator/password/style.css">
+ <script src="/javascript/bg_random_color.js"></script>
+ <script src="/generator/password/generate.js"></script>
+ </head>
+ <body onload="generatePassword()">
+  <header>
+   <div class="nav-row-1">
+    <nav>
+     <ul class="nav-container">
+      <h1 class="title">Ambil Password Terbaru</h1>
+     </ul>
+    </nav>
+   </div>
+  </header>
+  <br>
+  <!-- isi konten -->
+  <div style="text-align:center;">
+   <h1>Jangan Berikan Password Ini Kepada Siapapun</h1>
+   <form>
+    <br>
+    <p>
+     <label for="password">Password:</label>
+    </p>
+    <p>
+     <input type="text" id="password" name="password" readonly>
+    </p>
+    <br>
+    <p>
+     <button type="button" onclick="generatePassword()">Tampilkan Password Terbaru</button>
+     <br>
+     <br>
+     <button type="button" onclick="copyPassword()" class="copy-button">📋 Copy 📋</button>
+    </p>
+   </form>
+  </div>
+  <!-- Akhir generate password -->
+  <div>
+   <a href="/public/password/password2.html">
+    <button class="new-button">New Password</button>
+   </a>
+  </div>
+  <br>
+  <br>
+  <div class="download-btn">
+   <a href="/public/index.html">
+    <button class="back-button">Back To Page</button>
+   </a>
+  </div>
+  <br>
+ </body>
+</html>
