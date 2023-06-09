@@ -8,6 +8,7 @@ import subprocess
 from flask import Flask, request, send_file, jsonify
 from werkzeug.utils import secure_filename
 from gevent.pywsgi import WSGIServer
+from colorama import Fore, Style
 
 app = Flask("botstart")
 port = None
@@ -47,7 +48,7 @@ def send_file_from_zip(zip_file, path):
             file_data = z.read(path, pwd=password)
             return file_data
         except KeyError:
-            return "File '{}' not found in the zip.".format(path)
+            return f"File '{path}' not found in the zip."
 
 def send_file_from_disk(path):
     try:
@@ -55,7 +56,7 @@ def send_file_from_disk(path):
             file_data = f.read()
             return file_data
     except IOError:
-        return "File '{}' not found.".format(path)
+        return f"File '{path}' not found."
 
 def get_file_mimetype(path):
     mime_type, _ = mimetypes.guess_type(path)
@@ -64,7 +65,7 @@ def get_file_mimetype(path):
 @app.route('/')
 def home():
     client_ip_address = request.headers.get('X-Forwarded-For', request.remote_addr)
-    print("Client IP address: {}".format(client_ip_address))
+    print(f"Client IP address: {client_ip_address}")
 
     return send_file_from_zip('botstart.zip', 'page/home.html')
 
@@ -92,7 +93,7 @@ def stop_server(signal, frame):
     global http_server
     if http_server is not None:
         http_server.stop()
-        print("Server stopped")
+        print(f"{Fore.GREEN}Server stopped{Style.RESET_ALL}")
     sys.exit(0)
 
 import sys
@@ -111,8 +112,8 @@ if __name__ == '__main__':
     signal.signal(signal.SIGINT, stop_server)
     signal.signal(signal.SIGTERM, stop_server)
     http_server = WSGIServer(("0.0.0.0", port), app)
-    print("Server running on http://localhost:{}".format(port))
-    print("Server running on http://{}:{}".format(socket.gethostbyname(socket.gethostname()), port))
+    print(f"{Fore.GREEN}Server running on {Fore.BLUE}http://localhost:{port}{Style.RESET_ALL}")
+    print(f"{Fore.GREEN}Server running on {Fore.BLUE}http://{socket.gethostbyname(socket.gethostname())}:{port}{Style.RESET_ALL}")
 
     if 'RENDER' in os.environ:
         http_server.serve_forever()
