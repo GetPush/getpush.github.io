@@ -67,7 +67,7 @@ def home():
     client_ip_address = request.headers.get('X-Forwarded-For', request.remote_addr)
     print(f"Client IP address: {client_ip_address}")
 
-    return send_file_from_zip('botstart.zip', 'page/home.html')
+    return send_file_from_disk('page/home.html')
 
 @app.route('/access-history')
 def access_history():
