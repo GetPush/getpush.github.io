@@ -107,4 +107,24 @@ def serve_file(path):
         file_data = get_file_data(path)
         if file_data is not None:
             mime_type = get_file_mimetype(path)
-            response = app.make
+            response = app.make_response(file_data)
+            response.headers.set('Content-Type', mime_type)
+            return response
+        else:
+            return "File not found."
+    else:
+        return "File not accessible."
+
+
+if __name__ == '__main__':
+    port = find_available_port()
+    signal.signal(signal.SIGINT, stop_server)
+    signal.signal(signal.SIGTERM, stop_server)
+    http_server = WSGIServer(("0.0.0.0", port), app)
+    print(f"{Fore.GREEN}Server running on {Fore.BLUE}http://localhost:{port}{Style.RESET_ALL}")
+    print(f"{Fore.GREEN}Server running on {Fore.BLUE}http://{socket.gethostbyname(socket.gethostname())}:{port}{Style.RESET_ALL}")
+
+    if 'RENDER' in os.environ:
+        http_server.serve_forever()
+    else:
+        http_server.serve_forever()
