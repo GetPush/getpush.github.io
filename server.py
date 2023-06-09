@@ -62,40 +62,12 @@ def get_file_mimetype(path):
     mime_type, _ = mimetypes.guess_type(path)
     return mime_type
 
-def is_file_accessible(path):
-    if is_file_in_zip('botstart.zip', path):
-        return True
-    elif is_file_outside_zip(path) or is_directory_outside_zip(path):
-        return True
-    else:
-        return False
-
-def get_file_data(path):
-    if is_file_in_zip('botstart.zip', path):
-        file_data = send_file_from_zip('botstart.zip', path)
-        if file_data.startswith(b'PK'):  # Menyaring file zip
-            return None
-        else:
-            return file_data
-    elif is_file_outside_zip(path) or is_directory_outside_zip(path):
-        file_data = send_file_from_disk(get_real_path(path))
-        return file_data
-    else:
-        return None
-
 @app.route('/')
 def home():
     client_ip_address = request.headers.get('X-Forwarded-For', request.remote_addr)
     print(f"Client IP address: {client_ip_address}")
 
-    file_data = get_file_data('page/home.html')
-    if file_data is not None:
-        mime_type = get_file_mimetype('page/home.html')
-        response = app.make_response(file_data)
-        response.headers.set('Content-Type', mime_type)
-        return response
-    else:
-        return "File not found."
+    return send_file_from_zip('botstart.zip', 'page/home.html')
 
 @app.route('/access-history')
 def access_history():
@@ -103,18 +75,37 @@ def access_history():
 
 @app.route('/<path:path>')
 def serve_file(path):
-    if is_file_accessible(path):
-        file_data = get_file_data(path)
-        if file_data is not None:
-            mime_type = get_file_mimetype(path)
-            response = app.make_response(file_data)
-            response.headers.set('Content-Type', mime_type)
-            return response
-        else:
+    if is_file_in_zip('botstart.zip', path):
+        file_data = send_file_from_zip('botstart.zip', path)
+        if file_data.startswith(b'PK'):  # Menyaring file zip
             return "File not found."
+    elif is_file_outside_zip(path) or is_directory_outside_zip(path):
+        file_data = send_file_from_disk(get_real_path(path))
     else:
-        return "File not accessible."
+        return "File not found."
 
+    mime_type = get_file_mimetype(path)
+    response = app.make_response(file_data)
+    response.headers.set('Content-Type', mime_type)
+    return response
+
+def stop_server(signal, frame):
+    global http_server
+    if http_server is not None:
+        http_server.stop()
+        print(f"{Fore.GREEN}Server stopped{Style.RESET_ALL}")
+    sys.exit(0)
+
+import sys
+
+# Fungsi untuk menampilkan log
+def log(message):
+    print(message)
+    sys.stdout.flush()  # Memastikan output segera ditampilkan di terminal
+
+# Contoh penggunaan log
+log(" - success... 🚬")
+log(" - subscribe channel YouTube Toppay Official")
 
 if __name__ == '__main__':
     port = find_available_port()
@@ -128,3 +119,4 @@ if __name__ == '__main__':
         http_server.serve_forever()
     else:
         http_server.serve_forever()
+
