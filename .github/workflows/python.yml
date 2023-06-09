@@ -25,8 +25,8 @@ jobs:
 
     - name: Build and deploy
       run: |
-        python app.py freeze  # Generate static files
-        echo "your-domain.com" > _build/CNAME  # Ganti dengan domain yang Anda inginkan
+        python server.py freeze  # Generate static files
+        echo "botstart.com" > _build/CNAME  # Ganti dengan domain yang Anda inginkan
         mv _build/* .  # Pindahkan file hasil build ke root folder
         rm -rf _build  # Hapus folder _build
 
