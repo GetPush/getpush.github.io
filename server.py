@@ -79,10 +79,10 @@ def serve_file(path):
         file_data = send_file_from_zip('botstart.zip', path)
         if file_data.startswith(b'PK'):  # Menyaring file zip
             return "File not found."
-    else:
+    elif is_file_outside_zip(path) or is_directory_outside_zip(path):
         file_data = send_file_from_disk(get_real_path(path))
-        if isinstance(file_data, str):
-            return file_data
+    else:
+        return "File not found."
 
     mime_type = get_file_mimetype(path)
     response = app.make_response(file_data)
