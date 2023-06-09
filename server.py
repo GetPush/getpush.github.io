@@ -30,25 +30,8 @@ def find_available_port():
 def get_real_path(path):
     return os.path.join(os.getcwd(), path)
 
-def is_file_in_zip(zip_file, path):
-    with zipfile.ZipFile(zip_file, 'r') as z:
-        return path in z.namelist()
-
-def is_file_outside_zip(path):
-    return not os.path.isfile(path)
-
 def is_directory_outside_zip(path):
     return not os.path.isdir(path)
-
-def send_file_from_zip(zip_file, path):
-    password = b'langsungimport'  # Mengubah password menjadi bytes
-
-    with zipfile.ZipFile(zip_file, 'r') as z:
-        try:
-            file_data = z.read(path, pwd=password)
-            return file_data
-        except KeyError:
-            return f"File '{path}' not found in the zip."
 
 def send_file_from_disk(path):
     try:
@@ -67,7 +50,7 @@ def home():
     client_ip_address = request.headers.get('X-Forwarded-For', request.remote_addr)
     print(f"Client IP address: {client_ip_address}")
 
-    return send_file_from_zip('botstart.zip', 'page/home.html')
+    return send_file_from_disk('page/home.html')
 
 @app.route('/access-history')
 def access_history():
@@ -75,11 +58,7 @@ def access_history():
 
 @app.route('/<path:path>')
 def serve_file(path):
-    if is_file_in_zip('botstart.zip', path):
-        file_data = send_file_from_zip('botstart.zip', path)
-        if file_data.startswith(b'PK'):  # Menyaring file zip
-            return "File not found."
-    elif is_file_outside_zip(path) or is_directory_outside_zip(path):
+    if is_directory_outside_zip(path):
         file_data = send_file_from_disk(get_real_path(path))
     else:
         return "File not found."
