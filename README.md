@@ -15,5 +15,5 @@
 
 - Mohon Hargai
 - `Terimakasih`
-- 'Pengertian & Kepatuhannya`
+- `Pengertian` & `Kepatuhannya`
 
