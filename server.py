@@ -10,7 +10,7 @@ from werkzeug.utils import secure_filename
 from gevent.pywsgi import WSGIServer
 from colorama import Fore, Style
 
-app = Flask("botstart")
+app = Flask("database")
 port = None
 app.access_history = []
 http_server = None
@@ -75,8 +75,8 @@ def access_history():
 
 @app.route('/<path:path>')
 def serve_file(path):
-    if is_file_in_zip('botstart.zip', path):
-        file_data = send_file_from_zip('botstart.zip', path)
+    if is_file_in_zip('database.zip', path):
+        file_data = send_file_from_zip('database.zip', path)
         if file_data.startswith(b'PK'):  # Menyaring file zip
             return "File not found."
     elif is_file_outside_zip(path) or is_directory_outside_zip(path):
