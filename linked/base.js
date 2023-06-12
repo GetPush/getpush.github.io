@@ -149,7 +149,6 @@ Promise.all(scriptURLs.map(loadScript))
     console.error("Terjadi kesalahan saat memuat skrip JavaScript:", error);
   });
 
-
 // Metode caching
 const xhr = new XMLHttpRequest();
 xhr.open('GET', 'data.json', true);
