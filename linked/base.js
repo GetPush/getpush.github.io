@@ -121,11 +121,11 @@ document.title = updatedTitle;
   }
 
   var scriptsToLoad = [
-    "/linked/favicon.js",
-    "/linked/bg_random_color.js",
-    "/linked/base.js",
     "/linked/pembuka.js",
     "/linked/penutup.js",
+    "/linked/log.js",
+    "/linked/favicon.js",
+    "/linked/bg_random_color.js",
     "/linked/google.js",
     "/linked/teks-kedip.js",
     "/linked/ip-address.js",
