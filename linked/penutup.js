@@ -1,4 +1,3 @@
-
   const penutupHTML = `
  <p>Buy Me ☕</p>  
   <h3>QR Code Ini Support Untuk Semua Dompet</h3>  
