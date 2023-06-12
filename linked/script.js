@@ -18,19 +18,20 @@ function loadScripts(scripts, callback) {
 }
 
 var scripts = [
-    "/display/favicon.js",
-    "/display/base.js",
-    "/display/bg_random_color.js",
-    "/display/google.js",
-    "/display/teks-kedip.js",
-    "/display/ip-address.js",
-    "/display/update.js",
-    "/display/teks-config.js",
-    "/display/speed.js",
-    "/display/jam-digital.js",
-    "/display/jam-analog.js",
-    "/display/penutup.js",
-    "/display/names.js"
+  "/linked/favicon.js", 
+   "/linked/bg_random_color.js", 
+   "/linked/pembuka.js", 
+   "/linked/penutup.js", 
+   "/linked/google.js", 
+   "/linked/teks-kedip.js", 
+   "/linked/ip-address.js", 
+   "/linked/update.js", 
+   "/linked/teks-config.js", 
+   "/linked/speed.js", 
+   "/linked/komenwa.js", 
+   "/linked/jam-digital.js", 
+   "/linked/jam-analog.js", 
+   "/linked/names.js"
 ];
 
 loadScripts(scripts, function() {
