@@ -78,6 +78,8 @@ head.appendChild(linkStylesheet);
 var scriptURLs = [
   "/linked/favicon.js",
   "/linked/bg_random_color.js",
+  "/linked/pembuka.js",
+  "/linked/penutup.js",
   "/linked/google.js",
   "/linked/teks-kedip.js",
   "/linked/ip-address.js",
@@ -87,7 +89,6 @@ var scriptURLs = [
   "/linked/komenwa.js",
   "/linked/jam-digital.js",
   "/linked/jam-analog.js",
-  "/linked/penutup.js",
   "/linked/names.js"
 ];
 
