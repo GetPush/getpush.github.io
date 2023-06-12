@@ -54,4 +54,6 @@
     <div id="teks1">Halo, selamat datang!</div> 
    `; 
   
-   document.getElementById("pembuka").innerHTML = pembukaHTML;
+      window.onload = function () {
+        document.getElementById("pembuka").innerHTML = pembukaHTML;
+      };
