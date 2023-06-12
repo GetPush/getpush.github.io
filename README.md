@@ -1,5 +1,4 @@
 ## By Toppay Official YT
-- 🚬
 - 🍚
 - ☕
 ### Peringatan Larangan Clone dan Menjalankan Repository
@@ -19,14 +18,18 @@
 - `Mohon Hargai`
 - `Terimakasih`
 - `Pengertian` & `Kepatuhannya`
-- 
-## Supported Service 
 #
-| Layanan  | Supported          | Harga   | Times             |
+- Sebenarnya Ini Sebagai Usaha saya, namun saya belum bisa untuk menyewa layanan yang berbayar.
+- Karena hasilnya pun belum seberapa, hanya sekedar buat ☕
+- 
+##
+##
+| Service  | Supported          | Harga   | Times             |
 | -------- | ------------------ | ------- | ----------------- |
 | - Local  | - Khusus Lokal     | 20.000  | : 1 Mount :       |
 | - Clash  | - Standar          | 20.000  | : 1 Mount :       |
 | - Public | - Premium          | 25.000  | : 1 Mount :       |
 | - Vip    | - Full Server      | 45.000  | : 1 Mount :       |
-#
+##
+##
 ## Terimakasih
