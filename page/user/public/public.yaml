@@ -56,7 +56,7 @@ proxy-providers:
      path: ./service.yaml 
      health-check: 
      enable: true 
-     url: "https://toppayofficial.vercel.app/user/public/public.yaml"
+     url: "https://toppayofficial.vercel.app/user/public/service.yaml"
      interval: 1200
 
 redir-port: 7892
