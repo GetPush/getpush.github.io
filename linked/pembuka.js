@@ -51,9 +51,9 @@ const pembukaHTML = `
   </div> 
 `;
 
-window.addEventListener("DOMContentLoaded", function() {
-  var pembukaElement = document.getElementById("pembuka");
-  if (pembukaElement) {
-    pembukaElement.innerHTML = pembukaHTML;
-  }
-});
+window.addEventListener("DOMContentLoaded", function () { 
+     var pembukaElement = document.getElementById("pembuka"); 
+     if (pembukaElement) { 
+       pembukaElement.innerHTML = pembukaHTML; 
+     } 
+   });
