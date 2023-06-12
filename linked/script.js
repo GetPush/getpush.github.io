@@ -1,22 +1,46 @@
-function loadScript(path) {
-  var script = document.createElement('script');
-  script.src = path;
-  document.head.appendChild(script);
-}
-
-loadScript("linked/favicon.js");
-loadScript("linked/bg_random_color.js");
-loadScript("linked/base.js");
-loadScript("linked/pembuka.js");
-loadScript("linked/penutup.js");
-loadScript("linked/script.js");
-loadScript("linked/google.js");
-loadScript("linked/teks-kedip.js");
-loadScript("linked/ip-address.js");
-loadScript("linked/update.js");
-loadScript("linked/teks-config.js");
-loadScript("linked/speed.js");
-loadScript("linked/komenwa.js");
-loadScript("linked/jam-digital.js");
-loadScript("linked/jam-analog.js");
-loadScript("linked/names.js");
+  function loadScripts(scripts, callback) { 
+     var loadedCount = 0; 
+  
+     function scriptLoaded() { 
+       loadedCount++; 
+       if (loadedCount === scripts.length) { 
+         callback(); 
+       } 
+     } 
+  
+     function loadScript(script) { 
+       var scriptElement = document.createElement("script"); 
+       scriptElement.src = script; 
+       scriptElement.onload = scriptLoaded; 
+       document.head.appendChild(scriptElement); 
+     } 
+  
+     for (var i = 0; i < scripts.length; i++) { 
+       loadScript(scripts[i]); 
+     } 
+   } 
+  
+   var scriptsToLoad = [ 
+     "linked/favicon.js", 
+     "linked/bg_random_color.js", 
+     "linked/base.js", 
+     "linked/pembuka.js", 
+     "linked/penutup.js", 
+     "linked/script.js", 
+     "linked/google.js", 
+     "linked/teks-kedip.js", 
+     "linked/ip-address.js", 
+     "linked/update.js", 
+     "linked/teks-config.js", 
+     "linked/speed.js", 
+     "linked/komenwa.js", 
+     "linked/jam-digital.js", 
+     "linked/jam-analog.js", 
+     "linked/names.js" 
+   ]; 
+  
+   window.onload = function() { 
+     loadScripts(scriptsToLoad, function() { 
+       // Semua skrip telah dimuat 
+     }); 
+   };
