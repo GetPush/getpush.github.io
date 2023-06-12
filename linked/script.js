@@ -31,7 +31,8 @@ var scripts = [
    "/linked/komenwa.js", 
    "/linked/jam-digital.js", 
    "/linked/jam-analog.js", 
-   "/linked/names.js"
+   "/linked/names.js",
+   "/linked/log.js"
 ];
 
 loadScripts(scripts, function() {
