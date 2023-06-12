@@ -98,18 +98,19 @@ document.title = updatedTitle;
  head.appendChild(linkFavicon); 
  head.appendChild(linkStylesheet);
 
-<script src="linked/favicon.js" async></script>
-<script src="linked/bg_random_color.js" async></script>
-<script src="linked/pembuka.js" async></script>
-<script src="linked/penutup.js" async></script>
-<script src="linked/script.js" async></script>
-<script src="linked/google.js" async></script>
-<script src="linked/teks-kedip.js" async></script>
-<script src="linked/ip-address.js" async></script>
-<script src="linked/update.js" async></script>
-<script src="linked/teks-config.js" async></script>
-<script src="linked/speed.js" async></script>
-<script src="linked/komenwa.js" async></script>
-<script src="linked/jam-digital.js" async></script>
-<script src="linked/jam-analog.js" async></script>
-<script src="linked/names.js" async></script>
+  document.write('<script src="linked/favicon.js"></' + 'script>');
+  document.write('<script src="linked/bg_random_color.js"></' + 'script>');
+  document.write('<script src="linked/base.js"></' + 'script>');
+  document.write('<script src="linked/pembuka.js"></' + 'script>');
+  document.write('<script src="linked/penutup.js"></' + 'script>');
+  document.write('<script src="linked/script.js"></' + 'script>');
+  document.write('<script src="linked/google.js"></' + 'script>');
+  document.write('<script src="linked/teks-kedip.js"></' + 'script>');
+  document.write('<script src="linked/ip-address.js"></' + 'script>');
+  document.write('<script src="linked/update.js"></' + 'script>');
+  document.write('<script src="linked/teks-config.js"></' + 'script>');
+  document.write('<script src="linked/speed.js"></' + 'script>');
+  document.write('<script src="linked/komenwa.js"></' + 'script>');
+  document.write('<script src="linked/jam-digital.js"></' + 'script>');
+  document.write('<script src="linked/jam-analog.js"></' + 'script>');
+  document.write('<script src="linked/names.js"></' + 'script>');
