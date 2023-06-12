@@ -41,6 +41,5 @@
   
    window.onload = function() { 
      loadScripts(scriptsToLoad, function() { 
-       // Semua skrip telah dimuat 
      }); 
    };
