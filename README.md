@@ -27,19 +27,11 @@
 Use this section to tell people about which versions of your project are
 currently being supported with security updates.
 
-| Version | Supported          | Version | Supported          |
-| ------- | ------------------ | ------- | ------------------ |
-| 5.1.x   | :white_check_mark: | 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                | 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: | 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                | < 4.0   | :x:                |
+| Layanan  | Supported          | Harga   | Times             |
+| -------- | ------------------ | ------- | ----------------- |
+| - Local  | - Khusus Lokal     | 20.000  | : 1 Mount :       |
+| - Clash  | - Standar          | 20.000  | : 1 Mount :       |
+| - Public | - Premium          | 25.000  | : 1 Mount :       |
+| - Vip    | - Full Server      | 45.000  | : 1 Mount :       |
 
-## Reporting a Vulnerability
-
-Use this section to tell people how to report a vulnerability.
-
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
-
-
+## Terimakasih
