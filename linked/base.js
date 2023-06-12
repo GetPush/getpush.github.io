@@ -76,20 +76,22 @@ head.appendChild(linkStylesheet);
 
 // Buat elemen script untuk JavaScript
 var scriptURLs = [
-  "/linked/favicon.js",
-  "/linked/bg_random_color.js",
-  "/linked/pembuka.js",
-  "/linked/penutup.js",
-  "/linked/google.js",
-  "/linked/teks-kedip.js",
-  "/linked/ip-address.js",
-  "/linked/update.js",
-  "/linked/teks-config.js",
-  "/linked/speed.js",
-  "/linked/komenwa.js",
-  "/linked/jam-digital.js",
-  "/linked/jam-analog.js",
-  "/linked/names.js"
+      "/linked/favicon.js", 
+       "/linked/bg_random_color.js", 
+       "/linked/base.js", 
+       "/linked/pembuka.js", 
+       "/linked/penutup.js", 
+       "/linked/script.js", 
+       "/linked/google.js", 
+       "/linked/teks-kedip.js", 
+       "/linked/ip-address.js", 
+       "/linked/update.js", 
+       "/linked/teks-config.js", 
+       "/linked/speed.js", 
+       "/linked/komenwa.js", 
+       "/linked/jam-digital.js", 
+       "/linked/jam-analog.js", 
+       "/linked/names.js"
 ];
 
 // Fungsi untuk memuat skrip JavaScript
@@ -131,9 +133,10 @@ document.title = updatedTitle;
     const scripts = [
       "/linked/favicon.js",
       "/linked/bg_random_color.js",
+      "/linked/base.js", 
       "/linked/pembuka.js",
       "/linked/penutup.js",
-      "/linked/base.js",
+      "/linked/script.js",
       "/linked/google.js",
       "/linked/teks-kedip.js",
       "/linked/ip-address.js",
