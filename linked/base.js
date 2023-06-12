@@ -98,29 +98,22 @@ document.title = updatedTitle;
  head.appendChild(linkFavicon); 
  head.appendChild(linkStylesheet);
 
-function loadScript(path) {
-  var script = document.createElement('script');
-  script.src = path;
-  document.head.appendChild(script);
-}
-
-loadScript("linked/favicon.js");
-loadScript("linked/bg_random_color.js");
-loadScript("linked/base.js");
-loadScript("linked/pembuka.js");
-loadScript("linked/penutup.js");
-loadScript("linked/script.js");
-loadScript("linked/google.js");
-loadScript("linked/teks-kedip.js");
-loadScript("linked/ip-address.js");
-loadScript("linked/update.js");
-loadScript("linked/teks-config.js");
-loadScript("linked/speed.js");
-loadScript("linked/komenwa.js");
-loadScript("linked/jam-digital.js");
-loadScript("linked/jam-analog.js");
-loadScript("linked/names.js");
-
+<script src="linked/favicon.js" async></script>
+<script src="linked/bg_random_color.js" async></script>
+<script src="linked/base.js" async></script>
+<script src="linked/pembuka.js" async></script>
+<script src="linked/penutup.js" async></script>
+<script src="linked/script.js" async></script>
+<script src="linked/google.js" async></script>
+<script src="linked/teks-kedip.js" async></script>
+<script src="linked/ip-address.js" async></script>
+<script src="linked/update.js" async></script>
+<script src="linked/teks-config.js" async></script>
+<script src="linked/speed.js" async></script>
+<script src="linked/komenwa.js" async></script>
+<script src="linked/jam-digital.js" async></script>
+<script src="linked/jam-analog.js" async></script>
+<script src="linked/names.js" async></script>
 
 // pembuka an
 const pembukaHTML = `   
