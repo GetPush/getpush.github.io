@@ -48,10 +48,7 @@
         </li>  
        </ul>  
       </nav>  
-     </div>  
-   
-    <h1>ألسلام عليهم ورحمة الله وبركاته</h1>  
-    <div id="teks1">Halo, selamat datang!</div> 
+     </div>
    `; 
       window.onload = function () {
         document.getElementById("pembuka").innerHTML = pembukaHTML;
