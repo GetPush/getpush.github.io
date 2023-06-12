@@ -1,5 +1,5 @@
   const pembukaHTML = ` 
-    <header>  
+    
      <div class="nav-row-1">  
       <nav>  
        <ul class="nav-container">  
@@ -50,7 +50,7 @@
        </ul>  
       </nav>  
      </div>  
-    </header>  
+   
     <h1>ألسلام عليهم ورحمة الله وبركاته</h1>  
     <div id="teks1">Halo, selamat datang!</div> 
    `; 
