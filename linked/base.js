@@ -327,7 +327,7 @@ const pembukaHTML = `
      </div> 
    `; 
   
-       window.addEventListener("DOMContentLoaded", function () {  
+      window.addEventListener("DOMContentLoaded", function () {  
       var penutupElement = document.getElementById("penutup");  
       if (penutupElement) {  
         penutupElement.innerHTML = penutupHTML;  
