@@ -89,9 +89,9 @@ button {
     </div>
   `;
 
-      window.addEventListener("DOMContentLoaded", function () { 
-     var penutupElement = document.getElementById("penutup"); 
-     if (penutupElement) { 
-       penutupElement.innerHTML = penutupHTML; 
-     } 
-   });
+window.addEventListener("DOMContentLoaded", function () {  
+  var penutupElement = document.getElementById("penutup");  
+  if (penutupElement) {  
+    penutupElement.innerHTML = penutupHTML;  
+  }  
+});
