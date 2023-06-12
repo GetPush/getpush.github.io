@@ -21,8 +21,7 @@
 - `Pengertian` & `Kepatuhannya`
 
 ## Supported Service 
-- ✓
-
+-
 | Layanan  | Supported          | Harga   | Times             |
 | -------- | ------------------ | ------- | ----------------- |
 | - Local  | - Khusus Lokal     | 20.000  | : 1 Mount :       |
