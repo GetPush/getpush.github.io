@@ -1,44 +1,59 @@
-function loadScripts(scripts) {
-  var promises = [];
-
-  function loadScript(src) {
-    return new Promise(function(resolve, reject) {
-      var script = document.createElement('script');
-      script.src = src;
-      script.onload = resolve;
-      script.onerror = reject;
-      document.head.appendChild(script);
-    });
-  }
-
-  for (var i = 0; i < scripts.length; i++) {
-    promises.push(loadScript(scripts[i]));
-  }
-
-  return Promise.all(promises);
-}
-
-var scripts = [
-  "/linked/favicon.js",
-  "/linked/bg_random_color.js",
-  "/linked/pembuka.js",
-  "/linked/penutup.js",
-  "/linked/google.js",
-  "/linked/teks-kedip.js",
-  "/linked/ip-address.js",
-  "/linked/update.js",
-  "/linked/teks-config.js",
-  "/linked/speed.js",
-  "/linked/komenwa.js",
-  "/linked/jam-digital.js",
-  "/linked/jam-analog.js",
-  "/linked/names.js",
-  "/linked/log.js"
-];
-
-loadScripts(scripts)
-  .then(function() {
-  })
-  .catch(function(error) {
-    console.error(error);
-  });
+const pembukaHTML = `   
+   <div class="nav-row-1">    
+     <nav>    
+       <ul class="nav-container">    
+         <h1 class="title"></h1>    
+         <li>    
+           <a href="/about/grup-telegram.html">Telegram</a>    
+         </li>    
+         <li>    
+           <a href="https://pena-internet.blogspot.com/">Pena Internet</a>    
+         </li>    
+         <li>    
+           <a href="/page/ssh/direct.html">Create SSH</a>    
+         </li>    
+         <li>    
+           <a href="/about/sosmed.html">Sosmed</a>    
+         </li>    
+         <li>    
+           <a href="/linked/images/donasi.png">Donasi</a>    
+         </li>    
+         <li>    
+           <a href="https://apppintar.blogspot.com/">Blog</a>    
+         </li>    
+       </ul>    
+     </nav>    
+   </div>    
+   <div class="nav-row-2">    
+     <nav>    
+       <ul class="nav-container">    
+         <h1 class="title"></h1>    
+         <li>    
+           <a href="/page/home.html">Beranda</a>    
+         </li>    
+         <li>    
+           <a href="/page/tutorial.html">Tutorial</a>    
+         </li>    
+         <li>    
+           <a href="/page/apps.html">Aplikasi</a>    
+         </li>    
+         <li>    
+           <a href="https://www.youtube.com/channel/UCeMezZCLKzcpQyYFSiW6DCA?sub_confirmation=1">YouTube</a>    
+         </li>    
+         <li>    
+           <a href="/page/dana-kaget/direct.html">Dana Kaget</a>    
+         </li>    
+         <li>    
+           <a href="https://apppintar.blogspot.com/">Selengkapnya =></a>    
+         </li>    
+       </ul>    
+     </nav>    
+   </div>  
+ `; 
+  
+   window.addEventListener("DOMContentLoaded", function () { 
+     var pembukaElement = document.getElementById("pembuka"); 
+     if (pembukaElement) { 
+       pembukaElement.innerHTML = pembukaHTML; 
+     } 
+   });
