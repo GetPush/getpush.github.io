@@ -1,5 +1,4 @@
   const pembukaHTML = ` 
-    
      <div class="nav-row-1">  
       <nav>  
        <ul class="nav-container">  
@@ -55,5 +54,4 @@
     <div id="teks1">Halo, selamat datang!</div> 
    `; 
   
-   const pembukaElement = document.getElementById("pembuka"); 
-   pembukaElement.innerHTML = pembukaHTML;
+   document.getElementById("pembuka").innerHTML = pembukaHTML;
