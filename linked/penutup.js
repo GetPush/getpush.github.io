@@ -54,6 +54,8 @@ button {
       </p>
     </h1>
     <p>
+   <p>Di Update Oleh: [ <span id="randomNames2" style="font-size: 35px;"></span> ]</p> 
+  <br>
       <strong>TERIMAKASIH</strong>
     </p>
     </div>
