@@ -89,7 +89,7 @@ button {
     </div>
   `;
 
-window.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function () {
   var penutupElement = document.getElementById("penutup");
   if (penutupElement) {
     penutupElement.innerHTML = penutupHTML;
