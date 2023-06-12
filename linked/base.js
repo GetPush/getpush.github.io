@@ -103,23 +103,6 @@ function loadScript(url) {
   });
 }
 
-// Memasukkan elemen-elemen ke dalam <head> tag
-head.appendChild(metaCharset);
-head.appendChild(metaViewport);
-head.appendChild(metaXUACompatible);
-head.appendChild(metaDescription);
-head.appendChild(metaKeywords);
-head.appendChild(metaAuthor);
-head.appendChild(metaRobots);
-head.appendChild(metaGooglebot);
-head.appendChild(metaBingbot);
-head.appendChild(metaOgTitle);
-head.appendChild(metaOgDescription);
-head.appendChild(metaOgImage);
-head.appendChild(metaOgUrl);
-head.appendChild(linkFavicon);
-head.appendChild(linkStylesheet);
-
 // Mendapatkan judul halaman
 var pageTitle = document.title;
 var domain = window.location.hostname;
@@ -148,6 +131,23 @@ Promise.all(scriptURLs.map(loadScript))
     // Terjadi kesalahan saat memuat skrip JavaScript
     console.error("Terjadi kesalahan saat memuat skrip JavaScript:", error);
   });
+
+// Memasukkan elemen-elemen ke dalam <head> tag 
+ head.appendChild(metaCharset); 
+ head.appendChild(metaViewport); 
+ head.appendChild(metaXUACompatible); 
+ head.appendChild(metaDescription); 
+ head.appendChild(metaKeywords); 
+ head.appendChild(metaAuthor); 
+ head.appendChild(metaRobots); 
+ head.appendChild(metaGooglebot); 
+ head.appendChild(metaBingbot); 
+ head.appendChild(metaOgTitle); 
+ head.appendChild(metaOgDescription); 
+ head.appendChild(metaOgImage); 
+ head.appendChild(metaOgUrl); 
+ head.appendChild(linkFavicon); 
+ head.appendChild(linkStylesheet);
 
 // Metode caching
 const xhr = new XMLHttpRequest();
