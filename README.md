@@ -20,8 +20,13 @@
 - `Terimakasih`
 - `Pengertian` & `Kepatuhannya`
 
-## Supported Service 
--
+# Security Policy
+
+## Supported Versions
+
+Use this section to tell people about which versions of your project are
+currently being supported with security updates.
+
 | Layanan  | Supported          | Harga   | Times             |
 | -------- | ------------------ | ------- | ----------------- |
 | - Local  | - Khusus Lokal     | 20.000  | : 1 Mount :       |
