@@ -90,6 +90,7 @@
     padding: 0;
     display: flex;
     justify-content: center;
+    font-size: 16px;
   }
 
   .nav-row-3 a {
@@ -167,7 +168,7 @@
     border: none;
     box-shadow: none;
     text-shadow: none;
-    font-size: 10px;
+    font-size: 12px;
   }
 
   #video-youtube {
