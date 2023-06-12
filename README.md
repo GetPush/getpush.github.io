@@ -1,10 +1,10 @@
-## By Toppay Official YT
-- 🍚
-- ☕
+🍚 By Toppay Official YT 🚀
 ### Peringatan Larangan Clone dan Menjalankan Repository
 #
 ⚠️ **warning**
 - Dilarang keras melakukan cloning atau menjalankan repository ini tanpa izin tertulis dari pemiliknya.
+- Sebenarnya Ini Sebagai Usaha saya, namun saya belum bisa untuk menyewa layanan yang berbayar.
+- Karena hasilnya pun belum seberapa, hanya sekedar buat ☕
 #
 🔒
 - Repository ini berisi informasi dan kode yang sangat rahasia dan hanya untuk penggunaan internal. Jangan menyebarkan, menyalin, atau menggunakan informasi ini tanpa izin yang sah.
@@ -18,11 +18,7 @@
 - `Mohon Hargai`
 - `Terimakasih`
 - `Pengertian` & `Kepatuhannya`
-#
-- Sebenarnya Ini Sebagai Usaha saya, namun saya belum bisa untuk menyewa layanan yang berbayar.
-- Karena hasilnya pun belum seberapa, hanya sekedar buat ☕
-- 
-##
+
 ##
 | Service  | Supported          | Harga   | Times             |
 | -------- | ------------------ | ------- | ----------------- |
