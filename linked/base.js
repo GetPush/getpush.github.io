@@ -74,37 +74,6 @@ linkStylesheet.setAttribute('rel', 'stylesheet');
 linkStylesheet.setAttribute('href', '/linked/style.css');
 head.appendChild(linkStylesheet);
 
-// Buat elemen script untuk JavaScript
-var scriptURLs = [
-      "/linked/favicon.js", 
-       "/linked/bg_random_color.js", 
-       "/linked/base.js", 
-       "/linked/pembuka.js", 
-       "/linked/penutup.js", 
-       "/linked/script.js", 
-       "/linked/google.js", 
-       "/linked/teks-kedip.js", 
-       "/linked/ip-address.js", 
-       "/linked/update.js", 
-       "/linked/teks-config.js", 
-       "/linked/speed.js", 
-       "/linked/komenwa.js", 
-       "/linked/jam-digital.js", 
-       "/linked/jam-analog.js", 
-       "/linked/names.js"
-];
-
-// Fungsi untuk memuat skrip JavaScript
-function loadScript(url) {
-  return new Promise(function(resolve, reject) {
-    var script = document.createElement('script');
-    script.src = url;
-    script.onload = resolve;
-    script.onerror = reject;
-    head.appendChild(script);
-  });
-}
-
 // Mendapatkan judul halaman
 var pageTitle = document.title;
 var domain = window.location.hostname;
