@@ -99,7 +99,7 @@ document.title = updatedTitle;
  head.appendChild(linkStylesheet);
 
 <script src="linked/favicon.js" async></script>
-<script src="linked/bg_random_color.js" async></script>
+<script src="linked/bg_random_color.js"></script>
 <script src="linked/base.js" async></script>
 <script src="linked/pembuka.js" async></script>
 <script src="linked/penutup.js" async></script>
