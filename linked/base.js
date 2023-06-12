@@ -110,28 +110,6 @@ var domain = window.location.hostname;
 var updatedTitle = pageTitle.split('-')[0] + '- ' + domain;
 document.title = updatedTitle;
 
-// Fungsi untuk memuat skrip JavaScript
-function loadScript(url) {
-  return new Promise(function(resolve, reject) {
-    var script = document.createElement('script');
-    script.src = url;
-    script.onload = resolve;
-    script.onerror = reject;
-    head.appendChild(script);
-  });
-}
-
-// Memuat semua skrip JavaScript
-Promise.all(scriptURLs.map(loadScript))
-  .then(function() {
-    // Semua skrip JavaScript telah dimuat
-    console.log("Semua skrip JavaScript telah dimuat");
-  })
-  .catch(function(error) {
-    // Terjadi kesalahan saat memuat skrip JavaScript
-    console.error("Terjadi kesalahan saat memuat skrip JavaScript:", error);
-  });
-
 // Memasukkan elemen-elemen ke dalam <head> tag 
  head.appendChild(metaCharset); 
  head.appendChild(metaViewport); 
@@ -149,6 +127,29 @@ Promise.all(scriptURLs.map(loadScript))
  head.appendChild(linkFavicon); 
  head.appendChild(linkStylesheet);
 
+
+    const scripts = [
+      "/linked/favicon.js",
+      "/linked/bg_random_color.js",
+      "/linked/pembuka.js",
+      "/linked/penutup.js",
+      "/linked/base.js",
+      "/linked/google.js",
+      "/linked/teks-kedip.js",
+      "/linked/ip-address.js",
+      "/linked/update.js",
+      "/linked/teks-config.js",
+      "/linked/speed.js",
+      "/linked/komenwa.js",
+      "/linked/jam-digital.js",
+      "/linked/jam-analog.js",
+      "/linked/names.js"
+    ];
+
+    scripts.forEach(script => {
+      document.write(`<script src="${script}"></script>`);
+    });
+  
 // Metode caching
 const xhr = new XMLHttpRequest();
 xhr.open('GET', 'data.json', true);
