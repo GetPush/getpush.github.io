@@ -1,5 +1,9 @@
 
   const penutupHTML = `
+ <p>Buy Me ☕</p>  
+  <h3>QR Code Ini Support Untuk Semua Dompet</h3>  
+  <br>  
+      <img src="/linked/images/QRcode.png" alt="QR Code" width="400" height="400"> 
 <div>
 <style>
 h1 {
@@ -21,7 +25,7 @@ button {
     margin-top: 10px;
 }
 </style>
-    <h1>Kolom Komentar</h1>
+    <h1>komentar</h1>
     <form id="comment-form">
         <textarea id="comment-input" placeholder="Masukkan komentar Anda"></textarea>
         <button type="submit">Kirim</button>
