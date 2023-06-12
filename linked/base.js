@@ -130,29 +130,33 @@ document.title = updatedTitle;
  head.appendChild(linkStylesheet);
 
 
-    const scripts = [
-      "/linked/favicon.js",
-      "/linked/bg_random_color.js",
-      "/linked/base.js", 
-      "/linked/pembuka.js",
-      "/linked/penutup.js",
-      "/linked/script.js",
-      "/linked/google.js",
-      "/linked/teks-kedip.js",
-      "/linked/ip-address.js",
-      "/linked/update.js",
-      "/linked/teks-config.js",
-      "/linked/speed.js",
-      "/linked/komenwa.js",
-      "/linked/jam-digital.js",
-      "/linked/jam-analog.js",
-      "/linked/names.js"
-    ];
+function loadScript(path) {
+  const scriptElement = document.createElement('script');
+  scriptElement.src = path;
+  document.head.appendChild(scriptElement);
+}
 
-    scripts.forEach(script => {
-      document.write(`<script src="${script}"></script>`);
-    });
-  
+const scripts = [
+  "linked/favicon.js",
+  "linked/bg_random_color.js",
+  "linked/base.js",
+  "linked/pembuka.js",
+  "linked/penutup.js",
+  "linked/script.js",
+  "linked/google.js",
+  "linked/teks-kedip.js",
+  "linked/ip-address.js",
+  "linked/update.js",
+  "linked/teks-config.js",
+  "linked/speed.js",
+  "linked/komenwa.js",
+  "linked/jam-digital.js",
+  "linked/jam-analog.js",
+  "linked/names.js"
+];
+
+scripts.forEach(script => loadScript(script));
+
 // Metode caching
 const xhr = new XMLHttpRequest();
 xhr.open('GET', 'data.json', true);
