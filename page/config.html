@@ -5,29 +5,36 @@
     <meta name="robots" content="index, follow">
     <meta content='width=device-width, initial-scale=0.5' name='viewport'/>
     <link rel="stylesheet" type="text/css" href="/linked/style.css">
-  <script>
-    const scripts = [
-      "/linked/favicon.js",
-      "/linked/bg_random_color.js",
-      "/linked/pembuka.js",
-      "/linked/penutup.js",
-      "/linked/base.js",
-      "/linked/google.js",
-      "/linked/teks-kedip.js",
-      "/linked/ip-address.js",
-      "/linked/update.js",
-      "/linked/teks-config.js",
-      "/linked/speed.js",
-      "/linked/komenwa.js",
-      "/linked/jam-digital.js",
-      "/linked/jam-analog.js",
-      "/linked/names.js"
-    ];
 
-    scripts.forEach(script => {
-      document.write(`<script src="${script}"></script>`);
-    });
+  <script>
+function loadScript(path) {
+  const scriptElement = document.createElement('script');
+  scriptElement.src = path;
+  document.head.appendChild(scriptElement);
+}
+
+const scripts = [
+  "linked/favicon.js",
+  "linked/bg_random_color.js",
+  "linked/base.js",
+  "linked/pembuka.js",
+  "linked/penutup.js",
+  "linked/script.js",
+  "linked/google.js",
+  "linked/teks-kedip.js",
+  "linked/ip-address.js",
+  "linked/update.js",
+  "linked/teks-config.js",
+  "linked/speed.js",
+  "linked/komenwa.js",
+  "linked/jam-digital.js",
+  "linked/jam-analog.js",
+  "linked/names.js"
+];
+
+scripts.forEach(script => loadScript(script));
   </script>
+
     <title>Update Config Aplikasi Gretongan</title>
   </head>
   <body>
