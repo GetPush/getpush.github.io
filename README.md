@@ -21,7 +21,7 @@
 - `Pengertian` & `Kepatuhannya`
 
 ## Supported Service 
-
+- ✓
 
 | Layanan  | Supported          | Harga   | Times             |
 | -------- | ------------------ | ------- | ----------------- |
