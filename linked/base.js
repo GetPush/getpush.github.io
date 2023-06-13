@@ -100,8 +100,8 @@ document.title = updatedTitle;
 
 // header
 const headerHTML = `   
-<header>
 <hr>
+<header>
    <div class="nav-row-1">    
      <nav>    
        <ul class="nav-container">    
