@@ -15,7 +15,7 @@ function measureInternetSpeed(speedElementId) {
 
   startTime = (new Date()).getTime();
   var cacheBuster = "?nnn=" + startTime;
-  download.src = "/display/media/images/bg.jpg" + cacheBuster;
+  download.src = "/linked/images/bg.jpg" + cacheBuster;
 
   function showSpeed() {
     var duration = (endTime - startTime) / 1000;
