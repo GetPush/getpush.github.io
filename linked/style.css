@@ -279,6 +279,8 @@ body {
 /* garis*/
     hr {
         border: none;
-        border-top: 2px solid black;
+        border-top: 4px solid black;
+        height: 4px;
+        width: 100%;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     }
