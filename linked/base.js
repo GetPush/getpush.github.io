@@ -120,22 +120,16 @@ document.title = updatedTitle;
       }  
     }  
   
-    var scriptsToLoad = [
-      "/linked/pembuka.js",  
-      "/linked/penutup.js", 
-      "/linked/favicon.js",  
+    var scriptsToLoad = [  
       "/linked/bg_random_color.js", 
-      "/linked/whatsapp.js",  
-      "/linked/google.js",  
-      "/linked/teks-kedip.js",  
-      "/linked/ip-address.js",  
-      "/linked/update.js",  
-      "/linked/teks-config.js",  
-      "/linked/speed.js",  
-      "/linked/komenwa.js",  
+      "/linked/favicon.js",
+      "/linked/google.js", 
+      "/linked/ip-address.js", 
       "/linked/jam-digital.js",  
-      "/linked/jam-analog.js",  
-      "/linked/names.js"  
+      "/linked/jam-analog.js",
+      "/linked/scroll.js", 
+      "/linked/update.js", 
+      "/linked/whatsapp.js"
     ];  
   
     window.onload = function() {  
