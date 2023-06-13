@@ -1,4 +1,6 @@
 const pembukaHTML = `  
+ <h1>ألسلام عليهم ورحمة الله وبركاته</h1> 
+  <br>
    <div id="teks1">Halo, selamat datang!</div>  
     <div style="text-align: left;">  
      <p>• Sebagai umat manusia, kita semua saling membutuhkan, saling membantu, dan saling mendukung.</p>  
