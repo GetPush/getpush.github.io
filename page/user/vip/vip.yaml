@@ -3,11 +3,11 @@ proxy-groups:
   - name: Clash
     type: select
     use:
-      - Service
       - Clash1
       - Clash2
       - Clash3
       - Clash4
+      - Service
     proxies:
       - Otomatis 
       - DIRECT
@@ -15,15 +15,17 @@ proxy-groups:
     type: fallback
     disable-udp: false
     use:
-      - Service
       - Clash1
       - Clash2
       - Clash3
       - Clash4
+      - Service
     url: http://www.gstatic.com/generate_204
     interval: '600'
   - name: BlockAds
     type: select
+    use:
+      - Service
     proxies:
       - Otomatis
       - REJECT
@@ -32,22 +34,22 @@ proxy-groups:
     strategy: consistent-hashing
     disable-udp: false
     use:
-      - Service
       - Clash1
       - Clash2
       - Clash3
       - Clash4
+      - Service
     url: http://www.gstatic.com/generate_204
     interval: '300'
   - name: trafficIndo
     type: url-test
     disable-udp: false
     use:
-      - Service
       - Clash1
       - Clash2
       - Clash3
       - Clash4
+      - Service
     url: http://www.gstatic.com/generate_204
     interval: '300'
   - name: Sosmed 
@@ -55,22 +57,22 @@ proxy-groups:
     strategy: consistent-hashing
     disable-udp: false
     use:
-      - Service
       - Clash1
       - Clash2
       - Clash3
       - Clash4
+      - Service
     url: http://www.gstatic.com/generate_204
     interval: '300'
   - name: Gaming
     type: url-test
     disable-udp: false
     use:
-      - Service
       - Clash1
       - Clash2
       - Clash3
       - Clash4
+      - Service
     url: http://www.gstatic.com/generate_204
     interval: '600'
 
