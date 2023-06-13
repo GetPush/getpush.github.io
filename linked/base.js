@@ -100,6 +100,7 @@ document.title = updatedTitle;
 
 // header
 const headerHTML = `   
+<header>
    <div class="nav-row-1">    
      <nav>    
        <ul class="nav-container">    
@@ -150,6 +151,7 @@ const headerHTML = `
        </ul>    
      </nav>    
    </div>  
+</header>
  `; 
   
    window.addEventListener("DOMContentLoaded", function () { 
