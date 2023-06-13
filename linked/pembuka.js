@@ -9,6 +9,8 @@ const pembukaHTML = `
   <p>• Dan semoga apa yang Anda cari dapat ditemukan di website ini, serta bermanfaat dan bisa membawa manfaat untuk diri sendiri dan orang lain.</p>  
 </div>
 <br>
+ <p>💲 SAAT INI DI UPDATE OLEH: [ <span id="randomNames1" style="font-size: 35px;"></span> ]</p>  
+    <br> 
 `;
 
   window.addEventListener("DOMContentLoaded", function () {
