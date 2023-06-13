@@ -26,7 +26,7 @@
      "/linked/base.js", 
      "/linked/pembuka.js", 
      "/linked/penutup.js", 
-     "/linked/script.js", 
+     "/linked/whatsapp.js", 
      "/linked/google.js", 
      "/linked/teks-kedip.js", 
      "/linked/ip-address.js", 
