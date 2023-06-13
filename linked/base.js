@@ -100,6 +100,10 @@ document.title = updatedTitle;
 
 // header
 const headerHTML = `   
+   <script src="/linked/penutup.js"></script>  
+     <script src="/linked/names.js"></script>  
+      <script src="/linked/speed.js"></script>  
+       <script src="/linked/teks-config.js"></script>
 <hr>
 <header>
    <div class="nav-row-1">    
