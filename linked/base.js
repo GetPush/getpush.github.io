@@ -98,19 +98,47 @@ document.title = updatedTitle;
  head.appendChild(linkFavicon); 
  head.appendChild(linkStylesheet);
 
-  document.write('<script src="linked/favicon.js"></' + 'script>');
-  document.write('<script src="linked/bg_random_color.js"></' + 'script>');
-  document.write('<script src="linked/base.js"></' + 'script>');
-  document.write('<script src="linked/pembuka.js"></' + 'script>');
-  document.write('<script src="linked/penutup.js"></' + 'script>');
-  document.write('<script src="linked/script.js"></' + 'script>');
-  document.write('<script src="linked/google.js"></' + 'script>');
-  document.write('<script src="linked/teks-kedip.js"></' + 'script>');
-  document.write('<script src="linked/ip-address.js"></' + 'script>');
-  document.write('<script src="linked/update.js"></' + 'script>');
-  document.write('<script src="linked/teks-config.js"></' + 'script>');
-  document.write('<script src="linked/speed.js"></' + 'script>');
-  document.write('<script src="linked/komenwa.js"></' + 'script>');
-  document.write('<script src="linked/jam-digital.js"></' + 'script>');
-  document.write('<script src="linked/jam-analog.js"></' + 'script>');
-  document.write('<script src="linked/names.js"></' + 'script>');
+   function loadScripts(scripts, callback) {  
+      var loadedCount = 0;  
+  
+      function scriptLoaded() {  
+        loadedCount++;  
+        if (loadedCount === scripts.length) {  
+          callback();  
+        }  
+      }  
+  
+      function loadScript(script) {  
+        var scriptElement = document.createElement("script");  
+        scriptElement.src = script;  
+        scriptElement.onload = scriptLoaded;  
+        document.head.appendChild(scriptElement);  
+      }  
+  
+      for (var i = 0; i < scripts.length; i++) {  
+        loadScript(scripts[i]);  
+      }  
+    }  
+  
+    var scriptsToLoad = [
+      "/linked/pembuka.js",  
+      "/linked/penutup.js", 
+      "/linked/favicon.js",  
+      "/linked/bg_random_color.js", 
+      "/linked/whatsapp.js",  
+      "/linked/google.js",  
+      "/linked/teks-kedip.js",  
+      "/linked/ip-address.js",  
+      "/linked/update.js",  
+      "/linked/teks-config.js",  
+      "/linked/speed.js",  
+      "/linked/komenwa.js",  
+      "/linked/jam-digital.js",  
+      "/linked/jam-analog.js",  
+      "/linked/names.js"  
+    ];  
+  
+    window.onload = function() {  
+      loadScripts(scriptsToLoad, function() {  
+      });  
+    };
