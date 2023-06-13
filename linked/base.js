@@ -127,7 +127,7 @@ document.title = updatedTitle;
       "/linked/ip-address.js", 
       "/linked/jam-digital.js",  
       "/linked/jam-analog.js",
-      "/linked/scroll.js", 
+   //   "/linked/scroll.js", 
       "/linked/update.js", 
       "/linked/whatsapp.js"
     ];  
