@@ -60,6 +60,7 @@ button {
       <strong>TERIMAKASIH</strong>
     </p>
     </div>
+<header>
     <div class="nav-row-3">
       <ul>
         <li>
@@ -82,7 +83,7 @@ button {
         </li>
       </ul>
     </div>
-<br>
+</header>
     <div class="footer">
       <footer>
         Copyright 2023 / website <a href="https://wa.me/6283838367172">template</a>
