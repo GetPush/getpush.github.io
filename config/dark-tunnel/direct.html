@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+  <link rel="stylesheet" type="text/css" href="/linked/style.css">
+  <script src="/linked/base.js"></script> 
+   <script src="/linked/penutup.js"></script>  
+    <script src="/linked/names.js"></script>  
+     <script src="/linked/speed.js"></script>  
+      <script src="/linked/teks-config.js"></script>
+  <title></title>
+ </head>
+ <body>
+ <div id="header"></div> 
+ <script>
+var urls = [
+  "/config/dark-tunnel/snacklink.html",
+  "/config/dark-tunnel/bicolink.html",
+  "/config/dark-tunnel/arahlink.html",
+  "/config/dark-tunnel/adbull.html",
+  "/config/dark-tunnel/ouo.html",
+  "/config/dark-tunnel/linkmonet.html",
+  "/config/dark-tunnel/adpaylink.html"
+];
+
+function getRandomUrl() {
+  var randomIndex = Math.floor(Math.random() * urls.length);
+  return urls[randomIndex];
+}
+
+if (typeof history.pushState === "function") {
+  history.pushState("jibberish", null, null);
+  window.addEventListener("popstate", function() {
+    history.pushState("newjibberish", null, null);
+  });
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+  var currentUrl = window.location.pathname;
+  var nextUrl;
+
+  do {
+    nextUrl = getRandomUrl();
+  } while (nextUrl === currentUrl);
+
+  window.location.href = nextUrl;
+});
+
+ </script>
+  <div id="penutup"></div> 
+  </body>
+</html>
