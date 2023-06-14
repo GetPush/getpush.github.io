@@ -1,23 +1,9 @@
 {
   "version": 2,
   "builds": [
-    {
-      "src": "server.py",
-      "use": "@vercel/python",
-      "build": {
-        "command": "pip install -r requirements.txt"
-      }
-    }
+    { "src": "server.py", "use": "@vercel/python" }
   ],
   "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "server.py"
-    }
-  ],
-  "dependencies": {
-    "include": [
-      "requirements.txt"
-    ]
-  }
+    { "src": "/(.*)", "dest": "server.py" }
+  ]
 }
