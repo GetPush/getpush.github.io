@@ -3,11 +3,11 @@ proxy-groups:
   - name: Clash
     type: select
     use:
-      - Service
       - Clash1
       - Clash2
       - Clash3
       - Clash4
+      - Service
     proxies:
       - Otomatis 
       - DIRECT
@@ -15,11 +15,11 @@ proxy-groups:
     type: fallback
     disable-udp: false
     use:
-      - Service
       - Clash1
       - Clash2
       - Clash3
       - Clash4
+      - Service
     url: http://www.gstatic.com/generate_204
     interval: '600'
   - name: BlockAds
@@ -32,22 +32,22 @@ proxy-groups:
     strategy: consistent-hashing
     disable-udp: false
     use:
-      - Service
       - Clash1
       - Clash2
       - Clash3
       - Clash4
+      - Service
     url: http://www.gstatic.com/generate_204
     interval: '300'
   - name: trafficIndo
     type: url-test
     disable-udp: false
     use:
-      - Service
       - Clash1
       - Clash2
       - Clash3
       - Clash4
+      - Service
     url: http://www.gstatic.com/generate_204
     interval: '300'
   - name: Sosmed 
@@ -55,22 +55,22 @@ proxy-groups:
     strategy: consistent-hashing
     disable-udp: false
     use:
-      - Service
       - Clash1
       - Clash2
       - Clash3
       - Clash4
+      - Service
     url: http://www.gstatic.com/generate_204
     interval: '300'
   - name: Gaming
     type: url-test
     disable-udp: false
     use:
-      - Service
       - Clash1
       - Clash2
       - Clash3
       - Clash4
+      - Service
     url: http://www.gstatic.com/generate_204
     interval: '600'
 
@@ -80,35 +80,35 @@ proxy-providers:
      path: ./service.yaml 
      health-check: 
      enable: true 
-     url: "https://toppayofficial.vercel.app/user/clash/service.yaml"
+     url: "https://toppayofficial.vercel.app/page/user/service.yaml"
      interval: 1200
   Clash1:
     type: http
     path: ./clash1.yaml
     health-check:
     enable: true
-    url: "https://toppayofficial.vercel.app/user/clash/sg1.yaml"
+    url: "https://toppayofficial.vercel.app/page/user/clash/sg1.yaml"
     interval: 1200
   Clash2:
     type: http
     path: ./clash2.yaml
     health-check:
     enable: true
-    url: "https://toppayofficial.vercel.app/user/clash/sg2.yaml"
+    url: "https://toppayofficial.vercel.app/page/user/clash/sg2.yaml"
     interval: 1200
   Clash3:
     type: http
     path: ./clash3.yaml
     health-check:
     enable: true
-    url: "https://toppayofficial.vercel.app/user/clash/sg3.yaml"
+    url: "https://toppayofficial.vercel.app/page/user/clash/sg3.yaml"
     interval: 1200
   Clash4:
     type: http
     path: ./clash4.yaml
     health-check:
     enable: true
-    url: "https://toppayofficial.vercel.app/user/clash/sg4.yaml"
+    url: "https://toppayofficial.vercel.app/page/user/clash/sg4.yaml"
     interval: 1200
 
 redir-port: 7892
