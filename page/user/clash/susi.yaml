@@ -1,0 +1,561 @@
+proxies:
+proxy-groups:
+  - name: Clash
+    type: select
+    use:
+      - Service
+      - Clash1
+      - Clash2
+      - Clash3
+      - Clash4
+    proxies:
+      - Otomatis 
+      - DIRECT
+  - name: Otomatis
+    type: fallback
+    disable-udp: false
+    use:
+      - Service
+      - Clash1
+      - Clash2
+      - Clash3
+      - Clash4
+    url: http://www.gstatic.com/generate_204
+    interval: '600'
+  - name: BlockAds
+    type: select
+    proxies:
+      - Otomatis
+      - REJECT
+  - name: Streaming
+    type: load-balance
+    strategy: consistent-hashing
+    disable-udp: false
+    use:
+      - Service
+      - Clash1
+      - Clash2
+      - Clash3
+      - Clash4
+    url: http://www.gstatic.com/generate_204
+    interval: '300'
+  - name: trafficIndo
+    type: url-test
+    disable-udp: false
+    use:
+      - Service
+      - Clash1
+      - Clash2
+      - Clash3
+      - Clash4
+    url: http://www.gstatic.com/generate_204
+    interval: '300'
+  - name: Sosmed 
+    type: load-balance
+    strategy: consistent-hashing
+    disable-udp: false
+    use:
+      - Service
+      - Clash1
+      - Clash2
+      - Clash3
+      - Clash4
+    url: http://www.gstatic.com/generate_204
+    interval: '300'
+  - name: Gaming
+    type: url-test
+    disable-udp: false
+    use:
+      - Service
+      - Clash1
+      - Clash2
+      - Clash3
+      - Clash4
+    url: http://www.gstatic.com/generate_204
+    interval: '600'
+
+proxy-providers:
+  Service: 
+     type: http 
+     path: ./service.yaml 
+     health-check: 
+     enable: true 
+     url: "https://toppayofficial.vercel.app/user/clash/service.yaml"
+     interval: 1200
+  Clash1:
+    type: http
+    path: ./clash1.yaml
+    health-check:
+    enable: true
+    url: "https://toppayofficial.vercel.app/user/clash/sg1.yaml"
+    interval: 1200
+  Clash2:
+    type: http
+    path: ./clash2.yaml
+    health-check:
+    enable: true
+    url: "https://toppayofficial.vercel.app/user/clash/sg2.yaml"
+    interval: 1200
+  Clash3:
+    type: http
+    path: ./clash3.yaml
+    health-check:
+    enable: true
+    url: "https://toppayofficial.vercel.app/user/clash/sg3.yaml"
+    interval: 1200
+  Clash4:
+    type: http
+    path: ./clash4.yaml
+    health-check:
+    enable: true
+    url: "https://toppayofficial.vercel.app/user/clash/sg4.yaml"
+    interval: 1200
+
+redir-port: 7892
+port: 7890
+socks-port: 7891
+mixed-port: 7893
+mode: rule
+log-level: info
+allow-lan: true
+external-controller: 0.0.0.0:3000
+secret: '123456'
+bind-address: "*"
+external-ui: "./"
+dns:
+  enable: true
+  ipv6: true
+  enhanced-mode: fake-ip
+  listen: 0.0.0.0:7874
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+  - "*.lan"
+  - "*.localdomain"
+  - "*.example"
+  - "*.invalid"
+  - "*.localhost"
+  - "*.test"
+  - "*.local"
+  - "*.home.arpa"
+  - time.*.com
+  - time.*.gov
+  - time.*.edu.cn
+  - time.*.apple.com
+  - time1.*.com
+  - time2.*.com
+  - time3.*.com
+  - time4.*.com
+  - time5.*.com
+  - time6.*.com
+  - time7.*.com
+  - ntp.*.com
+  - ntp1.*.com
+  - ntp2.*.com
+  - ntp3.*.com
+  - ntp4.*.com
+  - ntp5.*.com
+  - ntp6.*.com
+  - ntp7.*.com
+  - "*.time.edu.cn"
+  - "*.ntp.org.cn"
+  - "+.pool.ntp.org"
+  - time1.cloud.tencent.com
+  - music.163.com
+  - "*.music.163.com"
+  - "*.126.net"
+  - musicapi.taihe.com
+  - music.taihe.com
+  - songsearch.kugou.com
+  - trackercdn.kugou.com
+  - "*.kuwo.cn"
+  - api-jooxtt.sanook.com
+  - api.joox.com
+  - joox.com
+  - y.qq.com
+  - "*.y.qq.com"
+  - streamoc.music.tc.qq.com
+  - mobileoc.music.tc.qq.com
+  - isure.stream.qqmusic.qq.com
+  - dl.stream.qqmusic.qq.com
+  - aqqmusic.tc.qq.com
+  - amobile.music.tc.qq.com
+  - "*.xiami.com"
+  - "*.music.migu.cn"
+  - music.migu.cn
+  - "+.msftconnecttest.com"
+  - "+.msftncsi.com"
+  - msftconnecttest.com
+  - msftncsi.com
+  - localhost.ptlogin2.qq.com
+  - localhost.sec.qq.com
+  - "+.srv.nintendo.net"
+  - "+.stun.playstation.net"
+  - xbox.*.microsoft.com
+  - xnotify.xboxlive.com
+  - "+.battlenet.com.cn"
+  - "+.wotgame.cn"
+  - "+.wggames.cn"
+  - "+.wowsgame.cn"
+  - "+.wargaming.net"
+  - proxy.golang.org
+  - stun.*.*
+  - stun.*.*.*
+  - "+.stun.*.*"
+  - "+.stun.*.*.*"
+  - "+.stun.*.*.*.*"
+  - heartbeat.belkin.com
+  - "*.linksys.com"
+  - "*.linksyssmartwifi.com"
+  - "*.router.asus.com"
+  - mesu.apple.com
+  - swscan.apple.com
+  - swquery.apple.com
+  - swdownload.apple.com
+  - swcdn.apple.com
+  - swdist.apple.com
+  - lens.l.google.com
+  - stun.l.google.com
+  - "+.nflxvideo.net"
+  - "*.square-enix.com"
+  - "*.finalfantasyxiv.com"
+  - "*.ffxiv.com"
+  - "*.mcdn.bilivideo.cn"
+  - "+.media.dssott.com"
+  default-nameserver:
+  - 8.8.8.8 #google
+  - 8.8.4.4 #google
+  - 1.1.1.1 #cloudflare
+  - 1.0.0.1 #cloudflare
+  - 9.9.9.9 #quaddns
+  - 9.9.9.11 #quaddns
+  - 192.168.170.28 #Tsel
+  - 192.168.178.28 #Tsel
+  - 192.168.130.28 #Tsel
+  - 112.215.220.254 #Axis
+  - 112.215.219.254 #Axis
+  - 140.213.82.253 #Axis
+  - 140.213.82.254 #Axis
+  - 112.215.203.248 #Axis
+  - 112.215.203.254 #Axis
+  - 112.215.37.182 #XL
+  - 112.215.37.183 #XL
+  fallback-filter:
+    geoip: true
+    geoip-code: ID
+    ipcidr:
+    - 0.0.0.0/8
+    - 10.0.0.0/8
+    - 100.64.0.0/10
+    - 127.0.0.0/8
+    - 169.254.0.0/16
+    - 172.16.0.0/12
+    - 192.0.0.0/24
+    - 192.0.2.0/24
+    - 192.88.99.0/24
+    - 192.168.0.0/16
+    - 198.18.0.0/15
+    - 198.51.100.0/24
+    - 203.0.113.0/24
+    - 224.0.0.0/4
+    - 240.0.0.0/4
+    - 255.255.255.255/32
+    domain:
+    - "+.google.com"
+    - "+.facebook.com"
+    - "+.youtube.com"
+    - "+.githubusercontent.com"
+    - "+.googlevideo.com"
+  nameserver:
+  - 8.8.8.8 #google
+  - 8.8.4.4 #google
+  - 1.1.1.1 #cloudflare
+  - 1.0.0.1 #cloudflare
+  - 9.9.9.9 #quaddns
+  - 9.9.9.11 #quaddns
+  - 192.168.170.28 #Tsel
+  - 192.168.178.28 #Tsel
+  - 192.168.130.28 #Tsel
+  - 112.215.220.254 #Axis
+  - 112.215.219.254 #Axis
+  - 140.213.82.253 #Axis
+  - 140.213.82.254 #Axis
+  - 112.215.203.248 #Axis
+  - 112.215.203.254 #Axis
+  - 112.215.37.182 #XL
+  - 112.215.37.183 #XL
+  fallback:
+  - 8.8.8.8
+  - 1.1.1.1
+  - 9.9.9.9
+profile:
+  store-selected: true
+  store-fakeip: true
+  store-fake-ip: true
+rules:
+- IP-CIDR,198.18.0.1/16,REJECT,no-resolve
+- PROCESS-NAME,v2ray,DIRECT
+- PROCESS-NAME,xray,DIRECT
+- PROCESS-NAME,naive,DIRECT
+- PROCESS-NAME,trojan,DIRECT
+- PROCESS-NAME,trojan-go,DIRECT
+- PROCESS-NAME,ss-local,DIRECT
+- PROCESS-NAME,privoxy,DIRECT
+- PROCESS-NAME,leaf,DIRECT
+- PROCESS-NAME,v2ray.exe,DIRECT
+- PROCESS-NAME,xray.exe,DIRECT
+- PROCESS-NAME,naive.exe,DIRECT
+- PROCESS-NAME,trojan.exe,DIRECT
+- PROCESS-NAME,trojan-go.exe,DIRECT
+- PROCESS-NAME,ss-local.exe,DIRECT
+- PROCESS-NAME,privoxy.exe,DIRECT
+- DST-PORT,22,DIRECT,no-resolve
+- RULE-SET,ChatGPT,Clash
+- RULE-SET,rule_BlockAds,BlockAds
+- RULE-SET,rule_reject,BlockAds
+- RULE-SET,rule_basicads,Sosmed
+- RULE-SET,rule_privacy,REJECT
+- RULE-SET,rule_porn,REJECT
+- RULE-SET,rule_nsfw,REJECT
+- RULE-SET,rule_lancidr,DIRECT,no-resolve
+- RULE-SET,rule_Direct,DIRECT,no-resolve
+- RULE-SET,rule_Speedtest,Clash
+- RULE-SET,rule_Streaming,Streaming
+- RULE-SET,rule_disneyplus,trafficIndo
+- RULE-SET,rule_hbo,Streaming
+- RULE-SET,rule_iqiyi,Streaming
+- RULE-SET,rule_netflix,trafficIndo
+- RULE-SET,rule_primevideo,Streaming
+- RULE-SET,rule_twitch,Streaming
+- RULE-SET,rule_Youtube,Streaming
+- RULE-SET,rule_Sosmed,Sosmed
+- RULE-SET,rule_line,Sosmed
+- RULE-SET,rule_metaverse,Sosmed
+- RULE-SET,rule_tiktok,Sosmed
+- RULE-SET,rule_twitter,Sosmed
+- RULE-SET,rule_telegram,Sosmed
+- RULE-SET,rule_telegramcidr,Sosmed
+- RULE-SET,rule_Indo,trafficIndo
+- RULE-SET,rule_Gaming,Gaming
+- RULE-SET,rule_discord,Gaming
+- RULE-SET,rule_games,Gaming
+- RULE-SET,rule_portgames,Gaming
+- RULE-SET,rule_videoconferences,Streaming
+- RULE-SET,rule_playstore,Clash
+- DST-PORT,21,Clash
+- DST-PORT,23,Clash
+- DST-PORT,25,Clash
+- DST-PORT,80,Clash
+- DST-PORT,81,Clash
+- DST-PORT,143,Clash
+- DST-PORT,443,Clash
+- DST-PORT,465,Clash
+- DST-PORT,587,Clash
+- DST-PORT,993,Clash
+- DST-PORT,995,Clash
+- DST-PORT,8000,Clash
+- DST-PORT,8008,Clash
+- DST-PORT,8080,Clash
+- DST-PORT,8081,Clash
+- DST-PORT,8090,Clash
+- DST-PORT,8443,Clash
+- DST-PORT,8888,Clash
+- MATCH,Clash
+tun:
+  enable: true
+  stack: system
+  dns-hijack:
+  - tcp://8.8.8.8:53
+  - tcp://8.8.4.4:53
+tproxy-port: 7895
+rule-providers:
+  ChatGPT:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/G4free/clash-ruleset/main/ruleset/ChatGPT.yaml"
+    path: ./ruleset/ChatGPT.yaml
+    interval: 86400
+  rule_Direct:
+    type: file
+    behavior: classical
+    path: "./rule_direct.yaml"
+  rule_portgames:
+    type: http
+    behavior: classical
+    path: "./rule_portgames.yaml"
+    url: https://raw.githubusercontent.com/malikshi/clash_for_android/main/rule_provider/rule_portgames.yaml
+    interval: 86400
+  rule_videoconferences:
+    type: http
+    behavior: classical
+    path: "./rule_videoconferences.yaml"
+    url: https://raw.githubusercontent.com/malikshi/clash_for_android/main/rule_provider/rule_videoconferences.yaml
+    interval: 86400
+  rule_Indo:
+    type: http
+    behavior: classical
+    path: "./rule_Indo.yaml"
+    url: https://raw.githubusercontent.com/malikshi/clash_for_android/main/rule_provider/rule_Indo.yaml
+    interval: 86400
+  rule_Sosmed:
+    type: http
+    behavior: classical
+    path: "./rule_sosmed.yaml"
+    url: https://raw.githubusercontent.com/malikshi/clash_for_android/main/rule_provider/rule_sosmed.yaml
+    interval: 86400
+  rule_Streaming:
+    type: http
+    behavior: classical
+    path: "./rule_streaming.yaml"
+    url: https://raw.githubusercontent.com/malikshi/clash_for_android/main/rule_provider/rule_streaming.yaml
+    interval: 86400
+  rule_Gaming:
+    type: http
+    behavior: classical
+    path: "./rule_gaming.yaml"
+    url: https://raw.githubusercontent.com/malikshi/clash_for_android/main/rule_provider/rule_gaming.yaml
+    interval: 86400
+  rule_Speedtest:
+    type: http
+    behavior: domain
+    url: https://rules.kr328.app/speedtest.yaml
+    path: "./rule_speedtest.yaml"
+    interval: 86400
+  rule_discord:
+    type: http
+    behavior: domain
+    url: https://rules.kr328.app/discord.yaml
+    path: "./rule_discord.yaml"
+    interval: 86400
+  rule_BlockAds:
+    type: http
+    behavior: classical
+    path: "./rule_BlockAds.yaml"
+    url: https://easylist.to/easylist/easylist.txt
+    interval: 86400
+  rule_reject:
+    type: http
+    behavior: domain
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt
+    path: "./rule_reject.yaml"
+    interval: 86400
+  rule_privacy:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Privacy/Privacy_Classical.yaml
+    path: "./rule_privacy.yaml"
+    interval: 86400
+  rule_basicads:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/malikshi/clash_for_android/main/rule_provider/rule_basicads.yaml
+    path: "./rule_basicads.yaml"
+    interval: 86400
+  rule_porn:
+    type: http
+    behavior: domain
+    url: https://rules.kr328.app/category-porn.yaml
+    path: "./rule_porn.yaml"
+    interval: 86400
+  rule_nsfw:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/malikshi/clash_for_android/main/rule_provider/rule_nsfw.yaml
+    path: "./rule_nsfw.yaml"
+    interval: 86400
+  rule_lancidr:
+    type: http
+    behavior: ipcidr
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt
+    path: "./rule_lancidr.yaml"
+    interval: 86400
+  rule_telegramcidr:
+    type: http
+    behavior: ipcidr
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/telegramcidr.txt
+    path: "./rule_telegramcidr.yaml"
+    interval: 86400
+  rule_telegram:
+    type: http
+    behavior: domain
+    url: https://rules.kr328.app/telegram.yaml
+    path: "./rule_telegram.yaml"
+    interval: 86400
+  rule_disneyplus:
+    type: http
+    behavior: domain
+    url: https://rules.kr328.app/disney.yaml
+    path: "./rule_disneyplus.yaml"
+    interval: 86400
+  rule_games:
+    type: http
+    behavior: domain
+    url: https://rules.kr328.app/category-games.yaml
+    path: "./rule_games.yaml"
+    interval: 86400
+  rule_hbo:
+    type: http
+    behavior: domain
+    url: https://rules.kr328.app/hbo.yaml
+    path: "./rule_hbo.yaml"
+    interval: 86400
+  rule_iqiyi:
+    type: http
+    behavior: domain
+    url: https://rules.kr328.app/iqiyi.yaml
+    path: "./rule_iqiyi.yaml"
+    interval: 86400
+  rule_line:
+    type: http
+    behavior: domain
+    url: https://rules.kr328.app/line.yaml
+    path: "./rule_line.yaml"
+    interval: 86400
+  rule_metaverse:
+    type: http
+    behavior: domain
+    url: https://rules.kr328.app/facebook.yaml
+    path: "./rule_metaverse.yaml"
+    interval: 86400
+  rule_netflix:
+    type: http
+    behavior: domain
+    url: https://rules.kr328.app/netflix.yaml
+    path: "./rule_netflix.yaml"
+    interval: 86400
+  rule_primevideo:
+    type: http
+    behavior: domain
+    url: https://rules.kr328.app/primevideo.yaml
+    path: "./rule_primevideo.yaml"
+    interval: 86400
+  rule_playstore:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/malikshi/clash_for_android/main/rule_provider/rule_playstore.yaml
+    path: "./rule_playstore.yaml"
+    interval: 86400
+  rule_tiktok:
+    type: http
+    behavior: domain
+    url: https://rules.kr328.app/tiktok.yaml
+    path: "./rule_tiktok.yaml"
+    interval: 86400
+  rule_twitch:
+    type: http
+    behavior: domain
+    url: https://rules.kr328.app/twitch.yaml
+    path: "./rule_twitch.yaml"
+    interval: 86400
+  rule_twitter:
+    type: http
+    behavior: domain
+    url: https://rules.kr328.app/twitter.yaml
+    path: "./rule_twitter.yaml"
+    interval: 86400
+  rule_Youtube:
+    type: http
+    behavior: domain
+    url: https://rules.kr328.app/youtube.yaml
+    path: "./rule_Youtube.yaml"
+    interval: 86400
+ipv6: true
