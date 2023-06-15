@@ -112,11 +112,11 @@ const headerHTML = `
          <h1 class="title"></h1>    
     <!--     <li>    
            <a href="/about/grup-telegram.html">Telegram</a>    
-         </li>   
+         </li>   -->
          <li>    
            <a href="https://pena-internet.blogspot.com/">Pena Internet</a>    
          </li>   
-         <li>
+    <!--     <li>
            <a href="/page/ssh/direct.html">Create SSH</a>    
          </li>    
          <li>    
