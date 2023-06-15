@@ -128,13 +128,13 @@ const headerHTML = `
          <li>    
            <a href="https://apppintar.blogspot.com/">Blog</a>    
          </li>    
-       </ul>    
+    <!--   </ul>    
      </nav>    
-   </div>    
+  </div>    
    <div class="nav-row-2">    
      <nav>    
        <ul class="nav-container">    
-         <h1 class="title"></h1>    
+         <h1 class="title"></h1>    -->
          <li>    
            <a href="/page/home.html">Beranda</a>    
          </li>    
