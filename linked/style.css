@@ -75,12 +75,12 @@ body {
     align-items: center;
   }
 
-  .nav-row-2 {
+  /*.nav-row-2 {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 10px;
-  }
+  }*/
 
   .nav-row-3 ul {
     list-style: none;
