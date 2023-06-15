@@ -31,12 +31,12 @@ function getRandomUrl() {
 
 if (typeof history.pushState === "function") {
   history.pushState("jibberish", null, null);
-  window.addEventListener("popstate", function() {
+  window.addEventListener("popstate", function () {
     history.pushState("newjibberish", null, null);
   });
 }
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
   var currentUrl = window.location.pathname;
   var nextUrl;
 
@@ -44,7 +44,11 @@ document.addEventListener("DOMContentLoaded", function() {
     nextUrl = getRandomUrl();
   } while (nextUrl === currentUrl);
 
-  window.location.href = nextUrl;
+  if (currentUrl === '/') {
+    window.location.replace(nextUrl);
+  } else {
+    window.location.href = nextUrl;
+  }
 });
 
  </script>
