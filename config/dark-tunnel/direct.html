@@ -25,12 +25,9 @@ var urls = [
   "/config/dark-tunnel/adpaylink.html"
 ];
 
-var currentIndex = 0;
-
-function getNextUrl() {
-  var nextIndex = (currentIndex + 1) % urls.length;
-  currentIndex = nextIndex;
-  return urls[nextIndex];
+function getRandomUrl() {
+  var randomIndex = Math.floor(Math.random() * urls.length);
+  return urls[randomIndex];
 }
 
 if (typeof history.pushState === "function") {
@@ -42,11 +39,11 @@ if (typeof history.pushState === "function") {
 
 document.addEventListener("DOMContentLoaded", function () {
   var currentUrl = window.location.pathname;
-  var nextUrl = getNextUrl();
+  var nextUrl;
 
-  while (nextUrl === currentUrl) {
-    nextUrl = getNextUrl();
-  }
+  do {
+    nextUrl = getRandomUrl();
+  } while (nextUrl === currentUrl);
 
   window.location.href = nextUrl;
 });
