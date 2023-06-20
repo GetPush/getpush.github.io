@@ -1,35 +1,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <base href="https://penainternet.vercel.app/" />
    <url>
-      <loc>https://penainternet.vercel.app/</loc>
+      <loc>/</loc>
    </url>
    <url>
-      <loc>https://penainternet.vercel.app/page/config.html</loc>
+      <loc>/page/config.html</loc>
    </url>
    <url>
-      <loc>https://penainternet.vercel.app/config/dark-tunnel/direct.html</loc>
+      <loc>/config/dark-tunnel/direct.html</loc>
    </url>
    <url>
-      <loc>https://penainternet.vercel.app/config/v2ray-dark-tunnel/direct.html</loc>
+      <loc>/config/v2ray-dark-tunnel/direct.html</loc>
    </url>
    <url>
-      <loc>https://penainternet.vercel.app/config/http-custom/direct.html</loc>
+      <loc>/config/http-custom/direct.html</loc>
    </url>
    <url>
-      <loc>https://penainternet.vercel.app/config/v2ray-hc/direct.html</loc>
+      <loc>/config/v2ray-hc/direct.html</loc>
    </url>
    <url>
-      <loc>https://penainternet.vercel.app/config/http-injector/direct.html</loc>
+      <loc>/config/http-injector/direct.html</loc>
    </url>
    <url>
-      <loc>https://penainternet.vercel.app/config/napsternet/direct.html</loc>
+      <loc>/config/napsternet/direct.html</loc>
    </url>
    <url>
-      <loc>https://penainternet.vercel.app/config/netmod-syna/direct.html</loc>
+      <loc>/config/netmod-syna/direct.html</loc>
    </url>
    <url>
-      <loc>https://penainternet.vercel.app/config/open-tunnel/direct.html</loc>
+      <loc>/config/open-tunnel/direct.html</loc>
    </url>
    <url>
-      <loc>https://penainternet.vercel.app/config/kpn-tunnel/direct.html</loc>
+      <loc>/config/kpn-tunnel/direct.html</loc>
    </url>
 </urlset>
