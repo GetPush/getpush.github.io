@@ -24,13 +24,8 @@ Disallow: /v2ray-hc.js/
 Disallow: /ssh.js/
 
 Allow: /
-Allow: /Aplikasi/
-Allow: /Config/
-Allow: /Dana-Kaget/
-Allow: /SSH/
 
-Sitemap: /info/sitemap.xml
-Sitemap: https://pena-internet.github.io/info/sitemap.xml
-Sitemap: https://pena-internet.onrender.com/info/pena-internet.xml
-Sitemap: https://topay-official.onrender.com/info/topay-official.xml
-Sitemap: https://bang-mtc.onrender.com/info/bang-mtc.xml
+Sitemap: /about/sitemap.xml
+Sitemap: https://toppayofficial.vercel.app/about/toppayofficial.xml
+Sitemap: https://penainternet.vercel.app/about/penainternet.xml
+Sitemap: https://bangmt.vercel.app/about/bangmt.xml
