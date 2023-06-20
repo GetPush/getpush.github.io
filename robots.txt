@@ -1,27 +1,13 @@
 User-agent: *
-Disallow: /SSH/SSH.html
-Disallow: /Download/Dark Tunnel.html
-Disallow: /Download/HTTP Custom.html
-Disallow: /Download/HTTP Injector.html
-Disallow: /Download/KPN Tunnel.html
-Disallow: /Download/Napsternet.html
-Disallow: /Download/Netmod Syna.html
-Disallow: /Download/Open Tunnel.html
-Disallow: /Download/V2ray HC.htm
-Disallow: /Download/V2ray-dark-tunnel.html
-Disallow: /images/
-Disallow: /Download/
-Disallow: /page-to-be-excluded/
-Disallow: /dark-tunnel.js/
-Disallow: /http-custom.js
-Disallow: /http-injector.js/
-Disallow: /kpn-tunnel.js/
-Disallow: /napsternet.js/
-Disallow: /netmod-syna.js/
-Disallow: /open-tunnel.js/
-Disallow: /v2ray-darktunnel.js/
-Disallow: /v2ray-hc.js/
-Disallow: /ssh.js/
+Disallow: /config/dark-tunnel.html
+Disallow: /config/http-custom.html
+Disallow: /config/http-injector.html
+Disallow: /config/kpn-tunnel.html
+Disallow: /config/napsternet.html
+Disallow: /config/netmod-syna.html
+Disallow: /config/open-tunnel.html
+Disallow: /config/v2ray-hc.html
+Disallow: /config/dark-tunnel-v2ray.html
 
 Allow: /
 
