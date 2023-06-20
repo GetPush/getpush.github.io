@@ -64,22 +64,22 @@ button {
     <div class="nav-row-3">
       <ul>
         <li>
-          <a href="/info/disclaimer.html">Disclaimer</a>
+          <a href="/about/disclaimer.html">Disclaimer</a>
         </li>
         <li>
-          <a href="/info/about.html">About</a>
+          <a href="/about/about.html">About</a>
         </li>
         <li>
-          <a href="/public/sitemap.xml">sitemap</a>
+          <a href="/about/sitemap.xml">sitemap</a>
         </li>
         <li>
-          <a href="/info/contacts.html">Contacts</a>
+          <a href="/about/contacts.html">Contacts</a>
         </li>
         <li>
-          <a href="/info/privacy-policy.html">Privacy Policy</a>
+          <a href="/about/privacy-policy.html">Privacy Policy</a>
         </li>
         <li>
-          <a href="/info/terms-and-conditions.html">Terms And Conditions</a>
+          <a href="/about/terms-and-conditions.html">Terms And Conditions</a>
         </li>
       </ul>
     </div>
