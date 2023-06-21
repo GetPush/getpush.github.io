@@ -268,7 +268,7 @@ rules:
 - RULE-SET,rule_porn,REJECT
 - RULE-SET,rule_nsfw,REJECT
 - RULE-SET,rule_lancidr,DIRECT,no-resolve
-- RULE-SET,rule_Direct,DIRECT,no-resolve
+- RULE-SET,rule_Direct,DIRECT,Clash
 - DST-PORT,21,Clash
 - DST-PORT,23,Clash
 - DST-PORT,25,Clash
