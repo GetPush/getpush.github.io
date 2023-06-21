@@ -13,5 +13,5 @@ Allow: /
 
 Sitemap: https://toppayofficial.vercel.app/about/toppayofficial.xml
 Sitemap: https://penainternet.vercel.app/about/penainternet.xml
-Sitemap: https://bangmt.vercel.app/about/bangmtc.xml
+Sitemap: https://bangmt.vercel.app/about/bangmt.xml
 Sitemap: /about/sitemap.xml
