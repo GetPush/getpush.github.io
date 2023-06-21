@@ -297,7 +297,7 @@ tun:
 tproxy-port: 7895
 rule-providers:
   rule_Direct:
-    type: file
+    type: http
     behavior: classical
     path: "./rule_direct.yaml"
     url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/ruleset/rule_direct.yaml
