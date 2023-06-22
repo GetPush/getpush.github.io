@@ -168,6 +168,7 @@ body {
     text-shadow: none;
     font-size: 12px;
     color: blue;
+    text-align: center;
   }
 
   #video-youtube {
