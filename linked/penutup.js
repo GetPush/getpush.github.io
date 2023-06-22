@@ -58,9 +58,6 @@ button {
         <b>Have a great day</b>
       </p>
     </h1>
-    <p>
-      <strong>TERIMAKASIH</strong>
-    </p>
     </div>
 <header>
     <div class="nav-row-3">
