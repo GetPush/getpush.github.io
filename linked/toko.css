@@ -15,6 +15,10 @@ body {
     text-decoration: none;
 }
 
+.deskripsi {
+    text-align: left;
+}
+
 .product-list {
     display: flex;
     flex-wrap: wrap;
