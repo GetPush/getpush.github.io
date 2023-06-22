@@ -33,8 +33,8 @@ body {
 }
 
 .product-list .product-item img {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
 }
 
 .product-list .product-item p {
