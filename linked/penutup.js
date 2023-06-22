@@ -1,7 +1,9 @@
   const penutupHTML = `
 <br>
+<div style="text-align: center;"> 
  <p>Buy Me ☕</p>  
   <h3>QR Code Ini Support Untuk Semua Dompet</h3>  
+</div>
   <br>  
       <img src="/linked/images/QRcode.png" alt="QR Code" width="400" height="400"> 
 <div>
