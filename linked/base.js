@@ -167,7 +167,11 @@ const headerHTML = `
    <p>• Dan semoga apa yang Anda cari dapat ditemukan di website ini, serta bermanfaat dan bisa membawa manfaat untuk diri sendiri dan orang lain.</p>   
  </div> 
  <br> 
-  <p>💲 SAAT INI DI UPDATE OLEH: [ <span id="randomNames1" style="font-size: 35px;"></span> ]</p>   
+  <p>💲 SAAT INI DI UPDATE OLEH: [ <span id="randomNames1" style="font-size: 35px;"></span> ]</p> 
+<div style="text-align: left;">   
+ <p>disclaimer:</p> 
+ <p>website ini di desain oleh Toppay Official, namun untuk file config di buat oleh masing-masing domain, jadi tergantung anda mengklik website nya dari domain siapa.<p> 
+ </div>
      <br> 
  `; 
   
