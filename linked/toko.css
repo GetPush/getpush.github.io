@@ -16,15 +16,37 @@ body {
 }
 
 .product-list {
-    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.product-list .product-item {
     width: 250px;
     margin: 10px;
     text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
-.product-list img {
+.product-list .product-item img {
     width: 200px;
     height: 200px;
+}
+
+.product-list .product-item p {
+    margin: 10px 0;
+}
+
+.product-list .product-item .checkout-button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
 }
 
 hr {
