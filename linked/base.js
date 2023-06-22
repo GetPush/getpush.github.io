@@ -105,6 +105,7 @@ const headerHTML = `
       <script src="/linked/speed.js"></script>  
        <script src="/linked/teks-config.js"></script>
 <hr>
+<hr>
 <header>
    <div class="nav-row-1">    
      <nav>    
@@ -157,6 +158,7 @@ const headerHTML = `
      </nav>    
    </div>  
 </header>
+<hr>
  <h1>ألسلام عليهم ورحمة الله وبركاته</h1>  
   <div id="teks1">Halo, selamat datang!</div>   
   <div style="text-align: left;">   
