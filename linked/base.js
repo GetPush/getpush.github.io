@@ -114,7 +114,10 @@ const headerHTML = `
            <a href="/about/grup-telegram.html">Telegram</a>    
          </li>   -->
          <li>    
-           <a href="https://pena-internet.blogspot.com/">Pena Internet</a>    
+           <a href="/page/home.html">Beranda</a>    
+         </li>  
+         <li>    
+           <a href="/page/toko.html">Toko & layanan</a>    
          </li>   
     <!--     <li>
            <a href="/page/ssh/direct.html">Create SSH</a>    
@@ -134,10 +137,7 @@ const headerHTML = `
    <div class="nav-row-2">    
      <nav>    
        <ul class="nav-container">    
-         <h1 class="title"></h1>    -->
-         <li>    
-           <a href="/page/home.html">Beranda</a>    
-         </li>    
+         <h1 class="title"></h1>    -->  
          <li>    
            <a href="/page/tutorial.html">Tutorial</a>    
          </li>    
