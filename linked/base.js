@@ -160,14 +160,22 @@ const headerHTML = `
 </header>
 <hr>
  <h1>ألسلام عليهم ورحمة الله وبركاته</h1>  
-  <div id="teks1">Halo, selamat datang!</div>   
+  <div id="teks1">Halo, selamat datang!</div> 
+<hr>
+<hr>
   <div style="text-align: left;">   
-   <p>• Sebagai umat manusia, kita semua saling membutuhkan, saling membantu, dan saling mendukung.</p>   
+   <p>• Sebagai umat manusia, kita semua saling membutuhkan, saling membantu, dan saling mendukung.</p> 
+<hr>
+<hr>
  <div>• Semoga yang mengunjungi website ini, pada hari <span style="display: inline;">   
         <div id="jam-sambutan" style="display: inline;"></div>   
        </span> selalu diberikan kesehatan, keselamatan, dan kebahagiaan dalam hidupnya. </div>   
+<hr>
+<hr>
    <p>• Dan semoga apa yang Anda cari dapat ditemukan di website ini, serta bermanfaat dan bisa membawa manfaat untuk diri sendiri dan orang lain.</p>   
  </div> 
+<hr>
+<hr>
  <br> 
   <p>💲 SAAT INI DI UPDATE OLEH: [ <span id="randomNames1" style="font-size: 35px;"></span> ]</p> 
 <br>
