@@ -170,10 +170,15 @@ const headerHTML = `
  </div> 
  <br> 
   <p>💲 SAAT INI DI UPDATE OLEH: [ <span id="randomNames1" style="font-size: 35px;"></span> ]</p> 
+<br>
+<hr>
+<hr>
 <div style="text-align: left;">   
  <p>disclaimer:</p> 
  <p>website ini di desain oleh Toppay Official, namun untuk file config di buat oleh masing-masing domain, jadi tergantung anda mengklik website nya dari domain siapa.<p> 
  </div>
+<hr>
+<hr>
      <br> 
  `; 
   
