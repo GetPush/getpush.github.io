@@ -1,2 +1,17 @@
 proxies:
-#isi akun tunnel
+  - name: deleted
+    server: www.google.com
+    port: 80
+    type: vmess
+    uuid: 1234567890
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: www.google.com
+    network: 
+    ws-opts:
+      path: /clash
+      headers:
+        Host: www.google.com
+    udp: true
