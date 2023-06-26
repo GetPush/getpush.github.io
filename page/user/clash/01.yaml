@@ -267,7 +267,7 @@ rules:
 - RULE-SET,rule_reject,BlockAds
 - RULE-SET,rule_privacy,Clash
 - RULE-SET,rule_nsfw,Clash
-- RULE-SET,rule_lancidr,Clash
+- RULE-SET,rule_lancidr,DIRECT,no-resolve
 - DST-PORT,21,Clash
 - DST-PORT,23,Clash
 - DST-PORT,25,Clash
