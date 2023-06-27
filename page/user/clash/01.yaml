@@ -9,10 +9,11 @@ proxy-groups:
       - Clash4
       - Service
     proxies:
-      - Otomatis 
+      - Server 
       - Service
       - DIRECT
-  - name: Otomatis
+
+  - name: Server 
     type: fallback
     disable-udp: false
     use:
@@ -22,19 +23,24 @@ proxy-groups:
       - Clash4
     url: http://www.gstatic.com/generate_204
     interval: '600'
-  - name: BlockAds
-    type: select
-    proxies:
-      - Otomatis
-      - REJECT
 
   - name: Service
     type: fallback
     disable-udp: false
     use:
       - Service
+    proxies:
+      - Server 
+      - DIRECT 
     url: http://www.gstatic.com/generate_204
     interval: '600'
+
+  - name: BlockAds
+    type: select
+    proxies:
+      - Otomatis
+      - REJECT
+
 
 proxy-providers:
   Service: 
