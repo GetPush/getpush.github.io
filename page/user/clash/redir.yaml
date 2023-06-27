@@ -178,4 +178,4 @@ rule-providers:
     url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt
     path: "./rule_lancidr.yaml"
     interval: 86400
-ipv6: true
+
