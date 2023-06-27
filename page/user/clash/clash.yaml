@@ -27,7 +27,7 @@ proxy-groups:
   - name: Service
     type: select
     proxies:
-      - Service 
+      - Services 
       - Server 
       - REJECT
 
