@@ -303,7 +303,7 @@ rules:
 - DST-PORT,8443,Clash
 - DST-PORT,8888,Clash
 #- DOMAIN-SUFFIX,
-- MATCH,Clash
+- MATCH,Clash,Server,Service 
 
 tun:
   enable: true
