@@ -114,7 +114,6 @@ rules:
 - PROCESS-NAME,trojan-go.exe,DIRECT
 - PROCESS-NAME,ss-local.exe,DIRECT
 - PROCESS-NAME,privoxy.exe,DIRECT
-- DST-PORT,22,DIRECT,no-resolve
 - RULE-SET,rule_porn,REJECT
 - RULE-SET,rule_BlockAds,BlockAds
 - RULE-SET,rule_reject,BlockAds
