@@ -29,9 +29,11 @@ proxy-groups:
     disable-udp: false
     use:
       - Service
-    proxies:
-      - Server 
-      - DIRECT 
+      - Clash1
+      - Clash2
+      - Clash3
+      - Clash4
+
     url: http://www.gstatic.com/generate_204
     interval: '600'
 
