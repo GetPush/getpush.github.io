@@ -18,7 +18,7 @@ proxy-groups:
     proxies:
       - Services
       - Server 
-      - REJECT
+      - DIRECT
 
   - name: Server 
     type: fallback
@@ -43,6 +43,7 @@ proxy-groups:
     type: select
     proxies:
       - Server 
+      - Service
       - REJECT
 
 proxy-providers:
