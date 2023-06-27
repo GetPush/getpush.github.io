@@ -13,6 +13,13 @@ proxy-groups:
       - Service
       - DIRECT
 
+  - name: Service
+    type: select
+    proxies:
+      - Services
+      - Server 
+      - REJECT
+
   - name: Server 
     type: fallback
     disable-udp: false
@@ -24,18 +31,11 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '600'
 
-  - name: Service
-    type: select
-    proxies:
-      - Services
-      - Server 
-      - REJECT
-
   - name: Services
     type: fallback
     disable-udp: false
     use:
-      - Service
+      - Services
     url: http://www.gstatic.com/generate_204
     interval: '600'
 
