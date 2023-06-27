@@ -40,7 +40,7 @@ proxy-groups:
   - name: BlockAds
     type: select
     proxies:
-      - Otomatis
+      - Server 
       - REJECT
 
 
