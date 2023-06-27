@@ -7,7 +7,7 @@ proxy-groups:
       - Clash2
       - Clash3
       - Clash4
-      - Service
+      - Services
     proxies:
       - Server 
       - Service
