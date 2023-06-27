@@ -3,19 +3,18 @@ proxy-groups:
   - name: Clash
     type: select
     use:
-      - Service
       - Clash1
       - Clash2
       - Clash3
       - Clash4
     proxies:
       - Otomatis 
+      - Service
       - DIRECT
   - name: Otomatis
     type: fallback
     disable-udp: false
     use:
-      - Service
       - Clash1
       - Clash2
       - Clash3
@@ -27,6 +26,15 @@ proxy-groups:
     proxies:
       - Otomatis
       - REJECT
+
+  - name: Service
+    type: fallback
+    disable-udp: false
+    use:
+      - Service
+    url: http://www.gstatic.com/generate_204
+    interval: '600'
+
 proxy-providers:
   Service: 
      type: http 
@@ -274,7 +282,7 @@ rules:
 - DST-PORT,80,Clash
 - DST-PORT,81,Clash
 - DST-PORT,143,Clash
-- DST-PORT,443,Clash
+- DST-PORT,443,Service
 - DST-PORT,465,Clash
 - DST-PORT,587,Clash
 - DST-PORT,993,Clash
