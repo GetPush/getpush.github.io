@@ -7,11 +7,20 @@ proxy-groups:
       - Clash2
       - Clash3
       - Clash4
-      - Service
+      - Services
     proxies:
-      - Otomatis 
+      - Server 
+      - Service
       - DIRECT
-  - name: Otomatis
+
+  - name: Service
+    type: select
+    proxies:
+      - Services
+      - Server 
+      - DIRECT
+
+  - name: Server 
     type: fallback
     disable-udp: false
     use:
@@ -19,16 +28,24 @@ proxy-groups:
       - Clash2
       - Clash3
       - Clash4
-      - Service
     url: http://www.gstatic.com/generate_204
     interval: '600'
+
+  - name: Services
+    type: fallback
+    disable-udp: false
+    use:
+      - Services
+    url: http://www.gstatic.com/generate_204
+    interval: '600'
+
   - name: BlockAds
     type: select
-    use:
-      - Service
     proxies:
-      - Otomatis
+      - Server 
+      - Service
       - REJECT
+
   - name: Streaming
     type: load-balance
     strategy: consistent-hashing
@@ -38,9 +55,10 @@ proxy-groups:
       - Clash2
       - Clash3
       - Clash4
-      - Service
+      - Services
     url: http://www.gstatic.com/generate_204
     interval: '300'
+
   - name: trafficIndo
     type: url-test
     disable-udp: false
@@ -49,9 +67,10 @@ proxy-groups:
       - Clash2
       - Clash3
       - Clash4
-      - Service
+      - Services
     url: http://www.gstatic.com/generate_204
     interval: '300'
+
   - name: Sosmed 
     type: load-balance
     strategy: consistent-hashing
@@ -61,7 +80,8 @@ proxy-groups:
       - Clash2
       - Clash3
       - Clash4
-      - Service
+      - Services
+
     url: http://www.gstatic.com/generate_204
     interval: '300'
   - name: Gaming
@@ -72,12 +92,13 @@ proxy-groups:
       - Clash2
       - Clash3
       - Clash4
-      - Service
+      - Services
     url: http://www.gstatic.com/generate_204
     interval: '600'
 
+
 proxy-providers:
-  Service: 
+  Services: 
      type: http 
      path: ./service.yaml 
      health-check: 
@@ -112,6 +133,7 @@ proxy-providers:
     enable: true
     url: "https://toppayofficial.vercel.app/page/user/vip/sg4.yaml"
     interval: 1200
+
 
 redir-port: 7892
 port: 7890
@@ -349,7 +371,7 @@ rules:
 - DST-PORT,80,Clash
 - DST-PORT,81,Clash
 - DST-PORT,143,Clash
-- DST-PORT,443,Clash
+- DST-PORT,443,Service 
 - DST-PORT,465,Clash
 - DST-PORT,587,Clash
 - DST-PORT,993,Clash
