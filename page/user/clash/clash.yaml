@@ -96,7 +96,7 @@ proxy-groups:
     interval: '600'
 
 proxy-providers:
-  Service: 
+  Services: 
      type: http 
      path: ./service.yaml 
      health-check: 
