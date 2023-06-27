@@ -39,8 +39,9 @@ proxy-groups:
   - name: BlockAds
     type: select
     proxies:
-      - Otomatis
+      - Server 
       - REJECT
+
   - name: Streaming
     type: load-balance
     strategy: consistent-hashing
@@ -53,6 +54,7 @@ proxy-groups:
       - Service
     url: http://www.gstatic.com/generate_204
     interval: '300'
+
   - name: trafficIndo
     type: url-test
     disable-udp: false
@@ -64,6 +66,7 @@ proxy-groups:
       - Service
     url: http://www.gstatic.com/generate_204
     interval: '300'
+
   - name: Sosmed 
     type: load-balance
     strategy: consistent-hashing
@@ -74,6 +77,7 @@ proxy-groups:
       - Clash3
       - Clash4
       - Service
+
     url: http://www.gstatic.com/generate_204
     interval: '300'
   - name: Gaming
