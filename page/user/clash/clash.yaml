@@ -9,9 +9,11 @@ proxy-groups:
       - Clash4
       - Service
     proxies:
-      - Otomatis 
+      - Server 
+      - Service
       - DIRECT
-  - name: Otomatis
+
+  - name: Server 
     type: fallback
     disable-udp: false
     use:
@@ -19,9 +21,21 @@ proxy-groups:
       - Clash2
       - Clash3
       - Clash4
-      - Service
     url: http://www.gstatic.com/generate_204
     interval: '600'
+
+  - name: Service
+    type: fallback
+    disable-udp: false
+    use:
+      - Service
+      - Clash1
+      - Clash2
+      - Clash3
+      - Clash4
+    url: http://www.gstatic.com/generate_204
+    interval: '600'
+
   - name: BlockAds
     type: select
     proxies:
@@ -110,6 +124,7 @@ proxy-providers:
     enable: true
     url: "https://toppayofficial.vercel.app/page/user/clash/sg4.yaml"
     interval: 1200
+
 
 redir-port: 7892
 port: 7890
@@ -291,6 +306,8 @@ profile:
   store-selected: true
   store-fakeip: true
   store-fake-ip: true
+
+
 rules:
 - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
 - PROCESS-NAME,v2ray,DIRECT
@@ -347,7 +364,7 @@ rules:
 - DST-PORT,80,Clash
 - DST-PORT,81,Clash
 - DST-PORT,143,Clash
-- DST-PORT,443,Clash
+- DST-PORT,443,Service 
 - DST-PORT,465,Clash
 - DST-PORT,587,Clash
 - DST-PORT,993,Clash
@@ -360,6 +377,8 @@ rules:
 - DST-PORT,8443,Clash
 - DST-PORT,8888,Clash
 - MATCH,Clash
+
+
 tun:
   enable: true
   stack: system
@@ -367,6 +386,8 @@ tun:
   - tcp://8.8.8.8:53
   - tcp://8.8.4.4:53
 tproxy-port: 7895
+
+
 rule-providers:
   ChatGPT:
     type: http
@@ -558,4 +579,5 @@ rule-providers:
     url: https://rules.kr328.app/youtube.yaml
     path: "./rule_Youtube.yaml"
     interval: 86400
+
 ipv6: true
