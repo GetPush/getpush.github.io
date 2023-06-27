@@ -284,8 +284,6 @@ rules:
 - RULE-SET,rule_BlockAds,BlockAds
 - RULE-SET,rule_reject,BlockAds
 - RULE-SET,rule_privacy,REJECT
-- RULE-SET,rule_nsfw,Clash #panggilan WA
-- RULE-SET,rule_lancidr,Clash #panggilan WA
 - DST-PORT,21,Clash
 - DST-PORT,23,Clash
 - DST-PORT,25,Clash
@@ -339,16 +337,5 @@ rule-providers:
     url: https://rules.kr328.app/category-porn.yaml
     path: "./rule_porn.yaml"
     interval: 86400
-  rule_nsfw:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/malikshi/clash_for_android/main/rule_provider/rule_nsfw.yaml
-    path: "./rule_nsfw.yaml"
-    interval: 86400
-  rule_lancidr:
-    type: http
-    behavior: ipcidr
-    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt
-    path: "./rule_lancidr.yaml"
-    interval: 86400
+
 ipv6: true
