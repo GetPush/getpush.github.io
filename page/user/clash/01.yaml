@@ -296,6 +296,7 @@ rules:
 - DST-PORT,8888,Clash
 - DOMAIN-SUFFIX,www.google.com,Service
 - DOMAIN-SUFFIX,google.com,Service
+- DOMAIN-SUFFIX,clients4.google.com:443,Service
 - MATCH,Clash
 tun:
   enable: true
