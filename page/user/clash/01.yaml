@@ -253,6 +253,7 @@ profile:
   store-selected: true
   store-fakeip: true
   store-fake-ip: true
+
 rules:
 - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
 - PROCESS-NAME,v2ray,DIRECT
@@ -283,7 +284,7 @@ rules:
 - DST-PORT,80,Clash
 - DST-PORT,81,Clash
 - DST-PORT,143,Clash
-#- DST-PORT,443,Clash 
+- DST-PORT,443,Service,Clash 
 - DST-PORT,465,Clash
 - DST-PORT,587,Clash
 - DST-PORT,993,Clash
@@ -295,9 +296,7 @@ rules:
 - DST-PORT,8090,Clash
 - DST-PORT,8443,Clash
 - DST-PORT,8888,Clash
-- DOMAIN-SUFFIX,www.google.com:443,Service 
-- DOMAIN-SUFFIX,google.com:443,Service
-- DOMAIN-SUFFIX,clients4.google.com:443,Service
+#- DOMAIN-SUFFIX,
 - MATCH,Clash
 
 tun:
