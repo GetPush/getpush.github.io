@@ -7,6 +7,7 @@ proxy-groups:
       - Clash2
       - Clash3
       - Clash4
+      - Service
     proxies:
       - Otomatis 
       - Service
@@ -282,7 +283,7 @@ rules:
 - DST-PORT,80,Clash
 - DST-PORT,81,Clash
 - DST-PORT,143,Clash
-#- DST-PORT,443,Clash
+- DST-PORT,443,Clash
 - DST-PORT,465,Clash
 - DST-PORT,587,Clash
 - DST-PORT,993,Clash
@@ -294,9 +295,9 @@ rules:
 - DST-PORT,8090,Clash
 - DST-PORT,8443,Clash
 - DST-PORT,8888,Clash
-- DOMAIN-SUFFIX,www.google.com,Service
-- DOMAIN-SUFFIX,google.com,Service
-- DOMAIN-SUFFIX,clients4.google.com:443,Service
+- DOMAIN-SUFFIX,www.google.com,Clash
+- DOMAIN-SUFFIX,google.com,Clash
+- DOMAIN-SUFFIX,clients4.google.com:443,Clash
 - MATCH,Clash
 tun:
   enable: true
