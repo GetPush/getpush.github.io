@@ -164,7 +164,7 @@ proxy-providers:
     path: ./clash2.yaml
     health-check:
     enable: true
-    url: "https://toppayofficial.vercel.app/0/page/user/vip/sg2.yaml"
+    url: "https://toppayofficial.vercel.app/page/user/vip/sg2.yaml"
     interval: 1200
   Clash3:
     type: http
