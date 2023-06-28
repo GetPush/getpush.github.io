@@ -10,10 +10,14 @@ proxy-groups:
       - Services
     proxies:
       - Server 
-      - Service
+      - Clash1
+      - Clash2
+      - Clash3
+      - Clash4
+      - Service #prioritas Services
       - DIRECT
 
-  - name: Service
+  - name: Service #prioritas Services
     type: select
     use:
       - Services
@@ -24,6 +28,10 @@ proxy-groups:
     proxies:
       - Services
       - Server 
+      - Clash1
+      - Clash2
+      - Clash3
+      - Clash4
       - DIRECT
 
   - name: Server 
