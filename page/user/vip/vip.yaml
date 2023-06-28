@@ -34,7 +34,8 @@ proxy-groups:
       - Clash4
       - DIRECT
 
-  - name: Server 
+
+  - name: Server #all fallback 
     type: fallback
     disable-udp: false
     use:
@@ -46,6 +47,19 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '600'
 
+  - name: Services all fallback 
+    type: fallback
+    disable-udp: false
+    use:
+      - Services
+      - Clash1
+      - Clash2
+      - Clash3
+      - Clash4
+    url: http://www.gstatic.com/generate_204
+    interval: '600'
+    
+    
   - name: Clash1 
     type: fallback
     disable-udp: false
@@ -75,14 +89,6 @@ proxy-groups:
     disable-udp: false
     use:
       - Clash4
-    url: http://www.gstatic.com/generate_204
-    interval: '600'
-
-  - name: Services
-    type: fallback
-    disable-udp: false
-    use:
-      - Services
     url: http://www.gstatic.com/generate_204
     interval: '600'
 
