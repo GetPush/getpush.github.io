@@ -15,6 +15,12 @@ proxy-groups:
 
   - name: Service
     type: select
+    use:
+      - Services
+      - Clash1
+      - Clash2
+      - Clash3
+      - Clash4
     proxies:
       - Services
       - Server 
