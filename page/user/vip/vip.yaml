@@ -47,7 +47,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '600'
 
-  - name: Services all fallback 
+  - name: Services #all fallback 
     type: fallback
     disable-udp: false
     use:
