@@ -3,11 +3,11 @@ proxy-groups:
   - name: Clash
     type: select
     use:
-      - Clash1
-      - Clash2
-      - Clash3
-      - Clash4
-      - Services
+     # - Clash1
+     # - Clash2
+     # - Clash3
+     # - Clash4
+     # - Services
     proxies:
       - Server 
       - Clash1
@@ -20,11 +20,11 @@ proxy-groups:
   - name: Service 
     type: select
     use:
-      - Services
-      - Clash1
-      - Clash2
-      - Clash3
-      - Clash4
+     # - Services
+     # - Clash1
+     # - Clash2
+     # - Clash3
+     # - Clash4
     proxies:
       - Services #prioritas Services
       - Server 
