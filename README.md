@@ -29,6 +29,7 @@ ___
 | V2ray   | Supported    | Harga   | Expired | S & K    |
 | ------- | ------------ | ------- | ------- | -------- |
 | -       | Singapore    | 15.000  | 1 Mount |     ✅   |
+___
 | Clash   | Supported    | Harga   | Expired | S & K    |
 | ------- | ------------ | ------- | ------- | -------- |
 | level 1 | Standar      | 30.000  | 1 Mount |     ✅   |
