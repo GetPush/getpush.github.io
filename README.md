@@ -21,20 +21,20 @@
 
 ##
 ___
-| Config  | Supported    | Harga   | Expired |
-| ------- | ------------ | ------- | ------- |
-| -       | -            | 5000    | 7 Day   |
-| -       | -            | 10.000  | 1 Mount |
+| Config  | Supported    | Harga   | Expired | S & K   |
+| ------- | ------------ | ------- | ------- | ------- |
+| -       | -            | 5000    | 7 Day   |    ✅   |
+| -       | -            | 10.000  | 1 Mount |    ✅   |
 ___
-| V2ray   | Supported    | Harga   | Expired |
-| ------- | ------------ | ------- | ------- |
-| -       | Singapore    | 15.000  | 1 Mount |
+| V2ray   | Supported    | Harga   | Expired | S & K   |
+| ------- | ------------ | ------- | ------- | ------- |
+| -       | Singapore    | 15.000  | 1 Mount |    ✅   |
 ___
-| Clash   | Supported    | Harga   | Expired |
-| ------- | ------------ | ------- | ------- |
-| level 1 | Standar      | 30.000  | 1 Mount |
-| level 2 | Premium      | 35.000  | 1 Mount |
-| level 3 | Full Server  | 45.000  | 1 Mount |
+| Clash   | Supported    | Harga   | Expired | S & K   |
+| ------- | ------------ | ------- | ------- | ------- |
+| level 1 | Standar      | 30.000  | 1 Mount |    ✅   |
+| level 2 | Premium      | 35.000  | 1 Mount |    ✅   |
+| level 3 | Full Server  | 45.000  | 1 Mount |    ✅   |
 ___
 -    kontak admin wa or telegram: `083838367172`
 ---
