@@ -37,7 +37,7 @@ ___
 | level 3 | Full Server  | 45.000  | 1 Mount |     ✅   |
 ___
 -    kontak admin wa or telegram: `083838367172`
-- S & K: kapan saja dapat berubah.
+- S & K (layanan di atas, kapan saja dapat berubah yang sesuai dengan yang berlaku.
 ---
 ##
 ## Terimakasih
