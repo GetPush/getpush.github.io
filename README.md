@@ -21,23 +21,24 @@
 
 ##
 ___
-| Config  | Supported    | Harga   | Expired | S & K |
-| ------- | ------------ | ------- | ------- | ----- |
-| -       | -            | 5000    | 7 Day   |   ✅  |
-| -       | -            | 10.000  | 1 Mount |   ✅  |
+| Config  | Supported    | Harga   | Expired | S & K | tipe  |
+| ------- | ------------ | ------- | ------- | ----- | ----- |
+| -       | -            | 5000    | 7 Day   |   ✅  | File  |
+| -       | -            | 10.000  | 1 Mount |   ✅  | File  |
 ___
-| V2ray   | Supported    | Harga   | Expired | S & K |
-| ------- | ------------ | ------- | ------- | ----- |
-| -       | Singapore    | 15.000  | 1 Mount |   ✅  |
-___
-| Clash   | Supported    | Harga   | Expired | S & K |
-| ------- | ------------ | ------- | ------- | ----- |
-| level 1 | Standar      | 30.000  | 1 Mount |   ✅  |
-| level 2 | Premium      | 35.000  | 1 Mount |   ✅  |
-| level 3 | Full Server  | 45.000  | 1 Mount |   ✅  |
+| V2ray   | Supported    | Harga   | Expired | S & K | tipe  |
+| ------- | ------------ | ------- | ------- | ----- | ----- |
+| -       | Singapore    | 15.000  | 1 Mount |   ✅  | File  |
+| ---|
+| Clash   | Supported    | Harga   | Expired | S & K | tipe  |
+| ------- | ------------ | ------- | ------- | ----- | ----- |
+| level 1 | Standar      | 30.000  | 1 Mount |   ✅  | Cloud |
+| level 2 | Premium      | 35.000  | 1 Mount |   ✅  | Cloud |
+| level 3 | Full Server  | 45.000  | 1 Mount |   ✅  | Cloud |
 ___
 -    kontak admin wa or telegram: `083838367172`
-- S & K (layanan di atas, kapan saja dapat berubah dengan yang sesuai dengan yang berlaku.
+- S & K
+ layanan di atas, kapan saja dapat berubah.
 ---
 ##
 ## Terimakasih
