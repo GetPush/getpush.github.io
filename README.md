@@ -21,11 +21,20 @@
 
 ##
 ___
-| Service| Supported    | Harga   | Expired |
+| Config  | Supported    | Harga   | Expired |
+| ------- | ------------ | ------- | ------- |
+| -       | -            | 5000    | 7 Day   |
+| -       | -            | 10.000  | 1 Mount |
+___
+| V2ray   | Supported    | Harga   | Expired |
+| ------- | ------------ | ------- | ------- |
+| -       | Singapore    | 15.000  | 1 Mount |
+___
+| Clash  | Supported    | Harga   | Expired |
 | ------ | ------------ | ------- | ------- |
-| Clash  | Standar      | 30.000  | 1 Mount |
-| Public | Premium      | 35.000  | 1 Mount |
-| Vip    | Full Server  | 45.000  | 1 Mount |
+| level 1| Standar      | 30.000  | 1 Mount |
+| level 2| Premium      | 35.000  | 1 Mount |
+| level 3| Full Server  | 45.000  | 1 Mount |
 ___
 ##
 ## Terimakasih
