@@ -29,7 +29,7 @@ ___
 | V2ray   | Supported    | Harga   | Expired | S & K | tipe  |
 | ------- | ------------ | ------- | ------- | ----- | ----- |
 | -       | Singapore    | 15.000  | 1 Mount |   ✅  | File  |
-
+| --- |
 | Clash   | Supported    | Harga   | Expired | S & K | tipe  |
 | ------- | ------------ | ------- | ------- | ----- | ----- |
 | level 1 | Standar      | 30.000  | 1 Mount |   ✅  | Cloud |
