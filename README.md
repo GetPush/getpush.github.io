@@ -21,6 +21,7 @@
 
 ##
 - Toppay Official
+
 | Config  | Harga   | Expired | Plus | Tipe  | Akses |
 | ------- | ------- | ------- | ---- | ----- | ----- |
 | -       | 5000    | 7 Day   |  ❌  | File  | ❓    |
