@@ -25,7 +25,7 @@
 
 ---
 
-| Layanan | Harga   | Expired | Versi           | tipe  | Akses |
+| Layanan | Harga   | Expired | Versi |  -  |  -  | tipe  | Akses |
 | ------- | ------- | ------- | ----  | --- | --- | ----- | ----- |
 | Config  |
 | -       | 5000    | 7 Day   |  ❌   | | | File  | ❓    |
