@@ -25,9 +25,9 @@
 | ------- | ------- | ------- | ---- | ----- |
 | -       | 5000    | 7 Day   |  ❌  | File  |
 | -       | 10.000  | 1 Mount |  ❌  | File  |
-| V2ray   |
+| V2ray   | Bebas Akses |
 | -       | 15.000  | 1 Mount |  ❌  | File  |
-| Open Clash |
+| Open Clash | Bebas Akses |
 |  1      | 20.000  | 1 Mount |  ❌  | Cloud |
 |  1 +    | 30.000  | 1 Mount |  ✅  | Cloud |
 |  2      | 35.000  | 1 Mount |  ❌  | Cloud |
