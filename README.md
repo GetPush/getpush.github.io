@@ -20,7 +20,7 @@
 - `Pengertian` & `Kepatuhannya`
 
 ##
-___
+
 | Config  | Harga   | Expired | Plus | Tipe  |
 | ------- | ------- | ------- | ---- | ----- |
 | -       | 5000    | 7 Day   |  ❌  | File  |
@@ -40,10 +40,10 @@ Open Clash
 |  2 + | 40.000  | 1 Mount |  ✅  | Cloud |
 |  3   | 45.000  | 1 Mount |  ❌  | Cloud |
 |  3 + | 50.000  | 1 Mount |  ✅  | Cloud |
-___
+
 - Kontak admin wa / telegram: `083838367172`
 - S&K
  layanan di atas, kapan saja dapat berubah.
----
+
 ##
 ## Terimakasih
