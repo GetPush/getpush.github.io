@@ -10,7 +10,7 @@ proxy-groups:
      # - Services
     proxies:
       - Server 
-      - trafficIndo
+      - TrafficIndo
       - Sosmed
       - Streaming
       - Gaming
@@ -28,7 +28,7 @@ proxy-groups:
     proxies:
       - Services 
       - Server 
-      - trafficIndo
+      - TrafficIndo
       - Sosmed
       - Streaming
       - Gaming
@@ -57,7 +57,7 @@ proxy-groups:
     interval: '600'
     
 
-  - name: trafficIndo
+  - name: TrafficIndo
     type: url-test
     disable-udp: false
     use:
@@ -362,10 +362,10 @@ rules:
 - RULE-SET,rule_Direct,DIRECT,no-resolve
 - RULE-SET,rule_Speedtest,Clash
 - RULE-SET,rule_Streaming,Streaming
-- RULE-SET,rule_disneyplus,trafficIndo
+- RULE-SET,rule_disneyplus,TrafficIndo
 - RULE-SET,rule_hbo,Streaming
 - RULE-SET,rule_iqiyi,Streaming
-- RULE-SET,rule_netflix,trafficIndo
+- RULE-SET,rule_netflix,TrafficIndo
 - RULE-SET,rule_primevideo,Streaming
 - RULE-SET,rule_twitch,Streaming
 - RULE-SET,rule_Youtube,Streaming
@@ -376,7 +376,7 @@ rules:
 - RULE-SET,rule_twitter,Sosmed
 - RULE-SET,rule_telegram,Sosmed
 - RULE-SET,rule_telegramcidr,Sosmed
-- RULE-SET,rule_Indo,trafficIndo
+- RULE-SET,rule_Indo,TrafficIndo
 - RULE-SET,rule_Gaming,Gaming
 - RULE-SET,rule_discord,Gaming
 - RULE-SET,rule_games,Gaming
