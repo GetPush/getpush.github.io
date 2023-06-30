@@ -22,9 +22,7 @@ proxy-groups:
     use:
       - Service
       - Clash4
-    proxies:
-      - DIRECT
-
+    
   - name: Server #all fallback 
     type: fallback
     disable-udp: false
