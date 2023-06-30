@@ -34,12 +34,16 @@
 | -       | 15.000  | 1 Mount |  ❌  | File  | Bebas |
 | Open Clash |
 |  V1     | 20.000  | 1 Mount |  ❌  | Cloud | Bebas |
-|  V1 +   | 30.000  | 1 Mount |  ✅  | Cloud | Bebas |
-|  V2     | 35.000  | 1 Mount |  ❌  | Cloud | Bebas |
-|  V2 +   | 40.000  | 1 Mount |  ✅  | Cloud | Bebas |
-|  V3     | 45.000  | 1 Mount |  ❌  | Cloud | Bebas |
-|  V3 +   | 50.000  | 1 Mount |  ✅  | Cloud | Bebas |
+|  V2     | 30.000  | 1 Mount |  ❌  | Cloud | Bebas |
+|  V3     | 40.000  | 1 Mount |  ✅  | Cloud | Bebas |
+|  V4     | 50.000  | 1 Mount |  ❌  | Cloud | Bebas |
 
+### keterangan level Open Clash
+- v1 traffic bersama tanpa opok
+- v2 pisah traffic tanpa opok 
+- v3 pisah traffic pakai opok no komplit 
+- v4 pisah traffic pakai opok komplit
+-
 - Kontak admin wa / telegram: `083838367172`
 - S&K
  layanan di atas, kapan saja dapat berubah.
