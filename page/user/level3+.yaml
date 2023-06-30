@@ -10,10 +10,10 @@ proxy-groups:
      # - Services
     proxies:
       - Server 
-      - Clash1
-      - Clash2
-      - Clash3
-      - Clash4
+      - trafficIndo
+      - Sosmed
+      - Streaming
+      - Gaming
       - Service #prioritas Services
       - DIRECT
 
@@ -28,10 +28,10 @@ proxy-groups:
     proxies:
       - Services 
       - Server 
-      - Clash1
-      - Clash2
-      - Clash3
-      - Clash4
+      - trafficIndo
+      - Sosmed
+      - Streaming
+      - Gaming
       - DIRECT
 
 
@@ -56,45 +56,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '600'
     
-    
-  - name: Clash1 
-    type: fallback
-    disable-udp: false
-    use:
-      - Clash1
-    url: http://www.gstatic.com/generate_204
-    interval: '600'
-
-  - name: Clash2 
-    type: fallback
-    disable-udp: false
-    use:
-      - Clash2
-    url: http://www.gstatic.com/generate_204
-    interval: '600'
-
-  - name: Clash3 
-    type: fallback
-    disable-udp: false
-    use:
-      - Clash3
-    url: http://www.gstatic.com/generate_204
-    interval: '600'
-
-  - name: Clash4 
-    type: fallback
-    disable-udp: false
-    use:
-      - Clash4
-    url: http://www.gstatic.com/generate_204
-    interval: '600'
-
-  - name: BlockAds
-    type: select
-    proxies:
-      - Server 
-      - Service
-      - REJECT
 
   - name: trafficIndo
     type: url-test
@@ -146,6 +107,13 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '600'
 
+
+  - name: BlockAds
+    type: select
+    proxies:
+      - Server 
+      - Service
+      - REJECT
 
 proxy-providers:
   Services: 
