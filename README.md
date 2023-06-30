@@ -33,10 +33,11 @@
 | V2ray   |
 | -       | 15.000  | 1 Mount |  ❌   | | |File  | Bebas |
 | Open Clash |
-|  V1     | 20.000  | 1 Mount |  ❌   | Cloud | Bebas |
-|  V2     | 30.000  | 1 Mount |  ❌   | Cloud | Bebas |
-|  V3     | 40.000  | 1 Mount |  ✅   | Cloud | Bebas |
-|  V4     | 50.000  | 1 Mount | pisah traffic | Cloud | Bebas |
+|  V1     | 20.000  | 1 Mount | traffic bersama | tanpa opok | Cloud | Bebas |
+|  V2     | 20.000  | 1 Mount | traffic bersama | pakai opok | Cloud | Bebas |
+|  V3     | 30.000  | 1 Mount | pisah traffic | Cloud | Bebas |
+|  V4     | 40.000  | 1 Mount | pisah traffic | Cloud | Bebas |
+|  V5     | 50.000  | 1 Mount | pisah traffic | Cloud | Bebas |
 
 | keterangan level Open Clash | | | |
 | --------------------------- | --- | --- | --- |
