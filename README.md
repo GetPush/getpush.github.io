@@ -21,8 +21,8 @@
 
 ##
 | Toppay Official |
-| Config  | Harga   | Expired | Plus | Tipe  | Akses |
 | ------- | ------- | ------- | ---- | ----- | ----- |
+| Config  | Harga   | Expired | Plus | Tipe  | Akses |
 | -       | 5000    | 7 Day   |  ❌  | File  | ❓    |
 | -       | 10.000  | 1 Mount |  ❌  | File  | ❓    |
 | V2ray   |
