@@ -34,8 +34,11 @@ ___
 ---
 | Level| Supported    | Harga   | Expired | Plus | Tipe  |
 | ---- | ------------ | ------- | ------- | ---- | ----- |
+|  1   | Standar      | 30.000  | 1 Mount |  ❌  | Cloud |
 |  1   | Standar      | 30.000  | 1 Mount |  ✅  | Cloud |
+|  2   | Premium      | 35.000  | 1 Mount |  ❌  | Cloud |
 |  2   | Premium      | 35.000  | 1 Mount |  ✅  | Cloud |
+|  3   | Full Server  | 45.000  | 1 Mount |  ❌  | Cloud |
 |  3   | Full Server  | 45.000  | 1 Mount |  ✅  | Cloud |
 ___
 -    kontak admin wa or telegram: `083838367172`
