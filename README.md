@@ -21,19 +21,19 @@
 
 ##
 
-| Config  | Harga   | Expired | Plus | Tipe  |
-| ------- | ------- | ------- | ---- | ----- |
-| -       | 5000    | 7 Day   |  ❌  | File  |
-| -       | 10.000  | 1 Mount |  ❌  | File  |
-| V2ray   | Bebas Akses |
-| -       | 15.000  | 1 Mount |  ❌  | File  |
-| Open Clash | Bebas Akses |
-|  1      | 20.000  | 1 Mount |  ❌  | Cloud |
-|  1 +    | 30.000  | 1 Mount |  ✅  | Cloud |
-|  2      | 35.000  | 1 Mount |  ❌  | Cloud |
-|  2 +    | 40.000  | 1 Mount |  ✅  | Cloud |
-|  3      | 45.000  | 1 Mount |  ❌  | Cloud |
-|  3 +    | 50.000  | 1 Mount |  ✅  | Cloud |
+| Config  | Harga   | Expired | Plus | Tipe  | Akses |
+| ------- | ------- | ------- | ---- | ----- | ----- |
+| -       | 5000    | 7 Day   |  ❌  | File  | ⁉️    |
+| -       | 10.000  | 1 Mount |  ❌  | File  | ⁉️    |
+| V2ray   |
+| -       | 15.000  | 1 Mount |  ❌  | File  | Bebas |
+| Open Clash |
+|  1      | 20.000  | 1 Mount |  ❌  | Cloud | Bebas |
+|  1 +    | 30.000  | 1 Mount |  ✅  | Cloud | Bebas |
+|  2      | 35.000  | 1 Mount |  ❌  | Cloud | Bebas |
+|  2 +    | 40.000  | 1 Mount |  ✅  | Cloud | Bebas |
+|  3      | 45.000  | 1 Mount |  ❌  | Cloud | Bebas |
+|  3 +    | 50.000  | 1 Mount |  ✅  | Cloud | Bebas |
 
 - Kontak admin wa / telegram: `083838367172`
 - S&K
