@@ -39,14 +39,6 @@
 |  V4     | 40.000  | 1 Mount | pisah traffic | pakai opok | no komplit | Cloud | Bebas |
 |  V5     | 50.000  | 1 Mount | pisah traffic | pakai opok | komplit | Cloud | Bebas |
 
-| keterangan level Open Clash | | | |
-| --------------------------- | --- | --- | --- |
-| v1 | traffic bersama | tanpa opok |
-| v2 | traffic bersama | pakai opok |
-| v3 | pisah traffic | tanpa | tanpa opok |
-| v4 | pisah traffic | pakai opok | no komplit |
-| v5 | pisah traffic | pakai opok | komplit |
--
 - Kontak admin wa / telegram: `083838367172`
 - S&K
  layanan di atas, kapan saja dapat berubah.
