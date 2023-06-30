@@ -30,8 +30,6 @@ ___
 | ------- | ------------ | ------- | ------- | ---- | ----- |
 | -       | Singapore    | 15.000  | 1 Mount |  ✅  | File  |
 ---
-- Open Clash
----
 Open Clash 
 | Level| Supported    | Harga   | Expired | Plus | Tipe  |
 | ---- | ------------ | ------- | ------- | ---- | ----- |
