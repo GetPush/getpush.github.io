@@ -28,14 +28,13 @@
 | V2ray   | Harga   | Expired | Plus | Tipe  |
 | -       | 15.000  | 1 Mount |  ❌  | File  |
 | Open Clash |
-| Level| Harga   | Expired | Plus | Tipe  |
-| ---- | ------- | ------- | ---- | ----- |
-|  1   | 20.000  | 1 Mount |  ❌  | Cloud |
-|  1 + | 30.000  | 1 Mount |  ✅  | Cloud |
-|  2   | 35.000  | 1 Mount |  ❌  | Cloud |
-|  2 + | 40.000  | 1 Mount |  ✅  | Cloud |
-|  3   | 45.000  | 1 Mount |  ❌  | Cloud |
-|  3 + | 50.000  | 1 Mount |  ✅  | Cloud |
+| Level   | Harga   | Expired | Plus | Tipe  |
+|  1      | 20.000  | 1 Mount |  ❌  | Cloud |
+|  1 +    | 30.000  | 1 Mount |  ✅  | Cloud |
+|  2      | 35.000  | 1 Mount |  ❌  | Cloud |
+|  2 +    | 40.000  | 1 Mount |  ✅  | Cloud |
+|  3      | 45.000  | 1 Mount |  ❌  | Cloud |
+|  3 +    | 50.000  | 1 Mount |  ✅  | Cloud |
 
 - Kontak admin wa / telegram: `083838367172`
 - S&K
