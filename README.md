@@ -27,10 +27,10 @@
 
 | 💠 | Harga   | Time | Traff | Supp  | Com | Tipe | Akses |
 | -- | ------- | ---- | ----  | ----- | --- | ---- | ----- |
-| Config |
+| CFG|
 | -      | 5000    | 7 D | ❎ | ❎ | ✅ | File  | ❓    |
 | -      | 10.000  | 1 M | ❎ | ❎ | ✅ | File  | ❓    |
-| V2ray  |
+| V2 ray |
 | -      | 15.000  | 1 M | ❎ | ❎ | ✅ | File  | Bebas |
 | Open Clash |
 |  V1    | 20.000  | 1 M | ❇️ | ❎ | ❎ | Sync | Bebas |
