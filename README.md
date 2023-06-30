@@ -35,15 +35,15 @@
 | Open Clash |
 |  V1     | 20.000  | 1 Mount | traffic bersama | tanpa opok | Cloud | Bebas |
 |  V2     | 20.000  | 1 Mount | traffic bersama | pakai opok | Cloud | Bebas |
-|  V3     | 30.000  | 1 Mount | pisah traffic | Cloud | Bebas |
-|  V4     | 40.000  | 1 Mount | pisah traffic | Cloud | Bebas |
-|  V5     | 50.000  | 1 Mount | pisah traffic | Cloud | Bebas |
+|  V3     | 30.000  | 1 Mount | pisah traffic | tanpa opok | Cloud | Bebas |
+|  V4     | 40.000  | 1 Mount | pisah traffic | pakai opok | no komplit | Cloud | Bebas |
+|  V5     | 50.000  | 1 Mount | pisah traffic | pakai opok | komplit | Cloud | Bebas |
 
 | keterangan level Open Clash | | | |
 | --------------------------- | --- | --- | --- |
 | v1 | traffic bersama | tanpa opok |
 | v2 | traffic bersama | pakai opok |
-| v3 | pisah traffic | tanpa opok |
+| v3 | pisah traffic | tanpa | tanpa opok |
 | v4 | pisah traffic | pakai opok | no komplit |
 | v5 | pisah traffic | pakai opok | komplit |
 -
