@@ -18,20 +18,11 @@ proxy-groups:
       - DIRECT
 
   - name: Service 
-    type: select
+    type: fallback 
     use:
-     # - Services
-     # - Clash1
-     # - Clash2
-     # - Clash3
-     # - Clash4
+      - Service
+      - Clash4
     proxies:
-      - Services 
-      - Server 
-      - TrafficIndo
-      - Sosmed
-      - Streaming
-      - Gaming
       - DIRECT
 
   - name: Server #all fallback 
