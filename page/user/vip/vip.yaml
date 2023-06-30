@@ -104,7 +104,7 @@ proxy-groups:
      # - Clash2
      # - Clash3
      # - Clash4
-     # - Services
+      - Services
     url: http://www.gstatic.com/generate_204
     interval: '300'
 
@@ -117,7 +117,7 @@ proxy-groups:
       - Clash2
      # - Clash3
      # - Clash4
-     # - Services
+      - Services
     url: http://www.gstatic.com/generate_204
     interval: '300'
     
@@ -130,7 +130,7 @@ proxy-groups:
      # - Clash2
       - Clash3
      # - Clash4
-     # - Services
+      - Services
     url: http://www.gstatic.com/generate_204
     interval: '300'
     
