@@ -25,7 +25,7 @@
 
 ---
 
-| Layanan | Harga   | Expired | Versi | Traffic| Opok | Tipe  | Akses |
+| Layanan | Harga   | Expired | Traffic | Opok | Includ | Tipe  | Akses |
 | ------- | ------- | ------- | ----  | --- | --- | ----- | ----- |
 | Config  |
 | -       | 5000    | 7 Day   |  ❌   | | | File  | ❓    |
