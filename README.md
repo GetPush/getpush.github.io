@@ -20,7 +20,7 @@
 - `Pengertian` & `Kepatuhannya`
 
 ##
-| Toppay Official |
+| Toppay Official 
 | ------- | ------- | ------- | ---- | ----- | ----- |
 | Config  | Harga   | Expired | Plus | Tipe  | Akses |
 | ------- | ------- | ------- | ---- | ----- | ----- |
