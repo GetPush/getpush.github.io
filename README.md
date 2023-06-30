@@ -25,7 +25,7 @@
 
 ---
 
-| 💠 | Harga   | Time | Traff | Supp  | Com | Tipe | 🌐 |
+| 💠 | Harga   | ⏳ | Traff | Supp  | Com | Tipe | 🌍 |
 | -- | ------- | ---- | ----  | ----- | --- | ---- | -- |
 | CFG|
 | -  | 5000    | 7 D | ❎ | ❎ | ✅ | File | ❓ |
