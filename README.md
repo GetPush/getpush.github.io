@@ -23,22 +23,22 @@
 ___
 | Config  | Supported    | Harga   | Expired | Plus | Tipe  |
 | ------- | ------------ | ------- | ------- | ---- | ----- |
-| -       | -            | 5000    | 7 Day   |  ✅  | File  |
-| -       | -            | 10.000  | 1 Mount |  ✅  | File  |
+| -       | -            | 5000    | 7 Day   |  ❌  | File  |
+| -       | -            | 10.000  | 1 Mount |  ❌  | File  |
 ---
 | V2ray   | Supported    | Harga   | Expired | Plus | Tipe  |
 | ------- | ------------ | ------- | ------- | ---- | ----- |
-| -       | Singapore    | 15.000  | 1 Mount |  ✅  | File  |
+| -       | Singapore    | 15.000  | 1 Mount |  ❌  | File  |
 ---
 Open Clash 
 | Level| Supported    | Harga   | Expired | Plus | Tipe  |
 | ---- | ------------ | ------- | ------- | ---- | ----- |
-|  1   | Standar      | 30.000  | 1 Mount |  ❌  | Cloud |
+|  1   | Standar      | 20.000  | 1 Mount |  ❌  | Cloud |
 |  1   | Standar      | 30.000  | 1 Mount |  ✅  | Cloud |
 |  2   | Premium      | 35.000  | 1 Mount |  ❌  | Cloud |
-|  2   | Premium      | 35.000  | 1 Mount |  ✅  | Cloud |
+|  2   | Premium      | 40.000  | 1 Mount |  ✅  | Cloud |
 |  3   | Full Server  | 45.000  | 1 Mount |  ❌  | Cloud |
-|  3   | Full Server  | 45.000  | 1 Mount |  ✅  | Cloud |
+|  3   | Full Server  | 50.000  | 1 Mount |  ✅  | Cloud |
 ___
 -    kontak admin wa or telegram: `083838367172`
 - S & K
