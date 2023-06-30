@@ -25,7 +25,7 @@
 
 ---
 
-| Layanan | Harga   | Expired | Traffic | Opok | Komplit | Tipe  | Akses |
+| Layanan | Harga   | Expired | Traffic | supporters  | Komplit | Tipe  | Akses |
 | ------- | ------- | ------- | ----  | --- | --- | ----- | ----- |
 | Config  |
 | -       | 5000    | 7 Day   |  ❌   | | | File  | ❓    |
