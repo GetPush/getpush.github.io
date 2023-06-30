@@ -35,7 +35,7 @@ Open Clash
 | Level| Harga   | Expired | Plus | Tipe  |
 | ---- | ------- | ------- | ---- | ----- |
 |  1   | 20.000  | 1 Mount |  ❌  | Cloud |
-|  1   | 30.000  | 1 Mount |  ✅  | Cloud |
+|  1 + | 30.000  | 1 Mount |  ✅  | Cloud |
 |  2   | 35.000  | 1 Mount |  ❌  | Cloud |
 |  2   | 40.000  | 1 Mount |  ✅  | Cloud |
 |  3   | 45.000  | 1 Mount |  ❌  | Cloud |
