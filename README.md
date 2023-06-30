@@ -27,9 +27,7 @@
 | -       | 10.000  | 1 Mount |  ❌  | File  |
 | V2ray   | Harga   | Expired | Plus | Tipe  |
 | -       | 15.000  | 1 Mount |  ❌  | File  |
-
-Open Clash 
-
+| Open Clash |
 | Level| Harga   | Expired | Plus | Tipe  |
 | ---- | ------- | ------- | ---- | ----- |
 |  1   | 20.000  | 1 Mount |  ❌  | Cloud |
