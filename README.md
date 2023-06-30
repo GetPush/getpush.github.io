@@ -32,6 +32,7 @@ ___
 ---
 - Open Clash
 ---
+| Open Clash |
 | Level| Supported    | Harga   | Expired | Plus | Tipe  |
 | ---- | ------------ | ------- | ------- | ---- | ----- |
 |  1   | Standar      | 30.000  | 1 Mount |  ❌  | Cloud |
