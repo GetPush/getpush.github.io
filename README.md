@@ -25,7 +25,7 @@
 
 ---
 
-| Layanan | Harga   | Expired | Versi |  -  |  -  | tipe  | Akses |
+| Layanan | Harga   | Expired | Versi | Traffic| Opok | Tipe  | Akses |
 | ------- | ------- | ------- | ----  | --- | --- | ----- | ----- |
 | Config  |
 | -       | 5000    | 7 Day   |  ❌   | | | File  | ❓    |
@@ -33,11 +33,11 @@
 | V2ray   |
 | -       | 15.000  | 1 Mount |  ❌   | | | File  | Bebas |
 | Open Clash |
-|  V1     | 20.000  | 1 Mount | traffic bersama | tanpa opok | Cloud | Bebas |
-|  V2     | 20.000  | 1 Mount | traffic bersama | pakai opok | Cloud | Bebas |
-|  V3     | 30.000  | 1 Mount | pisah traffic | tanpa opok | Cloud | Bebas |
-|  V4     | 40.000  | 1 Mount | pisah traffic | pakai opok | no komplit | Cloud | Bebas |
-|  V5     | 50.000  | 1 Mount | pisah traffic | pakai opok | komplit | Cloud | Bebas |
+|  V1     | 20.000  | 1 Mount | bersama | no | Cloud | Bebas |
+|  V2     | 20.000  | 1 Mount | bersama | yes | Cloud | Bebas |
+|  V3     | 30.000  | 1 Mount | pisah | no | Cloud | Bebas |
+|  V4     | 40.000  | 1 Mount | pisah | yes | no komplit | Cloud | Bebas |
+|  V5     | 50.000  | 1 Mount | pisah | yes | komplit | Cloud | Bebas |
 
 - Kontak admin wa / telegram: `083838367172`
 - S&K
