@@ -40,7 +40,7 @@ Open Clash
 |  3   | Full Server  | 45.000  | 1 Mount |  ❌  | Cloud |
 |  3   | Full Server  | 50.000  | 1 Mount |  ✅  | Cloud |
 ___
--    kontak admin wa or telegram: `083838367172`
+- Kontak admin wa or telegram: `083838367172`
 - S & K
  layanan di atas, kapan saja dapat berubah.
 ---
