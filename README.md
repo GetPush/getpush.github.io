@@ -25,13 +25,13 @@
 
 ---
 
-| Layanan | Harga   | Expired | Versi |     |     | tipe  | Akses |
+| Layanan | Harga   | Expired | Versi           | tipe  | Akses |
 | ------- | ------- | ------- | ----  | --- | --- | ----- | ----- |
 | Config  |
 | -       | 5000    | 7 Day   |  ❌   | | | File  | ❓    |
 | -       | 10.000  | 1 Mount |  ❌   | | | File  | ❓    |
 | V2ray   |
-| -       | 15.000  | 1 Mount |  ❌   | | |File  | Bebas |
+| -       | 15.000  | 1 Mount |  ❌   | | | File  | Bebas |
 | Open Clash |
 |  V1     | 20.000  | 1 Mount | traffic bersama | tanpa opok | Cloud | Bebas |
 |  V2     | 20.000  | 1 Mount | traffic bersama | pakai opok | Cloud | Bebas |
