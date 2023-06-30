@@ -28,7 +28,6 @@
 | V2ray   |
 | -       | 15.000  | 1 Mount |  ❌  | File  |
 | Open Clash |
-| Level   |
 |  1      | 20.000  | 1 Mount |  ❌  | Cloud |
 |  1 +    | 30.000  | 1 Mount |  ✅  | Cloud |
 |  2      | 35.000  | 1 Mount |  ❌  | Cloud |
