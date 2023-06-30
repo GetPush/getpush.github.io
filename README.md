@@ -40,8 +40,8 @@ Open Clash
 |  3   | 45.000  | 1 Mount |  ❌  | Cloud |
 |  3   | 50.000  | 1 Mount |  ✅  | Cloud |
 ___
-- Kontak admin wa or telegram: `083838367172`
-- S & K
+- Kontak admin wa / telegram: `083838367172`
+- S&K
  layanan di atas, kapan saja dapat berubah.
 ---
 ##
