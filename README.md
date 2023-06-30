@@ -25,8 +25,8 @@
 
 ---
 
-| Layanan | Harga   | Expired | Versi |     | Tipe  | Akses |
-| ------- | ------- | ------- | ----  | --- | ----- | ----- |
+| Layanan | Harga   | Expired | Versi |     |     | tipe  | Akses |
+| ------- | ------- | ------- | ----  | --- | --- | ----- | ----- |
 | Config  |
 | -       | 5000    | 7 Day   |  ❌   | | | File  | ❓    |
 | -       | 10.000  | 1 Mount |  ❌   | | | File  | ❓    |
