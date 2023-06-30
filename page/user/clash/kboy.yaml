@@ -3,24 +3,39 @@ proxy-groups:
   - name: Clash
     type: select
     use:
+     # - Clash1
+     # - Clash2
+     # - Clash3
+     # - Clash4
+     # - Services
+    proxies:
+      - Server 
       - Clash1
       - Clash2
       - Clash3
       - Clash4
-      - Services
-    proxies:
-      - Server 
-      - Service
+      - Service #prioritas Services
       - DIRECT
 
-  - name: Service
+  - name: Service 
     type: select
+    use:
+     # - Services
+     # - Clash1
+     # - Clash2
+     # - Clash3
+     # - Clash4
     proxies:
-      - Services
+      - Services 
       - Server 
+      - Clash1
+      - Clash2
+      - Clash3
+      - Clash4
       - DIRECT
 
-  - name: Server 
+
+  - name: Server #all fallback 
     type: fallback
     disable-udp: false
     use:
@@ -28,14 +43,49 @@ proxy-groups:
       - Clash2
       - Clash3
       - Clash4
+      - Services
     url: http://www.gstatic.com/generate_204
     interval: '600'
 
-  - name: Services
+  - name: Services #all fallback 
     type: fallback
     disable-udp: false
     use:
       - Services
+      - Clash4
+    url: http://www.gstatic.com/generate_204
+    interval: '600'
+    
+    
+  - name: Clash1 
+    type: fallback
+    disable-udp: false
+    use:
+      - Clash1
+    url: http://www.gstatic.com/generate_204
+    interval: '600'
+
+  - name: Clash2 
+    type: fallback
+    disable-udp: false
+    use:
+      - Clash2
+    url: http://www.gstatic.com/generate_204
+    interval: '600'
+
+  - name: Clash3 
+    type: fallback
+    disable-udp: false
+    use:
+      - Clash3
+    url: http://www.gstatic.com/generate_204
+    interval: '600'
+
+  - name: Clash4 
+    type: fallback
+    disable-udp: false
+    use:
+      - Clash4
     url: http://www.gstatic.com/generate_204
     interval: '600'
 
@@ -52,7 +102,7 @@ proxy-providers:
      path: ./service.yaml 
      health-check: 
      enable: true 
-     url: "https://toppayofficial.vercel.app/page/user/service/service.yaml"
+     url: "https://toppayofficial.vercel.app/page/user/clash/service.yaml"
      interval: 1200
   Clash1:
     type: http
