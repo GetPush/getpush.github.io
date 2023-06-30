@@ -25,19 +25,19 @@
 
 ---
 
-| Service | Harga   | Time | Traff | Supp  | Com | Tipe | Akses |
-| ------- | ------- | ---- | ----  | ----- | --- | ---- | ----- |
-| Config  |
-| -       | 5000    | 7 D | ❎ | ❎ | ✅ | File  | ❓    |
-| -       | 10.000  | 1 M | ❎ | ❎ | ✅ | File  | ❓    |
-| V2ray   |
-| -       | 15.000  | 1 M | ❎ | ❎ | ✅ | File  | Bebas |
+| 💠 | Harga   | Time | Traff | Supp  | Com | Tipe | Akses |
+| -- | ------- | ---- | ----  | ----- | --- | ---- | ----- |
+| Config |
+| -      | 5000    | 7 D | ❎ | ❎ | ✅ | File  | ❓    |
+| -      | 10.000  | 1 M | ❎ | ❎ | ✅ | File  | ❓    |
+| V2ray  |
+| -      | 15.000  | 1 M | ❎ | ❎ | ✅ | File  | Bebas |
 | Open Clash |
-|  V1     | 20.000  | 1 M | ❇️ | ❎ | ❎ | Sync | Bebas |
-|  V2     | 20.000  | 1 M | ❇️ | ✅ | ❎ | Sync | Bebas |
-|  V3     | 30.000  | 1 M | ♻️ | ❎ | ❎ | Sync | Bebas |
-|  V4     | 40.000  | 1 M | ♻️ | ✅ | ❎ | Sync | Bebas |
-|  V5     | 50.000  | 1 M | ♻️ | ✅ | ✅ | Sync | Bebas |
+|  V1    | 20.000  | 1 M | ❇️ | ❎ | ❎ | Sync | Bebas |
+|  V2    | 20.000  | 1 M | ❇️ | ✅ | ❎ | Sync | Bebas |
+|  V3    | 30.000  | 1 M | ♻️ | ❎ | ❎ | Sync | Bebas |
+|  V4    | 40.000  | 1 M | ♻️ | ✅ | ❎ | Sync | Bebas |
+|  V5    | 50.000  | 1 M | ♻️ | ✅ | ✅ | Sync | Bebas |
 
 - Kontak admin wa / telegram: `083838367172`
 - S&K
