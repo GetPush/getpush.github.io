@@ -33,11 +33,11 @@
 | V2ray   |
 | -       | 15.000  | 1 Mount | ❎ | ❎ | ✅ | File  | Bebas |
 | Open Clash |
-|  V1     | 20.000  | 1 Mount | bersama | ❎ | ❎ | Cloud | Bebas |
-|  V2     | 20.000  | 1 Mount | bersama | ✅ | ❎ | Cloud | Bebas |
-|  V3     | 30.000  | 1 Mount | pisah | ❎ | ❎ | Cloud | Bebas |
-|  V4     | 40.000  | 1 Mount | pisah | ✅ | ❎ | Cloud | Bebas |
-|  V5     | 50.000  | 1 Mount | pisah | ✅ | ✅ | Cloud | Bebas |
+|  V1     | 20.000  | 1 Mount | bersama | ❎ | ❎ | Sync | Bebas |
+|  V2     | 20.000  | 1 Mount | bersama | ✅ | ❎ | Sync | Bebas |
+|  V3     | 30.000  | 1 Mount | pisah | ❎ | ❎ | Sync | Bebas |
+|  V4     | 40.000  | 1 Mount | pisah | ✅ | ❎ | Sync | Bebas |
+|  V5     | 50.000  | 1 Mount | pisah | ✅ | ✅ | Sync | Bebas |
 
 - Kontak admin wa / telegram: `083838367172`
 - S&K
