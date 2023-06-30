@@ -33,7 +33,7 @@ proxy-groups:
       - Clash2
       - Clash3
       - Clash4
-      - Services
+      - Service
     url: http://www.gstatic.com/generate_204
     interval: '600'
 
@@ -53,7 +53,7 @@ proxy-groups:
      # - Clash2
      # - Clash3
      # - Clash4
-      - Services
+      - Service
     url: http://www.gstatic.com/generate_204
     interval: '300'
 
@@ -66,7 +66,7 @@ proxy-groups:
       - Clash2
      # - Clash3
      # - Clash4
-      - Services
+      - Service
     url: http://www.gstatic.com/generate_204
     interval: '300'
     
@@ -79,7 +79,7 @@ proxy-groups:
      # - Clash2
       - Clash3
      # - Clash4
-      - Services
+      - Service
     url: http://www.gstatic.com/generate_204
     interval: '300'
     
@@ -91,12 +91,12 @@ proxy-groups:
      # - Clash2
      # - Clash3
       - Clash4
-      - Services
+      - Service
     url: http://www.gstatic.com/generate_204
     interval: '600'
 
 proxy-providers:
-  Services: 
+  Service: 
      type: http 
      path: ./service.yaml 
      health-check: 
