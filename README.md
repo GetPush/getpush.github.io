@@ -20,6 +20,9 @@
 - `Pengertian` & `Kepatuhannya`
 
 ##
+
+---
+
 - Toppay Official
 
 | Layanan | Harga   | Expired | Plus | Tipe  | Akses |
@@ -40,6 +43,8 @@
 - Kontak admin wa / telegram: `083838367172`
 - S&K
  layanan di atas, kapan saja dapat berubah.
+
+---
 
 ##
 ## Terimakasih
