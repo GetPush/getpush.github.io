@@ -25,8 +25,8 @@
 
 ---
 
-| Layanan | Harga   | Expired | Traff | Supp  | Com | Tipe | Akses |
-| ------- | ------- | ------- | ----  | ----- | --- | ---- | ----- |
+| Service | Harga   | Time | Traff | Supp  | Com | Tipe | Akses |
+| ------- | ------- | ---- | ----  | ----- | --- | ---- | ----- |
 | Config  |
 | -       | 5000    | 7 Day   | ❎ | ❎ | ✅ | File  | ❓    |
 | -       | 10.000  | 1 Mount | ❎ | ❎ | ✅ | File  | ❓    |
