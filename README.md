@@ -23,7 +23,7 @@
 
 ---
 
-- Toppay Official
+---
 
 | Layanan | Harga   | Expired | Plus | Tipe  | Akses |
 | ------- | ------- | ------- | ---- | ----- | ----- |
