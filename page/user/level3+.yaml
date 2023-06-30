@@ -14,10 +14,10 @@ proxy-groups:
       - Sosmed
       - Streaming
       - Gaming
-      - Service #prioritas Services
+      - Services #prioritas Services
       - DIRECT
 
-  - name: Service 
+  - name: Services 
     type: fallback 
     use:
       - Service
