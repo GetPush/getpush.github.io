@@ -34,7 +34,6 @@ proxy-groups:
       - Gaming
       - DIRECT
 
-
   - name: Server #all fallback 
     type: fallback
     disable-udp: false
@@ -47,15 +46,13 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '600'
 
-  - name: Services #all fallback 
-    type: fallback
-    disable-udp: false
-    use:
-      - Services
-      - Clash4
-    url: http://www.gstatic.com/generate_204
-    interval: '600'
-    
+  - name: BlockAds
+    type: select
+    proxies:
+      - Server 
+      - Service
+      - REJECT
+
 
   - name: TrafficIndo
     type: url-test
@@ -106,14 +103,6 @@ proxy-groups:
       - Services
     url: http://www.gstatic.com/generate_204
     interval: '600'
-
-
-  - name: BlockAds
-    type: select
-    proxies:
-      - Server 
-      - Service
-      - REJECT
 
 proxy-providers:
   Services: 
