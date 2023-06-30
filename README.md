@@ -28,16 +28,16 @@
 | Layanan | Harga   | Expired | Traffic | Support  | Komplit | Tipe  | Akses |
 | ------- | ------- | ------- | ------  | -------- | ------- | ----- | ----- |
 | Config  |
-| -       | 5000    | 7 Day   |  ❌   | | yes | File  | ❓    |
-| -       | 10.000  | 1 Mount |  ❌   | | yes | File  | ❓    |
+| -       | 5000    | 7 Day   | ❎ | ❎ | ✅ | File  | ❓    |
+| -       | 10.000  | 1 Mount | ❎ | ❎ | ✅ | File  | ❓    |
 | V2ray   |
-| -       | 15.000  | 1 Mount |  ❌   | | yes | File  | Bebas |
+| -       | 15.000  | 1 Mount | ❎ | ❎ | ✅ | File  | Bebas |
 | Open Clash |
-|  V1     | 20.000  | 1 Mount | bersama | no | no | Cloud | Bebas |
-|  V2     | 20.000  | 1 Mount | bersama | yes | no | Cloud | Bebas |
-|  V3     | 30.000  | 1 Mount | pisah | no | no | Cloud | Bebas |
-|  V4     | 40.000  | 1 Mount | pisah | yes | no | Cloud | Bebas |
-|  V5     | 50.000  | 1 Mount | pisah | yes | yes | Cloud | Bebas |
+|  V1     | 20.000  | 1 Mount | bersama | ❎ | ❎ | Cloud | Bebas |
+|  V2     | 20.000  | 1 Mount | bersama | ✅ | ❎ | Cloud | Bebas |
+|  V3     | 30.000  | 1 Mount | pisah | ❎ | ❎ | Cloud | Bebas |
+|  V4     | 40.000  | 1 Mount | pisah | ✅ | ❎ | Cloud | Bebas |
+|  V5     | 50.000  | 1 Mount | pisah | ✅ | ✅ | Cloud | Bebas |
 
 - Kontak admin wa / telegram: `083838367172`
 - S&K
