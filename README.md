@@ -25,11 +25,10 @@ ___
 | ------- | ------- | ------- | ---- | ----- |
 | -       | 5000    | 7 Day   |  ❌  | File  |
 | -       | 10.000  | 1 Mount |  ❌  | File  |
----
+
 | V2ray   | Harga   | Expired | Plus | Tipe  |
 | ------- | ------- | ------- | ---- | ----- |
 | -       | 15.000  | 1 Mount |  ❌  | File  |
----
 Open Clash 
 | Level| Harga   | Expired | Plus | Tipe  |
 | ---- | ------- | ------- | ---- | ----- |
