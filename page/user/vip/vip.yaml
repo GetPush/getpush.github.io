@@ -96,28 +96,15 @@ proxy-groups:
       - Service
       - REJECT
 
-  - name: Streaming
-    type: load-balance
-    strategy: consistent-hashing
-    disable-udp: false
-    use:
-      - Clash1
-      - Clash2
-      - Clash3
-      - Clash4
-      - Services
-    url: http://www.gstatic.com/generate_204
-    interval: '300'
-
   - name: trafficIndo
     type: url-test
     disable-udp: false
     use:
       - Clash1
-      - Clash2
-      - Clash3
-      - Clash4
-      - Services
+     # - Clash2
+     # - Clash3
+     # - Clash4
+     # - Services
     url: http://www.gstatic.com/generate_204
     interval: '300'
 
@@ -126,21 +113,34 @@ proxy-groups:
     strategy: consistent-hashing
     disable-udp: false
     use:
-      - Clash1
+     # - Clash1
       - Clash2
-      - Clash3
-      - Clash4
-      - Services
-
+     # - Clash3
+     # - Clash4
+     # - Services
     url: http://www.gstatic.com/generate_204
     interval: '300'
+    
+  - name: Streaming
+    type: load-balance
+    strategy: consistent-hashing
+    disable-udp: false
+    use:
+     # - Clash1
+     # - Clash2
+      - Clash3
+     # - Clash4
+     # - Services
+    url: http://www.gstatic.com/generate_204
+    interval: '300'
+    
   - name: Gaming
     type: url-test
     disable-udp: false
     use:
-      - Clash1
-      - Clash2
-      - Clash3
+     # - Clash1
+     # - Clash2
+     # - Clash3
       - Clash4
       - Services
     url: http://www.gstatic.com/generate_204
