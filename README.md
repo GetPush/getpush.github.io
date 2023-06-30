@@ -21,8 +21,8 @@
 
 ##
 
-| ------- | ------- | ------- | ---- | ----- |
 | Config  | Harga   | Expired | Plus | Tipe  |
+| ------- | ------- | ------- | ---- | ----- |
 | -       | 5000    | 7 Day   |  ❌  | File  |
 | -       | 10.000  | 1 Mount |  ❌  | File  |
 | V2ray   | Harga   | Expired | Plus | Tipe  |
