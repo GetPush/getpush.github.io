@@ -25,8 +25,8 @@
 
 ---
 
-| Layanan | Harga   | Expired | Traffic | supporters  | Komplit | Tipe  | Akses |
-| ------- | ------- | ------- | ----  | --- | --- | ----- | ----- |
+| Layanan | Harga   | Expired | Traffic | Support  | Komplit | Tipe  | Akses |
+| ------- | ------- | ------- | ------  | -------- | ------- | ----- | ----- |
 | Config  |
 | -       | 5000    | 7 Day   |  ❌   | | | File  | ❓    |
 | -       | 10.000  | 1 Mount |  ❌   | | | File  | ❓    |
