@@ -37,7 +37,9 @@
 |  V2     | 30.000  | 1 Mount |  ❌  | Cloud | Bebas |
 |  V3     | 40.000  | 1 Mount |  ✅  | Cloud | Bebas |
 |  V4     | 50.000  | 1 Mount |  ❌  | Cloud | Bebas |
+
 | keterangan level Open Clash |
+| --------------------------- |
 | v1 | traffic bersama | tanpa opok |
 | v2 | traffic bersama | pakai opok |
 | v3 | pisah traffic | tanpa opok |
