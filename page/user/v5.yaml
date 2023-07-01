@@ -7,14 +7,14 @@ proxy-groups:
      # - Clash2
      # - Clash3
      # - Clash4
-     # - Services
+     # - Service
     proxies:
       - Server 
       - TrafficIndo
       - Sosmed
       - Streaming
       - Gaming
-      - Services #prioritas Services
+      - Services 
       - DIRECT
 
   - name: Services 
