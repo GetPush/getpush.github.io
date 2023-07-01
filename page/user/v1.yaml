@@ -7,34 +7,22 @@ proxy-groups:
      # - Clash2
      # - Clash3
      # - Clash4
-     # - Services
+     # - Service
     proxies:
       - Server 
-      - Clash1
-      - Clash2
-      - Clash3
-      - Clash4
-      - Service #prioritas Services
-      - DIRECT
-
-  - name: Service 
-    type: select
-    use:
-     # - Services
-     # - Clash1
-     # - Clash2
-     # - Clash3
-     # - Clash4
-    proxies:
+      - TrafficIndo
+      - Sosmed
+      - Streaming
+      - Gaming
       - Services 
-      - Server 
-      - Clash1
-      - Clash2
-      - Clash3
-      - Clash4
       - DIRECT
 
-
+  - name: Services 
+    type: fallback 
+    use:
+      - Clash4
+      - Service
+    
   - name: Server #all fallback 
     type: fallback
     disable-udp: false
@@ -43,49 +31,7 @@ proxy-groups:
       - Clash2
       - Clash3
       - Clash4
-      - Services
-    url: http://www.gstatic.com/generate_204
-    interval: '600'
-
-  - name: Services #all fallback 
-    type: fallback
-    disable-udp: false
-    use:
-      - Services
-      - Clash4
-    url: http://www.gstatic.com/generate_204
-    interval: '600'
-    
-    
-  - name: Clash1 
-    type: fallback
-    disable-udp: false
-    use:
-      - Clash1
-    url: http://www.gstatic.com/generate_204
-    interval: '600'
-
-  - name: Clash2 
-    type: fallback
-    disable-udp: false
-    use:
-      - Clash2
-    url: http://www.gstatic.com/generate_204
-    interval: '600'
-
-  - name: Clash3 
-    type: fallback
-    disable-udp: false
-    use:
-      - Clash3
-    url: http://www.gstatic.com/generate_204
-    interval: '600'
-
-  - name: Clash4 
-    type: fallback
-    disable-udp: false
-    use:
-      - Clash4
+      - Service
     url: http://www.gstatic.com/generate_204
     interval: '600'
 
@@ -93,7 +39,7 @@ proxy-groups:
     type: select
     proxies:
       - Server 
-      - Service
+      - Services
       - REJECT
 
 proxy-providers:
