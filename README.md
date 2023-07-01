@@ -39,12 +39,12 @@
 | V4     | 40k     | 1M   | ♻️    | ❎    | ❎  | Sync | 🥰 |
 | V5     | 50k     | 1M   | ♻️    | ❎    | ❎  | Sync | 🥰 |
 
-⏳ Expired
-🌍 Akses
-❇️ Traffic Bersama
-♻️ Traffic Terpisah
-❓ Tidak Ada kepastian
-🥰 Bebas
+- ⏳ Expired
+- 🌍 Akses
+- ❇️ Traffic Bersama
+- ♻️ Traffic Terpisah
+- ❓ Tidak Ada kepastian
+- 🥰 Bebas
 
 - Kontak admin wa / telegram: `083838367172`
 - S&K
