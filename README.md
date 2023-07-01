@@ -39,6 +39,9 @@
 | V4     | 40k     | 1M   | ♻️    | ❎    | ❎  | Sync | 🥰 |
 | V5     | 50k     | 1M   | ♻️    | ❎    | ❎  | Sync | 🥰 |
 
+- Traff Traffic
+- Supp Support pendukung
+- Com Complete Full Clash
 - ⏳ Expired
 - 🌍 Akses
 - ❇️ Traffic Bersama
