@@ -10,10 +10,6 @@ proxy-groups:
      # - Service
     proxies:
       - Server 
-      - TrafficIndo
-      - Sosmed
-      - Streaming
-      - Gaming
       - Services 
       - DIRECT
 
