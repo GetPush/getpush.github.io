@@ -25,10 +25,10 @@
 
 | Service| Harga   | Time | Traffic | complete | Tipe | 🌍 |
 | ------ | ------- | ---- | ------- | -------- | ---- | -- |
-| CFG|
+| Config|
 | -      | 5k      | 7D   | no      | no       | File | ❓ |
 | -      | 10k     | 1M   | no      | no       | File | ❓ |
-| V2 ray |
+| V2ray |
 | -      | 15k     | 1M   | no      | no       | File | 🥰 |
 | Open Clash |
 | V1     | 20k     | 1M   | no      | no       | Sync | 🥰 |
