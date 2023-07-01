@@ -24,17 +24,17 @@
 ---
 
 | Service| Harga   | time | Traffic | complete | Tipe | 🌍 |
-| ------ | ------- | ---- | ----- | -------- | ---- | -- |
+| ------ | ------- | ---- | ------- | -------- | ---- | -- |
 | CFG|
-| -      | 5k      | 7D   | no    | no       | File | ❓ |
-| -      | 10k     | 1M   | no    | no       | File | ❓ |
+| -      | 5k      | 7D   | no      | no       | File | ❓ |
+| -      | 10k     | 1M   | no      | no       | File | ❓ |
 | V2 ray |
-| -      | 15k     | 1M   | no    | no       | File | 🥰 |
+| -      | 15k     | 1M   | no      | no       | File | 🥰 |
 | Open Clash |
-| V1     | 20k     | 1M   | no    | no       | Sync | 🥰 |
-| V2     | 30k     | 1M   | yes   | no       | Sync | 🥰 |
-| V3     | 40k     | 1M   | no    | yes      | Sync | 🥰 |
-| V4     | 50k     | 1M   | yes   | yes      | Sync | 🥰 |
+| V1     | 20k     | 1M   | no      | no       | Sync | 🥰 |
+| V2     | 30k     | 1M   | yes     | no       | Sync | 🥰 |
+| V3     | 40k     | 1M   | no      | yes      | Sync | 🥰 |
+| V4     | 50k     | 1M   | yes     | yes      | Sync | 🥰 |
 
 - Traff Traffic
 - Supp Support pendukung
