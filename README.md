@@ -23,7 +23,7 @@
 
 ---
 
-| Service| Harga   | time | Traff | complete | Tipe | 🌍 |
+| Service| Harga   | time | Traffic | complete | Tipe | 🌍 |
 | ------ | ------- | ---- | ----- | -------- | ---- | -- |
 | CFG|
 | -      | 5k      | 7D   | no    | no       | File | ❓ |
