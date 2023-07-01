@@ -23,8 +23,8 @@
 
 ---
 
-| Service| Harga   |  ⏳  | Traff | Supp  | Com | Tipe | 🌍 |
-| ------ | ------- | ---- | ----- | ----- | --- | ---- | -- |
+| Service| Harga   | time | Traff | complete | Tipe | 🌍 |
+| ------ | ------- | ---- | ----- | -------- | ---- | -- |
 | CFG|
 | -      | 5k      | 7D   | ❎    | ❎    | ✅  | File | ❓ |
 | -      | 10k     | 1M   | ❎    | ❎    | ✅  | File | ❓ |
