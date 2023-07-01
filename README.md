@@ -28,8 +28,8 @@
 | Service| Harga   |  ⏳  | Traff | Supp  | Com | Tipe | 🌍 |
 | ------ | ------- | ---- | ----- | ----- | --- | ---- | -- |
 | CFG|
-| -      | 5k      | 7D | ❎    | ❎    | ✅  | File | ❓ |
-| -      | 10k     | 1M | ❎    | ❎    | ✅  | File | ❓ |
+| -      | 5k      | 7Day | ❎    | ❎    | ✅  | File | ❓ |
+| -      | 10k     | 1bln | ❎    | ❎    | ✅  | File | ❓ |
 | V2 ray |
 | -      | 15k     | 1M | ❎    | ❎    | ✅  | File | 🥰 |
 | Open Clash |
@@ -38,6 +38,13 @@
 | V3     | 30k     | 1M | ♻️    | ❎    | ❎  | Sync | 🥰 |
 | V4     | 40k     | 1M | ♻️    | ❎    | ❎  | Sync | 🥰 |
 | V5     | 50k     | 1M | ♻️    | ❎    | ❎  | Sync | 🥰 |
+
+⏳ Expired
+🌍 Akses
+❇️ Traffic Bersama
+♻️ Traffic Terpisah
+❓ Tidak Ada kepastian
+🥰 Bebas
 
 - Kontak admin wa / telegram: `083838367172`
 - S&K
