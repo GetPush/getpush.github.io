@@ -36,13 +36,7 @@
 | V3     | 40k     | 1M   | no      | yes      | Sync | 🥰 |
 | V4     | 50k     | 1M   | yes     | yes      | Sync | 🥰 |
 
-- Traff Traffic
-- Supp Support pendukung
-- Com Complete Full Clash
-- ⏳ Expired
 - 🌍 Akses
-- ❇️ Traffic Bersama
-- ♻️ Traffic Terpisah
 - ❓ Tidak Ada kepastian
 - 🥰 Bebas
 
