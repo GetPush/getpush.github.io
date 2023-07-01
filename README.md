@@ -31,10 +31,10 @@
 | V2 ray |
 | -      | 15k     | 1M   | no    | no       | File | 🥰 |
 | Open Clash |
-| V1     | 20k     | 1M   | nl    | no       | Sync | 🥰 |
-| V2     | 30k     | 1M   | ❇️    | ✅       | Sync | 🥰 |
-| V3     | 40k     | 1M   | ♻️    | ❎       | Sync | 🥰 |
-| V4     | 50k     | 1M   | ♻️    | ❎       | Sync | 🥰 |
+| V1     | 20k     | 1M   | no    | no       | Sync | 🥰 |
+| V2     | 30k     | 1M   | yes   | no       | Sync | 🥰 |
+| V3     | 40k     | 1M   | no    | yes      | Sync | 🥰 |
+| V4     | 50k     | 1M   | yes   | yes      | Sync | 🥰 |
 
 - Traff Traffic
 - Supp Support pendukung
