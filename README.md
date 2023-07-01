@@ -25,7 +25,7 @@
 
 ---
 
-| Service| Harga   |  ⏳  | Traff | Support | Com | Tipe | 🌍 |
+| Service| Harga   |  ⏳  | Traff | Supp    | Com | Tipe | 🌍 |
 | ------ | ------- | ---- | ----- | ------- | --- | ---- | -- |
 | CFG|
 | -      | 5k      | 7 Day  | ❎    | ❎    | ✅  | File | ❓ |
