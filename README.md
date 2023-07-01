@@ -26,16 +26,15 @@
 | Service| Harga   | time | Traff | complete | Tipe | 🌍 |
 | ------ | ------- | ---- | ----- | -------- | ---- | -- |
 | CFG|
-| -      | 5k      | 7D   | ❎    | ❎    | ✅  | File | ❓ |
-| -      | 10k     | 1M   | ❎    | ❎    | ✅  | File | ❓ |
+| -      | 5k      | 7D   | no    | no       | File | ❓ |
+| -      | 10k     | 1M   | no    | no       | File | ❓ |
 | V2 ray |
-| -      | 15k     | 1M   | ❎    | ❎    | ✅  | File | 🥰 |
+| -      | 15k     | 1M   | no    | no       | File | 🥰 |
 | Open Clash |
-| V1     | 20k     | 1M   | ❇️    | ❎    | ❎  | Sync | 🥰 |
-| V2     | 25k     | 1M   | ❇️    | ✅    | ❎  | Sync | 🥰 |
-| V3     | 30k     | 1M   | ♻️    | ❎    | ❎  | Sync | 🥰 |
-| V4     | 40k     | 1M   | ♻️    | ❎    | ❎  | Sync | 🥰 |
-| V5     | 50k     | 1M   | ♻️    | ❎    | ❎  | Sync | 🥰 |
+| V1     | 20k     | 1M   | nl    | no       | Sync | 🥰 |
+| V2     | 30k     | 1M   | ❇️    | ✅       | Sync | 🥰 |
+| V3     | 40k     | 1M   | ♻️    | ❎       | Sync | 🥰 |
+| V4     | 50k     | 1M   | ♻️    | ❎       | Sync | 🥰 |
 
 - Traff Traffic
 - Supp Support pendukung
