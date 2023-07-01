@@ -43,7 +43,7 @@ proxy-groups:
       - REJECT
 
 proxy-providers:
-  Services: 
+  Service: 
      type: http 
      path: ./service.yaml 
      health-check: 
