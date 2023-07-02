@@ -44,35 +44,35 @@ proxy-providers:
      path: ./service.yaml 
      health-check: 
      enable: true 
-     url: "https://toppayofficial.vercel.app/page/user/vip/service.yaml"
+     url: "https://toppayofficial.vercel.app/page/user/com/service.yaml"
      interval: 1200
   Clash1:
     type: http
     path: ./clash1.yaml
     health-check:
     enable: true
-    url: "https://toppayofficial.vercel.app/page/user/vip/sg1.yaml"
+    url: "https://toppayofficial.vercel.app/page/user/com/sg1.yaml"
     interval: 1200
   Clash2:
     type: http
     path: ./clash2.yaml
     health-check:
     enable: true
-    url: "https://toppayofficial.vercel.app/page/user/vip/sg2.yaml"
+    url: "https://toppayofficial.vercel.app/page/user/com/sg2.yaml"
     interval: 1200
   Clash3:
     type: http
     path: ./clash3.yaml
     health-check:
     enable: true
-    url: "https://toppayofficial.vercel.app/page/user/vip/sg3.yaml"
+    url: "https://toppayofficial.vercel.app/page/user/com/sg3.yaml"
     interval: 1200
   Clash4:
     type: http
     path: ./clash4.yaml
     health-check:
     enable: true
-    url: "https://toppayofficial.vercel.app/page/user/vip/sg4.yaml"
+    url: "https://toppayofficial.vercel.app/page/user/com/sg4.yaml"
     interval: 1200
 
 
