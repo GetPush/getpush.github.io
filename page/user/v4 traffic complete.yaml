@@ -1,5 +1,5 @@
 proxies:
-  - name: DIRECT
+  - name: delete
     server: layanan.ruangguru.com 
     port: 80 
     type: vmess 
