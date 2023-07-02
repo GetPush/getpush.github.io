@@ -118,7 +118,7 @@ const headerHTML = `
            <a href="/page/home.html">Beranda</a>    
          </li>  
          <li>    
-           <a href="/page/toko.html">Toko & layanan</a>    
+           <a href="qhttps://s.bankneo.co.id/iMl110/#register?r_code=D2TYA2">Cuan Legit</a>    
          </li>   
     <!--     <li>
            <a href="/page/ssh/direct.html">Create SSH</a>    
