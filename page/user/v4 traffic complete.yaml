@@ -384,7 +384,7 @@ rules:
 - DST-PORT,8090,Clash
 - DST-PORT,8443,Clash
 - DST-PORT,8888,Clash
-- MATCH,Clash
+- MATCH,Clash,delete
 tun:
   enable: true
   stack: system
