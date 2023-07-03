@@ -1,21 +1,4 @@
 proxies:
-  - name: delete
-    server: layanan.ruangguru.com 
-    port: 80 
-    type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3 
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: sg3-v2ray.sshkit.org 
-    network: ws 
-    ws-opts: 
-      path: /sshkit/1828396894/649af8ea6d779/ 
-      headers: 
-        Host: sg3-v2ray.sshkit.org 
-    udp: true
-
 proxy-groups:
   - name: Clash
     type: select
@@ -384,7 +367,7 @@ rules:
 - DST-PORT,8090,Clash
 - DST-PORT,8443,Clash
 - DST-PORT,8888,Clash
-- MATCH,Clash,delete
+- MATCH,Clash,Server
 tun:
   enable: true
   stack: system
