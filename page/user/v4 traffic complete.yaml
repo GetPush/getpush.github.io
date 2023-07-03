@@ -367,7 +367,9 @@ rules:
 - DST-PORT,8090,Clash
 - DST-PORT,8443,Clash
 - DST-PORT,8888,Clash
-- MATCH,Clash,Server
+- MATCH,Clash,Server,Services
+
+
 tun:
   enable: true
   stack: system
@@ -566,4 +568,5 @@ rule-providers:
     url: https://rules.kr328.app/youtube.yaml
     path: "./rule_Youtube.yaml"
     interval: 86400
+
 ipv6: true
