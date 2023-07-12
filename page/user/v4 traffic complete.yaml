@@ -49,6 +49,9 @@ proxy-groups:
     use:
       - Clash1
       - Service
+      - Clash2
+      - Clash3
+      - Clash4
     url: http://www.gstatic.com/generate_204
     interval: '300'
 
@@ -59,6 +62,9 @@ proxy-groups:
     use:
       - Clash2
       - Service
+      - Clash1
+      - Clash3
+      - Clash4
     url: http://www.gstatic.com/generate_204
     interval: '300'
     
@@ -69,6 +75,9 @@ proxy-groups:
     use:
       - Clash3
       - Service
+      - Clash1
+      - Clash2
+      - Clash4
     url: http://www.gstatic.com/generate_204
     interval: '300'
     
@@ -78,6 +87,9 @@ proxy-groups:
     use:
       - Clash4
       - Service
+      - Clash1
+      - Clash2
+      - Clash3
     url: http://www.gstatic.com/generate_204
     interval: '600'
 
