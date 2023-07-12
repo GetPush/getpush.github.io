@@ -22,6 +22,9 @@ proxy-groups:
     use:
       - Clash4
       - Service
+      - Clash1
+      - Clash2
+      - Clash3
     
   - name: Server #all fallback 
     type: fallback
