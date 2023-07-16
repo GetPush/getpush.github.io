@@ -44,7 +44,7 @@ proxy-providers:
      path: ./service.yaml 
      health-check: 
      enable: true 
-     url: "https://toppayofficial.vercel.app/page/user/com/service.yaml"
+     url: "https://toppayofficial.vercel.app/page/user/service.yaml"
      interval: 1200
   Clash1:
     type: http
