@@ -15,7 +15,7 @@ proxy-groups:
       - Streaming
       - Gaming
       - Services 
-      - DIRECT
+      
 
   - name: Services 
     type: fallback 
