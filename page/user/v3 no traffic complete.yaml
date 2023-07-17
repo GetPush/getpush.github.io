@@ -17,10 +17,16 @@ proxy-groups:
     type: select
     proxies:
       - Services 
+      - Resolve
       - Server
     use:
       - Service
 
+
+  - name: Resolve 
+    type: fallback 
+    use:
+      - Service
 
   - name: Services 
     type: fallback 
