@@ -16,8 +16,8 @@ proxy-groups:
   - name: PORT 443 
     type: select
     proxies:
-      - Server 
-      - Services
+      - Services 
+      - Server
     use:
       - Service
       - Clash4
