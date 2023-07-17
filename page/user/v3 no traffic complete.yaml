@@ -293,7 +293,7 @@ rules:
 - DST-PORT,80,Clash
 - DST-PORT,81,Clash
 - DST-PORT,143,Clash
-- DST-PORT,443,Services
+- DST-PORT,443,PORT 443 
 - DST-PORT,465,Clash
 - DST-PORT,587,Clash
 - DST-PORT,993,Clash
@@ -306,7 +306,7 @@ rules:
 - DST-PORT,8443,Clash
 - DST-PORT,8888,Clash
 #- DOMAIN-SUFFIX,
-- MATCH,Clash,Server,Services 
+- MATCH,Clash,Server,PORT 443,Services 
 
 tun:
   enable: true
