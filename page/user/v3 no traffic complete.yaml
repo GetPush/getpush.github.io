@@ -51,7 +51,8 @@ proxy-groups:
     type: select
     proxies:
       - Server 
-      - Services
+      - Services 
+      - Resolve
       - REJECT
 
 proxy-providers:
