@@ -16,7 +16,7 @@ proxies:
         Host: us1.v2rayserv.com
     udp: true
 
-:
+
   - name: service 2 #
     server: 104.19.142.89
     port: 80
