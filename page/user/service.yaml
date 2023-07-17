@@ -1,55 +1,55 @@
 proxies:
   - name: service 1 #
-    server: 104.19.142.89
+    server: 104.16.108.96
     port: 80
     type: vmess
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    uuid: 0c4c6d70-95aa-4d70-8880-ea43d6b48741
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: sg4-v2ray.sshkit.org
+    servername: us1.v2rayserv.com
     network: ws
     ws-opts:
-      path: /sshkit/1828396894/649af9079e002/
+      path: /vmess
       headers:
-        Host: sg4-v2ray.sshkit.org
+        Host: us1.v2rayserv.com
     udp: true
 
-
+:
   - name: service 2 #
     server: 104.19.142.89
     port: 80
     type: vmess
-    uuid: aa721960-2332-11ee-b231-205c6d5f5d78
+    uuid: 0c4c6d70-95aa-4d70-8880-ea43d6b48741
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: id-1.0rd.net
+    servername: us1.v2rayserv.com
     network: ws
     ws-opts:
-      path: /ehcsn9kp
+      path: /vmess
       headers:
-        Host: id-1.0rd.net
+        Host: us1.v2rayserv.com
     udp: true
 
 
   - name: service 3 #
-    server: 104.19.142.89
+    server: 104.16.108.96
     port: 80
     type: vmess
-    uuid: aa721960-2332-11ee-b231-205c6d5f5d78
+    uuid: e377d03a-4b3f-46b1-9199-46f769d8367a
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: id-1.0rd.net
+    servername: us2.v2rayserv.com
     network: ws
     ws-opts:
-      path: /ehcsn9kp
+      path: /vmess
       headers:
-        Host: id-1.0rd.net
+        Host: us2.v2rayserv.com
     udp: true
 
 
@@ -57,33 +57,16 @@ proxies:
     server: 104.19.142.89
     port: 80
     type: vmess
-    uuid: aa721960-2332-11ee-b231-205c6d5f5d78
+    uuid: e377d03a-4b3f-46b1-9199-46f769d8367a
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: id-1.0rd.net
+    servername: us2.v2rayserv.com
     network: ws
     ws-opts:
-      path: /ehcsn9kp
+      path: /vmess
       headers:
-        Host: id-1.0rd.net
+        Host: us2.v2rayserv.com
     udp: true
 
-
-  - name: service 5 #
-    server: 104.19.142.89
-    port: 80
-    type: vmess
-    uuid: aa721960-2332-11ee-b231-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: id-1.0rd.net
-    network: ws
-    ws-opts:
-      path: /ehcsn9kp
-      headers:
-        Host: id-1.0rd.net
-    udp: true
