@@ -20,7 +20,7 @@ proxy-groups:
       - Server
     use:
       - Service
-      - Clash4
+
 
   - name: Services 
     type: fallback 
