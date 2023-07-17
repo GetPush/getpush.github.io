@@ -19,13 +19,14 @@ proxy-groups:
       - Server 
       - Services
     use:
-      - Service 
+      - Service
+      - Clash4
 
   - name: Services 
     type: fallback 
     use:
-      - Service
       - Clash4
+      - Service
     
   - name: Server #all fallback 
     type: fallback
