@@ -4,6 +4,7 @@ proxy-groups:
     type: select
     proxies:
       - Server 
+      - Resolve
       - Services 
     use:
      # - Clash1
