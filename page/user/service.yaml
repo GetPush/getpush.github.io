@@ -1,37 +1,37 @@
 proxies:
   - name: service 1 #
-    server: 104.16.108.96
+    server: 104.19.142.89
     port: 80
-    type: vmess
-    uuid: 0c4c6d70-95aa-4d70-8880-ea43d6b48741
+    type: vless
+    uuid: ec2be492-85a1-40ca-8165-5225255f4f61
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: us1.v2rayserv.com
+    servername: us1.v2vless.xyz
     network: ws
     ws-opts:
-      path: /vmess
+      path: /vless
       headers:
-        Host: us1.v2rayserv.com
+        Host: us1.v2vless.xyz
     udp: true
 
-
+:
   - name: service 2 #
     server: 104.19.142.89
     port: 80
-    type: vmess
-    uuid: 0c4c6d70-95aa-4d70-8880-ea43d6b48741
+    type: vless
+    uuid: ff8b0e81-449f-485b-9369-1ea8cdde0675
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: us1.v2rayserv.com
+    servername: us2.v2vless.xyz
     network: ws
     ws-opts:
-      path: /vmess
+      path: /vless
       headers:
-        Host: us1.v2rayserv.com
+        Host: us2.v2vless.xyz
     udp: true
 
 
