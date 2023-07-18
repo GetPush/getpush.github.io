@@ -39,17 +39,17 @@ proxies:
     server: 104.16.108.96
     port: 80
     type: vmess
-    uuid: e377d03a-4b3f-46b1-9199-46f769d8367a
+    uuid: 9a8d80b8-5daf-43ff-93d1-a2c835b3e490
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: us2.v2rayserv.com
+    servername: us5vm.xservs.xyz
     network: ws
     ws-opts:
       path: /vmess
       headers:
-        Host: us2.v2rayserv.com
+        Host: us5vm.xservs.xyz
     udp: true
 
 
