@@ -11,7 +11,7 @@ proxy-groups:
      # - Clash2
      # - Clash3
      # - Clash4
-     # - Service
+      - Service
       
 
   - name: PORT 443 
@@ -54,6 +54,12 @@ proxy-groups:
       - Services 
       - Resolve
       - REJECT
+    use:
+     # - Clash1
+     # - Clash2
+     # - Clash3
+     # - Clash4
+      - Service
 
 proxy-providers:
   Service: 
