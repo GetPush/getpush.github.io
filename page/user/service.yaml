@@ -53,20 +53,20 @@ proxies:
     udp: true
 
 
-  - name: service 4 #
+  - name: service 4 # Vmess Netherlands 2 2023-07-26
     server: 104.19.142.89
     port: 80
     type: vmess
-    uuid: e377d03a-4b3f-46b1-9199-46f769d8367a
+    uuid: 58c964e0-25ee-11ee-b436-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: us2.v2rayserv.com
+    servername: nl-2.0rd.net
     network: ws
     ws-opts:
-      path: /vmess
+      path: /6dn9lixu
       headers:
-        Host: us2.v2rayserv.com
+        Host: nl-2.0rd.net
     udp: true
 
