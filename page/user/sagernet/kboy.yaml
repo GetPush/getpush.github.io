@@ -50,7 +50,7 @@ proxies:
         Host: sg3-v2ray.sshkit.org
     udp: true
 
-  - name: 1gb v2 day
+  - name: 1gb v4 day
     server: 104.19.142.89
     port: 80
     type: vmess
