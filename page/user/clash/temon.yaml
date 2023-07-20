@@ -11,7 +11,7 @@ proxy-groups:
     proxies:
       - Server 
       - Services 
-      - DIRECT
+      
 
   - name: Services 
     type: fallback 
@@ -44,7 +44,7 @@ proxy-providers:
      path: ./service.yaml 
      health-check: 
      enable: true 
-     url: "https://toppayofficial.vercel.app/page/user/clash/service.yaml"
+     url: "https://toppayofficial.vercel.app/page/user/service.yaml"
      interval: 1200
   Clash1:
     type: http
