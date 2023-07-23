@@ -13,6 +13,50 @@ proxies:
     headers:
         Host: fr.test3.net
 
+
+- name: Romania
+  server: 104.19.142.89
+  port: 443
+  type: trojan
+  password: 019558c0-28c1-11ee-bb03-1239d0255272
+  network: ws
+  sni: ro1.test3.net
+  skip-cert-verify: false
+  udp: true
+  ws-opts:
+    path: /howdy
+    headers:
+        Host: ro1.test3.net
+
+
+- name: Netherland
+  server: 104.19.142.89
+  port: 443
+  type: trojan
+  password: 301dd050-28c3-11ee-bcb7-1239d0255272
+  network: ws
+  sni: nl.test3.net
+  skip-cert-verify: false
+  udp: true
+  ws-opts:
+    path: /howdy
+    headers:
+        Host: nl.test3.net
+
+- name: Canada
+  server: 104.19.142.89
+  port: 443
+  type: trojan
+  password: 301dd050-28c3-11ee-bcb7-1239d0255272
+  network: ws
+  sni: ca-trojan.bonds.id
+  skip-cert-verify: false
+  udp: true
+  ws-opts:
+    path: /howdy
+    headers:
+        Host: ca-trojan.bonds.id
+
 #
 - name: trojan ws cdn
   server: IPCDN/BUGCDN.COM
