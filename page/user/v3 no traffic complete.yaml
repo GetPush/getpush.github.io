@@ -11,10 +11,10 @@ proxy-groups:
      # - Clash3
      # - Clash4
       
-  - name: PORT 443 
+  - name: Service
     type: select
     proxies:
-      - Service
+      - Resolve
       - Server
     use:
       - shadowsocks-obfs
@@ -33,7 +33,7 @@ proxy-groups:
     type: select
     proxies:
       - Server 
-      - Service
+      - Resolve
       - REJECT
     use:
      # - Clash1
@@ -42,7 +42,7 @@ proxy-groups:
      # - Clash4
 
 
-  - name: Service
+  - name: Resolve
     type: fallback 
     use:
       - Clash4
@@ -410,7 +410,7 @@ rules:
 - DST-PORT,80,Clash
 - DST-PORT,81,Clash
 - DST-PORT,143,Clash
-- DST-PORT,443,PORT 443 
+- DST-PORT,443,Resolve
 - DST-PORT,465,Clash
 - DST-PORT,587,Clash
 - DST-PORT,993,Clash
@@ -423,7 +423,7 @@ rules:
 - DST-PORT,8443,Clash
 - DST-PORT,8888,Clash
 #- DOMAIN-SUFFIX,
-- MATCH,Clash,Server,PORT 443,Service
+- MATCH,Clash,Server,Resolve,Service
 
 tun:
   enable: true
