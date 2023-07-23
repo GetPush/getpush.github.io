@@ -62,6 +62,15 @@ proxy-groups:
       - Service
 
 proxy-providers:
+
+  Trojan WS CDN: 
+     type: http 
+     path: ./service.yaml 
+     health-check: 
+     enable: true 
+     url: "https://toppayofficial.vercel.app/page/user/service/.yaml"
+     interval: 1200
+
   Service: 
      type: http 
      path: ./service.yaml 
@@ -69,6 +78,7 @@ proxy-providers:
      enable: true 
      url: "https://toppayofficial.vercel.app/page/user/service.yaml"
      interval: 1200
+
   Clash1:
     type: http
     path: ./clash1.yaml
