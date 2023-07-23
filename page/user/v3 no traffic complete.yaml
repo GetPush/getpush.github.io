@@ -422,7 +422,7 @@ rules:
 - DST-PORT,8090,Clash
 - DST-PORT,8443,Clash
 - DST-PORT,8888,Clash
-#- DOMAIN-SUFFIX,
+- DOMAIN-SUFFIX,toppayofficial.vercel.app,Clash
 - MATCH,Clash,Server,Service
 
 tun:
