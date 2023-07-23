@@ -1,0 +1,12 @@
+proxies:
+#
+- name: "shadowsocks obfs"
+    type: ss
+    server: aaa.bbb.ccc.ddd
+    port: 32033
+    cipher: chacha20-ietf-poly1305
+    password: passwordss
+    plugin: obfs
+    plugin-opts:
+      mode: tls
+      host: BUG.COM

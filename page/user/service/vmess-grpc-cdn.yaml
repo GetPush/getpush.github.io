@@ -1,0 +1,15 @@
+proxies:
+#
+  - name: vmess grpc CDN
+    server: IPCDN/BUGCDN.COM
+    port: 443
+    type: vmess
+    uuid: UUIDMU
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: namadomainservermu.com
+    skip-cert-verify: false
+    grpc-opts:
+      grpc-service-name: grpcpath

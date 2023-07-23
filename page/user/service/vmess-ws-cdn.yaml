@@ -1,0 +1,20 @@
+proxies:
+#
+- name: "vmess ws CDN"
+  type: vmess
+  server: IPCDN/BUGCDN.COM
+  port: 443
+  uuid: UUIDMU
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: namadomainservermu.com
+  network: ws
+  ws-opts:
+    path: /iptunnelscom
+    headers:
+      Host: namadomainservermu.com
+    max-early-data: 2048
+    early-data-header-name: Sec-WebSocket-Protocol

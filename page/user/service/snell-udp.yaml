@@ -1,0 +1,12 @@
+proxies:
+#
+- name: "snell udp"
+  type: snell
+  server: aaa.bbb.ccc.ddd
+  port: 33223
+  psk: password
+  version: 3
+  udp: true
+  obfs-opts:
+    mode: tls
+    host: BUGSNI.COM

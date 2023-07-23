@@ -1,0 +1,15 @@
+proxies:
+#
+- name: trojan ws cdn
+  server: IPCDN/BUGCDN.COM
+  port: 443
+  type: trojan
+  password: PASSWORD
+  network: ws
+  sni: namadomainservermu.com
+  skip-cert-verify: false
+  udp: true
+  ws-opts:
+    path: /iptunnelstrgo
+    headers:
+        Host: namadomainservermu.com

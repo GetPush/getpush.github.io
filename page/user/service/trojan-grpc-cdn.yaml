@@ -1,0 +1,15 @@
+proxies:
+#
+- name: "trojan gRPC CDN"
+  type: trojan
+  server: IPCDN/BUGCDN.COM
+  port: 443
+  password: PASSWORD
+  udp: true
+  sni: namadomainservermu.com
+  alpn:
+  - h2
+  skip-cert-verify: false
+  network: grpc
+  grpc-opts:
+    grpc-service-name: iptunnelstrojangrpc

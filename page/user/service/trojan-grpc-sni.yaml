@@ -1,0 +1,15 @@
+proxies:
+#
+- name: "trojan gRPC SNI"
+  type: trojan
+  server: aaa.bbb.ccc.ddd
+  port: 443
+  password: PASSWORD
+  udp: true
+  sni: BUGSNI.COM
+  alpn:
+  - h2
+  skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: iptunnelstrojangrpc
