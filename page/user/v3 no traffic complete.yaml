@@ -65,10 +65,10 @@ proxy-providers:
 
   Trojan WS CDN: 
      type: http 
-     path: ./service.yaml 
+     path: ./trojan-ws-cdn.yaml 
      health-check: 
      enable: true 
-     url: "https://toppayofficial.vercel.app/page/user/service/.yaml"
+     url: "https://toppayofficial.vercel.app/page/user/service/trojan-ws-cdn.yaml"
      interval: 1200
 
   Service: 
