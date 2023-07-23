@@ -13,7 +13,6 @@ proxy-groups:
      # - Clash4
       - Service
       
-
   - name: PORT 443 
     type: select
     proxies:
@@ -21,6 +20,32 @@ proxy-groups:
       - Resolve
       - Server
     use:
+      - Service
+      - shadowsocks-obfs
+      - shadowsocks
+      - snell-udp
+      - trojan-gfw-sni
+      - trojan-grpc-cdn
+      - trojan-grpc-sni
+      - trojan-ws-cdn
+      - vmess-grpc-cdn
+      - vmess-grpc-sni
+      - vmess-ws-cdn
+      - vmess-ws-sni
+
+
+  - name: BlockAds
+    type: select
+    proxies:
+      - Server 
+      - Services 
+      - Resolve
+      - REJECT
+    use:
+     # - Clash1
+     # - Clash2
+     # - Clash3
+     # - Clash4
       - Service
 
 
@@ -58,19 +83,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '600'
 
-  - name: BlockAds
-    type: select
-    proxies:
-      - Server 
-      - Services 
-      - Resolve
-      - REJECT
-    use:
-     # - Clash1
-     # - Clash2
-     # - Clash3
-     # - Clash4
-      - Service
 
 proxy-providers:
   shadowsocks-obfs: 
