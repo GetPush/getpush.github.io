@@ -4,23 +4,19 @@ proxy-groups:
     type: select
     proxies:
       - Server 
-      - Resolve
-      - Services 
+      - Service
     use:
      # - Clash1
      # - Clash2
      # - Clash3
      # - Clash4
-      - Service
       
   - name: PORT 443 
     type: select
     proxies:
-      - Services 
-      - Resolve
+      - Service
       - Server
     use:
-      - Service
       - shadowsocks-obfs
       - shadowsocks
       - snell-udp
@@ -33,32 +29,23 @@ proxy-groups:
       - vmess-ws-cdn
       - vmess-ws-sni
 
-
   - name: BlockAds
     type: select
     proxies:
       - Server 
-      - Services 
-      - Resolve
+      - Service
       - REJECT
     use:
      # - Clash1
      # - Clash2
      # - Clash3
      # - Clash4
-      - Service
 
 
-  - name: Resolve 
-    type: fallback 
-    use:
-      - Service
-
-  - name: Services 
+  - name: Service
     type: fallback 
     use:
       - Clash4
-      - Service
       - shadowsocks-obfs
       - shadowsocks
       - snell-udp
@@ -79,7 +66,6 @@ proxy-groups:
       - Clash2
       - Clash3
       - Clash4
-      - Service
       - shadowsocks-obfs
       - shadowsocks
       - snell-udp
@@ -184,13 +170,6 @@ proxy-providers:
      url: "https://toppayofficial.vercel.app/page/user/service/vmess-ws-sni.yaml"
      interval: 1200
 
-  Service: 
-     type: http 
-     path: ./service.yaml 
-     health-check: 
-     enable: true 
-     url: "https://toppayofficial.vercel.app/page/user/service.yaml"
-     interval: 1200
 
   Clash1:
     type: http
@@ -444,7 +423,7 @@ rules:
 - DST-PORT,8443,Clash
 - DST-PORT,8888,Clash
 #- DOMAIN-SUFFIX,
-- MATCH,Clash,Server,PORT 443,Services 
+- MATCH,Clash,Server,PORT 443,Service
 
 tun:
   enable: true
