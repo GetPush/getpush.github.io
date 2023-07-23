@@ -34,7 +34,17 @@ proxy-groups:
     use:
       - Clash4
       - Service
-      - Trojan WS CDN
+      - shadowsocks-obfs
+      - shadowsocks
+      - snell-udp
+      - trojan-gfw-sni
+      - trojan-grpc-cdn
+      - trojan-grpc-sni
+      - trojan-ws-cdn
+      - vmess-grpc-cdn
+      - vmess-grpc-sni
+      - vmess-ws-cdn
+      - vmess-ws-sni
     
   - name: Server #all fallback 
     type: fallback
@@ -63,13 +73,92 @@ proxy-groups:
       - Service
 
 proxy-providers:
+  shadowsocks-obfs: 
+     type: http 
+     path: ./shadowsocks-obfs.yaml 
+     health-check: 
+     enable: true 
+     url: "https://toppayofficial.vercel.app/page/user/service/shadowsocks-obfs.yaml"
+     interval: 1200
 
-  Trojan WS CDN: 
+  shadowsocks: 
+     type: http 
+     path: ./shadowsocks.yaml 
+     health-check: 
+     enable: true 
+     url: "https://toppayofficial.vercel.app/page/user/service/shadowsocks.yaml"
+     interval: 1200
+
+  snell-udp: 
+     type: http 
+     path: ./snell-udp.yaml 
+     health-check: 
+     enable: true 
+     url: "https://toppayofficial.vercel.app/page/user/service/snell-udp.yaml"
+     interval: 1200
+
+  trojan-gfw-sni: 
+     type: http 
+     path: ./trojan-gfw-sni.yaml 
+     health-check: 
+     enable: true 
+     url: "https://toppayofficial.vercel.app/page/user/service/trojan-gfw-sni.yaml"
+     interval: 1200
+
+  trojan-grpc-cdn: 
+     type: http 
+     path: ./trojan-grpc-cdn.yaml 
+     health-check: 
+     enable: true 
+     url: "https://toppayofficial.vercel.app/page/user/service/trojan-grpc-cdn.yaml"
+     interval: 1200
+
+  trojan-grpc-sni: 
+     type: http 
+     path: ./trojan-grpc-sni.yaml 
+     health-check: 
+     enable: true 
+     url: "https://toppayofficial.vercel.app/page/user/service/trojan-grpc-sni.yaml"
+     interval: 1200
+
+  trojan-ws-cdn: 
      type: http 
      path: ./trojan-ws-cdn.yaml 
      health-check: 
      enable: true 
      url: "https://toppayofficial.vercel.app/page/user/service/trojan-ws-cdn.yaml"
+     interval: 1200
+
+  vmess-grpc-cdn: 
+     type: http 
+     path: ./vmess-grpc-cdn.yaml 
+     health-check: 
+     enable: true 
+     url: "https://toppayofficial.vercel.app/page/user/service/vmess-grpc-cdn.yaml"
+     interval: 1200
+
+  vmess-grpc-sni: 
+     type: http 
+     path: ./vmess-grpc-sni.yaml 
+     health-check: 
+     enable: true 
+     url: "https://toppayofficial.vercel.app/page/user/service/vmess-grpc-sni"
+     interval: 1200
+
+  vmess-ws-cdn: 
+     type: http 
+     path: ./vmess-ws-cdn.yaml 
+     health-check: 
+     enable: true 
+     url: "https://toppayofficial.vercel.app/page/user/service/vmess-ws-cdn.yaml"
+     interval: 1200
+
+  vmess-ws-sni: 
+     type: http 
+     path: ./vmess-ws-sni.yaml 
+     health-check: 
+     enable: true 
+     url: "https://toppayofficial.vercel.app/page/user/service/vmess-ws-sni.yaml"
      interval: 1200
 
   Service: 
