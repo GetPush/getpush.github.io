@@ -80,6 +80,17 @@ proxy-groups:
       - Clash3
       - Clash4
       - Service
+      - shadowsocks-obfs
+      - shadowsocks
+      - snell-udp
+      - trojan-gfw-sni
+      - trojan-grpc-cdn
+      - trojan-grpc-sni
+      - trojan-ws-cdn
+      - vmess-grpc-cdn
+      - vmess-grpc-sni
+      - vmess-ws-cdn
+      - vmess-ws-sni
     url: http://www.gstatic.com/generate_204
     interval: '600'
 
