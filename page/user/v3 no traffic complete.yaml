@@ -34,6 +34,7 @@ proxy-groups:
     use:
       - Clash4
       - Service
+      - Trojan WS CDN
     
   - name: Server #all fallback 
     type: fallback
