@@ -24,12 +24,11 @@ proxy-groups:
   - name: Service
     type: select
     proxies:
-      - Resolve
+      - Resolve  
+      - Server 
       - Fall Back 
       - Best Ping 
       - Load Balance 
-      - Resolve  
-      - Server 
       - SHADOWSOCKS-OBFS
       - SHADOWSOCKS
       - SNELL-UDP
