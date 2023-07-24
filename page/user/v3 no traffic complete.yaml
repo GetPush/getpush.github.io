@@ -1,23 +1,5 @@
 proxies:
 proxy-groups:
-  - name: Mode 🌍
-    type: select
-    proxies:
-      - Fall Back 
-      - Best Ping 
-      - Load Balance
-      - SHADOWSOCKS-OBFS
-      - SHADOWSOCKS
-      - SNELL-UDP
-      - TROJAN-GFW-SNI
-      - TROJAN-GRPC-CDN
-      - TROJAN-GRPC-SNI
-      - TROJAN-WS-CDN
-      - VMESS-GRPC-CDN
-      - VMESS-GRPC-SNI
-      - VMESS-WS-CDN
-      - VMESS-WS-SNI
-      
 
   - name: Iklan
     type: select
@@ -505,8 +487,8 @@ rules:
 - DST-PORT,8090,Fall Back 
 - DST-PORT,8443,Load Balance  
 - DST-PORT,8888,Best Ping  
-- DOMAIN-SUFFIX,www.google.com,Mode 🌍
-- MATCH,Mode 🌍
+- DOMAIN-SUFFIX,www.google.com,Fall Back 
+- MATCH,Fall Back,Best Ping,Load Balance
 
 tun:
   enable: true
