@@ -543,24 +543,24 @@ rules:
 - RULE-SET,rule_BlockAds,Iklan
 - RULE-SET,rule_reject,Iklan
 - RULE-SET,rule_privacy,REJECT
-- DST-PORT,21,Server
-- DST-PORT,23,Server
-- DST-PORT,25,Server
-- DST-PORT,80,Server
-- DST-PORT,81,Server
-- DST-PORT,143,Server
+- DST-PORT,21,Best Ping 
+- DST-PORT,23,Fall Back 
+- DST-PORT,25,Service 
+- DST-PORT,80,Load Balance 
+- DST-PORT,81,Best Ping 
+- DST-PORT,143,Fall Back 
 - DST-PORT,443,Service
-- DST-PORT,465,Service
-- DST-PORT,587,Service
-- DST-PORT,993,Service
+- DST-PORT,465,Load Balance 
+- DST-PORT,587,Best Ping 
+- DST-PORT,993,Fall Back 
 - DST-PORT,995,Service
-- DST-PORT,8000,Service
-- DST-PORT,8008,Mode 🌍
-- DST-PORT,8080,Mode 🌍
-- DST-PORT,8081,Mode 🌍
-- DST-PORT,8090,Mode 🌍
-- DST-PORT,8443,Mode 🌍
-- DST-PORT,8888,Mode 🌍
+- DST-PORT,8000,Load Balance 
+- DST-PORT,8008,Best Ping 
+- DST-PORT,8080,Fall Back 
+- DST-PORT,8081,Service 
+- DST-PORT,8090,Load Balance 
+- DST-PORT,8443,Best Ping 
+- DST-PORT,8888,Fall Back 
 - DOMAIN-SUFFIX,www.google.com,Mode 🌍
 - MATCH,Mode 🌍
 
