@@ -5,10 +5,7 @@ proxy-groups:
     proxies:
       - Fall Back 
       - Best Ping 
-      - Load Balance 
-      - Server 
-      - Service 
-      - Resolve
+      - Load Balance
       - SHADOWSOCKS-OBFS
       - SHADOWSOCKS
       - SNELL-UDP
@@ -21,25 +18,6 @@ proxy-groups:
       - VMESS-WS-CDN
       - VMESS-WS-SNI
       
-  - name: Service
-    type: select
-    proxies:
-      - Resolve  
-      - Server 
-      - Fall Back 
-      - Best Ping 
-      - Load Balance 
-      - SHADOWSOCKS-OBFS
-      - SHADOWSOCKS
-      - SNELL-UDP
-      - TROJAN-GFW-SNI
-      - TROJAN-GRPC-CDN
-      - TROJAN-GRPC-SNI
-      - TROJAN-WS-CDN
-      - VMESS-GRPC-CDN
-      - VMESS-GRPC-SNI
-      - VMESS-WS-CDN
-      - VMESS-WS-SNI
 
   - name: Iklan
     type: select
@@ -70,10 +48,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '300' #600 or #300
     use:
-      - Clash1
-      - Clash2
-      - Clash3
       - Clash4
+      - Clash3
+      - Clash2
+      - Clash1
       - shadowsocks-obfs
       - shadowsocks
       - snell-udp
@@ -130,37 +108,6 @@ proxy-groups:
       - vmess-grpc-sni
       - vmess-ws-cdn
       - vmess-ws-sni
-
-
-  - name: Server 
-    type: fallback
-    disable-udp: false
-    use:
-      - Clash1
-      - Clash2
-      - Clash3
-      - Clash4
-    url: http://www.gstatic.com/generate_204
-    interval: '300' #600 or #300
-
-  - name: Resolve 
-    type: fallback
-    disable-udp: false
-    use:
-      - Clash4
-      - shadowsocks-obfs
-      - shadowsocks
-      - snell-udp
-      - trojan-gfw-sni
-      - trojan-grpc-cdn
-      - trojan-grpc-sni
-      - trojan-ws-cdn
-      - vmess-grpc-cdn
-      - vmess-grpc-sni
-      - vmess-ws-cdn
-      - vmess-ws-sni
-    url: http://www.gstatic.com/generate_204
-    interval: '600'
 
 
   - name: SHADOWSOCKS-OBFS
@@ -543,24 +490,24 @@ rules:
 - RULE-SET,rule_BlockAds,Iklan
 - RULE-SET,rule_reject,Iklan
 - RULE-SET,rule_privacy,REJECT
-- DST-PORT,21,Best Ping 
-- DST-PORT,23,Fall Back 
-- DST-PORT,25,Service 
-- DST-PORT,80,Load Balance 
-- DST-PORT,81,Best Ping 
-- DST-PORT,143,Fall Back 
-- DST-PORT,443,Service
+- DST-PORT,21,Fall Back
+- DST-PORT,23,Load Balance 
+- DST-PORT,25,Best Ping  
+- DST-PORT,80,Fall Back
+- DST-PORT,81,Load Balance 
+- DST-PORT,143,Best Ping 
+- DST-PORT,443,Fall Back
 - DST-PORT,465,Load Balance 
 - DST-PORT,587,Best Ping 
 - DST-PORT,993,Fall Back 
-- DST-PORT,995,Service
-- DST-PORT,8000,Load Balance 
-- DST-PORT,8008,Best Ping 
-- DST-PORT,8080,Fall Back 
-- DST-PORT,8081,Service 
-- DST-PORT,8090,Load Balance 
-- DST-PORT,8443,Best Ping 
-- DST-PORT,8888,Fall Back 
+- DST-PORT,995,Load Balance 
+- DST-PORT,8000,Best Ping 
+- DST-PORT,8008,Fall Back 
+- DST-PORT,8080,Load Balance  
+- DST-PORT,8081,Best Ping  
+- DST-PORT,8090,Fall Back 
+- DST-PORT,8443,Load Balance  
+- DST-PORT,8888,Best Ping  
 - DOMAIN-SUFFIX,www.google.com,Mode 🌍
 - MATCH,Mode 🌍
 
