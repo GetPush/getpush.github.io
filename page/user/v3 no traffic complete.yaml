@@ -1,6 +1,6 @@
 proxies:
 proxy-groups:
-  - name: Clash
+  - name: Mode
     type: select
     proxies:
       - Server 
@@ -35,7 +35,7 @@ proxy-groups:
       - VMESS-WS-CDN
       - VMESS-WS-SNI
 
-  - name: BlockAds
+  - name: Iklan
     type: select
     proxies:
       - Server 
@@ -53,10 +53,9 @@ proxy-groups:
       - VMESS-WS-CDN
       - VMESS-WS-SNI
       - REJECT
-
-
+ 
     
-  - name: Server 
+ - name: Fall Back 
     type: fallback
     disable-udp: false
     use:
@@ -76,13 +75,38 @@ proxy-groups:
       - vmess-ws-cdn
       - vmess-ws-sni
     url: http://www.gstatic.com/generate_204
-    interval: '600'
+    interval: '300' #600 or #300
+
+  - name: Best PING 
+    type: url-test 
+    disable-udp: false 
+    url: http://www.gstatic.com/generate_204 
+    interval: '300' #600 or #300
+  
+  - name: Load Balance  
+    type: load-balance 
+    strategy: consistent-hashing 
+    disable-udp: false 
+    url: http://www.gstatic.com/generate_204 
+    interval: '300' #600 or #300
+
+
+
+  - name: Server 
+    type: fallback
+    disable-udp: false
+    use:
+      - Clash1
+      - Clash2
+      - Clash3
+      - Clash4
+    url: http://www.gstatic.com/generate_204
+    interval: '300' #600 or #300
 
   - name: Resolve 
     type: fallback
     disable-udp: false
     use:
-      - Clash4
       - shadowsocks-obfs
       - shadowsocks
       - snell-udp
@@ -475,8 +499,8 @@ rules:
 - PROCESS-NAME,privoxy.exe,DIRECT
 - DST-PORT,22,DIRECT,no-resolve
 - RULE-SET,rule_porn,REJECT
-- RULE-SET,rule_BlockAds,BlockAds
-- RULE-SET,rule_reject,BlockAds
+- RULE-SET,rule_BlockAds,Iklan
+- RULE-SET,rule_reject,Iklan
 - RULE-SET,rule_privacy,REJECT
 - DST-PORT,21,Server
 - DST-PORT,23,Server
@@ -496,8 +520,8 @@ rules:
 - DST-PORT,8090,Clash
 - DST-PORT,8443,Clash
 - DST-PORT,8888,Clash
-- DOMAIN-SUFFIX,toppayofficial.vercel.app,Clash
-- MATCH,Clash,Server,Service
+- DOMAIN-SUFFIX,www.google.com,Clash
+- MATCH,Mode
 
 tun:
   enable: true
