@@ -4,9 +4,9 @@ proxy-groups:
   - name: Iklan
     type: select
     proxies:
+      - Load Balance
       - Fall Back 
       - Best Ping 
-      - Load Balance
       - REJECT
  
     
@@ -419,8 +419,8 @@ rules:
 - DST-PORT,8090,Fall Back 
 - DST-PORT,8443,Load Balance  
 - DST-PORT,8888,Best Ping  
-- DOMAIN-SUFFIX,www.google.com,Fall Back 
-- MATCH,Fall Back,Best Ping,Load Balance
+- DOMAIN-SUFFIX,www.google.com,Fall Back
+- MATCH,Fall Back
 
 tun:
   enable: true
