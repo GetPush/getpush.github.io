@@ -556,14 +556,14 @@ rules:
 - DST-PORT,993,Service
 - DST-PORT,995,Service
 - DST-PORT,8000,Service
-- DST-PORT,8008,Mode
-- DST-PORT,8080,Mode
-- DST-PORT,8081,Mode
-- DST-PORT,8090,Mode
-- DST-PORT,8443,Mode
-- DST-PORT,8888,Mode
-- DOMAIN-SUFFIX,www.google.com,Mode
-- MATCH,Mode
+- DST-PORT,8008,Mode 🌍
+- DST-PORT,8080,Mode 🌍
+- DST-PORT,8081,Mode 🌍
+- DST-PORT,8090,Mode 🌍
+- DST-PORT,8443,Mode 🌍
+- DST-PORT,8888,Mode 🌍
+- DOMAIN-SUFFIX,www.google.com,Mode 🌍
+- MATCH,Mode 🌍
 
 tun:
   enable: true
