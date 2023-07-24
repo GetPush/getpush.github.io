@@ -38,10 +38,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204 
     interval: '300' #600 or #300
     use:
-      - Clash1
       - Clash2
-      - Clash3
+      - Clash1
       - Clash4
+      - Clash3
       - shadowsocks-obfs
       - shadowsocks
       - snell-udp
@@ -61,9 +61,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204 
     interval: '300' #600 or #300
     use:
-      - Clash1
-      - Clash2
       - Clash3
+      - Clash2
+      - Clash1
       - Clash4
       - shadowsocks-obfs
       - shadowsocks
