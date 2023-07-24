@@ -25,9 +25,6 @@ proxy-groups:
       - Fall Back 
       - Best Ping 
       - Load Balance 
-      - Server 
-      - Service 
-      - Resolve
       - SHADOWSOCKS-OBFS
       - SHADOWSOCKS
       - SNELL-UDP
