@@ -6,18 +6,7 @@ proxy-groups:
     proxies:
       - Fall Back 
       - Best Ping 
-      - Load Balance 
-      - SHADOWSOCKS-OBFS
-      - SHADOWSOCKS
-      - SNELL-UDP
-      - TROJAN-GFW-SNI
-      - TROJAN-GRPC-CDN
-      - TROJAN-GRPC-SNI
-      - TROJAN-WS-CDN
-      - VMESS-GRPC-CDN
-      - VMESS-GRPC-SNI
-      - VMESS-WS-CDN
-      - VMESS-WS-SNI
+      - Load Balance
       - REJECT
  
     
