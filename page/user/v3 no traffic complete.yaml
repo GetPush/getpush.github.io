@@ -1,8 +1,11 @@
 proxies:
 proxy-groups:
-  - name: Mode
+  - name: Mode 🌍
     type: select
     proxies:
+      - Fall Back 
+      - Best Ping 
+      - Load Balance 
       - Server 
       - Service 
       - Resolve
@@ -21,6 +24,10 @@ proxy-groups:
   - name: Service
     type: select
     proxies:
+      - Resolve
+      - Fall Back 
+      - Best Ping 
+      - Load Balance 
       - Resolve  
       - Server 
       - SHADOWSOCKS-OBFS
@@ -38,6 +45,9 @@ proxy-groups:
   - name: Iklan
     type: select
     proxies:
+      - Fall Back 
+      - Best Ping 
+      - Load Balance 
       - Server 
       - Service 
       - Resolve
@@ -58,6 +68,8 @@ proxy-groups:
  - name: Fall Back 
     type: fallback
     disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '300' #600 or #300
     use:
       - Clash1
       - Clash2
@@ -74,14 +86,28 @@ proxy-groups:
       - vmess-grpc-sni
       - vmess-ws-cdn
       - vmess-ws-sni
-    url: http://www.gstatic.com/generate_204
-    interval: '300' #600 or #300
 
-  - name: Best PING 
+  - name: Best Ping
     type: url-test 
     disable-udp: false 
     url: http://www.gstatic.com/generate_204 
     interval: '300' #600 or #300
+    use:
+      - Clash1
+      - Clash2
+      - Clash3
+      - Clash4
+      - shadowsocks-obfs
+      - shadowsocks
+      - snell-udp
+      - trojan-gfw-sni
+      - trojan-grpc-cdn
+      - trojan-grpc-sni
+      - trojan-ws-cdn
+      - vmess-grpc-cdn
+      - vmess-grpc-sni
+      - vmess-ws-cdn
+      - vmess-ws-sni
   
   - name: Load Balance  
     type: load-balance 
@@ -89,7 +115,22 @@ proxy-groups:
     disable-udp: false 
     url: http://www.gstatic.com/generate_204 
     interval: '300' #600 or #300
-
+    use:
+      - Clash1
+      - Clash2
+      - Clash3
+      - Clash4
+      - shadowsocks-obfs
+      - shadowsocks
+      - snell-udp
+      - trojan-gfw-sni
+      - trojan-grpc-cdn
+      - trojan-grpc-sni
+      - trojan-ws-cdn
+      - vmess-grpc-cdn
+      - vmess-grpc-sni
+      - vmess-ws-cdn
+      - vmess-ws-sni
 
 
   - name: Server 
@@ -107,6 +148,7 @@ proxy-groups:
     type: fallback
     disable-udp: false
     use:
+      - Clash4
       - shadowsocks-obfs
       - shadowsocks
       - snell-udp
@@ -514,13 +556,13 @@ rules:
 - DST-PORT,993,Service
 - DST-PORT,995,Service
 - DST-PORT,8000,Service
-- DST-PORT,8008,Clash
-- DST-PORT,8080,Clash
-- DST-PORT,8081,Clash
-- DST-PORT,8090,Clash
-- DST-PORT,8443,Clash
-- DST-PORT,8888,Clash
-- DOMAIN-SUFFIX,www.google.com,Clash
+- DST-PORT,8008,Mode
+- DST-PORT,8080,Mode
+- DST-PORT,8081,Mode
+- DST-PORT,8090,Mode
+- DST-PORT,8443,Mode
+- DST-PORT,8888,Mode
+- DOMAIN-SUFFIX,www.google.com,Mode
 - MATCH,Mode
 
 tun:
