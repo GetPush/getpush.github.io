@@ -66,11 +66,11 @@ proxy-groups:
  
     
  - name: Fall Back 
-    type: fallback
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '300' #600 or #300
-    use:
+   type: fallback
+   disable-udp: false
+   url: http://www.gstatic.com/generate_204
+   interval: '300' #600 or #300
+   use:
       - Clash1
       - Clash2
       - Clash3
