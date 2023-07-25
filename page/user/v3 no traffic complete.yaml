@@ -1,5 +1,15 @@
 proxies:
 proxy-groups:
+  - name: Mode 🌍
+    type: load-balance 
+    strategy: consistent-hashing 
+    disable-udp: false 
+    url: http://www.gstatic.com/generate_204 
+    interval: '300' #600 or #300
+    proxies:
+      - Load Balance
+      - Fall Back 
+      - Best Ping 
 
   - name: Iklan
     type: select
@@ -420,7 +430,7 @@ rules:
 - DST-PORT,8443,Load Balance  
 - DST-PORT,8888,Best Ping  
 - DOMAIN-SUFFIX,www.google.com,Fall Back
-- MATCH,Load Balance 
+- MATCH,Mode 🌍
 
 tun:
   enable: true
