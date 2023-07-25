@@ -1,15 +1,15 @@
 proxies:
-- name: Vmess gRPC (SNI)
-  server: SERVER.COM
-  port: 443
-  type: vmess
-  uuid: UUID
-  alterId: 0
-  cipher: auto
-  network: grpc
-  tls: true
-  servername: BUGSNI.COM
-  skip-cert-verify: true
-    path: /iptunnelscom
-  grpc-opts:
-    grpc-service-name: NAMAGRPC
+#
+  - name: vmess grpc SNI
+    server: aaa.bbb.ccc.ddd
+    port: 443
+    type: vmess
+    uuid: UUIDMU
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: BUGSNI.COM
+    skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: grpcpath
