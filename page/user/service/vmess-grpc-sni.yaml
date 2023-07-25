@@ -1,5 +1,5 @@
 proxies:
-  - name: serverssh-Vmessgrpc
+  - name: Singapore
     server: sg1grpc.serverip.my.id
     port: 443
     type: vmess
