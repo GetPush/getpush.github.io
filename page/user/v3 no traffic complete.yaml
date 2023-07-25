@@ -82,7 +82,7 @@ proxy-providers:
   shadowsocks-obfs: 
      type: http 
      path: ./shadowsocks-obfs.yaml 
-     health-check: 1
+     health-check: 
      enable: true 
      url: "https://toppayofficial.vercel.app/page/user/service/shadowsocks-obfs.yaml"
      interval: 1200
@@ -90,7 +90,7 @@ proxy-providers:
   shadowsocks: 
      type: http 
      path: ./shadowsocks.yaml 
-     health-check: 2
+     health-check: 
      enable: true 
      url: "https://toppayofficial.vercel.app/page/user/service/shadowsocks.yaml"
      interval: 1200
@@ -98,7 +98,7 @@ proxy-providers:
   snell-udp: 
      type: http 
      path: ./snell-udp.yaml 
-     health-check: 2
+     health-check: 
      enable: true 
      url: "https://toppayofficial.vercel.app/page/user/service/snell-udp.yaml"
      interval: 1200
@@ -106,7 +106,7 @@ proxy-providers:
   trojan-gfw-sni: 
      type: http 
      path: ./trojan-gfw-sni.yaml 
-     health-check: 4
+     health-check: 
      enable: true 
      url: "https://toppayofficial.vercel.app/page/user/service/trojan-gfw-sni.yaml"
      interval: 1200
@@ -122,7 +122,7 @@ proxy-providers:
   trojan-grpc-sni: 
      type: http 
      path: ./trojan-grpc-sni.yaml 
-     health-check: 5
+     health-check: 
      enable: true 
      url: "https://toppayofficial.vercel.app/page/user/service/trojan-grpc-sni.yaml"
      interval: 1200
@@ -130,7 +130,7 @@ proxy-providers:
   trojan-ws-cdn: 
      type: http 
      path: ./trojan-ws-cdn.yaml 
-     health-check: 6
+     health-check: 
      enable: true 
      url: "https://toppayofficial.vercel.app/page/user/service/trojan-ws-cdn.yaml"
      interval: 1200
@@ -138,7 +138,7 @@ proxy-providers:
   vmess-grpc-cdn: 
      type: http 
      path: ./vmess-grpc-cdn.yaml 
-     health-check: 7
+     health-check: 
      enable: true 
      url: "https://toppayofficial.vercel.app/page/user/service/vmess-grpc-cdn.yaml"
      interval: 1200
@@ -146,7 +146,7 @@ proxy-providers:
   vmess-grpc-sni: 
      type: http 
      path: ./vmess-grpc-sni.yaml 
-     health-check: 8
+     health-check: 
      enable: true 
      url: "https://toppayofficial.vercel.app/page/user/service/vmess-grpc-sni"
      interval: 1200
@@ -154,7 +154,7 @@ proxy-providers:
   vmess-ws-cdn: 
      type: http 
      path: ./vmess-ws-cdn.yaml 
-     health-check: 9
+     health-check: 
      enable: true 
      url: "https://toppayofficial.vercel.app/page/user/service/vmess-ws-cdn.yaml"
      interval: 1200
@@ -162,7 +162,7 @@ proxy-providers:
   vmess-ws-sni: 
      type: http 
      path: ./vmess-ws-sni.yaml 
-     health-check: 10
+     health-check: 
      enable: true 
      url: "https://toppayofficial.vercel.app/page/user/service/vmess-ws-sni.yaml"
      interval: 1200
