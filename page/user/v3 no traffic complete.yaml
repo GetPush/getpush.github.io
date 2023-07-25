@@ -24,7 +24,7 @@ proxy-groups:
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
+    interval: '600' #600 or #300
     use:
       - shadowsocks-obfs
       - shadowsocks
@@ -46,7 +46,7 @@ proxy-groups:
     type: url-test 
     disable-udp: false 
     url: http://www.gstatic.com/generate_204 
-    interval: '200' #600 or #300
+    interval: '600' #600 or #300
     use:
       - shadowsocks-obfs
       - shadowsocks
@@ -69,7 +69,7 @@ proxy-groups:
     strategy: consistent-hashing 
     disable-udp: false 
     url: http://www.gstatic.com/generate_204 
-    interval: '300' #600 or #300
+    interval: '600' #600 or #300
     use:
       - shadowsocks-obfs
       - shadowsocks
@@ -87,6 +87,129 @@ proxy-groups:
       - Clash1
       - Clash4
 
+# seleksi config
+
+  - name: shadowsocks-obfs
+    type: fallback
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '600' #600 or #300
+    use:
+      - shadowsocks
+
+  - name: shadowsocks
+    type: fallback
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '600' #600 or #300
+    use:
+      - shadowsocks
+
+  - name: snell-udp
+    type: fallback
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '600' #600 or #300
+    use:
+      - snell-udp
+
+  - name: trojan-gfw-sni
+    type: fallback
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '600' #600 or #300
+    use:
+      - trojan-gfw-sni
+
+  - name: trojan-grpc-cdn
+    type: fallback
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '600' #600 or #300
+    use:
+      - trojan-grpc-cdn
+
+  - name: trojan-grpc-sni
+    type: fallback
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '600' #600 or #300
+    use:
+      - trojan-grpc-sni
+
+  - name: trojan-ws-cdn
+    type: fallback
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '600' #600 or #300
+    use:
+      - trojan-ws-cdn
+
+  - name: vmess-grpc-cdn
+    type: fallback
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '600' #600 or #300
+    use:
+      - vmess-grpc-cdn
+
+  - name: vmess-grpc-sni
+    type: fallback
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '600' #600 or #300
+    use:
+      - vmess-grpc-sni
+
+  - name: vmess-ws-cdn
+    type: fallback
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '600' #600 or #300
+    use:
+      - vmess-ws-cdn
+
+  - name: vmess-ws-sni
+    type: fallback
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '600' #600 or #300
+    use:
+      - vmess-ws-sni
+
+  - name: Clash4
+    type: fallback
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '600' #600 or #300
+    use:
+      - Clash4
+
+  - name: Clash3
+    type: fallback
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '600' #600 or #300
+    use:
+      - Clash3
+
+  - name: Clash2
+    type: fallback
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '600' #600 or #300
+    use:
+      - Clash2
+
+  - name: Clash1
+    type: fallback
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '600' #600 or #300
+    use:
+      - Clash1
+
+# traffic
 
 proxy-providers:
   shadowsocks-obfs: 
