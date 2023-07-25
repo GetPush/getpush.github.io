@@ -8,7 +8,7 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: 104.19.142.89
+    servername: layanan.ruangguru.com
     network: grpc
     grpc-opts:
       grpc-service-name: grpc
