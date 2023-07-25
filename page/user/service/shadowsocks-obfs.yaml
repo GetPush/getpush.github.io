@@ -1,5 +1,4 @@
 proxies:
-#
 - name: "shadowsocks obfs"
     type: ss
     server: aaa.bbb.ccc.ddd
