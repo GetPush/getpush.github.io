@@ -1,20 +1,19 @@
 proxies:
-#
-- name: "Vmess ws SNI"
-  type: vmess
-  server: aaa.bbb.ccc.ddd
-  port: 443
-  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: BUGSNI.COM
-  network: ws
-  ws-opts:
-    path: /iptunnelscom
-    headers:
-      Host: BUGSNI.COM
+  - name: service 3 # Vmess NL Fast (IPv4 & IPv6) 2023-07-27
+    server: eu-2.0rd.net
+    port: 80
+    type: vmess
+    uuid: 5064f670-26a9-11ee-b637-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: eu-2.0rd.net
+    network: ws
+    ws-opts:
+      path: /yvxjqof6
+      headers:
+        Host: 104.16.108.96
+    udp: true
     max-early-data: 2048
     early-data-header-name: Sec-WebSocket-Protocol
