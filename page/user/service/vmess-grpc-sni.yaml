@@ -10,5 +10,6 @@ proxies:
   tls: true
   servername: BUGSNI.COM
   skip-cert-verify: true
+    path: /iptunnelscom
   grpc-opts:
     grpc-service-name: NAMAGRPC
