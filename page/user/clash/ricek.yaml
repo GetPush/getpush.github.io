@@ -3,24 +3,23 @@ proxy-groups:
   - name: Clash
     type: select
     use:
-      - Clash1
-      - Clash2
-      - Clash3
-      - Clash4
-      - Services
+     # - Clash1
+     # - Clash2
+     # - Clash3
+     # - Clash4
+     # - Service
     proxies:
       - Server 
+      - Services 
+      
+
+  - name: Services 
+    type: fallback 
+    use:
+      - Clash4
       - Service
-      - DIRECT
-
-  - name: Service
-    type: select
-    proxies:
-      - Services
-      - Server 
-      - DIRECT
-
-  - name: Server 
+    
+  - name: Server #all fallback 
     type: fallback
     disable-udp: false
     use:
@@ -28,14 +27,7 @@ proxy-groups:
       - Clash2
       - Clash3
       - Clash4
-    url: http://www.gstatic.com/generate_204
-    interval: '600'
-
-  - name: Services
-    type: fallback
-    disable-udp: false
-    use:
-      - Services
+      - Service
     url: http://www.gstatic.com/generate_204
     interval: '600'
 
@@ -43,16 +35,16 @@ proxy-groups:
     type: select
     proxies:
       - Server 
-      - Service
+      - Services
       - REJECT
 
 proxy-providers:
-  Services: 
+  Service: 
      type: http 
      path: ./service.yaml 
      health-check: 
      enable: true 
-     url: "https://toppayofficial.vercel.app/page/user/service/service.yaml"
+     url: "https://toppayofficial.vercel.app/page/user/service.yaml"
      interval: 1200
   Clash1:
     type: http
@@ -292,7 +284,7 @@ rules:
 - DST-PORT,80,Clash
 - DST-PORT,81,Clash
 - DST-PORT,143,Clash
-- DST-PORT,443,Service,Clash 
+- DST-PORT,443,Services
 - DST-PORT,465,Clash
 - DST-PORT,587,Clash
 - DST-PORT,993,Clash
@@ -305,7 +297,7 @@ rules:
 - DST-PORT,8443,Clash
 - DST-PORT,8888,Clash
 #- DOMAIN-SUFFIX,
-- MATCH,Clash,Server,Service 
+- MATCH,Clash,Server,Services 
 
 tun:
   enable: true
