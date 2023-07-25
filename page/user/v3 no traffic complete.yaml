@@ -570,7 +570,7 @@ rules:
 - DST-PORT,80,Fall Back
 - DST-PORT,81,Load Balance 
 - DST-PORT,143,Best Ping 
-- DST-PORT,443,Best Ping 
+- DST-PORT,443,Fall Back
 - DST-PORT,465,Fall Back
 - DST-PORT,587,Best Ping 
 - DST-PORT,993,Fall Back 
