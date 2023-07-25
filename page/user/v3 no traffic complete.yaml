@@ -120,7 +120,7 @@ proxy-groups:
 # seleksi config
 
   - name: shadowsocks-obfs
-    type: fallback
+    type: url-test 
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '600' #600 or #300
@@ -128,7 +128,7 @@ proxy-groups:
       - shadowsocks-obfs
 
   - name: shadowsocks
-    type: fallback
+    type: url-test 
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '600' #600 or #300
@@ -136,7 +136,7 @@ proxy-groups:
       - shadowsocks
 
   - name: snell-udp
-    type: fallback
+    type: url-test 
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '600' #600 or #300
@@ -144,7 +144,7 @@ proxy-groups:
       - snell-udp
 
   - name: trojan-gfw-sni
-    type: fallback
+    type: url-test 
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '600' #600 or #300
@@ -152,7 +152,7 @@ proxy-groups:
       - trojan-gfw-sni
 
   - name: trojan-grpc-cdn
-    type: fallback
+    type: url-test 
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '600' #600 or #300
@@ -160,7 +160,7 @@ proxy-groups:
       - trojan-grpc-cdn
 
   - name: trojan-grpc-sni
-    type: fallback
+    type: url-test 
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '600' #600 or #300
@@ -168,7 +168,7 @@ proxy-groups:
       - trojan-grpc-sni
 
   - name: trojan-ws-cdn
-    type: fallback
+    type: url-test 
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '600' #600 or #300
@@ -176,7 +176,7 @@ proxy-groups:
       - trojan-ws-cdn
 
   - name: vmess-grpc-cdn
-    type: fallback
+    type: url-test 
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '600' #600 or #300
@@ -184,7 +184,7 @@ proxy-groups:
       - vmess-grpc-cdn
 
   - name: vmess-grpc-sni
-    type: fallback
+    type: url-test 
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '600' #600 or #300
@@ -192,7 +192,7 @@ proxy-groups:
       - vmess-grpc-sni
 
   - name: vmess-ws-cdn
-    type: fallback
+    type: url-test 
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '600' #600 or #300
@@ -200,7 +200,7 @@ proxy-groups:
       - vmess-ws-cdn
 
   - name: vmess-ws-sni
-    type: fallback
+    type: url-test 
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '600' #600 or #300
@@ -208,7 +208,7 @@ proxy-groups:
       - vmess-ws-sni
 
   - name: Clash4
-    type: fallback
+    type: url-test 
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '600' #600 or #300
@@ -216,7 +216,7 @@ proxy-groups:
       - Clash4
 
   - name: Clash3
-    type: fallback
+    type: url-test 
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '600' #600 or #300
@@ -224,7 +224,7 @@ proxy-groups:
       - Clash3
 
   - name: Clash2
-    type: fallback
+    type: url-test 
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '600' #600 or #300
@@ -232,7 +232,7 @@ proxy-groups:
       - Clash2
 
   - name: Clash1
-    type: fallback
+    type: url-test 
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '600' #600 or #300
