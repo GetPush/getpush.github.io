@@ -9,18 +9,13 @@ proxy-groups:
     proxies:
       - Load Balance
       - Fall Back 
-      - Best Ping 
-      - shadowsocks-obfs
+      - Best Ping
       - shadowsocks
       - snell-udp
-      - trojan-gfw-sni
-      - trojan-grpc-cdn
-      - trojan-grpc-sni
-      - trojan-ws-cdn
-      - vmess-grpc-cdn
-      - vmess-grpc-sni
-      - vmess-ws-cdn
-      - vmess-ws-sni
+      - trojan-cdn
+      - trojan-sni
+      - vmess-cdn
+      - vmess-sni
       - Clash4
       - Clash3
       - Clash2
@@ -33,17 +28,12 @@ proxy-groups:
       - Fall Back 
       - Best Ping 
       - REJECT
-      - shadowsocks-obfs
       - shadowsocks
       - snell-udp
-      - trojan-gfw-sni
-      - trojan-grpc-cdn
-      - trojan-grpc-sni
-      - trojan-ws-cdn
-      - vmess-grpc-cdn
-      - vmess-grpc-sni
-      - vmess-ws-cdn
-      - vmess-ws-sni
+      - trojan-cdn
+      - trojan-sni
+      - vmess-cdn
+      - vmess-sni
       - Clash4
       - Clash3
       - Clash2
@@ -60,15 +50,10 @@ proxy-groups:
       - Clash3
       - Clash2
       - Clash1
-      - trojan-gfw-sni
-      - trojan-grpc-cdn
-      - trojan-grpc-sni
-      - trojan-ws-cdn
-      - vmess-ws-sni
-      - vmess-grpc-cdn
-      - vmess-grpc-sni
-      - vmess-ws-cdn
-      - shadowsocks-obfs
+      - trojan-cdn
+      - trojan-sni
+      - vmess-cdn
+      - vmess-sni
       - shadowsocks
       - snell-udp
 
@@ -82,15 +67,10 @@ proxy-groups:
       - Clash1
       - Clash4
       - Clash3
-      - vmess-grpc-cdn
-      - vmess-grpc-sni
-      - vmess-ws-cdn
-      - vmess-ws-sni
-      - trojan-gfw-sni
-      - trojan-grpc-cdn
-      - trojan-grpc-sni
-      - trojan-ws-cdn
-      - shadowsocks-obfs
+      - trojan-cdn
+      - trojan-sni
+      - vmess-cdn
+      - vmess-sni
       - shadowsocks
       - snell-udp
   
@@ -105,27 +85,14 @@ proxy-groups:
       - Clash2
       - Clash1
       - Clash4
-      - vmess-grpc-cdn
-      - vmess-grpc-sni
-      - vmess-ws-cdn
-      - vmess-ws-sni
-      - trojan-gfw-sni
-      - trojan-grpc-cdn
-      - trojan-grpc-sni
-      - trojan-ws-cdn
-      - shadowsocks-obfs
+      - trojan-cdn
+      - trojan-sni
+      - vmess-cdn
+      - vmess-sni
       - shadowsocks
       - snell-udp
 
 # seleksi config
-
-  - name: shadowsocks-obfs
-    type: url-test 
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '600' #600 or #300
-    use:
-      - shadowsocks-obfs
 
   - name: shadowsocks
     type: url-test 
@@ -143,69 +110,37 @@ proxy-groups:
     use:
       - snell-udp
 
-  - name: trojan-gfw-sni
+  - name: trojan-sni
     type: url-test 
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '600' #600 or #300
     use:
-      - trojan-gfw-sni
+      - trojan-sni
 
-  - name: trojan-grpc-cdn
+  - name: trojan-cdn
     type: url-test 
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '600' #600 or #300
     use:
-      - trojan-grpc-cdn
+      - trojan-cdn
 
-  - name: trojan-grpc-sni
+  - name: vmess-cdn
     type: url-test 
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '600' #600 or #300
     use:
-      - trojan-grpc-sni
+      - vmess-cdn
 
-  - name: trojan-ws-cdn
+  - name: vmess-sni
     type: url-test 
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '600' #600 or #300
     use:
-      - trojan-ws-cdn
-
-  - name: vmess-grpc-cdn
-    type: url-test 
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '600' #600 or #300
-    use:
-      - vmess-grpc-cdn
-
-  - name: vmess-grpc-sni
-    type: url-test 
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '600' #600 or #300
-    use:
-      - vmess-grpc-sni
-
-  - name: vmess-ws-cdn
-    type: url-test 
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '600' #600 or #300
-    use:
-      - vmess-ws-cdn
-
-  - name: vmess-ws-sni
-    type: url-test 
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '600' #600 or #300
-    use:
-      - vmess-ws-sni
+      - vmess-sni
 
   - name: Clash4
     type: url-test 
@@ -242,14 +177,6 @@ proxy-groups:
 # traffic
 
 proxy-providers:
-  shadowsocks-obfs: 
-     type: http 
-     path: ./shadowsocks-obfs.yaml 
-     health-check: 
-     enable: true 
-     url: "https://toppayofficial.vercel.app/page/user/service/shadowsocks-obfs.yaml"
-     interval: 1200
-
   shadowsocks: 
      type: http 
      path: ./shadowsocks.yaml 
@@ -266,68 +193,36 @@ proxy-providers:
      url: "https://toppayofficial.vercel.app/page/user/service/snell-udp.yaml"
      interval: 1200
 
-  trojan-gfw-sni: 
+  trojan-sni: 
      type: http 
-     path: ./trojan-gfw-sni.yaml 
+     path: ./trojan-sni.yaml 
      health-check: 
      enable: true 
-     url: "https://toppayofficial.vercel.app/page/user/service/trojan-gfw-sni.yaml"
+     url: "https://toppayofficial.vercel.app/page/user/service/trojan-sni.yaml"
      interval: 1200
 
-  trojan-grpc-cdn: 
+  trojan-cdn: 
      type: http 
-     path: ./trojan-grpc-cdn.yaml 
+     path: ./trojan-cdn.yaml 
      health-check: 
      enable: true 
-     url: "https://toppayofficial.vercel.app/page/user/service/trojan-grpc-cdn.yaml"
+     url: "https://toppayofficial.vercel.app/page/user/service/trojan-cdn.yaml"
      interval: 1200
 
-  trojan-grpc-sni: 
+  vmess-cdn: 
      type: http 
-     path: ./trojan-grpc-sni.yaml 
+     path: ./vmess-cdn.yaml 
      health-check: 
      enable: true 
-     url: "https://toppayofficial.vercel.app/page/user/service/trojan-grpc-sni.yaml"
+     url: "https://toppayofficial.vercel.app/page/user/service/vmess-cdn.yaml"
      interval: 1200
 
-  trojan-ws-cdn: 
+  vmess-sni: 
      type: http 
-     path: ./trojan-ws-cdn.yaml 
+     path: ./vmess-sni.yaml 
      health-check: 
      enable: true 
-     url: "https://toppayofficial.vercel.app/page/user/service/trojan-ws-cdn.yaml"
-     interval: 1200
-
-  vmess-grpc-cdn: 
-     type: http 
-     path: ./vmess-grpc-cdn.yaml 
-     health-check: 
-     enable: true 
-     url: "https://toppayofficial.vercel.app/page/user/service/vmess-grpc-cdn.yaml"
-     interval: 1200
-
-  vmess-grpc-sni: 
-     type: http 
-     path: ./vmess-grpc-sni.yaml 
-     health-check: 
-     enable: true 
-     url: "https://toppayofficial.vercel.app/page/user/service/vmess-grpc-sni"
-     interval: 1200
-
-  vmess-ws-cdn: 
-     type: http 
-     path: ./vmess-ws-cdn.yaml 
-     health-check: 
-     enable: true 
-     url: "https://toppayofficial.vercel.app/page/user/service/vmess-ws-cdn.yaml"
-     interval: 1200
-
-  vmess-ws-sni: 
-     type: http 
-     path: ./vmess-ws-sni.yaml 
-     health-check: 
-     enable: true 
-     url: "https://toppayofficial.vercel.app/page/user/service/vmess-ws-sni.yaml"
+     url: "https://toppayofficial.vercel.app/page/user/service/vmess-sni.yaml"
      interval: 1200
 
 
