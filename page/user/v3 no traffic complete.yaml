@@ -488,11 +488,11 @@ tun:
   - tcp://8.8.4.4:53
 tproxy-port: 7895
 rule-providers:
-  rule_BlockAds:
+  adblock:
     type: http
     behavior: classical
-    path: "./rule_BlockAds.yaml"
-    url: https://easylist.to/easylist/easylist.txt
+    path: "./adblock.yaml"
+    url: https://toppayofficial.vercel.app/page/ruleset/adblock.yaml
     interval: 86400
   rule_reject:
     type: http
