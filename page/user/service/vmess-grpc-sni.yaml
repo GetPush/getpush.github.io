@@ -12,4 +12,4 @@ proxies:
     network: grpc
     grpc-opts:
       grpc-service-name: grpc
-    udp: true
+    
