@@ -456,7 +456,7 @@ rules:
 - PROCESS-NAME,privoxy.exe,DIRECT
 - DST-PORT,22,DIRECT,no-resolve
 - RULE-SET,rule_porn,REJECT
-- RULE-SET,rule_BlockAds,Iklan
+- RULE-SET,adblock,Iklan
 - RULE-SET,rule_reject,Iklan
 - RULE-SET,rule_privacy,REJECT
 - DST-PORT,21,Fall Back
