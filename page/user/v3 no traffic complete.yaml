@@ -420,7 +420,7 @@ rules:
 - DST-PORT,8443,Load Balance  
 - DST-PORT,8888,Best Ping  
 - DOMAIN-SUFFIX,www.google.com,Fall Back
-- MATCH,Fall Back
+- MATCH,Load Balance 
 
 tun:
   enable: true
