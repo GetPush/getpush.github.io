@@ -56,18 +56,18 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '600' #600 or #300
     proxies:
-      - vmess-grpc-cdn
-      - vmess-grpc-sni
-      - vmess-ws-cdn
-      - vmess-ws-sni
-      - trojan-gfw-sni
-      - trojan-grpc-cdn
-      - trojan-grpc-sni
-      - trojan-ws-cdn
       - Clash4
       - Clash3
       - Clash2
       - Clash1
+      - trojan-gfw-sni
+      - trojan-grpc-cdn
+      - trojan-grpc-sni
+      - trojan-ws-cdn
+      - vmess-ws-sni
+      - vmess-grpc-cdn
+      - vmess-grpc-sni
+      - vmess-ws-cdn
       - shadowsocks-obfs
       - shadowsocks
       - snell-udp
@@ -78,6 +78,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204 
     interval: '600' #600 or #300
     proxies:
+      - Clash2
+      - Clash1
+      - Clash4
+      - Clash3
       - vmess-grpc-cdn
       - vmess-grpc-sni
       - vmess-ws-cdn
@@ -86,10 +90,6 @@ proxy-groups:
       - trojan-grpc-cdn
       - trojan-grpc-sni
       - trojan-ws-cdn
-      - Clash2
-      - Clash1
-      - Clash4
-      - Clash3
       - shadowsocks-obfs
       - shadowsocks
       - snell-udp
@@ -101,14 +101,14 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204 
     interval: '600' #600 or #300
     proxies:
-      - vmess-grpc-cdn
-      - vmess-grpc-sni
-      - vmess-ws-cdn
-      - vmess-ws-sni
       - Clash3
       - Clash2
       - Clash1
       - Clash4
+      - vmess-grpc-cdn
+      - vmess-grpc-sni
+      - vmess-ws-cdn
+      - vmess-ws-sni
       - trojan-gfw-sni
       - trojan-grpc-cdn
       - trojan-grpc-sni
