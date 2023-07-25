@@ -1,11 +1,11 @@
 proxies:
 - name: "shadowsocks obfs"
     type: ss
-    server: aaa.bbb.ccc.ddd
-    port: 32033
+    server: id02.proxysocks.xyz
+    port: 8388
+    password: YjI5N
     cipher: chacha20-ietf-poly1305
-    password: passwordss
     plugin: obfs
     plugin-opts:
       mode: tls
-      host: BUG.COM
+      host: 104.19.142.89
