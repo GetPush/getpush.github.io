@@ -1,7 +1,7 @@
 proxies:
 proxy-groups:
   - name: Mode 🌍
-    type: load-balance 
+    type: select
     strategy: consistent-hashing 
     disable-udp: false 
     url: http://www.gstatic.com/generate_204 
@@ -25,7 +25,7 @@ proxy-groups:
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '600' #600 or #300
-    use:
+    proxies:
       - shadowsocks-obfs
       - shadowsocks
       - snell-udp
@@ -47,7 +47,7 @@ proxy-groups:
     disable-udp: false 
     url: http://www.gstatic.com/generate_204 
     interval: '600' #600 or #300
-    use:
+    proxies
       - shadowsocks-obfs
       - shadowsocks
       - snell-udp
@@ -70,7 +70,7 @@ proxy-groups:
     disable-udp: false 
     url: http://www.gstatic.com/generate_204 
     interval: '600' #600 or #300
-    use:
+    proxies:
       - shadowsocks-obfs
       - shadowsocks
       - snell-udp
