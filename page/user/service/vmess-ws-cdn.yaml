@@ -4,7 +4,7 @@ proxies:
   type: vmess
   server: IPCDN/BUGCDN.COM
   port: 443
-  uuid: UUIDMU
+  uuid: 1234567890
   alterId: 0
   cipher: auto
   udp: true
