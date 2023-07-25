@@ -4,7 +4,7 @@ proxies:
     server: aaa.bbb.ccc.ddd
     port: 443
     type: vmess
-    uuid: UUIDMU
+    uuid: 1234567890
     alterId: 0
     cipher: auto
     network: grpc
