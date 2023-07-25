@@ -10,6 +10,21 @@ proxy-groups:
       - Load Balance
       - Fall Back 
       - Best Ping 
+      - shadowsocks-obfs
+      - shadowsocks
+      - snell-udp
+      - trojan-gfw-sni
+      - trojan-grpc-cdn
+      - trojan-grpc-sni
+      - trojan-ws-cdn
+      - vmess-grpc-cdn
+      - vmess-grpc-sni
+      - vmess-ws-cdn
+      - vmess-ws-sni
+      - Clash4
+      - Clash3
+      - Clash2
+      - Clash1
 
   - name: Iklan
     type: select
@@ -18,6 +33,21 @@ proxy-groups:
       - Fall Back 
       - Best Ping 
       - REJECT
+      - shadowsocks-obfs
+      - shadowsocks
+      - snell-udp
+      - trojan-gfw-sni
+      - trojan-grpc-cdn
+      - trojan-grpc-sni
+      - trojan-ws-cdn
+      - vmess-grpc-cdn
+      - vmess-grpc-sni
+      - vmess-ws-cdn
+      - vmess-ws-sni
+      - Clash4
+      - Clash3
+      - Clash2
+      - Clash1
  
     
   - name: Fall Back 
