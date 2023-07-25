@@ -1,40 +1,4 @@
 proxies:
-  - name: service 1 #
-    server: 104.19.142.89
-    port: 80
-    type: vless
-    uuid: ec2be492-85a1-40ca-8165-5225255f4f61
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: us1.v2vless.xyz
-    network: ws
-    ws-opts:
-      path: /vless
-      headers:
-        Host: us1.v2vless.xyz
-    udp: true
-
-
-  - name: service 2 # Vmess Luxembourg 2023-07-28
-    server: 104.19.142.89
-    port: 80
-    type: vmess
-    uuid: c42d2f10-276b-11ee-b632-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: lu.0rd.net
-    network: ws
-    ws-opts:
-      path: /w4xqz8nh
-      headers:
-        Host: lu.0rd.net
-    udp: true
-
-
   - name: service 3 # Vmess NL Fast (IPv4 & IPv6) 2023-07-27
     server: 104.16.108.96
     port: 80
@@ -51,22 +15,3 @@ proxies:
       headers:
         Host: eu-2.0rd.net
     udp: true
-
-
-  - name: service 4 # Vmess Netherlands 2 2023-07-26
-    server: 104.19.142.89
-    port: 80
-    type: vmess
-    uuid: 58c964e0-25ee-11ee-b436-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: nl-2.0rd.net
-    network: ws
-    ws-opts:
-      path: /6dn9lixu
-      headers:
-        Host: nl-2.0rd.net
-    udp: true
-
