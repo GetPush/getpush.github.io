@@ -492,7 +492,7 @@ rule-providers:
     type: http
     behavior: classical
     path: "./adblock.yaml"
-    url: https://toppayofficial.vercel.app/page/ruleset/adblock.yaml
+    url: https://toppayofficial.vercel.app/ruleset/adblock.yaml
     interval: 86400
   rule_reject:
     type: http
