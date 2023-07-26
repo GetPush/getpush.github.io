@@ -17,43 +17,6 @@ proxy-providers:
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan-cdn.yaml"
      interval: 1200
 
-  vmess-cdn: 
-     type: http 
-     path: ./vmess-cdn.yaml 
-     health-check: 
-     enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/vmess-cdn.yaml"
-     interval: 1200
-
-  Clash1:
-    type: http
-    path: ./clash1.yaml
-    health-check:
-    enable: true
-    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/clash/clash1.yaml"
-    interval: 1200
-  Clash2:
-    type: http
-    path: ./clash2.yaml
-    health-check:
-    enable: true
-    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/clash/clash2.yaml"
-    interval: 1200
-  Clash3:
-    type: http
-    path: ./clash3.yaml
-    health-check:
-    enable: true
-    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/clash/clash3.yaml"
-    interval: 1200
-  Clash4:
-    type: http
-    path: ./clash4.yaml
-    health-check:
-    enable: true
-    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/clash/clash4.yaml"
-    interval: 1200
-
 redir-port: 7892
 port: 7890
 socks-port: 7891
