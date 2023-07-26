@@ -11,7 +11,7 @@ proxies:
     servername: us4.socifiles.com
     network: ws
     ws-opts:
-      path: /yvxjqof6
+      path: /vmws
       headers:
         Host: us4.socifiles.com
     udp: true
