@@ -27,7 +27,7 @@ proxies:
     headers:
         Host: ro1.test3.net
 - name: Romania C
-  server: www.sushiroll.co.id
+  server: quiz.vidio.com
   port: 443
   type: trojan
   password: cf11bae0-2bdc-11ee-adec-1239d0255272
