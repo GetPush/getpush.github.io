@@ -70,7 +70,7 @@ proxies:
     headers:
         Host: fr.test3.net
 
-- name: Singapore HE1
+- name: Singapore HE1 A
   server: 104.19.142.89
   port: 443
   type: trojan
@@ -83,9 +83,35 @@ proxies:
     path: /howdy
     headers:
         Host: sg1-trojan.bonds.id
+- name: Singapore HE1 B
+  server: www.sushiroll.co.id
+  port: 443
+  type: trojan
+  password: 37d58380-2bd2-11ee-b10b-1239d0255272
+  network: ws
+  sni: sg1-trojan.bonds.id
+  skip-cert-verify: false
+  udp: true
+  ws-opts:
+    path: /howdy
+    headers:
+        Host: sg1-trojan.bonds.id
 
-- name: Singapore HE2
+- name: Singapore HE2 A
   server: 104.19.142.89
+  port: 443
+  type: trojan
+  password: c52e6000-2bcf-11ee-a057-1239d0255272
+  network: ws
+  sni: sg2-trojan.bonds.id
+  skip-cert-verify: false
+  udp: true
+  ws-opts:
+    path: /howdy
+    headers:
+        Host: sg2-trojan.bonds.id
+- name: Singapore HE2 B
+  server: www.sushiroll.co.id
   port: 443
   type: trojan
   password: c52e6000-2bcf-11ee-a057-1239d0255272
