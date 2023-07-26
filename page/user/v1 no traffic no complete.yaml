@@ -39,13 +39,23 @@ proxy-groups:
       - REJECT
 
 proxy-providers:
-  Service: 
+  
+  trojan-cdn: 
      type: http 
-     path: ./service.yaml 
+     path: ./trojan-cdn.yaml 
      health-check: 
      enable: true 
-     url: "https://toppayofficial.vercel.app/page/user/service.yaml"
+     url: "https://toppayofficial.vercel.app/page/user/service/trojan-cdn.yaml"
      interval: 1200
+
+  vmess-cdn: 
+     type: http 
+     path: ./vmess-cdn.yaml 
+     health-check: 
+     enable: true 
+     url: "https://toppayofficial.vercel.app/page/user/service/vmess-cdn.yaml"
+     interval: 1200
+
   Clash1:
     type: http
     path: ./clash1.yaml
