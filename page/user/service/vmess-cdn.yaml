@@ -1,5 +1,5 @@
 proxies:
-  - name: NETFLIX US tes #USA 4
+  - name: NETFLIX US #US 4
     server: 104.19.142.89
     port: 80
     type: vmess
