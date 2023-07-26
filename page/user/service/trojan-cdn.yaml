@@ -58,11 +58,11 @@ proxies:
     headers:
         Host: fr.test3.net
 
-- name: Singapore He1
+- name: Singapore HE1
   server: 104.19.142.89
   port: 443
   type: trojan
-  password: 301dd050-28c3-11ee-bcb7-1239d0255272
+  password: 37d58380-2bd2-11ee-b10b-1239d0255272
   network: ws
   sni: fr.test3.net
   skip-cert-verify: false
