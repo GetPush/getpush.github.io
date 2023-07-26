@@ -1,5 +1,5 @@
 proxies:
-  - name: service 3 # Vmess NL Fast (IPv4 & IPv6) 2023-07-27
+  - name: NETFLIX US #USA 4
     server: 104.16.108.96
     port: 80
     type: vmess
