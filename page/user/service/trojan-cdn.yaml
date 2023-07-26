@@ -1,4 +1,5 @@
 proxies:
+########## ROMANIA ######
 - name: Romania A
   server: 104.19.142.89
   port: 443
@@ -25,8 +26,34 @@ proxies:
     path: /howdy
     headers:
         Host: ro1.test3.net
+- name: Romania C
+  server: www.sushiroll.co.id
+  port: 443
+  type: trojan
+  password: cf11bae0-2bdc-11ee-adec-1239d0255272
+  network: ws
+  sni: ro1.test3.net
+  skip-cert-verify: false
+  udp: true
+  ws-opts:
+    path: /howdy
+    headers:
+        Host: ro1.test3.net
+- name: Romania D
+  server: www.sushiroll.co.id
+  port: 443
+  type: trojan
+  password: cf11bae0-2bdc-11ee-adec-1239d0255272
+  network: ws
+  sni: ro1.test3.net
+  skip-cert-verify: false
+  udp: true
+  ws-opts:
+    path: /howdy
+    headers:
+        Host: ro1.test3.net
 
-
+########## NETHERLAND ######
 - name: Netherland
   server: 104.19.142.89
   port: 443
@@ -41,7 +68,7 @@ proxies:
     headers:
         Host: nl.test3.net
 
-
+########## CANADA ######
 - name: Canada
   server: 104.19.142.89
   port: 443
@@ -56,6 +83,7 @@ proxies:
     headers:
         Host: ca-trojan.bonds.id
 
+########## FRANCIS ######
 - name: Francis
   server: 104.19.142.89
   port: 443
