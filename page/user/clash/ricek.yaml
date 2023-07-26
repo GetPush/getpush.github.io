@@ -128,13 +128,21 @@ dns:
     - "*.mcdn.bilivideo.cn"
     - +.media.dssott.com
 proxies: ~
+proxy-providers:
+  trojan-cdn: 
+     type: http 
+     path: ./trojan-cdn.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan-cdn.yaml"
+     interval: 1200
 proxy-groups:
   - name: Mode 🌍
     type: load-balance
     strategy: consistent-hashing
     url: http://hi.bonds.id/ping
     interval: 300
-    proxies:
-      - DIRECT
+    use:
+      - trojan-cdn
 rules:
   - MATCH,Mode 🌍
