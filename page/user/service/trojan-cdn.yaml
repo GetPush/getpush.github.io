@@ -1,5 +1,4 @@
 proxies:
-
 - name: Romania A
   server: 104.19.142.89
   port: 443
