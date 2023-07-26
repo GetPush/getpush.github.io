@@ -477,7 +477,7 @@ rules:
 - DST-PORT,8090,Mode 🌍
 - DST-PORT,8443,Mode 🌍
 - DST-PORT,8888,Mode 🌍
-- DOMAIN-SUFFIX,
+#- DOMAIN-SUFFIX,
 - MATCH,Mode 🌍
 
 tun:
