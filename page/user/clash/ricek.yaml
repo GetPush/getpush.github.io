@@ -5,13 +5,7 @@ proxy-groups:
     proxies:
       - Mode 🌍
       - trojan-cdn
-      - vmess-cdn
-      - Clash4
-      - Clash3
-      - Clash2
-      - Clash1
       - REJECT
- 
     
   - name: Mode 🌍
     type: fallback
@@ -19,12 +13,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     proxies:
-      - Clash4
-      - Clash3
-      - Clash2
-      - Clash1
       - trojan-cdn
-      - vmess-cdn
 
   - name: trojan-cdn
     type: url-test 
@@ -33,46 +22,6 @@ proxy-groups:
     interval: '100' #600 or #300
     use:
       - trojan-cdn
-
-  - name: vmess-cdn
-    type: url-test 
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
-    use:
-      - vmess-cdn
-
-  - name: Clash4
-    type: url-test 
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
-    use:
-      - Clash4
-
-  - name: Clash3
-    type: url-test 
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
-    use:
-      - Clash3
-
-  - name: Clash2
-    type: url-test 
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
-    use:
-      - Clash2
-
-  - name: Clash1
-    type: url-test 
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
-    use:
-      - Clash1
 
 proxy-providers:
   trojan-cdn: 
