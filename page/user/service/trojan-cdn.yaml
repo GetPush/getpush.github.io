@@ -71,7 +71,7 @@ proxies:
   server: 104.19.142.89
   port: 443
   type: trojan
-  password: 980c4950-2be3-11ee-be4d-1239d0255272
+  password: bb96e4b0-2be4-11ee-88a3-1239d0255272
   network: ws
   sni: nl.test3.net
   skip-cert-verify: false
