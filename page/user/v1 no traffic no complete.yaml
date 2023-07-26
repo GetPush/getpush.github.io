@@ -320,29 +320,29 @@ rules:
 - PROCESS-NAME,privoxy.exe,DIRECT
 - DST-PORT,22,DIRECT,no-resolve
 - RULE-SET,rule_porn,REJECT
-- RULE-SET,rule_BlockAds,BlockAds
-- RULE-SET,rule_reject,BlockAds
+- RULE-SET,rule_BlockAds,Iklan 
+- RULE-SET,rule_reject,Iklan
 - RULE-SET,rule_privacy,REJECT
-- DST-PORT,21,Clash
-- DST-PORT,23,Clash
-- DST-PORT,25,Clash
-- DST-PORT,80,Clash
-- DST-PORT,81,Clash
-- DST-PORT,143,Clash
-- DST-PORT,443,Services
-- DST-PORT,465,Clash
-- DST-PORT,587,Clash
-- DST-PORT,993,Clash
-- DST-PORT,995,Clash
-- DST-PORT,8000,Clash
-- DST-PORT,8008,Clash
-- DST-PORT,8080,Clash
-- DST-PORT,8081,Clash
-- DST-PORT,8090,Clash
-- DST-PORT,8443,Clash
-- DST-PORT,8888,Clash
+- DST-PORT,21,Mode 🌍
+- DST-PORT,23,Mode 🌍
+- DST-PORT,25,Mode 🌍
+- DST-PORT,80,Mode 🌍
+- DST-PORT,81,Mode 🌍
+- DST-PORT,143,Mode 🌍
+- DST-PORT,443,Mode 🌍
+- DST-PORT,465,Mode 🌍
+- DST-PORT,587,Mode 🌍
+- DST-PORT,993,Mode 🌍
+- DST-PORT,995,Mode 🌍
+- DST-PORT,8000,Mode 🌍
+- DST-PORT,8008,Mode 🌍
+- DST-PORT,8080,Mode 🌍
+- DST-PORT,8081,Mode 🌍
+- DST-PORT,8090,Mode 🌍
+- DST-PORT,8443,Mode 🌍
+- DST-PORT,8888,Mode 🌍
 #- DOMAIN-SUFFIX,
-- MATCH,Clash,Server,Services 
+- MATCH,Mode 🌍
 
 tun:
   enable: true
