@@ -80,7 +80,7 @@ proxy-providers:
      path: ./trojan-cdn.yaml 
      health-check: 
      enable: true 
-     url: "https://toppayofficial.vercel.app/page/user/service/trojan-cdn.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan-cdn.yaml"
      interval: 1200
 
   vmess-cdn: 
@@ -88,7 +88,7 @@ proxy-providers:
      path: ./vmess-cdn.yaml 
      health-check: 
      enable: true 
-     url: "https://toppayofficial.vercel.app/page/user/service/vmess-cdn.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/vmess-cdn.yaml"
      interval: 1200
 
   Clash1:
