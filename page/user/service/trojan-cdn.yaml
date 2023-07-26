@@ -67,7 +67,7 @@ proxies:
         Host: ro1.test3.net
 
 ########## NETHERLAND ######
-- name: Netherland
+- name: Netherland A
   server: 104.19.142.89
   port: 443
   type: trojan
@@ -80,25 +80,114 @@ proxies:
     path: /howdy
     headers:
         Host: nl.test3.net
-
-########## CANADA ######
-- name: Canada
-  server: 104.19.142.89
+- name: Netherland B
+  server: www.sushiroll.co.id
   port: 443
   type: trojan
-  password: 301dd050-28c3-11ee-bcb7-1239d0255272
+  password: bb96e4b0-2be4-11ee-88a3-1239d0255272
   network: ws
-  sni: ca-trojan.bonds.id
+  sni: nl.test3.net
   skip-cert-verify: false
   udp: true
   ws-opts:
     path: /howdy
     headers:
-        Host: ca-trojan.bonds.id
+        Host: nl.test3.net
+- name: Netherland C
+  server: quiz.vidio.com
+  port: 443
+  type: trojan
+  password: bb96e4b0-2be4-11ee-88a3-1239d0255272
+  network: ws
+  sni: nl.test3.net
+  skip-cert-verify: false
+  udp: true
+  ws-opts:
+    path: /howdy
+    headers:
+        Host: nl.test3.net
+- name: Netherland D
+  server: zendesk1.shopee.com
+  port: 443
+  type: trojan
+  password: bb96e4b0-2be4-11ee-88a3-1239d0255272
+  network: ws
+  sni: nl.test3.net
+  skip-cert-verify: false
+  udp: true
+  ws-opts:
+    path: /howdy
+    headers:
+        Host: nl.test3.net
+- name: Netherland E
+  server: layanan.ruangguru.com
+  port: 443
+  type: trojan
+  password: bb96e4b0-2be4-11ee-88a3-1239d0255272
+  network: ws
+  sni: nl.test3.net
+  skip-cert-verify: false
+  udp: true
+  ws-opts:
+    path: /howdy
+    headers:
+        Host: nl.test3.net
 
 ########## FRANCIS ######
-- name: Francis
+- name: Francis A
   server: 104.19.142.89
+  port: 443
+  type: trojan
+  password: 980c4950-2be3-11ee-be4d-1239d0255272
+  network: ws
+  sni: fr.test3.net
+  skip-cert-verify: false
+  udp: true
+  ws-opts:
+    path: /howdy
+    headers:
+        Host: fr.test3.net
+- name: Francis B
+  server: www.sushiroll.co.id
+  port: 443
+  type: trojan
+  password: 980c4950-2be3-11ee-be4d-1239d0255272
+  network: ws
+  sni: fr.test3.net
+  skip-cert-verify: false
+  udp: true
+  ws-opts:
+    path: /howdy
+    headers:
+        Host: fr.test3.net
+- name: Francis C
+  server: quiz.vidio.com
+  port: 443
+  type: trojan
+  password: 980c4950-2be3-11ee-be4d-1239d0255272
+  network: ws
+  sni: fr.test3.net
+  skip-cert-verify: false
+  udp: true
+  ws-opts:
+    path: /howdy
+    headers:
+        Host: fr.test3.net
+- name: Francis D
+  server: zendesk1.shopee.com
+  port: 443
+  type: trojan
+  password: cf11bae0-2bdc-11ee-adec-1239d0255272
+  network: ws
+  sni: ro1.test3.net
+  skip-cert-verify: false
+  udp: true
+  ws-opts:
+    path: /howdy
+    headers:
+        Host: ro1.test3.net
+- name: Francis E
+  server: layanan.ruangguru.com
   port: 443
   type: trojan
   password: 980c4950-2be3-11ee-be4d-1239d0255272
