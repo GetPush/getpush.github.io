@@ -46,13 +46,13 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     proxies:
+      - vmess-cdn
+      - trojan-cdn
       - Clash4
       - Clash3
       - Clash2
       - Clash1
-      - trojan-cdn
       - trojan-sni
-      - vmess-cdn
       - vmess-sni
       - shadowsocks
       - snell-udp
@@ -63,13 +63,13 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204 
     interval: '100' #600 or #300
     proxies:
+      - vmess-cdn
+      - trojan-cdn
       - Clash2
       - Clash1
       - Clash4
       - Clash3
-      - trojan-cdn
       - trojan-sni
-      - vmess-cdn
       - vmess-sni
       - shadowsocks
       - snell-udp
@@ -81,13 +81,13 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204 
     interval: '100' #600 or #300
     proxies:
+      - trojan-cdn
+      - vmess-cdn
       - Clash3
       - Clash2
       - Clash1
       - Clash4
-      - trojan-cdn
       - trojan-sni
-      - vmess-cdn
       - vmess-sni
       - shadowsocks
       - snell-udp
