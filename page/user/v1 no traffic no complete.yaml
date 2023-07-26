@@ -306,7 +306,9 @@ tun:
   - tcp://8.8.8.8:53
   - tcp://8.8.4.4:53
 tproxy-port: 7895
+
 rule-providers:
+
   rule_BlockAds:
     type: http
     behavior: classical
