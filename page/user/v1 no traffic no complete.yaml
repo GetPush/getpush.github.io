@@ -3,23 +3,17 @@ proxy-groups:
   - name: Iklan
     type: select
     proxies:
-      - Load Balance
-      - Fall Back 
-      - Best Ping 
-      - REJECT
-      - shadowsocks
-      - snell-udp
+      - Mode 🌍
       - trojan-cdn
-      - trojan-sni
       - vmess-cdn
-      - vmess-sni
       - Clash4
       - Clash3
       - Clash2
       - Clash1
+      - REJECT
  
     
-  - name: Mode 
+  - name: Mode 🌍
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
