@@ -30,7 +30,7 @@ proxy-groups:
     type: url-test 
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '600' #600 or #300
+    interval: '100' #600 or #300
     use:
       - trojan-cdn
 
@@ -38,7 +38,7 @@ proxy-groups:
     type: url-test 
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '600' #600 or #300
+    interval: '100' #600 or #300
     use:
       - vmess-cdn
 
@@ -46,7 +46,7 @@ proxy-groups:
     type: url-test 
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '600' #600 or #300
+    interval: '100' #600 or #300
     use:
       - Clash4
 
@@ -54,7 +54,7 @@ proxy-groups:
     type: url-test 
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '600' #600 or #300
+    interval: '100' #600 or #300
     use:
       - Clash3
 
@@ -62,7 +62,7 @@ proxy-groups:
     type: url-test 
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '600' #600 or #300
+    interval: '100' #600 or #300
     use:
       - Clash2
 
@@ -70,7 +70,7 @@ proxy-groups:
     type: url-test 
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '600' #600 or #300
+    interval: '100' #600 or #300
     use:
       - Clash1
 
