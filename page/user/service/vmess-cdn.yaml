@@ -1,6 +1,6 @@
 proxies:
   - name: NETFLIX US #USA 4
-    server: 104.16.108.96
+    server: 104.19.142.89
     port: 80
     type: vmess
     uuid: 5064f670-26a9-11ee-b637-205c6d5f5d78
