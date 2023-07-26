@@ -459,25 +459,25 @@ rules:
 - RULE-SET,adblock,Iklan
 - RULE-SET,rule_reject,Iklan
 - RULE-SET,rule_privacy,REJECT
-- DST-PORT,21,Fall Back
-- DST-PORT,23,Load Balance 
-- DST-PORT,25,Best Ping  
-- DST-PORT,80,Fall Back
-- DST-PORT,81,Load Balance 
-- DST-PORT,143,Best Ping 
-- DST-PORT,443,Fall Back
-- DST-PORT,465,Fall Back
-- DST-PORT,587,Best Ping 
-- DST-PORT,993,Fall Back 
-- DST-PORT,995,Load Balance 
-- DST-PORT,8000,Best Ping 
-- DST-PORT,8008,Fall Back 
-- DST-PORT,8080,Load Balance  
-- DST-PORT,8081,Best Ping  
-- DST-PORT,8090,Fall Back 
-- DST-PORT,8443,Load Balance  
-- DST-PORT,8888,Best Ping  
-- DOMAIN-SUFFIX,www.google.com,Fall Back
+- DST-PORT,21,Mode 🌍
+- DST-PORT,23,Mode 🌍
+- DST-PORT,25,Mode 🌍
+- DST-PORT,80,Mode 🌍
+- DST-PORT,81,Mode 🌍
+- DST-PORT,143,Mode 🌍
+- DST-PORT,443,Mode 🌍
+- DST-PORT,465,Mode 🌍
+- DST-PORT,587,Mode 🌍
+- DST-PORT,993,Mode 🌍
+- DST-PORT,995,Mode 🌍
+- DST-PORT,8000,Mode 🌍
+- DST-PORT,8008,Mode 🌍
+- DST-PORT,8080,Mode 🌍
+- DST-PORT,8081,Mode 🌍
+- DST-PORT,8090,Mode 🌍
+- DST-PORT,8443,Mode 🌍
+- DST-PORT,8888,Mode 🌍
+- DOMAIN-SUFFIX,
 - MATCH,Mode 🌍
 
 tun:
