@@ -54,6 +54,38 @@ proxy-groups:
     use:
       - vmess-cdn
 
+  - name: Clash4
+    type: url-test 
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '600' #600 or #300
+    use:
+      - Clash4
+
+  - name: Clash3
+    type: url-test 
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '600' #600 or #300
+    use:
+      - Clash3
+
+  - name: Clash2
+    type: url-test 
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '600' #600 or #300
+    use:
+      - Clash2
+
+  - name: Clash1
+    type: url-test 
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '600' #600 or #300
+    use:
+      - Clash1
+
 proxy-providers:
   trojan-cdn: 
      type: http 
