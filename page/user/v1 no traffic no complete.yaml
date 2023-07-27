@@ -4,6 +4,9 @@ proxy-groups:
     type: select
     proxies:
       - 🌍
+      - LoadBalance
+      - FallBack
+      - BestPing
       - trojan-cdn
       - vmess-cdn
       - Server4
@@ -16,6 +19,9 @@ proxy-groups:
   - name: 🌍
     type: select
     proxies:
+      - LoadBalance
+      - FallBack
+      - BestPing
       - trojan-cdn
       - vmess-cdn
       - Server4
@@ -23,7 +29,7 @@ proxy-groups:
       - Server2
       - Server1
 
-  - name: Load-Balance
+  - name: LoadBalance
     type: load-balance
     disable-udp: false
     url: http://www.gstatic.com/generate_204
