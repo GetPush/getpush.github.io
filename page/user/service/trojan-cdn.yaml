@@ -1,4 +1,71 @@
 proxies:
+########## CANADA ######
+  - name: Canada A
+    server: 104.19.142.89
+    port: 443
+    type: trojan
+    password: ec0fd4e0-2c90-11ee-943a-1239d0255272
+    skip-cert-verify: true
+    sni: ca-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ca-trojan.bonds.id
+    udp: true
+  - name: Canada B
+    server: www.sushiroll.co.id
+    port: 443
+    type: trojan
+    password: ec0fd4e0-2c90-11ee-943a-1239d0255272
+    skip-cert-verify: true
+    sni: ca-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ca-trojan.bonds.id
+    udp: true
+  - name: Canada C
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: ec0fd4e0-2c90-11ee-943a-1239d0255272
+    skip-cert-verify: true
+    sni: ca-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ca-trojan.bonds.id
+    udp: true
+  - name: Canada D
+    server: zendesk1.shopee.com
+    port: 443
+    type: trojan
+    password: ec0fd4e0-2c90-11ee-943a-1239d0255272
+    skip-cert-verify: true
+    sni: ca-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ca-trojan.bonds.id
+    udp: true
+  - name: Canada E
+    server: layanan.ruangguru.com
+    port: 443
+    type: trojan
+    password: ec0fd4e0-2c90-11ee-943a-1239d0255272
+    skip-cert-verify: true
+    sni: ca-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ca-trojan.bonds.id
+    udp: true
+
 ########## ROMANIA ######
   - name: Romania A
     server: 104.19.142.89
