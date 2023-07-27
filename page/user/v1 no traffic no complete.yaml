@@ -5,8 +5,8 @@ proxy-groups:
     proxies:
       - 🌍
       - 🔴
-      - 🔵
-      - 🟣
+      - 🟡
+      - 🟢
       - trojan-cdn
       - vmess-cdn
       - Server4
@@ -20,8 +20,8 @@ proxy-groups:
     type: select
     proxies:
       - 🔴
-      - 🔵
-      - 🟣
+      - 🟡
+      - 🟢
       - trojan-cdn
       - vmess-cdn
       - Server4
@@ -41,7 +41,7 @@ proxy-groups:
       - Server1
       - trojan-cdn
       - vmess-cdn
-  - name: 🔵
+  - name: 🟡
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
@@ -53,7 +53,7 @@ proxy-groups:
       - Server1
       - trojan-cdn
       - vmess-cdn
-  - name: 🟣
+  - name: 🟢
     type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
