@@ -294,18 +294,17 @@ proxies:
     headers:
         Host: sg2-trojan.bonds.id
 
-
-#
-- name: trojan ws cdn
-  server: IPCDN/BUGCDN.COM
-  port: 443
-  type: trojan
-  password: PASSWORD
-  network: ws
-  sni: namadomainservermu.com
-  skip-cert-verify: false
-  udp: true
-  ws-opts:
-    path: /iptunnelstrgo
-    headers:
-        Host: namadomainservermu.com
+########## Turki ######
+  - name: Turki A
+    server: 104.19.142.89
+    port: 443
+    type: trojan
+    password: cebcce10-2c46-11ee-9fde-1239d0255272
+    skip-cert-verify: true
+    sni: tr.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: tr.test3.net
+    udp: true
