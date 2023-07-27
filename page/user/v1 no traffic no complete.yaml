@@ -4,9 +4,9 @@ proxy-groups:
     type: select
     proxies:
       - 🌍
-      - LoadBalance
-      - FallBack
-      - BestPing
+      - 🔴
+      - 🔵
+      - 🟣
       - trojan-cdn
       - vmess-cdn
       - Server4
@@ -19,9 +19,9 @@ proxy-groups:
   - name: 🌍
     type: select
     proxies:
-      - LoadBalance
-      - FallBack
-      - BestPing
+      - 🔴
+      - 🔵
+      - 🟣
       - trojan-cdn
       - vmess-cdn
       - Server4
@@ -29,7 +29,7 @@ proxy-groups:
       - Server2
       - Server1
 
-  - name: LoadBalance
+  - name: 🔴
     type: load-balance
     disable-udp: false
     url: http://www.gstatic.com/generate_204
@@ -41,7 +41,7 @@ proxy-groups:
       - Server1
       - trojan-cdn
       - vmess-cdn
-  - name: FallBack
+  - name: 🔵
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
@@ -53,7 +53,7 @@ proxy-groups:
       - Server1
       - trojan-cdn
       - vmess-cdn
-  - name: BestPing
+  - name: 🟣
     type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
