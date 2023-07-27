@@ -80,7 +80,7 @@ proxy-providers:
      path: ./trojan-cdn.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan-cdn.yaml"
+     url: "https://toppayofficial.vercel.app/page/user/service/trojan-cdn.yaml"
      interval: 1200
 
   vmess-cdn: 
@@ -88,7 +88,7 @@ proxy-providers:
      path: ./vmess-cdn.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/vmess-cdn.yaml"
+     url: "https://toppayofficial.vercel.app/page/user/service/vmess-cdn.yaml"
      interval: 1200
 
   Clash1:
@@ -322,6 +322,7 @@ rules:
 - RULE-SET,rule_porn,REJECT
 - RULE-SET,adblock,Iklan 
 - RULE-SET,rule_reject,Iklan
+- RULE-SET,rule_privacy,REJECT
 - DST-PORT,21,Mode 🌍
 - DST-PORT,23,Mode 🌍
 - DST-PORT,25,Mode 🌍
@@ -357,20 +358,27 @@ rule-providers:
     type: http
     behavior: classical
     path: "./adblock.yaml"
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/ruleset/adblock.yaml
+    url: https://toppayofficial.vercel.app/ruleset/adblock.yaml
     interval: 86400
 
   rule_reject:
     type: http
     behavior: domain
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/ruleset/rule_reject.yaml
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt
     path: "./rule_reject.yaml"
+    interval: 86400
+
+  rule_privacy:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Privacy/Privacy_Classical.yaml
+    path: "./rule_privacy.yaml"
     interval: 86400
 
   rule_porn:
     type: http
     behavior: domain
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/ruleset/rule_porn.yaml
+    url: https://rules.kr328.app/category-porn.yaml
     path: "./rule_porn.yaml"
     interval: 86400
 
