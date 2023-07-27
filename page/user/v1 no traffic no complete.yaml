@@ -6,10 +6,10 @@ proxy-groups:
       - Mode 🌍
       - trojan-cdn
       - vmess-cdn
-      - Clash4
-      - Clash3
-      - Clash2
-      - Clash1
+      - Server4
+      - Server3
+      - Server2
+      - Server1
       - REJECT
  
     
@@ -19,10 +19,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     proxies:
-      - Clash4
-      - Clash3
-      - Clash2
-      - Clash1
+      - Server4
+      - Server3
+      - Server2
+      - Server1
       - trojan-cdn
       - vmess-cdn
 
@@ -42,37 +42,37 @@ proxy-groups:
     use:
       - vmess-cdn
 
-  - name: Clash4
+  - name: Server4
     type: url-test 
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     use:
-      - Clash4
+      - Server4
 
-  - name: Clash3
+  - name: Server3
     type: url-test 
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     use:
-      - Clash3
+      - Server3
 
-  - name: Clash2
+  - name: Server2
     type: url-test 
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     use:
-      - Clash2
+      - Server2
 
-  - name: Clash1
+  - name: Server1
     type: url-test 
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     use:
-      - Clash1
+      - Server1
 
 proxy-providers:
   trojan-cdn: 
@@ -91,33 +91,33 @@ proxy-providers:
      url: "https://toppayofficial.vercel.app/page/user/service/vmess-cdn.yaml"
      interval: 1200
 
-  Clash1:
+  Server1:
     type: http
     path: ./clash1.yaml
     health-check:
     enable: true
-    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/clash/clash1.yaml"
+    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/server1.yaml"
     interval: 1200
-  Clash2:
+  Server2:
     type: http
     path: ./clash2.yaml
     health-check:
     enable: true
-    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/clash/clash2.yaml"
+    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/server2.yaml"
     interval: 1200
-  Clash3:
+  Server3:
     type: http
     path: ./clash3.yaml
     health-check:
     enable: true
-    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/clash/clash3.yaml"
+    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/server3.yaml"
     interval: 1200
-  Clash4:
+  Server4:
     type: http
     path: ./clash4.yaml
     health-check:
     enable: true
-    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/clash/clash4.yaml"
+    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/server1.yam4"
     interval: 1200
 
 redir-port: 7892
