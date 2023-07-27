@@ -268,7 +268,7 @@ proxies:
     udp: true
 
 
-########## SINGAPORE HE1 A ######
+########## SINGAPORE HE2 A ######
   - name: Singapore HE2 A
     server: 104.19.142.89
     port: 443
