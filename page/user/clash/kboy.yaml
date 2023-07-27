@@ -322,7 +322,6 @@ rules:
 - RULE-SET,rule_porn,REJECT
 - RULE-SET,adblock,Iklan 
 - RULE-SET,rule_reject,Iklan
-- RULE-SET,rule_privacy,REJECT
 - DST-PORT,21,Mode 🌍
 - DST-PORT,23,Mode 🌍
 - DST-PORT,25,Mode 🌍
@@ -366,13 +365,6 @@ rule-providers:
     behavior: domain
     url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/ruleset/rule_reject.yaml
     path: "./rule_reject.yaml"
-    interval: 86400
-
-  rule_privacy:
-    type: http
-    behavior: classical
-    path: "./rule_privacy.yaml"
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/ruleset/rule_privacy.yaml"
     interval: 86400
 
   rule_porn:
