@@ -401,3 +401,70 @@ proxies:
       headers:
         Host: tr.test3.net
     udp: true
+
+########## THAILAND ######
+  - name: Thailand A
+    server: 104.19.142.89
+    port: 443
+    type: trojan
+    password: 88d86660-2c88-11ee-97d9-1239d0255272
+    skip-cert-verify: true
+    sni: th1-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: th1-trojan.bonds.id
+    udp: true
+  - name: Thailand B
+    server: www.sushiroll.co.id
+    port: 443
+    type: trojan
+    password: 88d86660-2c88-11ee-97d9-1239d0255272
+    skip-cert-verify: true
+    sni: th1-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: th1-trojan.bonds.id
+    udp: true
+  - name: Thailand C
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: 88d86660-2c88-11ee-97d9-1239d0255272
+    skip-cert-verify: true
+    sni: th1-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: th1-trojan.bonds.id
+    udp: true
+  - name: Thailand D
+    server: zendesk1.shopee.com
+    port: 443
+    type: trojan
+    password: 88d86660-2c88-11ee-97d9-1239d0255272
+    skip-cert-verify: true
+    sni: th1-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: th1-trojan.bonds.id
+    udp: true
+  - name: Thailand E
+    server: layanan.ruangguru.com
+    port: 443
+    type: trojan
+    password: 88d86660-2c88-11ee-97d9-1239d0255272
+    skip-cert-verify: true
+    sni: th1-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: th1-trojan.bonds.id
+    udp: true
