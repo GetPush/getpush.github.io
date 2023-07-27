@@ -93,31 +93,31 @@ proxy-providers:
 
   Server1:
     type: http
-    path: ./clash1.yaml
+    path: ./server1.yaml
     health-check:
     enable: true
     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/server1.yaml"
     interval: 1200
   Server2:
     type: http
-    path: ./clash2.yaml
+    path: ./server2.yaml
     health-check:
     enable: true
     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/server2.yaml"
     interval: 1200
   Server3:
     type: http
-    path: ./clash3.yaml
+    path: ./server3.yaml
     health-check:
     enable: true
     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/server3.yaml"
     interval: 1200
   Server4:
     type: http
-    path: ./clash4.yaml
+    path: ./server4.yaml
     health-check:
     enable: true
-    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/server1.yam4"
+    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/server4.yam4"
     interval: 1200
 
 redir-port: 7892
