@@ -1,78 +1,123 @@
 proxies:
 proxy-groups:
-  - name: Clash
+  - name: Iklan
     type: select
-    use:
-     # - Clash1
-     # - Clash2
-     # - Clash3
-     # - Clash4
-     # - Service
     proxies:
-      - Server 
-      - Services 
-      - DIRECT
-
-  - name: Services 
-    type: fallback 
-    use:
+      - Mode 🌍
+      - trojan-cdn
+      - vmess-cdn
       - Clash4
-      - Service
+      - Clash3
+      - Clash2
+      - Clash1
+      - REJECT
+ 
     
-  - name: Server #all fallback 
+  - name: Mode 🌍
     type: fallback
     disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    proxies:
+      - Clash4
+      - Clash3
+      - Clash2
+      - Clash1
+      - trojan-cdn
+      - vmess-cdn
+
+  - name: trojan-cdn
+    type: url-test 
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - trojan-cdn
+
+  - name: vmess-cdn
+    type: url-test 
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - vmess-cdn
+
+  - name: Clash4
+    type: url-test 
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - Clash4
+
+  - name: Clash3
+    type: url-test 
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - Clash3
+
+  - name: Clash2
+    type: url-test 
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - Clash2
+
+  - name: Clash1
+    type: url-test 
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
     use:
       - Clash1
-      - Clash2
-      - Clash3
-      - Clash4
-      - Service
-    url: http://www.gstatic.com/generate_204
-    interval: '600'
-
-  - name: BlockAds
-    type: select
-    proxies:
-      - Server 
-      - Services
-      - REJECT
 
 proxy-providers:
-  Service: 
+  trojan-cdn: 
      type: http 
-     path: ./service.yaml 
+     path: ./trojan-cdn.yaml 
      health-check: 
      enable: true 
-     url: "https://toppayofficial.vercel.app/page/user/clash/service.yaml"
+     url: "https://toppayofficial.vercel.app/page/user/service/trojan-cdn.yaml"
      interval: 1200
+
+  vmess-cdn: 
+     type: http 
+     path: ./vmess-cdn.yaml 
+     health-check: 
+     enable: true 
+     url: "https://toppayofficial.vercel.app/page/user/service/vmess-cdn.yaml"
+     interval: 1200
+
   Clash1:
     type: http
     path: ./clash1.yaml
     health-check:
     enable: true
-    url: "https://toppayofficial.vercel.app/page/user/clash/sg1.yaml"
+    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/clash/clash1.yaml"
     interval: 1200
   Clash2:
     type: http
     path: ./clash2.yaml
     health-check:
     enable: true
-    url: "https://toppayofficial.vercel.app/page/user/clash/sg2.yaml"
+    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/clash/clash2.yaml"
     interval: 1200
   Clash3:
     type: http
     path: ./clash3.yaml
     health-check:
     enable: true
-    url: "https://toppayofficial.vercel.app/page/user/clash/sg3.yaml"
+    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/clash/clash3.yaml"
     interval: 1200
   Clash4:
     type: http
     path: ./clash4.yaml
     health-check:
     enable: true
-    url: "https://toppayofficial.vercel.app/page/user/clash/sg4.yaml"
+    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/clash/clash4.yaml"
     interval: 1200
 
 redir-port: 7892
@@ -275,29 +320,29 @@ rules:
 - PROCESS-NAME,privoxy.exe,DIRECT
 - DST-PORT,22,DIRECT,no-resolve
 - RULE-SET,rule_porn,REJECT
-- RULE-SET,rule_BlockAds,BlockAds
-- RULE-SET,rule_reject,BlockAds
+- RULE-SET,adblock,Iklan 
+- RULE-SET,rule_reject,Iklan
 - RULE-SET,rule_privacy,REJECT
-- DST-PORT,21,Clash
-- DST-PORT,23,Clash
-- DST-PORT,25,Clash
-- DST-PORT,80,Clash
-- DST-PORT,81,Clash
-- DST-PORT,143,Clash
-- DST-PORT,443,Services
-- DST-PORT,465,Clash
-- DST-PORT,587,Clash
-- DST-PORT,993,Clash
-- DST-PORT,995,Clash
-- DST-PORT,8000,Clash
-- DST-PORT,8008,Clash
-- DST-PORT,8080,Clash
-- DST-PORT,8081,Clash
-- DST-PORT,8090,Clash
-- DST-PORT,8443,Clash
-- DST-PORT,8888,Clash
+- DST-PORT,21,Mode 🌍
+- DST-PORT,23,Mode 🌍
+- DST-PORT,25,Mode 🌍
+- DST-PORT,80,Mode 🌍
+- DST-PORT,81,Mode 🌍
+- DST-PORT,143,Mode 🌍
+- DST-PORT,443,Mode 🌍
+- DST-PORT,465,Mode 🌍
+- DST-PORT,587,Mode 🌍
+- DST-PORT,993,Mode 🌍
+- DST-PORT,995,Mode 🌍
+- DST-PORT,8000,Mode 🌍
+- DST-PORT,8008,Mode 🌍
+- DST-PORT,8080,Mode 🌍
+- DST-PORT,8081,Mode 🌍
+- DST-PORT,8090,Mode 🌍
+- DST-PORT,8443,Mode 🌍
+- DST-PORT,8888,Mode 🌍
 #- DOMAIN-SUFFIX,
-- MATCH,Clash,Server,Services 
+- MATCH,Mode 🌍
 
 tun:
   enable: true
@@ -306,25 +351,30 @@ tun:
   - tcp://8.8.8.8:53
   - tcp://8.8.4.4:53
 tproxy-port: 7895
+
 rule-providers:
-  rule_BlockAds:
+
+  adblock:
     type: http
     behavior: classical
-    path: "./rule_BlockAds.yaml"
-    url: https://easylist.to/easylist/easylist.txt
+    path: "./adblock.yaml"
+    url: https://toppayofficial.vercel.app/ruleset/adblock.yaml
     interval: 86400
+
   rule_reject:
     type: http
     behavior: domain
     url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt
     path: "./rule_reject.yaml"
     interval: 86400
+
   rule_privacy:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Privacy/Privacy_Classical.yaml
     path: "./rule_privacy.yaml"
     interval: 86400
+
   rule_porn:
     type: http
     behavior: domain
