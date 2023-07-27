@@ -96,28 +96,28 @@ proxy-providers:
     path: ./clash1.yaml
     health-check:
     enable: true
-    url: "https://toppayofficial.vercel.app/page/user/clash/sg1.yaml"
+    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/clash/clash1.yaml"
     interval: 1200
   Clash2:
     type: http
     path: ./clash2.yaml
     health-check:
     enable: true
-    url: "https://toppayofficial.vercel.app/page/user/clash/sg2.yaml"
+    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/clash/clash2.yaml"
     interval: 1200
   Clash3:
     type: http
     path: ./clash3.yaml
     health-check:
     enable: true
-    url: "https://toppayofficial.vercel.app/page/user/clash/sg3.yaml"
+    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/clash/clash3.yaml"
     interval: 1200
   Clash4:
     type: http
     path: ./clash4.yaml
     health-check:
     enable: true
-    url: "https://toppayofficial.vercel.app/page/user/clash/sg4.yaml"
+    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/clash/clash4.yaml"
     interval: 1200
 
 redir-port: 7892
