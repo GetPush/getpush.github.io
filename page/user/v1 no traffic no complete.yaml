@@ -3,7 +3,7 @@ proxy-groups:
   - name: Iklan
     type: select
     proxies:
-      - Mode 🌍
+      - 🌍
       - trojan-cdn
       - vmess-cdn
       - Server4
@@ -13,8 +13,42 @@ proxy-groups:
       - REJECT
  
     
-  - name: Mode 🌍
+  - name: 🌍
+    type: select
+    proxies:
+      - trojan-cdn
+      - vmess-cdn
+      - Server4
+      - Server3
+      - Server2
+      - Server1
+
+  - name: Load-Balance
     type: load-balance
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    proxies:
+      - Server4
+      - Server3
+      - Server2
+      - Server1
+      - trojan-cdn
+      - vmess-cdn
+  - name: FallBack
+    type: fallback
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    proxies:
+      - Server4
+      - Server3
+      - Server2
+      - Server1
+      - trojan-cdn
+      - vmess-cdn
+  - name: BestPing
+    type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
@@ -27,7 +61,7 @@ proxy-groups:
       - vmess-cdn
 
   - name: trojan-cdn
-    type: url-test 
+    type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
@@ -323,26 +357,26 @@ rules:
 - RULE-SET,adblock,Iklan 
 - RULE-SET,rule_reject,Iklan
 - RULE-SET,rule_privacy,REJECT
-- DST-PORT,21,Mode 🌍
-- DST-PORT,23,Mode 🌍
-- DST-PORT,25,Mode 🌍
-- DST-PORT,80,Mode 🌍
-- DST-PORT,81,Mode 🌍
-- DST-PORT,143,Mode 🌍
-- DST-PORT,443,Mode 🌍
-- DST-PORT,465,Mode 🌍
-- DST-PORT,587,Mode 🌍
-- DST-PORT,993,Mode 🌍
-- DST-PORT,995,Mode 🌍
-- DST-PORT,8000,Mode 🌍
-- DST-PORT,8008,Mode 🌍
-- DST-PORT,8080,Mode 🌍
-- DST-PORT,8081,Mode 🌍
-- DST-PORT,8090,Mode 🌍
-- DST-PORT,8443,Mode 🌍
-- DST-PORT,8888,Mode 🌍
+- DST-PORT,21,🌍
+- DST-PORT,23,🌍
+- DST-PORT,25,🌍
+- DST-PORT,80,🌍
+- DST-PORT,81,🌍
+- DST-PORT,143,🌍
+- DST-PORT,443,🌍
+- DST-PORT,465,🌍
+- DST-PORT,587,🌍
+- DST-PORT,993,🌍
+- DST-PORT,995,🌍
+- DST-PORT,8000,🌍
+- DST-PORT,8008,🌍
+- DST-PORT,8080,🌍
+- DST-PORT,8081,🌍
+- DST-PORT,8090,🌍
+- DST-PORT,8443,🌍
+- DST-PORT,8888,🌍
 #- DOMAIN-SUFFIX,
-- MATCH,Mode 🌍
+- MATCH,🌍
 
 tun:
   enable: true
