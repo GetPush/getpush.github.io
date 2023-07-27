@@ -373,6 +373,7 @@ rule-providers:
     behavior: classical
     url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/ruleset/rule_privacy.yaml"
     interval: 86400
+    path: "./rule_privacy.yaml"
 
   rule_porn:
     type: http
