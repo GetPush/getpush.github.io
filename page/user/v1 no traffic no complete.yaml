@@ -117,7 +117,7 @@ proxy-providers:
     path: ./server4.yaml
     health-check:
     enable: true
-    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/server4.yam4"
+    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/server4.yaml"
     interval: 1200
 
 redir-port: 7892
