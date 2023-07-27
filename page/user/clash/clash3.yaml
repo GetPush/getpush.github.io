@@ -1,5 +1,5 @@
 proxies:
-  - name: Axis Game 1 sg3
+  - name: online1 s1
     server: 104.16.108.96
     port: 80
     type: vmess
@@ -11,11 +11,11 @@ proxies:
     servername: sg3-v2ray.sshkit.org
     network: ws
     ws-opts:
-      path: /sshkit/1828396894/649af8ea6d779/
+      path: /sshkit/6690240657/64c239904c04a/
       headers:
         Host: sg3-v2ray.sshkit.org
     udp: true
-  - name: Axis Game 2 sg3
+  - name: online2 s1
     server: 104.19.142.89
     port: 80
     type: vmess
@@ -27,13 +27,13 @@ proxies:
     servername: sg3-v2ray.sshkit.org
     network: ws
     ws-opts:
-      path: /sshkit/1828396894/649af8ea6d779/
+      path: /sshkit/6690240657/64c239904c04a/
       headers:
         Host: sg3-v2ray.sshkit.org
     udp: true
-  - name: apps sg3 
+  - name: online3 s1 
     server: www.sushiroll.co.id 
-    port: 80 
+    port: 80
     type: vmess 
     uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3 
     alterId: 0 
@@ -43,7 +43,55 @@ proxies:
     servername: sg3-v2ray.sshkit.org 
     network: ws 
     ws-opts: 
-      path: /sshkit/1828396894/649af8ea6d779/ 
+      path: /sshkit/6690240657/64c239904c04a/ 
+      headers: 
+        Host: sg3-v2ray.sshkit.org 
+    udp: true
+  - name: online4 s1 
+    server: quiz.vidio.com
+    port: 80
+    type: vmess 
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3 
+    alterId: 0 
+    cipher: auto 
+    tls: false 
+    skip-cert-verify: true 
+    servername: sg3-v2ray.sshkit.org 
+    network: ws 
+    ws-opts: 
+      path: /sshkit/6690240657/64c239904c04a/ 
+      headers: 
+        Host: sg3-v2ray.sshkit.org 
+    udp: true
+  - name: online5 s1 
+    server: zendesk1.shopee.com
+    port: 80
+    type: vmess 
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3 
+    alterId: 0 
+    cipher: auto 
+    tls: false 
+    skip-cert-verify: true 
+    servername: sg3-v2ray.sshkit.org 
+    network: ws 
+    ws-opts: 
+      path: /sshkit/6690240657/64c239904c04a/ 
+      headers: 
+        Host: sg3-v2ray.sshkit.org 
+    udp: true
+  - name: online6 s1 
+    server: layanan.ruangguru.com
+    port: 80
+    type: vmess 
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3 
+    alterId: 0 
+    cipher: auto 
+    tls: false 
+    skip-cert-verify: true 
+    servername: sg3-v2ray.sshkit.org 
+    network: ws 
+    ws-opts: 
+      path: /sshkit/6690240657/64c239904c04a/ 
       headers: 
         Host: sg3-v2ray.sshkit.org 
     udp: true
