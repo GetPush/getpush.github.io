@@ -1,33 +1,106 @@
 proxies:
 proxy-groups:
-  - name: Iklan
+  - name: 💰
     type: select
     proxies:
-      - Mode 🌍
+      - 🌍
+      - 🔴
+      - 🟡
+      - 🟢
       - trojan-cdn
       - vmess-cdn
-      - Clash4
-      - Clash3
-      - Clash2
-      - Clash1
+      - 💵 #4
+      - 💷 #3
+      - 💴 #2
+      - 💶 #1
       - REJECT
  
     
-  - name: Mode 🌍
+  - name: 🌍
+    type: select
+    proxies:
+      - 🔴
+      - 🟡
+      - 🟢
+      - trojan-cdn
+      - vmess-cdn
+      - 💵 #4
+      - 💷 #3
+      - 💴 #2
+      - 💶 #1
+
+  - name: 🔴
+    type: load-balance
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    proxies:
+      - 💵 #4
+      - 💷 #3
+      - 💴 #2
+      - 💶 #1
+      - trojan-cdn
+      - vmess-cdn
+  - name: 🟡
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     proxies:
-      - Clash4
-      - Clash3
-      - Clash2
-      - Clash1
+      - 💵 #4
+      - 💷 #3
+      - 💴 #2
+      - 💶 #1
+      - trojan-cdn
+      - vmess-cdn
+  - name: 🟢
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    proxies:
+      - 💵 #4
+      - 💷 #3
+      - 💴 #2
+      - 💶 #1
       - trojan-cdn
       - vmess-cdn
 
-  - name: trojan-cdn
+
+  - name: 💵 #4
     type: url-test 
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - Server4
+
+  - name: 💷 #3
+    type: url-test 
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - Server3
+
+  - name: 💴 #2
+    type: url-test 
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - Server2
+
+  - name: 💶 #1
+    type: url-test 
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - Server1
+
+  - name: trojan-cdn
+    type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
@@ -42,37 +115,6 @@ proxy-groups:
     use:
       - vmess-cdn
 
-  - name: Clash4
-    type: url-test 
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
-    use:
-      - Clash4
-
-  - name: Clash3
-    type: url-test 
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
-    use:
-      - Clash3
-
-  - name: Clash2
-    type: url-test 
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
-    use:
-      - Clash2
-
-  - name: Clash1
-    type: url-test 
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
-    use:
-      - Clash1
 
 proxy-providers:
   trojan-cdn: 
@@ -80,7 +122,7 @@ proxy-providers:
      path: ./trojan-cdn.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan-cdn.yaml"
+     url: "https://toppayofficial.vercel.app/page/user/service/trojan-cdn.yaml"
      interval: 1200
 
   vmess-cdn: 
@@ -88,36 +130,36 @@ proxy-providers:
      path: ./vmess-cdn.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/vmess-cdn.yaml"
+     url: "https://toppayofficial.vercel.app/page/user/service/vmess-cdn.yaml"
      interval: 1200
 
-  Clash1:
+  Server1:
     type: http
-    path: ./clash1.yaml
+    path: ./server1.yaml
     health-check:
     enable: true
-    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/clash/clash1.yaml"
+    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/server1.yaml"
     interval: 1200
-  Clash2:
+  Server2:
     type: http
-    path: ./clash2.yaml
+    path: ./server2.yaml
     health-check:
     enable: true
-    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/clash/clash2.yaml"
+    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/server2.yaml"
     interval: 1200
-  Clash3:
+  Server3:
     type: http
-    path: ./clash3.yaml
+    path: ./server3.yaml
     health-check:
     enable: true
-    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/clash/clash3.yaml"
+    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/server3.yaml"
     interval: 1200
-  Clash4:
+  Server4:
     type: http
-    path: ./clash4.yaml
+    path: ./server4.yaml
     health-check:
     enable: true
-    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/clash/clash4.yaml"
+    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/server4.yaml"
     interval: 1200
 
 redir-port: 7892
@@ -320,28 +362,29 @@ rules:
 - PROCESS-NAME,privoxy.exe,DIRECT
 - DST-PORT,22,DIRECT,no-resolve
 - RULE-SET,rule_porn,REJECT
-- RULE-SET,adblock,Iklan 
-- RULE-SET,rule_reject,Iklan
-- DST-PORT,21,Mode 🌍
-- DST-PORT,23,Mode 🌍
-- DST-PORT,25,Mode 🌍
-- DST-PORT,80,Mode 🌍
-- DST-PORT,81,Mode 🌍
-- DST-PORT,143,Mode 🌍
-- DST-PORT,443,Mode 🌍
-- DST-PORT,465,Mode 🌍
-- DST-PORT,587,Mode 🌍
-- DST-PORT,993,Mode 🌍
-- DST-PORT,995,Mode 🌍
-- DST-PORT,8000,Mode 🌍
-- DST-PORT,8008,Mode 🌍
-- DST-PORT,8080,Mode 🌍
-- DST-PORT,8081,Mode 🌍
-- DST-PORT,8090,Mode 🌍
-- DST-PORT,8443,Mode 🌍
-- DST-PORT,8888,Mode 🌍
+- RULE-SET,adblock,💰
+- RULE-SET,rule_reject,💰
+- RULE-SET,rule_privacy,REJECT
+- DST-PORT,21,🌍
+- DST-PORT,23,🌍
+- DST-PORT,25,🌍
+- DST-PORT,80,🌍
+- DST-PORT,81,🌍
+- DST-PORT,143,🌍
+- DST-PORT,443,🌍
+- DST-PORT,465,🌍
+- DST-PORT,587,🌍
+- DST-PORT,993,🌍
+- DST-PORT,995,🌍
+- DST-PORT,8000,🌍
+- DST-PORT,8008,🌍
+- DST-PORT,8080,🌍
+- DST-PORT,8081,🌍
+- DST-PORT,8090,🌍
+- DST-PORT,8443,🌍
+- DST-PORT,8888,🌍
 #- DOMAIN-SUFFIX,
-- MATCH,Mode 🌍
+- MATCH,🌍
 
 tun:
   enable: true
@@ -357,20 +400,27 @@ rule-providers:
     type: http
     behavior: classical
     path: "./adblock.yaml"
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/ruleset/adblock.yaml
+    url: https://toppayofficial.vercel.app/ruleset/adblock.yaml
     interval: 86400
 
   rule_reject:
     type: http
     behavior: domain
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/ruleset/rule_reject.yaml
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt
     path: "./rule_reject.yaml"
+    interval: 86400
+
+  rule_privacy:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Privacy/Privacy_Classical.yaml
+    path: "./rule_privacy.yaml"
     interval: 86400
 
   rule_porn:
     type: http
     behavior: domain
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/ruleset/rule_porn.yaml
+    url: https://rules.kr328.app/category-porn.yaml
     path: "./rule_porn.yaml"
     interval: 86400
 
