@@ -3,7 +3,7 @@ proxy-groups:
   - name: 💰
     type: select
     proxies:
-      - (🌍)
+      - 🌍
       - 🔴
       - 🟡
       - 🟢
@@ -16,7 +16,7 @@ proxy-groups:
       - REJECT
  
     
-  - name: (🌍)
+  - name: 🌍
     type: select
     proxies:
       - 🔴
@@ -344,8 +344,8 @@ profile:
   store-fake-ip: true
 
 rules:
-- DOMAIN-SUFFIX,raw.githubusercontent.com,(🌍)
-- DOMAIN-SUFFIX,toppayofficial.vercel.app,(🌍)
+- DOMAIN-SUFFIX,raw.githubusercontent.com,🌍
+- DOMAIN-SUFFIX,toppayofficial.vercel.app,🌍
 - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
 - PROCESS-NAME,v2ray,DIRECT
 - PROCESS-NAME,xray,DIRECT
@@ -367,25 +367,25 @@ rules:
 - RULE-SET,adblock,💰
 - RULE-SET,rule_reject,💰
 - RULE-SET,rule_privacy,REJECT
-- DST-PORT,21,(🌍)
-- DST-PORT,23,(🌍)
-- DST-PORT,25,(🌍)
-- DST-PORT,80,(🌍)
-- DST-PORT,81,(🌍)
-- DST-PORT,143,(🌍)
-- DST-PORT,443,(🌍)
-- DST-PORT,465,(🌍)
-- DST-PORT,587,(🌍)
-- DST-PORT,993,(🌍)
-- DST-PORT,995,(🌍)
-- DST-PORT,8000,(🌍)
-- DST-PORT,8008,(🌍)
-- DST-PORT,8080,(🌍)
-- DST-PORT,8081,(🌍)
-- DST-PORT,8090,(🌍)
-- DST-PORT,8443,(🌍)
-- DST-PORT,8888,(🌍)
-- MATCH,(🌍)
+- DST-PORT,21,🌍
+- DST-PORT,23,🌍
+- DST-PORT,25,🌍
+- DST-PORT,80,🌍
+- DST-PORT,81,🌍
+- DST-PORT,143,🌍
+- DST-PORT,443,🌍
+- DST-PORT,465,🌍
+- DST-PORT,587,🌍
+- DST-PORT,993,🌍
+- DST-PORT,995,🌍
+- DST-PORT,8000,🌍
+- DST-PORT,8008,🌍
+- DST-PORT,8080,🌍
+- DST-PORT,8081,🌍
+- DST-PORT,8090,🌍
+- DST-PORT,8443,🌍
+- DST-PORT,8888,🌍
+- MATCH,🌍
 
 tun:
   enable: true
