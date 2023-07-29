@@ -1,11 +1,12 @@
 proxies:
 proxy-groups:
-  - name: [💰]
+  - name: 💰
     type: select
     proxies:
-      - [🔴]
-      - [🟡]
-      - [🟢]
+      - 🌍
+      - 🔴
+      - 🟡
+      - 🟢
       - trojan-cdn
       - vmess-cdn
       - 💵 #4
@@ -15,12 +16,12 @@ proxy-groups:
       - REJECT
  
     
-  - name: [🌍]
+  - name: 🌍
     type: select
     proxies:
-      - [🔴]
-      - [🟡]
-      - [🟢]
+      - 🔴
+      - 🟡
+      - 🟢
       - trojan-cdn
       - vmess-cdn
       - 💵 #4
@@ -28,7 +29,7 @@ proxy-groups:
       - 💴 #2
       - 💶 #1
 
-  - name: [🔴]
+  - name: 🔴
     type: load-balance
     disable-udp: false
     url: http://www.gstatic.com/generate_204
@@ -40,7 +41,7 @@ proxy-groups:
       - 💶 #1
       - trojan-cdn
       - vmess-cdn
-  - name: [🟡]
+  - name: 🟡
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
@@ -52,7 +53,7 @@ proxy-groups:
       - 💶 #1
       - trojan-cdn
       - vmess-cdn
-  - name: [🟢]
+  - name: 🟢
     type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
@@ -67,7 +68,7 @@ proxy-groups:
 
 
   - name: 💵 #4
-    type: load-balance #url-test
+    type: fallback #url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
@@ -75,7 +76,7 @@ proxy-groups:
       - Server4
 
   - name: 💷 #3
-    type: load-balance #url-test
+    type: fallback #url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
@@ -83,7 +84,7 @@ proxy-groups:
       - Server3
 
   - name: 💴 #2
-    type: load-balance #url-test
+    type: fallback #url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
@@ -91,7 +92,7 @@ proxy-groups:
       - Server2
 
   - name: 💶 #1
-    type: load-balance #url-test
+    type: fallback #url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
@@ -99,7 +100,7 @@ proxy-groups:
       - Server1
 
   - name: trojan-cdn
-    type: load-balance #url-test
+    type: fallback #url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
@@ -107,7 +108,7 @@ proxy-groups:
       - trojan-cdn
 
   - name: vmess-cdn
-    type: load-balance #url-test
+    type: fallback #url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
@@ -343,8 +344,8 @@ profile:
   store-fake-ip: true
 
 rules:
-- DOMAIN-SUFFIX,raw.githubusercontent.com,[🟢]
-- DOMAIN-SUFFIX,toppayofficial.vercel.app,[🟢]
+- DOMAIN-SUFFIX,raw.githubusercontent.com,🔴
+- DOMAIN-SUFFIX,toppayofficial.vercel.app,🔴
 - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
 - PROCESS-NAME,v2ray,DIRECT
 - PROCESS-NAME,xray,DIRECT
@@ -366,25 +367,25 @@ rules:
 - RULE-SET,adblock,💰
 - RULE-SET,rule_reject,💰
 - RULE-SET,rule_privacy,REJECT
-- DST-PORT,21,[🌍]
-- DST-PORT,23,[🌍]
-- DST-PORT,25,[🌍]
-- DST-PORT,80,[🌍]
-- DST-PORT,81,[🌍]
-- DST-PORT,143,[🌍]
-- DST-PORT,443,[🌍]
-- DST-PORT,465,[🌍]
-- DST-PORT,587,[🌍]
-- DST-PORT,993,[🌍]
-- DST-PORT,995,[🌍]
-- DST-PORT,8000,[🌍]
-- DST-PORT,8008,[🌍]
-- DST-PORT,8080,[🌍]
-- DST-PORT,8081,[🌍]
-- DST-PORT,8090,[🌍]
-- DST-PORT,8443,[🌍]
-- DST-PORT,8888,[🌍]
-- MATCH,[🌍]
+- DST-PORT,21,🌍
+- DST-PORT,23,🌍
+- DST-PORT,25,🌍
+- DST-PORT,80,🌍
+- DST-PORT,81,🌍
+- DST-PORT,143,🌍
+- DST-PORT,443,🌍
+- DST-PORT,465,🌍
+- DST-PORT,587,🌍
+- DST-PORT,993,🌍
+- DST-PORT,995,🌍
+- DST-PORT,8000,🌍
+- DST-PORT,8008,🌍
+- DST-PORT,8080,🌍
+- DST-PORT,8081,🌍
+- DST-PORT,8090,🌍
+- DST-PORT,8443,🌍
+- DST-PORT,8888,🌍
+- MATCH,🌍
 
 tun:
   enable: true
