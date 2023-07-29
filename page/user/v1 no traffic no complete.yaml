@@ -1,6 +1,6 @@
 proxies:
 proxy-groups:
-  - name: 💰
+  - name: [💰]
     type: select
     proxies:
       - [🔴]
