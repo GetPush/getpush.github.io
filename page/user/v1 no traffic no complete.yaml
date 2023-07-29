@@ -68,7 +68,7 @@ proxy-groups:
 
 
   - name: s4💵 #4
-    type: fallback #url-test
+    type: load-balance #url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
@@ -76,7 +76,7 @@ proxy-groups:
       - Server4
 
   - name: s3💷 #3
-    type: fallback #url-test
+    type: load-balance #url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
@@ -84,7 +84,7 @@ proxy-groups:
       - Server3
 
   - name: s2💴 #2
-    type: fallback #url-test
+    type: load-balance #url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
@@ -92,7 +92,7 @@ proxy-groups:
       - Server2
 
   - name: s1💶 #1
-    type: fallback #url-test
+    type: load-balance #url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
@@ -100,7 +100,7 @@ proxy-groups:
       - Server1
 
   - name: trojan-cdn
-    type: fallback #url-test
+    type: load-balance #url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
@@ -108,7 +108,7 @@ proxy-groups:
       - trojan-cdn
 
   - name: vmess-cdn
-    type: fallback #url-test
+    type: load-balance #url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
