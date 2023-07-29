@@ -4,70 +4,70 @@ proxy-groups:
     type: select
     proxies:
       - 🌍
-      - 🔴
-      - 🟡
-      - 🟢
+      - Load🔴
+      - Fall🟡
+      - Ping🟢
       - trojan-cdn
       - vmess-cdn
-      - 💵 #4
-      - 💷 #3
-      - 💴 #2
-      - 💶 #1
+      - s4💵 #4
+      - s3💷 #3
+      - s2💴 #2
+      - s1💶 #1
       - REJECT
  
     
   - name: 🌍
     type: select
     proxies:
-      - 🔴
-      - 🟡
-      - 🟢
+      - Load🔴
+      - Fall🟡
+      - Ping🟢
       - trojan-cdn
       - vmess-cdn
-      - 💵 #4
-      - 💷 #3
-      - 💴 #2
-      - 💶 #1
+      - s4💵 #4
+      - s3💷 #3
+      - s2💴 #2
+      - s1💶 #1
 
-  - name: 🔴
+  - name: Load🔴
     type: load-balance
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     proxies:
-      - 💵 #4
-      - 💷 #3
-      - 💴 #2
-      - 💶 #1
+      - s4💵 #4
+      - s3💷 #3
+      - s2💴 #2
+      - s1💶 #1
       - trojan-cdn
       - vmess-cdn
-  - name: 🟡
+  - name: Fall🟡
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     proxies:
-      - 💵 #4
-      - 💷 #3
-      - 💴 #2
-      - 💶 #1
+      - s4💵 #4
+      - s3💷 #3
+      - s2💴 #2
+      - s1💶 #1
       - trojan-cdn
       - vmess-cdn
-  - name: 🟢
+  - name: Ping🟢
     type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     proxies:
-      - 💵 #4
-      - 💷 #3
-      - 💴 #2
-      - 💶 #1
+      - s4💵 #4
+      - s3💷 #3
+      - s2💴 #2
+      - s1💶 #1
       - trojan-cdn
       - vmess-cdn
 
 
-  - name: 💵 #4
+  - name: s4💵 #4
     type: fallback #url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
@@ -75,7 +75,7 @@ proxy-groups:
     use:
       - Server4
 
-  - name: 💷 #3
+  - name: s3💷 #3
     type: fallback #url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
@@ -83,7 +83,7 @@ proxy-groups:
     use:
       - Server3
 
-  - name: 💴 #2
+  - name: s2💴 #2
     type: fallback #url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
@@ -91,7 +91,7 @@ proxy-groups:
     use:
       - Server2
 
-  - name: 💶 #1
+  - name: s1💶 #1
     type: fallback #url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
