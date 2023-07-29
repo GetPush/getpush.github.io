@@ -344,8 +344,8 @@ profile:
   store-fake-ip: true
 
 rules:
-- DOMAIN-SUFFIX,raw.githubusercontent.com,🔴
-- DOMAIN-SUFFIX,toppayofficial.vercel.app,🔴
+- DOMAIN-SUFFIX,raw.githubusercontent.com,🌍
+- DOMAIN-SUFFIX,toppayofficial.vercel.app,🌍
 - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
 - PROCESS-NAME,v2ray,DIRECT
 - PROCESS-NAME,xray,DIRECT
