@@ -4,95 +4,95 @@ proxy-groups:
     type: select
     proxies:
       - 🌍
-      - 🔴
-      - 🟡
-      - 🟢
+      - Load🔴
+      - Fall🟡
+      - Ping🟢
       - trojan-cdn
       - vmess-cdn
-      - 💵 #4
-      - 💷 #3
-      - 💴 #2
-      - 💶 #1
+      - s4💵 #4
+      - s3💷 #3
+      - s2💴 #2
+      - s1💶 #1
       - REJECT
  
     
   - name: 🌍
     type: select
     proxies:
-      - 🔴
-      - 🟡
-      - 🟢
+      - Load🔴
+      - Fall🟡
+      - Ping🟢
       - trojan-cdn
       - vmess-cdn
-      - 💵 #4
-      - 💷 #3
-      - 💴 #2
-      - 💶 #1
+      - s4💵 #4
+      - s3💷 #3
+      - s2💴 #2
+      - s1💶 #1
 
-  - name: 🔴
+  - name: Load🔴
     type: load-balance
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     proxies:
-      - 💵 #4
-      - 💷 #3
-      - 💴 #2
-      - 💶 #1
+      - s4💵 #4
+      - s3💷 #3
+      - s2💴 #2
+      - s1💶 #1
       - trojan-cdn
       - vmess-cdn
-  - name: 🟡
+  - name: Fall🟡
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     proxies:
-      - 💵 #4
-      - 💷 #3
-      - 💴 #2
-      - 💶 #1
+      - s4💵 #4
+      - s3💷 #3
+      - s2💴 #2
+      - s1💶 #1
       - trojan-cdn
       - vmess-cdn
-  - name: 🟢
+  - name: Ping🟢
     type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     proxies:
-      - 💵 #4
-      - 💷 #3
-      - 💴 #2
-      - 💶 #1
+      - s4💵 #4
+      - s3💷 #3
+      - s2💴 #2
+      - s1💶 #1
       - trojan-cdn
       - vmess-cdn
 
 
-  - name: 💵 #4
-    type: url-test 
+  - name: s4💵 #4
+    type: load-balance #url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     use:
       - Server4
 
-  - name: 💷 #3
-    type: url-test 
+  - name: s3💷 #3
+    type: load-balance #url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     use:
       - Server3
 
-  - name: 💴 #2
-    type: url-test 
+  - name: s2💴 #2
+    type: load-balance #url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     use:
       - Server2
 
-  - name: 💶 #1
-    type: url-test 
+  - name: s1💶 #1
+    type: load-balance #url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
@@ -100,7 +100,7 @@ proxy-groups:
       - Server1
 
   - name: trojan-cdn
-    type: url-test
+    type: load-balance #url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
@@ -108,7 +108,7 @@ proxy-groups:
       - trojan-cdn
 
   - name: vmess-cdn
-    type: url-test 
+    type: load-balance #url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
@@ -344,6 +344,8 @@ profile:
   store-fake-ip: true
 
 rules:
+- DOMAIN-SUFFIX,raw.githubusercontent.com,🌍
+- DOMAIN-SUFFIX,toppayofficial.vercel.app,🌍
 - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
 - PROCESS-NAME,v2ray,DIRECT
 - PROCESS-NAME,xray,DIRECT
@@ -383,7 +385,6 @@ rules:
 - DST-PORT,8090,🌍
 - DST-PORT,8443,🌍
 - DST-PORT,8888,🌍
-#- DOMAIN-SUFFIX,
 - MATCH,🌍
 
 tun:
