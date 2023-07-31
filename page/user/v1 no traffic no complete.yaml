@@ -8,7 +8,6 @@ proxy-groups:
       - Fall🟡
       - Ping🟢
       - trojan-cdn
-      - vmess-cdn
       - s4💵 #4
       - s3💷 #3
       - s2💴 #2
@@ -23,7 +22,6 @@ proxy-groups:
       - Fall🟡
       - Ping🟢
       - trojan-cdn
-      - vmess-cdn
       - s4💵 #4
       - s3💷 #3
       - s2💴 #2
@@ -39,7 +37,6 @@ proxy-groups:
       - s3💷 #3
       - s2💴 #2
       - s1💶 #1
-      - trojan-cdn
       - vmess-cdn
   - name: Fall🟡
     type: fallback
@@ -51,7 +48,6 @@ proxy-groups:
       - s3💷 #3
       - s2💴 #2
       - s1💶 #1
-      - trojan-cdn
       - vmess-cdn
   - name: Ping🟢
     type: url-test
@@ -64,7 +60,6 @@ proxy-groups:
       - s2💴 #2
       - s1💶 #1
       - trojan-cdn
-      - vmess-cdn
 
 
   - name: s4💵 #4
@@ -107,14 +102,6 @@ proxy-groups:
     use:
       - trojan-cdn
 
-  - name: vmess-cdn
-    type: load-balance #url-test
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
-    use:
-      - vmess-cdn
-
 
 proxy-providers:
   trojan-cdn: 
@@ -123,14 +110,6 @@ proxy-providers:
      health-check: 
      enable: true 
      url: "https://toppayofficial.vercel.app/page/user/service/trojan-cdn.yaml"
-     interval: 1200
-
-  vmess-cdn: 
-     type: http 
-     path: ./vmess-cdn.yaml 
-     health-check: 
-     enable: true 
-     url: "https://toppayofficial.vercel.app/page/user/service/vmess-cdn.yaml"
      interval: 1200
 
   Server1:
