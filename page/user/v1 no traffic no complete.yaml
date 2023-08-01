@@ -348,7 +348,7 @@ rules:
 - DST-PORT,22,DIRECT,no-resolve
 - RULE-SET,rule_porn,REJECT
 - RULE-SET,adblock,💰
-- RULE-SET,rule_reject,💰
+- RULE-SET,rule_reject,REJECT
 - RULE-SET,rule_privacy,REJECT
 - MATCH,🌍
 
