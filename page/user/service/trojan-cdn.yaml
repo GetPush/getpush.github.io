@@ -743,7 +743,7 @@ proxies:
     udp: true
 
 
-########## US ######
+########## United States ######
   - name: US A
     server: 104.19.142.89
     port: 443
