@@ -4,9 +4,9 @@ proxy-groups:
     type: select
     proxies:
       - 🌍
-      - Load🔴
-      - Fall🟡
-      - Ping🟢
+      - LB 🔴
+      - FB 🟡
+      - BP 🟢
       - TR 🐴
       - s4💵 #4
       - s3💷 #3
@@ -20,11 +20,10 @@ proxy-groups:
   - name: 🌍
     type: select
     proxies:
-      - Load🔴
-      - Fall🟡
-      - Ping🟢
+      - LB 🔴
+      - FB 🟡
+      - BP 🟢
       - TR 🐴
-      - 💰
       - s4💵 #4
       - s3💷 #3
       - s2💴 #2
@@ -32,7 +31,7 @@ proxy-groups:
     use:
       - trojan-cdn
 
-  - name: Load🔴
+  - name: LB 🔴
     type: load-balance
     disable-udp: false
     url: http://www.gstatic.com/generate_204
@@ -43,7 +42,7 @@ proxy-groups:
       - s2💴 #2
       - s1💶 #1
       - TR 🐴
-  - name: Fall🟡
+  - name: FB 🟡
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
@@ -54,7 +53,7 @@ proxy-groups:
       - s2💴 #2
       - s1💶 #1
       - TR 🐴
-  - name: Ping🟢
+  - name: BP 🟢
     type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
