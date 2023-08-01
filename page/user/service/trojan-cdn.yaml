@@ -605,3 +605,71 @@ proxies:
         Host: sg-4.test3.net
     udp: true
 
+
+
+########## SG HE 2 ######
+  - name: SG HE 2 A
+    server: 104.19.142.89
+    port: 443
+    type: trojan
+    password: 36cc9e20-2fc0-11ee-b3e3-1239d0255272
+    skip-cert-verify: true
+    sni: sg2-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg2-trojan.bonds.id
+    udp: true
+  - name: SG HE 2 B
+    server: www.sushiroll.co.id
+    port: 443
+    type: trojan
+    password: 36cc9e20-2fc0-11ee-b3e3-1239d0255272
+    skip-cert-verify: true
+    sni: sg2-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg2-trojan.bonds.id
+    udp: true
+  - name: SG HE 2 C
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: 36cc9e20-2fc0-11ee-b3e3-1239d0255272
+    skip-cert-verify: true
+    sni: sg2-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg2-trojan.bonds.id
+    udp: true
+  - name: SG HE 2 D
+    server: zendesk1.shopee.com
+    port: 443
+    type: trojan
+    password: 36cc9e20-2fc0-11ee-b3e3-1239d0255272
+    skip-cert-verify: true
+    sni: sg2-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg2-trojan.bonds.id
+    udp: true
+  - name: SG HE 2 E
+    server: layanan.ruangguru.com
+    port: 443
+    type: trojan
+    password: 36cc9e20-2fc0-11ee-b3e3-1239d0255272
+    skip-cert-verify: true
+    sni: sg2-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg2-trojan.bonds.id
+    udp: true
