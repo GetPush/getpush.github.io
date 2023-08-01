@@ -13,6 +13,8 @@ proxy-groups:
       - s2💴 #2
       - s1💶 #1
       - REJECT
+    use:
+      - Server4
  
     
   - name: 🌍
@@ -26,6 +28,8 @@ proxy-groups:
       - s3💷 #3
       - s2💴 #2
       - s1💶 #1
+    use:
+      - TR 🐴
 
   - name: Load🔴
     type: load-balance
