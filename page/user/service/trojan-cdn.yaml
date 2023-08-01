@@ -66,6 +66,20 @@ proxies:
         Host: ro1.test3.net
     udp: true
 
+  - name: Romania F
+    server: layanan.ruangguru.com
+    port: 443
+    type: trojan
+    password: cf11bae0-2bdc-11ee-adec-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+
 ########## NETHERLAND ######
   - name: Netherland A
     server: 104.19.142.89
@@ -120,6 +134,19 @@ proxies:
         Host: nl.test3.net
     udp: true
   - name: Netherland E
+    server: layanan.ruangguru.com
+    port: 443
+    type: trojan
+    password: bb96e4b0-2be4-11ee-88a3-1239d0255272
+    skip-cert-verify: true
+    sni: nl.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: nl.test3.net
+    udp: true
+  - name: Netherland F
     server: layanan.ruangguru.com
     port: 443
     type: trojan
@@ -199,6 +226,19 @@ proxies:
       headers:
         Host: fr.test3.net
     udp: true
+  - name: Francis F
+    server: layanan.ruangguru.com
+    port: 443
+    type: trojan
+    password: 980c4950-2be3-11ee-be4d-1239d0255272
+    skip-cert-verify: true
+    sni: fr.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr.test3.net
+    udp: true
 
 ########## Turki ######
   - name: Turki A
@@ -254,6 +294,19 @@ proxies:
         Host: tr.test3.net
     udp: true
   - name: Turki E
+    server: layanan.ruangguru.com
+    port: 443
+    type: trojan
+    password: cebcce10-2c46-11ee-9fde-1239d0255272
+    skip-cert-verify: true
+    sni: tr.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: tr.test3.net
+    udp: true
+  - name: Turki F
     server: layanan.ruangguru.com
     port: 443
     type: trojan
@@ -334,6 +387,19 @@ proxies:
       headers:
         Host: de-2.test3.net
     udp: true
+  - name: Germany F
+    server: layanan.ruangguru.com
+    port: 443
+    type: trojan
+    password: 142f4a70-2c8a-11ee-9899-1239d0255272
+    skip-cert-verify: true
+    sni: de-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: de-2.test3.net
+    udp: true
     
 ########## THAILAND ######
   - name: Thailand A
@@ -389,6 +455,19 @@ proxies:
         Host: th1-trojan.bonds.id
     udp: true
   - name: Thailand E
+    server: layanan.ruangguru.com
+    port: 443
+    type: trojan
+    password: 88d86660-2c88-11ee-97d9-1239d0255272
+    skip-cert-verify: true
+    sni: th1-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: th1-trojan.bonds.id
+    udp: true
+  - name: Thailand F
     server: layanan.ruangguru.com
     port: 443
     type: trojan
@@ -469,6 +548,19 @@ proxies:
       headers:
         Host: sg6-trojan.bonds.id
     udp: true
+  - name: SG HE MUX F
+    server: layanan.ruangguru.com
+    port: 443
+    type: trojan
+    password: ef7d41b0-2fbc-11ee-923a-1239d0255272
+    skip-cert-verify: true
+    sni: sg6-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg6-trojan.bonds.id
+    udp: true
     
     
 ########## CANADA ######
@@ -537,6 +629,19 @@ proxies:
       headers:
         Host: ca-trojan.bonds.id
     udp: true
+  - name: Canada F
+    server: layanan.ruangguru.com
+    port: 443
+    type: trojan
+    password: 4e385860-2de1-11ee-be4e-1239d0255272
+    skip-cert-verify: true
+    sni: ca-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ca-trojan.bonds.id
+    udp: true
 
 ########## SG Melbi ######
   - name: SG Melbi A
@@ -592,6 +697,19 @@ proxies:
         Host: sg-4.test3.net
     udp: true
   - name: SG Melbi E
+    server: layanan.ruangguru.com
+    port: 443
+    type: trojan
+    password: 3f42fd50-2fbe-11ee-8f6f-1239d0255272
+    skip-cert-verify: true
+    sni: sg-4.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-4.test3.net
+    udp: true
+  - name: SG Melbi F
     server: layanan.ruangguru.com
     port: 443
     type: trojan
@@ -673,6 +791,19 @@ proxies:
       headers:
         Host: sg2-trojan.bonds.id
     udp: true
+  - name: SG HE 2 F
+    server: layanan.ruangguru.com
+    port: 443
+    type: trojan
+    password: 36cc9e20-2fc0-11ee-b3e3-1239d0255272
+    skip-cert-verify: true
+    sni: sg2-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg2-trojan.bonds.id
+    udp: true
 
 
 ########## SG HE 3 ######
@@ -729,6 +860,19 @@ proxies:
         Host: sg3-trojan.bonds.id
     udp: true
   - name: SG HE 3 E
+    server: layanan.ruangguru.com
+    port: 443
+    type: trojan
+    password: 8ea460c0-2fbf-11ee-b5e3-1239d0255272
+    skip-cert-verify: true
+    sni: sg3-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+  - name: SG HE 3 F
     server: layanan.ruangguru.com
     port: 443
     type: trojan
@@ -809,6 +953,19 @@ proxies:
       headers:
         Host: us-trojan.bonds.id
     udp: true
+  - name: US F
+    server: layanan.ruangguru.com
+    port: 443
+    type: trojan
+    password: d2344110-3027-11ee-a1ab-1239d0255272
+    skip-cert-verify: true
+    sni: us-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us-trojan.bonds.id
+    udp: true
 
 
 ########## SG HE 1######
@@ -877,6 +1034,19 @@ proxies:
       headers:
         Host: sg1-trojan.bonds.id
     udp: true
+  - name: SG HE 1 F
+    server: layanan.ruangguru.com
+    port: 443
+    type: trojan
+    password: d0b97f90-3065-11ee-883c-1239d0255272
+    skip-cert-verify: true
+    sni: sg1-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg1-trojan.bonds.id
+    udp: true
 
 
 ########## ID Herza ######
@@ -933,6 +1103,19 @@ proxies:
         Host: id-1.test3.net
     udp: true
   - name: ID Herza E
+    server: layanan.ruangguru.com
+    port: 443
+    type: trojan
+    password: 8f3b3980-3066-11ee-b2ff-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID Herza F
     server: layanan.ruangguru.com
     port: 443
     type: trojan
