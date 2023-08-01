@@ -350,24 +350,6 @@ rules:
 - RULE-SET,adblock,💰
 - RULE-SET,rule_reject,💰
 - RULE-SET,rule_privacy,REJECT
-- DST-PORT,21,🌍
-- DST-PORT,23,🌍
-- DST-PORT,25,🌍
-- DST-PORT,80,🌍
-- DST-PORT,81,🌍
-- DST-PORT,143,🌍
-- DST-PORT,443,🌍
-- DST-PORT,465,🌍
-- DST-PORT,587,🌍
-- DST-PORT,993,🌍
-- DST-PORT,995,🌍
-- DST-PORT,8000,🌍
-- DST-PORT,8008,🌍
-- DST-PORT,8080,🌍
-- DST-PORT,8081,🌍
-- DST-PORT,8090,🌍
-- DST-PORT,8443,🌍
-- DST-PORT,8888,🌍
 - MATCH,🌍
 
 tun:
