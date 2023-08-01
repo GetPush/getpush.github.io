@@ -1,8 +1,9 @@
 # Generated from https://github.com/v2fly/domain-list-community/tree/master/data/category-porn
 
-# Behavior: domain
+# Behavior: domain 
 
 payload:
+- "+.www.xv01-app.com"
 - "+.02weqj32.com"
 - "+.04647.club"
 - "+.0cgdklr5sfwj.com"
