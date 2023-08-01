@@ -3,6 +3,7 @@
 # Behavior: domain 
 
 payload:
+- "+.x.videos.com"
 - "+.www.xv01-app.com"
 - "+.02weqj32.com"
 - "+.04647.club"
