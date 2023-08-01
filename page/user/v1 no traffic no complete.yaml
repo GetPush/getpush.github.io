@@ -29,7 +29,7 @@ proxy-groups:
       - s2💴 #2
       - s1💶 #1
     use:
-      - TR 🐴
+      - trojan-cdn
 
   - name: Load🔴
     type: load-balance
