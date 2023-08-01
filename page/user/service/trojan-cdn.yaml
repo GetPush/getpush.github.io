@@ -200,141 +200,6 @@ proxies:
         Host: fr.test3.net
     udp: true
 
-########## SINGAPORE HE1 A ######
-  - name: Singapore HE1 A
-    server: 104.19.142.89
-    port: 443
-    type: trojan
-    password: 37d58380-2bd2-11ee-b10b-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: Singapore HE1 B
-    server: www.sushiroll.co.id
-    port: 443
-    type: trojan
-    password: 37d58380-2bd2-11ee-b10b-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: Singapore HE1 C
-    server: quiz.vidio.com
-    port: 443
-    type: trojan
-    password: 37d58380-2bd2-11ee-b10b-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: Singapore HE1 D
-    server: zendesk1.shopee.com
-    port: 443
-    type: trojan
-    password: 37d58380-2bd2-11ee-b10b-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: Singapore HE1 E
-    server: layanan.ruangguru.com
-    port: 443
-    type: trojan
-    password: 37d58380-2bd2-11ee-b10b-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-
-
-########## SINGAPORE HE2 A ######
-  - name: Singapore HE2 A
-    server: 104.19.142.89
-    port: 443
-    type: trojan
-    password: c52e6000-2bcf-11ee-a057-1239d0255272
-    skip-cert-verify: true
-    sni: sg2-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg2-trojan.bonds.id
-    udp: true
-  - name: Singapore HE2 B
-    server: www.sushiroll.co.id
-    port: 443
-    type: trojan
-    password: c52e6000-2bcf-11ee-a057-1239d0255272
-    skip-cert-verify: true
-    sni: sg2-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg2-trojan.bonds.id
-    udp: true
-  - name: Singapore HE2 C
-    server: quiz.vidio.com
-    port: 443
-    type: trojan
-    password: c52e6000-2bcf-11ee-a057-1239d0255272
-    skip-cert-verify: true
-    sni: sg2-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg2-trojan.bonds.id
-    udp: true
-  - name: Singapore HE2 D
-    server: zendesk1.shopee.com
-    port: 443
-    type: trojan
-    password: c52e6000-2bcf-11ee-a057-1239d0255272
-    skip-cert-verify: true
-    sni: sg2-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg2-trojan.bonds.id
-    udp: true
-  - name: Singapore HE2 E
-    server: layanan.ruangguru.com
-    port: 443
-    type: trojan
-    password: c52e6000-2bcf-11ee-a057-1239d0255272
-    skip-cert-verify: true
-    sni: sg2-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg2-trojan.bonds.id
-    udp: true
-
 ########## Turki ######
   - name: Turki A
     server: 104.19.142.89
@@ -402,6 +267,74 @@ proxies:
         Host: tr.test3.net
     udp: true
 
+    
+########## GERMANY ######
+  - name: Germany A
+    server: 104.19.142.89
+    port: 443
+    type: trojan
+    password: 142f4a70-2c8a-11ee-9899-1239d0255272
+    skip-cert-verify: true
+    sni: de-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: de-2.test3.net
+    udp: true
+  - name: Germany B
+    server: www.sushiroll.co.id
+    port: 443
+    type: trojan
+    password: 142f4a70-2c8a-11ee-9899-1239d0255272
+    skip-cert-verify: true
+    sni: de-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: de-2.test3.net
+    udp: true
+  - name: Germany C
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: 142f4a70-2c8a-11ee-9899-1239d0255272
+    skip-cert-verify: true
+    sni: de-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: de-2.test3.net
+    udp: true
+  - name: Germany D
+    server: zendesk1.shopee.com
+    port: 443
+    type: trojan
+    password: 142f4a70-2c8a-11ee-9899-1239d0255272
+    skip-cert-verify: true
+    sni: de-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: de-2.test3.net
+    udp: true
+  - name: Germany E
+    server: layanan.ruangguru.com
+    port: 443
+    type: trojan
+    password: 142f4a70-2c8a-11ee-9899-1239d0255272
+    skip-cert-verify: true
+    sni: de-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: de-2.test3.net
+    udp: true
+    
 ########## THAILAND ######
   - name: Thailand A
     server: 104.19.142.89
@@ -470,6 +403,74 @@ proxies:
     udp: true
 
 
+########## SG HE MUX A ######
+  - name: SG HE MUX A
+    server: 104.19.142.89
+    port: 443
+    type: trojan
+    password: ef7d41b0-2fbc-11ee-923a-1239d0255272
+    skip-cert-verify: true
+    sni: sg6-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg6-trojan.bonds.id
+    udp: true
+  - name: SG HE MUX B
+    server: www.sushiroll.co.id
+    port: 443
+    type: trojan
+    password: ef7d41b0-2fbc-11ee-923a-1239d0255272
+    skip-cert-verify: true
+    sni: sg6-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg6-trojan.bonds.id
+    udp: true
+  - name: SG HE MUX C
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: ef7d41b0-2fbc-11ee-923a-1239d0255272
+    skip-cert-verify: true
+    sni: sg6-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg6-trojan.bonds.id
+    udp: true
+  - name: SG HE MUX D
+    server: zendesk1.shopee.com
+    port: 443
+    type: trojan
+    password: ef7d41b0-2fbc-11ee-923a-1239d0255272
+    skip-cert-verify: true
+    sni: sg6-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg6-trojan.bonds.id
+    udp: true
+  - name: SG HE MUX E
+    server: layanan.ruangguru.com
+    port: 443
+    type: trojan
+    password: ef7d41b0-2fbc-11ee-923a-1239d0255272
+    skip-cert-verify: true
+    sni: sg6-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg6-trojan.bonds.id
+    udp: true
+    
+    
 ########## CANADA ######
   - name: Canada A
     server: 104.19.142.89
@@ -535,71 +536,4 @@ proxies:
       path: /howdy
       headers:
         Host: ca-trojan.bonds.id
-    udp: true
-    
-########## GERMANY ######
-  - name: Germany A
-    server: 104.19.142.89
-    port: 443
-    type: trojan
-    password: 142f4a70-2c8a-11ee-9899-1239d0255272
-    skip-cert-verify: true
-    sni: de-2.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: de-2.test3.net
-    udp: true
-  - name: Germany B
-    server: www.sushiroll.co.id
-    port: 443
-    type: trojan
-    password: 142f4a70-2c8a-11ee-9899-1239d0255272
-    skip-cert-verify: true
-    sni: de-2.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: de-2.test3.net
-    udp: true
-  - name: Germany C
-    server: quiz.vidio.com
-    port: 443
-    type: trojan
-    password: 142f4a70-2c8a-11ee-9899-1239d0255272
-    skip-cert-verify: true
-    sni: de-2.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: de-2.test3.net
-    udp: true
-  - name: Germany D
-    server: zendesk1.shopee.com
-    port: 443
-    type: trojan
-    password: 142f4a70-2c8a-11ee-9899-1239d0255272
-    skip-cert-verify: true
-    sni: de-2.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: de-2.test3.net
-    udp: true
-  - name: Germany E
-    server: layanan.ruangguru.com
-    port: 443
-    type: trojan
-    password: 142f4a70-2c8a-11ee-9899-1239d0255272
-    skip-cert-verify: true
-    sni: de-2.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: de-2.test3.net
     udp: true
