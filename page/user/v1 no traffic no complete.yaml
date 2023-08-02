@@ -346,6 +346,7 @@ rules:
 - PROCESS-NAME,ss-local.exe,DIRECT
 - PROCESS-NAME,privoxy.exe,DIRECT
 - DST-PORT,22,DIRECT,no-resolve
+- RULE-SET,xdomain,REJECT
 - RULE-SET,rule_porn,REJECT
 - RULE-SET,adblock,💰
 - RULE-SET,rule_reject,💰
@@ -374,6 +375,13 @@ rule-providers:
     behavior: domain
     url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/ruleset/rule_reject.yaml
     path: "./rule_reject.yaml"
+    interval: 86400
+
+  xdomain:
+    type: http
+    behavior: domain
+    path: "./xdomain.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/ruleset/xdomain.yaml
     interval: 86400
 
   rule_privacy:
