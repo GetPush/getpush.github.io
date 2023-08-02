@@ -6,6 +6,7 @@ payload:
 - DOMAIN-SUFFIX,www.proxysite.com/id/
 - DOMAIN-SUFFIX,www.4everproxy.com
 - DOMAIN-SUFFIX,www.turbohide.org
+- DOMAIN-SUFFIX,turbohide.org
 - DOMAIN-SUFFIX,www.kproxy.com
 - DOMAIN-SUFFIX,m.proxfree.com
 - DOMAIN-SUFFIX,www.vpnbook.com/webproxy
@@ -18,4 +19,3 @@ payload:
 - DOMAIN-SUFFIX,proxify.com
 - DOMAIN-SUFFIX,www.proxysite.com
 - DOMAIN-SUFFIX,proxysite.com
-
