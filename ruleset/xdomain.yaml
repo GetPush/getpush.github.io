@@ -1,4 +1,6 @@
 payload:
+#- "+.www"
 - "+.www.croxyproxy.com"
 - "+.www.blockaway.net"
 - "+.www.blockaway.net/_id/"
+- "+.www.hidemyass.com/id-id/proxy"
