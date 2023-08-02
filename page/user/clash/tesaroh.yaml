@@ -346,28 +346,11 @@ rules:
 - PROCESS-NAME,ss-local.exe,DIRECT
 - PROCESS-NAME,privoxy.exe,DIRECT
 - DST-PORT,22,DIRECT,no-resolve
+- RULE-SET,xdomain,REJECT
 - RULE-SET,rule_porn,REJECT
 - RULE-SET,adblock,💰
 - RULE-SET,rule_reject,💰
 - RULE-SET,rule_privacy,REJECT
-- DST-PORT,21,🌍
-- DST-PORT,23,🌍
-- DST-PORT,25,🌍
-- DST-PORT,80,🌍
-- DST-PORT,81,🌍
-- DST-PORT,143,🌍
-- DST-PORT,443,🌍
-- DST-PORT,465,🌍
-- DST-PORT,587,🌍
-- DST-PORT,993,🌍
-- DST-PORT,995,🌍
-- DST-PORT,8000,🌍
-- DST-PORT,8008,🌍
-- DST-PORT,8080,🌍
-- DST-PORT,8081,🌍
-- DST-PORT,8090,🌍
-- DST-PORT,8443,🌍
-- DST-PORT,8888,🌍
 - MATCH,🌍
 
 tun:
@@ -384,27 +367,34 @@ rule-providers:
     type: http
     behavior: classical
     path: "./adblock.yaml"
-    url: https://toppayofficial.vercel.app/ruleset/adblock.yaml
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/ruleset/adblock.yaml
     interval: 86400
 
   rule_reject:
     type: http
     behavior: domain
-    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/ruleset/rule_reject.yaml
     path: "./rule_reject.yaml"
+    interval: 86400
+
+  xdomain:
+    type: http
+    behavior: domain
+    path: "./xdomain.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/ruleset/xdomain.yaml
     interval: 86400
 
   rule_privacy:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Privacy/Privacy_Classical.yaml
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/ruleset/rule_privacy.yaml
     path: "./rule_privacy.yaml"
     interval: 86400
 
   rule_porn:
     type: http
     behavior: domain
-    url: https://rules.kr328.app/category-porn.yaml
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/ruleset/rule_porn.yaml
     path: "./rule_porn.yaml"
     interval: 86400
 
