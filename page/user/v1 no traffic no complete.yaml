@@ -46,7 +46,7 @@ proxy-groups:
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
+    interval: '200' #600 or #300
     proxies:
       - S4 💵 #4
       - S3 💷 #3
@@ -57,7 +57,7 @@ proxy-groups:
     type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
+    interval: '300' #600 or #300
     proxies:
       - S4 💵 #4
       - S3 💷 #3
@@ -70,7 +70,7 @@ proxy-groups:
     type: load-balance #url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
+    interval: '400' #600 or #300
     use:
       - Server4
 
@@ -78,7 +78,7 @@ proxy-groups:
     type: load-balance #url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
+    interval: '500' #600 or #300
     use:
       - Server3
 
@@ -86,7 +86,7 @@ proxy-groups:
     type: load-balance #url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
+    interval: '600' #600 or #300
     use:
       - Server2
 
@@ -94,7 +94,7 @@ proxy-groups:
     type: load-balance #url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
+    interval: '700' #600 or #300
     use:
       - Server1
 
@@ -102,7 +102,7 @@ proxy-groups:
     type: load-balance #url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
+    interval: '800' #600 or #300
     use:
       - trojan-cdn
 
