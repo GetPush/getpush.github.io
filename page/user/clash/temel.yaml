@@ -4,116 +4,107 @@ proxy-groups:
     type: select
     proxies:
       - 🌍
-      - 🔴
-      - 🟡
-      - 🟢
-      - trojan-cdn
-      - vmess-cdn
-      - 💵 #4
-      - 💷 #3
-      - 💴 #2
-      - 💶 #1
+      - LB 🔴
+      - FB 🟡
+      - BP 🟢
+      - TR 🐴
+      - S4 💵 #4
+      - S3 💷 #3
+      - S2 💴 #2
+      - S1 💶 #1
       - REJECT
+    use:
+      - Server4
  
     
   - name: 🌍
     type: select
     proxies:
-      - 🔴
-      - 🟡
-      - 🟢
+      - LB 🔴
+      - FB 🟡
+      - BP 🟢
+      - TR 🐴
+      - S4 💵 #4
+      - S3 💷 #3
+      - S2 💴 #2
+      - S1 💶 #1
+    use:
       - trojan-cdn
-      - vmess-cdn
-      - 💵 #4
-      - 💷 #3
-      - 💴 #2
-      - 💶 #1
 
-  - name: 🔴
+  - name: LB 🔴
     type: load-balance
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     proxies:
-      - 💵 #4
-      - 💷 #3
-      - 💴 #2
-      - 💶 #1
-      - trojan-cdn
-      - vmess-cdn
-  - name: 🟡
+      - S4 💵 #4
+      - S3 💷 #3
+      - S2 💴 #2
+      - S1 💶 #1
+      - TR 🐴
+  - name: FB 🟡
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     proxies:
-      - 💵 #4
-      - 💷 #3
-      - 💴 #2
-      - 💶 #1
-      - trojan-cdn
-      - vmess-cdn
-  - name: 🟢
+      - S4 💵 #4
+      - S3 💷 #3
+      - S2 💴 #2
+      - S1 💶 #1
+      - TR 🐴
+  - name: BP 🟢
     type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     proxies:
-      - 💵 #4
-      - 💷 #3
-      - 💴 #2
-      - 💶 #1
-      - trojan-cdn
-      - vmess-cdn
+      - S4 💵 #4
+      - S3 💷 #3
+      - S2 💴 #2
+      - S1 💶 #1
+      - TR 🐴
 
 
-  - name: 💵 #4
-    type: url-test 
+  - name: S4 💵 #4
+    type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     use:
       - Server4
 
-  - name: 💷 #3
-    type: url-test 
+  - name: S3 💷 #3
+    type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     use:
       - Server3
 
-  - name: 💴 #2
-    type: url-test 
+  - name: S2 💴 #2
+    type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     use:
       - Server2
 
-  - name: 💶 #1
-    type: url-test 
+  - name: S1 💶 #1
+    type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     use:
       - Server1
 
-  - name: trojan-cdn
+  - name: TR 🐴
     type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     use:
       - trojan-cdn
-
-  - name: vmess-cdn
-    type: url-test 
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
-    use:
-      - vmess-cdn
 
 
 proxy-providers:
@@ -123,14 +114,6 @@ proxy-providers:
      health-check: 
      enable: true 
      url: "https://toppayofficial.vercel.app/page/user/service/trojan-cdn.yaml"
-     interval: 1200
-
-  vmess-cdn: 
-     type: http 
-     path: ./vmess-cdn.yaml 
-     health-check: 
-     enable: true 
-     url: "https://toppayofficial.vercel.app/page/user/service/vmess-cdn.yaml"
      interval: 1200
 
   Server1:
@@ -344,6 +327,8 @@ profile:
   store-fake-ip: true
 
 rules:
+- DOMAIN-SUFFIX,raw.githubusercontent.com,🌍
+- DOMAIN-SUFFIX,toppayofficial.vercel.app,🌍
 - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
 - PROCESS-NAME,v2ray,DIRECT
 - PROCESS-NAME,xray,DIRECT
@@ -361,29 +346,11 @@ rules:
 - PROCESS-NAME,ss-local.exe,DIRECT
 - PROCESS-NAME,privoxy.exe,DIRECT
 - DST-PORT,22,DIRECT,no-resolve
+- RULE-SET,xdomain,REJECT
 - RULE-SET,rule_porn,REJECT
 - RULE-SET,adblock,💰
 - RULE-SET,rule_reject,💰
 - RULE-SET,rule_privacy,REJECT
-- DST-PORT,21,🌍
-- DST-PORT,23,🌍
-- DST-PORT,25,🌍
-- DST-PORT,80,🌍
-- DST-PORT,81,🌍
-- DST-PORT,143,🌍
-- DST-PORT,443,🌍
-- DST-PORT,465,🌍
-- DST-PORT,587,🌍
-- DST-PORT,993,🌍
-- DST-PORT,995,🌍
-- DST-PORT,8000,🌍
-- DST-PORT,8008,🌍
-- DST-PORT,8080,🌍
-- DST-PORT,8081,🌍
-- DST-PORT,8090,🌍
-- DST-PORT,8443,🌍
-- DST-PORT,8888,🌍
-#- DOMAIN-SUFFIX,
 - MATCH,🌍
 
 tun:
@@ -400,27 +367,34 @@ rule-providers:
     type: http
     behavior: classical
     path: "./adblock.yaml"
-    url: https://toppayofficial.vercel.app/ruleset/adblock.yaml
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/ruleset/adblock.yaml
     interval: 86400
 
   rule_reject:
     type: http
     behavior: domain
-    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/ruleset/rule_reject.yaml
     path: "./rule_reject.yaml"
+    interval: 86400
+
+  xdomain:
+    type: http
+    behavior: domain
+    path: "./xdomain.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/ruleset/xdomain.yaml
     interval: 86400
 
   rule_privacy:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Privacy/Privacy_Classical.yaml
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/ruleset/rule_privacy.yaml
     path: "./rule_privacy.yaml"
     interval: 86400
 
   rule_porn:
     type: http
     behavior: domain
-    url: https://rules.kr328.app/category-porn.yaml
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/ruleset/rule_porn.yaml
     path: "./rule_porn.yaml"
     interval: 86400
 
