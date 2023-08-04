@@ -13,9 +13,6 @@ proxy-groups:
       - S2 💴 #2
       - S1 💶 #1
       - REJECT
-    use:
-      - Server4
- 
     
   - name: 🌍
     type: select
@@ -29,6 +26,10 @@ proxy-groups:
       - S2 💴 #2
       - S1 💶 #1
     use:
+      - Server4
+      - Server3
+      - Server2
+      - Server1
       - trojan-cdn
 
   - name: LB 🔴
