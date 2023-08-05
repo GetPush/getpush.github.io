@@ -107,6 +107,14 @@ proxy-groups:
     use:
       - trojan-cdn
 
+  - name: romania🐴
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - romania🐴
+
 
 proxy-providers:
   trojan-cdn: 
@@ -116,6 +124,16 @@ proxy-providers:
      enable: true 
      url: "https://toppayofficial.vercel.app/page/user/service/trojan-cdn.yaml"
      interval: 1200
+
+
+  romania🐴: 
+     type: http 
+     path: ./trojan-cdn.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/romania.yaml"
+     interval: 1200
+
 
   Server1:
     type: http
