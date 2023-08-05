@@ -7,7 +7,7 @@ proxy-groups:
       - LB 🔴
       - FB 🟡
       - BP 🟢
-      - TR 🐴
+      - romania🐴
       - S4 💵 #4
       - S3 💷 #3
       - S2 💴 #2
@@ -20,7 +20,7 @@ proxy-groups:
       - LB 🔴
       - FB 🟡
       - BP 🟢
-      - TR 🐴
+      - romania🐴
       - S4 💵 #4
       - S3 💷 #3
       - S2 💴 #2
@@ -30,7 +30,7 @@ proxy-groups:
       - Server3
       - Server2
       - Server1
-      - trojan-cdn
+      - romania🐴
 
   - name: LB 🔴
     type: load-balance
@@ -42,7 +42,7 @@ proxy-groups:
       - S3 💷 #3
       - S2 💴 #2
       - S1 💶 #1
-      - TR 🐴
+      - romania🐴
   - name: FB 🟡
     type: fallback
     disable-udp: false
@@ -53,7 +53,7 @@ proxy-groups:
       - S3 💷 #3
       - S2 💴 #2
       - S1 💶 #1
-      - TR 🐴
+      - romania🐴
   - name: BP 🟢
     type: url-test
     disable-udp: false
@@ -64,7 +64,7 @@ proxy-groups:
       - S3 💷 #3
       - S2 💴 #2
       - S1 💶 #1
-      - TR 🐴
+      - romania🐴
 
 
   - name: S4 💵 #4
@@ -98,14 +98,6 @@ proxy-groups:
     interval: '100' #600 or #300
     use:
       - Server1
-
-  - name: TR 🐴
-    type: url-test
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
-    use:
-      - trojan-cdn
 
   - name: romania🐴
     type: url-test
