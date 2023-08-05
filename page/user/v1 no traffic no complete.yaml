@@ -41,25 +41,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     proxies:
-      - S4 💵 #4
-      - S3 💷 #3
-      - S2 💴 #2
-      - S1 💶 #1
-      - ROMANIA 🐴
-      - NETHERLAND 🐴
-      - FRANCIS 🐴
-      - TURKI 🐴
-      - GERMANY 🐴
-      - THAILAND 🐴
-      - SG HE MUX 🐴
-      - CANADA 🐴
-      - SG MELBI 🐴
-      - SG HE 2 🐴
-      - SG HE 3 🐴
-      - US 🐴
-      - SG HE 1 🐴
-      - ID HERZA 🐴
-      - SG AMP 🐴
+      - Server 💠
+      - Trojan  🐴
 
   - name: FB 🟡
     type: fallback
