@@ -7,10 +7,6 @@ proxy-groups:
       - LB 🔴
       - FB 🟡
       - BP 🟢
-      - S4 💵 #4
-      - S3 💷 #3
-      - S2 💴 #2
-      - S1 💶 #1
       - REJECT
     
   - name: 🌍
@@ -19,10 +15,10 @@ proxy-groups:
       - LB 🔴
       - FB 🟡
       - BP 🟢
-      - S4 💵 #4
-      - S3 💷 #3
-      - S2 💴 #2
-      - S1 💶 #1
+      - S1 💶
+      - S2 💴
+      - S3 💷
+      - S4 💵
       - romania🐴
       - netherland🐴
       - francis🐴
@@ -37,6 +33,7 @@ proxy-groups:
       - us🐴
       - sg he 1🐴
       - id herza🐴
+      - sg amp🐴
 
 
   - name: LB 🔴
@@ -63,6 +60,7 @@ proxy-groups:
       - us🐴
       - sg he 1🐴
       - id herza🐴
+      - sg amp🐴
 
   - name: FB 🟡
     type: fallback
@@ -88,6 +86,7 @@ proxy-groups:
       - us🐴
       - sg he 1🐴
       - id herza🐴
+      - sg amp🐴
 
   - name: BP 🟢
     type: url-test
@@ -113,6 +112,7 @@ proxy-groups:
       - us🐴
       - sg he 1🐴
       - id herza🐴
+      - sg amp🐴
 
 
   - name: S4 💵 #4
@@ -245,6 +245,13 @@ proxy-groups:
     interval: '100' #600 or #300
     use:
       - id herza🐴
+  - name: sg amp🐴
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - sg amp🐴
 
 
 proxy-providers:
@@ -345,6 +352,13 @@ proxy-providers:
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/id%20herza.yaml"
+     interval: 1200
+  sg amp🐴: 
+     type: http 
+     path: ./sg amp🐴.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/sg%20amp.yaml"
      interval: 1200
 
 
