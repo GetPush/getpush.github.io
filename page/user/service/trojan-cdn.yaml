@@ -165,7 +165,7 @@ proxies:
     server: 104.19.142.89
     port: 443
     type: trojan
-    password: 980c4950-2be3-11ee-be4d-1239d0255272
+    password: b6e64dc0-32ef-11ee-9795-1239d0255272
     skip-cert-verify: true
     sni: fr.test3.net
     network: ws
@@ -178,7 +178,7 @@ proxies:
     server: www.sushiroll.co.id
     port: 443
     type: trojan
-    password: 980c4950-2be3-11ee-be4d-1239d0255272
+    password: b6e64dc0-32ef-11ee-9795-1239d0255272
     skip-cert-verify: true
     sni: fr.test3.net
     network: ws
@@ -191,7 +191,7 @@ proxies:
     server: quiz.vidio.com
     port: 443
     type: trojan
-    password: 980c4950-2be3-11ee-be4d-1239d0255272
+    password: b6e64dc0-32ef-11ee-9795-1239d0255272
     skip-cert-verify: true
     sni: fr.test3.net
     network: ws
@@ -204,7 +204,7 @@ proxies:
     server: zendesk1.shopee.com
     port: 443
     type: trojan
-    password: 980c4950-2be3-11ee-be4d-1239d0255272
+    password: b6e64dc0-32ef-11ee-9795-1239d0255272
     skip-cert-verify: true
     sni: fr.test3.net
     network: ws
@@ -217,7 +217,7 @@ proxies:
     server: 104.16.108.96
     port: 443
     type: trojan
-    password: 980c4950-2be3-11ee-be4d-1239d0255272
+    password: b6e64dc0-32ef-11ee-9795-1239d0255272
     skip-cert-verify: true
     sni: fr.test3.net
     network: ws
@@ -230,7 +230,7 @@ proxies:
     server: layanan.ruangguru.com
     port: 443
     type: trojan
-    password: 980c4950-2be3-11ee-be4d-1239d0255272
+    password: b6e64dc0-32ef-11ee-9795-1239d0255272
     skip-cert-verify: true
     sni: fr.test3.net
     network: ws
@@ -245,7 +245,7 @@ proxies:
     server: 104.19.142.89
     port: 443
     type: trojan
-    password: cebcce10-2c46-11ee-9fde-1239d0255272
+    password: b0b71fa0-333b-11ee-b0cb-1239d0255272
     skip-cert-verify: true
     sni: tr.test3.net
     network: ws
@@ -258,7 +258,7 @@ proxies:
     server: www.sushiroll.co.id
     port: 443
     type: trojan
-    password: cebcce10-2c46-11ee-9fde-1239d0255272
+    password: b0b71fa0-333b-11ee-b0cb-1239d0255272
     skip-cert-verify: true
     sni: tr.test3.net
     network: ws
@@ -271,7 +271,7 @@ proxies:
     server: quiz.vidio.com
     port: 443
     type: trojan
-    password: cebcce10-2c46-11ee-9fde-1239d0255272
+    password: b0b71fa0-333b-11ee-b0cb-1239d0255272
     skip-cert-verify: true
     sni: tr.test3.net
     network: ws
@@ -284,7 +284,7 @@ proxies:
     server: zendesk1.shopee.com
     port: 443
     type: trojan
-    password: cebcce10-2c46-11ee-9fde-1239d0255272
+    password: b0b71fa0-333b-11ee-b0cb-1239d0255272
     skip-cert-verify: true
     sni: tr.test3.net
     network: ws
@@ -297,7 +297,7 @@ proxies:
     server: 104.16.108.96
     port: 443
     type: trojan
-    password: cebcce10-2c46-11ee-9fde-1239d0255272
+    password: b0b71fa0-333b-11ee-b0cb-1239d0255272
     skip-cert-verify: true
     sni: tr.test3.net
     network: ws
@@ -310,7 +310,7 @@ proxies:
     server: layanan.ruangguru.com
     port: 443
     type: trojan
-    password: cebcce10-2c46-11ee-9fde-1239d0255272
+    password: b0b71fa0-333b-11ee-b0cb-1239d0255272
     skip-cert-verify: true
     sni: tr.test3.net
     network: ws
