@@ -8,6 +8,7 @@ proxy-groups:
       - FB 🟡
       - BP 🟢
       - romania🐴
+      - netherland🐴
       - S4 💵 #4
       - S3 💷 #3
       - S2 💴 #2
@@ -25,6 +26,7 @@ proxy-groups:
       - S2 💴 #2
       - S1 💶 #1
       - romania🐴
+      - netherland🐴
 
 
   - name: LB 🔴
@@ -38,6 +40,7 @@ proxy-groups:
       - S2 💴 #2
       - S1 💶 #1
       - romania🐴
+      - netherland🐴
   - name: FB 🟡
     type: fallback
     disable-udp: false
@@ -49,6 +52,7 @@ proxy-groups:
       - S2 💴 #2
       - S1 💶 #1
       - romania🐴
+      - netherland🐴
   - name: BP 🟢
     type: url-test
     disable-udp: false
@@ -60,6 +64,7 @@ proxy-groups:
       - S2 💴 #2
       - S1 💶 #1
       - romania🐴
+      - netherland🐴
 
 
   - name: S4 💵 #4
@@ -101,25 +106,31 @@ proxy-groups:
     interval: '100' #600 or #300
     use:
       - romania🐴
+  - name: netherland🐴
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - netherland🐴
 
 
 proxy-providers:
-  trojan-cdn: 
-     type: http 
-     path: ./trojan-cdn.yaml 
-     health-check: 
-     enable: true 
-     url: "https://toppayofficial.vercel.app/page/user/service/trojan-cdn.yaml"
-     interval: 1200
-
-
   romania🐴: 
      type: http 
-     path: ./trojan-cdn.yaml 
+     path: ./romania🐴.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/romania.yaml"
      interval: 1200
+  netherland🐴: 
+     type: http 
+     path: ./netherland🐴.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/netherland.yaml"
+     interval: 1200
+
 
 
   Server1:
