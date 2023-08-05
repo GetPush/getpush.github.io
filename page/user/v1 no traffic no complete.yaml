@@ -32,6 +32,7 @@ proxy-groups:
       - germany🐴
       - thailand🐴
       - sg he mux🐴
+      - canada🐴
 
 
   - name: LB 🔴
@@ -51,6 +52,7 @@ proxy-groups:
       - germany🐴
       - thailand🐴
       - sg he mux🐴
+      - canada🐴
 
   - name: FB 🟡
     type: fallback
@@ -69,6 +71,7 @@ proxy-groups:
       - germany🐴
       - thailand🐴
       - sg he mux🐴
+      - canada🐴
 
   - name: BP 🟢
     type: url-test
@@ -87,6 +90,7 @@ proxy-groups:
       - germany🐴
       - thailand🐴
       - sg he mux🐴
+      - canada🐴
 
 
   - name: S4 💵 #4
@@ -170,6 +174,13 @@ proxy-groups:
     interval: '100' #600 or #300
     use:
       - sg he mux🐴
+  - name: canada🐴
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - canada🐴
 
 
 proxy-providers:
@@ -221,6 +232,13 @@ proxy-providers:
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/sg%20he%20mux.yaml"
+     interval: 1200
+  canada🐴: 
+     type: http 
+     path: ./canada🐴.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/canada.yaml"
      interval: 1200
 
 
