@@ -27,6 +27,7 @@ proxy-groups:
       - S1 💶 #1
       - romania🐴
       - netherland🐴
+      - francis🐴
 
 
   - name: LB 🔴
@@ -41,6 +42,7 @@ proxy-groups:
       - S1 💶 #1
       - romania🐴
       - netherland🐴
+      - francis🐴
   - name: FB 🟡
     type: fallback
     disable-udp: false
@@ -53,6 +55,7 @@ proxy-groups:
       - S1 💶 #1
       - romania🐴
       - netherland🐴
+      - francis🐴
   - name: BP 🟢
     type: url-test
     disable-udp: false
@@ -65,6 +68,7 @@ proxy-groups:
       - S1 💶 #1
       - romania🐴
       - netherland🐴
+      - francis🐴
 
 
   - name: S4 💵 #4
@@ -113,6 +117,13 @@ proxy-groups:
     interval: '100' #600 or #300
     use:
       - netherland🐴
+  - name: francis🐴
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - francis🐴
 
 
 proxy-providers:
@@ -129,6 +140,13 @@ proxy-providers:
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/netherland.yaml"
+     interval: 1200
+  francis🐴: 
+     type: http 
+     path: ./francis🐴.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/francis.yaml"
      interval: 1200
 
 
