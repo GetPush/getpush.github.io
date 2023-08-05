@@ -30,6 +30,7 @@ proxy-groups:
       - francis🐴
       - turki🐴
       - germany🐴
+      - thailand🐴
 
 
   - name: LB 🔴
@@ -47,6 +48,8 @@ proxy-groups:
       - francis🐴
       - turki🐴
       - germany🐴
+      - thailand🐴
+
   - name: FB 🟡
     type: fallback
     disable-udp: false
@@ -62,6 +65,8 @@ proxy-groups:
       - francis🐴
       - turki🐴
       - germany🐴
+      - thailand🐴
+
   - name: BP 🟢
     type: url-test
     disable-udp: false
@@ -77,6 +82,7 @@ proxy-groups:
       - francis🐴
       - turki🐴
       - germany🐴
+      - thailand🐴
 
 
   - name: S4 💵 #4
@@ -146,6 +152,13 @@ proxy-groups:
     interval: '100' #600 or #300
     use:
       - germany🐴
+  - name: thailand🐴
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - thailand🐴
 
 
 proxy-providers:
@@ -183,6 +196,13 @@ proxy-providers:
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/germany.yaml"
+     interval: 1200
+  thailand🐴: 
+     type: http 
+     path: ./thailand🐴.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/thailand.yaml"
      interval: 1200
 
 
