@@ -1,0 +1,80 @@
+proxies:
+########## SG HE 1######
+  - name: SG HE 1 A
+    server: 104.19.142.89
+    port: 443
+    type: trojan
+    password: d0b97f90-3065-11ee-883c-1239d0255272
+    skip-cert-verify: true
+    sni: sg1-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg1-trojan.bonds.id
+    udp: true
+  - name: SG HE 1 B
+    server: www.sushiroll.co.id
+    port: 443
+    type: trojan
+    password: d0b97f90-3065-11ee-883c-1239d0255272
+    skip-cert-verify: true
+    sni: sg1-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg1-trojan.bonds.id
+    udp: true
+  - name: SG HE 1 C
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: d0b97f90-3065-11ee-883c-1239d0255272
+    skip-cert-verify: true
+    sni: sg1-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg1-trojan.bonds.id
+    udp: true
+  - name: SG HE 1 D
+    server: zendesk1.shopee.com
+    port: 443
+    type: trojan
+    password: d0b97f90-3065-11ee-883c-1239d0255272
+    skip-cert-verify: true
+    sni: sg1-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg1-trojan.bonds.id
+    udp: true
+  - name: SG HE 1 E
+    server: 104.16.108.96
+    port: 443
+    type: trojan
+    password: d0b97f90-3065-11ee-883c-1239d0255272
+    skip-cert-verify: true
+    sni: sg1-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg1-trojan.bonds.id
+    udp: true
+  - name: SG HE 1 F
+    server: layanan.ruangguru.com
+    port: 443
+    type: trojan
+    password: d0b97f90-3065-11ee-883c-1239d0255272
+    skip-cert-verify: true
+    sni: sg1-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg1-trojan.bonds.id
+    udp: true
