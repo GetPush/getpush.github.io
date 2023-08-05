@@ -4,11 +4,6 @@ proxy-groups:
     type: select
     proxies:
       - 🌍
-      - LB 🔴
-      - FB 🟡
-      - BP 🟢
-      - Server 💠
-      - Trojan  🐴
       - REJECT
     
   - name: 🌍
