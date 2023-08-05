@@ -7,8 +7,6 @@ proxy-groups:
       - LB 🔴
       - FB 🟡
       - BP 🟢
-      - romania🐴
-      - netherland🐴
       - S4 💵 #4
       - S3 💷 #3
       - S2 💴 #2
@@ -33,6 +31,7 @@ proxy-groups:
       - thailand🐴
       - sg he mux🐴
       - canada🐴
+      - sg melbi🐴
 
 
   - name: LB 🔴
@@ -53,6 +52,7 @@ proxy-groups:
       - thailand🐴
       - sg he mux🐴
       - canada🐴
+      - sg melbi🐴
 
   - name: FB 🟡
     type: fallback
@@ -72,6 +72,7 @@ proxy-groups:
       - thailand🐴
       - sg he mux🐴
       - canada🐴
+      - sg melbi🐴
 
   - name: BP 🟢
     type: url-test
@@ -91,6 +92,7 @@ proxy-groups:
       - thailand🐴
       - sg he mux🐴
       - canada🐴
+      - sg melbi🐴
 
 
   - name: S4 💵 #4
@@ -181,6 +183,13 @@ proxy-groups:
     interval: '100' #600 or #300
     use:
       - canada🐴
+  - name: sg melbi🐴
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - sg melbi🐴
 
 
 proxy-providers:
@@ -239,6 +248,13 @@ proxy-providers:
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/canada.yaml"
+     interval: 1200
+  sg melbi🐴: 
+     type: http 
+     path: ./sg melbi🐴.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/sg%20melbi.yaml"
      interval: 1200
 
 
