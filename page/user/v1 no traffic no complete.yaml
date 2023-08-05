@@ -20,17 +20,12 @@ proxy-groups:
       - LB 🔴
       - FB 🟡
       - BP 🟢
-      - romania🐴
       - S4 💵 #4
       - S3 💷 #3
       - S2 💴 #2
       - S1 💶 #1
-    use:
-      - Server4
-      - Server3
-      - Server2
-      - Server1
       - romania🐴
+
 
   - name: LB 🔴
     type: load-balance
