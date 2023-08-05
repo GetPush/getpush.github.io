@@ -34,6 +34,8 @@ proxy-groups:
       - sg melbi🐴
       - sg he 2🐴
       - sg he 3🐴
+      - us🐴
+      - sg he 1🐴
 
 
   - name: LB 🔴
@@ -57,6 +59,8 @@ proxy-groups:
       - sg melbi🐴
       - sg he 2🐴
       - sg he 3🐴
+      - us🐴
+      - sg he 1🐴
 
   - name: FB 🟡
     type: fallback
@@ -79,6 +83,8 @@ proxy-groups:
       - sg melbi🐴
       - sg he 2🐴
       - sg he 3🐴
+      - us🐴
+      - sg he 1🐴
 
   - name: BP 🟢
     type: url-test
@@ -101,6 +107,8 @@ proxy-groups:
       - sg melbi🐴
       - sg he 2🐴
       - sg he 3🐴
+      - us🐴
+      - sg he 1🐴
 
 
   - name: S4 💵 #4
@@ -212,6 +220,20 @@ proxy-groups:
     interval: '100' #600 or #300
     use:
       - sg he 3🐴
+  - name: us🐴
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - us🐴
+  - name: sg he 1🐴
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - sg he 1🐴
 
 
 proxy-providers:
@@ -291,6 +313,20 @@ proxy-providers:
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/sg%20he%203.yaml"
+     interval: 1200
+  us🐴: 
+     type: http 
+     path: ./us🐴.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/us.yaml"
+     interval: 1200
+  sg he 1🐴: 
+     type: http 
+     path: ./sg he 1🐴.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/sg%20he%201.yaml"
      interval: 1200
 
 
