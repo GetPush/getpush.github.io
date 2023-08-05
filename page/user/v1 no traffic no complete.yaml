@@ -7,6 +7,8 @@ proxy-groups:
       - LB 🔴
       - FB 🟡
       - BP 🟢
+      - Server 💠
+      - Trojan 🐴
       - REJECT
     
   - name: 🌍
@@ -15,6 +17,8 @@ proxy-groups:
       - LB 🔴
       - FB 🟡
       - BP 🟢
+      - Server 💠
+      - Trojan 🐴
       - S1 💶
       - S2 💴
       - S3 💷
@@ -98,6 +102,38 @@ proxy-groups:
       - S3 💷 #3
       - S2 💴 #2
       - S1 💶 #1
+      - romania🐴
+      - netherland🐴
+      - francis🐴
+      - turki🐴
+      - germany🐴
+      - thailand🐴
+      - sg he mux🐴
+      - canada🐴
+      - sg melbi🐴
+      - sg he 2🐴
+      - sg he 3🐴
+      - us🐴
+      - sg he 1🐴
+      - id herza🐴
+      - sg amp🐴
+
+  - name: Server 💠
+    type: load-balance
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    proxies:
+      - S4 💵
+      - S3 💷
+      - S2 💴
+      - S1 💶
+  - name: Trojan 🐴
+    type: load-balance
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    proxies:
       - romania🐴
       - netherland🐴
       - francis🐴
