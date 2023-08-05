@@ -29,6 +29,7 @@ proxy-groups:
       - netherland🐴
       - francis🐴
       - turki🐴
+      - germany🐴
 
 
   - name: LB 🔴
@@ -45,6 +46,7 @@ proxy-groups:
       - netherland🐴
       - francis🐴
       - turki🐴
+      - germany🐴
   - name: FB 🟡
     type: fallback
     disable-udp: false
@@ -59,6 +61,7 @@ proxy-groups:
       - netherland🐴
       - francis🐴
       - turki🐴
+      - germany🐴
   - name: BP 🟢
     type: url-test
     disable-udp: false
@@ -73,6 +76,7 @@ proxy-groups:
       - netherland🐴
       - francis🐴
       - turki🐴
+      - germany🐴
 
 
   - name: S4 💵 #4
@@ -135,6 +139,13 @@ proxy-groups:
     interval: '100' #600 or #300
     use:
       - turki🐴
+  - name: germany🐴
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - germany🐴
 
 
 proxy-providers:
@@ -165,6 +176,13 @@ proxy-providers:
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/turki.yaml"
+     interval: 1200
+  germany🐴: 
+     type: http 
+     path: ./germany🐴.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/germany.yaml"
      interval: 1200
 
 
