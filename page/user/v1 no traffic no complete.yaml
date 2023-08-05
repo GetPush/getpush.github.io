@@ -32,6 +32,7 @@ proxy-groups:
       - sg he mux🐴
       - canada🐴
       - sg melbi🐴
+      - sg he 2🐴
 
 
   - name: LB 🔴
@@ -53,6 +54,7 @@ proxy-groups:
       - sg he mux🐴
       - canada🐴
       - sg melbi🐴
+      - sg he 2🐴
 
   - name: FB 🟡
     type: fallback
@@ -73,6 +75,7 @@ proxy-groups:
       - sg he mux🐴
       - canada🐴
       - sg melbi🐴
+      - sg he 2🐴
 
   - name: BP 🟢
     type: url-test
@@ -93,6 +96,7 @@ proxy-groups:
       - sg he mux🐴
       - canada🐴
       - sg melbi🐴
+      - sg he 2🐴
 
 
   - name: S4 💵 #4
@@ -190,6 +194,13 @@ proxy-groups:
     interval: '100' #600 or #300
     use:
       - sg melbi🐴
+  - name: sg he 2🐴
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - sg he 2🐴
 
 
 proxy-providers:
@@ -255,6 +266,13 @@ proxy-providers:
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/sg%20melbi.yaml"
+     interval: 1200
+  sg he 2🐴: 
+     type: http 
+     path: ./sg he 2🐴.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/sg%20he%202.yaml"
      interval: 1200
 
 
