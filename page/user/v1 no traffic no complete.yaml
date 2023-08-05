@@ -36,6 +36,7 @@ proxy-groups:
       - sg he 3🐴
       - us🐴
       - sg he 1🐴
+      - id herza🐴
 
 
   - name: LB 🔴
@@ -61,6 +62,7 @@ proxy-groups:
       - sg he 3🐴
       - us🐴
       - sg he 1🐴
+      - id herza🐴
 
   - name: FB 🟡
     type: fallback
@@ -85,6 +87,7 @@ proxy-groups:
       - sg he 3🐴
       - us🐴
       - sg he 1🐴
+      - id herza🐴
 
   - name: BP 🟢
     type: url-test
@@ -109,6 +112,7 @@ proxy-groups:
       - sg he 3🐴
       - us🐴
       - sg he 1🐴
+      - id herza🐴
 
 
   - name: S4 💵 #4
@@ -234,6 +238,13 @@ proxy-groups:
     interval: '100' #600 or #300
     use:
       - sg he 1🐴
+  - name: id herza🐴
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - id herza🐴
 
 
 proxy-providers:
@@ -327,6 +338,13 @@ proxy-providers:
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/sg%20he%201.yaml"
+     interval: 1200
+  id herza🐴: 
+     type: http 
+     path: ./id herza🐴.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/id%20herza.yaml"
      interval: 1200
 
 
