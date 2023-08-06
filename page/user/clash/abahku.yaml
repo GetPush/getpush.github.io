@@ -4,18 +4,7 @@ proxy-groups:
     type: select
     proxies:
       - 🌍
-      - LB 🔴
-      - FB 🟡
-      - BP 🟢
-      - TR 🐴
-      - S4 💵 #4
-      - S3 💷 #3
-      - S2 💴 #2
-      - S1 💶 #1
       - REJECT
-    use:
-      - Server4
- 
     
   - name: 🌍
     type: select
@@ -23,13 +12,28 @@ proxy-groups:
       - LB 🔴
       - FB 🟡
       - BP 🟢
-      - TR 🐴
-      - S4 💵 #4
-      - S3 💷 #3
-      - S2 💴 #2
-      - S1 💶 #1
-    use:
-      - trojan-cdn
+      - Server 💠
+      - S1 💶
+      - S2 💴
+      - S3 💷
+      - S4 💵
+      - Trojan 🐴
+      - ROMANIA 🐴
+      - NETHERLAND 🐴
+      - FRANCIS 🐴
+      - TURKI 🐴
+      - GERMANY 🐴
+      - THAILAND 🐴
+      - SG HE MUX 🐴
+      - CANADA 🐴
+      - SG MELBI 🐴
+      - SG HE 2 🐴
+      - SG HE 3 🐴
+      - US 🐴
+      - SG HE 1 🐴
+      - ID HERZA 🐴
+      - SG AMP 🐴
+
 
   - name: LB 🔴
     type: load-balance
@@ -37,85 +41,309 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     proxies:
-      - S4 💵 #4
-      - S3 💷 #3
-      - S2 💴 #2
-      - S1 💶 #1
-      - TR 🐴
+      - Server 💠
+      - Trojan 🐴
+
   - name: FB 🟡
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     proxies:
-      - S4 💵 #4
-      - S3 💷 #3
-      - S2 💴 #2
-      - S1 💶 #1
-      - TR 🐴
+      - Server 💠
+      - Trojan 🐴
+
   - name: BP 🟢
     type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     proxies:
-      - S4 💵 #4
-      - S3 💷 #3
-      - S2 💴 #2
-      - S1 💶 #1
-      - TR 🐴
+      - Server 💠
+      - Trojan 🐴
+
+  - name: Server 💠
+    type: load-balance
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    proxies:
+      - S4 💵
+      - S3 💷
+      - S2 💴
+      - S1 💶
+  - name: Trojan 🐴
+    type: load-balance
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    proxies:
+      - ROMANIA 🐴
+      - NETHERLAND 🐴
+      - FRANCIS 🐴
+      - TURKI 🐴
+      - GERMANY 🐴
+      - THAILAND 🐴
+      - SG HE MUX 🐴
+      - CANADA 🐴
+      - SG MELBI 🐴
+      - SG HE 2 🐴
+      - SG HE 3 🐴
+      - US 🐴
+      - SG HE 1 🐴
+      - ID HERZA 🐴
+      - SG AMP 🐴
 
 
+# seleksi 
+  - name: S1 💶 #1
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - Server1
+  - name: S2 💴 #2
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - Server2
+  - name: S3 💷 #3
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - Server3
   - name: S4 💵 #4
-    type: load-balance #url-test
+    type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     use:
       - Server4
 
-  - name: S3 💷 #3
-    type: load-balance #url-test
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
-    use:
-      - Server3
 
-  - name: S2 💴 #2
-    type: load-balance #url-test
+  - name: ROMANIA 🐴
+    type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     use:
-      - Server2
-
-  - name: S1 💶 #1
-    type: load-balance #url-test
+      - romania 🐴
+  - name: NETHERLAND 🐴
+    type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     use:
-      - Server1
-
-  - name: TR 🐴
-    type: load-balance #url-test
+      - netherland 🐴
+  - name: FRANCIS 🐴
+    type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     use:
-      - trojan-cdn
+      - francis 🐴
+  - name: TURKI 🐴
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - turki 🐴
+  - name: GERMANY 🐴
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - germany 🐴
+  - name: THAILAND 🐴
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - thailand 🐴
+  - name: SG HE MUX 🐴
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - sg he mux 🐴
+  - name: CANADA 🐴
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - canada 🐴
+  - name: SG MELBI 🐴
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - sg melbi 🐴
+  - name: SG HE 2 🐴
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - sg he 2 🐴
+  - name: SG HE 3 🐴
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - sg he 3 🐴
+  - name: US 🐴
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - us 🐴
+  - name: SG HE 1 🐴
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - sg he 1 🐴
+  - name: ID HERZA 🐴
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - id herza 🐴
+  - name: SG AMP 🐴
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - sg amp 🐴
 
 
 proxy-providers:
-  trojan-cdn: 
+# ### Trojan Community ###
+  romania 🐴: 
      type: http 
-     path: ./trojan-cdn.yaml 
+     path: ./romania 🐴.yaml 
      health-check: 
      enable: true 
-     url: "https://toppayofficial.vercel.app/page/user/service/trojan-cdn.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/romania.yaml"
+     interval: 1200
+  netherland 🐴: 
+     type: http 
+     path: ./netherland 🐴.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/netherland.yaml"
+     interval: 1200
+  francis 🐴: 
+     type: http 
+     path: ./francis 🐴.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/francis.yaml"
+     interval: 1200
+  turki 🐴: 
+     type: http 
+     path: ./turki 🐴.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/turki.yaml"
+     interval: 1200
+  germany 🐴: 
+     type: http 
+     path: ./germany 🐴.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/germany.yaml"
+     interval: 1200
+  thailand 🐴: 
+     type: http 
+     path: ./thailand 🐴.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/thailand.yaml"
+     interval: 1200
+  sg he mux 🐴: 
+     type: http 
+     path: ./sg he mux 🐴.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/sg%20he%20mux.yaml"
+     interval: 1200
+  canada 🐴: 
+     type: http 
+     path: ./canada 🐴.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/canada.yaml"
+     interval: 1200
+  sg melbi 🐴: 
+     type: http 
+     path: ./sg melbi 🐴.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/sg%20melbi.yaml"
+     interval: 1200
+  sg he 2 🐴: 
+     type: http 
+     path: ./sg he 2 🐴.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/sg%20he%202.yaml"
+     interval: 1200
+  sg he 3 🐴: 
+     type: http 
+     path: ./sg he 3 🐴.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/sg%20he%203.yaml"
+     interval: 1200
+  us 🐴: 
+     type: http 
+     path: ./us 🐴.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/us.yaml"
+     interval: 1200
+  sg he 1 🐴: 
+     type: http 
+     path: ./sg he 1 🐴.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/sg%20he%201.yaml"
+     interval: 1200
+  id herza 🐴: 
+     type: http 
+     path: ./id herza 🐴.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/id%20herza.yaml"
+     interval: 1200
+  sg amp 🐴: 
+     type: http 
+     path: ./sg amp 🐴.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/sg%20amp.yaml"
      interval: 1200
 
+
+
+# ### Server Community ###
   Server1:
     type: http
     path: ./server1.yaml
@@ -144,6 +372,9 @@ proxy-providers:
     enable: true
     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/server4.yaml"
     interval: 1200
+
+
+
 
 redir-port: 7892
 port: 7890
