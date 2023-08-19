@@ -455,7 +455,7 @@ rules:
 - PROCESS-NAME,ss-local.exe,DIRECT
 - PROCESS-NAME,privoxy.exe,DIRECT
 - DST-PORT,22,DIRECT,no-resolve
-- RULE-SET,rule_porn,REJECT
+- RULE-SET,rule_porn,Mode 🌍
 - RULE-SET,adblock,Iklan
 - RULE-SET,rule_reject,Iklan
 - RULE-SET,rule_privacy,REJECT
