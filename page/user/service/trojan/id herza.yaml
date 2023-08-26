@@ -66,7 +66,7 @@ proxies:
         Host: id-1.test3.net
     udp: true
   - name: ID Herza F
-    server: layanan.ruangguru.com
+    server: 104.17.58.20
     port: 443
     type: trojan
     password: 8f3b3980-3066-11ee-b2ff-1239d0255272
