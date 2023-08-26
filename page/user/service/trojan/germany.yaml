@@ -66,7 +66,7 @@ proxies:
         Host: de-2.test3.net
     udp: true
   - name: Germany F
-    server: layanan.ruangguru.com
+    server: 104.17.58.20
     port: 443
     type: trojan
     password: 142f4a70-2c8a-11ee-9899-1239d0255272
