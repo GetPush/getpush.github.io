@@ -147,13 +147,6 @@ proxy-groups:
     interval: '100' #600 or #300
     use:
       - francis 🐴
-  - name: TURKI 🐴
-    type: url-test
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
-    use:
-      - turki 🐴
   - name: GERMANY 🐴
     type: url-test
     disable-udp: false
@@ -255,13 +248,6 @@ proxy-providers:
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/francis.yaml"
-     interval: 1200
-  turki 🐴: 
-     type: http 
-     path: ./turki 🐴.yaml 
-     health-check: 
-     enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/turki.yaml"
      interval: 1200
   germany 🐴: 
      type: http 
