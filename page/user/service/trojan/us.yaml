@@ -66,7 +66,7 @@ proxies:
         Host: us-trojan.bonds.id
     udp: true
   - name: US F
-    server: layanan.ruangguru.com
+    server: 104.17.58.20
     port: 443
     type: trojan
     password: d2344110-3027-11ee-a1ab-1239d0255272
