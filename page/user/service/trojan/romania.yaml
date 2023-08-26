@@ -67,7 +67,7 @@ proxies:
     udp: true
 
   - name: Romania F
-    server: layanan.ruangguru.com
+    server: 104.17.58.20
     port: 443
     type: trojan
     password: dffb4ca0-3e3d-11ee-bd6f-1239d0255272
