@@ -66,7 +66,7 @@ proxies:
         Host: sg3-trojan.bonds.id
     udp: true
   - name: SG HE 3 F
-    server: layanan.ruangguru.com
+    server: 104.17.58.20
     port: 443
     type: trojan
     password: 8ea460c0-2fbf-11ee-b5e3-1239d0255272
