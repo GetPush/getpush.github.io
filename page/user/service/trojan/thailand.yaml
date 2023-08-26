@@ -66,7 +66,7 @@ proxies:
         Host: th1-trojan.bonds.id
     udp: true
   - name: Thailand F
-    server: layanan.ruangguru.com
+    server: 104.17.58.20
     port: 443
     type: trojan
     password: 88d86660-2c88-11ee-97d9-1239d0255272
