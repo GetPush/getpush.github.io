@@ -65,9 +65,21 @@ proxies:
       headers:
         Host: ro1.test3.net
     udp: true
-
   - name: Romania F
     server: 104.17.58.20
+    port: 443
+    type: trojan
+    password: dffb4ca0-3e3d-11ee-bd6f-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania G
+    server: layanan.ruangguru.com
     port: 443
     type: trojan
     password: dffb4ca0-3e3d-11ee-bd6f-1239d0255272
