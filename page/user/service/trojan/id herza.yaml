@@ -78,7 +78,7 @@ proxies:
       headers:
         Host: id-1.test3.net
     udp: true
-  - name: ID Herza F
+  - name: ID Herza G
     server: layanan.ruangguru.com
     port: 443
     type: trojan
