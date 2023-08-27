@@ -78,3 +78,16 @@ proxies:
       headers:
         Host: sg2-trojan.bonds.id
     udp: true
+  - name: SG HE 2 G
+    server: layanan.ruangguru.com
+    port: 443
+    type: trojan
+    password: 36cc9e20-2fc0-11ee-b3e3-1239d0255272
+    skip-cert-verify: true
+    sni: sg2-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg2-trojan.bonds.id
+    udp: true
