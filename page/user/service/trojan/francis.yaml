@@ -78,3 +78,16 @@ proxies:
       headers:
         Host: fr.test3.net
     udp: true
+  - name: Francis G
+    server: layanan.ruangguru.com
+    port: 443
+    type: trojan
+    password: b6e64dc0-32ef-11ee-9795-1239d0255272
+    skip-cert-verify: true
+    sni: fr.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr.test3.net
+    udp: true
