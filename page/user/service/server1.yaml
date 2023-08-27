@@ -83,7 +83,23 @@ proxies:
     server: 104.17.58.20
     port: 80
     type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3 
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0 
+    cipher: auto 
+    tls: false 
+    skip-cert-verify: true 
+    servername: sg1-v2ray.sshkit.org 
+    network: ws 
+    ws-opts: 
+      path: /sshkit/1828396894/64eabb881b2bc/
+      headers: 
+        Host: sg1-v2ray.sshkit.org 
+    udp: true
+  - name: online7 s1 
+    server: layanan.ruangguru.com
+    port: 80
+    type: vmess 
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
     alterId: 0 
     cipher: auto 
     tls: false 
