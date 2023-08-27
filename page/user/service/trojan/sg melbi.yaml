@@ -78,3 +78,16 @@ proxies:
       headers:
         Host: sg-4.test3.net
     udp: true
+  - name: SG Melbi G
+    server: layanan.ruangguru.com
+    port: 443
+    type: trojan
+    password: 3f42fd50-2fbe-11ee-8f6f-1239d0255272
+    skip-cert-verify: true
+    sni: sg-4.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-4.test3.net
+    udp: true
