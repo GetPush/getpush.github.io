@@ -78,3 +78,16 @@ proxies:
       headers:
         Host: ca-trojan.bonds.id
     udp: true
+  - name: Canada G
+    server: layanan.ruangguru.com
+    port: 443
+    type: trojan
+    password: 4e385860-2de1-11ee-be4e-1239d0255272
+    skip-cert-verify: true
+    sni: ca-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ca-trojan.bonds.id
+    udp: true
