@@ -78,4 +78,16 @@ proxies:
       headers:
         Host: sg6-trojan.bonds.id
     udp: true
-    
+  - name: SG HE MUX G
+    server: layanan.ruangguru.com
+    port: 443
+    type: trojan
+    password: ef7d41b0-2fbc-11ee-923a-1239d0255272
+    skip-cert-verify: true
+    sni: sg6-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg6-trojan.bonds.id
+    udp: true
