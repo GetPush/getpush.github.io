@@ -95,28 +95,28 @@ proxy-groups:
 
 # seleksi 
   - name: S1 💶 #1
-    type: url-test
+    type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     use:
       - Server1
   - name: S2 💴 #2
-    type: url-test
+    type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     use:
       - Server2
   - name: S3 💷 #3
-    type: url-test
+    type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     use:
       - Server3
   - name: S4 💵 #4
-    type: url-test
+    type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
@@ -125,98 +125,98 @@ proxy-groups:
 
 
   - name: ROMANIA 🐴
-    type: url-test
+    type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     use:
       - romania 🐴
   - name: NETHERLAND 🐴
-    type: url-test
+    type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     use:
       - netherland 🐴
   - name: FRANCIS 🐴
-    type: url-test
+    type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     use:
       - francis 🐴
   - name: GERMANY 🐴
-    type: url-test
+    type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     use:
       - germany 🐴
   - name: THAILAND 🐴
-    type: url-test
+    type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     use:
       - thailand 🐴
   - name: SG HE MUX 🐴
-    type: url-test
+    type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     use:
       - sg he mux 🐴
   - name: CANADA 🐴
-    type: url-test
+    type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     use:
       - canada 🐴
   - name: SG MELBI 🐴
-    type: url-test
+    type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     use:
       - sg melbi 🐴
   - name: SG HE 2 🐴
-    type: url-test
+    type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     use:
       - sg he 2 🐴
   - name: SG HE 3 🐴
-    type: url-test
+    type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     use:
       - sg he 3 🐴
   - name: US 🐴
-    type: url-test
+    type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     use:
       - us 🐴
   - name: SG HE 1 🐴
-    type: url-test
+    type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     use:
       - sg he 1 🐴
   - name: ID HERZA 🐴
-    type: url-test
+    type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     use:
       - id herza 🐴
   - name: SG AMP 🐴
-    type: url-test
+    type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
