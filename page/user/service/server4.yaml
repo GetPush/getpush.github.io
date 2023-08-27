@@ -11,7 +11,7 @@ proxies:
     servername: sg4-v2ray.sshkit.org
     network: ws
     ws-opts:
-      path: /sshkit/6690240657/64c239b07e365/
+      path: /sshkit/1828396894/64eabbe6abf23/
       headers:
         Host: sg4-v2ray.sshkit.org
     udp: true
@@ -27,7 +27,7 @@ proxies:
     servername: sg4-v2ray.sshkit.org
     network: ws
     ws-opts:
-      path: /sshkit/6690240657/64c239b07e365/
+      path: /sshkit/1828396894/64eabbe6abf23/
       headers:
         Host: sg4-v2ray.sshkit.org
     udp: true
@@ -43,7 +43,7 @@ proxies:
     servername: sg4-v2ray.sshkit.org 
     network: ws 
     ws-opts: 
-      path: /sshkit/6690240657/64c239b07e365/
+      path: /sshkit/1828396894/64eabbe6abf23/
       headers: 
         Host: sg4-v2ray.sshkit.org 
     udp: true
@@ -59,7 +59,7 @@ proxies:
     servername: sg4-v2ray.sshkit.org 
     network: ws 
     ws-opts: 
-      path: /sshkit/6690240657/64c239b07e365/
+      path: /sshkit/1828396894/64eabbe6abf23/
       headers: 
         Host: sg4-v2ray.sshkit.org 
     udp: true
@@ -75,7 +75,7 @@ proxies:
     servername: sg4-v2ray.sshkit.org 
     network: ws 
     ws-opts: 
-      path: /sshkit/6690240657/64c239b07e365/
+      path: /sshkit/1828396894/64eabbe6abf23/
       headers: 
         Host: sg4-v2ray.sshkit.org 
     udp: true
@@ -91,7 +91,7 @@ proxies:
     servername: sg4-v2ray.sshkit.org 
     network: ws 
     ws-opts: 
-      path: /sshkit/6690240657/64c239b07e365/
+      path: /sshkit/1828396894/64eabbe6abf23/
       headers: 
         Host: sg4-v2ray.sshkit.org 
     udp: true
