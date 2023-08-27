@@ -71,27 +71,6 @@ proxy-groups:
       - S3 💷
       - S2 💴
       - S1 💶
-  - name: Trojan 🐴
-    type: fallback
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
-    proxies:
-      - ROMANIA 🐴
-      - NETHERLAND 🐴
-      - FRANCIS 🐴
-      - GERMANY 🐴
-      - THAILAND 🐴
-      - SG HE MUX 🐴
-      - CANADA 🐴
-      - SG MELBI 🐴
-      - SG HE 2 🐴
-      - SG HE 3 🐴
-      - US 🐴
-      - SG HE 1 🐴
-      - ID HERZA 🐴
-      - SG AMP 🐴
-
 
 # seleksi server 
   - name: S1 💶 #1
@@ -123,7 +102,7 @@ proxy-groups:
     use:
       - Server4
 
-# seleksi Trojan
+
   - name: Trojan 🐴
     type: fallback
     disable-udp: false
@@ -145,6 +124,7 @@ proxy-groups:
       - ID HERZA 🐴
       - SG AMP 🐴
 
+# seleksi Trojan
   - name: ROMANIA 🐴
     type: fallback
     disable-udp: false
