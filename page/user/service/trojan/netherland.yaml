@@ -78,3 +78,16 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
+  - name: Netherland G
+    server: layanan.ruangguru.com
+    port: 443
+    type: trojan
+    password: 767d85c0-3e3e-11ee-bab1-1239d0255272
+    skip-cert-verify: true
+    sni: nl.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: nl.test3.net
+    udp: true
