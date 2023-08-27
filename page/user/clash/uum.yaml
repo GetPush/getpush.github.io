@@ -17,7 +17,7 @@ proxy-groups:
       - S2 💴
       - S3 💷
       - S4 💵
-      - Trojan 🐴
+      - Trojan 💠
       - ROMANIA 🐴
       - NETHERLAND 🐴
       - FRANCIS 🐴
@@ -41,7 +41,7 @@ proxy-groups:
     interval: '100' #600 or #300
     proxies:
       - Server 💠
-      - Trojan 🐴
+      - Trojan 💠
 
   - name: FB 🟡
     type: fallback
@@ -50,7 +50,7 @@ proxy-groups:
     interval: '100' #600 or #300
     proxies:
       - Server 💠
-      - Trojan 🐴
+      - Trojan 💠
 
   - name: BP 🟢
     type: url-test
@@ -59,7 +59,7 @@ proxy-groups:
     interval: '100' #600 or #300
     proxies:
       - Server 💠
-      - Trojan 🐴
+      - Trojan 💠
 
   - name: Server 💠
     type: load-balance
