@@ -78,3 +78,16 @@ proxies:
       headers:
         Host: us-trojan.bonds.id
     udp: true
+  - name: US G
+    server: layanan.ruangguru.com
+    port: 443
+    type: trojan
+    password: d2344110-3027-11ee-a1ab-1239d0255272
+    skip-cert-verify: true
+    sni: us-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us-trojan.bonds.id
+    udp: true
