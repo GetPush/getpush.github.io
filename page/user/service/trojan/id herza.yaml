@@ -78,3 +78,16 @@ proxies:
       headers:
         Host: id-1.test3.net
     udp: true
+  - name: ID Herza F
+    server: layanan.ruangguru.com
+    port: 443
+    type: trojan
+    password: 8f3b3980-3066-11ee-b2ff-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
