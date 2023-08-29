@@ -1,11 +1,5 @@
 proxies:
 proxy-groups:
-  - name: 💰
-    type: select
-    proxies:
-      - 🌍
-      - REJECT
-    
   - name: 🌍
     type: select
     proxies:
@@ -32,6 +26,12 @@ proxy-groups:
       - SG HE 1 🐴
       - ID HERZA 🐴
       - SG AMP 🐴
+
+  - name: 💰
+    type: select
+    proxies:
+      - 🌍
+      - REJECT
 
 
   - name: LB 🔴
