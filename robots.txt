@@ -9,6 +9,16 @@ Disallow: /config/open-tunnel.html
 Disallow: /config/v2ray-hc.html
 Disallow: /config/dark-tunnel-v2ray.html
 
+Disallow: /config/dark-tunnel/direct.html
+Disallow: /config/http-custom//direct.html
+Disallow: /config/http-injector/direct.html
+Disallow: /config/kpn-tunnel/direct.html
+Disallow: /config/napsternet/direct.html
+Disallow: /config/netmod-syna/direct.html
+Disallow: /config/open-tunnel/direct.html
+Disallow: /config/v2ray-hc/direct.html
+Disallow: /config/dark-tunnel-v2ray/direct.html
+
 Allow: /
 
 Sitemap: https://toppayofficial.vercel.app/about/toppayofficial.xml
