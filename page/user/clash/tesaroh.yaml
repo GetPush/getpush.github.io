@@ -31,6 +31,8 @@ proxy-groups:
     type: select
     proxies:
       - 🌍
+      - Server 💠
+      - Trojan 💠
       - REJECT
 
 
@@ -62,7 +64,7 @@ proxy-groups:
       - Trojan 💠
 
   - name: Server 💠
-    type: load-balance
+    type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
@@ -104,7 +106,7 @@ proxy-groups:
 
 
   - name: Trojan 💠
-    type: load-balance
+    type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
