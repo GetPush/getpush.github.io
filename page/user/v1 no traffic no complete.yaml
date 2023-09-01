@@ -64,7 +64,7 @@ proxy-groups:
       - Trojan 💠
 
   - name: Server 💠
-    type: fallback
+    type: load-balance
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
@@ -106,7 +106,7 @@ proxy-groups:
 
 
   - name: Trojan 💠
-    type: fallback
+    type: load-balance
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
