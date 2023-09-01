@@ -1,41 +1,43 @@
 <!DOCTYPE html>
 <html lang="id">
- <head>
-  <meta http-equiv="refresh" content="60; URL='/config/v2ray-dark-tunnel/direct.html'">
-  <meta charset="UTF-8"> 
-   <meta name="robots" content="index, follow"> 
-   <meta content='width=device-width, initial-scale=0.5' name='viewport' /> 
-   <link rel="stylesheet" type="text/css" href="/linked/style.css">  
-    <script src="/linked/base.js"></script>   
-     <script src="/linked/penutup.js"></script>    
-      <script src="/linked/names.js"></script>    
-       <script src="/linked/speed.js"></script>    
-        <script src="/linked/teks-config.js"></script>  
-    <title></title> 
-    <style>   
-       .download-buttons {   
-         display: flex;   
-         flex-direction: column;   
-         align-items: center;   
-       }   
-  
-       .download-button {   
-       background-color: transparant;   
-       padding: 20px;   
-       border-radius: 40px;   
-       box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);   
-       border-bottom: 3px solid #ccc;   
-       font-size: 2em;   
-       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);   
-       }   
-     </style>  
-   </head>  
-   <body>  
-    <div id="header"></div> 
-   <br>    
-        <div class="download-buttons">    
-          <a class="download-button" href="https://safefileku.com/download/A7QABCQGApewdhEM" download>DOWNLOAD</a>    
-   <br>  
-    <div id="penutup"></div>  
-  </body>  
-  </html>
+  <head>
+    <meta charset="UTF-8">
+   <meta name="robots" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+  <link rel="stylesheet" type="text/css" href="/linked/style.css">
+  <script src="/linked/base.js"></script> 
+   <script src="/linked/penutup.js"></script>  
+    <script src="/linked/names.js"></script>  
+     <script src="/linked/speed.js"></script>  
+      <script src="/linked/teks-config.js"></script>
+  <title></title>
+ </head>
+ <body>
+<!-- <div id="header"></div> 
+  <div id="penutup"></div> -->
+   <script>
+var urls = [
+  "/config/v2ray-dark-tunnel/afile.html",
+  "/config/v2ray-dark-tunnel/bfile.html"
+];
+
+function redirect() {
+  var randomIndex = Math.floor(Math.random() * urls.length);
+  var nextUrl = urls[randomIndex];
+  window.location.href = nextUrl;
+}
+
+if (typeof history.pushState === "function") {
+  history.pushState("jibberish", null, null);
+  window.addEventListener("popstate", function() {
+    history.pushState("newjibberish", null, null);
+  });
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+  redirect();
+});
+
+ </script>
+  </body>
+</html>
