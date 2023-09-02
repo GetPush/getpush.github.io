@@ -71,7 +71,7 @@ proxy-groups:
       - Trojan 💠
 
   - name: Server 💠
-    type: url-test
+    type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
@@ -83,28 +83,28 @@ proxy-groups:
 
 # seleksi server 
   - name: S1 💶 #1
-    type: fallback
+    type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     use:
       - Server1
   - name: S2 💴 #2
-    type: fallback
+    type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     use:
       - Server2
   - name: S3 💷 #3
-    type: fallback
+    type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     use:
       - Server3
   - name: S4 💵 #4
-    type: fallback
+    type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
@@ -113,7 +113,7 @@ proxy-groups:
 
 
   - name: Trojan 💠
-    type: url-test
+    type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
@@ -135,98 +135,98 @@ proxy-groups:
 
 # seleksi Trojan
   - name: ROMANIA 🐴
-    type: fallback
+    type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     use:
       - romania 🐴
   - name: NETHERLAND 🐴
-    type: fallback
+    type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     use:
       - netherland 🐴
   - name: FRANCIS 🐴
-    type: fallback
+    type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     use:
       - francis 🐴
   - name: GERMANY 🐴
-    type: fallback
+    type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     use:
       - germany 🐴
   - name: THAILAND 🐴
-    type: fallback
+    type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     use:
       - thailand 🐴
   - name: SG HE MUX 🐴
-    type: fallback
+    type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     use:
       - sg he mux 🐴
   - name: CANADA 🐴
-    type: fallback
+    type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     use:
       - canada 🐴
   - name: SG MELBI 🐴
-    type: fallback
+    type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     use:
       - sg melbi 🐴
   - name: SG HE 2 🐴
-    type: fallback
+    type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     use:
       - sg he 2 🐴
   - name: SG HE 3 🐴
-    type: fallback
+    type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     use:
       - sg he 3 🐴
   - name: US 🐴
-    type: fallback
+    type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     use:
       - us 🐴
   - name: SG HE 1 🐴
-    type: fallback
+    type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     use:
       - sg he 1 🐴
   - name: ID HERZA 🐴
-    type: fallback
+    type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     use:
       - id herza 🐴
   - name: SG AMP 🐴
-    type: fallback
+    type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
@@ -498,7 +498,7 @@ dns:
   - 112.215.203.254 #Axis
   - 112.215.37.182 #XL
   - 112.215.37.183 #XL
-  fallback-filter:
+  url-test-filter:
     geoip: true
     geoip-code: ID
     ipcidr:
@@ -542,7 +542,7 @@ dns:
   - 112.215.203.254 #Axis
   - 112.215.37.182 #XL
   - 112.215.37.183 #XL
-  fallback:
+  url-test:
   - 8.8.8.8
   - 1.1.1.1
   - 9.9.9.9
