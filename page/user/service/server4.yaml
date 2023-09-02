@@ -1,6 +1,6 @@
 proxies:
   - name: online1 s4
-    server: 104.16.108.96
+    server: 104.19.142.89
     port: 80
     type: vmess
     uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
@@ -16,7 +16,7 @@ proxies:
         Host: sg4-v2ray.sshkit.org
     udp: true
   - name: online2 s4
-    server: 104.19.142.89
+    server: 104.16.108.96
     port: 80
     type: vmess
     uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
@@ -80,7 +80,7 @@ proxies:
         Host: sg4-v2ray.sshkit.org 
     udp: true
   - name: online6 s4 
-    server: 104.17.58.20
+    server: layanan.ruangguru.com
     port: 80
     type: vmess 
     uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3 
@@ -96,7 +96,7 @@ proxies:
         Host: sg4-v2ray.sshkit.org 
     udp: true
   - name: online7 s4 
-    server: layanan.ruangguru.com
+    server: 104.17.58.20
     port: 80
     type: vmess 
     uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3 
