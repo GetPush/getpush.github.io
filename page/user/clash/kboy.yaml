@@ -27,13 +27,20 @@ proxy-groups:
       - ID HERZA 🐴
       - SG AMP 🐴
 
-  - name: 💰
+  - name: ADS💰
     type: select
     proxies:
       - 🌍
       - Server 💠
       - Trojan 💠
       - REJECT
+  - name: Privasi🔒
+    type: select
+    proxies:
+      - REJECT
+      - 🌍
+      - Server 💠
+      - Trojan 💠
 
 
   - name: LB 🔴
@@ -491,7 +498,7 @@ dns:
   - 112.215.203.254 #Axis
   - 112.215.37.182 #XL
   - 112.215.37.183 #XL
-  fallback-filter:
+  url-test-filter:
     geoip: true
     geoip-code: ID
     ipcidr:
@@ -535,7 +542,7 @@ dns:
   - 112.215.203.254 #Axis
   - 112.215.37.182 #XL
   - 112.215.37.183 #XL
-  fallback:
+  url-test:
   - 8.8.8.8
   - 1.1.1.1
   - 9.9.9.9
@@ -564,11 +571,11 @@ rules:
 - PROCESS-NAME,ss-local.exe,DIRECT
 - PROCESS-NAME,privoxy.exe,DIRECT
 - DST-PORT,22,DIRECT,no-resolve
-- RULE-SET,xdomain,REJECT
-- RULE-SET,rule_porn,REJECT
-- RULE-SET,adblock,💰
-- RULE-SET,rule_reject,💰
-- RULE-SET,rule_privacy,REJECT
+- RULE-SET,xdomain,Privasi🔒
+- RULE-SET,rule_porn,Privasi🔒
+- RULE-SET,adblock,ADS💰
+- RULE-SET,rule_reject,ADS💰
+- RULE-SET,rule_privacy,Privasi🔒
 - MATCH,🌍
 
 tun:
