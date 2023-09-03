@@ -134,48 +134,6 @@ proxy-groups:
       - SG AMP 🐴
 
 # seleksi Trojan
-  - name: ROMANIA 🐴
-    type: url-test
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
-    use:
-      - romania 🐴
-  - name: NETHERLAND 🐴
-    type: url-test
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
-    use:
-      - netherland 🐴
-  - name: FRANCIS 🐴
-    type: url-test
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
-    use:
-      - francis 🐴
-  - name: GERMANY 🐴
-    type: url-test
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
-    use:
-      - germany 🐴
-  - name: THAILAND 🐴
-    type: url-test
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
-    use:
-      - thailand 🐴
-  - name: SG HE MUX 🐴
-    type: url-test
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
-    use:
-      - sg he mux 🐴
   - name: CANADA 🐴
     type: url-test
     disable-udp: false
@@ -232,6 +190,48 @@ proxy-groups:
     interval: '100' #600 or #300
     use:
       - sg amp 🐴
+  - name: ROMANIA 🐴
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - romania 🐴
+  - name: NETHERLAND 🐴
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - netherland 🐴
+  - name: FRANCIS 🐴
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - francis 🐴
+  - name: GERMANY 🐴
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - germany 🐴
+  - name: THAILAND 🐴
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - thailand 🐴
+  - name: SG HE MUX 🐴
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - sg he mux 🐴
 
 
 proxy-providers:
