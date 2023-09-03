@@ -1,5 +1,5 @@
 proxies:
-  - name: Cloud1 s1
+  - name: Use1 s1
     server: 104.19.142.89
     port: 80
     type: vmess
@@ -15,7 +15,7 @@ proxies:
       headers:
         Host: sg1-v2ray.sshkit.org
     udp: true
-  - name: Cloud2 s1
+  - name: Use2 s1
     server: 104.16.108.96
     port: 80
     type: vmess
@@ -31,7 +31,7 @@ proxies:
       headers:
         Host: sg1-v2ray.sshkit.org
     udp: true
-  - name: Cloud3 s1 
+  - name: Use3 s1 
     server: www.sushiroll.co.id 
     port: 80
     type: vmess 
@@ -47,7 +47,7 @@ proxies:
       headers: 
         Host: sg1-v2ray.sshkit.org 
     udp: true
-  - name: Cloud4 s1 
+  - name: Use4 s1 
     server: quiz.vidio.com
     port: 80
     type: vmess 
@@ -63,7 +63,7 @@ proxies:
       headers: 
         Host: sg1-v2ray.sshkit.org 
     udp: true
-  - name: Cloud5 s1 
+  - name: Use5 s1 
     server: zendesk1.shopee.com
     port: 80
     type: vmess 
@@ -79,7 +79,7 @@ proxies:
       headers: 
         Host: sg1-v2ray.sshkit.org 
     udp: true
-  - name: Cloud6 s1 
+  - name: Use6 s1 
     server: layanan.ruangguru.com
     port: 80
     type: vmess 
@@ -95,7 +95,7 @@ proxies:
       headers: 
         Host: sg1-v2ray.sshkit.org 
     udp: true
-  - name: Cloud7 s1 
+  - name: Use7 s1 
     server: 104.17.58.20
     port: 80
     type: vmess 
