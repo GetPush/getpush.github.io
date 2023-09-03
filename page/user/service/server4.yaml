@@ -1,5 +1,5 @@
 proxies:
-  - name: online1 s4
+  - name: Use1 s4
     server: 104.19.142.89
     port: 80
     type: vmess
@@ -15,7 +15,7 @@ proxies:
       headers:
         Host: sg4-v2ray.sshkit.org
     udp: true
-  - name: online2 s4
+  - name: Use2 s4
     server: 104.16.108.96
     port: 80
     type: vmess
@@ -31,7 +31,7 @@ proxies:
       headers:
         Host: sg4-v2ray.sshkit.org
     udp: true
-  - name: online3 s4 
+  - name: Use3 s4 
     server: www.sushiroll.co.id 
     port: 80
     type: vmess 
@@ -47,7 +47,7 @@ proxies:
       headers: 
         Host: sg4-v2ray.sshkit.org 
     udp: true
-  - name: online4 s4 
+  - name: Use4 s4 
     server: quiz.vidio.com
     port: 80
     type: vmess 
@@ -63,7 +63,7 @@ proxies:
       headers: 
         Host: sg4-v2ray.sshkit.org 
     udp: true
-  - name: online5 s4 
+  - name: Use5 s4 
     server: zendesk1.shopee.com
     port: 80
     type: vmess 
@@ -79,7 +79,7 @@ proxies:
       headers: 
         Host: sg4-v2ray.sshkit.org 
     udp: true
-  - name: online6 s4 
+  - name: Use6 s4 
     server: layanan.ruangguru.com
     port: 80
     type: vmess 
@@ -95,7 +95,7 @@ proxies:
       headers: 
         Host: sg4-v2ray.sshkit.org 
     udp: true
-  - name: online7 s4 
+  - name: Use7 s4 
     server: 104.17.58.20
     port: 80
     type: vmess 
