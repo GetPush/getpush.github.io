@@ -172,9 +172,7 @@ const headerHTML = `
 <br>
 <hr>
 <hr>
- <br> 
-  <p>💲 SAAT INI DI UPDATE OLEH: [ <span id="randomNames1" style="font-size: 35px;"></span> ]</p> 
-<br>
+  <p>💲 SAAT INI DI UPDATE OLEH: [ <span id="randomNames1" style="font-size: 35px;"></span> ]</p>
 <hr>
 <hr>
      <br> 
