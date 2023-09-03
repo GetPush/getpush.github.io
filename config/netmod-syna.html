@@ -21,21 +21,38 @@ var urls = [
   "/config/netmod-syna/bfile.html"
 ];
 
-function redirect() {
-  var randomIndex = Math.floor(Math.random() * urls.length);
-  var nextUrl = urls[randomIndex];
-  window.location.href = nextUrl;
+
+var currentIndex = localStorage.getItem('currentIndex');
+
+if (currentIndex === null) {
+  currentIndex = 0;
+} else {
+  currentIndex = parseInt(currentIndex, 10);
+}
+
+function getNextUrl() {
+  var nextIndex = currentIndex + 1;
+  currentIndex = nextIndex % urls.length;
+  localStorage.setItem('currentIndex', currentIndex.toString());
+  return urls[currentIndex];
 }
 
 if (typeof history.pushState === "function") {
   history.pushState("jibberish", null, null);
-  window.addEventListener("popstate", function() {
+  window.addEventListener("popstate", function () {
     history.pushState("newjibberish", null, null);
   });
 }
 
-document.addEventListener("DOMContentLoaded", function() {
-  redirect();
+document.addEventListener("DOMContentLoaded", function () {
+  var currentUrl = window.location.pathname;
+  var nextUrl = getNextUrl();
+
+  if (nextUrl === currentUrl) {
+    nextUrl = getNextUrl();
+  }
+
+  window.location.href = nextUrl;
 });
 
  </script>
