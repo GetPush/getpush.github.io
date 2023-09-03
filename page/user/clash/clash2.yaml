@@ -1,97 +1,644 @@
 proxies:
-  - name: online1 s2
-    server: 104.16.108.96
-    port: 80
-    type: vmess
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: sg2-v2ray.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/6690240657/64c2396789b9a/
-      headers:
-        Host: sg2-v2ray.sshkit.org
-    udp: true
-  - name: online2 s2
-    server: 104.19.142.89
-    port: 80
-    type: vmess
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: sg2-v2ray.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/6690240657/64c2396789b9a/
-      headers:
-        Host: sg2-v2ray.sshkit.org
-    udp: true
-  - name: online3 s2
-    server: www.sushiroll.co.id 
-    port: 80
-    type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3 
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: sg2-v2ray.sshkit.org 
-    network: ws 
-    ws-opts: 
-      path: /sshkit/6690240657/64c2396789b9a/ 
-      headers: 
-        Host: sg2-v2ray.sshkit.org 
-    udp: true
-  - name: online4 s2
-    server: quiz.vidio.com
-    port: 80
-    type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3 
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: sg2-v2ray.sshkit.org 
-    network: ws 
-    ws-opts: 
-      path: /sshkit/6690240657/64c2396789b9a/ 
-      headers: 
-        Host: sg2-v2ray.sshkit.org 
-    udp: true
-  - name: online5 s2
-    server: zendesk1.shopee.com
-    port: 80
-    type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3 
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: sg2-v2ray.sshkit.org 
-    network: ws 
-    ws-opts: 
-      path: /sshkit/6690240657/64c2396789b9a/ 
-      headers: 
-        Host: sg2-v2ray.sshkit.org 
-    udp: true
-  - name: online6 s2
-    server: layanan.ruangguru.com
-    port: 80
-    type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3 
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: sg2-v2ray.sshkit.org 
-    network: ws 
-    ws-opts: 
-      path: /sshkit/6690240657/64c2396789b9a/ 
-      headers: 
-        Host: sg2-v2ray.sshkit.org 
-    udp: true
+proxy-groups:
+  - name: 🌍Online
+    type: select
+    proxies:
+      - LB 🔴
+      - FB 🟡
+      - BP 🟢
+      - 🦅Server
+      - S1 💶
+      - S2 💴
+      - S3 💷
+      - S4 💵
+      - 🐎Trojan
+      - 🐎ROMANIA
+      - 🐎NETHERLAND
+      - 🐎FRANCIS
+      - 🐎GERMANY
+      - 🐎THAILAND
+      - 🐎SG HE MUX
+      - 🐎CANADA
+      - 🐎SG MELBI
+      - 🐎SG HE 2
+      - 🐎SG HE 3
+      - 🐎US
+      - 🐎SG HE 1
+      - 🐎ID HERZA
+      - 🐎SG AMP
+
+  - name: ADS💰
+    type: select
+    proxies:
+      - 🌍Online
+      - 🦅Server
+      - 🐎Trojan
+      - REJECT
+  - name: Privasi🔒
+    type: select
+    proxies:
+      - REJECT
+      - 🌍Online
+      - 🦅Server
+      - 🐎Trojan
+
+
+  - name: LB 🔴
+    type: load-balance
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    proxies:
+      - 🦅Server
+      - 🐎Trojan
+
+  - name: FB 🟡
+    type: fallback
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    proxies:
+      - 🦅Server
+      - 🐎Trojan
+
+  - name: BP 🟢
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    proxies:
+      - 🦅Server
+      - 🐎Trojan
+
+  - name: 🦅Server
+    type: fallback
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    proxies:
+      - S4 💵
+      - S3 💷
+      - S2 💴
+      - S1 💶
+
+# seleksi server 
+  - name: S1 💶 #1
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - Server1
+  - name: S2 💴 #2
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - Server2
+  - name: S3 💷 #3
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - Server3
+  - name: S4 💵 #4
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - Server4
+
+
+  - name: 🐎Trojan
+    type: fallback
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    proxies:
+      - 🐎ROMANIA
+      - 🐎NETHERLAND
+      - 🐎FRANCIS
+      - 🐎GERMANY
+      - 🐎THAILAND
+      - 🐎SG HE MUX
+      - 🐎CANADA
+      - 🐎SG MELBI
+      - 🐎SG HE 2
+      - 🐎SG HE 3
+      - 🐎US
+      - 🐎SG HE 1
+      - 🐎ID HERZA
+      - 🐎SG AMP
+
+# seleksi Trojan
+  - name: 🐎ROMANIA
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - 🐎romania
+  - name: 🐎NETHERLAND
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - 🐎netherland
+  - name: 🐎FRANCIS
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - 🐎francis
+  - name: 🐎GERMANY
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - 🐎germany
+  - name: 🐎THAILAND
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - 🐎thailand
+  - name: 🐎SG HE MUX
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - 🐎sg he mux
+  - name: 🐎CANADA
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - 🐎canada
+  - name: 🐎SG MELBI
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - 🐎sg melbi
+  - name: 🐎SG HE 2
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - 🐎sg he 2
+  - name: 🐎SG HE 3
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - 🐎sg he 3
+  - name: 🐎US
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - 🐎us
+  - name: 🐎SG HE 1
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - 🐎sg he 1
+  - name: 🐎ID HERZA
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - 🐎id herza
+  - name: 🐎SG AMP
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - 🐎sg amp
+
+
+proxy-providers:
+# ### Trojan Community ###
+  🐎romania: 
+     type: http 
+     path: ./🐎romania.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/romania.yaml"
+     interval: 1200
+  🐎netherland: 
+     type: http 
+     path: ./🐎netherland.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/netherland.yaml"
+     interval: 1200
+  🐎francis: 
+     type: http 
+     path: ./🐎francis.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/francis.yaml"
+     interval: 1200
+  🐎germany: 
+     type: http 
+     path: ./🐎germany.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/germany.yaml"
+     interval: 1200
+  🐎thailand: 
+     type: http 
+     path: ./🐎thailand.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/thailand.yaml"
+     interval: 1200
+  🐎sg he mux: 
+     type: http 
+     path: ./🐎sg he mux.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/sg%20he%20mux.yaml"
+     interval: 1200
+  🐎canada: 
+     type: http 
+     path: ./🐎canada.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/canada.yaml"
+     interval: 1200
+  🐎sg melbi: 
+     type: http 
+     path: ./🐎sg melbi.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/sg%20melbi.yaml"
+     interval: 1200
+  🐎sg he 2: 
+     type: http 
+     path: ./🐎sg he 2.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/sg%20he%202.yaml"
+     interval: 1200
+  🐎sg he 3: 
+     type: http 
+     path: ./🐎sg he 3.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/sg%20he%203.yaml"
+     interval: 1200
+  🐎us: 
+     type: http 
+     path: ./🐎us.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/us.yaml"
+     interval: 1200
+  🐎sg he 1: 
+     type: http 
+     path: ./🐎sg he 1.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/sg%20he%201.yaml"
+     interval: 1200
+  🐎id herza: 
+     type: http 
+     path: ./🐎id herza.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/id%20herza.yaml"
+     interval: 1200
+  🐎sg amp: 
+     type: http 
+     path: ./🐎sg amp.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/sg%20amp.yaml"
+     interval: 1200
+
+
+
+# ### Server Community ###
+  Server1:
+    type: http
+    path: ./server1.yaml
+    health-check:
+    enable: true
+    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/server1.yaml"
+    interval: 1200
+  Server2:
+    type: http
+    path: ./server2.yaml
+    health-check:
+    enable: true
+    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/server2.yaml"
+    interval: 1200
+  Server3:
+    type: http
+    path: ./server3.yaml
+    health-check:
+    enable: true
+    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/server3.yaml"
+    interval: 1200
+  Server4:
+    type: http
+    path: ./server4.yaml
+    health-check:
+    enable: true
+    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/server4.yaml"
+    interval: 1200
+
+
+
+
+redir-port: 7892
+port: 7890
+socks-port: 7891
+mixed-port: 7893
+mode: rule
+log-level: info
+allow-lan: true
+external-controller: 0.0.0.0:3000
+secret: '123456'
+bind-address: "*"
+external-ui: "./"
+dns:
+  enable: true
+  ipv6: true
+  enhanced-mode: fake-ip
+  listen: 0.0.0.0:7874
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+  - "*.lan"
+  - "*.localdomain"
+  - "*.example"
+  - "*.invalid"
+  - "*.localhost"
+  - "*.test"
+  - "*.local"
+  - "*.home.arpa"
+  - time.*.com
+  - time.*.gov
+  - time.*.edu.cn
+  - time.*.apple.com
+  - time1.*.com
+  - time2.*.com
+  - time3.*.com
+  - time4.*.com
+  - time5.*.com
+  - time6.*.com
+  - time7.*.com
+  - ntp.*.com
+  - ntp1.*.com
+  - ntp2.*.com
+  - ntp3.*.com
+  - ntp4.*.com
+  - ntp5.*.com
+  - ntp6.*.com
+  - ntp7.*.com
+  - "*.time.edu.cn"
+  - "*.ntp.org.cn"
+  - "+.pool.ntp.org"
+  - time1.cloud.tencent.com
+  - music.163.com
+  - "*.music.163.com"
+  - "*.126.net"
+  - musicapi.taihe.com
+  - music.taihe.com
+  - songsearch.kugou.com
+  - trackercdn.kugou.com
+  - "*.kuwo.cn"
+  - api-jooxtt.sanook.com
+  - api.joox.com
+  - joox.com
+  - y.qq.com
+  - "*.y.qq.com"
+  - streamoc.music.tc.qq.com
+  - mobileoc.music.tc.qq.com
+  - isure.stream.qqmusic.qq.com
+  - dl.stream.qqmusic.qq.com
+  - aqqmusic.tc.qq.com
+  - amobile.music.tc.qq.com
+  - "*.xiami.com"
+  - "*.music.migu.cn"
+  - music.migu.cn
+  - "+.msftconnecttest.com"
+  - "+.msftncsi.com"
+  - msftconnecttest.com
+  - msftncsi.com
+  - localhost.ptlogin2.qq.com
+  - localhost.sec.qq.com
+  - "+.srv.nintendo.net"
+  - "+.stun.playstation.net"
+  - xbox.*.microsoft.com
+  - xnotify.xboxlive.com
+  - "+.battlenet.com.cn"
+  - "+.wotgame.cn"
+  - "+.wggames.cn"
+  - "+.wowsgame.cn"
+  - "+.wargaming.net"
+  - proxy.golang.org
+  - stun.*.*
+  - stun.*.*.*
+  - "+.stun.*.*"
+  - "+.stun.*.*.*"
+  - "+.stun.*.*.*.*"
+  - heartbeat.belkin.com
+  - "*.linksys.com"
+  - "*.linksyssmartwifi.com"
+  - "*.router.asus.com"
+  - mesu.apple.com
+  - swscan.apple.com
+  - swquery.apple.com
+  - swdownload.apple.com
+  - swcdn.apple.com
+  - swdist.apple.com
+  - lens.l.google.com
+  - stun.l.google.com
+  - "+.nflxvideo.net"
+  - "*.square-enix.com"
+  - "*.finalfantasyxiv.com"
+  - "*.ffxiv.com"
+  - "*.mcdn.bilivideo.cn"
+  - "+.media.dssott.com"
+  default-nameserver:
+  - 8.8.8.8 #google
+  - 8.8.4.4 #google
+  - 1.1.1.1 #cloudflare
+  - 1.0.0.1 #cloudflare
+  - 9.9.9.9 #quaddns
+  - 9.9.9.11 #quaddns
+  - 192.168.170.28 #Tsel
+  - 192.168.178.28 #Tsel
+  - 192.168.130.28 #Tsel
+  - 112.215.220.254 #Axis
+  - 112.215.219.254 #Axis
+  - 140.213.82.253 #Axis
+  - 140.213.82.254 #Axis
+  - 112.215.203.248 #Axis
+  - 112.215.203.254 #Axis
+  - 112.215.37.182 #XL
+  - 112.215.37.183 #XL
+  url-test-filter:
+    geoip: true
+    geoip-code: ID
+    ipcidr:
+    - 0.0.0.0/8
+    - 10.0.0.0/8
+    - 100.64.0.0/10
+    - 127.0.0.0/8
+    - 169.254.0.0/16
+    - 172.16.0.0/12
+    - 192.0.0.0/24
+    - 192.0.2.0/24
+    - 192.88.99.0/24
+    - 192.168.0.0/16
+    - 198.18.0.0/15
+    - 198.51.100.0/24
+    - 203.0.113.0/24
+    - 224.0.0.0/4
+    - 240.0.0.0/4
+    - 255.255.255.255/32
+    domain:
+    - "+.google.com"
+    - "+.facebook.com"
+    - "+.youtube.com"
+    - "+.githubusercontent.com"
+    - "+.googlevideo.com"
+  nameserver:
+  - 8.8.8.8 #google
+  - 8.8.4.4 #google
+  - 1.1.1.1 #cloudflare
+  - 1.0.0.1 #cloudflare
+  - 9.9.9.9 #quaddns
+  - 9.9.9.11 #quaddns
+  - 192.168.170.28 #Tsel
+  - 192.168.178.28 #Tsel
+  - 192.168.130.28 #Tsel
+  - 112.215.220.254 #Axis
+  - 112.215.219.254 #Axis
+  - 140.213.82.253 #Axis
+  - 140.213.82.254 #Axis
+  - 112.215.203.248 #Axis
+  - 112.215.203.254 #Axis
+  - 112.215.37.182 #XL
+  - 112.215.37.183 #XL
+  url-test:
+  - 8.8.8.8
+  - 1.1.1.1
+  - 9.9.9.9
+profile:
+  store-selected: true
+  store-fakeip: true
+  store-fake-ip: true
+
+rules:
+#- DOMAIN-SUFFIX,raw.githubusercontent.com,FB 🟡
+#- DOMAIN-SUFFIX,toppayofficial.vercel.app,FB 🟡
+- IP-CIDR,198.18.0.1/16,REJECT,no-resolve
+- PROCESS-NAME,v2ray,DIRECT
+- PROCESS-NAME,xray,DIRECT
+- PROCESS-NAME,naive,DIRECT
+- PROCESS-NAME,trojan,DIRECT
+- PROCESS-NAME,trojan-go,DIRECT
+- PROCESS-NAME,ss-local,DIRECT
+- PROCESS-NAME,privoxy,DIRECT
+- PROCESS-NAME,leaf,DIRECT
+- PROCESS-NAME,v2ray.exe,DIRECT
+- PROCESS-NAME,xray.exe,DIRECT
+- PROCESS-NAME,naive.exe,DIRECT
+- PROCESS-NAME,trojan.exe,DIRECT
+- PROCESS-NAME,trojan-go.exe,DIRECT
+- PROCESS-NAME,ss-local.exe,DIRECT
+- PROCESS-NAME,privoxy.exe,DIRECT
+- DST-PORT,22,DIRECT,no-resolve
+- RULE-SET,xdomain,Privasi🔒
+- RULE-SET,rule_porn,Privasi🔒
+- RULE-SET,adblock,ADS💰
+- RULE-SET,rule_reject,ADS💰
+- RULE-SET,rule_privacy,Privasi🔒
+- DST-PORT,21,🌍Online
+- DST-PORT,23,🌍Online
+- DST-PORT,25,🌍Online
+- DST-PORT,80,🌍Online
+- DST-PORT,81,🌍Online
+- DST-PORT,143,🌍Online
+- DST-PORT,443,🌍Online 
+- DST-PORT,465,🌍Online
+- DST-PORT,587,🌍Online
+- DST-PORT,993,🌍Online
+- DST-PORT,995,🌍Online
+- DST-PORT,8000,🌍Online
+- DST-PORT,8008,🌍Online
+- DST-PORT,8080,🌍Online
+- DST-PORT,8081,🌍Online
+- DST-PORT,8090,🌍Online
+- DST-PORT,8443,🌍Online
+- DST-PORT,8888,🌍Online
+- MATCH,🌍Online
+
+tun:
+  enable: true
+  stack: system
+  dns-hijack:
+  - tcp://8.8.8.8:53
+  - tcp://8.8.4.4:53
+tproxy-port: 7895
+
+rule-providers:
+
+  adblock:
+    type: http
+    behavior: classical
+    path: "./adblock.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/ruleset/adblock.yaml
+    interval: 86400
+
+  rule_reject:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/ruleset/rule_reject.yaml
+    path: "./rule_reject.yaml"
+    interval: 86400
+
+  xdomain:
+    type: http
+    behavior: domain
+    path: "./xdomain.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/ruleset/xdomain.yaml
+    interval: 86400
+
+  rule_privacy:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/ruleset/rule_privacy.yaml
+    path: "./rule_privacy.yaml"
+    interval: 86400
+
+  rule_porn:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/ruleset/rule_porn.yaml
+    path: "./rule_porn.yaml"
+    interval: 86400
+
+ipv6: true
