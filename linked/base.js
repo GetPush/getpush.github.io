@@ -167,8 +167,9 @@ const headerHTML = `
         <div id="jam-sambutan" style="display: inline;"></div>   
        </span> selalu diberikan kesehatan, keselamatan, dan kebahagiaan dalam hidupnya. </div>   
 <hr>
-<HR>
- </div> 
+<hr>
+ </div>
+<br>
 <hr>
 <hr>
  <br> 
