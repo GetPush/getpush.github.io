@@ -6,12 +6,12 @@ proxy-groups:
       - LB 🔴
       - FB 🟡
       - BP 🟢
-      - Server 💠
+      - 🦅Server
       - S1 💶
       - S2 💴
       - S3 💷
       - S4 💵
-      - Trojan 💠
+      - 
       - 🐎ROMANIA
       - 🐎NETHERLAND
       - 🐎FRANCIS
@@ -31,16 +31,16 @@ proxy-groups:
     type: select
     proxies:
       - 🌍Online
-      - Server 💠
-      - Trojan 💠
+      - 🦅Server
+      - 🐎Trojan
       - REJECT
   - name: Privasi🔒
     type: select
     proxies:
       - REJECT
       - 🌍Online
-      - Server 💠
-      - Trojan 💠
+      - 🦅Server
+      - 🐎Trojan
 
 
   - name: LB 🔴
@@ -49,8 +49,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     proxies:
-      - Server 💠
-      - Trojan 💠
+      - 🦅Server
+      - 🐎Trojan
 
   - name: FB 🟡
     type: fallback
@@ -58,8 +58,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     proxies:
-      - Server 💠
-      - Trojan 💠
+      - 🦅Server
+      - 🐎Trojan
 
   - name: BP 🟢
     type: url-test
@@ -67,10 +67,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     proxies:
-      - Server 💠
-      - Trojan 💠
+      - 🦅Server
+      - 🐎Trojan
 
-  - name: Server 💠
+  - name: 🦅Server
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
@@ -112,7 +112,7 @@ proxy-groups:
       - Server4
 
 
-  - name: Trojan 💠
+  - name: 🐎Trojan
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
@@ -238,98 +238,98 @@ proxy-providers:
 # ### Trojan Community ###
   romania: 
      type: http 
-     path: ./romania.yaml 
+     path: ./🐎romania.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/romania.yaml"
      interval: 1200
   netherland: 
      type: http 
-     path: ./netherland.yaml 
+     path: ./🐎netherland.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/netherland.yaml"
      interval: 1200
   francis: 
      type: http 
-     path: ./francis.yaml 
+     path: ./🐎francis.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/francis.yaml"
      interval: 1200
   germany: 
      type: http 
-     path: ./germany.yaml 
+     path: ./🐎germany.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/germany.yaml"
      interval: 1200
   thailand: 
      type: http 
-     path: ./thailand.yaml 
+     path: ./🐎thailand.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/thailand.yaml"
      interval: 1200
   sg he mux: 
      type: http 
-     path: ./sg he mux.yaml 
+     path: ./🐎sg he mux.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/sg%20he%20mux.yaml"
      interval: 1200
   canada: 
      type: http 
-     path: ./canada.yaml 
+     path: ./🐎canada.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/canada.yaml"
      interval: 1200
   sg melbi: 
      type: http 
-     path: ./sg melbi.yaml 
+     path: ./🐎sg melbi.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/sg%20melbi.yaml"
      interval: 1200
   sg he 2: 
      type: http 
-     path: ./sg he 2.yaml 
+     path: ./🐎sg he 2.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/sg%20he%202.yaml"
      interval: 1200
   sg he 3: 
      type: http 
-     path: ./sg he 3.yaml 
+     path: ./🐎sg he 3.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/sg%20he%203.yaml"
      interval: 1200
   us: 
      type: http 
-     path: ./us.yaml 
+     path: ./🐎us.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/us.yaml"
      interval: 1200
   sg he 1: 
      type: http 
-     path: ./sg he 1.yaml 
+     path: ./🐎sg he 1.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/sg%20he%201.yaml"
      interval: 1200
   id herza: 
      type: http 
-     path: ./id herza.yaml 
+     path: ./🐎id herza.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/id%20herza.yaml"
      interval: 1200
   sg amp: 
      type: http 
-     path: ./sg amp.yaml 
+     path: ./🐎sg amp.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/sg%20amp.yaml"
