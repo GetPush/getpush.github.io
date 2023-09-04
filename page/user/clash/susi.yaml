@@ -3,28 +3,28 @@ proxy-groups:
   - name: 🌍Online
     type: select
     proxies:
-      - LB 🔴
-      - FB 🟡
-      - BP 🟢
+      - LB 🐙
+      - FB 🪼
+      - BP 🦑
       - 🦅Server
       - S1 💶
       - S2 💴
       - S3 💷
       - S4 💵
       - 🐎Trojan
+      - 🐎CANADA
       - 🐎ROMANIA
-      - 🐎NETHERLAND
       - 🐎FRANCIS
       - 🐎THAILAND
-      - 🐎SG HE MUX
-      - 🐎CANADA
-      - 🐎SG MELBI
-      - 🐎SG HE 2
-      - 🐎SG HE 3
+      - 🐎NETHERLAND
       - 🐎US
-      - 🐎SG HE 1
       - 🐎ID HERZA
       - 🐎SG AMP
+      - 🐎SG MELBI
+      - 🐎SG HE MUX
+      - 🐎SG HE 1
+      - 🐎SG HE 2
+      - 🐎SG HE 3
 
   - name: ADS💰
     type: select
@@ -42,7 +42,7 @@ proxy-groups:
       - 🐎Trojan
 
 
-  - name: LB 🔴
+  - name: LB 🐙
     type: load-balance
     disable-udp: false
     url: http://www.gstatic.com/generate_204
@@ -51,7 +51,7 @@ proxy-groups:
       - 🦅Server
       - 🐎Trojan
 
-  - name: FB 🟡
+  - name: FB 🪼
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
@@ -60,7 +60,7 @@ proxy-groups:
       - 🦅Server
       - 🐎Trojan
 
-  - name: BP 🟢
+  - name: BP 🦑
     type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
@@ -70,15 +70,15 @@ proxy-groups:
       - 🐎Trojan
 
   - name: 🦅Server
-    type: fallback
+    type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
-    proxies:
-      - S4 💵
-      - S3 💷
-      - S2 💴
-      - S1 💶
+    use:
+      - Server4
+      - Server3
+      - Server2
+      - Server1
 
 # seleksi server 
   - name: S1 💶 #1
@@ -112,24 +112,24 @@ proxy-groups:
 
 
   - name: 🐎Trojan
-    type: fallback
+    type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
-    proxies:
-      - 🐎ROMANIA
-      - 🐎NETHERLAND
-      - 🐎FRANCIS
-      - 🐎THAILAND
-      - 🐎SG HE MUX
-      - 🐎CANADA
-      - 🐎SG MELBI
-      - 🐎SG HE 2
-      - 🐎SG HE 3
-      - 🐎US
-      - 🐎SG HE 1
-      - 🐎ID HERZA
-      - 🐎SG AMP
+    use:
+      - 🐎canada
+      - 🐎romania
+      - 🐎francis
+      - 🐎thailand
+      - 🐎netherland
+      - 🐎us
+      - 🐎sg he 1
+      - 🐎sg he 2
+      - 🐎sg he 3
+      - 🐎id herza
+      - 🐎sg amp
+      - 🐎sg melbi
+      - 🐎sg he mux
 
 # seleksi Trojan
   - name: 🐎ROMANIA
@@ -536,8 +536,8 @@ profile:
   store-fake-ip: true
 
 rules:
-#- DOMAIN-SUFFIX,raw.githubusercontent.com,FB 🟡
-#- DOMAIN-SUFFIX,toppayofficial.vercel.app,FB 🟡
+#- DOMAIN-SUFFIX,raw.githubusercontent.com,FB 🪼
+#- DOMAIN-SUFFIX,toppayofficial.vercel.app,FB 🪼
 - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
 - PROCESS-NAME,v2ray,DIRECT
 - PROCESS-NAME,xray,DIRECT
