@@ -70,7 +70,7 @@ proxy-groups:
       - 🐎Trojan
 
   - name: 🦅Server
-    type: fallback
+    type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
