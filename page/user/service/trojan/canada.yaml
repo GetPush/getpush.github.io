@@ -17,7 +17,7 @@ proxies:
     server: www.sushiroll.co.id
     port: 443
     type: trojan
-    password: a961a960-4b3a-11ee-a3ce-1239d0255272
+    password: 92142d90-4b3b-11ee-8430-1239d0255272
     skip-cert-verify: true
     sni: ca1.test3.net
     network: ws
@@ -69,7 +69,7 @@ proxies:
     server: 104.17.58.20
     port: 443
     type: trojan
-    password: a961a960-4b3a-11ee-a3ce-1239d0255272
+    password: 92142d90-4b3b-11ee-8430-1239d0255272
     skip-cert-verify: true
     sni: ca1.test3.net
     network: ws
