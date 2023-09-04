@@ -12,6 +12,12 @@ proxy-groups:
       - S3 💷
       - S4 💵
       - 🐎Trojan
+      - 🐎CANADA
+      - 🐎ROMANIA
+      - 🐎FRANCIS
+      - 🐎THAILAND
+      - 🐎NETHERLAND
+      - 🐎US
       - 🐎ID HERZA
       - 🐎SG AMP
       - 🐎SG MELBI
@@ -19,12 +25,6 @@ proxy-groups:
       - 🐎SG HE 1
       - 🐎SG HE 2
       - 🐎SG HE 3
-      - 🐎CANADA
-      - 🐎ROMANIA
-      - 🐎FRANCIS
-      - 🐎THAILAND
-      - 🐎NETHERLAND
-      - 🐎US
 
   - name: ADS💰
     type: select
