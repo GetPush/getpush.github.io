@@ -3,8 +3,8 @@ proxy-groups:
   - name: 🌍Online
     type: select
     proxies:
-      - FB 🪼
       - LB 🐙
+      - FB 🪼
       - BP 🦑
       - 🦅Server
       - S1 💶
