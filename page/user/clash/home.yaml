@@ -48,8 +48,23 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     proxies:
-      - 🦅Server
-      - 🐎Trojan
+      - S4 💵
+      - S3 💷
+      - S2 💴
+      - S1 💶
+      - 🐎SG AMP
+      - 🐎SG MELBI
+      - 🐎SG HE MUX
+      - 🐎SG HE 1
+      - 🐎SG HE 2
+      - 🐎SG HE 3
+      - 🐎CANADA
+      - 🐎ROMANIA
+      - 🐎FRANCIS
+      - 🐎THAILAND
+      - 🐎NETHERLAND
+      - 🐎US
+      - 🐎ID HERZA
 
   - name: FB 🟡
     type: fallback
@@ -57,8 +72,23 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     proxies:
-      - 🦅Server
-      - 🐎Trojan
+      - S4 💵
+      - S3 💷
+      - S2 💴
+      - S1 💶
+      - 🐎SG AMP
+      - 🐎SG MELBI
+      - 🐎SG HE MUX
+      - 🐎SG HE 1
+      - 🐎SG HE 2
+      - 🐎SG HE 3
+      - 🐎CANADA
+      - 🐎ROMANIA
+      - 🐎FRANCIS
+      - 🐎THAILAND
+      - 🐎NETHERLAND
+      - 🐎US
+      - 🐎ID HERZA
 
   - name: BP 🟢
     type: url-test
@@ -66,8 +96,23 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     proxies:
-      - 🦅Server
-      - 🐎Trojan
+      - S4 💵
+      - S3 💷
+      - S2 💴
+      - S1 💶
+      - 🐎SG AMP
+      - 🐎SG MELBI
+      - 🐎SG HE MUX
+      - 🐎SG HE 1
+      - 🐎SG HE 2
+      - 🐎SG HE 3
+      - 🐎CANADA
+      - 🐎ROMANIA
+      - 🐎FRANCIS
+      - 🐎THAILAND
+      - 🐎NETHERLAND
+      - 🐎US
+      - 🐎ID HERZA
 
   - name: 🦅Server
     type: fallback
