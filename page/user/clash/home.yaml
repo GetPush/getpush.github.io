@@ -48,8 +48,23 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     proxies:
-      - 🦅Server
-      - 🐎Trojan
+      - S4 💵
+      - S3 💷
+      - S2 💴
+      - S1 💶
+      - 🐎CANADA
+      - 🐎ROMANIA
+      - 🐎FRANCIS
+      - 🐎THAILAND
+      - 🐎NETHERLAND
+      - 🐎US
+      - 🐎SG HE 1
+      - 🐎SG HE 2
+      - 🐎SG HE 3
+      - 🐎ID HERZA
+      - 🐎SG AMP
+      - 🐎SG MELBI
+      - 🐎SG HE MUX
 
   - name: FB 🪼
     type: fallback
@@ -57,8 +72,23 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     proxies:
-      - 🦅Server
-      - 🐎Trojan
+      - S4 💵
+      - S3 💷
+      - S2 💴
+      - S1 💶
+      - 🐎CANADA
+      - 🐎ROMANIA
+      - 🐎FRANCIS
+      - 🐎THAILAND
+      - 🐎NETHERLAND
+      - 🐎US
+      - 🐎SG HE 1
+      - 🐎SG HE 2
+      - 🐎SG HE 3
+      - 🐎ID HERZA
+      - 🐎SG AMP
+      - 🐎SG MELBI
+      - 🐎SG HE MUX
 
   - name: BP 🦑
     type: url-test
@@ -66,8 +96,23 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     proxies:
-      - 🦅Server
-      - 🐎Trojan
+      - S4 💵
+      - S3 💷
+      - S2 💴
+      - S1 💶
+      - 🐎CANADA
+      - 🐎ROMANIA
+      - 🐎FRANCIS
+      - 🐎THAILAND
+      - 🐎NETHERLAND
+      - 🐎US
+      - 🐎SG HE 1
+      - 🐎SG HE 2
+      - 🐎SG HE 3
+      - 🐎ID HERZA
+      - 🐎SG AMP
+      - 🐎SG MELBI
+      - 🐎SG HE MUX
 
   - name: 🦅Server
     type: url-test
@@ -560,6 +605,24 @@ rules:
 - RULE-SET,adblock,ADS💰
 - RULE-SET,rule_reject,ADS💰
 - RULE-SET,rule_privacy,Privasi🔒
+- DST-PORT,21,🌍Online
+- DST-PORT,23,🌍Online
+- DST-PORT,25,🌍Online
+- DST-PORT,80,🌍Online
+- DST-PORT,81,🌍Online
+- DST-PORT,143,🌍Online
+- DST-PORT,443,🌍Online 
+- DST-PORT,465,🌍Online
+- DST-PORT,587,🌍Online
+- DST-PORT,993,🌍Online
+- DST-PORT,995,🌍Online
+- DST-PORT,8000,🌍Online
+- DST-PORT,8008,🌍Online
+- DST-PORT,8080,🌍Online
+- DST-PORT,8081,🌍Online
+- DST-PORT,8090,🌍Online
+- DST-PORT,8443,🌍Online
+- DST-PORT,8888,🌍Online
 - MATCH,🌍Online
 
 tun:
