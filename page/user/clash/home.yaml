@@ -52,19 +52,7 @@ proxy-groups:
       - S3 💷
       - S2 💴
       - S1 💶
-      - 🐎CANADA
-      - 🐎ROMANIA
-      - 🐎FRANCIS
-      - 🐎THAILAND
-      - 🐎NETHERLAND
-      - 🐎US
-      - 🐎SG HE 1
-      - 🐎SG HE 2
-      - 🐎SG HE 3
-      - 🐎ID HERZA
-      - 🐎SG AMP
-      - 🐎SG MELBI
-      - 🐎SG HE MUX
+      - 🐎Trojan
 
   - name: FB 🪼
     type: fallback
@@ -76,19 +64,7 @@ proxy-groups:
       - S3 💷
       - S2 💴
       - S1 💶
-      - 🐎CANADA
-      - 🐎ROMANIA
-      - 🐎FRANCIS
-      - 🐎THAILAND
-      - 🐎NETHERLAND
-      - 🐎US
-      - 🐎SG HE 1
-      - 🐎SG HE 2
-      - 🐎SG HE 3
-      - 🐎ID HERZA
-      - 🐎SG AMP
-      - 🐎SG MELBI
-      - 🐎SG HE MUX
+      - 🐎Trojan
 
   - name: BP 🦑
     type: url-test
@@ -100,19 +76,7 @@ proxy-groups:
       - S3 💷
       - S2 💴
       - S1 💶
-      - 🐎CANADA
-      - 🐎ROMANIA
-      - 🐎FRANCIS
-      - 🐎THAILAND
-      - 🐎NETHERLAND
-      - 🐎US
-      - 🐎SG HE 1
-      - 🐎SG HE 2
-      - 🐎SG HE 3
-      - 🐎ID HERZA
-      - 🐎SG AMP
-      - 🐎SG MELBI
-      - 🐎SG HE MUX
+      - 🐎Trojan
 
   - name: 🦅Server
     type: fallback
@@ -157,7 +121,7 @@ proxy-groups:
 
 
   - name: 🐎Trojan
-    type: fallback
+    type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
