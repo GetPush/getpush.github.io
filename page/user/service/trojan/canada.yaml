@@ -79,10 +79,10 @@ proxies:
         Host: ca1.test3.net
     udp: true
   - name: Canada G
-    server: layanan.ruangguru.com
+    server: www.sushiroll.co.id
     port: 443
     type: trojan
-    password: a961a960-4b3a-11ee-a3ce-1239d0255272
+    password: 31cd3730-4b3f-11ee-969a-1239d0255272
     skip-cert-verify: true
     sni: ca1.test3.net
     network: ws
