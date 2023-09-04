@@ -12,19 +12,19 @@ proxy-groups:
       - S3 💷
       - S4 💵
       - 🐎Trojan
-      - 🐎ROMANIA
-      - 🐎NETHERLAND
-      - 🐎FRANCIS
-      - 🐎THAILAND
-      - 🐎SG HE MUX
-      - 🐎CANADA
-      - 🐎SG MELBI
-      - 🐎SG HE 2
-      - 🐎SG HE 3
-      - 🐎US
-      - 🐎SG HE 1
       - 🐎ID HERZA
       - 🐎SG AMP
+      - 🐎SG MELBI
+      - 🐎SG HE MUX
+      - 🐎SG HE 1
+      - 🐎SG HE 2
+      - 🐎SG HE 3
+      - 🐎CANADA
+      - 🐎ROMANIA
+      - 🐎FRANCIS
+      - 🐎THAILAND
+      - 🐎NETHERLAND
+      - 🐎US
 
   - name: ADS💰
     type: select
@@ -117,19 +117,19 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     proxies:
-      - 🐎ROMANIA
-      - 🐎NETHERLAND
-      - 🐎FRANCIS
-      - 🐎THAILAND
-      - 🐎SG HE MUX
-      - 🐎CANADA
-      - 🐎SG MELBI
-      - 🐎SG HE 2
-      - 🐎SG HE 3
-      - 🐎US
-      - 🐎SG HE 1
       - 🐎ID HERZA
       - 🐎SG AMP
+      - 🐎SG MELBI
+      - 🐎SG HE MUX
+      - 🐎SG HE 1
+      - 🐎SG HE 2
+      - 🐎SG HE 3
+      - 🐎CANADA
+      - 🐎ROMANIA
+      - 🐎FRANCIS
+      - 🐎THAILAND
+      - 🐎NETHERLAND
+      - 🐎US
 
 # seleksi Trojan
   - name: 🐎ROMANIA
