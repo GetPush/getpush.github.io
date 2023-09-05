@@ -84,12 +84,12 @@ proxy-groups:
       - Server3
       - Server2
       - Server1
-      - 🐎canada
-      - 🐎romania
-      - 🐎francis
-      - 🐎thailand
-      - 🐎netherland
-      - 🐎us
+      - 🐎CANADA
+      - 🐎ROMANIA
+      - 🐎FRANCIS
+      - 🐎THAILAND
+      - 🐎NETHERLAND
+      - 🐎US
 
   - name: 🦅Server
     type: fallback
