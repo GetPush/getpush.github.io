@@ -92,7 +92,7 @@ proxy-groups:
       - 🐎us
 
   - name: 🦅Server
-    type: url-test
+    type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '180'
@@ -134,7 +134,7 @@ proxy-groups:
 
 
   - name: 🐎Trojan
-    type: url-test
+    type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '280'
