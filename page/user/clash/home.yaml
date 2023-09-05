@@ -6,13 +6,13 @@ proxy-groups:
       - LB 🐉
       - FB 🦕
       - BP 🦖
-      - 🕊️Filter
-      - 🦅Server
+      - 🕊️Comotan
+      - 🦅Utama
+      - 🐎Trojan
       - S1 💶
       - S2 💴
       - S3 💷
       - S4 💵
-      - 🐎Trojan
       - 🐎CANADA
       - 🐎ROMANIA
       - 🐎FRANCIS
@@ -31,7 +31,8 @@ proxy-groups:
     type: select
     proxies:
       - 🌍Online
-      - 🦅Server
+      - 🕊️Comotan
+      - 🦅Utama
       - 🐎Trojan
       - REJECT
   - name: Privasi🔒
@@ -39,18 +40,18 @@ proxy-groups:
     proxies:
       - REJECT
       - 🌍Online
-      - 🦅Server
+      - 🦅Utama
       - 🐎Trojan
 
-
+# kompres
   - name: LB 🐉
     type: load-balance
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100'
     proxies:
-      - 🕊️Filter
-      - 🦅Server
+      - 🕊️Comotan
+      - 🦅Utama
       - 🐎Trojan
 
   - name: FB 🦕
@@ -59,8 +60,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '100'
     proxies:
-      - 🕊️Filter
-      - 🦅Server
+      - 🕊️Comotan
+      - 🦅Utama
       - 🐎Trojan
 
   - name: BP 🦖
@@ -69,12 +70,12 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '100'
     proxies:
-      - 🕊️Filter
-      - 🦅Server
+      - 🕊️Comotan
+      - 🦅Utama
       - 🐎Trojan
 
-
-  - name: 🕊️Filter
+#Comotan
+  - name: 🕊️Comotan
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
@@ -90,8 +91,7 @@ proxy-groups:
       - 🐎NETHERLAND
       - 🐎US
       - 🐎SG HE 1
-
-  - name: 🦅Server
+  - name: 🦅Utama
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
@@ -101,6 +101,25 @@ proxy-groups:
       - Server2
       - Server3
       - Server4
+  - name: 🐎Trojan
+    type: fallback
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100'
+    use:
+      - 🐎CANADA
+      - 🐎ROMANIA
+      - 🐎FRANCIS
+      - 🐎THAILAND
+      - 🐎NETHERLAND
+      - 🐎US
+      - 🐎ID HERZA
+      - 🐎SG AMP
+      - 🐎SG MELBI
+      - 🐎SG HE MUX
+      - 🐎SG HE 1
+      - 🐎SG HE 2
+      - 🐎SG HE 3
 
 # seleksi server 
   - name: S1 💶 #1
@@ -131,27 +150,6 @@ proxy-groups:
     interval: '100'
     use:
       - Server4
-
-
-  - name: 🐎Trojan
-    type: fallback
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '100'
-    use:
-      - 🐎CANADA
-      - 🐎ROMANIA
-      - 🐎FRANCIS
-      - 🐎THAILAND
-      - 🐎NETHERLAND
-      - 🐎US
-      - 🐎ID HERZA
-      - 🐎SG AMP
-      - 🐎SG MELBI
-      - 🐎SG HE MUX
-      - 🐎SG HE 1
-      - 🐎SG HE 2
-      - 🐎SG HE 3
 
 # seleksi Trojan
   - name: 🐎ROMANIA
@@ -393,7 +391,7 @@ dns:
   enhanced-mode: fake-ip
   listen: 0.0.0.0:7874
   fake-ip-range: 198.18.0.1/16
-  fake-ip-filter:
+  fake-ip-Comotan:
   - "*.lan"
   - "*.localdomain"
   - "*.example"
@@ -504,7 +502,7 @@ dns:
   - 112.215.203.254 #Axis
   - 112.215.37.182 #XL
   - 112.215.37.183 #XL
-  fallback-filter:
+  fallback-Comotan:
     geoip: true
     geoip-code: ID
     ipcidr:
@@ -558,8 +556,8 @@ profile:
   store-fake-ip: true
 
 rules:
-- DOMAIN-SUFFIX,raw.githubusercontent.com,🕊️Filter
-- DOMAIN-SUFFIX,toppayofficial.vercel.app,🕊️Filter
+- DOMAIN-SUFFIX,raw.githubusercontent.com,🕊️Comotan
+- DOMAIN-SUFFIX,toppayofficial.vercel.app,🕊️Comotan
 - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
 - PROCESS-NAME,v2ray,DIRECT
 - PROCESS-NAME,xray,DIRECT
