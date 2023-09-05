@@ -47,32 +47,38 @@ proxy-groups:
     type: load-balance
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
+    interval: '100'
     proxies:
       - 🕊️Filter
+      - 🦅Server
+      - 🐎Trojan
 
   - name: FB 🦕
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
+    interval: '120'
     proxies:
       - 🕊️Filter
+      - 🦅Server
+      - 🐎Trojan
 
   - name: BP 🦖
     type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
+    interval: '140'
     proxies:
       - 🕊️Filter
+      - 🦅Server
+      - 🐎Trojan
 
 
   - name: 🕊️Filter
-    type: url-test
+    type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
+    interval: '160'
     use:
       - Server4
       - Server3
@@ -84,19 +90,12 @@ proxy-groups:
       - 🐎thailand
       - 🐎netherland
       - 🐎us
-      - 🐎sg he 1
-      - 🐎sg he 2
-      - 🐎sg he 3
-      - 🐎id herza
-      - 🐎sg amp
-      - 🐎sg melbi
-      - 🐎sg he mux
 
   - name: 🦅Server
-    type: url-test
+    type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
+    interval: '180'
     use:
       - Server4
       - Server3
@@ -105,40 +104,40 @@ proxy-groups:
 
 # seleksi server 
   - name: S1 💶 #1
-    type: url-test
+    type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
+    interval: '200'
     use:
       - Server1
   - name: S2 💴 #2
-    type: url-test
+    type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
+    interval: '220'
     use:
       - Server2
   - name: S3 💷 #3
-    type: url-test
+    type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
+    interval: '240'
     use:
       - Server3
   - name: S4 💵 #4
-    type: url-test
+    type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
+    interval: '260'
     use:
       - Server4
 
 
   - name: 🐎Trojan
-    type: url-test
+    type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
+    interval: '280'
     use:
       - 🐎canada
       - 🐎romania
@@ -146,104 +145,97 @@ proxy-groups:
       - 🐎thailand
       - 🐎netherland
       - 🐎us
-      - 🐎sg he 1
-      - 🐎sg he 2
-      - 🐎sg he 3
-      - 🐎id herza
-      - 🐎sg amp
-      - 🐎sg melbi
-      - 🐎sg he mux
 
 # seleksi Trojan
   - name: 🐎ROMANIA
-    type: url-test
+    type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
+    interval: '300'
     use:
       - 🐎romania
   - name: 🐎NETHERLAND
-    type: url-test
+    type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
+    interval: '320'
     use:
       - 🐎netherland
   - name: 🐎FRANCIS
-    type: url-test
+    type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
+    interval: '340'
     use:
       - 🐎francis
   - name: 🐎THAILAND
-    type: url-test
+    type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
+    interval: '360'
     use:
       - 🐎thailand
   - name: 🐎SG HE MUX
-    type: url-test
+    type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
+    interval: '380'
     use:
       - 🐎sg he mux
   - name: 🐎CANADA
-    type: url-test
+    type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
+    interval: '400'
     use:
       - 🐎canada
   - name: 🐎SG MELBI
-    type: url-test
+    type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
+    interval: '420'
     use:
       - 🐎sg melbi
   - name: 🐎SG HE 2
-    type: url-test
+    type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
+    interval: '460'
     use:
       - 🐎sg he 2
   - name: 🐎SG HE 3
-    type: url-test
+    type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
+    interval: '480'
     use:
       - 🐎sg he 3
   - name: 🐎US
-    type: url-test
+    type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
+    interval: '500'
     use:
       - 🐎us
   - name: 🐎SG HE 1
-    type: url-test
+    type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
+    interval: '520'
     use:
       - 🐎sg he 1
   - name: 🐎ID HERZA
-    type: url-test
+    type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
+    interval: '560'
     use:
       - 🐎id herza
   - name: 🐎SG AMP
-    type: url-test
+    type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
+    interval: '580'
     use:
       - 🐎sg amp
 
@@ -505,7 +497,7 @@ dns:
   - 112.215.203.254 #Axis
   - 112.215.37.182 #XL
   - 112.215.37.183 #XL
-  url-test-filter:
+  fallback-filter:
     geoip: true
     geoip-code: ID
     ipcidr:
@@ -549,7 +541,7 @@ dns:
   - 112.215.203.254 #Axis
   - 112.215.37.182 #XL
   - 112.215.37.183 #XL
-  url-test:
+  fallback:
   - 8.8.8.8
   - 1.1.1.1
   - 9.9.9.9
@@ -559,8 +551,8 @@ profile:
   store-fake-ip: true
 
 rules:
-#- DOMAIN-SUFFIX,raw.githubusercontent.com,FB 🦕
-#- DOMAIN-SUFFIX,toppayofficial.vercel.app,FB 🦕
+- DOMAIN-SUFFIX,raw.githubusercontent.com,🕊️Filter
+- DOMAIN-SUFFIX,toppayofficial.vercel.app,🕊️Filter
 - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
 - PROCESS-NAME,v2ray,DIRECT
 - PROCESS-NAME,xray,DIRECT
