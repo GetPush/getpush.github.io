@@ -74,7 +74,7 @@ proxy-groups:
       - 🦅Utama
       - 🐎Trojan
 
-#Comotan
+#Filter
   - name: 🕊️Comotan
     type: fallback
     disable-udp: false
