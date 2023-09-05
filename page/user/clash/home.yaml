@@ -57,7 +57,7 @@ proxy-groups:
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '120'
+    interval: '100'
     proxies:
       - 🕊️Filter
       - 🦅Server
@@ -67,7 +67,7 @@ proxy-groups:
     type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '140'
+    interval: '100'
     proxies:
       - 🕊️Filter
       - 🦅Server
@@ -78,7 +78,7 @@ proxy-groups:
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '160'
+    interval: '100'
     use:
       - Server4
       - Server3
@@ -95,7 +95,7 @@ proxy-groups:
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '180'
+    interval: '100'
     use:
       - Server1
       - Server2
@@ -107,28 +107,28 @@ proxy-groups:
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '200'
+    interval: '100'
     use:
       - Server1
   - name: S2 💴 #2
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '220'
+    interval: '100'
     use:
       - Server2
   - name: S3 💷 #3
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '240'
+    interval: '100'
     use:
       - Server3
   - name: S4 💵 #4
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '260'
+    interval: '100'
     use:
       - Server4
 
@@ -137,7 +137,7 @@ proxy-groups:
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '280'
+    interval: '100'
     use:
       - 🐎CANADA
       - 🐎ROMANIA
@@ -158,91 +158,91 @@ proxy-groups:
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '300'
+    interval: '100'
     use:
       - 🐎ROMANIA
   - name: 🐎NETHERLAND
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '320'
+    interval: '100'
     use:
       - 🐎NETHERLAND
   - name: 🐎FRANCIS
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '340'
+    interval: '100'
     use:
       - 🐎FRANCIS
   - name: 🐎THAILAND
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '360'
+    interval: '100'
     use:
       - 🐎THAILAND
   - name: 🐎SG HE MUX
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '380'
+    interval: '100'
     use:
       - 🐎SG HE MUX
   - name: 🐎CANADA
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '400'
+    interval: '100'
     use:
       - 🐎CANADA
   - name: 🐎SG MELBI
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '420'
+    interval: '100'
     use:
       - 🐎SG MELBI
   - name: 🐎SG HE 2
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '460'
+    interval: '100'
     use:
       - 🐎SG HE 2
   - name: 🐎SG HE 3
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '480'
+    interval: '100'
     use:
       - 🐎SG HE 3
   - name: 🐎US
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '500'
+    interval: '100'
     use:
       - 🐎US
   - name: 🐎SG HE 1
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '520'
+    interval: '100'
     use:
       - 🐎SG HE 1
   - name: 🐎ID HERZA
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '560'
+    interval: '100'
     use:
       - 🐎ID HERZA
   - name: 🐎SG AMP
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '580'
+    interval: '100'
     use:
       - 🐎SG AMP
 
