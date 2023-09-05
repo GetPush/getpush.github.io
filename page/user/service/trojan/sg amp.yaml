@@ -1,4 +1,4 @@
- pw *f1cbde80-4c10-11ee-a3ca-1239d0255272
+pw: *f1cbde80-4c10-11ee-a3ca-1239d0255272
 proxies:
 ########## SG AMP ######
   - name: SG AMP A
