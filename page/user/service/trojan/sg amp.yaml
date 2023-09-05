@@ -1,10 +1,11 @@
+ *pw: f1cbde80-4c10-11ee-a3ca-1239d0255272
 proxies:
 ########## SG AMP ######
   - name: SG AMP A
     server: 104.19.142.89
     port: 443
     type: trojan
-    password: acdce640-3168-11ee-a128-1239d0255272
+    password: pw
     skip-cert-verify: true
     sni: sg-2.test3.net
     network: ws
@@ -17,7 +18,7 @@ proxies:
     server: www.sushiroll.co.id
     port: 443
     type: trojan
-    password: acdce640-3168-11ee-a128-1239d0255272
+    password: pw
     skip-cert-verify: true
     sni: sg-2.test3.net
     network: ws
@@ -30,7 +31,7 @@ proxies:
     server: quiz.vidio.com
     port: 443
     type: trojan
-    password: acdce640-3168-11ee-a128-1239d0255272
+    password: pw
     skip-cert-verify: true
     sni: sg-2.test3.net
     network: ws
@@ -43,7 +44,7 @@ proxies:
     server: zendesk1.shopee.com
     port: 443
     type: trojan
-    password: acdce640-3168-11ee-a128-1239d0255272
+    password: pw
     skip-cert-verify: true
     sni: sg-2.test3.net
     network: ws
@@ -56,7 +57,7 @@ proxies:
     server: 104.16.108.96
     port: 443
     type: trojan
-    password: acdce640-3168-11ee-a128-1239d0255272
+    password: pw
     skip-cert-verify: true
     sni: sg-2.test3.net
     network: ws
@@ -69,7 +70,7 @@ proxies:
     server: 104.17.58.20
     port: 443
     type: trojan
-    password: acdce640-3168-11ee-a128-1239d0255272
+    password: pw
     skip-cert-verify: true
     sni: sg-2.test3.net
     network: ws
@@ -82,7 +83,7 @@ proxies:
     server: layanan.ruangguru.com
     port: 443
     type: trojan
-    password: acdce640-3168-11ee-a128-1239d0255272
+    password: pw
     skip-cert-verify: true
     sni: sg-2.test3.net
     network: ws
