@@ -99,7 +99,7 @@ proxy-groups:
       - 🐎sg he mux
 
   - name: 🦅Server
-    type: url-test
+    type: load-balance
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '50'
@@ -141,7 +141,7 @@ proxy-groups:
 
 
   - name: 🐎Trojan
-    type: url-test
+    type: load-balance
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '50'
