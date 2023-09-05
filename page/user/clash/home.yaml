@@ -90,13 +90,6 @@ proxy-groups:
       - 🐎thailand
       - 🐎netherland
       - 🐎us
-      - 🐎sg he 1
-      - 🐎sg he 2
-      - 🐎sg he 3
-      - 🐎id herza
-      - 🐎sg amp
-      - 🐎sg melbi
-      - 🐎sg he mux
 
   - name: 🦅Server
     type: load-balance
@@ -152,13 +145,6 @@ proxy-groups:
       - 🐎thailand
       - 🐎netherland
       - 🐎us
-      - 🐎sg he 1
-      - 🐎sg he 2
-      - 🐎sg he 3
-      - 🐎id herza
-      - 🐎sg amp
-      - 🐎sg melbi
-      - 🐎sg he mux
 
 # seleksi Trojan
   - name: 🐎ROMANIA
@@ -565,8 +551,8 @@ profile:
   store-fake-ip: true
 
 rules:
-#- DOMAIN-SUFFIX,raw.githubusercontent.com,FB 🦕
-#- DOMAIN-SUFFIX,toppayofficial.vercel.app,FB 🦕
+- DOMAIN-SUFFIX,raw.githubusercontent.com,FB 🦕
+- DOMAIN-SUFFIX,toppayofficial.vercel.app,FB 🦕
 - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
 - PROCESS-NAME,v2ray,DIRECT
 - PROCESS-NAME,xray,DIRECT
