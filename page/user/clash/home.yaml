@@ -87,9 +87,9 @@ proxy-groups:
       - 🐎CANADA
       - 🐎ROMANIA
       - 🐎FRANCIS
-      - 🐎THAILAND
       - 🐎NETHERLAND
       - 🐎US
+      - 🐎SG HE 1
 
   - name: 🦅Server
     type: fallback
