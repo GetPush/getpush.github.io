@@ -6,6 +6,7 @@ proxy-groups:
       - LB 🐉
       - FB 🦕
       - BP 🦖
+      - 🕊️Filter
       - 🦅Server
       - S1 💶
       - S2 💴
@@ -46,7 +47,7 @@ proxy-groups:
     type: load-balance
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '600' #600 or #300
+    interval: '50'
     proxies:
       - 🕊️Filter
       - 🦅Server
@@ -56,7 +57,7 @@ proxy-groups:
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '600' #600 or #300
+    interval: '50'
     proxies:
       - 🕊️Filter
       - 🦅Server
@@ -66,7 +67,7 @@ proxy-groups:
     type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '600' #600 or #300
+    interval: '50'
     proxies:
       - 🕊️Filter
       - 🦅Server
@@ -77,7 +78,7 @@ proxy-groups:
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '300' #600 or #300
+    interval: '50'
     use:
       - Server4
       - Server3
@@ -98,10 +99,10 @@ proxy-groups:
       - 🐎sg he mux
 
   - name: 🦅Server
-    type: url-test
+    type: load-balance
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '300' #600 or #300
+    interval: '50'
     use:
       - Server4
       - Server3
@@ -113,37 +114,37 @@ proxy-groups:
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
+    interval: '50'
     use:
       - Server1
   - name: S2 💴 #2
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
+    interval: '50'
     use:
       - Server2
   - name: S3 💷 #3
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
+    interval: '50'
     use:
       - Server3
   - name: S4 💵 #4
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
+    interval: '50'
     use:
       - Server4
 
 
   - name: 🐎Trojan
-    type: url-test
+    type: load-balance
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '300' #600 or #300
+    interval: '50'
     use:
       - 🐎canada
       - 🐎romania
@@ -164,91 +165,91 @@ proxy-groups:
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
+    interval: '50'
     use:
       - 🐎romania
   - name: 🐎NETHERLAND
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
+    interval: '50'
     use:
       - 🐎netherland
   - name: 🐎FRANCIS
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
+    interval: '50'
     use:
       - 🐎francis
   - name: 🐎THAILAND
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
+    interval: '50'
     use:
       - 🐎thailand
   - name: 🐎SG HE MUX
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
+    interval: '50'
     use:
       - 🐎sg he mux
   - name: 🐎CANADA
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
+    interval: '50'
     use:
       - 🐎canada
   - name: 🐎SG MELBI
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
+    interval: '50'
     use:
       - 🐎sg melbi
   - name: 🐎SG HE 2
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
+    interval: '50'
     use:
       - 🐎sg he 2
   - name: 🐎SG HE 3
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
+    interval: '50'
     use:
       - 🐎sg he 3
   - name: 🐎US
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
+    interval: '50'
     use:
       - 🐎us
   - name: 🐎SG HE 1
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
+    interval: '50'
     use:
       - 🐎sg he 1
   - name: 🐎ID HERZA
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
+    interval: '50'
     use:
       - 🐎id herza
   - name: 🐎SG AMP
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100' #600 or #300
+    interval: '50'
     use:
       - 🐎sg amp
 
@@ -564,8 +565,8 @@ profile:
   store-fake-ip: true
 
 rules:
-- DOMAIN-SUFFIX,raw.githubusercontent.com,🕊️Filter
-- DOMAIN-SUFFIX,toppayofficial.vercel.app,🕊️Filter
+#- DOMAIN-SUFFIX,raw.githubusercontent.com,FB 🦕
+#- DOMAIN-SUFFIX,toppayofficial.vercel.app,FB 🦕
 - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
 - PROCESS-NAME,v2ray,DIRECT
 - PROCESS-NAME,xray,DIRECT
