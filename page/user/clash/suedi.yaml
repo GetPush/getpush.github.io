@@ -3,9 +3,10 @@ proxy-groups:
   - name: 🌍Online
     type: select
     proxies:
-      - LB 🐙
-      - FB 🪼
-      - BP 🦑
+      - LB 🐉
+      - FB 🦕
+      - BP 🦖
+      - 🕊️Filter
       - 🦅Server
       - S1 💶
       - S2 💴
@@ -42,32 +43,54 @@ proxy-groups:
       - 🐎Trojan
 
 
-  - name: LB 🐙
+  - name: LB 🐉
     type: load-balance
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     proxies:
-      - 🦅Server
-      - 🐎Trojan
+      - 🕊️Filter
 
-  - name: FB 🪼
+  - name: FB 🦕
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     proxies:
-      - 🦅Server
-      - 🐎Trojan
+      - 🕊️Filter
 
-  - name: BP 🦑
+  - name: BP 🦖
     type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100' #600 or #300
     proxies:
-      - 🦅Server
-      - 🐎Trojan
+      - 🕊️Filter
+
+
+  - name: 🕊️Filter
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100' #600 or #300
+    use:
+      - Server4
+      - Server3
+      - Server2
+      - Server1
+      - 🐎canada
+      - 🐎romania
+      - 🐎francis
+      - 🐎thailand
+      - 🐎netherland
+      - 🐎us
+      - 🐎sg he 1
+      - 🐎sg he 2
+      - 🐎sg he 3
+      - 🐎id herza
+      - 🐎sg amp
+      - 🐎sg melbi
+      - 🐎sg he mux
 
   - name: 🦅Server
     type: url-test
@@ -536,8 +559,8 @@ profile:
   store-fake-ip: true
 
 rules:
-#- DOMAIN-SUFFIX,raw.githubusercontent.com,FB 🪼
-#- DOMAIN-SUFFIX,toppayofficial.vercel.app,FB 🪼
+#- DOMAIN-SUFFIX,raw.githubusercontent.com,FB 🦕
+#- DOMAIN-SUFFIX,toppayofficial.vercel.app,FB 🦕
 - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
 - PROCESS-NAME,v2ray,DIRECT
 - PROCESS-NAME,xray,DIRECT
