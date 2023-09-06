@@ -6,6 +6,8 @@ proxy-groups:
       - LB 🐉
       - FB 🦕
       - BP 🦖
+      - 🕊️Utama
+      - 🐘Cadangan
       - S1 💶
       - S2 💴
       - S3 💷
@@ -42,10 +44,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '100'
     proxies:
-      - S1 💶
-      - S2 💴
-      - S3 💷
-      - S4 💵
+      - 🕊️Utama
+      - 🐘Cadangan
 
   - name: FB 🦕
     type: fallback
@@ -82,6 +82,37 @@ proxy-groups:
       - S3 💷
       - S4 💵
 
+
+  - name: 🕊️Utama
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100'
+    proxies:
+      - S1 💶
+      - S2 💴
+      - S3 💷
+      - S4 💵
+
+  - name: 🐘Cadangan
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100'
+    proxies:
+      - 🐎CANADA
+      - 🐎ROMANIA
+      - 🐎FRANCIS
+      - 🐎NETHERLAND
+      - 🐎US
+      - 🐎ID HERZA
+      - 🐎SG AMP
+      - 🐎SG MELBI
+      - 🐎SG HE MUX
+      - 🐎SG HE 1
+      - 🐎SG HE 2
+      - 🐎SG HE 3
+      
 # seleksi server 
   - name: S1 💶 #1
     type: fallback
