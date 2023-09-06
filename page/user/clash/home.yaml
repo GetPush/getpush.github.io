@@ -42,30 +42,13 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '100'
     proxies:
-      - 🕊️Utama
-      - 🐎Trojan
+      - S1 💶
+      - S2 💴
+      - S3 💷
+      - S4 💵
 
   - name: FB 🦕
     type: fallback
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '100'
-    proxies:
-      - 🕊️Utama
-      - 🐎Trojan
-
-  - name: BP 🦖
-    type: url-test
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '100'
-    proxies:
-      - 🕊️Utama
-      - 🐎Trojan
-
-
-  - name: 🕊️Utama
-    type: load-balance
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100'
@@ -74,18 +57,30 @@ proxy-groups:
       - S2 💴
       - S3 💷
       - S4 💵
-  - name: 🐎Trojan
-    type: load-balance
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '100'
-    proxies:
       - 🐎CANADA
       - 🐎ROMANIA
       - 🐎FRANCIS
       - 🐎THAILAND
       - 🐎NETHERLAND
       - 🐎US
+      - 🐎ID HERZA
+      - 🐎SG AMP
+      - 🐎SG MELBI
+      - 🐎SG HE MUX
+      - 🐎SG HE 1
+      - 🐎SG HE 2
+      - 🐎SG HE 3
+
+  - name: BP 🦖
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100'
+    proxies:
+      - S1 💶
+      - S2 💴
+      - S3 💷
+      - S4 💵
 
 # seleksi server 
   - name: S1 💶 #1
@@ -522,8 +517,8 @@ profile:
   store-fake-ip: true
 
 rules:
-#- DOMAIN-SUFFIX,raw.githubusercontent.com,🕊️Comotan
-#- DOMAIN-SUFFIX,toppayofficial.vercel.app,🕊️Comotan
+- DOMAIN-SUFFIX,raw.githubusercontent.com,FB 🦕
+- DOMAIN-SUFFIX,toppayofficial.vercel.app,FB 🦕
 - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
 - PROCESS-NAME,v2ray,DIRECT
 - PROCESS-NAME,xray,DIRECT
