@@ -51,7 +51,7 @@ proxy-groups:
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100'
+    interval: '150'
     proxies:
       - S1 💶
       - S2 💴
@@ -75,7 +75,7 @@ proxy-groups:
     type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100'
+    interval: '150'
     proxies:
       - S1 💶
       - S2 💴
@@ -87,7 +87,7 @@ proxy-groups:
     type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100'
+    interval: '150'
     proxies:
       - S1 💶
       - S2 💴
@@ -98,7 +98,7 @@ proxy-groups:
     type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100'
+    interval: '150'
     proxies:
       - 🐎CANADA
       - 🐎ROMANIA
@@ -118,28 +118,28 @@ proxy-groups:
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100'
+    interval: '150'
     use:
       - Server1
   - name: S2 💴 #2
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100'
+    interval: '150'
     use:
       - Server2
   - name: S3 💷 #3
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100'
+    interval: '150'
     use:
       - Server3
   - name: S4 💵 #4
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100'
+    interval: '150'
     use:
       - Server4
 
@@ -148,91 +148,91 @@ proxy-groups:
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100'
+    interval: '150'
     use:
       - 🐎ROMANIA
   - name: 🐎NETHERLAND
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100'
+    interval: '150'
     use:
       - 🐎NETHERLAND
   - name: 🐎FRANCIS
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100'
+    interval: '150'
     use:
       - 🐎FRANCIS
   - name: 🐎THAILAND
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100'
+    interval: '150'
     use:
       - 🐎THAILAND
   - name: 🐎SG HE MUX
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100'
+    interval: '150'
     use:
       - 🐎SG HE MUX
   - name: 🐎CANADA
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100'
+    interval: '150'
     use:
       - 🐎CANADA
   - name: 🐎SG MELBI
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100'
+    interval: '150'
     use:
       - 🐎SG MELBI
   - name: 🐎SG HE 2
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100'
+    interval: '150'
     use:
       - 🐎SG HE 2
   - name: 🐎SG HE 3
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100'
+    interval: '150'
     use:
       - 🐎SG HE 3
   - name: 🐎US
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100'
+    interval: '150'
     use:
       - 🐎US
   - name: 🐎SG HE 1
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100'
+    interval: '150'
     use:
       - 🐎SG HE 1
   - name: 🐎ID HERZA
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100'
+    interval: '150'
     use:
       - 🐎ID HERZA
   - name: 🐎SG AMP
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100'
+    interval: '150'
     use:
       - 🐎SG AMP
 
@@ -500,7 +500,7 @@ dns:
     ipcidr:
     - 0.0.0.0/8
     - 10.0.0.0/8
-    - 100.64.0.0/10
+    - 150.64.0.0/10
     - 127.0.0.0/8
     - 169.254.0.0/16
     - 172.16.0.0/12
@@ -509,7 +509,7 @@ dns:
     - 192.88.99.0/24
     - 192.168.0.0/16
     - 198.18.0.0/15
-    - 198.51.100.0/24
+    - 198.51.150.0/24
     - 203.0.113.0/24
     - 224.0.0.0/4
     - 240.0.0.0/4
