@@ -65,7 +65,7 @@ proxy-groups:
 
 
   - name: 🕊️Utama
-    type: url-test
+    type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100'
@@ -75,7 +75,7 @@ proxy-groups:
       - S3 💷
       - S4 💵
   - name: 🐎Trojan
-    type: url-test
+    type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100'
