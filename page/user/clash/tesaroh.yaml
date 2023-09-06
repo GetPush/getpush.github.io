@@ -140,7 +140,7 @@ proxy-groups:
       - 🐎ROMANIA
       - 🐎FRANCIS
       - 🐎NETHERLAND
-      - 🐎US 3
+      - 🐎US
   - name: 🦅Utama
     type: fallback
     disable-udp: false
