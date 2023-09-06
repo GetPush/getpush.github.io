@@ -6,9 +6,6 @@ proxy-groups:
       - LB 🐉
       - FB 🦕
       - BP 🦖
-      - 🕊️Comotan
-      - 🦅Utama
-      - 🐎Trojan
       - S1 💶
       - S2 💴
       - S3 💷
@@ -31,17 +28,12 @@ proxy-groups:
     type: select
     proxies:
       - 🌍Online
-      - 🕊️Comotan
-      - 🦅Utama
-      - 🐎Trojan
       - REJECT
   - name: Privasi🔒
     type: select
     proxies:
       - REJECT
       - 🌍Online
-      - 🦅Utama
-      - 🐎Trojan
 
 # kompres
   - name: LB 🐉
@@ -50,19 +42,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '100'
     proxies:
-      - 🕊️Comotan
-      - 🦅Utama
+      - 🕊️Utama
       - 🐎Trojan
-      - S1 💶
-      - S2 💴
-      - S3 💷
-      - S4 💵
-      - 🐎CANADA
-      - 🐎ROMANIA
-      - 🐎FRANCIS
-      - 🐎THAILAND
-      - 🐎NETHERLAND
-      - 🐎US
 
   - name: FB 🦕
     type: fallback
@@ -70,19 +51,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '100'
     proxies:
-      - 🕊️Comotan
-      - 🦅Utama
+      - 🕊️Utama
       - 🐎Trojan
-      - S1 💶
-      - S2 💴
-      - S3 💷
-      - S4 💵
-      - 🐎CANADA
-      - 🐎ROMANIA
-      - 🐎FRANCIS
-      - 🐎THAILAND
-      - 🐎NETHERLAND
-      - 🐎US
 
   - name: BP 🦖
     type: url-test
@@ -90,65 +60,32 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '100'
     proxies:
-      - 🕊️Comotan
-      - 🦅Utama
+      - 🕊️Utama
       - 🐎Trojan
+
+
+  - name: 🕊️Utama
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100'
+    proxies:
       - S1 💶
       - S2 💴
       - S3 💷
       - S4 💵
-      - 🐎CANADA
-      - 🐎ROMANIA
-      - 🐎FRANCIS
-      - 🐎THAILAND
-      - 🐎NETHERLAND
-      - 🐎US
-
-#Filter
-  - name: 🕊️Comotan
-    type: fallback
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '100'
-    use:
-      - Server4
-      - Server3
-      - Server2
-      - Server1
-      - 🐎CANADA
-      - 🐎ROMANIA
-      - 🐎FRANCIS
-      - 🐎NETHERLAND
-      - 🐎US
-  - name: 🦅Utama
-    type: fallback
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '100'
-    use:
-      - Server1
-      - Server2
-      - Server3
-      - Server4
   - name: 🐎Trojan
-    type: fallback
+    type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100'
-    use:
+    proxies:
       - 🐎CANADA
       - 🐎ROMANIA
       - 🐎FRANCIS
       - 🐎THAILAND
       - 🐎NETHERLAND
       - 🐎US
-      - 🐎ID HERZA
-      - 🐎SG AMP
-      - 🐎SG MELBI
-      - 🐎SG HE MUX
-      - 🐎SG HE 1
-      - 🐎SG HE 2
-      - 🐎SG HE 3
 
 # seleksi server 
   - name: S1 💶 #1
@@ -585,8 +522,8 @@ profile:
   store-fake-ip: true
 
 rules:
-- DOMAIN-SUFFIX,raw.githubusercontent.com,🕊️Comotan
-- DOMAIN-SUFFIX,toppayofficial.vercel.app,🕊️Comotan
+#- DOMAIN-SUFFIX,raw.githubusercontent.com,🕊️Comotan
+#- DOMAIN-SUFFIX,toppayofficial.vercel.app,🕊️Comotan
 - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
 - PROCESS-NAME,v2ray,DIRECT
 - PROCESS-NAME,xray,DIRECT
