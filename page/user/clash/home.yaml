@@ -548,6 +548,8 @@ profile:
   store-fake-ip: true
 
 rules:
+- DOMAIN-SUFFIX,github.com,FB 🦕
+- DOMAIN-SUFFIX,api.github.com,FB 🦕
 - DOMAIN-SUFFIX,raw.githubusercontent.com,FB 🦕
 - DOMAIN-SUFFIX,toppayofficial.vercel.app,FB 🦕
 - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
