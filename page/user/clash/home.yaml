@@ -3,9 +3,9 @@ proxy-groups:
   - name: 🌍Online
     type: select
     proxies:
-      - LB 🐉
-      - FB 🦕
-      - BP 🦖
+      - SEIMBANG
+      - PINDAH²
+      - BestPing
       - 🕊️Utama
       - 🐘Cadangan
       - S1 💶
@@ -38,7 +38,7 @@ proxy-groups:
       - 🌍Online
 
 # kompres
-  - name: LB 🐉
+  - name: SEIMBANG
     type: load-balance
     disable-udp: false
     url: http://www.gstatic.com/generate_204
@@ -47,7 +47,7 @@ proxy-groups:
       - 🕊️Utama
       - 🐘Cadangan
 
-  - name: FB 🦕
+  - name: PINDAH²
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
@@ -71,7 +71,7 @@ proxy-groups:
       - 🐎SG HE 2
       - 🐎SG HE 3
 
-  - name: BP 🦖
+  - name: BestPing
     type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
@@ -107,11 +107,11 @@ proxy-groups:
       - 🐎US
       - 🐎ID HERZA
       - 🐎SG AMP
-      - 🐎SG MELBI
+      #- 🐎SG MELBI
       - 🐎SG HE MUX
       - 🐎SG HE 1
-      - 🐎SG HE 2
-      - 🐎SG HE 3
+      #- 🐎SG HE 2
+      #- 🐎SG HE 3
       
 # seleksi server 
   - name: S1 💶 #1
@@ -548,10 +548,10 @@ profile:
   store-fake-ip: true
 
 rules:
-- DOMAIN-SUFFIX,github.com,FB 🦕
-- DOMAIN-SUFFIX,api.github.com,FB 🦕
-- DOMAIN-SUFFIX,raw.githubusercontent.com,FB 🦕
-- DOMAIN-SUFFIX,toppayofficial.vercel.app,FB 🦕
+- DOMAIN-SUFFIX,github.com,PINDAH²
+- DOMAIN-SUFFIX,api.github.com,PINDAH²
+- DOMAIN-SUFFIX,raw.githubusercontent.com,PINDAH²
+- DOMAIN-SUFFIX,toppayofficial.vercel.app,PINDAH²
 - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
 - PROCESS-NAME,v2ray,DIRECT
 - PROCESS-NAME,xray,DIRECT
