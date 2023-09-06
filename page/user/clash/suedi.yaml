@@ -6,13 +6,12 @@ proxy-groups:
       - LB 🐉
       - FB 🦕
       - BP 🦖
-      - 🕊️Filter
-      - 🦅Server
+      - 🕊️Utama
+      - 🐘Cadangan
       - S1 💶
       - S2 💴
       - S3 💷
       - S4 💵
-      - 🐎Trojan
       - 🐎CANADA
       - 🐎ROMANIA
       - 🐎FRANCIS
@@ -31,302 +30,300 @@ proxy-groups:
     type: select
     proxies:
       - 🌍Online
-      - 🦅Server
-      - 🐎Trojan
       - REJECT
   - name: Privasi🔒
     type: select
     proxies:
       - REJECT
       - 🌍Online
-      - 🦅Server
-      - 🐎Trojan
 
-
+# kompres
   - name: LB 🐉
     type: load-balance
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100'
     proxies:
-      - 🕊️Filter
-      - 🦅Server
-      - 🐎Trojan
+      - 🕊️Utama
+      - 🐘Cadangan
 
   - name: FB 🦕
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '120'
+    interval: '100'
     proxies:
-      - 🕊️Filter
-      - 🦅Server
-      - 🐎Trojan
+      - S1 💶
+      - S2 💴
+      - S3 💷
+      - S4 💵
+      - 🐎CANADA
+      - 🐎ROMANIA
+      - 🐎FRANCIS
+      - 🐎THAILAND
+      - 🐎NETHERLAND
+      - 🐎US
+      - 🐎ID HERZA
+      - 🐎SG AMP
+      - 🐎SG MELBI
+      - 🐎SG HE MUX
+      - 🐎SG HE 1
+      - 🐎SG HE 2
+      - 🐎SG HE 3
 
   - name: BP 🦖
     type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '140'
+    interval: '100'
     proxies:
-      - 🕊️Filter
-      - 🦅Server
-      - 🐎Trojan
+      - S1 💶
+      - S2 💴
+      - S3 💷
+      - S4 💵
 
 
-  - name: 🕊️Filter
-    type: fallback
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '160'
-    use:
-      - Server4
-      - Server3
-      - Server2
-      - Server1
-      - 🐎canada
-      - 🐎romania
-      - 🐎francis
-      - 🐎thailand
-      - 🐎netherland
-      - 🐎us
-
-  - name: 🦅Server
+  - name: 🕊️Utama
     type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '180'
-    use:
-      - Server4
-      - Server3
-      - Server2
-      - Server1
+    interval: '100'
+    proxies:
+      - S1 💶
+      - S2 💴
+      - S3 💷
+      - S4 💵
 
+  - name: 🐘Cadangan
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100'
+    proxies:
+      - 🐎CANADA
+      - 🐎ROMANIA
+      - 🐎FRANCIS
+      - 🐎NETHERLAND
+      - 🐎US
+      - 🐎ID HERZA
+      - 🐎SG AMP
+      - 🐎SG MELBI
+      - 🐎SG HE MUX
+      - 🐎SG HE 1
+      - 🐎SG HE 2
+      - 🐎SG HE 3
+      
 # seleksi server 
   - name: S1 💶 #1
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '200'
+    interval: '100'
     use:
       - Server1
   - name: S2 💴 #2
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '220'
+    interval: '100'
     use:
       - Server2
   - name: S3 💷 #3
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '240'
+    interval: '100'
     use:
       - Server3
   - name: S4 💵 #4
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '260'
+    interval: '100'
     use:
       - Server4
-
-
-  - name: 🐎Trojan
-    type: url-test
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '280'
-    use:
-      - 🐎canada
-      - 🐎romania
-      - 🐎francis
-      - 🐎thailand
-      - 🐎netherland
-      - 🐎us
 
 # seleksi Trojan
   - name: 🐎ROMANIA
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '300'
+    interval: '100'
     use:
-      - 🐎romania
+      - 🐎ROMANIA
   - name: 🐎NETHERLAND
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '320'
+    interval: '100'
     use:
-      - 🐎netherland
+      - 🐎NETHERLAND
   - name: 🐎FRANCIS
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '340'
+    interval: '100'
     use:
-      - 🐎francis
+      - 🐎FRANCIS
   - name: 🐎THAILAND
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '360'
+    interval: '100'
     use:
-      - 🐎thailand
+      - 🐎THAILAND
   - name: 🐎SG HE MUX
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '380'
+    interval: '100'
     use:
-      - 🐎sg he mux
+      - 🐎SG HE MUX
   - name: 🐎CANADA
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '400'
+    interval: '100'
     use:
-      - 🐎canada
+      - 🐎CANADA
   - name: 🐎SG MELBI
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '420'
+    interval: '100'
     use:
-      - 🐎sg melbi
+      - 🐎SG MELBI
   - name: 🐎SG HE 2
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '460'
+    interval: '100'
     use:
-      - 🐎sg he 2
+      - 🐎SG HE 2
   - name: 🐎SG HE 3
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '480'
+    interval: '100'
     use:
-      - 🐎sg he 3
+      - 🐎SG HE 3
   - name: 🐎US
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '500'
+    interval: '100'
     use:
-      - 🐎us
+      - 🐎US
   - name: 🐎SG HE 1
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '520'
+    interval: '100'
     use:
-      - 🐎sg he 1
+      - 🐎SG HE 1
   - name: 🐎ID HERZA
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '560'
+    interval: '100'
     use:
-      - 🐎id herza
+      - 🐎ID HERZA
   - name: 🐎SG AMP
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '580'
+    interval: '100'
     use:
-      - 🐎sg amp
+      - 🐎SG AMP
 
 
 proxy-providers:
 # ### Trojan Community ###
-  🐎romania: 
+  🐎ROMANIA: 
      type: http 
      path: ./🐎romania.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/romania.yaml"
      interval: 1200
-  🐎netherland: 
+  🐎NETHERLAND: 
      type: http 
      path: ./🐎netherland.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/netherland.yaml"
      interval: 1200
-  🐎francis: 
+  🐎FRANCIS: 
      type: http 
      path: ./🐎francis.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/francis.yaml"
      interval: 1200
-  🐎thailand: 
+  🐎THAILAND: 
      type: http 
      path: ./🐎thailand.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/thailand.yaml"
      interval: 1200
-  🐎sg he mux: 
+  🐎SG HE MUX: 
      type: http 
      path: ./🐎sg he mux.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/sg%20he%20mux.yaml"
      interval: 1200
-  🐎canada: 
+  🐎CANADA: 
      type: http 
      path: ./🐎canada.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/canada.yaml"
      interval: 1200
-  🐎sg melbi: 
+  🐎SG MELBI: 
      type: http 
      path: ./🐎sg melbi.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/sg%20melbi.yaml"
      interval: 1200
-  🐎sg he 2: 
+  🐎SG HE 2: 
      type: http 
      path: ./🐎sg he 2.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/sg%20he%202.yaml"
      interval: 1200
-  🐎sg he 3: 
+  🐎SG HE 3: 
      type: http 
      path: ./🐎sg he 3.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/sg%20he%203.yaml"
      interval: 1200
-  🐎us: 
+  🐎US: 
      type: http 
      path: ./🐎us.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/us.yaml"
      interval: 1200
-  🐎sg he 1: 
+  🐎SG HE 1: 
      type: http 
      path: ./🐎sg he 1.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/sg%20he%201.yaml"
      interval: 1200
-  🐎id herza: 
+  🐎ID HERZA: 
      type: http 
      path: ./🐎id herza.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/id%20herza.yaml"
      interval: 1200
-  🐎sg amp: 
+  🐎SG AMP: 
      type: http 
      path: ./🐎sg amp.yaml 
      health-check: 
@@ -386,7 +383,7 @@ dns:
   enhanced-mode: fake-ip
   listen: 0.0.0.0:7874
   fake-ip-range: 198.18.0.1/16
-  fake-ip-filter:
+  fake-ip-Comotan:
   - "*.lan"
   - "*.localdomain"
   - "*.example"
@@ -497,7 +494,7 @@ dns:
   - 112.215.203.254 #Axis
   - 112.215.37.182 #XL
   - 112.215.37.183 #XL
-  fallback-filter:
+  fallback-Comotan:
     geoip: true
     geoip-code: ID
     ipcidr:
@@ -551,8 +548,8 @@ profile:
   store-fake-ip: true
 
 rules:
-- DOMAIN-SUFFIX,raw.githubusercontent.com,🕊️Filter
-- DOMAIN-SUFFIX,toppayofficial.vercel.app,🕊️Filter
+- DOMAIN-SUFFIX,raw.githubusercontent.com,FB 🦕
+- DOMAIN-SUFFIX,toppayofficial.vercel.app,FB 🦕
 - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
 - PROCESS-NAME,v2ray,DIRECT
 - PROCESS-NAME,xray,DIRECT
