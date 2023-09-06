@@ -63,13 +63,6 @@ proxy-groups:
       - 🐎THAILAND
       - 🐎NETHERLAND
       - 🐎US
-      - 🐎ID HERZA
-      - 🐎SG AMP
-      - 🐎SG MELBI
-      - 🐎SG HE MUX
-      - 🐎SG HE 1
-      - 🐎SG HE 2
-      - 🐎SG HE 3
 
   - name: FB 🦕
     type: fallback
@@ -90,13 +83,6 @@ proxy-groups:
       - 🐎THAILAND
       - 🐎NETHERLAND
       - 🐎US
-      - 🐎ID HERZA
-      - 🐎SG AMP
-      - 🐎SG MELBI
-      - 🐎SG HE MUX
-      - 🐎SG HE 1
-      - 🐎SG HE 2
-      - 🐎SG HE 3
 
   - name: BP 🦖
     type: url-test
@@ -117,13 +103,6 @@ proxy-groups:
       - 🐎THAILAND
       - 🐎NETHERLAND
       - 🐎US
-      - 🐎ID HERZA
-      - 🐎SG AMP
-      - 🐎SG MELBI
-      - 🐎SG HE MUX
-      - 🐎SG HE 1
-      - 🐎SG HE 2
-      - 🐎SG HE 3
 
 #Filter
   - name: 🕊️Comotan
