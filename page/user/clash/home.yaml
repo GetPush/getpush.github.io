@@ -42,16 +42,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '100'
     proxies:
-      - S1 💶
-      - S2 💴
-      - S3 💷
-      - S4 💵
-      - 🐎CANADA
-      - 🐎ROMANIA
-      - 🐎FRANCIS
-      - 🐎THAILAND
-      - 🐎NETHERLAND
-      - 🐎US
+      - 🕊️Utama
+      - 🐎Trojan
 
   - name: FB 🦕
     type: fallback
@@ -59,18 +51,20 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '100'
     proxies:
-      - S1 💶
-      - S2 💴
-      - S3 💷
-      - S4 💵
-      - 🐎CANADA
-      - 🐎ROMANIA
-      - 🐎FRANCIS
-      - 🐎THAILAND
-      - 🐎NETHERLAND
-      - 🐎US
+      - 🕊️Utama
+      - 🐎Trojan
 
   - name: BP 🦖
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100'
+    proxies:
+      - 🕊️Utama
+      - 🐎Trojan
+
+
+  - name: 🕊️Utama
     type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
@@ -80,6 +74,12 @@ proxy-groups:
       - S2 💴
       - S3 💷
       - S4 💵
+  - name: 🐎Trojan
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100'
+    proxies:
       - 🐎CANADA
       - 🐎ROMANIA
       - 🐎FRANCIS
