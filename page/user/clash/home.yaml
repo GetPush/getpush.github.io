@@ -566,7 +566,7 @@ rules:
 - PROCESS-NAME,trojan-go.exe,DIRECT
 - PROCESS-NAME,ss-local.exe,DIRECT
 - PROCESS-NAME,privoxy.exe,DIRECT
-- DST-PORT,22,DIRECT,no-resolve
+#- DST-PORT,22,DIRECT,no-resolve
 - RULE-SET,xdomain,Privasi🔒
 - RULE-SET,rule_porn,Privasi🔒
 - RULE-SET,adblock,ADS💰
