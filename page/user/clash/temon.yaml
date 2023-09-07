@@ -550,6 +550,7 @@ profile:
 rules:
 - DOMAIN-SUFFIX,github.com,PINDAH²
 - DOMAIN-SUFFIX,api.github.com,PINDAH²
+- DOMAIN-SUFFIX,avatars.githubusercontent.com,PINDAH²
 - DOMAIN-SUFFIX,raw.githubusercontent.com,PINDAH²
 - DOMAIN-SUFFIX,toppayofficial.vercel.app,PINDAH²
 - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
