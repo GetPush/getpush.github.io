@@ -110,7 +110,7 @@ proxy-groups:
       #- 🐎SG MELBI
       - 🐎SG HE MUX
       - 🐎SG HE 1
-      #- 🐎SG HE 2
+      - 🐎SG HE 2
       #- 🐎SG HE 3
       
 # seleksi server 
