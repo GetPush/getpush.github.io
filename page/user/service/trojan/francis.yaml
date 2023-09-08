@@ -10,10 +10,10 @@ proxies:
     network: ws
     ws-opts:
       path: /howdy
+      allowInsecure: true
       headers:
         Host: fr.test3.net
     udp: true
-    allowInsecure: true
   - name: Francis B
     server: www.sushiroll.co.id
     port: 443
@@ -94,7 +94,7 @@ proxies:
     network: ws
     ws-opts:
       path: /howdy
+      allowInsecure: true
       headers:
         Host: fr.test3.net
     udp: true
-    allowInsecure: true
