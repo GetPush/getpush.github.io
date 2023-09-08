@@ -4,7 +4,7 @@ proxies:
     server: 104.19.142.89
     port: 443
     type: trojan
-    password: 36cc9e20-2fc0-11ee-b3e3-1239d0255272
+    password: adabe690-4e1d-11ee-8e05-1239d0255272
     skip-cert-verify: true
     sni: sg2-trojan.bonds.id
     network: ws
@@ -17,7 +17,7 @@ proxies:
     server: www.sushiroll.co.id
     port: 443
     type: trojan
-    password: 36cc9e20-2fc0-11ee-b3e3-1239d0255272
+    password: adabe690-4e1d-11ee-8e05-1239d0255272
     skip-cert-verify: true
     sni: sg2-trojan.bonds.id
     network: ws
@@ -30,7 +30,7 @@ proxies:
     server: quiz.vidio.com
     port: 443
     type: trojan
-    password: 36cc9e20-2fc0-11ee-b3e3-1239d0255272
+    password: adabe690-4e1d-11ee-8e05-1239d0255272
     skip-cert-verify: true
     sni: sg2-trojan.bonds.id
     network: ws
@@ -43,7 +43,7 @@ proxies:
     server: zendesk1.shopee.com
     port: 443
     type: trojan
-    password: 36cc9e20-2fc0-11ee-b3e3-1239d0255272
+    password: adabe690-4e1d-11ee-8e05-1239d0255272
     skip-cert-verify: true
     sni: sg2-trojan.bonds.id
     network: ws
@@ -56,7 +56,7 @@ proxies:
     server: 104.16.108.96
     port: 443
     type: trojan
-    password: 36cc9e20-2fc0-11ee-b3e3-1239d0255272
+    password: adabe690-4e1d-11ee-8e05-1239d0255272
     skip-cert-verify: true
     sni: sg2-trojan.bonds.id
     network: ws
@@ -69,7 +69,7 @@ proxies:
     server: 104.17.58.20
     port: 443
     type: trojan
-    password: 36cc9e20-2fc0-11ee-b3e3-1239d0255272
+    password: adabe690-4e1d-11ee-8e05-1239d0255272
     skip-cert-verify: true
     sni: sg2-trojan.bonds.id
     network: ws
@@ -82,7 +82,7 @@ proxies:
     server: layanan.ruangguru.com
     port: 443
     type: trojan
-    password: 36cc9e20-2fc0-11ee-b3e3-1239d0255272
+    password: adabe690-4e1d-11ee-8e05-1239d0255272
     skip-cert-verify: true
     sni: sg2-trojan.bonds.id
     network: ws
