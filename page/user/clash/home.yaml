@@ -4,7 +4,7 @@ proxy-groups:
     type: select
     proxies:
       - SEIMBANG
-      - PINDAH²
+      - Anti DC
       - BestPing
       - 🕊️Utama
       - 🐘Cadangan
@@ -36,12 +36,12 @@ proxy-groups:
     type: load-balance
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100'
+    interval: '50'
     proxies:
       - 🕊️Utama
       - 🐘Cadangan
 
-  - name: PINDAH²
+  - name: Anti DC
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
@@ -501,11 +501,11 @@ profile:
   store-fake-ip: true
 
 rules:
-- DOMAIN-SUFFIX,github.com,PINDAH²
-- DOMAIN-SUFFIX,api.github.com,PINDAH²
-- DOMAIN-SUFFIX,avatars.githubusercontent.com,PINDAH²
-- DOMAIN-SUFFIX,raw.githubusercontent.com,PINDAH²
-- DOMAIN-SUFFIX,toppayofficial.vercel.app,PINDAH²
+- DOMAIN-SUFFIX,github.com,Anti DC
+- DOMAIN-SUFFIX,api.github.com,Anti DC
+- DOMAIN-SUFFIX,avatars.githubusercontent.com,Anti DC
+- DOMAIN-SUFFIX,raw.githubusercontent.com,Anti DC
+- DOMAIN-SUFFIX,toppayofficial.vercel.app,Anti DC
 - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
 - PROCESS-NAME,v2ray,DIRECT
 - PROCESS-NAME,xray,DIRECT
