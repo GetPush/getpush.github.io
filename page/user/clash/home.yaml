@@ -15,16 +15,10 @@ proxy-groups:
       - 🐎CANADA
       - 🐎ROMANIA
       - 🐎FRANCIS
-      - 🐎THAILAND
       - 🐎NETHERLAND
       - 🐎US
-      - 🐎ID HERZA
-      - 🐎SG AMP
-      - 🐎SG MELBI
-      - 🐎SG HE MUX
-      - 🐎SG HE 1
-      - 🐎SG HE 2
-      - 🐎SG HE 3
+      - 🐎SINGAPURA
+      - 🐎INDONESIA
 
   - name: ADS💰
     type: select
@@ -60,16 +54,10 @@ proxy-groups:
       - 🐎CANADA
       - 🐎ROMANIA
       - 🐎FRANCIS
-      - 🐎THAILAND
       - 🐎NETHERLAND
       - 🐎US
-      - 🐎ID HERZA
-      - 🐎SG AMP
-      - 🐎SG MELBI
-      - 🐎SG HE MUX
-      - 🐎SG HE 1
-      - 🐎SG HE 2
-      - 🐎SG HE 3
+      - 🐎SINGAPURA
+      - 🐎INDONESIA
 
   - name: BestPing
     type: url-test
@@ -105,13 +93,8 @@ proxy-groups:
       - 🐎FRANCIS
       - 🐎NETHERLAND
       - 🐎US
-      - 🐎ID HERZA
-      - 🐎SG AMP
-      #- 🐎SG MELBI
-      - 🐎SG HE MUX
-      - 🐎SG HE 1
-      #- 🐎SG HE 2
-      #- 🐎SG HE 3
+      - 🐎SINGAPURA
+      - 🐎INDONESIA
       
 # seleksi server 
   - name: S1 💶 #1
@@ -172,13 +155,6 @@ proxy-groups:
     interval: '150'
     use:
       - 🐎THAILAND
-  - name: 🐎SG HE MUX
-    type: fallback
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '150'
-    use:
-      - 🐎SG HE MUX
   - name: 🐎CANADA
     type: fallback
     disable-udp: false
@@ -186,27 +162,6 @@ proxy-groups:
     interval: '150'
     use:
       - 🐎CANADA
-  - name: 🐎SG MELBI
-    type: fallback
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '150'
-    use:
-      - 🐎SG MELBI
-  - name: 🐎SG HE 2
-    type: fallback
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '150'
-    use:
-      - 🐎SG HE 2
-  - name: 🐎SG HE 3
-    type: fallback
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '150'
-    use:
-      - 🐎SG HE 3
   - name: 🐎US
     type: fallback
     disable-udp: false
@@ -214,27 +169,25 @@ proxy-groups:
     interval: '150'
     use:
       - 🐎US
-  - name: 🐎SG HE 1
+  - name: 🐎SINGAPURA
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '150'
     use:
+      - 🐎SG HE MUX
+      - 🐎SG MELBI
+      - 🐎SG HE 2
+      - 🐎SG HE 3
       - 🐎SG HE 1
-  - name: 🐎ID HERZA
+      - 🐎SG AMP
+  - name: 🐎INDONESIA
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '150'
     use:
       - 🐎ID HERZA
-  - name: 🐎SG AMP
-    type: fallback
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '150'
-    use:
-      - 🐎SG AMP
 
 
 proxy-providers:
