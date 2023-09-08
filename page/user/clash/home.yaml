@@ -4,7 +4,7 @@ proxy-groups:
     type: select
     proxies:
       - SEIMBANG
-      - Anti DC
+      - PINDAH²
       - BestPing
       - 🕊️Utama
       - 🐘Cadangan
@@ -15,10 +15,16 @@ proxy-groups:
       - 🐎CANADA
       - 🐎ROMANIA
       - 🐎FRANCIS
+      - 🐎THAILAND
       - 🐎NETHERLAND
       - 🐎US
-      - 🐎SINGAPURA
-      - 🐎INDONESIA
+      - 🐎ID HERZA
+      - 🐎SG AMP
+      - 🐎SG MELBI
+      - 🐎SG HE MUX
+      - 🐎SG HE 1
+      - 🐎SG HE 2
+      - 🐎SG HE 3
 
   - name: ADS💰
     type: select
@@ -36,12 +42,12 @@ proxy-groups:
     type: load-balance
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '50'
+    interval: '100'
     proxies:
       - 🕊️Utama
       - 🐘Cadangan
 
-  - name: Anti DC
+  - name: PINDAH²
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
@@ -54,10 +60,16 @@ proxy-groups:
       - 🐎CANADA
       - 🐎ROMANIA
       - 🐎FRANCIS
+      - 🐎THAILAND
       - 🐎NETHERLAND
       - 🐎US
-      - 🐎SINGAPURA
-      - 🐎INDONESIA
+      - 🐎ID HERZA
+      - 🐎SG AMP
+      - 🐎SG MELBI
+      - 🐎SG HE MUX
+      - 🐎SG HE 1
+      - 🐎SG HE 2
+      - 🐎SG HE 3
 
   - name: BestPing
     type: url-test
@@ -93,8 +105,13 @@ proxy-groups:
       - 🐎FRANCIS
       - 🐎NETHERLAND
       - 🐎US
-      - 🐎SINGAPURA
-      - 🐎INDONESIA
+      - 🐎ID HERZA
+      - 🐎SG AMP
+      #- 🐎SG MELBI
+      - 🐎SG HE MUX
+      - 🐎SG HE 1
+      #- 🐎SG HE 2
+      #- 🐎SG HE 3
       
 # seleksi server 
   - name: S1 💶 #1
@@ -155,6 +172,13 @@ proxy-groups:
     interval: '150'
     use:
       - 🐎THAILAND
+  - name: 🐎SG HE MUX
+    type: fallback
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '150'
+    use:
+      - 🐎SG HE MUX
   - name: 🐎CANADA
     type: fallback
     disable-udp: false
@@ -162,6 +186,27 @@ proxy-groups:
     interval: '150'
     use:
       - 🐎CANADA
+  - name: 🐎SG MELBI
+    type: fallback
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '150'
+    use:
+      - 🐎SG MELBI
+  - name: 🐎SG HE 2
+    type: fallback
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '150'
+    use:
+      - 🐎SG HE 2
+  - name: 🐎SG HE 3
+    type: fallback
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '150'
+    use:
+      - 🐎SG HE 3
   - name: 🐎US
     type: fallback
     disable-udp: false
@@ -169,25 +214,27 @@ proxy-groups:
     interval: '150'
     use:
       - 🐎US
-  - name: 🐎SINGAPURA
+  - name: 🐎SG HE 1
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '150'
     use:
-      - 🐎SG HE MUX
-      - 🐎SG MELBI
-      - 🐎SG HE 2
-      - 🐎SG HE 3
       - 🐎SG HE 1
-      - 🐎SG AMP
-  - name: 🐎INDONESIA
+  - name: 🐎ID HERZA
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '150'
     use:
       - 🐎ID HERZA
+  - name: 🐎SG AMP
+    type: fallback
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '150'
+    use:
+      - 🐎SG AMP
 
 
 proxy-providers:
@@ -501,11 +548,11 @@ profile:
   store-fake-ip: true
 
 rules:
-- DOMAIN-SUFFIX,github.com,Anti DC
-- DOMAIN-SUFFIX,api.github.com,Anti DC
-- DOMAIN-SUFFIX,avatars.githubusercontent.com,Anti DC
-- DOMAIN-SUFFIX,raw.githubusercontent.com,Anti DC
-- DOMAIN-SUFFIX,toppayofficial.vercel.app,Anti DC
+- DOMAIN-SUFFIX,github.com,PINDAH²
+- DOMAIN-SUFFIX,api.github.com,PINDAH²
+- DOMAIN-SUFFIX,avatars.githubusercontent.com,PINDAH²
+- DOMAIN-SUFFIX,raw.githubusercontent.com,PINDAH²
+- DOMAIN-SUFFIX,toppayofficial.vercel.app,PINDAH²
 - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
 - PROCESS-NAME,v2ray,DIRECT
 - PROCESS-NAME,xray,DIRECT
