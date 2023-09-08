@@ -1,0 +1,93 @@
+proxies:
+########## SG AMP ######
+  - name: SG AMP A
+    server: 104.19.142.89
+    port: 443
+    type: trojan
+    password: f1cbde80-4c10-11ee-a3ca-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP B
+    server: www.sushiroll.co.id
+    port: 443
+    type: trojan
+    password: f1cbde80-4c10-11ee-a3ca-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP C
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: f1cbde80-4c10-11ee-a3ca-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP D
+    server: zendesk1.shopee.com
+    port: 443
+    type: trojan
+    password: f1cbde80-4c10-11ee-a3ca-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP E
+    server: 104.16.108.96
+    port: 443
+    type: trojan
+    password: pw
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: f1cbde80-4c10-11ee-a3ca-1239d0255272
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP F
+    server: 104.17.58.20
+    port: 443
+    type: trojan
+    password: f1cbde80-4c10-11ee-a3ca-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP G
+    server: layanan.ruangguru.com
+    port: 443
+    type: trojan
+    password: f1cbde80-4c10-11ee-a3ca-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true

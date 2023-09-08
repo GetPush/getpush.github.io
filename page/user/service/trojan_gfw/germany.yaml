@@ -1,0 +1,93 @@
+proxies:
+########## Germany ######
+  - name: Germany A
+    server: 104.19.142.89
+    port: 443
+    type: trojan
+    password: 9a0cbf10-4e40-11ee-9a0d-1239d0255272
+    skip-cert-verify: true
+    sni: de1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: de1.test3.net
+    udp: true
+  - name: Germany B
+    server: www.sushiroll.co.id
+    port: 443
+    type: trojan
+    password: 9a0cbf10-4e40-11ee-9a0d-1239d0255272
+    skip-cert-verify: true
+    sni: de1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: de1.test3.net
+    udp: true
+  - name: Germany C
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: 9a0cbf10-4e40-11ee-9a0d-1239d0255272
+    skip-cert-verify: true
+    sni: de1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: de1.test3.net
+    udp: true
+  - name: Germany D
+    server: zendesk1.shopee.com
+    port: 443
+    type: trojan
+    password: 9a0cbf10-4e40-11ee-9a0d-1239d0255272
+    skip-cert-verify: true
+    sni: de1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: de1.test3.net
+    udp: true
+  - name: Germany E
+    server: 104.16.108.96
+    port: 443
+    type: trojan
+    password: 9a0cbf10-4e40-11ee-9a0d-1239d0255272
+    skip-cert-verify: true
+    sni: de1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: de1.test3.net
+    udp: true
+  - name: Germany F
+    server: 104.17.58.20
+    port: 443
+    type: trojan
+    password: 9a0cbf10-4e40-11ee-9a0d-1239d0255272
+    skip-cert-verify: true
+    sni: de1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: de1.test3.net
+    udp: true
+  - name: Germany G
+    server: layanan.ruangguru.com
+    port: 443
+    type: trojan
+    password: 9a0cbf10-4e40-11ee-9a0d-1239d0255272
+    skip-cert-verify: true
+    sni: de1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: de1.test3.net
+    udp: true

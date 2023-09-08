@@ -1,0 +1,93 @@
+proxies:
+########## SG HE 3 ######
+  - name: SG HE 3 A
+    server: 104.19.142.89
+    port: 443
+    type: trojan
+    password: 8ea460c0-2fbf-11ee-b5e3-1239d0255272
+    skip-cert-verify: true
+    sni: sg3-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+  - name: SG HE 3 B
+    server: www.sushiroll.co.id
+    port: 443
+    type: trojan
+    password: 8ea460c0-2fbf-11ee-b5e3-1239d0255272
+    skip-cert-verify: true
+    sni: sg3-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+  - name: SG HE 3 C
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: 8ea460c0-2fbf-11ee-b5e3-1239d0255272
+    skip-cert-verify: true
+    sni: sg3-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+  - name: SG HE 3 D
+    server: zendesk1.shopee.com
+    port: 443
+    type: trojan
+    password: 8ea460c0-2fbf-11ee-b5e3-1239d0255272
+    skip-cert-verify: true
+    sni: sg3-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+  - name: SG HE 3 E
+    server: 104.16.108.96
+    port: 443
+    type: trojan
+    password: 8ea460c0-2fbf-11ee-b5e3-1239d0255272
+    skip-cert-verify: true
+    sni: sg3-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+  - name: SG HE 3 F
+    server: 104.17.58.20
+    port: 443
+    type: trojan
+    password: 8ea460c0-2fbf-11ee-b5e3-1239d0255272
+    skip-cert-verify: true
+    sni: sg3-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+  - name: SG HE 3 G
+    server: layanan.ruangguru.com
+    port: 443
+    type: trojan
+    password: 8ea460c0-2fbf-11ee-b5e3-1239d0255272
+    skip-cert-verify: true
+    sni: sg3-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true

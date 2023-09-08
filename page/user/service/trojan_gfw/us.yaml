@@ -1,0 +1,93 @@
+proxies:
+########## United States ######
+  - name: US A
+    server: 104.19.142.89
+    port: 443
+    type: trojan
+    password: 4708e3d0-4c7a-11ee-81c9-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US B
+    server: www.sushiroll.co.id
+    port: 443
+    type: trojan
+    password: 4708e3d0-4c7a-11ee-81c9-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US C
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: 4708e3d0-4c7a-11ee-81c9-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US D
+    server: zendesk1.shopee.com
+    port: 443
+    type: trojan
+    password: 4708e3d0-4c7a-11ee-81c9-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US E
+    server: 104.16.108.96
+    port: 443
+    type: trojan
+    password: 4708e3d0-4c7a-11ee-81c9-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US F
+    server: 104.17.58.20
+    port: 443
+    type: trojan
+    password: 4708e3d0-4c7a-11ee-81c9-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US G
+    server: layanan.ruangguru.com
+    port: 443
+    type: trojan
+    password: 4708e3d0-4c7a-11ee-81c9-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true

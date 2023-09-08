@@ -1,0 +1,13 @@
+proxies:
+#
+- name: "trojan-gfw SNI"
+  type: trojan
+  server: aaa.bbb.ccc.ddd
+  port: 443
+  password: PASSWORD
+  udp: true
+  sni: BUGSNI.COM
+  alpn:
+    - h2
+    - http/1.1
+  skip-cert-verify: true
