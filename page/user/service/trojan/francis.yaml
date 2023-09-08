@@ -10,7 +10,6 @@ proxies:
     network: ws
     ws-opts:
       path: /howdy
-      allowInsecure: true
       headers:
         Host: fr.test3.net
     udp: true
@@ -27,7 +26,6 @@ proxies:
       headers:
         Host: fr.test3.net
     udp: true
-    allowInsecure: true
   - name: Francis C
     server: quiz.vidio.com
     port: 443
@@ -41,7 +39,6 @@ proxies:
       headers:
         Host: fr.test3.net
     udp: true
-    allowInsecure: true
   - name: Francis D
     server: zendesk1.shopee.com
     port: 443
@@ -55,7 +52,6 @@ proxies:
       headers:
         Host: fr.test3.net
     udp: true
-    allowInsecure: true
   - name: Francis E
     server: 104.16.108.96
     port: 443
@@ -69,7 +65,6 @@ proxies:
       headers:
         Host: fr.test3.net
     udp: true
-    allowInsecure: true
   - name: Francis F
     server: 104.17.58.20
     port: 443
@@ -83,7 +78,6 @@ proxies:
       headers:
         Host: fr.test3.net
     udp: true
-    allowInsecure: true
   - name: Francis G
     server: layanan.ruangguru.com
     port: 443
@@ -94,7 +88,6 @@ proxies:
     network: ws
     ws-opts:
       path: /howdy
-      allowInsecure: true
       headers:
         Host: fr.test3.net
     udp: true
