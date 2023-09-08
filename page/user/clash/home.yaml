@@ -63,6 +63,9 @@ proxy-groups:
       - 🐎THAILAND
       - 🐎NETHERLAND
       - 🐎US
+      - 🐎TURKEY
+      - 🐎GERMANY
+      - 🐎UNITED KINGDOM
       - 🐎ID HERZA
       - 🐎SG AMP
       - 🐎SG MELBI
@@ -186,6 +189,27 @@ proxy-groups:
     interval: '150'
     use:
       - 🐎CANADA
+  - name: 🐎GERMANY
+    type: fallback
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '150'
+    use:
+      - 🐎GERMANY
+  - name: 🐎TURKEY
+    type: fallback
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '150'
+    use:
+      - 🐎TURKEY
+  - name: 🐎UNITED KINGDOM
+    type: fallback
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '150'
+    use:
+      - 🐎UNITED KINGDOM
   - name: 🐎SG MELBI
     type: fallback
     disable-udp: false
@@ -244,91 +268,112 @@ proxy-providers:
      path: ./🐎romania.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/romania.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/romania.yaml"
      interval: 1200
   🐎NETHERLAND: 
      type: http 
      path: ./🐎netherland.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/netherland.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/netherland.yaml"
      interval: 1200
   🐎FRANCIS: 
      type: http 
      path: ./🐎francis.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/francis.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/francis.yaml"
      interval: 1200
   🐎THAILAND: 
      type: http 
      path: ./🐎thailand.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/thailand.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/thailand.yaml"
      interval: 1200
   🐎SG HE MUX: 
      type: http 
      path: ./🐎sg he mux.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/sg%20he%20mux.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/sg%20he%20mux.yaml"
      interval: 1200
   🐎CANADA: 
      type: http 
      path: ./🐎canada.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/canada.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/canada.yaml"
+     interval: 1200
+  🐎TURKEY: 
+     type: http 
+     path: ./🐎turkey.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/turkey.yaml"
+     interval: 1200
+  🐎GERMANY: 
+     type: http 
+     path: ./🐎germany.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/germany.yaml"
+     interval: 1200
+  🐎UNITED KINGDOM: 
+     type: http 
+     path: ./🐎united kingdom.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/united%20kingdom.yaml"
      interval: 1200
   🐎SG MELBI: 
      type: http 
      path: ./🐎sg melbi.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/sg%20melbi.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/sg%20melbi.yaml"
      interval: 1200
   🐎SG HE 2: 
      type: http 
      path: ./🐎sg he 2.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/sg%20he%202.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/sg%20he%202.yaml"
      interval: 1200
   🐎SG HE 3: 
      type: http 
      path: ./🐎sg he 3.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/sg%20he%203.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/sg%20he%203.yaml"
      interval: 1200
   🐎US: 
      type: http 
      path: ./🐎us.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/us.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/us.yaml"
      interval: 1200
   🐎SG HE 1: 
      type: http 
      path: ./🐎sg he 1.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/sg%20he%201.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/sg%20he%201.yaml"
      interval: 1200
   🐎ID HERZA: 
      type: http 
      path: ./🐎id herza.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/id%20herza.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/id%20herza.yaml"
      interval: 1200
   🐎SG AMP: 
      type: http 
      path: ./🐎sg amp.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan/sg%20amp.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/sg%20amp.yaml"
      interval: 1200
 
 
