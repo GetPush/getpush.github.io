@@ -163,7 +163,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '150'
     use:
-      - 🐎NETHERLAND
+      - 🐎NETHERLANDS
   - name: 🐎FRANCIS
     type: fallback
     disable-udp: false
