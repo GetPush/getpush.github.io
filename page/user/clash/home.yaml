@@ -16,7 +16,7 @@ proxy-groups:
       - 🐎ROMANIA
       - 🐎FRANCIS
       - 🐎THAILAND
-      - 🐎NETHERLAND
+      - 🐎NETHERLANDS
       - 🐎US
       - 🐎TURKEY
       - 🐎GERMANY
@@ -64,7 +64,7 @@ proxy-groups:
       - 🐎ROMANIA
       - 🐎FRANCIS
       - 🐎THAILAND
-      - 🐎NETHERLAND
+      - 🐎NETHERLANDS
       - 🐎US
       - 🐎TURKEY
       - 🐎GERMANY
@@ -109,7 +109,7 @@ proxy-groups:
       - 🐎CANADA
       - 🐎ROMANIA
       - 🐎FRANCIS
-      - 🐎NETHERLAND
+      - 🐎NETHERLANDS
       - 🐎US
       - 🐎ID HERZA
       - 🐎SG AMP
@@ -273,12 +273,12 @@ proxy-providers:
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/romania.yaml"
      interval: 1200
-  🐎NETHERLAND: 
+  🐎NETHERLANDS: 
      type: http 
-     path: ./🐎netherland.yaml 
+     path: ./🐎netherlands.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/netherland.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/netherlands.yaml"
      interval: 1200
   🐎FRANCIS: 
      type: http 
