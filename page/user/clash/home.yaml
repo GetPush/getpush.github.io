@@ -90,7 +90,7 @@ proxy-groups:
 
 
   - name: 🕊️Utama
-    type: url-test
+    type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '50'
@@ -101,7 +101,7 @@ proxy-groups:
       - S4 💵
 
   - name: 🐘Cadangan
-    type: url-test
+    type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '50'
