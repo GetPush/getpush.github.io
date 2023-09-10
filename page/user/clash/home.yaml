@@ -45,7 +45,7 @@ proxy-groups:
     type: load-balance
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '100'
+    interval: '300'
     proxies:
       - 🕊️Utama
       - 🐘Cadangan
@@ -54,7 +54,7 @@ proxy-groups:
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '150'
+    interval: '300'
     proxies:
       - S1 💶
       - S2 💴
@@ -81,7 +81,7 @@ proxy-groups:
     type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '150'
+    interval: '300'
     proxies:
       - S1 💶
       - S2 💴
@@ -93,7 +93,7 @@ proxy-groups:
     type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '150'
+    interval: '50'
     proxies:
       - S1 💶
       - S2 💴
@@ -104,7 +104,7 @@ proxy-groups:
     type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '150'
+    interval: '50'
     proxies:
       - 🐎CANADA
       - 🐎ROMANIA
