@@ -1,14 +1,5 @@
   const penutupHTML = `
 <br>
-<div style="text-align: center;"> 
- <p>Buy Me ☕</p>  
-  <h3>QR Code Ini Support Untuk Semua Dompet</h3>  
-</div>
-  <br>  
-      <img src="/linked/images/QRcode.png" alt="QR Code" width="400" height="400"> 
-<div>
-<br>
-   <p>💲 UCAPKAN TERIMAKASIH KEPADA: [ <span id="randomNames2" style="font-size: 35px;"></span> ]</p>  
 <style>
 h1 {
     text-align: center;
