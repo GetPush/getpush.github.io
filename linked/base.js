@@ -159,23 +159,6 @@ const headerHTML = `
    </div>  
 </header>
 <hr>
- <h1>ألسلام عليهم ورحمة الله وبركاته</h1>  
-  <div id="teks1">Halo, selamat datang!</div> 
-<hr>
-<hr>
- <div>• Semoga yang mengunjungi website ini, pada hari <span style="display: inline;">   
-        <div id="jam-sambutan" style="display: inline;"></div>   
-       </span> selalu diberikan kesehatan, keselamatan, dan kebahagiaan dalam hidupnya. </div>   
-<hr>
-<hr>
- </div>
-<br>
-<hr>
-<hr>
-  <p>💲 SAAT INI DI UPDATE OLEH: [ <span id="randomNames1" style="font-size: 35px;"></span> ]</p>
-<hr>
-<hr>
-     <br> 
  `; 
   
    window.addEventListener("DOMContentLoaded", function () { 
