@@ -8,10 +8,10 @@ proxy-groups:
       - BestPing
       - 🕊️Utama
       - 🐘Cadangan
-      - S1 💶
-      - S2 💴
-      - S3 💷
-      - S4 💵
+      - Server1
+      - Server2
+      - Server3
+      - Server4
       - 🐎CANADA
       - 🐎ROMANIA
       - 🐎FRANCIS
@@ -56,10 +56,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '300'
     proxies:
-      - S1 💶
-      - S2 💴
-      - S3 💷
-      - S4 💵
+      - Server1
+      - Server2
+      - Server3
+      - Server4
       - 🐎CANADA
       - 🐎ROMANIA
       - 🐎FRANCIS
@@ -83,10 +83,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '300'
     proxies:
-      - S1 💶
-      - S2 💴
-      - S3 💷
-      - S4 💵
+      - Server1
+      - Server2
+      - Server3
+      - Server4
 
 
   - name: 🕊️Utama
@@ -94,18 +94,18 @@ proxy-groups:
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '50'
-    proxies:
-      - S1 💶
-      - S2 💴
-      - S3 💷
-      - S4 💵
+    use:
+      - Server1
+      - Server2
+      - Server3
+      - Server4
 
   - name: 🐘Cadangan
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '50'
-    proxies:
+    use:
       - 🐎CANADA
       - 🐎ROMANIA
       - 🐎FRANCIS
@@ -120,28 +120,28 @@ proxy-groups:
       #- 🐎SG HE 3
       
 # seleksi server 
-  - name: S1 💶 #1
+  - name: Server1
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '150'
     use:
       - Server1
-  - name: S2 💴 #2
+  - name: Server2
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '150'
     use:
       - Server2
-  - name: S3 💷 #3
+  - name: Server3
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '150'
     use:
       - Server3
-  - name: S4 💵 #4
+  - name: Server4
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
