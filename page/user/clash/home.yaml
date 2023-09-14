@@ -12,22 +12,22 @@ proxy-groups:
       - Server2
       - Server3
       - Server4
+      - 🐎INDONESIA
       - 🐎CANADA
       - 🐎ROMANIA
       - 🐎FRANCIS
       - 🐎THAILAND
       - 🐎NETHERLANDS
-      - 🐎US
+      - 🐎UNITED KINGDOM
 #      - 🐎TURKEY
       - 🐎GERMANY
-      - 🐎UNITED KINGDOM
-      - 🐎ID HERZA
       - 🐎SG AMP
       - 🐎SG MELBI
       - 🐎SG HE MUX
       - 🐎SG HE 1
       - 🐎SG HE 2
       - 🐎SG HE 3
+      - 🐎US
 
   - name: ADS💰
     type: select
