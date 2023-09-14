@@ -1,6 +1,100 @@
 proxies:
-########## CANADA ######
-  - name: Canada A
+########## CANADA Bagian 1 ######
+  - name: Canada Game
+    server: 104.19.142.89
+    port: 443
+    type: trojan
+    password: f4ea0ec0-5315-11ee-bc89-1239d0255272
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ca1.test3.net
+    udp: true
+  - name: Canada Sushiroll
+    server: www.sushiroll.co.id
+    port: 443
+    type: trojan
+    password: f4ea0ec0-5315-11ee-bc89-1239d0255272
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ca1.test3.net
+    udp: true
+  - name: Canada vidio
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: f4ea0ec0-5315-11ee-bc89-1239d0255272
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ca1.test3.net
+    udp: true
+  - name: Canada Multi SC
+    server: zendesk1.shopee.com
+    port: 443
+    type: trojan
+    password: f4ea0ec0-5315-11ee-bc89-1239d0255272
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ca1.test3.net
+    udp: true
+  - name: Canada Gaming
+    server: 104.16.108.96
+    port: 443
+    type: trojan
+    password: f4ea0ec0-5315-11ee-bc89-1239d0255272
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ca1.test3.net
+    udp: true
+  - name: Canada Multi Operator
+    server: layanan.ruangguru.com
+    port: 443
+    type: trojan
+    password: f4ea0ec0-5315-11ee-bc89-1239d0255272
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ca1.test3.net
+    udp: true
+  - name: Canada Opok
+    server: 104.17.58.20
+    port: 443
+    type: trojan
+    password: f4ea0ec0-5315-11ee-bc89-1239d0255272
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ca1.test3.net
+    udp: true
+
+#proxies:
+########## CANADA Bagian 2 ######
+  - name: Canada Game
     server: 104.19.142.89
     port: 443
     type: trojan
@@ -13,11 +107,11 @@ proxies:
       headers:
         Host: ca1.test3.net
     udp: true
-  - name: Canada B
+  - name: Canada Sushiroll
     server: www.sushiroll.co.id
     port: 443
     type: trojan
-    password: 92142d90-4b3b-11ee-8430-1239d0255272
+    password: a961a960-4b3a-11ee-a3ce-1239d0255272
     skip-cert-verify: true
     sni: ca1.test3.net
     network: ws
@@ -26,7 +120,7 @@ proxies:
       headers:
         Host: ca1.test3.net
     udp: true
-  - name: Canada C
+  - name: Canada vidio
     server: quiz.vidio.com
     port: 443
     type: trojan
@@ -39,7 +133,7 @@ proxies:
       headers:
         Host: ca1.test3.net
     udp: true
-  - name: Canada D
+  - name: Canada Multi SC
     server: zendesk1.shopee.com
     port: 443
     type: trojan
@@ -52,7 +146,7 @@ proxies:
       headers:
         Host: ca1.test3.net
     udp: true
-  - name: Canada E
+  - name: Canada Gaming
     server: 104.16.108.96
     port: 443
     type: trojan
@@ -65,11 +159,11 @@ proxies:
       headers:
         Host: ca1.test3.net
     udp: true
-  - name: Canada F
-    server: 104.17.58.20
+  - name: Canada Multi Operator
+    server: layanan.ruangguru.com
     port: 443
     type: trojan
-    password: 92142d90-4b3b-11ee-8430-1239d0255272
+    password: a961a960-4b3a-11ee-a3ce-1239d0255272
     skip-cert-verify: true
     sni: ca1.test3.net
     network: ws
@@ -78,11 +172,293 @@ proxies:
       headers:
         Host: ca1.test3.net
     udp: true
-  - name: Canada G
+  - name: Canada Opok
+    server: 104.17.58.20
+    port: 443
+    type: trojan
+    password: a961a960-4b3a-11ee-a3ce-1239d0255272
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ca1.test3.net
+    udp: true
+
+#proxies:
+########## CANADA Bagian 3 ######
+  - name: Canada Game
+    server: 104.19.142.89
+    port: 443
+    type: trojan
+    password: 6560e1e0-5316-11ee-8550-1239d0255272
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ca1.test3.net
+    udp: true
+  - name: Canada Sushiroll
+    server: www.sushiroll.co.id
+    port: 443
+    type: trojan
+    password: 6560e1e0-5316-11ee-8550-1239d0255272
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ca1.test3.net
+    udp: true
+  - name: Canada vidio
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: 6560e1e0-5316-11ee-8550-1239d0255272
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ca1.test3.net
+    udp: true
+  - name: Canada Multi SC
+    server: zendesk1.shopee.com
+    port: 443
+    type: trojan
+    password: 6560e1e0-5316-11ee-8550-1239d0255272
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ca1.test3.net
+    udp: true
+  - name: Canada Gaming
+    server: 104.16.108.96
+    port: 443
+    type: trojan
+    password: 6560e1e0-5316-11ee-8550-1239d0255272
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ca1.test3.net
+    udp: true
+  - name: Canada Multi Operator
     server: layanan.ruangguru.com
     port: 443
     type: trojan
-    password: 31cd3730-4b3f-11ee-969a-1239d0255272
+    password: 6560e1e0-5316-11ee-8550-1239d0255272
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ca1.test3.net
+    udp: true
+  - name: Canada Opok
+    server: 104.17.58.20
+    port: 443
+    type: trojan
+    password: 6560e1e0-5316-11ee-8550-1239d0255272
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ca1.test3.net
+    udp: true
+
+#proxies:
+########## CANADA Bagian 4 ######
+  - name: Canada Game
+    server: 104.19.142.89
+    port: 443
+    type: trojan
+    password: aad5db00-5316-11ee-8cb1-1239d0255272
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ca1.test3.net
+    udp: true
+  - name: Canada Sushiroll
+    server: www.sushiroll.co.id
+    port: 443
+    type: trojan
+    password: aad5db00-5316-11ee-8cb1-1239d0255272
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ca1.test3.net
+    udp: true
+  - name: Canada vidio
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: aad5db00-5316-11ee-8cb1-1239d0255272
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ca1.test3.net
+    udp: true
+  - name: Canada Multi SC
+    server: zendesk1.shopee.com
+    port: 443
+    type: trojan
+    password: aad5db00-5316-11ee-8cb1-1239d0255272
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ca1.test3.net
+    udp: true
+  - name: Canada Gaming
+    server: 104.16.108.96
+    port: 443
+    type: trojan
+    password: aad5db00-5316-11ee-8cb1-1239d0255272
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ca1.test3.net
+    udp: true
+  - name: Canada Multi Operator
+    server: layanan.ruangguru.com
+    port: 443
+    type: trojan
+    password: aad5db00-5316-11ee-8cb1-1239d0255272
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ca1.test3.net
+    udp: true
+  - name: Canada Opok
+    server: 104.17.58.20
+    port: 443
+    type: trojan
+    password: aad5db00-5316-11ee-8cb1-1239d0255272
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ca1.test3.net
+    udp: true
+
+#proxies:
+########## CANADA Bagian 5 ######
+  - name: Canada Game
+    server: 104.19.142.89
+    port: 443
+    type: trojan
+    password: ea0a35c0-5316-11ee-af61-1239d0255272
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ca1.test3.net
+    udp: true
+  - name: Canada Sushiroll
+    server: www.sushiroll.co.id
+    port: 443
+    type: trojan
+    password: ea0a35c0-5316-11ee-af61-1239d0255272
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ca1.test3.net
+    udp: true
+  - name: Canada vidio
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: ea0a35c0-5316-11ee-af61-1239d0255272
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ca1.test3.net
+    udp: true
+  - name: Canada Multi SC
+    server: zendesk1.shopee.com
+    port: 443
+    type: trojan
+    password: ea0a35c0-5316-11ee-af61-1239d0255272
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ca1.test3.net
+    udp: true
+  - name: Canada Gaming
+    server: 104.16.108.96
+    port: 443
+    type: trojan
+    password: ea0a35c0-5316-11ee-af61-1239d0255272
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ca1.test3.net
+    udp: true
+  - name: Canada Multi Operator
+    server: layanan.ruangguru.com
+    port: 443
+    type: trojan
+    password: ea0a35c0-5316-11ee-af61-1239d0255272
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ca1.test3.net
+    udp: true
+  - name: Canada Opok
+    server: 104.17.58.20
+    port: 443
+    type: trojan
+    password: ea0a35c0-5316-11ee-af61-1239d0255272
     skip-cert-verify: true
     sni: ca1.test3.net
     network: ws
