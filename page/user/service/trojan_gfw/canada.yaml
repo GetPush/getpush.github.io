@@ -1,6 +1,6 @@
 proxies:
-########## CANADA Bagian 1 ######
-  - name: Canada Game
+########## Bagian 1 ######
+  - name: Game
     server: 104.19.142.89
     port: 443
     type: trojan
@@ -13,7 +13,7 @@ proxies:
       headers:
         Host: ca1.test3.net
     udp: true
-  - name: Canada Sushiroll
+  - name: Sushiroll
     server: www.sushiroll.co.id
     port: 443
     type: trojan
@@ -26,7 +26,7 @@ proxies:
       headers:
         Host: ca1.test3.net
     udp: true
-  - name: Canada vidio
+  - name: vidio
     server: quiz.vidio.com
     port: 443
     type: trojan
@@ -39,7 +39,7 @@ proxies:
       headers:
         Host: ca1.test3.net
     udp: true
-  - name: Canada Multi SC
+  - name: Multi SC
     server: zendesk1.shopee.com
     port: 443
     type: trojan
@@ -52,7 +52,7 @@ proxies:
       headers:
         Host: ca1.test3.net
     udp: true
-  - name: Canada Gaming
+  - name: Gaming
     server: 104.16.108.96
     port: 443
     type: trojan
@@ -65,7 +65,7 @@ proxies:
       headers:
         Host: ca1.test3.net
     udp: true
-  - name: Canada Multi Operator
+  - name: Multi Operator
     server: layanan.ruangguru.com
     port: 443
     type: trojan
@@ -78,7 +78,7 @@ proxies:
       headers:
         Host: ca1.test3.net
     udp: true
-  - name: Canada Opok
+  - name: Opok
     server: 104.17.58.20
     port: 443
     type: trojan
@@ -93,8 +93,8 @@ proxies:
     udp: true
 
 #proxies:
-########## CANADA Bagian 2 ######
-  - name: Canada Game
+########## Bagian 2 ######
+  - name: Game
     server: 104.19.142.89
     port: 443
     type: trojan
@@ -107,7 +107,7 @@ proxies:
       headers:
         Host: ca1.test3.net
     udp: true
-  - name: Canada Sushiroll
+  - name: Sushiroll
     server: www.sushiroll.co.id
     port: 443
     type: trojan
@@ -120,7 +120,7 @@ proxies:
       headers:
         Host: ca1.test3.net
     udp: true
-  - name: Canada vidio
+  - name: vidio
     server: quiz.vidio.com
     port: 443
     type: trojan
@@ -133,7 +133,7 @@ proxies:
       headers:
         Host: ca1.test3.net
     udp: true
-  - name: Canada Multi SC
+  - name: Multi SC
     server: zendesk1.shopee.com
     port: 443
     type: trojan
@@ -146,7 +146,7 @@ proxies:
       headers:
         Host: ca1.test3.net
     udp: true
-  - name: Canada Gaming
+  - name: Gaming
     server: 104.16.108.96
     port: 443
     type: trojan
@@ -159,7 +159,7 @@ proxies:
       headers:
         Host: ca1.test3.net
     udp: true
-  - name: Canada Multi Operator
+  - name: Multi Operator
     server: layanan.ruangguru.com
     port: 443
     type: trojan
@@ -172,7 +172,7 @@ proxies:
       headers:
         Host: ca1.test3.net
     udp: true
-  - name: Canada Opok
+  - name: Opok
     server: 104.17.58.20
     port: 443
     type: trojan
@@ -187,8 +187,8 @@ proxies:
     udp: true
 
 #proxies:
-########## CANADA Bagian 3 ######
-  - name: Canada Game
+########## Bagian 3 ######
+  - name: Game
     server: 104.19.142.89
     port: 443
     type: trojan
@@ -201,7 +201,7 @@ proxies:
       headers:
         Host: ca1.test3.net
     udp: true
-  - name: Canada Sushiroll
+  - name: Sushiroll
     server: www.sushiroll.co.id
     port: 443
     type: trojan
@@ -214,7 +214,7 @@ proxies:
       headers:
         Host: ca1.test3.net
     udp: true
-  - name: Canada vidio
+  - name: vidio
     server: quiz.vidio.com
     port: 443
     type: trojan
@@ -227,7 +227,7 @@ proxies:
       headers:
         Host: ca1.test3.net
     udp: true
-  - name: Canada Multi SC
+  - name: Multi SC
     server: zendesk1.shopee.com
     port: 443
     type: trojan
@@ -240,7 +240,7 @@ proxies:
       headers:
         Host: ca1.test3.net
     udp: true
-  - name: Canada Gaming
+  - name: Gaming
     server: 104.16.108.96
     port: 443
     type: trojan
@@ -253,7 +253,7 @@ proxies:
       headers:
         Host: ca1.test3.net
     udp: true
-  - name: Canada Multi Operator
+  - name: Multi Operator
     server: layanan.ruangguru.com
     port: 443
     type: trojan
@@ -266,7 +266,7 @@ proxies:
       headers:
         Host: ca1.test3.net
     udp: true
-  - name: Canada Opok
+  - name: Opok
     server: 104.17.58.20
     port: 443
     type: trojan
@@ -281,8 +281,8 @@ proxies:
     udp: true
 
 #proxies:
-########## CANADA Bagian 4 ######
-  - name: Canada Game
+########## Bagian 4 ######
+  - name: Game
     server: 104.19.142.89
     port: 443
     type: trojan
@@ -295,7 +295,7 @@ proxies:
       headers:
         Host: ca1.test3.net
     udp: true
-  - name: Canada Sushiroll
+  - name: Sushiroll
     server: www.sushiroll.co.id
     port: 443
     type: trojan
@@ -308,7 +308,7 @@ proxies:
       headers:
         Host: ca1.test3.net
     udp: true
-  - name: Canada vidio
+  - name: vidio
     server: quiz.vidio.com
     port: 443
     type: trojan
@@ -321,7 +321,7 @@ proxies:
       headers:
         Host: ca1.test3.net
     udp: true
-  - name: Canada Multi SC
+  - name: Multi SC
     server: zendesk1.shopee.com
     port: 443
     type: trojan
@@ -334,7 +334,7 @@ proxies:
       headers:
         Host: ca1.test3.net
     udp: true
-  - name: Canada Gaming
+  - name: Gaming
     server: 104.16.108.96
     port: 443
     type: trojan
@@ -347,7 +347,7 @@ proxies:
       headers:
         Host: ca1.test3.net
     udp: true
-  - name: Canada Multi Operator
+  - name: Multi Operator
     server: layanan.ruangguru.com
     port: 443
     type: trojan
@@ -360,7 +360,7 @@ proxies:
       headers:
         Host: ca1.test3.net
     udp: true
-  - name: Canada Opok
+  - name: Opok
     server: 104.17.58.20
     port: 443
     type: trojan
@@ -375,8 +375,8 @@ proxies:
     udp: true
 
 #proxies:
-########## CANADA Bagian 5 ######
-  - name: Canada Game
+########## Bagian 5 ######
+  - name: Game
     server: 104.19.142.89
     port: 443
     type: trojan
@@ -389,7 +389,7 @@ proxies:
       headers:
         Host: ca1.test3.net
     udp: true
-  - name: Canada Sushiroll
+  - name: Sushiroll
     server: www.sushiroll.co.id
     port: 443
     type: trojan
@@ -402,7 +402,7 @@ proxies:
       headers:
         Host: ca1.test3.net
     udp: true
-  - name: Canada vidio
+  - name: vidio
     server: quiz.vidio.com
     port: 443
     type: trojan
@@ -415,7 +415,7 @@ proxies:
       headers:
         Host: ca1.test3.net
     udp: true
-  - name: Canada Multi SC
+  - name: Multi SC
     server: zendesk1.shopee.com
     port: 443
     type: trojan
@@ -428,7 +428,7 @@ proxies:
       headers:
         Host: ca1.test3.net
     udp: true
-  - name: Canada Gaming
+  - name: Gaming
     server: 104.16.108.96
     port: 443
     type: trojan
@@ -441,7 +441,7 @@ proxies:
       headers:
         Host: ca1.test3.net
     udp: true
-  - name: Canada Multi Operator
+  - name: Multi Operator
     server: layanan.ruangguru.com
     port: 443
     type: trojan
@@ -454,7 +454,7 @@ proxies:
       headers:
         Host: ca1.test3.net
     udp: true
-  - name: Canada Opok
+  - name: Opok
     server: 104.17.58.20
     port: 443
     type: trojan
