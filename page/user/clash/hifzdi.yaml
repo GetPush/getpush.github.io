@@ -4,30 +4,30 @@ proxy-groups:
     type: select
     proxies:
       - SEIMBANG
-      - PINDAH²
+      - Alternatif
       - BestPing
       - 🕊️Utama
       - 🐘Cadangan
-      - S1 💶
-      - S2 💴
-      - S3 💷
-      - S4 💵
+      - Server1
+      - Server2
+      - Server3
+      - Server4
+      - 🐎INDONESIA
       - 🐎CANADA
       - 🐎ROMANIA
       - 🐎FRANCIS
       - 🐎THAILAND
       - 🐎NETHERLANDS
-      - 🐎US
-      - 🐎TURKEY
-      - 🐎GERMANY
       - 🐎UNITED KINGDOM
-      - 🐎ID HERZA
+#      - 🐎TURKEY
+      - 🐎GERMANY
       - 🐎SG AMP
       - 🐎SG MELBI
       - 🐎SG HE MUX
       - 🐎SG HE 1
       - 🐎SG HE 2
       - 🐎SG HE 3
+      - 🐎US
 
   - name: ADS💰
     type: select
@@ -50,26 +50,26 @@ proxy-groups:
       - 🕊️Utama
       - 🐘Cadangan
 
-  - name: PINDAH²
+  - name: Alternatif
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '300'
     proxies:
-      - S1 💶
-      - S2 💴
-      - S3 💷
-      - S4 💵
+      - Server1
+      - Server2
+      - Server3
+      - Server4
       - 🐎CANADA
       - 🐎ROMANIA
       - 🐎FRANCIS
       - 🐎THAILAND
       - 🐎NETHERLANDS
       - 🐎US
-      - 🐎TURKEY
+#      - 🐎TURKEY
       - 🐎GERMANY
       - 🐎UNITED KINGDOM
-      - 🐎ID HERZA
+      - 🐎INDONESIA
       - 🐎SG AMP
       - 🐎SG MELBI
       - 🐎SG HE MUX
@@ -83,29 +83,29 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '300'
     proxies:
-      - S1 💶
-      - S2 💴
-      - S3 💷
-      - S4 💵
+      - Server1
+      - Server2
+      - Server3
+      - Server4
 
 
   - name: 🕊️Utama
-    type: url-test
+    type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '50'
-    proxies:
-      - S1 💶
-      - S2 💴
-      - S3 💷
-      - S4 💵
+    use:
+      - Server1
+      - Server2
+      - Server3
+      - Server4
 
   - name: 🐘Cadangan
-    type: url-test
+    type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '50'
-    proxies:
+    use:
       - 🐎CANADA
       - 🐎ROMANIA
       - 🐎FRANCIS
@@ -120,28 +120,28 @@ proxy-groups:
       #- 🐎SG HE 3
       
 # seleksi server 
-  - name: S1 💶 #1
+  - name: Server1
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '150'
     use:
       - Server1
-  - name: S2 💴 #2
+  - name: Server2
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '150'
     use:
       - Server2
-  - name: S3 💷 #3
+  - name: Server3
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '150'
     use:
       - Server3
-  - name: S4 💵 #4
+  - name: Server4
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
@@ -199,13 +199,13 @@ proxy-groups:
     interval: '150'
     use:
       - 🐎GERMANY
-  - name: 🐎TURKEY
-    type: fallback
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '150'
-    use:
-      - 🐎TURKEY
+#  - name: 🐎TURKEY
+#    type: fallback
+#    disable-udp: false
+#    url: http://www.gstatic.com/generate_204
+#    interval: '150'
+#    use:
+#      - 🐎TURKEY
   - name: 🐎UNITED KINGDOM
     type: fallback
     disable-udp: false
@@ -248,7 +248,7 @@ proxy-groups:
     interval: '150'
     use:
       - 🐎SG HE 1
-  - name: 🐎ID HERZA
+  - name: 🐎INDONESIA
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
@@ -308,13 +308,13 @@ proxy-providers:
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/canada.yaml"
      interval: 1200
-  🐎TURKEY: 
-     type: http 
-     path: ./🐎turkey.yaml 
-     health-check: 
-     enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/turkey.yaml"
-     interval: 1200
+#  🐎TURKEY: 
+#     type: http 
+#     path: ./🐎turkey.yaml 
+#     health-check: 
+#     enable: true 
+#     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/turkey.yaml"
+#     interval: 1200
   🐎GERMANY: 
      type: http 
      path: ./🐎germany.yaml 
@@ -596,11 +596,12 @@ profile:
   store-fake-ip: true
 
 rules:
-- DOMAIN-SUFFIX,github.com,PINDAH²
-- DOMAIN-SUFFIX,api.github.com,PINDAH²
-- DOMAIN-SUFFIX,avatars.githubusercontent.com,PINDAH²
-- DOMAIN-SUFFIX,raw.githubusercontent.com,PINDAH²
-- DOMAIN-SUFFIX,toppayofficial.vercel.app,PINDAH²
+- DOMAIN-SUFFIX,safefileku.com,Alternatif
+- DOMAIN-SUFFIX,github.com,Alternatif
+- DOMAIN-SUFFIX,api.github.com,Alternatif
+- DOMAIN-SUFFIX,avatars.githubusercontent.com,Alternatif
+- DOMAIN-SUFFIX,raw.githubusercontent.com,Alternatif
+- DOMAIN-SUFFIX,toppayofficial.vercel.app,Alternatif
 - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
 - PROCESS-NAME,v2ray,DIRECT
 - PROCESS-NAME,xray,DIRECT
