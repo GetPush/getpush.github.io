@@ -750,7 +750,7 @@ proxies:
     servername: sg3-v2ray.sshkit.org
     network: ws
     ws-opts:
-      path: wss//corona.jakarta.go.id/sshkit/1828396894/64eabbd0cbd88/
+      path: wss://corona.jakarta.go.id/sshkit/1828396894/64eabbd0cbd88/
       headers:
         Host: sg3-v2ray.sshkit.org
     udp: true
@@ -768,7 +768,7 @@ proxies:
     servername: sg3-v2ray.sshkit.org
     network: ws
     ws-opts:
-      path: wss//covid19.go.id/sshkit/1828396894/64eabbd0cbd88/
+      path: wss://covid19.go.id/sshkit/1828396894/64eabbd0cbd88/
       headers:
         Host: sg3-v2ray.sshkit.org
     udp: true
