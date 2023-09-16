@@ -1,6 +1,6 @@
 proxies:
 ########## Bagian 1 ######
-  - name: Canada Game
+  - name: Canada game
     server: 104.19.142.89
     port: 443
     type: trojan
@@ -13,46 +13,7 @@ proxies:
       headers:
         Host: ca1.test3.net
     udp: true
-  - name: Canada Sushiroll
-    server: www.sushiroll.co.id
-    port: 443
-    type: trojan
-    password: f4ea0ec0-5315-11ee-bc89-1239d0255272
-    skip-cert-verify: true
-    sni: ca1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: ca1.test3.net
-    udp: true
-  - name: Canada vidio
-    server: quiz.vidio.com
-    port: 443
-    type: trojan
-    password: f4ea0ec0-5315-11ee-bc89-1239d0255272
-    skip-cert-verify: true
-    sni: ca1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: ca1.test3.net
-    udp: true
-  - name: Canada Multi SC
-    server: zendesk1.shopee.com
-    port: 443
-    type: trojan
-    password: f4ea0ec0-5315-11ee-bc89-1239d0255272
-    skip-cert-verify: true
-    sni: ca1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: ca1.test3.net
-    udp: true
-  - name: Canada Gaming
+  - name: Canada gaming
     server: 104.16.108.96
     port: 443
     type: trojan
@@ -65,32 +26,728 @@ proxies:
       headers:
         Host: ca1.test3.net
     udp: true
-  - name: Canada Multi Operator
+  - name: Canada games
+    server: 104.18.20.94
+    port: 443
+    type: trojan
+    password: f4ea0ec0-5315-11ee-bc89-1239d0255272
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ca1.test3.net
+    udp: true
+  - name: Canada sushiroll
+    server: www.sushiroll.co.id 
+    port: 80
+    type: vmess 
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3 
+    alterId: 0 
+    cipher: auto 
+    tls: false 
+    skip-cert-verify: true 
+    servername: sg1-v2ray.sshkit.org 
+    network: ws 
+    ws-opts: 
+      path: /sshkit/1828396894/64eabb881b2bc/
+      headers: 
+        Host: sg1-v2ray.sshkit.org 
+    udp: true
+  - name: Canada vidio
+    server: quiz.vidio.com
+    port: 80
+    type: vmess 
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3 
+    alterId: 0 
+    cipher: auto 
+    tls: false 
+    skip-cert-verify: true 
+    servername: sg1-v2ray.sshkit.org 
+    network: ws 
+    ws-opts: 
+      path: /sshkit/1828396894/64eabb881b2bc/
+      headers: 
+        Host: sg1-v2ray.sshkit.org 
+    udp: true
+  - name: Canada multi sc
+    server: zendesk1.shopee.com
+    port: 80
+    type: vmess 
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3 
+    alterId: 0 
+    cipher: auto 
+    tls: false 
+    skip-cert-verify: true 
+    servername: sg1-v2ray.sshkit.org 
+    network: ws 
+    ws-opts: 
+      path: /sshkit/1828396894/64eabb881b2bc/
+      headers: 
+        Host: sg1-v2ray.sshkit.org 
+    udp: true
+  - name: Canada multi operator
     server: layanan.ruangguru.com
-    port: 443
-    type: trojan
-    password: f4ea0ec0-5315-11ee-bc89-1239d0255272
-    skip-cert-verify: true
-    sni: ca1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: ca1.test3.net
+    port: 80
+    type: vmess 
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0 
+    cipher: auto 
+    tls: false 
+    skip-cert-verify: true 
+    servername: sg1-v2ray.sshkit.org 
+    network: ws 
+    ws-opts: 
+      path: /sshkit/1828396894/64eabb881b2bc/
+      headers: 
+        Host: sg1-v2ray.sshkit.org 
     udp: true
-  - name: Canada Opok
+  - name: Canada axis opok
     server: 104.17.58.20
+    port: 80
+    type: vmess 
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0 
+    cipher: auto 
+    tls: false 
+    skip-cert-verify: true 
+    servername: sg1-v2ray.sshkit.org 
+    network: ws 
+    ws-opts: 
+      path: /sshkit/1828396894/64eabb881b2bc/
+      headers: 
+        Host: sg1-v2ray.sshkit.org 
+    udp: true
+  - name: Canada axis xl opok
+    server: 104.17.58.20
+    port: 80
+    type: vmess 
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0 
+    cipher: auto 
+    tls: false 
+    skip-cert-verify: true 
+    servername: sg1-v2ray.sshkit.org 
+    network: ws 
+    ws-opts: 
+      path: /sshkit/1828396894/64eabb881b2bc/
+      headers: 
+        Host: sg1-v2ray.sshkit.org 
+    udp: true
+  - name: Canada xl opok
+    server: 104.18.12.65
+    port: 80
+    type: vmess 
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0 
+    cipher: auto 
+    tls: false 
+    skip-cert-verify: true 
+    servername: sg1-v2ray.sshkit.org 
+    network: ws 
+    ws-opts: 
+      path: /sshkit/1828396894/64eabb881b2bc/
+      headers: 
+        Host: sg1-v2ray.sshkit.org 
+    udp: true
+  - name: Canada musik spotify
+    server: investors.spotify.com
+    port: 80
+    type: vmess 
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0 
+    cipher: auto 
+    tls: false 
+    skip-cert-verify: true 
+    servername: sg1-v2ray.sshkit.org 
+    network: ws 
+    ws-opts: 
+      path: /sshkit/1828396894/64eabb881b2bc/
+      headers: 
+        Host: sg1-v2ray.sshkit.org 
+    udp: true
+  - name: Canada tsel multimedia
+    server: investors.spotify.com
+    port: 80
+    type: vmess 
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0 
+    cipher: auto 
+    tls: false 
+    skip-cert-verify: true 
+    servername: sg1-v2ray.sshkit.org 
+    network: ws 
+    ws-opts: 
+      path: /sshkit/1828396894/64eabb881b2bc/
+      headers: 
+        Host: sg1-v2ray.sshkit.org 
+    udp: true
+  - name: Canada XL Stream Live On1
+    server: investors.spotify.com
+    port: 80
+    type: vmess 
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0 
+    cipher: auto 
+    tls: false 
+    skip-cert-verify: true 
+    servername: sg1-v2ray.sshkit.org 
+    network: ws 
+    ws-opts: 
+      path: /sshkit/1828396894/64eabb881b2bc/
+      headers: 
+        Host: sg1-v2ray.sshkit.org 
+    udp: true
+  - name: Canada conference1
+    server: 104.16.53.111
+    port: 80
+    type: vmess 
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0 
+    cipher: auto 
+    tls: false 
+    skip-cert-verify: true 
+    servername: sg1-v2ray.sshkit.org 
+    network: ws 
+    ws-opts: 
+      path: /sshkit/1828396894/64eabb881b2bc/
+      headers: 
+        Host: sg1-v2ray.sshkit.org 
+    udp: true
+  - name: Canada xl WA Line Flex1
+    server: 104.16.53.111
+    port: 80
+    type: vmess 
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0 
+    cipher: auto 
+    tls: false 
+    skip-cert-verify: true 
+    servername: sg1-v2ray.sshkit.org 
+    network: ws 
+    ws-opts: 
+      path: /sshkit/1828396894/64eabb881b2bc/
+      headers: 
+        Host: sg1-v2ray.sshkit.org 
+    udp: true
+  - name: Canada akrab4
+    server: 104.16.53.111
+    port: 80
+    type: vmess 
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0 
+    cipher: auto 
+    tls: false 
+    skip-cert-verify: true 
+    servername: sg1-v2ray.sshkit.org 
+    network: ws 
+    ws-opts: 
+      path: /sshkit/1828396894/64eabb881b2bc/
+      headers: 
+        Host: sg1-v2ray.sshkit.org 
+    udp: true
+  - name: Canada conference2
+    server: blogs.microsoft.com
+    port: 80
+    type: vmess 
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0 
+    cipher: auto 
+    tls: false 
+    skip-cert-verify: true 
+    servername: sg1-v2ray.sshkit.org 
+    network: ws 
+    ws-opts: 
+      path: /sshkit/1828396894/64eabb881b2bc/
+      headers: 
+        Host: sg1-v2ray.sshkit.org 
+    udp: true
+  - name: Canada akrab5
+    server: blogs.microsoft.com
+    port: 80
+    type: vmess 
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0 
+    cipher: auto 
+    tls: false 
+    skip-cert-verify: true 
+    servername: sg1-v2ray.sshkit.org 
+    network: ws 
+    ws-opts: 
+      path: /sshkit/1828396894/64eabb881b2bc/
+      headers: 
+        Host: sg1-v2ray.sshkit.org 
+    udp: true
+  - name: Canada edukasi1
+    server: 104.17.3.81
+    port: 80
+    type: vmess 
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0 
+    cipher: auto 
+    tls: false 
+    skip-cert-verify: true 
+    servername: sg1-v2ray.sshkit.org 
+    network: ws 
+    ws-opts: 
+      path: /sshkit/1828396894/64eabb881b2bc/
+      headers: 
+        Host: sg1-v2ray.sshkit.org 
+    udp: true
+  - name: Canada akrab1
+    server: 104.17.3.81
+    port: 80
+    type: vmess 
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0 
+    cipher: auto 
+    tls: false 
+    skip-cert-verify: true 
+    servername: sg1-v2ray.sshkit.org 
+    network: ws 
+    ws-opts: 
+      path: /sshkit/1828396894/64eabb881b2bc/
+      headers: 
+        Host: sg1-v2ray.sshkit.org 
+    udp: true
+  - name: Canada edukasi2
+    server: 104.20.75.141
+    port: 80
+    type: vmess 
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0 
+    cipher: auto 
+    tls: false 
+    skip-cert-verify: true 
+    servername: sg1-v2ray.sshkit.org 
+    network: ws 
+    ws-opts: 
+      path: /sshkit/1828396894/64eabb881b2bc/
+      headers: 
+        Host: sg1-v2ray.sshkit.org 
+    udp: true
+  - name: Canada akrab2
+    server: 104.20.75.141
+    port: 80
+    type: vmess 
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0 
+    cipher: auto 
+    tls: false 
+    skip-cert-verify: true 
+    servername: sg1-v2ray.sshkit.org 
+    network: ws 
+    ws-opts: 
+      path: /sshkit/1828396894/64eabb881b2bc/
+      headers: 
+        Host: sg1-v2ray.sshkit.org 
+    udp: true
+  - name: Canada edukasi3
+    server: 104.18.21.226
+    port: 80
+    type: vmess 
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0 
+    cipher: auto 
+    tls: false 
+    skip-cert-verify: true 
+    servername: sg1-v2ray.sshkit.org 
+    network: ws 
+    ws-opts: 
+      path: /sshkit/1828396894/64eabb881b2bc/
+      headers: 
+        Host: sg1-v2ray.sshkit.org 
+    udp: true
+  - name: Canada akrab3
+    server: 104.18.21.226
+    port: 80
+    type: vmess 
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0 
+    cipher: auto 
+    tls: false 
+    skip-cert-verify: true 
+    servername: sg1-v2ray.sshkit.org 
+    network: ws 
+    ws-opts: 
+      path: /sshkit/1828396894/64eabb881b2bc/
+      headers: 
+        Host: sg1-v2ray.sshkit.org 
+    udp: true
+  - name: Canada video Netflix1
+    server: npca.netflix.com
+    port: 80
+    type: vmess 
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0 
+    cipher: auto 
+    tls: false 
+    skip-cert-verify: true 
+    servername: sg1-v2ray.sshkit.org 
+    network: ws 
+    ws-opts: 
+      path: /sshkit/1828396894/64eabb881b2bc/
+      headers: 
+        Host: sg1-v2ray.sshkit.org 
+    udp: true
+  - name: Canada XL Stream Live On2
+    server: npca.netflix.com
+    port: 80
+    type: vmess 
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0 
+    cipher: auto 
+    tls: false 
+    skip-cert-verify: true 
+    servername: sg1-v2ray.sshkit.org 
+    network: ws 
+    ws-opts: 
+      path: /sshkit/1828396894/64eabb881b2bc/
+      headers: 
+        Host: sg1-v2ray.sshkit.org 
+    udp: true
+  - name: Canada Tsel OMG Nonton
+    server: npca.netflix.com
+    port: 80
+    type: vmess 
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0 
+    cipher: auto 
+    tls: false 
+    skip-cert-verify: true 
+    servername: sg1-v2ray.sshkit.org 
+    network: ws 
+    ws-opts: 
+      path: /sshkit/1828396894/64eabb881b2bc/
+      headers: 
+        Host: sg1-v2ray.sshkit.org 
+    udp: true
+  - name: Canada video Netflix2
+    server: updates.netflix.com
+    port: 80
+    type: vmess 
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0 
+    cipher: auto 
+    tls: false 
+    skip-cert-verify: true 
+    servername: sg1-v2ray.sshkit.org 
+    network: ws 
+    ws-opts: 
+      path: /sshkit/1828396894/64eabb881b2bc/
+      headers: 
+        Host: sg1-v2ray.sshkit.org 
+    udp: true
+  - name: Canada xl vision1
+    server: 104.21.235.172
+    port: 80
+    type: vmess 
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0 
+    cipher: auto 
+    tls: false 
+    skip-cert-verify: true 
+    servername: sg1-v2ray.sshkit.org 
+    network: ws 
+    ws-opts: 
+      path: /sshkit/1828396894/64eabb881b2bc/
+      headers: 
+        Host: sg1-v2ray.sshkit.org 
+    udp: true
+  - name: Canada xl vision2
+    server: sb.scorecardresearch.com
+    port: 80
+    type: vmess 
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0 
+    cipher: auto 
+    tls: false 
+    skip-cert-verify: true 
+    servername: sg1-v2ray.sshkit.org 
+    network: ws 
+    ws-opts: 
+      path: /sshkit/1828396894/64eabb881b2bc/
+      headers: 
+        Host: sg1-v2ray.sshkit.org 
+    udp: true
+  - name: Canada xl WA Line Flex3
+    server: sogood.linefriends.com
+    port: 80
+    type: vmess 
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0 
+    cipher: auto 
+    tls: false 
+    skip-cert-verify: true 
+    servername: sg1-v2ray.sshkit.org 
+    network: ws 
+    ws-opts: 
+      path: /sshkit/1828396894/64eabb881b2bc/
+      headers: 
+        Host: sg1-v2ray.sshkit.org 
+    udp: true
+  - name: Canada Smartfren chat1
+    server: sogood.linefriends.com
+    port: 80
+    type: vmess 
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0 
+    cipher: auto 
+    tls: false 
+    skip-cert-verify: true 
+    servername: sg1-v2ray.sshkit.org 
+    network: ws 
+    ws-opts: 
+      path: /sshkit/1828396894/64eabb881b2bc/
+      headers: 
+        Host: sg1-v2ray.sshkit.org 
+    udp: true
+  - name: Canada Indosat opok1
+    server: 172.67.70.101
+    port: 80
+    type: vmess 
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0 
+    cipher: auto 
+    tls: false 
+    skip-cert-verify: true 
+    servername: sg1-v2ray.sshkit.org 
+    network: ws 
+    ws-opts: 
+      path: /sshkit/1828396894/64eabb881b2bc/
+      headers: 
+        Host: sg1-v2ray.sshkit.org 
+    udp: true
+  - name: Canada Tri Edukasi
+    server: udemy.com
+    port: 80
+    type: vmess 
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0 
+    cipher: auto 
+    tls: false 
+    skip-cert-verify: true 
+    servername: sg1-v2ray.sshkit.org 
+    network: ws 
+    ws-opts: 
+      path: /sshkit/1828396894/64eabb881b2bc/
+      headers: 
+        Host: sg1-v2ray.sshkit.org 
+    udp: true
+  - name: Canada Indosat Edukasi1
+    server: udemy.com
+    port: 80
+    type: vmess 
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0 
+    cipher: auto 
+    tls: false 
+    skip-cert-verify: true 
+    servername: sg1-v2ray.sshkit.org 
+    network: ws 
+    ws-opts: 
+      path: /sshkit/1828396894/64eabb881b2bc/
+      headers: 
+        Host: sg1-v2ray.sshkit.org 
+    udp: true
+  - name: Canada Indosat Edukasi2
+    server: 104.18.24.139
+    port: 80
+    type: vmess 
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0 
+    cipher: auto 
+    tls: false 
+    skip-cert-verify: true 
+    servername: sg1-v2ray.sshkit.org 
+    network: ws 
+    ws-opts: 
+      path: /sshkit/1828396894/64eabb881b2bc/
+      headers: 
+        Host: sg1-v2ray.sshkit.org 
+    udp: true
+  - name: Canada Tsel ByU GGWP
+    server: 104.19.143.108
+    port: 80
+    type: vmess 
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0 
+    cipher: auto 
+    tls: false 
+    skip-cert-verify: true 
+    servername: sg1-v2ray.sshkit.org 
+    network: ws 
+    ws-opts: 
+      path: /sshkit/1828396894/64eabb881b2bc/
+      headers: 
+        Host: sg1-v2ray.sshkit.org 
+    udp: true
+  - name: Canada Tsel Gamemax2
+    server: 104.19.143.108
+    port: 80
+    type: vmess 
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0 
+    cipher: auto 
+    tls: false 
+    skip-cert-verify: true 
+    servername: sg1-v2ray.sshkit.org 
+    network: ws 
+    ws-opts: 
+      path: /sshkit/1828396894/64eabb881b2bc/
+      headers: 
+        Host: sg1-v2ray.sshkit.org 
+    udp: true
+  - name: Canada Tsel Gamemax1
+    server: cf-vod.nimo.tv
+    port: 80
+    type: vmess 
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0 
+    cipher: auto 
+    tls: false 
+    skip-cert-verify: true 
+    servername: sg1-v2ray.sshkit.org 
+    network: ws 
+    ws-opts: 
+      path: /sshkit/1828396894/64eabb881b2bc/
+      headers: 
+        Host: sg1-v2ray.sshkit.org 
+    udp: true
+  - name: Canada Tsel Gamemax3
+    server: 104.18.13.120
+    port: 80
+    type: vmess 
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0 
+    cipher: auto 
+    tls: false 
+    skip-cert-verify: true 
+    servername: sg1-v2ray.sshkit.org 
+    network: ws 
+    ws-opts: 
+      path: /sshkit/1828396894/64eabb881b2bc/
+      headers: 
+        Host: sg1-v2ray.sshkit.org 
+    udp: true
+  - name: Canada Smartfren Edukasi
+    server: 104.18.2.2
+    port: 80
+    type: vmess 
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0 
+    cipher: auto 
+    tls: false 
+    skip-cert-verify: true 
+    servername: sg1-v2ray.sshkit.org 
+    network: ws 
+    ws-opts: 
+      path: /sshkit/1828396894/64eabb881b2bc/
+      headers: 
+        Host: sg1-v2ray.sshkit.org 
+    udp: true
+  - name: Canada Tsel ByU Edukasi
+    server: 104.18.2.2
+    port: 80
+    type: vmess 
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0 
+    cipher: auto 
+    tls: false 
+    skip-cert-verify: true 
+    servername: sg1-v2ray.sshkit.org 
+    network: ws 
+    ws-opts: 
+      path: /sshkit/1828396894/64eabb881b2bc/
+      headers: 
+        Host: sg1-v2ray.sshkit.org 
+    udp: true
+  - name: Canada Tsel Ilped KB1
+    server: 104.18.2.2
+    port: 80
+    type: vmess 
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0 
+    cipher: auto 
+    tls: false 
+    skip-cert-verify: true 
+    servername: sg1-v2ray.sshkit.org 
+    network: ws 
+    ws-opts: 
+      path: /sshkit/1828396894/64eabb881b2bc/
+      headers: 
+        Host: sg1-v2ray.sshkit.org 
+    udp: true
+  - name: Canada Tsel Ilped KB2
+    server: 104.18.24.139
+    port: 80
+    type: vmess 
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0 
+    cipher: auto 
+    tls: false 
+    skip-cert-verify: true 
+    servername: sg1-v2ray.sshkit.org 
+    network: ws 
+    ws-opts: 
+      path: /sshkit/1828396894/64eabb881b2bc/
+      headers: 
+        Host: sg1-v2ray.sshkit.org 
+    udp: true
+  - name: Canada Tsel Ilped KB3
+    server: 104.22.24.131
+    port: 80
+    type: vmess 
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0 
+    cipher: auto 
+    tls: false 
+    skip-cert-verify: true 
+    servername: sg1-v2ray.sshkit.org 
+    network: ws 
+    ws-opts: 
+      path: /sshkit/1828396894/64eabb881b2bc/
+      headers: 
+        Host: sg1-v2ray.sshkit.org 
+    udp: true
+#### SNI
+  - name: Tsel byu opok unli
+    server: 162.159.138.78
     port: 443
-    type: trojan
-    password: f4ea0ec0-5315-11ee-bc89-1239d0255272
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: ca1.test3.net
+    servername: sg1-v2ray.sshkit.org
     network: ws
     ws-opts:
-      path: /howdy
+      path: /sshkit/1828396894/64eabb881b2bc/
       headers:
-        Host: ca1.test3.net
+        Host: space.byu.id
     udp: true
+    max-early-data: 2048
+    early-data-header-name: Sec-WebSocket-Protocol
+  - name: Tsel isat opok1
+    server: corona.jakarta.go.id
+    port: 443
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/64eabb881b2bc/
+      headers:
+        Host: corona.jakarta.go.id
+    udp: true
+    max-early-data: 2048
+    early-data-header-name: Sec-WebSocket-Protocol
 
 #proxies:
 ########## Bagian 2 ######
