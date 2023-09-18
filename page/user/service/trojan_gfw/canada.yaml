@@ -3065,32 +3065,3 @@ proxies:
       headers:
         Host: ca1.test3.net
     udp: true
-##################### SNI ##############
-  - name: Tsel byu opok unli
-    server: 162.159.138.78
-    port: 443
-    type: trojan
-    password: ea0a35c0-5316-11ee-af61-1239d0255272
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ca1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: space.byu.id
-    udp: true
-    max-early-data: 2048
-    early-data-header-name: Sec-WebSocket-Protocol
-  - name: Tsel isat opok1
-    server: ca1.test3.net
-    port: 443
-    password: ea0a35c0-5316-11ee-af61-1239d0255272
-    udp: true
-    sni: corona.jakarta.go.id
-    alpn:
-      - h2
-      - http/1.1
-    skip-cert-verify: true
