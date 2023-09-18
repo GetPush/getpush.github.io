@@ -1,5 +1,5 @@
 proxies:
-########## Bagian 1 ######
+#################### Bagian 1 ##################
   - name: Canada game
     server: 104.19.142.89
     port: 443
@@ -43,7 +43,7 @@ proxies:
     server: www.sushiroll.co.id 
     port: 80
     type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3 
+    uuid: f4ea0ec0-5315-11ee-bc89-1239d0255272
     alterId: 0 
     cipher: auto 
     tls: false 
@@ -51,7 +51,7 @@ proxies:
     servername: ca1.test3.net 
     network: ws 
     ws-opts: 
-      path: /sshkit/1828396894/64eabb881b2bc/
+      path: /howdy
       headers: 
         Host: ca1.test3.net 
     udp: true
@@ -59,7 +59,7 @@ proxies:
     server: quiz.vidio.com
     port: 80
     type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3 
+    uuid: f4ea0ec0-5315-11ee-bc89-1239d0255272
     alterId: 0 
     cipher: auto 
     tls: false 
@@ -67,7 +67,7 @@ proxies:
     servername: ca1.test3.net 
     network: ws 
     ws-opts: 
-      path: /sshkit/1828396894/64eabb881b2bc/
+      path: /howdy
       headers: 
         Host: ca1.test3.net 
     udp: true
@@ -75,7 +75,7 @@ proxies:
     server: zendesk1.shopee.com
     port: 80
     type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3 
+    uuid: f4ea0ec0-5315-11ee-bc89-1239d0255272
     alterId: 0 
     cipher: auto 
     tls: false 
@@ -83,7 +83,7 @@ proxies:
     servername: ca1.test3.net 
     network: ws 
     ws-opts: 
-      path: /sshkit/1828396894/64eabb881b2bc/
+      path: /howdy
       headers: 
         Host: ca1.test3.net 
     udp: true
@@ -99,7 +99,7 @@ proxies:
     servername: ca1.test3.net 
     network: ws 
     ws-opts: 
-      path: /sshkit/1828396894/64eabb881b2bc/
+      path: /howdy
       headers: 
         Host: ca1.test3.net 
     udp: true
@@ -115,7 +115,7 @@ proxies:
     servername: ca1.test3.net 
     network: ws 
     ws-opts: 
-      path: /sshkit/1828396894/64eabb881b2bc/
+      path: /howdy
       headers: 
         Host: ca1.test3.net 
     udp: true
@@ -131,7 +131,7 @@ proxies:
     servername: ca1.test3.net 
     network: ws 
     ws-opts: 
-      path: /sshkit/1828396894/64eabb881b2bc/
+      path: /howdy
       headers: 
         Host: ca1.test3.net 
     udp: true
@@ -147,7 +147,7 @@ proxies:
     servername: ca1.test3.net 
     network: ws 
     ws-opts: 
-      path: /sshkit/1828396894/64eabb881b2bc/
+      path: /howdy
       headers: 
         Host: ca1.test3.net 
     udp: true
@@ -163,7 +163,7 @@ proxies:
     servername: ca1.test3.net 
     network: ws 
     ws-opts: 
-      path: /sshkit/1828396894/64eabb881b2bc/
+      path: /howdy
       headers: 
         Host: ca1.test3.net 
     udp: true
@@ -179,7 +179,7 @@ proxies:
     servername: ca1.test3.net 
     network: ws 
     ws-opts: 
-      path: /sshkit/1828396894/64eabb881b2bc/
+      path: /howdy
       headers: 
         Host: ca1.test3.net 
     udp: true
@@ -195,7 +195,7 @@ proxies:
     servername: ca1.test3.net 
     network: ws 
     ws-opts: 
-      path: /sshkit/1828396894/64eabb881b2bc/
+      path: /howdy
       headers: 
         Host: ca1.test3.net 
     udp: true
@@ -211,7 +211,7 @@ proxies:
     servername: ca1.test3.net 
     network: ws 
     ws-opts: 
-      path: /sshkit/1828396894/64eabb881b2bc/
+      path: /howdy
       headers: 
         Host: ca1.test3.net 
     udp: true
@@ -227,7 +227,7 @@ proxies:
     servername: ca1.test3.net 
     network: ws 
     ws-opts: 
-      path: /sshkit/1828396894/64eabb881b2bc/
+      path: /howdy
       headers: 
         Host: ca1.test3.net 
     udp: true
@@ -243,7 +243,7 @@ proxies:
     servername: ca1.test3.net 
     network: ws 
     ws-opts: 
-      path: /sshkit/1828396894/64eabb881b2bc/
+      path: /howdy
       headers: 
         Host: ca1.test3.net 
     udp: true
@@ -259,7 +259,7 @@ proxies:
     servername: ca1.test3.net 
     network: ws 
     ws-opts: 
-      path: /sshkit/1828396894/64eabb881b2bc/
+      path: /howdy
       headers: 
         Host: ca1.test3.net 
     udp: true
@@ -275,7 +275,7 @@ proxies:
     servername: ca1.test3.net 
     network: ws 
     ws-opts: 
-      path: /sshkit/1828396894/64eabb881b2bc/
+      path: /howdy
       headers: 
         Host: ca1.test3.net 
     udp: true
@@ -291,7 +291,7 @@ proxies:
     servername: ca1.test3.net 
     network: ws 
     ws-opts: 
-      path: /sshkit/1828396894/64eabb881b2bc/
+      path: /howdy
       headers: 
         Host: ca1.test3.net 
     udp: true
@@ -307,7 +307,7 @@ proxies:
     servername: ca1.test3.net 
     network: ws 
     ws-opts: 
-      path: /sshkit/1828396894/64eabb881b2bc/
+      path: /howdy
       headers: 
         Host: ca1.test3.net 
     udp: true
@@ -323,7 +323,7 @@ proxies:
     servername: ca1.test3.net 
     network: ws 
     ws-opts: 
-      path: /sshkit/1828396894/64eabb881b2bc/
+      path: /howdy
       headers: 
         Host: ca1.test3.net 
     udp: true
@@ -339,7 +339,7 @@ proxies:
     servername: ca1.test3.net 
     network: ws 
     ws-opts: 
-      path: /sshkit/1828396894/64eabb881b2bc/
+      path: /howdy
       headers: 
         Host: ca1.test3.net 
     udp: true
@@ -355,7 +355,7 @@ proxies:
     servername: ca1.test3.net 
     network: ws 
     ws-opts: 
-      path: /sshkit/1828396894/64eabb881b2bc/
+      path: /howdy
       headers: 
         Host: ca1.test3.net 
     udp: true
@@ -371,7 +371,7 @@ proxies:
     servername: ca1.test3.net 
     network: ws 
     ws-opts: 
-      path: /sshkit/1828396894/64eabb881b2bc/
+      path: /howdy
       headers: 
         Host: ca1.test3.net 
     udp: true
@@ -387,7 +387,7 @@ proxies:
     servername: ca1.test3.net 
     network: ws 
     ws-opts: 
-      path: /sshkit/1828396894/64eabb881b2bc/
+      path: /howdy
       headers: 
         Host: ca1.test3.net 
     udp: true
@@ -403,7 +403,7 @@ proxies:
     servername: ca1.test3.net 
     network: ws 
     ws-opts: 
-      path: /sshkit/1828396894/64eabb881b2bc/
+      path: /howdy
       headers: 
         Host: ca1.test3.net 
     udp: true
@@ -419,7 +419,7 @@ proxies:
     servername: ca1.test3.net 
     network: ws 
     ws-opts: 
-      path: /sshkit/1828396894/64eabb881b2bc/
+      path: /howdy
       headers: 
         Host: ca1.test3.net 
     udp: true
@@ -435,7 +435,7 @@ proxies:
     servername: ca1.test3.net 
     network: ws 
     ws-opts: 
-      path: /sshkit/1828396894/64eabb881b2bc/
+      path: /howdy
       headers: 
         Host: ca1.test3.net 
     udp: true
@@ -451,7 +451,7 @@ proxies:
     servername: ca1.test3.net 
     network: ws 
     ws-opts: 
-      path: /sshkit/1828396894/64eabb881b2bc/
+      path: /howdy
       headers: 
         Host: ca1.test3.net 
     udp: true
@@ -467,7 +467,7 @@ proxies:
     servername: ca1.test3.net 
     network: ws 
     ws-opts: 
-      path: /sshkit/1828396894/64eabb881b2bc/
+      path: /howdy
       headers: 
         Host: ca1.test3.net 
     udp: true
@@ -483,7 +483,7 @@ proxies:
     servername: ca1.test3.net 
     network: ws 
     ws-opts: 
-      path: /sshkit/1828396894/64eabb881b2bc/
+      path: /howdy
       headers: 
         Host: ca1.test3.net 
     udp: true
@@ -499,7 +499,7 @@ proxies:
     servername: ca1.test3.net 
     network: ws 
     ws-opts: 
-      path: /sshkit/1828396894/64eabb881b2bc/
+      path: /howdy
       headers: 
         Host: ca1.test3.net 
     udp: true
@@ -515,7 +515,7 @@ proxies:
     servername: ca1.test3.net 
     network: ws 
     ws-opts: 
-      path: /sshkit/1828396894/64eabb881b2bc/
+      path: /howdy
       headers: 
         Host: ca1.test3.net 
     udp: true
@@ -531,7 +531,7 @@ proxies:
     servername: ca1.test3.net 
     network: ws 
     ws-opts: 
-      path: /sshkit/1828396894/64eabb881b2bc/
+      path: /howdy
       headers: 
         Host: ca1.test3.net 
     udp: true
@@ -547,7 +547,7 @@ proxies:
     servername: ca1.test3.net 
     network: ws 
     ws-opts: 
-      path: /sshkit/1828396894/64eabb881b2bc/
+      path: /howdy
       headers: 
         Host: ca1.test3.net 
     udp: true
@@ -563,7 +563,7 @@ proxies:
     servername: ca1.test3.net 
     network: ws 
     ws-opts: 
-      path: /sshkit/1828396894/64eabb881b2bc/
+      path: /howdy
       headers: 
         Host: ca1.test3.net 
     udp: true
@@ -579,7 +579,7 @@ proxies:
     servername: ca1.test3.net 
     network: ws 
     ws-opts: 
-      path: /sshkit/1828396894/64eabb881b2bc/
+      path: /howdy
       headers: 
         Host: ca1.test3.net 
     udp: true
@@ -595,7 +595,7 @@ proxies:
     servername: ca1.test3.net 
     network: ws 
     ws-opts: 
-      path: /sshkit/1828396894/64eabb881b2bc/
+      path: /howdy
       headers: 
         Host: ca1.test3.net 
     udp: true
@@ -611,7 +611,7 @@ proxies:
     servername: ca1.test3.net 
     network: ws 
     ws-opts: 
-      path: /sshkit/1828396894/64eabb881b2bc/
+      path: /howdy
       headers: 
         Host: ca1.test3.net 
     udp: true
@@ -627,7 +627,7 @@ proxies:
     servername: ca1.test3.net 
     network: ws 
     ws-opts: 
-      path: /sshkit/1828396894/64eabb881b2bc/
+      path: /howdy
       headers: 
         Host: ca1.test3.net 
     udp: true
@@ -643,7 +643,7 @@ proxies:
     servername: ca1.test3.net 
     network: ws 
     ws-opts: 
-      path: /sshkit/1828396894/64eabb881b2bc/
+      path: /howdy
       headers: 
         Host: ca1.test3.net 
     udp: true
@@ -659,7 +659,7 @@ proxies:
     servername: ca1.test3.net 
     network: ws 
     ws-opts: 
-      path: /sshkit/1828396894/64eabb881b2bc/
+      path: /howdy
       headers: 
         Host: ca1.test3.net 
     udp: true
@@ -675,7 +675,7 @@ proxies:
     servername: ca1.test3.net 
     network: ws 
     ws-opts: 
-      path: /sshkit/1828396894/64eabb881b2bc/
+      path: /howdy
       headers: 
         Host: ca1.test3.net 
     udp: true
@@ -691,7 +691,7 @@ proxies:
     servername: ca1.test3.net 
     network: ws 
     ws-opts: 
-      path: /sshkit/1828396894/64eabb881b2bc/
+      path: /howdy
       headers: 
         Host: ca1.test3.net 
     udp: true
@@ -707,7 +707,7 @@ proxies:
     servername: ca1.test3.net 
     network: ws 
     ws-opts: 
-      path: /sshkit/1828396894/64eabb881b2bc/
+      path: /howdy
       headers: 
         Host: ca1.test3.net 
     udp: true
@@ -724,7 +724,7 @@ proxies:
     servername: ca1.test3.net
     network: ws
     ws-opts:
-      path: /sshkit/1828396894/64eabb881b2bc/
+      path: /howdy
       headers:
         Host: space.byu.id
     udp: true
@@ -742,7 +742,7 @@ proxies:
     servername: ca1.test3.net
     network: ws
     ws-opts:
-      path: /sshkit/1828396894/64eabb881b2bc/
+      path: /howdy
       headers:
         Host: corona.jakarta.go.id
     udp: true
@@ -795,7 +795,7 @@ proxies:
     server: www.sushiroll.co.id 
     port: 80
     type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3 
+    uuid: a961a960-4b3a-11ee-a3ce-1239d0255272
     alterId: 0 
     cipher: auto 
     tls: false 
@@ -811,7 +811,7 @@ proxies:
     server: quiz.vidio.com
     port: 80
     type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3 
+    uuid: a961a960-4b3a-11ee-a3ce-1239d0255272
     alterId: 0 
     cipher: auto 
     tls: false 
@@ -827,7 +827,7 @@ proxies:
     server: zendesk1.shopee.com
     port: 80
     type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3 
+    uuid: a961a960-4b3a-11ee-a3ce-1239d0255272
     alterId: 0 
     cipher: auto 
     tls: false 
@@ -843,7 +843,7 @@ proxies:
     server: layanan.ruangguru.com
     port: 80
     type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    uuid: a961a960-4b3a-11ee-a3ce-1239d0255272
     alterId: 0 
     cipher: auto 
     tls: false 
@@ -859,7 +859,7 @@ proxies:
     server: 104.17.58.20
     port: 80
     type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    uuid: a961a960-4b3a-11ee-a3ce-1239d0255272
     alterId: 0 
     cipher: auto 
     tls: false 
@@ -875,7 +875,7 @@ proxies:
     server: 104.17.58.20
     port: 80
     type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    uuid: a961a960-4b3a-11ee-a3ce-1239d0255272
     alterId: 0 
     cipher: auto 
     tls: false 
@@ -891,7 +891,7 @@ proxies:
     server: 104.18.12.65
     port: 80
     type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    uuid: a961a960-4b3a-11ee-a3ce-1239d0255272
     alterId: 0 
     cipher: auto 
     tls: false 
@@ -907,7 +907,7 @@ proxies:
     server: investors.spotify.com
     port: 80
     type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    uuid: a961a960-4b3a-11ee-a3ce-1239d0255272
     alterId: 0 
     cipher: auto 
     tls: false 
@@ -923,7 +923,7 @@ proxies:
     server: investors.spotify.com
     port: 80
     type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    uuid: a961a960-4b3a-11ee-a3ce-1239d0255272
     alterId: 0 
     cipher: auto 
     tls: false 
@@ -939,7 +939,7 @@ proxies:
     server: investors.spotify.com
     port: 80
     type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    uuid: a961a960-4b3a-11ee-a3ce-1239d0255272
     alterId: 0 
     cipher: auto 
     tls: false 
@@ -955,7 +955,7 @@ proxies:
     server: 104.16.53.111
     port: 80
     type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    uuid: a961a960-4b3a-11ee-a3ce-1239d0255272
     alterId: 0 
     cipher: auto 
     tls: false 
@@ -971,7 +971,7 @@ proxies:
     server: 104.16.53.111
     port: 80
     type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    uuid: a961a960-4b3a-11ee-a3ce-1239d0255272
     alterId: 0 
     cipher: auto 
     tls: false 
@@ -987,7 +987,7 @@ proxies:
     server: 104.16.53.111
     port: 80
     type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    uuid: a961a960-4b3a-11ee-a3ce-1239d0255272
     alterId: 0 
     cipher: auto 
     tls: false 
@@ -1003,7 +1003,7 @@ proxies:
     server: blogs.microsoft.com
     port: 80
     type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    uuid: a961a960-4b3a-11ee-a3ce-1239d0255272
     alterId: 0 
     cipher: auto 
     tls: false 
@@ -1019,7 +1019,7 @@ proxies:
     server: blogs.microsoft.com
     port: 80
     type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    uuid: a961a960-4b3a-11ee-a3ce-1239d0255272
     alterId: 0 
     cipher: auto 
     tls: false 
@@ -1035,7 +1035,7 @@ proxies:
     server: 104.17.3.81
     port: 80
     type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    uuid: a961a960-4b3a-11ee-a3ce-1239d0255272
     alterId: 0 
     cipher: auto 
     tls: false 
@@ -1051,7 +1051,7 @@ proxies:
     server: 104.17.3.81
     port: 80
     type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    uuid: a961a960-4b3a-11ee-a3ce-1239d0255272
     alterId: 0 
     cipher: auto 
     tls: false 
@@ -1067,7 +1067,7 @@ proxies:
     server: 104.20.75.141
     port: 80
     type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    uuid: a961a960-4b3a-11ee-a3ce-1239d0255272
     alterId: 0 
     cipher: auto 
     tls: false 
@@ -1083,7 +1083,7 @@ proxies:
     server: 104.20.75.141
     port: 80
     type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    uuid: a961a960-4b3a-11ee-a3ce-1239d0255272
     alterId: 0 
     cipher: auto 
     tls: false 
@@ -1099,7 +1099,7 @@ proxies:
     server: 104.18.21.226
     port: 80
     type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    uuid: a961a960-4b3a-11ee-a3ce-1239d0255272
     alterId: 0 
     cipher: auto 
     tls: false 
@@ -1115,7 +1115,7 @@ proxies:
     server: 104.18.21.226
     port: 80
     type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    uuid: a961a960-4b3a-11ee-a3ce-1239d0255272
     alterId: 0 
     cipher: auto 
     tls: false 
@@ -1131,7 +1131,7 @@ proxies:
     server: npca.netflix.com
     port: 80
     type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    uuid: a961a960-4b3a-11ee-a3ce-1239d0255272
     alterId: 0 
     cipher: auto 
     tls: false 
@@ -1147,7 +1147,7 @@ proxies:
     server: npca.netflix.com
     port: 80
     type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    uuid: a961a960-4b3a-11ee-a3ce-1239d0255272
     alterId: 0 
     cipher: auto 
     tls: false 
@@ -1163,7 +1163,7 @@ proxies:
     server: npca.netflix.com
     port: 80
     type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    uuid: a961a960-4b3a-11ee-a3ce-1239d0255272
     alterId: 0 
     cipher: auto 
     tls: false 
@@ -1179,7 +1179,7 @@ proxies:
     server: updates.netflix.com
     port: 80
     type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    uuid: a961a960-4b3a-11ee-a3ce-1239d0255272
     alterId: 0 
     cipher: auto 
     tls: false 
@@ -1195,7 +1195,7 @@ proxies:
     server: 104.21.235.172
     port: 80
     type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    uuid: a961a960-4b3a-11ee-a3ce-1239d0255272
     alterId: 0 
     cipher: auto 
     tls: false 
@@ -1211,7 +1211,7 @@ proxies:
     server: sb.scorecardresearch.com
     port: 80
     type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    uuid: a961a960-4b3a-11ee-a3ce-1239d0255272
     alterId: 0 
     cipher: auto 
     tls: false 
@@ -1227,7 +1227,7 @@ proxies:
     server: sogood.linefriends.com
     port: 80
     type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    uuid: a961a960-4b3a-11ee-a3ce-1239d0255272
     alterId: 0 
     cipher: auto 
     tls: false 
@@ -1243,7 +1243,7 @@ proxies:
     server: sogood.linefriends.com
     port: 80
     type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    uuid: a961a960-4b3a-11ee-a3ce-1239d0255272
     alterId: 0 
     cipher: auto 
     tls: false 
@@ -1259,7 +1259,7 @@ proxies:
     server: 172.67.70.101
     port: 80
     type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    uuid: a961a960-4b3a-11ee-a3ce-1239d0255272
     alterId: 0 
     cipher: auto 
     tls: false 
@@ -1275,7 +1275,7 @@ proxies:
     server: udemy.com
     port: 80
     type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    uuid: a961a960-4b3a-11ee-a3ce-1239d0255272
     alterId: 0 
     cipher: auto 
     tls: false 
@@ -1291,7 +1291,7 @@ proxies:
     server: udemy.com
     port: 80
     type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    uuid: a961a960-4b3a-11ee-a3ce-1239d0255272
     alterId: 0 
     cipher: auto 
     tls: false 
@@ -1307,7 +1307,7 @@ proxies:
     server: 104.18.24.139
     port: 80
     type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    uuid: a961a960-4b3a-11ee-a3ce-1239d0255272
     alterId: 0 
     cipher: auto 
     tls: false 
@@ -1323,7 +1323,7 @@ proxies:
     server: 104.19.143.108
     port: 80
     type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    uuid: a961a960-4b3a-11ee-a3ce-1239d0255272
     alterId: 0 
     cipher: auto 
     tls: false 
@@ -1339,7 +1339,7 @@ proxies:
     server: 104.19.143.108
     port: 80
     type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    uuid: a961a960-4b3a-11ee-a3ce-1239d0255272
     alterId: 0 
     cipher: auto 
     tls: false 
@@ -1355,7 +1355,7 @@ proxies:
     server: cf-vod.nimo.tv
     port: 80
     type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    uuid: a961a960-4b3a-11ee-a3ce-1239d0255272
     alterId: 0 
     cipher: auto 
     tls: false 
@@ -1371,7 +1371,7 @@ proxies:
     server: 104.18.13.120
     port: 80
     type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    uuid: a961a960-4b3a-11ee-a3ce-1239d0255272
     alterId: 0 
     cipher: auto 
     tls: false 
@@ -1387,7 +1387,7 @@ proxies:
     server: 104.18.2.2
     port: 80
     type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    uuid: a961a960-4b3a-11ee-a3ce-1239d0255272
     alterId: 0 
     cipher: auto 
     tls: false 
@@ -1403,7 +1403,7 @@ proxies:
     server: 104.18.2.2
     port: 80
     type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    uuid: a961a960-4b3a-11ee-a3ce-1239d0255272
     alterId: 0 
     cipher: auto 
     tls: false 
@@ -1419,7 +1419,7 @@ proxies:
     server: 104.18.2.2
     port: 80
     type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    uuid: a961a960-4b3a-11ee-a3ce-1239d0255272
     alterId: 0 
     cipher: auto 
     tls: false 
@@ -1435,7 +1435,7 @@ proxies:
     server: 104.18.24.139
     port: 80
     type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    uuid: a961a960-4b3a-11ee-a3ce-1239d0255272
     alterId: 0 
     cipher: auto 
     tls: false 
@@ -1451,7 +1451,7 @@ proxies:
     server: 104.22.24.131
     port: 80
     type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    uuid: a961a960-4b3a-11ee-a3ce-1239d0255272
     alterId: 0 
     cipher: auto 
     tls: false 
@@ -1468,7 +1468,7 @@ proxies:
     server: 162.159.138.78
     port: 443
     type: vmess
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    uuid: a961a960-4b3a-11ee-a3ce-1239d0255272
     alterId: 0
     cipher: auto
     tls: true
@@ -1486,7 +1486,7 @@ proxies:
     server: corona.jakarta.go.id
     port: 443
     type: vmess
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    uuid: a961a960-4b3a-11ee-a3ce-1239d0255272
     alterId: 0
     cipher: auto
     tls: true
@@ -1508,7 +1508,7 @@ proxies:
     server: 104.19.142.89
     port: 443
     type: trojan
-    password: a961a960-4b3a-11ee-a3ce-1239d0255272
+    password: 6560e1e0-5316-11ee-8550-1239d0255272
     skip-cert-verify: true
     sni: ca1.test3.net
     network: ws
@@ -1521,7 +1521,7 @@ proxies:
     server: 104.16.108.96
     port: 443
     type: trojan
-    password: a961a960-4b3a-11ee-a3ce-1239d0255272
+    password: 6560e1e0-5316-11ee-8550-1239d0255272
     skip-cert-verify: true
     sni: ca1.test3.net
     network: ws
@@ -1534,7 +1534,7 @@ proxies:
     server: 104.18.20.94
     port: 443
     type: trojan
-    password: a961a960-4b3a-11ee-a3ce-1239d0255272
+    password: 6560e1e0-5316-11ee-8550-1239d0255272
     skip-cert-verify: true
     sni: ca1.test3.net
     network: ws
@@ -1547,7 +1547,7 @@ proxies:
     server: www.sushiroll.co.id 
     port: 80
     type: vmess 
-    uuid: 6560e1e0-5316-11ee-8550-1239d0255272 
+    uuid: 6560e1e0-5316-11ee-8550-1239d0255272
     alterId: 0 
     cipher: auto 
     tls: false 
@@ -3006,7 +3006,7 @@ proxies:
     early-data-header-name: Sec-WebSocket-Protocol
 
 
-########## Bagian 5 ######
+############## Bagian 5 ##########
 #proxies:
   - name: Canada game
     server: 104.19.142.89
