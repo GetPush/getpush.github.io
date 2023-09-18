@@ -1,6 +1,6 @@
+#################### Bagian 1 ##################
 proxies:
-########## ID HERZA Bagian 1 ######
-  - name: Game
+  - name: ID HERZA game
     server: 104.19.142.89
     port: 443
     type: trojan
@@ -13,46 +13,7 @@ proxies:
       headers:
         Host: id-1.test3.net
     udp: true
-  - name: Sushiroll
-    server: www.sushiroll.co.id
-    port: 443
-    type: trojan
-    password: 1b318810-5322-11ee-b418-1239d0255272
-    skip-cert-verify: true
-    sni: id-1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: id-1.test3.net
-    udp: true
-  - name: vidio
-    server: quiz.vidio.com
-    port: 443
-    type: trojan
-    password: 1b318810-5322-11ee-b418-1239d0255272
-    skip-cert-verify: true
-    sni: id-1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: id-1.test3.net
-    udp: true
-  - name: Multi SC
-    server: zendesk1.shopee.com
-    port: 443
-    type: trojan
-    password: 1b318810-5322-11ee-b418-1239d0255272
-    skip-cert-verify: true
-    sni: id-1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: id-1.test3.net
-    udp: true
-  - name: Gaming
+  - name: ID HERZA gaming
     server: 104.16.108.96
     port: 443
     type: trojan
@@ -65,7 +26,59 @@ proxies:
       headers:
         Host: id-1.test3.net
     udp: true
-  - name: Multi Operator
+  - name: ID HERZA games
+    server: 104.18.20.94
+    port: 443
+    type: trojan
+    password: 1b318810-5322-11ee-b418-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA sushiroll
+    server: www.sushiroll.co.id 
+    port: 443
+    type: trojan
+    password: 1b318810-5322-11ee-b418-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA vidio
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: 1b318810-5322-11ee-b418-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA multi sc
+    server: zendesk1.shopee.com
+    port: 443
+    type: trojan
+    password: 1b318810-5322-11ee-b418-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA multi operator
     server: layanan.ruangguru.com
     port: 443
     type: trojan
@@ -78,7 +91,7 @@ proxies:
       headers:
         Host: id-1.test3.net
     udp: true
-  - name: Opok
+  - name: ID HERZA axis opok
     server: 104.17.58.20
     port: 443
     type: trojan
@@ -91,10 +104,493 @@ proxies:
       headers:
         Host: id-1.test3.net
     udp: true
+  - name: ID HERZA axis xl opok
+    server: 104.17.58.20
+    port: 443
+    type: trojan
+    password: 1b318810-5322-11ee-b418-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA xl opok
+    server: 104.18.12.65
+    port: 443
+    type: trojan
+    password: 1b318810-5322-11ee-b418-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA musik spotify
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: 1b318810-5322-11ee-b418-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA tsel multimedia
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: 1b318810-5322-11ee-b418-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA XL Stream Live On1
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: 1b318810-5322-11ee-b418-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA conference1
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: 1b318810-5322-11ee-b418-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA xl WA Line Flex1
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: 1b318810-5322-11ee-b418-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA akrab4
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: 1b318810-5322-11ee-b418-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA conference2
+    server: blogs.microsoft.com
+    port: 443
+    type: trojan
+    password: 1b318810-5322-11ee-b418-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA akrab5
+    server: blogs.microsoft.com
+    port: 443
+    type: trojan
+    password: 1b318810-5322-11ee-b418-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA edukasi1
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: 1b318810-5322-11ee-b418-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA akrab1
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: 1b318810-5322-11ee-b418-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA edukasi2
+    server: 104.20.75.141
+    port: 443
+    type: trojan
+    password: 1b318810-5322-11ee-b418-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA akrab2
+    server: 104.20.75.141
+    port: 443
+    type: trojan
+    password: 1b318810-5322-11ee-b418-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA edukasi3
+    server: 104.18.21.226
+    port: 443
+    type: trojan
+    password: 1b318810-5322-11ee-b418-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA akrab3
+    server: 104.18.21.226
+    port: 443
+    type: trojan
+    password: 1b318810-5322-11ee-b418-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA video Netflix1
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: 1b318810-5322-11ee-b418-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA XL Stream Live On2
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: 1b318810-5322-11ee-b418-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Tsel OMG Nonton
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: 1b318810-5322-11ee-b418-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA video Netflix2
+    server: updates.netflix.com
+    port: 443
+    type: trojan
+    password: 1b318810-5322-11ee-b418-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA xl vision1
+    server: 104.21.235.172
+    port: 443
+    type: trojan
+    password: 1b318810-5322-11ee-b418-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA xl vision2
+    server: sb.scorecardresearch.com
+    port: 443
+    type: trojan
+    password: 1b318810-5322-11ee-b418-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA xl WA Line Flex3
+    server: sogood.linefriends.com
+    port: 443
+    type: trojan
+    password: 1b318810-5322-11ee-b418-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Smartfren chat1
+    server: sogood.linefriends.com
+    port: 443
+    type: trojan
+    password: 1b318810-5322-11ee-b418-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Indosat opok1
+    server: 172.67.70.101
+    port: 443
+    type: trojan
+    password: 1b318810-5322-11ee-b418-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Tri Edukasi
+    server: udemy.com
+    port: 443
+    type: trojan
+    password: 1b318810-5322-11ee-b418-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Indosat Edukasi1
+    server: udemy.com
+    port: 443
+    type: trojan
+    password: 1b318810-5322-11ee-b418-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Indosat Edukasi2
+    server: 104.18.24.139
+    port: 443
+    type: trojan
+    password: 1b318810-5322-11ee-b418-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Tsel ByU GGWP
+    server: 104.19.143.108
+    port: 443
+    type: trojan
+    password: 1b318810-5322-11ee-b418-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Tsel Gamemax2
+    server: 104.19.143.108
+    port: 443
+    type: trojan
+    password: 1b318810-5322-11ee-b418-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Tsel Gamemax1
+    server: cf-vod.nimo.tv
+    port: 443
+    type: trojan
+    password: 1b318810-5322-11ee-b418-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Tsel Gamemax3
+    server: 104.18.13.120
+    port: 443
+    type: trojan
+    password: 1b318810-5322-11ee-b418-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Smartfren Edukasi
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: 1b318810-5322-11ee-b418-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Tsel ByU Edukasi
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: 1b318810-5322-11ee-b418-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Tsel Ilped KB1
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: 1b318810-5322-11ee-b418-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Tsel Ilped KB2
+    server: 104.18.24.139
+    port: 443
+    type: trojan
+    password: 1b318810-5322-11ee-b418-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Tsel Ilped KB3
+    server: 104.22.24.131
+    port: 443
+    type: trojan
+    password: 1b318810-5322-11ee-b418-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
 
+
+
+################# Bagian 2 ################
 #proxies:
-########## Bagian 2 ######
-  - name: Game
+  - name: ID HERZA game
     server: 104.19.142.89
     port: 443
     type: trojan
@@ -107,46 +603,7 @@ proxies:
       headers:
         Host: id-1.test3.net
     udp: true
-  - name: Sushiroll
-    server: www.sushiroll.co.id
-    port: 443
-    type: trojan
-    password: ccf68620-5322-11ee-a05e-1239d0255272
-    skip-cert-verify: true
-    sni: id-1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: id-1.test3.net
-    udp: true
-  - name: vidio
-    server: quiz.vidio.com
-    port: 443
-    type: trojan
-    password: ccf68620-5322-11ee-a05e-1239d0255272
-    skip-cert-verify: true
-    sni: id-1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: id-1.test3.net
-    udp: true
-  - name: Multi SC
-    server: zendesk1.shopee.com
-    port: 443
-    type: trojan
-    password: ccf68620-5322-11ee-a05e-1239d0255272
-    skip-cert-verify: true
-    sni: id-1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: id-1.test3.net
-    udp: true
-  - name: Gaming
+  - name: ID HERZA gaming
     server: 104.16.108.96
     port: 443
     type: trojan
@@ -159,7 +616,59 @@ proxies:
       headers:
         Host: id-1.test3.net
     udp: true
-  - name: Multi Operator
+  - name: ID HERZA games
+    server: 104.18.20.94
+    port: 443
+    type: trojan
+    password: ccf68620-5322-11ee-a05e-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA sushiroll
+    server: www.sushiroll.co.id 
+    port: 443
+    type: trojan
+    password: ccf68620-5322-11ee-a05e-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA vidio
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: ccf68620-5322-11ee-a05e-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA multi sc
+    server: zendesk1.shopee.com
+    port: 443
+    type: trojan
+    password: ccf68620-5322-11ee-a05e-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA multi operator
     server: layanan.ruangguru.com
     port: 443
     type: trojan
@@ -172,7 +681,7 @@ proxies:
       headers:
         Host: id-1.test3.net
     udp: true
-  - name: Opok
+  - name: ID HERZA axis opok
     server: 104.17.58.20
     port: 443
     type: trojan
@@ -185,10 +694,493 @@ proxies:
       headers:
         Host: id-1.test3.net
     udp: true
+  - name: ID HERZA axis xl opok
+    server: 104.17.58.20
+    port: 443
+    type: trojan
+    password: ccf68620-5322-11ee-a05e-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA xl opok
+    server: 104.18.12.65
+    port: 443
+    type: trojan
+    password: ccf68620-5322-11ee-a05e-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA musik spotify
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: ccf68620-5322-11ee-a05e-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA tsel multimedia
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: ccf68620-5322-11ee-a05e-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA XL Stream Live On1
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: ccf68620-5322-11ee-a05e-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA conference1
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: ccf68620-5322-11ee-a05e-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA xl WA Line Flex1
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: ccf68620-5322-11ee-a05e-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA akrab4
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: ccf68620-5322-11ee-a05e-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA conference2
+    server: blogs.microsoft.com
+    port: 443
+    type: trojan
+    password: ccf68620-5322-11ee-a05e-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA akrab5
+    server: blogs.microsoft.com
+    port: 443
+    type: trojan
+    password: ccf68620-5322-11ee-a05e-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA edukasi1
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: ccf68620-5322-11ee-a05e-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA akrab1
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: ccf68620-5322-11ee-a05e-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA edukasi2
+    server: 104.20.75.141
+    port: 443
+    type: trojan
+    password: ccf68620-5322-11ee-a05e-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA akrab2
+    server: 104.20.75.141
+    port: 443
+    type: trojan
+    password: ccf68620-5322-11ee-a05e-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA edukasi3
+    server: 104.18.21.226
+    port: 443
+    type: trojan
+    password: ccf68620-5322-11ee-a05e-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA akrab3
+    server: 104.18.21.226
+    port: 443
+    type: trojan
+    password: ccf68620-5322-11ee-a05e-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA video Netflix1
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: ccf68620-5322-11ee-a05e-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA XL Stream Live On2
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: ccf68620-5322-11ee-a05e-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Tsel OMG Nonton
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: ccf68620-5322-11ee-a05e-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA video Netflix2
+    server: updates.netflix.com
+    port: 443
+    type: trojan
+    password: ccf68620-5322-11ee-a05e-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA xl vision1
+    server: 104.21.235.172
+    port: 443
+    type: trojan
+    password: ccf68620-5322-11ee-a05e-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA xl vision2
+    server: sb.scorecardresearch.com
+    port: 443
+    type: trojan
+    password: ccf68620-5322-11ee-a05e-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA xl WA Line Flex3
+    server: sogood.linefriends.com
+    port: 443
+    type: trojan
+    password: ccf68620-5322-11ee-a05e-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Smartfren chat1
+    server: sogood.linefriends.com
+    port: 443
+    type: trojan
+    password: ccf68620-5322-11ee-a05e-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Indosat opok1
+    server: 172.67.70.101
+    port: 443
+    type: trojan
+    password: ccf68620-5322-11ee-a05e-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Tri Edukasi
+    server: udemy.com
+    port: 443
+    type: trojan
+    password: ccf68620-5322-11ee-a05e-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Indosat Edukasi1
+    server: udemy.com
+    port: 443
+    type: trojan
+    password: ccf68620-5322-11ee-a05e-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Indosat Edukasi2
+    server: 104.18.24.139
+    port: 443
+    type: trojan
+    password: ccf68620-5322-11ee-a05e-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Tsel ByU GGWP
+    server: 104.19.143.108
+    port: 443
+    type: trojan
+    password: ccf68620-5322-11ee-a05e-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Tsel Gamemax2
+    server: 104.19.143.108
+    port: 443
+    type: trojan
+    password: ccf68620-5322-11ee-a05e-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Tsel Gamemax1
+    server: cf-vod.nimo.tv
+    port: 443
+    type: trojan
+    password: ccf68620-5322-11ee-a05e-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Tsel Gamemax3
+    server: 104.18.13.120
+    port: 443
+    type: trojan
+    password: ccf68620-5322-11ee-a05e-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Smartfren Edukasi
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: ccf68620-5322-11ee-a05e-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Tsel ByU Edukasi
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: ccf68620-5322-11ee-a05e-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Tsel Ilped KB1
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: ccf68620-5322-11ee-a05e-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Tsel Ilped KB2
+    server: 104.18.24.139
+    port: 443
+    type: trojan
+    password: ccf68620-5322-11ee-a05e-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Tsel Ilped KB3
+    server: 104.22.24.131
+    port: 443
+    type: trojan
+    password: ccf68620-5322-11ee-a05e-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
 
-#proxies:
+
+
 ########## Bagian 3 ######
-  - name: Game
+#proxies:
+  - name: ID HERZA game
     server: 104.19.142.89
     port: 443
     type: trojan
@@ -201,46 +1193,7 @@ proxies:
       headers:
         Host: id-1.test3.net
     udp: true
-  - name: Sushiroll
-    server: www.sushiroll.co.id
-    port: 443
-    type: trojan
-    password: 210f2200-5323-11ee-8090-1239d0255272
-    skip-cert-verify: true
-    sni: id-1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: id-1.test3.net
-    udp: true
-  - name: vidio
-    server: quiz.vidio.com
-    port: 443
-    type: trojan
-    password: 210f2200-5323-11ee-8090-1239d0255272
-    skip-cert-verify: true
-    sni: id-1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: id-1.test3.net
-    udp: true
-  - name: Multi SC
-    server: zendesk1.shopee.com
-    port: 443
-    type: trojan
-    password: 210f2200-5323-11ee-8090-1239d0255272
-    skip-cert-verify: true
-    sni: id-1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: id-1.test3.net
-    udp: true
-  - name: Gaming
+  - name: ID HERZA gaming
     server: 104.16.108.96
     port: 443
     type: trojan
@@ -253,7 +1206,59 @@ proxies:
       headers:
         Host: id-1.test3.net
     udp: true
-  - name: Multi Operator
+  - name: ID HERZA games
+    server: 104.18.20.94
+    port: 443
+    type: trojan
+    password: 210f2200-5323-11ee-8090-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA sushiroll
+    server: www.sushiroll.co.id 
+    port: 443
+    type: trojan
+    password: 210f2200-5323-11ee-8090-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA vidio
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: 210f2200-5323-11ee-8090-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA multi sc
+    server: zendesk1.shopee.com
+    port: 443
+    type: trojan
+    password: 210f2200-5323-11ee-8090-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA multi operator
     server: layanan.ruangguru.com
     port: 443
     type: trojan
@@ -266,8 +1271,489 @@ proxies:
       headers:
         Host: id-1.test3.net
     udp: true
-  - name: Opok
+  - name: ID HERZA axis opok
     server: 104.17.58.20
+    port: 443
+    type: trojan
+    password: 210f2200-5323-11ee-8090-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA axis xl opok
+    server: 104.17.58.20
+    port: 443
+    type: trojan
+    password: 210f2200-5323-11ee-8090-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA xl opok
+    server: 104.18.12.65
+    port: 443
+    type: trojan
+    password: 210f2200-5323-11ee-8090-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA musik spotify
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: 210f2200-5323-11ee-8090-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA tsel multimedia
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: 210f2200-5323-11ee-8090-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA XL Stream Live On1
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: 210f2200-5323-11ee-8090-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA conference1
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: 210f2200-5323-11ee-8090-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA xl WA Line Flex1
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: 210f2200-5323-11ee-8090-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA akrab4
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: 210f2200-5323-11ee-8090-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA conference2
+    server: blogs.microsoft.com
+    port: 443
+    type: trojan
+    password: 210f2200-5323-11ee-8090-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA akrab5
+    server: blogs.microsoft.com
+    port: 443
+    type: trojan
+    password: 210f2200-5323-11ee-8090-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA edukasi1
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: 210f2200-5323-11ee-8090-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA akrab1
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: 210f2200-5323-11ee-8090-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA edukasi2
+    server: 104.20.75.141
+    port: 443
+    type: trojan
+    password: 210f2200-5323-11ee-8090-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA akrab2
+    server: 104.20.75.141
+    port: 443
+    type: trojan
+    password: 210f2200-5323-11ee-8090-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA edukasi3
+    server: 104.18.21.226
+    port: 443
+    type: trojan
+    password: 210f2200-5323-11ee-8090-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA akrab3
+    server: 104.18.21.226
+    port: 443
+    type: trojan
+    password: 210f2200-5323-11ee-8090-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA video Netflix1
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: 210f2200-5323-11ee-8090-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA XL Stream Live On2
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: 210f2200-5323-11ee-8090-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Tsel OMG Nonton
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: 210f2200-5323-11ee-8090-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA video Netflix2
+    server: updates.netflix.com
+    port: 443
+    type: trojan
+    password: 210f2200-5323-11ee-8090-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA xl vision1
+    server: 104.21.235.172
+    port: 443
+    type: trojan
+    password: 210f2200-5323-11ee-8090-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA xl vision2
+    server: sb.scorecardresearch.com
+    port: 443
+    type: trojan
+    password: 210f2200-5323-11ee-8090-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA xl WA Line Flex3
+    server: sogood.linefriends.com
+    port: 443
+    type: trojan
+    password: 210f2200-5323-11ee-8090-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Smartfren chat1
+    server: sogood.linefriends.com
+    port: 443
+    type: trojan
+    password: 210f2200-5323-11ee-8090-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Indosat opok1
+    server: 172.67.70.101
+    port: 443
+    type: trojan
+    password: 210f2200-5323-11ee-8090-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Tri Edukasi
+    server: udemy.com
+    port: 443
+    type: trojan
+    password: 210f2200-5323-11ee-8090-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Indosat Edukasi1
+    server: udemy.com
+    port: 443
+    type: trojan
+    password: 210f2200-5323-11ee-8090-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Indosat Edukasi2
+    server: 104.18.24.139
+    port: 443
+    type: trojan
+    password: 210f2200-5323-11ee-8090-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Tsel ByU GGWP
+    server: 104.19.143.108
+    port: 443
+    type: trojan
+    password: 210f2200-5323-11ee-8090-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Tsel Gamemax2
+    server: 104.19.143.108
+    port: 443
+    type: trojan
+    password: 210f2200-5323-11ee-8090-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Tsel Gamemax1
+    server: cf-vod.nimo.tv
+    port: 443
+    type: trojan
+    password: 210f2200-5323-11ee-8090-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Tsel Gamemax3
+    server: 104.18.13.120
+    port: 443
+    type: trojan
+    password: 210f2200-5323-11ee-8090-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Smartfren Edukasi
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: 210f2200-5323-11ee-8090-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Tsel ByU Edukasi
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: 210f2200-5323-11ee-8090-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Tsel Ilped KB1
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: 210f2200-5323-11ee-8090-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Tsel Ilped KB2
+    server: 104.18.24.139
+    port: 443
+    type: trojan
+    password: 210f2200-5323-11ee-8090-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Tsel Ilped KB3
+    server: 104.22.24.131
     port: 443
     type: trojan
     password: 210f2200-5323-11ee-8090-1239d0255272
@@ -280,9 +1766,11 @@ proxies:
         Host: id-1.test3.net
     udp: true
 
+
+
+################ Bagian 4 #############
 #proxies:
-########## Bagian 4 ######
-  - name: Game
+  - name: ID HERZA game
     server: 104.19.142.89
     port: 443
     type: trojan
@@ -295,46 +1783,7 @@ proxies:
       headers:
         Host: id-1.test3.net
     udp: true
-  - name: Sushiroll
-    server: www.sushiroll.co.id
-    port: 443
-    type: trojan
-    password: 4f6cf470-5323-11ee-bc19-1239d0255272
-    skip-cert-verify: true
-    sni: id-1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: id-1.test3.net
-    udp: true
-  - name: vidio
-    server: quiz.vidio.com
-    port: 443
-    type: trojan
-    password: 4f6cf470-5323-11ee-bc19-1239d0255272
-    skip-cert-verify: true
-    sni: id-1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: id-1.test3.net
-    udp: true
-  - name: Multi SC
-    server: zendesk1.shopee.com
-    port: 443
-    type: trojan
-    password: 4f6cf470-5323-11ee-bc19-1239d0255272
-    skip-cert-verify: true
-    sni: id-1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: id-1.test3.net
-    udp: true
-  - name: Gaming
+  - name: ID HERZA gaming
     server: 104.16.108.96
     port: 443
     type: trojan
@@ -347,7 +1796,59 @@ proxies:
       headers:
         Host: id-1.test3.net
     udp: true
-  - name: Multi Operator
+  - name: ID HERZA games
+    server: 104.18.20.94
+    port: 443
+    type: trojan
+    password: 4f6cf470-5323-11ee-bc19-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA sushiroll
+    server: www.sushiroll.co.id 
+    port: 443
+    type: trojan
+    password: 4f6cf470-5323-11ee-bc19-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA vidio
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: 4f6cf470-5323-11ee-bc19-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA multi sc
+    server: zendesk1.shopee.com
+    port: 443
+    type: trojan
+    password: 4f6cf470-5323-11ee-bc19-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA multi operator
     server: layanan.ruangguru.com
     port: 443
     type: trojan
@@ -360,8 +1861,489 @@ proxies:
       headers:
         Host: id-1.test3.net
     udp: true
-  - name: Opok
+  - name: ID HERZA axis opok
     server: 104.17.58.20
+    port: 443
+    type: trojan
+    password: 4f6cf470-5323-11ee-bc19-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA axis xl opok
+    server: 104.17.58.20
+    port: 443
+    type: trojan
+    password: 4f6cf470-5323-11ee-bc19-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA xl opok
+    server: 104.18.12.65
+    port: 443
+    type: trojan
+    password: 4f6cf470-5323-11ee-bc19-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA musik spotify
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: 4f6cf470-5323-11ee-bc19-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA tsel multimedia
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: 4f6cf470-5323-11ee-bc19-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA XL Stream Live On1
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: 4f6cf470-5323-11ee-bc19-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA conference1
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: 4f6cf470-5323-11ee-bc19-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA xl WA Line Flex1
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: 4f6cf470-5323-11ee-bc19-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA akrab4
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: 4f6cf470-5323-11ee-bc19-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA conference2
+    server: blogs.microsoft.com
+    port: 443
+    type: trojan
+    password: 4f6cf470-5323-11ee-bc19-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA akrab5
+    server: blogs.microsoft.com
+    port: 443
+    type: trojan
+    password: 4f6cf470-5323-11ee-bc19-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA edukasi1
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: 4f6cf470-5323-11ee-bc19-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA akrab1
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: 4f6cf470-5323-11ee-bc19-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA edukasi2
+    server: 104.20.75.141
+    port: 443
+    type: trojan
+    password: 4f6cf470-5323-11ee-bc19-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA akrab2
+    server: 104.20.75.141
+    port: 443
+    type: trojan
+    password: 4f6cf470-5323-11ee-bc19-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA edukasi3
+    server: 104.18.21.226
+    port: 443
+    type: trojan
+    password: 4f6cf470-5323-11ee-bc19-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA akrab3
+    server: 104.18.21.226
+    port: 443
+    type: trojan
+    password: 4f6cf470-5323-11ee-bc19-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA video Netflix1
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: 4f6cf470-5323-11ee-bc19-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA XL Stream Live On2
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: 4f6cf470-5323-11ee-bc19-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Tsel OMG Nonton
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: 4f6cf470-5323-11ee-bc19-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA video Netflix2
+    server: updates.netflix.com
+    port: 443
+    type: trojan
+    password: 4f6cf470-5323-11ee-bc19-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA xl vision1
+    server: 104.21.235.172
+    port: 443
+    type: trojan
+    password: 4f6cf470-5323-11ee-bc19-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA xl vision2
+    server: sb.scorecardresearch.com
+    port: 443
+    type: trojan
+    password: 4f6cf470-5323-11ee-bc19-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA xl WA Line Flex3
+    server: sogood.linefriends.com
+    port: 443
+    type: trojan
+    password: 4f6cf470-5323-11ee-bc19-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Smartfren chat1
+    server: sogood.linefriends.com
+    port: 443
+    type: trojan
+    password: 4f6cf470-5323-11ee-bc19-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Indosat opok1
+    server: 172.67.70.101
+    port: 443
+    type: trojan
+    password: 4f6cf470-5323-11ee-bc19-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Tri Edukasi
+    server: udemy.com
+    port: 443
+    type: trojan
+    password: 4f6cf470-5323-11ee-bc19-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Indosat Edukasi1
+    server: udemy.com
+    port: 443
+    type: trojan
+    password: 4f6cf470-5323-11ee-bc19-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Indosat Edukasi2
+    server: 104.18.24.139
+    port: 443
+    type: trojan
+    password: 4f6cf470-5323-11ee-bc19-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Tsel ByU GGWP
+    server: 104.19.143.108
+    port: 443
+    type: trojan
+    password: 4f6cf470-5323-11ee-bc19-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Tsel Gamemax2
+    server: 104.19.143.108
+    port: 443
+    type: trojan
+    password: 4f6cf470-5323-11ee-bc19-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Tsel Gamemax1
+    server: cf-vod.nimo.tv
+    port: 443
+    type: trojan
+    password: 4f6cf470-5323-11ee-bc19-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Tsel Gamemax3
+    server: 104.18.13.120
+    port: 443
+    type: trojan
+    password: 4f6cf470-5323-11ee-bc19-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Smartfren Edukasi
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: 4f6cf470-5323-11ee-bc19-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Tsel ByU Edukasi
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: 4f6cf470-5323-11ee-bc19-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Tsel Ilped KB1
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: 4f6cf470-5323-11ee-bc19-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Tsel Ilped KB2
+    server: 104.18.24.139
+    port: 443
+    type: trojan
+    password: 4f6cf470-5323-11ee-bc19-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Tsel Ilped KB3
+    server: 104.22.24.131
     port: 443
     type: trojan
     password: 4f6cf470-5323-11ee-bc19-1239d0255272
@@ -374,9 +2356,10 @@ proxies:
         Host: id-1.test3.net
     udp: true
 
+
+############## Bagian 5 ##########
 #proxies:
-########## Bagian 5 ######
-  - name: Game
+  - name: ID HERZA game
     server: 104.19.142.89
     port: 443
     type: trojan
@@ -389,46 +2372,7 @@ proxies:
       headers:
         Host: id-1.test3.net
     udp: true
-  - name: Sushiroll
-    server: www.sushiroll.co.id
-    port: 443
-    type: trojan
-    password: 7ce31810-5323-11ee-92c4-1239d0255272
-    skip-cert-verify: true
-    sni: id-1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: id-1.test3.net
-    udp: true
-  - name: vidio
-    server: quiz.vidio.com
-    port: 443
-    type: trojan
-    password: 7ce31810-5323-11ee-92c4-1239d0255272
-    skip-cert-verify: true
-    sni: id-1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: id-1.test3.net
-    udp: true
-  - name: Multi SC
-    server: zendesk1.shopee.com
-    port: 443
-    type: trojan
-    password: 7ce31810-5323-11ee-92c4-1239d0255272
-    skip-cert-verify: true
-    sni: id-1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: id-1.test3.net
-    udp: true
-  - name: Gaming
+  - name: ID HERZA gaming
     server: 104.16.108.96
     port: 443
     type: trojan
@@ -441,7 +2385,59 @@ proxies:
       headers:
         Host: id-1.test3.net
     udp: true
-  - name: Multi Operator
+  - name: ID HERZA games
+    server: 104.18.20.94
+    port: 443
+    type: trojan
+    password: 7ce31810-5323-11ee-92c4-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA sushiroll
+    server: www.sushiroll.co.id 
+    port: 443
+    type: trojan
+    password: 7ce31810-5323-11ee-92c4-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA vidio
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: 7ce31810-5323-11ee-92c4-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA multi sc
+    server: zendesk1.shopee.com
+    port: 443
+    type: trojan
+    password: 7ce31810-5323-11ee-92c4-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA multi operator
     server: layanan.ruangguru.com
     port: 443
     type: trojan
@@ -454,8 +2450,489 @@ proxies:
       headers:
         Host: id-1.test3.net
     udp: true
-  - name: Opok
+  - name: ID HERZA axis opok
     server: 104.17.58.20
+    port: 443
+    type: trojan
+    password: 7ce31810-5323-11ee-92c4-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA axis xl opok
+    server: 104.17.58.20
+    port: 443
+    type: trojan
+    password: 7ce31810-5323-11ee-92c4-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA xl opok
+    server: 104.18.12.65
+    port: 443
+    type: trojan
+    password: 7ce31810-5323-11ee-92c4-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA musik spotify
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: 7ce31810-5323-11ee-92c4-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA tsel multimedia
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: 7ce31810-5323-11ee-92c4-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA XL Stream Live On1
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: 7ce31810-5323-11ee-92c4-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA conference1
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: 7ce31810-5323-11ee-92c4-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA xl WA Line Flex1
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: 7ce31810-5323-11ee-92c4-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA akrab4
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: 7ce31810-5323-11ee-92c4-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA conference2
+    server: blogs.microsoft.com
+    port: 443
+    type: trojan
+    password: 7ce31810-5323-11ee-92c4-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA akrab5
+    server: blogs.microsoft.com
+    port: 443
+    type: trojan
+    password: 7ce31810-5323-11ee-92c4-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA edukasi1
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: 7ce31810-5323-11ee-92c4-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA akrab1
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: 7ce31810-5323-11ee-92c4-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA edukasi2
+    server: 104.20.75.141
+    port: 443
+    type: trojan
+    password: 7ce31810-5323-11ee-92c4-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA akrab2
+    server: 104.20.75.141
+    port: 443
+    type: trojan
+    password: 7ce31810-5323-11ee-92c4-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA edukasi3
+    server: 104.18.21.226
+    port: 443
+    type: trojan
+    password: 7ce31810-5323-11ee-92c4-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA akrab3
+    server: 104.18.21.226
+    port: 443
+    type: trojan
+    password: 7ce31810-5323-11ee-92c4-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA video Netflix1
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: 7ce31810-5323-11ee-92c4-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA XL Stream Live On2
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: 7ce31810-5323-11ee-92c4-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Tsel OMG Nonton
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: 7ce31810-5323-11ee-92c4-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA video Netflix2
+    server: updates.netflix.com
+    port: 443
+    type: trojan
+    password: 7ce31810-5323-11ee-92c4-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA xl vision1
+    server: 104.21.235.172
+    port: 443
+    type: trojan
+    password: 7ce31810-5323-11ee-92c4-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA xl vision2
+    server: sb.scorecardresearch.com
+    port: 443
+    type: trojan
+    password: 7ce31810-5323-11ee-92c4-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA xl WA Line Flex3
+    server: sogood.linefriends.com
+    port: 443
+    type: trojan
+    password: 7ce31810-5323-11ee-92c4-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Smartfren chat1
+    server: sogood.linefriends.com
+    port: 443
+    type: trojan
+    password: 7ce31810-5323-11ee-92c4-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Indosat opok1
+    server: 172.67.70.101
+    port: 443
+    type: trojan
+    password: 7ce31810-5323-11ee-92c4-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Tri Edukasi
+    server: udemy.com
+    port: 443
+    type: trojan
+    password: 7ce31810-5323-11ee-92c4-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Indosat Edukasi1
+    server: udemy.com
+    port: 443
+    type: trojan
+    password: 7ce31810-5323-11ee-92c4-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Indosat Edukasi2
+    server: 104.18.24.139
+    port: 443
+    type: trojan
+    password: 7ce31810-5323-11ee-92c4-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Tsel ByU GGWP
+    server: 104.19.143.108
+    port: 443
+    type: trojan
+    password: 7ce31810-5323-11ee-92c4-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Tsel Gamemax2
+    server: 104.19.143.108
+    port: 443
+    type: trojan
+    password: 7ce31810-5323-11ee-92c4-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Tsel Gamemax1
+    server: cf-vod.nimo.tv
+    port: 443
+    type: trojan
+    password: 7ce31810-5323-11ee-92c4-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Tsel Gamemax3
+    server: 104.18.13.120
+    port: 443
+    type: trojan
+    password: 7ce31810-5323-11ee-92c4-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Smartfren Edukasi
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: 7ce31810-5323-11ee-92c4-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Tsel ByU Edukasi
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: 7ce31810-5323-11ee-92c4-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Tsel Ilped KB1
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: 7ce31810-5323-11ee-92c4-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Tsel Ilped KB2
+    server: 104.18.24.139
+    port: 443
+    type: trojan
+    password: 7ce31810-5323-11ee-92c4-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA Tsel Ilped KB3
+    server: 104.22.24.131
     port: 443
     type: trojan
     password: 7ce31810-5323-11ee-92c4-1239d0255272
