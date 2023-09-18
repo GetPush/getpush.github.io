@@ -44,672 +44,546 @@ proxies:
     port: 443
     type: trojan 
     password: f4ea0ec0-5315-11ee-bc89-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada vidio
     server: quiz.vidio.com
     port: 443
     type: trojan 
     password: f4ea0ec0-5315-11ee-bc89-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada multi sc
     server: zendesk1.shopee.com
     port: 443
     type: trojan 
     password: f4ea0ec0-5315-11ee-bc89-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada multi operator
     server: layanan.ruangguru.com
     port: 443
     type: trojan 
     password: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada axis opok
     server: 104.17.58.20
     port: 443
     type: trojan 
     password: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada axis xl opok
     server: 104.17.58.20
     port: 443
     type: trojan 
     password: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada xl opok
     server: 104.18.12.65
     port: 443
     type: trojan 
     password: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada musik spotify
     server: investors.spotify.com
     port: 443
     type: trojan 
     password: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada tsel multimedia
     server: investors.spotify.com
     port: 443
     type: trojan 
     password: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada XL Stream Live On1
     server: investors.spotify.com
     port: 443
     type: trojan 
     password: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada conference1
     server: 104.16.53.111
     port: 443
     type: trojan 
     password: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada xl WA Line Flex1
     server: 104.16.53.111
     port: 443
     type: trojan 
     password: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada akrab4
     server: 104.16.53.111
     port: 443
     type: trojan 
     password: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada conference2
     server: blogs.microsoft.com
     port: 443
     type: trojan 
     password: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada akrab5
     server: blogs.microsoft.com
     port: 443
     type: trojan 
     password: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada edukasi1
     server: 104.17.3.81
     port: 443
     type: trojan 
     password: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada akrab1
     server: 104.17.3.81
     port: 443
     type: trojan 
     password: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada edukasi2
     server: 104.20.75.141
     port: 443
     type: trojan 
     password: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada akrab2
     server: 104.20.75.141
     port: 443
     type: trojan 
     password: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada edukasi3
     server: 104.18.21.226
     port: 443
     type: trojan 
     password: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada akrab3
     server: 104.18.21.226
     port: 443
     type: trojan 
     password: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada video Netflix1
     server: npca.netflix.com
     port: 443
     type: trojan 
     password: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada XL Stream Live On2
     server: npca.netflix.com
     port: 443
     type: trojan 
     password: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Tsel OMG Nonton
     server: npca.netflix.com
     port: 443
     type: trojan 
     password: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada video Netflix2
     server: updates.netflix.com
     port: 443
     type: trojan 
     password: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada xl vision1
     server: 104.21.235.172
     port: 443
     type: trojan 
     password: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada xl vision2
     server: sb.scorecardresearch.com
     port: 443
     type: trojan 
     password: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada xl WA Line Flex3
     server: sogood.linefriends.com
     port: 443
     type: trojan 
     password: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Smartfren chat1
     server: sogood.linefriends.com
     port: 443
     type: trojan 
     password: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Indosat opok1
     server: 172.67.70.101
     port: 443
     type: trojan 
     password: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Tri Edukasi
     server: udemy.com
     port: 443
     type: trojan 
     password: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Indosat Edukasi1
     server: udemy.com
     port: 443
     type: trojan 
     password: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Indosat Edukasi2
     server: 104.18.24.139
     port: 443
     type: trojan 
     password: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Tsel ByU GGWP
     server: 104.19.143.108
     port: 443
     type: trojan 
     password: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Tsel Gamemax2
     server: 104.19.143.108
     port: 443
     type: trojan 
     password: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Tsel Gamemax1
     server: cf-vod.nimo.tv
     port: 443
     type: trojan 
     password: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Tsel Gamemax3
     server: 104.18.13.120
     port: 443
     type: trojan 
     password: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Smartfren Edukasi
     server: 104.18.2.2
     port: 443
     type: trojan 
     password: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Tsel ByU Edukasi
     server: 104.18.2.2
     port: 443
     type: trojan 
     password: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Tsel Ilped KB1
     server: 104.18.2.2
     port: 443
     type: trojan 
     password: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Tsel Ilped KB2
     server: 104.18.24.139
     port: 443
     type: trojan 
     password: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Tsel Ilped KB3
     server: 104.22.24.131
     port: 443
     type: trojan 
     password: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
 #### SNI
   - name: Tsel byu opok unli
@@ -796,672 +670,546 @@ proxies:
     port: 443
     type: trojan 
     password: a961a960-4b3a-11ee-a3ce-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada vidio
     server: quiz.vidio.com
     port: 443
     type: trojan 
     password: a961a960-4b3a-11ee-a3ce-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada multi sc
     server: zendesk1.shopee.com
     port: 443
     type: trojan 
     password: a961a960-4b3a-11ee-a3ce-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada multi operator
     server: layanan.ruangguru.com
     port: 443
     type: trojan 
     password: a961a960-4b3a-11ee-a3ce-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada axis opok
     server: 104.17.58.20
     port: 443
     type: trojan 
     password: a961a960-4b3a-11ee-a3ce-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada axis xl opok
     server: 104.17.58.20
     port: 443
     type: trojan 
     password: a961a960-4b3a-11ee-a3ce-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada xl opok
     server: 104.18.12.65
     port: 443
     type: trojan 
     password: a961a960-4b3a-11ee-a3ce-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada musik spotify
     server: investors.spotify.com
     port: 443
     type: trojan 
     password: a961a960-4b3a-11ee-a3ce-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada tsel multimedia
     server: investors.spotify.com
     port: 443
     type: trojan 
     password: a961a960-4b3a-11ee-a3ce-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada XL Stream Live On1
     server: investors.spotify.com
     port: 443
     type: trojan 
     password: a961a960-4b3a-11ee-a3ce-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada conference1
     server: 104.16.53.111
     port: 443
     type: trojan 
     password: a961a960-4b3a-11ee-a3ce-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada xl WA Line Flex1
     server: 104.16.53.111
     port: 443
     type: trojan 
     password: a961a960-4b3a-11ee-a3ce-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada akrab4
     server: 104.16.53.111
     port: 443
     type: trojan 
     password: a961a960-4b3a-11ee-a3ce-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada conference2
     server: blogs.microsoft.com
     port: 443
     type: trojan 
     password: a961a960-4b3a-11ee-a3ce-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada akrab5
     server: blogs.microsoft.com
     port: 443
     type: trojan 
     password: a961a960-4b3a-11ee-a3ce-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada edukasi1
     server: 104.17.3.81
     port: 443
     type: trojan 
     password: a961a960-4b3a-11ee-a3ce-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada akrab1
     server: 104.17.3.81
     port: 443
     type: trojan 
     password: a961a960-4b3a-11ee-a3ce-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada edukasi2
     server: 104.20.75.141
     port: 443
     type: trojan 
     password: a961a960-4b3a-11ee-a3ce-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada akrab2
     server: 104.20.75.141
     port: 443
     type: trojan 
     password: a961a960-4b3a-11ee-a3ce-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada edukasi3
     server: 104.18.21.226
     port: 443
     type: trojan 
     password: a961a960-4b3a-11ee-a3ce-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada akrab3
     server: 104.18.21.226
     port: 443
     type: trojan 
     password: a961a960-4b3a-11ee-a3ce-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada video Netflix1
     server: npca.netflix.com
     port: 443
     type: trojan 
     password: a961a960-4b3a-11ee-a3ce-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada XL Stream Live On2
     server: npca.netflix.com
     port: 443
     type: trojan 
     password: a961a960-4b3a-11ee-a3ce-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Tsel OMG Nonton
     server: npca.netflix.com
     port: 443
     type: trojan 
     password: a961a960-4b3a-11ee-a3ce-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada video Netflix2
     server: updates.netflix.com
     port: 443
     type: trojan 
     password: a961a960-4b3a-11ee-a3ce-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada xl vision1
     server: 104.21.235.172
     port: 443
     type: trojan 
     password: a961a960-4b3a-11ee-a3ce-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada xl vision2
     server: sb.scorecardresearch.com
     port: 443
     type: trojan 
     password: a961a960-4b3a-11ee-a3ce-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada xl WA Line Flex3
     server: sogood.linefriends.com
     port: 443
     type: trojan 
     password: a961a960-4b3a-11ee-a3ce-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Smartfren chat1
     server: sogood.linefriends.com
     port: 443
     type: trojan 
     password: a961a960-4b3a-11ee-a3ce-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Indosat opok1
     server: 172.67.70.101
     port: 443
     type: trojan 
     password: a961a960-4b3a-11ee-a3ce-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Tri Edukasi
     server: udemy.com
     port: 443
     type: trojan 
     password: a961a960-4b3a-11ee-a3ce-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Indosat Edukasi1
     server: udemy.com
     port: 443
     type: trojan 
     password: a961a960-4b3a-11ee-a3ce-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Indosat Edukasi2
     server: 104.18.24.139
     port: 443
     type: trojan 
     password: a961a960-4b3a-11ee-a3ce-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Tsel ByU GGWP
     server: 104.19.143.108
     port: 443
     type: trojan 
     password: a961a960-4b3a-11ee-a3ce-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Tsel Gamemax2
     server: 104.19.143.108
     port: 443
     type: trojan 
     password: a961a960-4b3a-11ee-a3ce-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Tsel Gamemax1
     server: cf-vod.nimo.tv
     port: 443
     type: trojan 
     password: a961a960-4b3a-11ee-a3ce-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Tsel Gamemax3
     server: 104.18.13.120
     port: 443
     type: trojan 
     password: a961a960-4b3a-11ee-a3ce-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Smartfren Edukasi
     server: 104.18.2.2
     port: 443
     type: trojan 
     password: a961a960-4b3a-11ee-a3ce-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Tsel ByU Edukasi
     server: 104.18.2.2
     port: 443
     type: trojan 
     password: a961a960-4b3a-11ee-a3ce-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Tsel Ilped KB1
     server: 104.18.2.2
     port: 443
     type: trojan 
     password: a961a960-4b3a-11ee-a3ce-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Tsel Ilped KB2
     server: 104.18.24.139
     port: 443
     type: trojan 
     password: a961a960-4b3a-11ee-a3ce-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Tsel Ilped KB3
     server: 104.22.24.131
     port: 443
     type: trojan 
     password: a961a960-4b3a-11ee-a3ce-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
 #### SNI
   - name: Tsel byu opok unli
@@ -1548,672 +1296,546 @@ proxies:
     port: 443
     type: trojan 
     password: 6560e1e0-5316-11ee-8550-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada vidio
     server: quiz.vidio.com
     port: 443
     type: trojan 
     password: 6560e1e0-5316-11ee-8550-1239d0255272 
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada multi sc
     server: zendesk1.shopee.com
     port: 443
     type: trojan 
     password: 6560e1e0-5316-11ee-8550-1239d0255272 
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada multi operator
     server: layanan.ruangguru.com
     port: 443
     type: trojan 
     password: 6560e1e0-5316-11ee-8550-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada axis opok
     server: 104.17.58.20
     port: 443
     type: trojan 
     password: 6560e1e0-5316-11ee-8550-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada axis xl opok
     server: 104.17.58.20
     port: 443
     type: trojan 
     password: 6560e1e0-5316-11ee-8550-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada xl opok
     server: 104.18.12.65
     port: 443
     type: trojan 
     password: 6560e1e0-5316-11ee-8550-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada musik spotify
     server: investors.spotify.com
     port: 443
     type: trojan 
     password: 6560e1e0-5316-11ee-8550-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada tsel multimedia
     server: investors.spotify.com
     port: 443
     type: trojan 
     password: 6560e1e0-5316-11ee-8550-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada XL Stream Live On1
     server: investors.spotify.com
     port: 443
     type: trojan 
     password: 6560e1e0-5316-11ee-8550-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada conference1
     server: 104.16.53.111
     port: 443
     type: trojan 
     password: 6560e1e0-5316-11ee-8550-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada xl WA Line Flex1
     server: 104.16.53.111
     port: 443
     type: trojan 
     password: 6560e1e0-5316-11ee-8550-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada akrab4
     server: 104.16.53.111
     port: 443
     type: trojan 
     password: 6560e1e0-5316-11ee-8550-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada conference2
     server: blogs.microsoft.com
     port: 443
     type: trojan 
     password: 6560e1e0-5316-11ee-8550-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada akrab5
     server: blogs.microsoft.com
     port: 443
     type: trojan 
     password: 6560e1e0-5316-11ee-8550-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada edukasi1
     server: 104.17.3.81
     port: 443
     type: trojan 
     password: 6560e1e0-5316-11ee-8550-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada akrab1
     server: 104.17.3.81
     port: 443
     type: trojan 
     password: 6560e1e0-5316-11ee-8550-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada edukasi2
     server: 104.20.75.141
     port: 443
     type: trojan 
     password: 6560e1e0-5316-11ee-8550-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada akrab2
     server: 104.20.75.141
     port: 443
     type: trojan 
     password: 6560e1e0-5316-11ee-8550-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada edukasi3
     server: 104.18.21.226
     port: 443
     type: trojan 
     password: 6560e1e0-5316-11ee-8550-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada akrab3
     server: 104.18.21.226
     port: 443
     type: trojan 
     password: 6560e1e0-5316-11ee-8550-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada video Netflix1
     server: npca.netflix.com
     port: 443
     type: trojan 
     password: 6560e1e0-5316-11ee-8550-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada XL Stream Live On2
     server: npca.netflix.com
     port: 443
     type: trojan 
     password: 6560e1e0-5316-11ee-8550-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Tsel OMG Nonton
     server: npca.netflix.com
     port: 443
     type: trojan 
     password: 6560e1e0-5316-11ee-8550-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada video Netflix2
     server: updates.netflix.com
     port: 443
     type: trojan 
     password: 6560e1e0-5316-11ee-8550-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada xl vision1
     server: 104.21.235.172
     port: 443
     type: trojan 
     password: 6560e1e0-5316-11ee-8550-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada xl vision2
     server: sb.scorecardresearch.com
     port: 443
     type: trojan 
     password: 6560e1e0-5316-11ee-8550-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada xl WA Line Flex3
     server: sogood.linefriends.com
     port: 443
     type: trojan 
     password: 6560e1e0-5316-11ee-8550-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Smartfren chat1
     server: sogood.linefriends.com
     port: 443
     type: trojan 
     password: 6560e1e0-5316-11ee-8550-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Indosat opok1
     server: 172.67.70.101
     port: 443
     type: trojan 
     password: 6560e1e0-5316-11ee-8550-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Tri Edukasi
     server: udemy.com
     port: 443
     type: trojan 
     password: 6560e1e0-5316-11ee-8550-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Indosat Edukasi1
     server: udemy.com
     port: 443
     type: trojan 
     password: 6560e1e0-5316-11ee-8550-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Indosat Edukasi2
     server: 104.18.24.139
     port: 443
     type: trojan 
     password: 6560e1e0-5316-11ee-8550-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Tsel ByU GGWP
     server: 104.19.143.108
     port: 443
     type: trojan 
     password: 6560e1e0-5316-11ee-8550-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Tsel Gamemax2
     server: 104.19.143.108
     port: 443
     type: trojan 
     password: 6560e1e0-5316-11ee-8550-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Tsel Gamemax1
     server: cf-vod.nimo.tv
     port: 443
     type: trojan 
     password: 6560e1e0-5316-11ee-8550-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Tsel Gamemax3
     server: 104.18.13.120
     port: 443
     type: trojan 
     password: 6560e1e0-5316-11ee-8550-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Smartfren Edukasi
     server: 104.18.2.2
     port: 443
     type: trojan 
     password: 6560e1e0-5316-11ee-8550-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Tsel ByU Edukasi
     server: 104.18.2.2
     port: 443
     type: trojan 
     password: 6560e1e0-5316-11ee-8550-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Tsel Ilped KB1
     server: 104.18.2.2
     port: 443
     type: trojan 
     password: 6560e1e0-5316-11ee-8550-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Tsel Ilped KB2
     server: 104.18.24.139
     port: 443
     type: trojan 
     password: 6560e1e0-5316-11ee-8550-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Tsel Ilped KB3
     server: 104.22.24.131
     port: 443
     type: trojan 
     password: 6560e1e0-5316-11ee-8550-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
 #### SNI
   - name: Tsel byu opok unli
@@ -2300,672 +1922,546 @@ proxies:
     port: 443
     type: trojan 
     password: aad5db00-5316-11ee-8cb1-1239d0255272 
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada vidio
     server: quiz.vidio.com
     port: 443
     type: trojan 
     password: aad5db00-5316-11ee-8cb1-1239d0255272 
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada multi sc
     server: zendesk1.shopee.com
     port: 443
     type: trojan 
     password: aad5db00-5316-11ee-8cb1-1239d0255272 
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada multi operator
     server: layanan.ruangguru.com
     port: 443
     type: trojan 
     password: aad5db00-5316-11ee-8cb1-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada axis opok
     server: 104.17.58.20
     port: 443
     type: trojan 
     password: aad5db00-5316-11ee-8cb1-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada axis xl opok
     server: 104.17.58.20
     port: 443
     type: trojan 
     password: aad5db00-5316-11ee-8cb1-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada xl opok
     server: 104.18.12.65
     port: 443
     type: trojan 
     password: aad5db00-5316-11ee-8cb1-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada musik spotify
     server: investors.spotify.com
     port: 443
     type: trojan 
     password: aad5db00-5316-11ee-8cb1-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada tsel multimedia
     server: investors.spotify.com
     port: 443
     type: trojan 
     password: aad5db00-5316-11ee-8cb1-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada XL Stream Live On1
     server: investors.spotify.com
     port: 443
     type: trojan 
     password: aad5db00-5316-11ee-8cb1-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada conference1
     server: 104.16.53.111
     port: 443
     type: trojan 
     password: aad5db00-5316-11ee-8cb1-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada xl WA Line Flex1
     server: 104.16.53.111
     port: 443
     type: trojan 
     password: aad5db00-5316-11ee-8cb1-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada akrab4
     server: 104.16.53.111
     port: 443
     type: trojan 
     password: aad5db00-5316-11ee-8cb1-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada conference2
     server: blogs.microsoft.com
     port: 443
     type: trojan 
     password: aad5db00-5316-11ee-8cb1-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada akrab5
     server: blogs.microsoft.com
     port: 443
     type: trojan 
     password: aad5db00-5316-11ee-8cb1-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada edukasi1
     server: 104.17.3.81
     port: 443
     type: trojan 
     password: aad5db00-5316-11ee-8cb1-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada akrab1
     server: 104.17.3.81
     port: 443
     type: trojan 
     password: aad5db00-5316-11ee-8cb1-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada edukasi2
     server: 104.20.75.141
     port: 443
     type: trojan 
     password: aad5db00-5316-11ee-8cb1-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada akrab2
     server: 104.20.75.141
     port: 443
     type: trojan 
     password: aad5db00-5316-11ee-8cb1-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada edukasi3
     server: 104.18.21.226
     port: 443
     type: trojan 
     password: aad5db00-5316-11ee-8cb1-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada akrab3
     server: 104.18.21.226
     port: 443
     type: trojan 
     password: aad5db00-5316-11ee-8cb1-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada video Netflix1
     server: npca.netflix.com
     port: 443
     type: trojan 
     password: aad5db00-5316-11ee-8cb1-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada XL Stream Live On2
     server: npca.netflix.com
     port: 443
     type: trojan 
     password: aad5db00-5316-11ee-8cb1-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Tsel OMG Nonton
     server: npca.netflix.com
     port: 443
     type: trojan 
     password: aad5db00-5316-11ee-8cb1-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada video Netflix2
     server: updates.netflix.com
     port: 443
     type: trojan 
     password: aad5db00-5316-11ee-8cb1-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada xl vision1
     server: 104.21.235.172
     port: 443
     type: trojan 
     password: aad5db00-5316-11ee-8cb1-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada xl vision2
     server: sb.scorecardresearch.com
     port: 443
     type: trojan 
     password: aad5db00-5316-11ee-8cb1-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada xl WA Line Flex3
     server: sogood.linefriends.com
     port: 443
     type: trojan 
     password: aad5db00-5316-11ee-8cb1-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Smartfren chat1
     server: sogood.linefriends.com
     port: 443
     type: trojan 
     password: aad5db00-5316-11ee-8cb1-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Indosat opok1
     server: 172.67.70.101
     port: 443
     type: trojan 
     password: aad5db00-5316-11ee-8cb1-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Tri Edukasi
     server: udemy.com
     port: 443
     type: trojan 
     password: aad5db00-5316-11ee-8cb1-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Indosat Edukasi1
     server: udemy.com
     port: 443
     type: trojan 
     password: aad5db00-5316-11ee-8cb1-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Indosat Edukasi2
     server: 104.18.24.139
     port: 443
     type: trojan 
     password: aad5db00-5316-11ee-8cb1-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Tsel ByU GGWP
     server: 104.19.143.108
     port: 443
     type: trojan 
     password: aad5db00-5316-11ee-8cb1-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Tsel Gamemax2
     server: 104.19.143.108
     port: 443
     type: trojan 
     password: aad5db00-5316-11ee-8cb1-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Tsel Gamemax1
     server: cf-vod.nimo.tv
     port: 443
     type: trojan 
     password: aad5db00-5316-11ee-8cb1-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Tsel Gamemax3
     server: 104.18.13.120
     port: 443
     type: trojan 
     password: aad5db00-5316-11ee-8cb1-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Smartfren Edukasi
     server: 104.18.2.2
     port: 443
     type: trojan 
     password: aad5db00-5316-11ee-8cb1-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Tsel ByU Edukasi
     server: 104.18.2.2
     port: 443
     type: trojan 
     password: aad5db00-5316-11ee-8cb1-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Tsel Ilped KB1
     server: 104.18.2.2
     port: 443
     type: trojan 
     password: aad5db00-5316-11ee-8cb1-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Tsel Ilped KB2
     server: 104.18.24.139
     port: 443
     type: trojan 
     password: aad5db00-5316-11ee-8cb1-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Tsel Ilped KB3
     server: 104.22.24.131
     port: 443
     type: trojan 
     password: aad5db00-5316-11ee-8cb1-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
 #### SNI
   - name: Tsel byu opok unli
@@ -3052,672 +2548,546 @@ proxies:
     port: 443
     type: trojan 
     password: ea0a35c0-5316-11ee-af61-1239d0255272 
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada vidio
     server: quiz.vidio.com
     port: 443
     type: trojan 
     password: ea0a35c0-5316-11ee-af61-1239d0255272 
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada multi sc
     server: zendesk1.shopee.com
     port: 443
     type: trojan 
     password: ea0a35c0-5316-11ee-af61-1239d0255272 
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada multi operator
     server: layanan.ruangguru.com
     port: 443
     type: trojan 
     password: ea0a35c0-5316-11ee-af61-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada axis opok
     server: 104.17.58.20
     port: 443
     type: trojan 
     password: ea0a35c0-5316-11ee-af61-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada axis xl opok
     server: 104.17.58.20
     port: 443
     type: trojan 
     password: ea0a35c0-5316-11ee-af61-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada xl opok
     server: 104.18.12.65
     port: 443
     type: trojan 
     password: ea0a35c0-5316-11ee-af61-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada musik spotify
     server: investors.spotify.com
     port: 443
     type: trojan 
     password: ea0a35c0-5316-11ee-af61-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada tsel multimedia
     server: investors.spotify.com
     port: 443
     type: trojan 
     password: ea0a35c0-5316-11ee-af61-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada XL Stream Live On1
     server: investors.spotify.com
     port: 443
     type: trojan 
     password: ea0a35c0-5316-11ee-af61-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada conference1
     server: 104.16.53.111
     port: 443
     type: trojan 
     password: ea0a35c0-5316-11ee-af61-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada xl WA Line Flex1
     server: 104.16.53.111
     port: 443
     type: trojan 
     password: ea0a35c0-5316-11ee-af61-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada akrab4
     server: 104.16.53.111
     port: 443
     type: trojan 
     password: ea0a35c0-5316-11ee-af61-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada conference2
     server: blogs.microsoft.com
     port: 443
     type: trojan 
     password: ea0a35c0-5316-11ee-af61-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada akrab5
     server: blogs.microsoft.com
     port: 443
     type: trojan 
     password: ea0a35c0-5316-11ee-af61-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada edukasi1
     server: 104.17.3.81
     port: 443
     type: trojan 
     password: ea0a35c0-5316-11ee-af61-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada akrab1
     server: 104.17.3.81
     port: 443
     type: trojan 
     password: ea0a35c0-5316-11ee-af61-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada edukasi2
     server: 104.20.75.141
     port: 443
     type: trojan 
     password: ea0a35c0-5316-11ee-af61-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada akrab2
     server: 104.20.75.141
     port: 443
     type: trojan 
     password: ea0a35c0-5316-11ee-af61-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada edukasi3
     server: 104.18.21.226
     port: 443
     type: trojan 
     password: ea0a35c0-5316-11ee-af61-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada akrab3
     server: 104.18.21.226
     port: 443
     type: trojan 
     password: ea0a35c0-5316-11ee-af61-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada video Netflix1
     server: npca.netflix.com
     port: 443
     type: trojan 
     password: ea0a35c0-5316-11ee-af61-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada XL Stream Live On2
     server: npca.netflix.com
     port: 443
     type: trojan 
     password: ea0a35c0-5316-11ee-af61-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Tsel OMG Nonton
     server: npca.netflix.com
     port: 443
     type: trojan 
     password: ea0a35c0-5316-11ee-af61-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada video Netflix2
     server: updates.netflix.com
     port: 443
     type: trojan 
     password: ea0a35c0-5316-11ee-af61-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada xl vision1
     server: 104.21.235.172
     port: 443
     type: trojan 
     password: ea0a35c0-5316-11ee-af61-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada xl vision2
     server: sb.scorecardresearch.com
     port: 443
     type: trojan 
     password: ea0a35c0-5316-11ee-af61-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada xl WA Line Flex3
     server: sogood.linefriends.com
     port: 443
     type: trojan 
     password: ea0a35c0-5316-11ee-af61-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Smartfren chat1
     server: sogood.linefriends.com
     port: 443
     type: trojan 
     password: ea0a35c0-5316-11ee-af61-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Indosat opok1
     server: 172.67.70.101
     port: 443
     type: trojan 
     password: ea0a35c0-5316-11ee-af61-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Tri Edukasi
     server: udemy.com
     port: 443
     type: trojan 
     password: ea0a35c0-5316-11ee-af61-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Indosat Edukasi1
     server: udemy.com
     port: 443
     type: trojan 
     password: ea0a35c0-5316-11ee-af61-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Indosat Edukasi2
     server: 104.18.24.139
     port: 443
     type: trojan 
     password: ea0a35c0-5316-11ee-af61-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Tsel ByU GGWP
     server: 104.19.143.108
     port: 443
     type: trojan 
     password: ea0a35c0-5316-11ee-af61-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Tsel Gamemax2
     server: 104.19.143.108
     port: 443
     type: trojan 
     password: ea0a35c0-5316-11ee-af61-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Tsel Gamemax1
     server: cf-vod.nimo.tv
     port: 443
     type: trojan 
     password: ea0a35c0-5316-11ee-af61-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Tsel Gamemax3
     server: 104.18.13.120
     port: 443
     type: trojan 
     password: ea0a35c0-5316-11ee-af61-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Smartfren Edukasi
     server: 104.18.2.2
     port: 443
     type: trojan 
     password: ea0a35c0-5316-11ee-af61-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Tsel ByU Edukasi
     server: 104.18.2.2
     port: 443
     type: trojan 
     password: ea0a35c0-5316-11ee-af61-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Tsel Ilped KB1
     server: 104.18.2.2
     port: 443
     type: trojan 
     password: ea0a35c0-5316-11ee-af61-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Tsel Ilped KB2
     server: 104.18.24.139
     port: 443
     type: trojan 
     password: ea0a35c0-5316-11ee-af61-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
   - name: Canada Tsel Ilped KB3
     server: 104.22.24.131
     port: 443
     type: trojan 
     password: ea0a35c0-5316-11ee-af61-1239d0255272
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: ca1.test3.net 
-    network: ws 
-    ws-opts: 
+    skip-cert-verify: true
+    sni: ca1.test3.net
+    network: ws
+    ws-opts:
       path: /howdy
-      headers: 
-        Host: ca1.test3.net 
+      headers:
+        Host: ca1.test3.net
     udp: true
 #### SNI
   - name: Tsel byu opok unli
