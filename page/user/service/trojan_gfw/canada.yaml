@@ -1,6 +1,6 @@
 #################### Bagian 1 ##################
 proxies:
-  - name: Canada games
+  - name: Canada game
     server: 104.19.142.89
     port: 443
     type: trojan
@@ -585,42 +585,12 @@ proxies:
       headers:
         Host: ca1.test3.net
     udp: true
-##################### SNI ##############
-  - name: Tsel byu opok unli
-    server: 162.159.138.78
-    port: 443
-    type: trojan
-    password: f4ea0ec0-5315-11ee-bc89-1239d0255272
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ca1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: space.byu.id
-    udp: true
-    max-early-data: 2048
-    early-data-header-name: Sec-WebSocket-Protocol
-  - name: Tsel isat opok1
-    server: ca1.test3.net
-    port: 443
-    password: f4ea0ec0-5315-11ee-bc89-1239d0255272
-    udp: true
-    sni: corona.jakarta.go.id
-    alpn:
-      - h2
-      - http/1.1
-    skip-cert-verify: true
 
 
 
 ################# Bagian 2 ################
 #proxies:
-
-  - name: Canada games
+  - name: Canada game
     server: 104.19.142.89
     port: 443
     type: trojan
@@ -1205,42 +1175,12 @@ proxies:
       headers:
         Host: ca1.test3.net
     udp: true
-##################### SNI ##############
-  - name: Tsel byu opok unli
-    server: 162.159.138.78
-    port: 443
-    type: trojan
-    password: a961a960-4b3a-11ee-a3ce-1239d0255272
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ca1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: space.byu.id
-    udp: true
-    max-early-data: 2048
-    early-data-header-name: Sec-WebSocket-Protocol
-  - name: Tsel isat opok1
-    server: ca1.test3.net
-    port: 443
-    password: a961a960-4b3a-11ee-a3ce-1239d0255272
-    udp: true
-    sni: corona.jakarta.go.id
-    alpn:
-      - h2
-      - http/1.1
-    skip-cert-verify: true
 
 
 
 ########## Bagian 3 ######
 #proxies:
-
-  - name: Canada games
+  - name: Canada game
     server: 104.19.142.89
     port: 443
     type: trojan
@@ -1825,42 +1765,12 @@ proxies:
       headers:
         Host: ca1.test3.net
     udp: true
-##################### SNI ##############
-  - name: Tsel byu opok unli
-    server: 162.159.138.78
-    port: 443
-    type: trojan
-    password: 6560e1e0-5316-11ee-8550-1239d0255272
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ca1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: space.byu.id
-    udp: true
-    max-early-data: 2048
-    early-data-header-name: Sec-WebSocket-Protocol
-  - name: Tsel isat opok1
-    server: ca1.test3.net
-    port: 443
-    password: 6560e1e0-5316-11ee-8550-1239d0255272
-    udp: true
-    sni: corona.jakarta.go.id
-    alpn:
-      - h2
-      - http/1.1
-    skip-cert-verify: true
 
 
 
 ################ Bagian 4 #############
 #proxies:
-
-  - name: Canada games
+  - name: Canada game
     server: 104.19.142.89
     port: 443
     type: trojan
@@ -2445,42 +2355,11 @@ proxies:
       headers:
         Host: ca1.test3.net
     udp: true
-##################### SNI ##############
-  - name: Tsel byu opok unli
-    server: 162.159.138.78
-    port: 443
-    type: trojan
-    password: aad5db00-5316-11ee-8cb1-1239d0255272
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ca1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: space.byu.id
-    udp: true
-    max-early-data: 2048
-    early-data-header-name: Sec-WebSocket-Protocol
-  - name: Tsel isat opok1
-    server: ca1.test3.net
-    port: 443
-    password: aad5db00-5316-11ee-8cb1-1239d0255272
-    udp: true
-    sni: corona.jakarta.go.id
-    alpn:
-      - h2
-      - http/1.1
-    skip-cert-verify: true
-
 
 
 ############## Bagian 5 ##########
 #proxies:
-
-  - name: Canada games
+  - name: Canada game
     server: 104.19.142.89
     port: 443
     type: trojan
