@@ -1,10 +1,10 @@
+#################### Bagian 1 ##################
 proxies:
-########## SG AMP ######
-  - name: SG AMP A
+  - name: SG AMP game
     server: 104.19.142.89
     port: 443
     type: trojan
-    password: f1cbde80-4c10-11ee-a3ca-1239d0255272
+    password: 745aa1e0-5702-11ee-9e02-1239d0255272
     skip-cert-verify: true
     sni: sg-2.test3.net
     network: ws
@@ -13,63 +13,11 @@ proxies:
       headers:
         Host: sg-2.test3.net
     udp: true
-  - name: SG AMP B
-    server: www.sushiroll.co.id
-    port: 443
-    type: trojan
-    password: f1cbde80-4c10-11ee-a3ca-1239d0255272
-    skip-cert-verify: true
-    sni: sg-2.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg-2.test3.net
-    udp: true
-  - name: SG AMP C
-    server: quiz.vidio.com
-    port: 443
-    type: trojan
-    password: f1cbde80-4c10-11ee-a3ca-1239d0255272
-    skip-cert-verify: true
-    sni: sg-2.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg-2.test3.net
-    udp: true
-  - name: SG AMP D
-    server: zendesk1.shopee.com
-    port: 443
-    type: trojan
-    password: f1cbde80-4c10-11ee-a3ca-1239d0255272
-    skip-cert-verify: true
-    sni: sg-2.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg-2.test3.net
-    udp: true
-  - name: SG AMP E
+  - name: SG AMP gaming
     server: 104.16.108.96
     port: 443
     type: trojan
-    password: pw
-    skip-cert-verify: true
-    sni: sg-2.test3.net
-    network: f1cbde80-4c10-11ee-a3ca-1239d0255272
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg-2.test3.net
-    udp: true
-  - name: SG AMP F
-    server: 104.17.58.20
-    port: 443
-    type: trojan
-    password: f1cbde80-4c10-11ee-a3ca-1239d0255272
+    password: 745aa1e0-5702-11ee-9e02-1239d0255272
     skip-cert-verify: true
     sni: sg-2.test3.net
     network: ws
@@ -78,11 +26,2916 @@ proxies:
       headers:
         Host: sg-2.test3.net
     udp: true
-  - name: SG AMP G
+  - name: SG AMP games
+    server: 104.18.20.94
+    port: 443
+    type: trojan
+    password: 745aa1e0-5702-11ee-9e02-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP sushiroll
+    server: www.sushiroll.co.id 
+    port: 443
+    type: trojan
+    password: 745aa1e0-5702-11ee-9e02-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP vidio
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: 745aa1e0-5702-11ee-9e02-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP multi sc
+    server: zendesk1.shopee.com
+    port: 443
+    type: trojan
+    password: 745aa1e0-5702-11ee-9e02-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP multi operator
     server: layanan.ruangguru.com
     port: 443
     type: trojan
-    password: f1cbde80-4c10-11ee-a3ca-1239d0255272
+    password: 745aa1e0-5702-11ee-9e02-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP axis opok
+    server: 104.17.58.20
+    port: 443
+    type: trojan
+    password: 745aa1e0-5702-11ee-9e02-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP axis xl opok
+    server: 104.17.58.20
+    port: 443
+    type: trojan
+    password: 745aa1e0-5702-11ee-9e02-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP xl opok
+    server: 104.18.12.65
+    port: 443
+    type: trojan
+    password: 745aa1e0-5702-11ee-9e02-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP musik spotify
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: 745aa1e0-5702-11ee-9e02-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP tsel multimedia
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: 745aa1e0-5702-11ee-9e02-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP XL Stream Live On1
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: 745aa1e0-5702-11ee-9e02-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP conference1
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: 745aa1e0-5702-11ee-9e02-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP xl WA Line Flex1
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: 745aa1e0-5702-11ee-9e02-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP akrab4
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: 745aa1e0-5702-11ee-9e02-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP conference2
+    server: blogs.microsoft.com
+    port: 443
+    type: trojan
+    password: 745aa1e0-5702-11ee-9e02-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP akrab5
+    server: blogs.microsoft.com
+    port: 443
+    type: trojan
+    password: 745aa1e0-5702-11ee-9e02-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP edukasi1
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: 745aa1e0-5702-11ee-9e02-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP akrab1
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: 745aa1e0-5702-11ee-9e02-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP edukasi2
+    server: 104.20.75.141
+    port: 443
+    type: trojan
+    password: 745aa1e0-5702-11ee-9e02-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP akrab2
+    server: 104.20.75.141
+    port: 443
+    type: trojan
+    password: 745aa1e0-5702-11ee-9e02-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP edukasi3
+    server: 104.18.21.226
+    port: 443
+    type: trojan
+    password: 745aa1e0-5702-11ee-9e02-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP akrab3
+    server: 104.18.21.226
+    port: 443
+    type: trojan
+    password: 745aa1e0-5702-11ee-9e02-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP video Netflix1
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: 745aa1e0-5702-11ee-9e02-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP XL Stream Live On2
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: 745aa1e0-5702-11ee-9e02-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Tsel OMG Nonton
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: 745aa1e0-5702-11ee-9e02-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP video Netflix2
+    server: updates.netflix.com
+    port: 443
+    type: trojan
+    password: 745aa1e0-5702-11ee-9e02-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP xl vision1
+    server: 104.21.235.172
+    port: 443
+    type: trojan
+    password: 745aa1e0-5702-11ee-9e02-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP xl vision2
+    server: sb.scorecardresearch.com
+    port: 443
+    type: trojan
+    password: 745aa1e0-5702-11ee-9e02-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP xl WA Line Flex3
+    server: sogood.linefriends.com
+    port: 443
+    type: trojan
+    password: 745aa1e0-5702-11ee-9e02-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Smartfren chat1
+    server: sogood.linefriends.com
+    port: 443
+    type: trojan
+    password: 745aa1e0-5702-11ee-9e02-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Indosat opok1
+    server: 172.67.70.101
+    port: 443
+    type: trojan
+    password: 745aa1e0-5702-11ee-9e02-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Tri Edukasi
+    server: udemy.com
+    port: 443
+    type: trojan
+    password: 745aa1e0-5702-11ee-9e02-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Indosat Edukasi1
+    server: udemy.com
+    port: 443
+    type: trojan
+    password: 745aa1e0-5702-11ee-9e02-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Indosat Edukasi2
+    server: 104.18.24.139
+    port: 443
+    type: trojan
+    password: 745aa1e0-5702-11ee-9e02-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Tsel ByU GGWP
+    server: 104.19.143.108
+    port: 443
+    type: trojan
+    password: 745aa1e0-5702-11ee-9e02-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Tsel Gamemax2
+    server: 104.19.143.108
+    port: 443
+    type: trojan
+    password: 745aa1e0-5702-11ee-9e02-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Tsel Gamemax1
+    server: cf-vod.nimo.tv
+    port: 443
+    type: trojan
+    password: 745aa1e0-5702-11ee-9e02-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Tsel Gamemax3
+    server: 104.18.13.120
+    port: 443
+    type: trojan
+    password: 745aa1e0-5702-11ee-9e02-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Smartfren Edukasi
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: 745aa1e0-5702-11ee-9e02-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Tsel ByU Edukasi
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: 745aa1e0-5702-11ee-9e02-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Tsel Ilped KB1
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: 745aa1e0-5702-11ee-9e02-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Tsel Ilped KB2
+    server: 104.18.24.139
+    port: 443
+    type: trojan
+    password: 745aa1e0-5702-11ee-9e02-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Tsel Ilped KB3
+    server: 104.22.24.131
+    port: 443
+    type: trojan
+    password: 745aa1e0-5702-11ee-9e02-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+
+
+
+################# Bagian 2 ################
+#proxies:
+  - name: SG AMP game
+    server: 104.19.142.89
+    port: 443
+    type: trojan
+    password: 30b8d5e0-5701-11ee-a239-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP gaming
+    server: 104.16.108.96
+    port: 443
+    type: trojan
+    password: 30b8d5e0-5701-11ee-a239-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP games
+    server: 104.18.20.94
+    port: 443
+    type: trojan
+    password: 30b8d5e0-5701-11ee-a239-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP sushiroll
+    server: www.sushiroll.co.id 
+    port: 443
+    type: trojan
+    password: 30b8d5e0-5701-11ee-a239-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP vidio
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: 30b8d5e0-5701-11ee-a239-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP multi sc
+    server: zendesk1.shopee.com
+    port: 443
+    type: trojan
+    password: 30b8d5e0-5701-11ee-a239-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP multi operator
+    server: layanan.ruangguru.com
+    port: 443
+    type: trojan
+    password: 30b8d5e0-5701-11ee-a239-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP axis opok
+    server: 104.17.58.20
+    port: 443
+    type: trojan
+    password: 30b8d5e0-5701-11ee-a239-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP axis xl opok
+    server: 104.17.58.20
+    port: 443
+    type: trojan
+    password: 30b8d5e0-5701-11ee-a239-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP xl opok
+    server: 104.18.12.65
+    port: 443
+    type: trojan
+    password: 30b8d5e0-5701-11ee-a239-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP musik spotify
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: 30b8d5e0-5701-11ee-a239-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP tsel multimedia
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: 30b8d5e0-5701-11ee-a239-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP XL Stream Live On1
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: 30b8d5e0-5701-11ee-a239-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP conference1
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: 30b8d5e0-5701-11ee-a239-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP xl WA Line Flex1
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: 30b8d5e0-5701-11ee-a239-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP akrab4
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: 30b8d5e0-5701-11ee-a239-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP conference2
+    server: blogs.microsoft.com
+    port: 443
+    type: trojan
+    password: 30b8d5e0-5701-11ee-a239-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP akrab5
+    server: blogs.microsoft.com
+    port: 443
+    type: trojan
+    password: 30b8d5e0-5701-11ee-a239-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP edukasi1
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: 30b8d5e0-5701-11ee-a239-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP akrab1
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: 30b8d5e0-5701-11ee-a239-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP edukasi2
+    server: 104.20.75.141
+    port: 443
+    type: trojan
+    password: 30b8d5e0-5701-11ee-a239-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP akrab2
+    server: 104.20.75.141
+    port: 443
+    type: trojan
+    password: 30b8d5e0-5701-11ee-a239-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP edukasi3
+    server: 104.18.21.226
+    port: 443
+    type: trojan
+    password: 30b8d5e0-5701-11ee-a239-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP akrab3
+    server: 104.18.21.226
+    port: 443
+    type: trojan
+    password: 30b8d5e0-5701-11ee-a239-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP video Netflix1
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: 30b8d5e0-5701-11ee-a239-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP XL Stream Live On2
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: 30b8d5e0-5701-11ee-a239-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Tsel OMG Nonton
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: 30b8d5e0-5701-11ee-a239-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP video Netflix2
+    server: updates.netflix.com
+    port: 443
+    type: trojan
+    password: 30b8d5e0-5701-11ee-a239-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP xl vision1
+    server: 104.21.235.172
+    port: 443
+    type: trojan
+    password: 30b8d5e0-5701-11ee-a239-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP xl vision2
+    server: sb.scorecardresearch.com
+    port: 443
+    type: trojan
+    password: 30b8d5e0-5701-11ee-a239-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP xl WA Line Flex3
+    server: sogood.linefriends.com
+    port: 443
+    type: trojan
+    password: 30b8d5e0-5701-11ee-a239-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Smartfren chat1
+    server: sogood.linefriends.com
+    port: 443
+    type: trojan
+    password: 30b8d5e0-5701-11ee-a239-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Indosat opok1
+    server: 172.67.70.101
+    port: 443
+    type: trojan
+    password: 30b8d5e0-5701-11ee-a239-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Tri Edukasi
+    server: udemy.com
+    port: 443
+    type: trojan
+    password: 30b8d5e0-5701-11ee-a239-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Indosat Edukasi1
+    server: udemy.com
+    port: 443
+    type: trojan
+    password: 30b8d5e0-5701-11ee-a239-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Indosat Edukasi2
+    server: 104.18.24.139
+    port: 443
+    type: trojan
+    password: 30b8d5e0-5701-11ee-a239-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Tsel ByU GGWP
+    server: 104.19.143.108
+    port: 443
+    type: trojan
+    password: 30b8d5e0-5701-11ee-a239-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Tsel Gamemax2
+    server: 104.19.143.108
+    port: 443
+    type: trojan
+    password: 30b8d5e0-5701-11ee-a239-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Tsel Gamemax1
+    server: cf-vod.nimo.tv
+    port: 443
+    type: trojan
+    password: 30b8d5e0-5701-11ee-a239-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Tsel Gamemax3
+    server: 104.18.13.120
+    port: 443
+    type: trojan
+    password: 30b8d5e0-5701-11ee-a239-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Smartfren Edukasi
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: 30b8d5e0-5701-11ee-a239-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Tsel ByU Edukasi
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: 30b8d5e0-5701-11ee-a239-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Tsel Ilped KB1
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: 30b8d5e0-5701-11ee-a239-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Tsel Ilped KB2
+    server: 104.18.24.139
+    port: 443
+    type: trojan
+    password: 30b8d5e0-5701-11ee-a239-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Tsel Ilped KB3
+    server: 104.22.24.131
+    port: 443
+    type: trojan
+    password: 30b8d5e0-5701-11ee-a239-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+
+
+
+#################### Bagian 3 ###################
+#proxies:
+  - name: SG AMP game
+    server: 104.19.142.89
+    port: 443
+    type: trojan
+    password: 7ce72c50-5701-11ee-a5cf-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP gaming
+    server: 104.16.108.96
+    port: 443
+    type: trojan
+    password: 7ce72c50-5701-11ee-a5cf-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP games
+    server: 104.18.20.94
+    port: 443
+    type: trojan
+    password: 7ce72c50-5701-11ee-a5cf-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP sushiroll
+    server: www.sushiroll.co.id 
+    port: 443
+    type: trojan
+    password: 7ce72c50-5701-11ee-a5cf-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP vidio
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: 7ce72c50-5701-11ee-a5cf-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP multi sc
+    server: zendesk1.shopee.com
+    port: 443
+    type: trojan
+    password: 7ce72c50-5701-11ee-a5cf-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP multi operator
+    server: layanan.ruangguru.com
+    port: 443
+    type: trojan
+    password: 7ce72c50-5701-11ee-a5cf-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP axis opok
+    server: 104.17.58.20
+    port: 443
+    type: trojan
+    password: 7ce72c50-5701-11ee-a5cf-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP axis xl opok
+    server: 104.17.58.20
+    port: 443
+    type: trojan
+    password: 7ce72c50-5701-11ee-a5cf-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP xl opok
+    server: 104.18.12.65
+    port: 443
+    type: trojan
+    password: 7ce72c50-5701-11ee-a5cf-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP musik spotify
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: 7ce72c50-5701-11ee-a5cf-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP tsel multimedia
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: 7ce72c50-5701-11ee-a5cf-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP XL Stream Live On1
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: 7ce72c50-5701-11ee-a5cf-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP conference1
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: 7ce72c50-5701-11ee-a5cf-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP xl WA Line Flex1
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: 7ce72c50-5701-11ee-a5cf-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP akrab4
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: 7ce72c50-5701-11ee-a5cf-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP conference2
+    server: blogs.microsoft.com
+    port: 443
+    type: trojan
+    password: 7ce72c50-5701-11ee-a5cf-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP akrab5
+    server: blogs.microsoft.com
+    port: 443
+    type: trojan
+    password: 7ce72c50-5701-11ee-a5cf-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP edukasi1
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: 7ce72c50-5701-11ee-a5cf-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP akrab1
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: 7ce72c50-5701-11ee-a5cf-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP edukasi2
+    server: 104.20.75.141
+    port: 443
+    type: trojan
+    password: 7ce72c50-5701-11ee-a5cf-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP akrab2
+    server: 104.20.75.141
+    port: 443
+    type: trojan
+    password: 7ce72c50-5701-11ee-a5cf-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP edukasi3
+    server: 104.18.21.226
+    port: 443
+    type: trojan
+    password: 7ce72c50-5701-11ee-a5cf-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP akrab3
+    server: 104.18.21.226
+    port: 443
+    type: trojan
+    password: 7ce72c50-5701-11ee-a5cf-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP video Netflix1
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: 7ce72c50-5701-11ee-a5cf-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP XL Stream Live On2
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: 7ce72c50-5701-11ee-a5cf-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Tsel OMG Nonton
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: 7ce72c50-5701-11ee-a5cf-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP video Netflix2
+    server: updates.netflix.com
+    port: 443
+    type: trojan
+    password: 7ce72c50-5701-11ee-a5cf-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP xl vision1
+    server: 104.21.235.172
+    port: 443
+    type: trojan
+    password: 7ce72c50-5701-11ee-a5cf-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP xl vision2
+    server: sb.scorecardresearch.com
+    port: 443
+    type: trojan
+    password: 7ce72c50-5701-11ee-a5cf-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP xl WA Line Flex3
+    server: sogood.linefriends.com
+    port: 443
+    type: trojan
+    password: 7ce72c50-5701-11ee-a5cf-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Smartfren chat1
+    server: sogood.linefriends.com
+    port: 443
+    type: trojan
+    password: 7ce72c50-5701-11ee-a5cf-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Indosat opok1
+    server: 172.67.70.101
+    port: 443
+    type: trojan
+    password: 7ce72c50-5701-11ee-a5cf-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Tri Edukasi
+    server: udemy.com
+    port: 443
+    type: trojan
+    password: 7ce72c50-5701-11ee-a5cf-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Indosat Edukasi1
+    server: udemy.com
+    port: 443
+    type: trojan
+    password: 7ce72c50-5701-11ee-a5cf-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Indosat Edukasi2
+    server: 104.18.24.139
+    port: 443
+    type: trojan
+    password: 7ce72c50-5701-11ee-a5cf-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Tsel ByU GGWP
+    server: 104.19.143.108
+    port: 443
+    type: trojan
+    password: 7ce72c50-5701-11ee-a5cf-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Tsel Gamemax2
+    server: 104.19.143.108
+    port: 443
+    type: trojan
+    password: 7ce72c50-5701-11ee-a5cf-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Tsel Gamemax1
+    server: cf-vod.nimo.tv
+    port: 443
+    type: trojan
+    password: 7ce72c50-5701-11ee-a5cf-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Tsel Gamemax3
+    server: 104.18.13.120
+    port: 443
+    type: trojan
+    password: 7ce72c50-5701-11ee-a5cf-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Smartfren Edukasi
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: 7ce72c50-5701-11ee-a5cf-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Tsel ByU Edukasi
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: 7ce72c50-5701-11ee-a5cf-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Tsel Ilped KB1
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: 7ce72c50-5701-11ee-a5cf-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Tsel Ilped KB2
+    server: 104.18.24.139
+    port: 443
+    type: trojan
+    password: 7ce72c50-5701-11ee-a5cf-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Tsel Ilped KB3
+    server: 104.22.24.131
+    port: 443
+    type: trojan
+    password: 7ce72c50-5701-11ee-a5cf-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+
+
+
+################ Bagian 4 #############
+#proxies:
+  - name: SG AMP game
+    server: 104.19.142.89
+    port: 443
+    type: trojan
+    password: dabf9d50-5701-11ee-aa8a-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP gaming
+    server: 104.16.108.96
+    port: 443
+    type: trojan
+    password: dabf9d50-5701-11ee-aa8a-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP games
+    server: 104.18.20.94
+    port: 443
+    type: trojan
+    password: dabf9d50-5701-11ee-aa8a-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP sushiroll
+    server: www.sushiroll.co.id 
+    port: 443
+    type: trojan
+    password: dabf9d50-5701-11ee-aa8a-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP vidio
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: dabf9d50-5701-11ee-aa8a-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP multi sc
+    server: zendesk1.shopee.com
+    port: 443
+    type: trojan
+    password: dabf9d50-5701-11ee-aa8a-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP multi operator
+    server: layanan.ruangguru.com
+    port: 443
+    type: trojan
+    password: dabf9d50-5701-11ee-aa8a-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP axis opok
+    server: 104.17.58.20
+    port: 443
+    type: trojan
+    password: dabf9d50-5701-11ee-aa8a-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP axis xl opok
+    server: 104.17.58.20
+    port: 443
+    type: trojan
+    password: dabf9d50-5701-11ee-aa8a-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP xl opok
+    server: 104.18.12.65
+    port: 443
+    type: trojan
+    password: dabf9d50-5701-11ee-aa8a-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP musik spotify
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: dabf9d50-5701-11ee-aa8a-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP tsel multimedia
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: dabf9d50-5701-11ee-aa8a-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP XL Stream Live On1
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: dabf9d50-5701-11ee-aa8a-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP conference1
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: dabf9d50-5701-11ee-aa8a-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP xl WA Line Flex1
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: dabf9d50-5701-11ee-aa8a-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP akrab4
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: dabf9d50-5701-11ee-aa8a-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP conference2
+    server: blogs.microsoft.com
+    port: 443
+    type: trojan
+    password: dabf9d50-5701-11ee-aa8a-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP akrab5
+    server: blogs.microsoft.com
+    port: 443
+    type: trojan
+    password: dabf9d50-5701-11ee-aa8a-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP edukasi1
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: dabf9d50-5701-11ee-aa8a-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP akrab1
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: dabf9d50-5701-11ee-aa8a-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP edukasi2
+    server: 104.20.75.141
+    port: 443
+    type: trojan
+    password: dabf9d50-5701-11ee-aa8a-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP akrab2
+    server: 104.20.75.141
+    port: 443
+    type: trojan
+    password: dabf9d50-5701-11ee-aa8a-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP edukasi3
+    server: 104.18.21.226
+    port: 443
+    type: trojan
+    password: dabf9d50-5701-11ee-aa8a-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP akrab3
+    server: 104.18.21.226
+    port: 443
+    type: trojan
+    password: dabf9d50-5701-11ee-aa8a-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP video Netflix1
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: dabf9d50-5701-11ee-aa8a-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP XL Stream Live On2
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: dabf9d50-5701-11ee-aa8a-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Tsel OMG Nonton
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: dabf9d50-5701-11ee-aa8a-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP video Netflix2
+    server: updates.netflix.com
+    port: 443
+    type: trojan
+    password: dabf9d50-5701-11ee-aa8a-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP xl vision1
+    server: 104.21.235.172
+    port: 443
+    type: trojan
+    password: dabf9d50-5701-11ee-aa8a-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP xl vision2
+    server: sb.scorecardresearch.com
+    port: 443
+    type: trojan
+    password: dabf9d50-5701-11ee-aa8a-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP xl WA Line Flex3
+    server: sogood.linefriends.com
+    port: 443
+    type: trojan
+    password: dabf9d50-5701-11ee-aa8a-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Smartfren chat1
+    server: sogood.linefriends.com
+    port: 443
+    type: trojan
+    password: dabf9d50-5701-11ee-aa8a-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Indosat opok1
+    server: 172.67.70.101
+    port: 443
+    type: trojan
+    password: dabf9d50-5701-11ee-aa8a-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Tri Edukasi
+    server: udemy.com
+    port: 443
+    type: trojan
+    password: dabf9d50-5701-11ee-aa8a-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Indosat Edukasi1
+    server: udemy.com
+    port: 443
+    type: trojan
+    password: dabf9d50-5701-11ee-aa8a-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Indosat Edukasi2
+    server: 104.18.24.139
+    port: 443
+    type: trojan
+    password: dabf9d50-5701-11ee-aa8a-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Tsel ByU GGWP
+    server: 104.19.143.108
+    port: 443
+    type: trojan
+    password: dabf9d50-5701-11ee-aa8a-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Tsel Gamemax2
+    server: 104.19.143.108
+    port: 443
+    type: trojan
+    password: dabf9d50-5701-11ee-aa8a-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Tsel Gamemax1
+    server: cf-vod.nimo.tv
+    port: 443
+    type: trojan
+    password: dabf9d50-5701-11ee-aa8a-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Tsel Gamemax3
+    server: 104.18.13.120
+    port: 443
+    type: trojan
+    password: dabf9d50-5701-11ee-aa8a-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Smartfren Edukasi
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: dabf9d50-5701-11ee-aa8a-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Tsel ByU Edukasi
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: dabf9d50-5701-11ee-aa8a-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Tsel Ilped KB1
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: dabf9d50-5701-11ee-aa8a-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Tsel Ilped KB2
+    server: 104.18.24.139
+    port: 443
+    type: trojan
+    password: dabf9d50-5701-11ee-aa8a-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Tsel Ilped KB3
+    server: 104.22.24.131
+    port: 443
+    type: trojan
+    password: dabf9d50-5701-11ee-aa8a-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+
+
+############## Bagian 5 ##########
+#proxies:
+  - name: SG AMP game
+    server: 104.19.142.89
+    port: 443
+    type: trojan
+    password: 23509bb0-5702-11ee-b2e8-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP gaming
+    server: 104.16.108.96
+    port: 443
+    type: trojan
+    password: 23509bb0-5702-11ee-b2e8-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP games
+    server: 104.18.20.94
+    port: 443
+    type: trojan
+    password: 23509bb0-5702-11ee-b2e8-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP sushiroll
+    server: www.sushiroll.co.id 
+    port: 443
+    type: trojan
+    password: 23509bb0-5702-11ee-b2e8-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP vidio
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: 23509bb0-5702-11ee-b2e8-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP multi sc
+    server: zendesk1.shopee.com
+    port: 443
+    type: trojan
+    password: 23509bb0-5702-11ee-b2e8-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP multi operator
+    server: layanan.ruangguru.com
+    port: 443
+    type: trojan
+    password: 23509bb0-5702-11ee-b2e8-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP axis opok
+    server: 104.17.58.20
+    port: 443
+    type: trojan
+    password: 23509bb0-5702-11ee-b2e8-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP axis xl opok
+    server: 104.17.58.20
+    port: 443
+    type: trojan
+    password: 23509bb0-5702-11ee-b2e8-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP xl opok
+    server: 104.18.12.65
+    port: 443
+    type: trojan
+    password: 23509bb0-5702-11ee-b2e8-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP musik spotify
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: 23509bb0-5702-11ee-b2e8-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP tsel multimedia
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: 23509bb0-5702-11ee-b2e8-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP XL Stream Live On1
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: 23509bb0-5702-11ee-b2e8-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP conference1
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: 23509bb0-5702-11ee-b2e8-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP xl WA Line Flex1
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: 23509bb0-5702-11ee-b2e8-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP akrab4
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: 23509bb0-5702-11ee-b2e8-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP conference2
+    server: blogs.microsoft.com
+    port: 443
+    type: trojan
+    password: 23509bb0-5702-11ee-b2e8-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP akrab5
+    server: blogs.microsoft.com
+    port: 443
+    type: trojan
+    password: 23509bb0-5702-11ee-b2e8-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP edukasi1
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: 23509bb0-5702-11ee-b2e8-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP akrab1
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: 23509bb0-5702-11ee-b2e8-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP edukasi2
+    server: 104.20.75.141
+    port: 443
+    type: trojan
+    password: 23509bb0-5702-11ee-b2e8-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP akrab2
+    server: 104.20.75.141
+    port: 443
+    type: trojan
+    password: 23509bb0-5702-11ee-b2e8-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP edukasi3
+    server: 104.18.21.226
+    port: 443
+    type: trojan
+    password: 23509bb0-5702-11ee-b2e8-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP akrab3
+    server: 104.18.21.226
+    port: 443
+    type: trojan
+    password: 23509bb0-5702-11ee-b2e8-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP video Netflix1
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: 23509bb0-5702-11ee-b2e8-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP XL Stream Live On2
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: 23509bb0-5702-11ee-b2e8-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Tsel OMG Nonton
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: 23509bb0-5702-11ee-b2e8-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP video Netflix2
+    server: updates.netflix.com
+    port: 443
+    type: trojan
+    password: 23509bb0-5702-11ee-b2e8-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP xl vision1
+    server: 104.21.235.172
+    port: 443
+    type: trojan
+    password: 23509bb0-5702-11ee-b2e8-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP xl vision2
+    server: sb.scorecardresearch.com
+    port: 443
+    type: trojan
+    password: 23509bb0-5702-11ee-b2e8-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP xl WA Line Flex3
+    server: sogood.linefriends.com
+    port: 443
+    type: trojan
+    password: 23509bb0-5702-11ee-b2e8-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Smartfren chat1
+    server: sogood.linefriends.com
+    port: 443
+    type: trojan
+    password: 23509bb0-5702-11ee-b2e8-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Indosat opok1
+    server: 172.67.70.101
+    port: 443
+    type: trojan
+    password: 23509bb0-5702-11ee-b2e8-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Tri Edukasi
+    server: udemy.com
+    port: 443
+    type: trojan
+    password: 23509bb0-5702-11ee-b2e8-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Indosat Edukasi1
+    server: udemy.com
+    port: 443
+    type: trojan
+    password: 23509bb0-5702-11ee-b2e8-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Indosat Edukasi2
+    server: 104.18.24.139
+    port: 443
+    type: trojan
+    password: 23509bb0-5702-11ee-b2e8-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Tsel ByU GGWP
+    server: 104.19.143.108
+    port: 443
+    type: trojan
+    password: 23509bb0-5702-11ee-b2e8-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Tsel Gamemax2
+    server: 104.19.143.108
+    port: 443
+    type: trojan
+    password: 23509bb0-5702-11ee-b2e8-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Tsel Gamemax1
+    server: cf-vod.nimo.tv
+    port: 443
+    type: trojan
+    password: 23509bb0-5702-11ee-b2e8-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Tsel Gamemax3
+    server: 104.18.13.120
+    port: 443
+    type: trojan
+    password: 23509bb0-5702-11ee-b2e8-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Smartfren Edukasi
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: 23509bb0-5702-11ee-b2e8-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Tsel ByU Edukasi
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: 23509bb0-5702-11ee-b2e8-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Tsel Ilped KB1
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: 23509bb0-5702-11ee-b2e8-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Tsel Ilped KB2
+    server: 104.18.24.139
+    port: 443
+    type: trojan
+    password: 23509bb0-5702-11ee-b2e8-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: SG AMP Tsel Ilped KB3
+    server: 104.22.24.131
+    port: 443
+    type: trojan
+    password: 23509bb0-5702-11ee-b2e8-1239d0255272
     skip-cert-verify: true
     sni: sg-2.test3.net
     network: ws
