@@ -40,7 +40,7 @@ proxies:
         Host: th1-trojan.bonds.id
     udp: true
   - name: Thailand D
-    server: zendesk1.shopee.com
+    server: 162.159.138.6
     port: 443
     type: trojan
     password: 6e1fbc80-4c79-11ee-bea9-1239d0255272
