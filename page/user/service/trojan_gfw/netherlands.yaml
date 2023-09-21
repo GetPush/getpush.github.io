@@ -40,7 +40,7 @@ proxies:
         Host: nl.test3.net
     udp: true
   - name: Netherland D
-    server: zendesk1.shopee.com
+    server: 162.159.138.6
     port: 443
     type: trojan
     password: 59093750-4e40-11ee-b923-1239d0255272
