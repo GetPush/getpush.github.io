@@ -79,8 +79,24 @@ proxies:
       headers: 
         Host: sg4-v2ray.sshkit.org 
     udp: true
-  - name: s4 multi sc
-    server: zendesk1.shopee.com
+  - name: s4 multi sc1
+    server: 162.159.138.6
+    port: 80
+    type: vmess 
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3 
+    alterId: 0 
+    cipher: auto 
+    tls: false 
+    skip-cert-verify: true 
+    servername: sg4-v2ray.sshkit.org 
+    network: ws 
+    ws-opts: 
+      path: /sshkit/1828396894/64eabbe6abf23/
+      headers: 
+        Host: sg4-v2ray.sshkit.org 
+    udp: true
+  - name: s4 multi sc2
+    server: 162.159.128.7
     port: 80
     type: vmess 
     uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3 
