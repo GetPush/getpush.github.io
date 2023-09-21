@@ -40,7 +40,7 @@ proxies:
         Host: sg2-trojan.bonds.id
     udp: true
   - name: SG HE 2 D
-    server: zendesk1.shopee.com
+    server: 162.159.138.6
     port: 443
     type: trojan
     password: adabe690-4e1d-11ee-8e05-1239d0255272
