@@ -40,7 +40,7 @@ proxies:
         Host: de1.test3.net
     udp: true
   - name: Germany D
-    server: zendesk1.shopee.com
+    server: 162.159.138.6
     port: 443
     type: trojan
     password: 9a0cbf10-4e40-11ee-9a0d-1239d0255272
