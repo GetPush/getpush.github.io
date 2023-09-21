@@ -65,8 +65,21 @@ proxies:
       headers:
         Host: id-1.test3.net
     udp: true
-  - name: ID HERZA multi sc
+  - name: ID HERZA multi sc1
     server: 162.159.138.6
+    port: 443
+    type: trojan
+    password: 1b318810-5322-11ee-b418-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA multi sc2
+    server: 162.159.128.7
     port: 443
     type: trojan
     password: 1b318810-5322-11ee-b418-1239d0255272
@@ -588,7 +601,7 @@ proxies:
 
 
 
-################# Bagian 2 ################
+#################### Bagian 2 ###################
 #proxies:
   - name: ID HERZA game
     server: 104.19.142.89
@@ -655,8 +668,21 @@ proxies:
       headers:
         Host: id-1.test3.net
     udp: true
-  - name: ID HERZA multi sc
+  - name: ID HERZA multi sc1
     server: 162.159.138.6
+    port: 443
+    type: trojan
+    password: ccf68620-5322-11ee-a05e-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA multi sc2
+    server: 162.159.128.7
     port: 443
     type: trojan
     password: ccf68620-5322-11ee-a05e-1239d0255272
@@ -1178,7 +1204,7 @@ proxies:
 
 
 
-########## Bagian 3 ######
+####################### Bagian 3 ###################
 #proxies:
   - name: ID HERZA game
     server: 104.19.142.89
@@ -1245,8 +1271,21 @@ proxies:
       headers:
         Host: id-1.test3.net
     udp: true
-  - name: ID HERZA multi sc
+  - name: ID HERZA multi sc1
     server: 162.159.138.6
+    port: 443
+    type: trojan
+    password: 210f2200-5323-11ee-8090-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA multi sc2
+    server: 162.159.128.7
     port: 443
     type: trojan
     password: 210f2200-5323-11ee-8090-1239d0255272
@@ -1768,7 +1807,7 @@ proxies:
 
 
 
-################ Bagian 4 #############
+######################### Bagian 4 #####################
 #proxies:
   - name: ID HERZA game
     server: 104.19.142.89
@@ -1835,8 +1874,21 @@ proxies:
       headers:
         Host: id-1.test3.net
     udp: true
-  - name: ID HERZA multi sc
+  - name: ID HERZA multi sc1
     server: 162.159.138.6
+    port: 443
+    type: trojan
+    password: 4f6cf470-5323-11ee-bc19-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA multi sc2
+    server: 162.159.128.7
     port: 443
     type: trojan
     password: 4f6cf470-5323-11ee-bc19-1239d0255272
@@ -2357,7 +2409,7 @@ proxies:
     udp: true
 
 
-############## Bagian 5 ##########
+###################### Bagian 5 #####################
 #proxies:
   - name: ID HERZA game
     server: 104.19.142.89
@@ -2424,8 +2476,21 @@ proxies:
       headers:
         Host: id-1.test3.net
     udp: true
-  - name: ID HERZA multi sc
+  - name: ID HERZA multi sc1
     server: 162.159.138.6
+    port: 443
+    type: trojan
+    password: 7ce31810-5323-11ee-92c4-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: ID HERZA multi sc2
+    server: 162.159.128.7
     port: 443
     type: trojan
     password: 7ce31810-5323-11ee-92c4-1239d0255272
