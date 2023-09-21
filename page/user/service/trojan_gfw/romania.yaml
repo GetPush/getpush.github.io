@@ -40,7 +40,7 @@ proxies:
         Host: ro1.test3.net
     udp: true
   - name: Romania Multi SC
-    server: zendesk1.shopee.com
+    server: 162.159.138.6
     port: 443
     type: trojan
     password: d05139e0-5319-11ee-a87e-1239d0255272
@@ -134,7 +134,7 @@ proxies:
         Host: ro1.test3.net
     udp: true
   - name: Romania Multi SC
-    server: zendesk1.shopee.com
+    server: 162.159.138.6
     port: 443
     type: trojan
     password: 31d44b60-531a-11ee-9c03-1239d0255272
@@ -228,7 +228,7 @@ proxies:
         Host: ro1.test3.net
     udp: true
   - name: Romania Multi SC
-    server: zendesk1.shopee.com
+    server: 162.159.138.6
     port: 443
     type: trojan
     password: 69a745c0-531a-11ee-a080-1239d0255272
@@ -322,7 +322,7 @@ proxies:
         Host: ro1.test3.net
     udp: true
   - name: Romania Multi SC
-    server: zendesk1.shopee.com
+    server: 162.159.138.6
     port: 443
     type: trojan
     password: 92e96da0-531a-11ee-91f9-1239d0255272
@@ -416,7 +416,7 @@ proxies:
         Host: ro1.test3.net
     udp: true
   - name: Romania Multi SC
-    server: zendesk1.shopee.com
+    server: 162.159.138.6
     port: 443
     type: trojan
     password: c1cfbd80-531a-11ee-9b77-1239d0255272
