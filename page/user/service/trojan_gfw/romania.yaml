@@ -1,10 +1,10 @@
+#################### Bagian 1 ##################
 proxies:
-########## Romania Bagian 1 ######
-  - name: Romania Game
+  - name: Romania game
     server: 104.19.142.89
     port: 443
     type: trojan
-    password: d05139e0-5319-11ee-a87e-1239d0255272
+    password: 942bb2a0-5934-11ee-ba5b-1239d0255272
     skip-cert-verify: true
     sni: ro1.test3.net
     network: ws
@@ -13,11 +13,37 @@ proxies:
       headers:
         Host: ro1.test3.net
     udp: true
-  - name: Romania Sushiroll
-    server: www.sushiroll.co.id
+  - name: Romania gaming
+    server: 104.16.108.96
     port: 443
     type: trojan
-    password: d05139e0-5319-11ee-a87e-1239d0255272
+    password: 942bb2a0-5934-11ee-ba5b-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania games
+    server: 104.18.20.94
+    port: 443
+    type: trojan
+    password: 942bb2a0-5934-11ee-ba5b-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania sushiroll
+    server: www.sushiroll.co.id 
+    port: 443
+    type: trojan
+    password: 942bb2a0-5934-11ee-ba5b-1239d0255272
     skip-cert-verify: true
     sni: ro1.test3.net
     network: ws
@@ -30,7 +56,7 @@ proxies:
     server: quiz.vidio.com
     port: 443
     type: trojan
-    password: d05139e0-5319-11ee-a87e-1239d0255272
+    password: 942bb2a0-5934-11ee-ba5b-1239d0255272
     skip-cert-verify: true
     sni: ro1.test3.net
     network: ws
@@ -39,11 +65,11 @@ proxies:
       headers:
         Host: ro1.test3.net
     udp: true
-  - name: Romania Multi SC
+  - name: Romania multi sc1
     server: 162.159.138.6
     port: 443
     type: trojan
-    password: d05139e0-5319-11ee-a87e-1239d0255272
+    password: 942bb2a0-5934-11ee-ba5b-1239d0255272
     skip-cert-verify: true
     sni: ro1.test3.net
     network: ws
@@ -52,11 +78,11 @@ proxies:
       headers:
         Host: ro1.test3.net
     udp: true
-  - name: Romania Gaming
-    server: 104.16.108.96
+  - name: Romania multi sc2
+    server: 162.159.128.7
     port: 443
     type: trojan
-    password: d05139e0-5319-11ee-a87e-1239d0255272
+    password: 942bb2a0-5934-11ee-ba5b-1239d0255272
     skip-cert-verify: true
     sni: ro1.test3.net
     network: ws
@@ -65,11 +91,11 @@ proxies:
       headers:
         Host: ro1.test3.net
     udp: true
-  - name: Romania Multi Operator
+  - name: Romania multi operator
     server: layanan.ruangguru.com
     port: 443
     type: trojan
-    password: d05139e0-5319-11ee-a87e-1239d0255272
+    password: 942bb2a0-5934-11ee-ba5b-1239d0255272
     skip-cert-verify: true
     sni: ro1.test3.net
     network: ws
@@ -78,11 +104,492 @@ proxies:
       headers:
         Host: ro1.test3.net
     udp: true
-  - name: Romania Opok
+  - name: Romania axis opok
     server: 104.17.58.20
     port: 443
     type: trojan
-    password: d05139e0-5319-11ee-a87e-1239d0255272
+    password: 942bb2a0-5934-11ee-ba5b-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania axis xl opok
+    server: 104.17.58.20
+    port: 443
+    type: trojan
+    password: 942bb2a0-5934-11ee-ba5b-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania xl opok
+    server: 104.18.12.65
+    port: 443
+    type: trojan
+    password: 942bb2a0-5934-11ee-ba5b-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania musik spotify
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: 942bb2a0-5934-11ee-ba5b-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania tsel multimedia
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: 942bb2a0-5934-11ee-ba5b-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania XL Stream Live On1
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: 942bb2a0-5934-11ee-ba5b-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania conference1
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: 942bb2a0-5934-11ee-ba5b-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania xl WA Line Flex1
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: 942bb2a0-5934-11ee-ba5b-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania akrab4
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: 942bb2a0-5934-11ee-ba5b-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania conference2
+    server: blogs.microsoft.com
+    port: 443
+    type: trojan
+    password: 942bb2a0-5934-11ee-ba5b-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania akrab5
+    server: blogs.microsoft.com
+    port: 443
+    type: trojan
+    password: 942bb2a0-5934-11ee-ba5b-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania edukasi1
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: 942bb2a0-5934-11ee-ba5b-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania akrab1
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: 942bb2a0-5934-11ee-ba5b-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania edukasi2
+    server: 104.20.75.141
+    port: 443
+    type: trojan
+    password: 942bb2a0-5934-11ee-ba5b-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania akrab2
+    server: 104.20.75.141
+    port: 443
+    type: trojan
+    password: 942bb2a0-5934-11ee-ba5b-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania edukasi3
+    server: 104.18.21.226
+    port: 443
+    type: trojan
+    password: 942bb2a0-5934-11ee-ba5b-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania akrab3
+    server: 104.18.21.226
+    port: 443
+    type: trojan
+    password: 942bb2a0-5934-11ee-ba5b-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania video Netflix1
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: 942bb2a0-5934-11ee-ba5b-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania XL Stream Live On2
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: 942bb2a0-5934-11ee-ba5b-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Tsel OMG Nonton
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: 942bb2a0-5934-11ee-ba5b-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania video Netflix2
+    server: updates.netflix.com
+    port: 443
+    type: trojan
+    password: 942bb2a0-5934-11ee-ba5b-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania xl vision1
+    server: 104.21.235.172
+    port: 443
+    type: trojan
+    password: 942bb2a0-5934-11ee-ba5b-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania xl vision2
+    server: sb.scorecardresearch.com
+    port: 443
+    type: trojan
+    password: 942bb2a0-5934-11ee-ba5b-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania xl WA Line Flex3
+    server: sogood.linefriends.com
+    port: 443
+    type: trojan
+    password: 942bb2a0-5934-11ee-ba5b-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Smartfren chat1
+    server: sogood.linefriends.com
+    port: 443
+    type: trojan
+    password: 942bb2a0-5934-11ee-ba5b-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Indosat opok1
+    server: 172.67.70.101
+    port: 443
+    type: trojan
+    password: 942bb2a0-5934-11ee-ba5b-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Tri Edukasi
+    server: udemy.com
+    port: 443
+    type: trojan
+    password: 942bb2a0-5934-11ee-ba5b-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Indosat Edukasi1
+    server: udemy.com
+    port: 443
+    type: trojan
+    password: 942bb2a0-5934-11ee-ba5b-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Indosat Edukasi2
+    server: 104.18.24.139
+    port: 443
+    type: trojan
+    password: 942bb2a0-5934-11ee-ba5b-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Tsel ByU GGWP
+    server: 104.19.143.108
+    port: 443
+    type: trojan
+    password: 942bb2a0-5934-11ee-ba5b-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Tsel Gamemax2
+    server: 104.19.143.108
+    port: 443
+    type: trojan
+    password: 942bb2a0-5934-11ee-ba5b-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Tsel Gamemax1
+    server: cf-vod.nimo.tv
+    port: 443
+    type: trojan
+    password: 942bb2a0-5934-11ee-ba5b-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Tsel Gamemax3
+    server: 104.18.13.120
+    port: 443
+    type: trojan
+    password: 942bb2a0-5934-11ee-ba5b-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Smartfren Edukasi
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: 942bb2a0-5934-11ee-ba5b-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Tsel ByU Edukasi
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: 942bb2a0-5934-11ee-ba5b-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Tsel Ilped KB1
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: 942bb2a0-5934-11ee-ba5b-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Tsel Ilped KB2
+    server: 104.18.24.139
+    port: 443
+    type: trojan
+    password: 942bb2a0-5934-11ee-ba5b-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Tsel Ilped KB3
+    server: 104.22.24.131
+    port: 443
+    type: trojan
+    password: 942bb2a0-5934-11ee-ba5b-1239d0255272
     skip-cert-verify: true
     sni: ro1.test3.net
     network: ws
@@ -92,13 +599,15 @@ proxies:
         Host: ro1.test3.net
     udp: true
 
+
+
+################# Bagian 2 ################
 #proxies:
-########## Romania Bagian 2 ######
-  - name: Romania Game
+  - name: Romania game
     server: 104.19.142.89
     port: 443
     type: trojan
-    password: 31d44b60-531a-11ee-9c03-1239d0255272
+    password: e7cb6f80-5934-11ee-b694-1239d0255272
     skip-cert-verify: true
     sni: ro1.test3.net
     network: ws
@@ -107,11 +616,37 @@ proxies:
       headers:
         Host: ro1.test3.net
     udp: true
-  - name: Romania Sushiroll
-    server: www.sushiroll.co.id
+  - name: Romania gaming
+    server: 104.16.108.96
     port: 443
     type: trojan
-    password: 31d44b60-531a-11ee-9c03-1239d0255272
+    password: e7cb6f80-5934-11ee-b694-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania games
+    server: 104.18.20.94
+    port: 443
+    type: trojan
+    password: e7cb6f80-5934-11ee-b694-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania sushiroll
+    server: www.sushiroll.co.id 
+    port: 443
+    type: trojan
+    password: e7cb6f80-5934-11ee-b694-1239d0255272
     skip-cert-verify: true
     sni: ro1.test3.net
     network: ws
@@ -124,7 +659,7 @@ proxies:
     server: quiz.vidio.com
     port: 443
     type: trojan
-    password: 31d44b60-531a-11ee-9c03-1239d0255272
+    password: e7cb6f80-5934-11ee-b694-1239d0255272
     skip-cert-verify: true
     sni: ro1.test3.net
     network: ws
@@ -133,11 +668,11 @@ proxies:
       headers:
         Host: ro1.test3.net
     udp: true
-  - name: Romania Multi SC
+  - name: Romania multi sc1
     server: 162.159.138.6
     port: 443
     type: trojan
-    password: 31d44b60-531a-11ee-9c03-1239d0255272
+    password: e7cb6f80-5934-11ee-b694-1239d0255272
     skip-cert-verify: true
     sni: ro1.test3.net
     network: ws
@@ -146,11 +681,11 @@ proxies:
       headers:
         Host: ro1.test3.net
     udp: true
-  - name: Romania Gaming
-    server: 104.16.108.96
+  - name: Romania multi sc2
+    server: 162.159.128.7
     port: 443
     type: trojan
-    password: 31d44b60-531a-11ee-9c03-1239d0255272
+    password: e7cb6f80-5934-11ee-b694-1239d0255272
     skip-cert-verify: true
     sni: ro1.test3.net
     network: ws
@@ -159,11 +694,11 @@ proxies:
       headers:
         Host: ro1.test3.net
     udp: true
-  - name: Romania Multi Operator
+  - name: Romania multi operator
     server: layanan.ruangguru.com
     port: 443
     type: trojan
-    password: 31d44b60-531a-11ee-9c03-1239d0255272
+    password: e7cb6f80-5934-11ee-b694-1239d0255272
     skip-cert-verify: true
     sni: ro1.test3.net
     network: ws
@@ -172,11 +707,492 @@ proxies:
       headers:
         Host: ro1.test3.net
     udp: true
-  - name: Romania Opok
+  - name: Romania axis opok
     server: 104.17.58.20
     port: 443
     type: trojan
-    password: 31d44b60-531a-11ee-9c03-1239d0255272
+    password: e7cb6f80-5934-11ee-b694-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania axis xl opok
+    server: 104.17.58.20
+    port: 443
+    type: trojan
+    password: e7cb6f80-5934-11ee-b694-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania xl opok
+    server: 104.18.12.65
+    port: 443
+    type: trojan
+    password: e7cb6f80-5934-11ee-b694-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania musik spotify
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: e7cb6f80-5934-11ee-b694-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania tsel multimedia
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: e7cb6f80-5934-11ee-b694-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania XL Stream Live On1
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: e7cb6f80-5934-11ee-b694-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania conference1
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: e7cb6f80-5934-11ee-b694-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania xl WA Line Flex1
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: e7cb6f80-5934-11ee-b694-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania akrab4
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: e7cb6f80-5934-11ee-b694-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania conference2
+    server: blogs.microsoft.com
+    port: 443
+    type: trojan
+    password: e7cb6f80-5934-11ee-b694-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania akrab5
+    server: blogs.microsoft.com
+    port: 443
+    type: trojan
+    password: e7cb6f80-5934-11ee-b694-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania edukasi1
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: e7cb6f80-5934-11ee-b694-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania akrab1
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: e7cb6f80-5934-11ee-b694-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania edukasi2
+    server: 104.20.75.141
+    port: 443
+    type: trojan
+    password: e7cb6f80-5934-11ee-b694-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania akrab2
+    server: 104.20.75.141
+    port: 443
+    type: trojan
+    password: e7cb6f80-5934-11ee-b694-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania edukasi3
+    server: 104.18.21.226
+    port: 443
+    type: trojan
+    password: e7cb6f80-5934-11ee-b694-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania akrab3
+    server: 104.18.21.226
+    port: 443
+    type: trojan
+    password: e7cb6f80-5934-11ee-b694-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania video Netflix1
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: e7cb6f80-5934-11ee-b694-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania XL Stream Live On2
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: e7cb6f80-5934-11ee-b694-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Tsel OMG Nonton
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: e7cb6f80-5934-11ee-b694-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania video Netflix2
+    server: updates.netflix.com
+    port: 443
+    type: trojan
+    password: e7cb6f80-5934-11ee-b694-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania xl vision1
+    server: 104.21.235.172
+    port: 443
+    type: trojan
+    password: e7cb6f80-5934-11ee-b694-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania xl vision2
+    server: sb.scorecardresearch.com
+    port: 443
+    type: trojan
+    password: e7cb6f80-5934-11ee-b694-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania xl WA Line Flex3
+    server: sogood.linefriends.com
+    port: 443
+    type: trojan
+    password: e7cb6f80-5934-11ee-b694-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Smartfren chat1
+    server: sogood.linefriends.com
+    port: 443
+    type: trojan
+    password: e7cb6f80-5934-11ee-b694-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Indosat opok1
+    server: 172.67.70.101
+    port: 443
+    type: trojan
+    password: e7cb6f80-5934-11ee-b694-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Tri Edukasi
+    server: udemy.com
+    port: 443
+    type: trojan
+    password: e7cb6f80-5934-11ee-b694-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Indosat Edukasi1
+    server: udemy.com
+    port: 443
+    type: trojan
+    password: e7cb6f80-5934-11ee-b694-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Indosat Edukasi2
+    server: 104.18.24.139
+    port: 443
+    type: trojan
+    password: e7cb6f80-5934-11ee-b694-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Tsel ByU GGWP
+    server: 104.19.143.108
+    port: 443
+    type: trojan
+    password: e7cb6f80-5934-11ee-b694-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Tsel Gamemax2
+    server: 104.19.143.108
+    port: 443
+    type: trojan
+    password: e7cb6f80-5934-11ee-b694-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Tsel Gamemax1
+    server: cf-vod.nimo.tv
+    port: 443
+    type: trojan
+    password: e7cb6f80-5934-11ee-b694-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Tsel Gamemax3
+    server: 104.18.13.120
+    port: 443
+    type: trojan
+    password: e7cb6f80-5934-11ee-b694-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Smartfren Edukasi
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: e7cb6f80-5934-11ee-b694-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Tsel ByU Edukasi
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: e7cb6f80-5934-11ee-b694-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Tsel Ilped KB1
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: e7cb6f80-5934-11ee-b694-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Tsel Ilped KB2
+    server: 104.18.24.139
+    port: 443
+    type: trojan
+    password: e7cb6f80-5934-11ee-b694-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Tsel Ilped KB3
+    server: 104.22.24.131
+    port: 443
+    type: trojan
+    password: e7cb6f80-5934-11ee-b694-1239d0255272
     skip-cert-verify: true
     sni: ro1.test3.net
     network: ws
@@ -186,13 +1202,15 @@ proxies:
         Host: ro1.test3.net
     udp: true
 
+
+
+####################### Bagian 3 ##################
 #proxies:
-########## Romania Bagian 3 ######
-  - name: Romania Game
+  - name: Romania game
     server: 104.19.142.89
     port: 443
     type: trojan
-    password: 69a745c0-531a-11ee-a080-1239d0255272
+    password: 1304f910-5935-11ee-994c-1239d0255272
     skip-cert-verify: true
     sni: ro1.test3.net
     network: ws
@@ -201,11 +1219,37 @@ proxies:
       headers:
         Host: ro1.test3.net
     udp: true
-  - name: Romania Sushiroll
-    server: www.sushiroll.co.id
+  - name: Romania gaming
+    server: 104.16.108.96
     port: 443
     type: trojan
-    password: 69a745c0-531a-11ee-a080-1239d0255272
+    password: 1304f910-5935-11ee-994c-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania games
+    server: 104.18.20.94
+    port: 443
+    type: trojan
+    password: 1304f910-5935-11ee-994c-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania sushiroll
+    server: www.sushiroll.co.id 
+    port: 443
+    type: trojan
+    password: 1304f910-5935-11ee-994c-1239d0255272
     skip-cert-verify: true
     sni: ro1.test3.net
     network: ws
@@ -218,7 +1262,7 @@ proxies:
     server: quiz.vidio.com
     port: 443
     type: trojan
-    password: 69a745c0-531a-11ee-a080-1239d0255272
+    password: 1304f910-5935-11ee-994c-1239d0255272
     skip-cert-verify: true
     sni: ro1.test3.net
     network: ws
@@ -227,11 +1271,11 @@ proxies:
       headers:
         Host: ro1.test3.net
     udp: true
-  - name: Romania Multi SC
+  - name: Romania multi sc1
     server: 162.159.138.6
     port: 443
     type: trojan
-    password: 69a745c0-531a-11ee-a080-1239d0255272
+    password: 1304f910-5935-11ee-994c-1239d0255272
     skip-cert-verify: true
     sni: ro1.test3.net
     network: ws
@@ -240,11 +1284,11 @@ proxies:
       headers:
         Host: ro1.test3.net
     udp: true
-  - name: Romania Gaming
-    server: 104.16.108.96
+  - name: Romania multi sc2
+    server: 162.159.128.7
     port: 443
     type: trojan
-    password: 69a745c0-531a-11ee-a080-1239d0255272
+    password: 1304f910-5935-11ee-994c-1239d0255272
     skip-cert-verify: true
     sni: ro1.test3.net
     network: ws
@@ -253,11 +1297,11 @@ proxies:
       headers:
         Host: ro1.test3.net
     udp: true
-  - name: Romania Multi Operator
+  - name: Romania multi operator
     server: layanan.ruangguru.com
     port: 443
     type: trojan
-    password: 69a745c0-531a-11ee-a080-1239d0255272
+    password: 1304f910-5935-11ee-994c-1239d0255272
     skip-cert-verify: true
     sni: ro1.test3.net
     network: ws
@@ -266,11 +1310,492 @@ proxies:
       headers:
         Host: ro1.test3.net
     udp: true
-  - name: Romania Opok
+  - name: Romania axis opok
     server: 104.17.58.20
     port: 443
     type: trojan
-    password: 69a745c0-531a-11ee-a080-1239d0255272
+    password: 1304f910-5935-11ee-994c-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania axis xl opok
+    server: 104.17.58.20
+    port: 443
+    type: trojan
+    password: 1304f910-5935-11ee-994c-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania xl opok
+    server: 104.18.12.65
+    port: 443
+    type: trojan
+    password: 1304f910-5935-11ee-994c-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania musik spotify
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: 1304f910-5935-11ee-994c-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania tsel multimedia
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: 1304f910-5935-11ee-994c-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania XL Stream Live On1
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: 1304f910-5935-11ee-994c-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania conference1
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: 1304f910-5935-11ee-994c-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania xl WA Line Flex1
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: 1304f910-5935-11ee-994c-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania akrab4
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: 1304f910-5935-11ee-994c-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania conference2
+    server: blogs.microsoft.com
+    port: 443
+    type: trojan
+    password: 1304f910-5935-11ee-994c-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania akrab5
+    server: blogs.microsoft.com
+    port: 443
+    type: trojan
+    password: 1304f910-5935-11ee-994c-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania edukasi1
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: 1304f910-5935-11ee-994c-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania akrab1
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: 1304f910-5935-11ee-994c-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania edukasi2
+    server: 104.20.75.141
+    port: 443
+    type: trojan
+    password: 1304f910-5935-11ee-994c-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania akrab2
+    server: 104.20.75.141
+    port: 443
+    type: trojan
+    password: 1304f910-5935-11ee-994c-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania edukasi3
+    server: 104.18.21.226
+    port: 443
+    type: trojan
+    password: 1304f910-5935-11ee-994c-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania akrab3
+    server: 104.18.21.226
+    port: 443
+    type: trojan
+    password: 1304f910-5935-11ee-994c-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania video Netflix1
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: 1304f910-5935-11ee-994c-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania XL Stream Live On2
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: 1304f910-5935-11ee-994c-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Tsel OMG Nonton
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: 1304f910-5935-11ee-994c-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania video Netflix2
+    server: updates.netflix.com
+    port: 443
+    type: trojan
+    password: 1304f910-5935-11ee-994c-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania xl vision1
+    server: 104.21.235.172
+    port: 443
+    type: trojan
+    password: 1304f910-5935-11ee-994c-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania xl vision2
+    server: sb.scorecardresearch.com
+    port: 443
+    type: trojan
+    password: 1304f910-5935-11ee-994c-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania xl WA Line Flex3
+    server: sogood.linefriends.com
+    port: 443
+    type: trojan
+    password: 1304f910-5935-11ee-994c-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Smartfren chat1
+    server: sogood.linefriends.com
+    port: 443
+    type: trojan
+    password: 1304f910-5935-11ee-994c-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Indosat opok1
+    server: 172.67.70.101
+    port: 443
+    type: trojan
+    password: 1304f910-5935-11ee-994c-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Tri Edukasi
+    server: udemy.com
+    port: 443
+    type: trojan
+    password: 1304f910-5935-11ee-994c-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Indosat Edukasi1
+    server: udemy.com
+    port: 443
+    type: trojan
+    password: 1304f910-5935-11ee-994c-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Indosat Edukasi2
+    server: 104.18.24.139
+    port: 443
+    type: trojan
+    password: 1304f910-5935-11ee-994c-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Tsel ByU GGWP
+    server: 104.19.143.108
+    port: 443
+    type: trojan
+    password: 1304f910-5935-11ee-994c-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Tsel Gamemax2
+    server: 104.19.143.108
+    port: 443
+    type: trojan
+    password: 1304f910-5935-11ee-994c-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Tsel Gamemax1
+    server: cf-vod.nimo.tv
+    port: 443
+    type: trojan
+    password: 1304f910-5935-11ee-994c-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Tsel Gamemax3
+    server: 104.18.13.120
+    port: 443
+    type: trojan
+    password: 1304f910-5935-11ee-994c-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Smartfren Edukasi
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: 1304f910-5935-11ee-994c-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Tsel ByU Edukasi
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: 1304f910-5935-11ee-994c-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Tsel Ilped KB1
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: 1304f910-5935-11ee-994c-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Tsel Ilped KB2
+    server: 104.18.24.139
+    port: 443
+    type: trojan
+    password: 1304f910-5935-11ee-994c-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Tsel Ilped KB3
+    server: 104.22.24.131
+    port: 443
+    type: trojan
+    password: 1304f910-5935-11ee-994c-1239d0255272
     skip-cert-verify: true
     sni: ro1.test3.net
     network: ws
@@ -280,13 +1805,15 @@ proxies:
         Host: ro1.test3.net
     udp: true
 
+
+
+##################### Bagian 4 ##################
 #proxies:
-########## Romania Bagian 4 ######
-  - name: Romania Game
+  - name: Romania game
     server: 104.19.142.89
     port: 443
     type: trojan
-    password: 92e96da0-531a-11ee-91f9-1239d0255272
+    password: 40edd880-5935-11ee-9f49-1239d0255272
     skip-cert-verify: true
     sni: ro1.test3.net
     network: ws
@@ -295,11 +1822,37 @@ proxies:
       headers:
         Host: ro1.test3.net
     udp: true
-  - name: Romania Sushiroll
-    server: www.sushiroll.co.id
+  - name: Romania gaming
+    server: 104.16.108.96
     port: 443
     type: trojan
-    password: 92e96da0-531a-11ee-91f9-1239d0255272
+    password: 40edd880-5935-11ee-9f49-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania games
+    server: 104.18.20.94
+    port: 443
+    type: trojan
+    password: 40edd880-5935-11ee-9f49-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania sushiroll
+    server: www.sushiroll.co.id 
+    port: 443
+    type: trojan
+    password: 40edd880-5935-11ee-9f49-1239d0255272
     skip-cert-verify: true
     sni: ro1.test3.net
     network: ws
@@ -312,7 +1865,7 @@ proxies:
     server: quiz.vidio.com
     port: 443
     type: trojan
-    password: 92e96da0-531a-11ee-91f9-1239d0255272
+    password: 40edd880-5935-11ee-9f49-1239d0255272
     skip-cert-verify: true
     sni: ro1.test3.net
     network: ws
@@ -321,11 +1874,11 @@ proxies:
       headers:
         Host: ro1.test3.net
     udp: true
-  - name: Romania Multi SC
+  - name: Romania multi sc1
     server: 162.159.138.6
     port: 443
     type: trojan
-    password: 92e96da0-531a-11ee-91f9-1239d0255272
+    password: 40edd880-5935-11ee-9f49-1239d0255272
     skip-cert-verify: true
     sni: ro1.test3.net
     network: ws
@@ -334,11 +1887,11 @@ proxies:
       headers:
         Host: ro1.test3.net
     udp: true
-  - name: Romania Gaming
-    server: 104.16.108.96
+  - name: Romania multi sc2
+    server: 162.159.128.7
     port: 443
     type: trojan
-    password: 92e96da0-531a-11ee-91f9-1239d0255272
+    password: 40edd880-5935-11ee-9f49-1239d0255272
     skip-cert-verify: true
     sni: ro1.test3.net
     network: ws
@@ -347,11 +1900,11 @@ proxies:
       headers:
         Host: ro1.test3.net
     udp: true
-  - name: Romania Multi Operator
+  - name: Romania multi operator
     server: layanan.ruangguru.com
     port: 443
     type: trojan
-    password: 92e96da0-531a-11ee-91f9-1239d0255272
+    password: 40edd880-5935-11ee-9f49-1239d0255272
     skip-cert-verify: true
     sni: ro1.test3.net
     network: ws
@@ -360,11 +1913,492 @@ proxies:
       headers:
         Host: ro1.test3.net
     udp: true
-  - name: Romania Opok
+  - name: Romania axis opok
     server: 104.17.58.20
     port: 443
     type: trojan
-    password: 92e96da0-531a-11ee-91f9-1239d0255272
+    password: 40edd880-5935-11ee-9f49-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania axis xl opok
+    server: 104.17.58.20
+    port: 443
+    type: trojan
+    password: 40edd880-5935-11ee-9f49-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania xl opok
+    server: 104.18.12.65
+    port: 443
+    type: trojan
+    password: 40edd880-5935-11ee-9f49-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania musik spotify
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: 40edd880-5935-11ee-9f49-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania tsel multimedia
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: 40edd880-5935-11ee-9f49-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania XL Stream Live On1
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: 40edd880-5935-11ee-9f49-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania conference1
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: 40edd880-5935-11ee-9f49-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania xl WA Line Flex1
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: 40edd880-5935-11ee-9f49-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania akrab4
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: 40edd880-5935-11ee-9f49-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania conference2
+    server: blogs.microsoft.com
+    port: 443
+    type: trojan
+    password: 40edd880-5935-11ee-9f49-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania akrab5
+    server: blogs.microsoft.com
+    port: 443
+    type: trojan
+    password: 40edd880-5935-11ee-9f49-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania edukasi1
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: 40edd880-5935-11ee-9f49-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania akrab1
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: 40edd880-5935-11ee-9f49-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania edukasi2
+    server: 104.20.75.141
+    port: 443
+    type: trojan
+    password: 40edd880-5935-11ee-9f49-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania akrab2
+    server: 104.20.75.141
+    port: 443
+    type: trojan
+    password: 40edd880-5935-11ee-9f49-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania edukasi3
+    server: 104.18.21.226
+    port: 443
+    type: trojan
+    password: 40edd880-5935-11ee-9f49-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania akrab3
+    server: 104.18.21.226
+    port: 443
+    type: trojan
+    password: 40edd880-5935-11ee-9f49-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania video Netflix1
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: 40edd880-5935-11ee-9f49-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania XL Stream Live On2
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: 40edd880-5935-11ee-9f49-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Tsel OMG Nonton
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: 40edd880-5935-11ee-9f49-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania video Netflix2
+    server: updates.netflix.com
+    port: 443
+    type: trojan
+    password: 40edd880-5935-11ee-9f49-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania xl vision1
+    server: 104.21.235.172
+    port: 443
+    type: trojan
+    password: 40edd880-5935-11ee-9f49-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania xl vision2
+    server: sb.scorecardresearch.com
+    port: 443
+    type: trojan
+    password: 40edd880-5935-11ee-9f49-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania xl WA Line Flex3
+    server: sogood.linefriends.com
+    port: 443
+    type: trojan
+    password: 40edd880-5935-11ee-9f49-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Smartfren chat1
+    server: sogood.linefriends.com
+    port: 443
+    type: trojan
+    password: 40edd880-5935-11ee-9f49-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Indosat opok1
+    server: 172.67.70.101
+    port: 443
+    type: trojan
+    password: 40edd880-5935-11ee-9f49-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Tri Edukasi
+    server: udemy.com
+    port: 443
+    type: trojan
+    password: 40edd880-5935-11ee-9f49-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Indosat Edukasi1
+    server: udemy.com
+    port: 443
+    type: trojan
+    password: 40edd880-5935-11ee-9f49-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Indosat Edukasi2
+    server: 104.18.24.139
+    port: 443
+    type: trojan
+    password: 40edd880-5935-11ee-9f49-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Tsel ByU GGWP
+    server: 104.19.143.108
+    port: 443
+    type: trojan
+    password: 40edd880-5935-11ee-9f49-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Tsel Gamemax2
+    server: 104.19.143.108
+    port: 443
+    type: trojan
+    password: 40edd880-5935-11ee-9f49-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Tsel Gamemax1
+    server: cf-vod.nimo.tv
+    port: 443
+    type: trojan
+    password: 40edd880-5935-11ee-9f49-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Tsel Gamemax3
+    server: 104.18.13.120
+    port: 443
+    type: trojan
+    password: 40edd880-5935-11ee-9f49-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Smartfren Edukasi
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: 40edd880-5935-11ee-9f49-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Tsel ByU Edukasi
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: 40edd880-5935-11ee-9f49-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Tsel Ilped KB1
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: 40edd880-5935-11ee-9f49-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Tsel Ilped KB2
+    server: 104.18.24.139
+    port: 443
+    type: trojan
+    password: 40edd880-5935-11ee-9f49-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Tsel Ilped KB3
+    server: 104.22.24.131
+    port: 443
+    type: trojan
+    password: 40edd880-5935-11ee-9f49-1239d0255272
     skip-cert-verify: true
     sni: ro1.test3.net
     network: ws
@@ -374,13 +2408,14 @@ proxies:
         Host: ro1.test3.net
     udp: true
 
+
+###################### Bagian 5 ###################
 #proxies:
-########## Romania Bagian 5 ######
-  - name: Romania Game
+  - name: Romania game
     server: 104.19.142.89
     port: 443
     type: trojan
-    password: c1cfbd80-531a-11ee-9b77-1239d0255272
+    password: 6ac99890-5935-11ee-9363-1239d0255272
     skip-cert-verify: true
     sni: ro1.test3.net
     network: ws
@@ -389,11 +2424,37 @@ proxies:
       headers:
         Host: ro1.test3.net
     udp: true
-  - name: Romania Sushiroll
-    server: www.sushiroll.co.id
+  - name: Romania gaming
+    server: 104.16.108.96
     port: 443
     type: trojan
-    password: c1cfbd80-531a-11ee-9b77-1239d0255272
+    password: 6ac99890-5935-11ee-9363-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania games
+    server: 104.18.20.94
+    port: 443
+    type: trojan
+    password: 6ac99890-5935-11ee-9363-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania sushiroll
+    server: www.sushiroll.co.id 
+    port: 443
+    type: trojan
+    password: 6ac99890-5935-11ee-9363-1239d0255272
     skip-cert-verify: true
     sni: ro1.test3.net
     network: ws
@@ -406,7 +2467,7 @@ proxies:
     server: quiz.vidio.com
     port: 443
     type: trojan
-    password: c1cfbd80-531a-11ee-9b77-1239d0255272
+    password: 6ac99890-5935-11ee-9363-1239d0255272
     skip-cert-verify: true
     sni: ro1.test3.net
     network: ws
@@ -415,11 +2476,11 @@ proxies:
       headers:
         Host: ro1.test3.net
     udp: true
-  - name: Romania Multi SC
+  - name: Romania multi sc1
     server: 162.159.138.6
     port: 443
     type: trojan
-    password: c1cfbd80-531a-11ee-9b77-1239d0255272
+    password: 6ac99890-5935-11ee-9363-1239d0255272
     skip-cert-verify: true
     sni: ro1.test3.net
     network: ws
@@ -428,11 +2489,11 @@ proxies:
       headers:
         Host: ro1.test3.net
     udp: true
-  - name: Romania Gaming
-    server: 104.16.108.96
+  - name: Romania multi sc2
+    server: 162.159.128.7
     port: 443
     type: trojan
-    password: c1cfbd80-531a-11ee-9b77-1239d0255272
+    password: 6ac99890-5935-11ee-9363-1239d0255272
     skip-cert-verify: true
     sni: ro1.test3.net
     network: ws
@@ -441,11 +2502,11 @@ proxies:
       headers:
         Host: ro1.test3.net
     udp: true
-  - name: Romania Multi Operator
+  - name: Romania multi operator
     server: layanan.ruangguru.com
     port: 443
     type: trojan
-    password: c1cfbd80-531a-11ee-9b77-1239d0255272
+    password: 6ac99890-5935-11ee-9363-1239d0255272
     skip-cert-verify: true
     sni: ro1.test3.net
     network: ws
@@ -454,11 +2515,492 @@ proxies:
       headers:
         Host: ro1.test3.net
     udp: true
-  - name: Romania Opok
+  - name: Romania axis opok
     server: 104.17.58.20
     port: 443
     type: trojan
-    password: c1cfbd80-531a-11ee-9b77-1239d0255272
+    password: 6ac99890-5935-11ee-9363-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania axis xl opok
+    server: 104.17.58.20
+    port: 443
+    type: trojan
+    password: 6ac99890-5935-11ee-9363-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania xl opok
+    server: 104.18.12.65
+    port: 443
+    type: trojan
+    password: 6ac99890-5935-11ee-9363-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania musik spotify
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: 6ac99890-5935-11ee-9363-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania tsel multimedia
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: 6ac99890-5935-11ee-9363-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania XL Stream Live On1
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: 6ac99890-5935-11ee-9363-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania conference1
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: 6ac99890-5935-11ee-9363-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania xl WA Line Flex1
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: 6ac99890-5935-11ee-9363-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania akrab4
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: 6ac99890-5935-11ee-9363-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania conference2
+    server: blogs.microsoft.com
+    port: 443
+    type: trojan
+    password: 6ac99890-5935-11ee-9363-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania akrab5
+    server: blogs.microsoft.com
+    port: 443
+    type: trojan
+    password: 6ac99890-5935-11ee-9363-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania edukasi1
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: 6ac99890-5935-11ee-9363-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania akrab1
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: 6ac99890-5935-11ee-9363-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania edukasi2
+    server: 104.20.75.141
+    port: 443
+    type: trojan
+    password: 6ac99890-5935-11ee-9363-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania akrab2
+    server: 104.20.75.141
+    port: 443
+    type: trojan
+    password: 6ac99890-5935-11ee-9363-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania edukasi3
+    server: 104.18.21.226
+    port: 443
+    type: trojan
+    password: 6ac99890-5935-11ee-9363-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania akrab3
+    server: 104.18.21.226
+    port: 443
+    type: trojan
+    password: 6ac99890-5935-11ee-9363-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania video Netflix1
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: 6ac99890-5935-11ee-9363-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania XL Stream Live On2
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: 6ac99890-5935-11ee-9363-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Tsel OMG Nonton
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: 6ac99890-5935-11ee-9363-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania video Netflix2
+    server: updates.netflix.com
+    port: 443
+    type: trojan
+    password: 6ac99890-5935-11ee-9363-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania xl vision1
+    server: 104.21.235.172
+    port: 443
+    type: trojan
+    password: 6ac99890-5935-11ee-9363-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania xl vision2
+    server: sb.scorecardresearch.com
+    port: 443
+    type: trojan
+    password: 6ac99890-5935-11ee-9363-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania xl WA Line Flex3
+    server: sogood.linefriends.com
+    port: 443
+    type: trojan
+    password: 6ac99890-5935-11ee-9363-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Smartfren chat1
+    server: sogood.linefriends.com
+    port: 443
+    type: trojan
+    password: 6ac99890-5935-11ee-9363-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Indosat opok1
+    server: 172.67.70.101
+    port: 443
+    type: trojan
+    password: 6ac99890-5935-11ee-9363-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Tri Edukasi
+    server: udemy.com
+    port: 443
+    type: trojan
+    password: 6ac99890-5935-11ee-9363-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Indosat Edukasi1
+    server: udemy.com
+    port: 443
+    type: trojan
+    password: 6ac99890-5935-11ee-9363-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Indosat Edukasi2
+    server: 104.18.24.139
+    port: 443
+    type: trojan
+    password: 6ac99890-5935-11ee-9363-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Tsel ByU GGWP
+    server: 104.19.143.108
+    port: 443
+    type: trojan
+    password: 6ac99890-5935-11ee-9363-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Tsel Gamemax2
+    server: 104.19.143.108
+    port: 443
+    type: trojan
+    password: 6ac99890-5935-11ee-9363-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Tsel Gamemax1
+    server: cf-vod.nimo.tv
+    port: 443
+    type: trojan
+    password: 6ac99890-5935-11ee-9363-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Tsel Gamemax3
+    server: 104.18.13.120
+    port: 443
+    type: trojan
+    password: 6ac99890-5935-11ee-9363-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Smartfren Edukasi
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: 6ac99890-5935-11ee-9363-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Tsel ByU Edukasi
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: 6ac99890-5935-11ee-9363-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Tsel Ilped KB1
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: 6ac99890-5935-11ee-9363-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Tsel Ilped KB2
+    server: 104.18.24.139
+    port: 443
+    type: trojan
+    password: 6ac99890-5935-11ee-9363-1239d0255272
+    skip-cert-verify: true
+    sni: ro1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: ro1.test3.net
+    udp: true
+  - name: Romania Tsel Ilped KB3
+    server: 104.22.24.131
+    port: 443
+    type: trojan
+    password: 6ac99890-5935-11ee-9363-1239d0255272
     skip-cert-verify: true
     sni: ro1.test3.net
     network: ws
