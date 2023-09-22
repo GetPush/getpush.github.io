@@ -106,17 +106,17 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '50'
     use:
-      - 🐎CANADA
-      - 🐎ROMANIA
-      - 🐎FRANCIS
-      - 🐎NETHERLANDS
-      - 🐎US
       - 🐎ID HERZA
       - 🐎SG AMP
-      #- 🐎SG MELBI
+      - 🐎CANADA
+      - 🐎ROMANIA
+      - 🐎NETHERLANDS
+      - 🐎US
+      - 🐎FRANCIS
       - 🐎SG HE MUX
       - 🐎SG HE 1
       - 🐎SG HE 2
+      #- 🐎SG MELBI
       #- 🐎SG HE 3
       
 # seleksi server 
