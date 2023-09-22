@@ -596,7 +596,7 @@ profile:
   store-fake-ip: true
 
 rules:
-- DOMAIN-SUFFIX,safefileku.com,Alternatif
+- DOMAIN-SUFFIX,safefileku.com,🕊️Utama
 - DOMAIN-SUFFIX,github.com,Alternatif
 - DOMAIN-SUFFIX,api.github.com,Alternatif
 - DOMAIN-SUFFIX,avatars.githubusercontent.com,Alternatif
