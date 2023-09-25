@@ -1,10 +1,10 @@
+#################### Bagian 1 ##################
 proxies:
-########## United States ######
-  - name: US A
+  - name: US game
     server: 104.19.142.89
     port: 443
     type: trojan
-    password: 4708e3d0-4c7a-11ee-81c9-1239d0255272
+    password: d6995740-5b91-11ee-9e5c-1239d0255272
     skip-cert-verify: true
     sni: us1.test3.net
     network: ws
@@ -13,50 +13,11 @@ proxies:
       headers:
         Host: us1.test3.net
     udp: true
-  - name: US B
-    server: www.sushiroll.co.id
-    port: 443
-    type: trojan
-    password: 4708e3d0-4c7a-11ee-81c9-1239d0255272
-    skip-cert-verify: true
-    sni: us1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: us1.test3.net
-    udp: true
-  - name: US C
-    server: quiz.vidio.com
-    port: 443
-    type: trojan
-    password: 4708e3d0-4c7a-11ee-81c9-1239d0255272
-    skip-cert-verify: true
-    sni: us1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: us1.test3.net
-    udp: true
-  - name: US D
-    server: 162.159.138.6
-    port: 443
-    type: trojan
-    password: 4708e3d0-4c7a-11ee-81c9-1239d0255272
-    skip-cert-verify: true
-    sni: us1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: us1.test3.net
-    udp: true
-  - name: US E
+  - name: US gaming
     server: 104.16.108.96
     port: 443
     type: trojan
-    password: 4708e3d0-4c7a-11ee-81c9-1239d0255272
+    password: d6995740-5b91-11ee-9e5c-1239d0255272
     skip-cert-verify: true
     sni: us1.test3.net
     network: ws
@@ -65,11 +26,11 @@ proxies:
       headers:
         Host: us1.test3.net
     udp: true
-  - name: US F
-    server: 104.17.58.20
+  - name: US games
+    server: 104.18.20.94
     port: 443
     type: trojan
-    password: 4708e3d0-4c7a-11ee-81c9-1239d0255272
+    password: d6995740-5b91-11ee-9e5c-1239d0255272
     skip-cert-verify: true
     sni: us1.test3.net
     network: ws
@@ -78,11 +39,2968 @@ proxies:
       headers:
         Host: us1.test3.net
     udp: true
-  - name: US G
+  - name: US sushiroll
+    server: www.sushiroll.co.id 
+    port: 443
+    type: trojan
+    password: d6995740-5b91-11ee-9e5c-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US vidio
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: d6995740-5b91-11ee-9e5c-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US multi sc1
+    server: 162.159.138.6
+    port: 443
+    type: trojan
+    password: d6995740-5b91-11ee-9e5c-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US multi sc2
+    server: 162.159.128.7
+    port: 443
+    type: trojan
+    password: d6995740-5b91-11ee-9e5c-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US multi operator
     server: layanan.ruangguru.com
     port: 443
     type: trojan
-    password: 4708e3d0-4c7a-11ee-81c9-1239d0255272
+    password: d6995740-5b91-11ee-9e5c-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US axis opok
+    server: 104.17.58.20
+    port: 443
+    type: trojan
+    password: d6995740-5b91-11ee-9e5c-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US axis xl opok
+    server: 104.17.58.20
+    port: 443
+    type: trojan
+    password: d6995740-5b91-11ee-9e5c-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US xl opok
+    server: 104.18.12.65
+    port: 443
+    type: trojan
+    password: d6995740-5b91-11ee-9e5c-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US musik spotify
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: d6995740-5b91-11ee-9e5c-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US tsel multimedia
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: d6995740-5b91-11ee-9e5c-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US XL Stream Live On1
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: d6995740-5b91-11ee-9e5c-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US conference1
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: d6995740-5b91-11ee-9e5c-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US xl WA Line Flex1
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: d6995740-5b91-11ee-9e5c-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US akrab4
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: d6995740-5b91-11ee-9e5c-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US conference2
+    server: blogs.microsoft.com
+    port: 443
+    type: trojan
+    password: d6995740-5b91-11ee-9e5c-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US akrab5
+    server: blogs.microsoft.com
+    port: 443
+    type: trojan
+    password: d6995740-5b91-11ee-9e5c-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US edukasi1
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: d6995740-5b91-11ee-9e5c-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US akrab1
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: d6995740-5b91-11ee-9e5c-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US edukasi2
+    server: 104.20.75.141
+    port: 443
+    type: trojan
+    password: d6995740-5b91-11ee-9e5c-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US akrab2
+    server: 104.20.75.141
+    port: 443
+    type: trojan
+    password: d6995740-5b91-11ee-9e5c-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US edukasi3
+    server: 104.18.21.226
+    port: 443
+    type: trojan
+    password: d6995740-5b91-11ee-9e5c-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US akrab3
+    server: 104.18.21.226
+    port: 443
+    type: trojan
+    password: d6995740-5b91-11ee-9e5c-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US video Netflix1
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: d6995740-5b91-11ee-9e5c-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US XL Stream Live On2
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: d6995740-5b91-11ee-9e5c-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Tsel OMG Nonton
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: d6995740-5b91-11ee-9e5c-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US video Netflix2
+    server: updates.netflix.com
+    port: 443
+    type: trojan
+    password: d6995740-5b91-11ee-9e5c-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US xl vision1
+    server: 104.21.235.172
+    port: 443
+    type: trojan
+    password: d6995740-5b91-11ee-9e5c-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US xl vision2
+    server: sb.scorecardresearch.com
+    port: 443
+    type: trojan
+    password: d6995740-5b91-11ee-9e5c-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US xl WA Line Flex3
+    server: sogood.linefriends.com
+    port: 443
+    type: trojan
+    password: d6995740-5b91-11ee-9e5c-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Smartfren chat1
+    server: sogood.linefriends.com
+    port: 443
+    type: trojan
+    password: d6995740-5b91-11ee-9e5c-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Indosat opok1
+    server: 172.67.70.101
+    port: 443
+    type: trojan
+    password: d6995740-5b91-11ee-9e5c-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Tri Edukasi
+    server: udemy.com
+    port: 443
+    type: trojan
+    password: d6995740-5b91-11ee-9e5c-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Indosat Edukasi1
+    server: udemy.com
+    port: 443
+    type: trojan
+    password: d6995740-5b91-11ee-9e5c-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Indosat Edukasi2
+    server: 104.18.24.139
+    port: 443
+    type: trojan
+    password: d6995740-5b91-11ee-9e5c-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Tsel ByU GGWP
+    server: 104.19.143.108
+    port: 443
+    type: trojan
+    password: d6995740-5b91-11ee-9e5c-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Tsel Gamemax2
+    server: 104.19.143.108
+    port: 443
+    type: trojan
+    password: d6995740-5b91-11ee-9e5c-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Tsel Gamemax1
+    server: cf-vod.nimo.tv
+    port: 443
+    type: trojan
+    password: d6995740-5b91-11ee-9e5c-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Tsel Gamemax3
+    server: 104.18.13.120
+    port: 443
+    type: trojan
+    password: d6995740-5b91-11ee-9e5c-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Smartfren Edukasi
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: d6995740-5b91-11ee-9e5c-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Tsel ByU Edukasi
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: d6995740-5b91-11ee-9e5c-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Tsel Ilped KB1
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: d6995740-5b91-11ee-9e5c-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Tsel Ilped KB2
+    server: 104.18.24.139
+    port: 443
+    type: trojan
+    password: d6995740-5b91-11ee-9e5c-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Tsel Ilped KB3
+    server: 104.22.24.131
+    port: 443
+    type: trojan
+    password: d6995740-5b91-11ee-9e5c-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+
+
+
+################# Bagian 2 ################
+#proxies:
+  - name: US game
+    server: 104.19.142.89
+    port: 443
+    type: trojan
+    password: 31c4bb80-5b92-11ee-870b-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US gaming
+    server: 104.16.108.96
+    port: 443
+    type: trojan
+    password: 31c4bb80-5b92-11ee-870b-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US games
+    server: 104.18.20.94
+    port: 443
+    type: trojan
+    password: 31c4bb80-5b92-11ee-870b-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US sushiroll
+    server: www.sushiroll.co.id 
+    port: 443
+    type: trojan
+    password: 31c4bb80-5b92-11ee-870b-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US vidio
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: 31c4bb80-5b92-11ee-870b-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US multi sc1
+    server: 162.159.138.6
+    port: 443
+    type: trojan
+    password: 31c4bb80-5b92-11ee-870b-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US multi sc2
+    server: 162.159.128.7
+    port: 443
+    type: trojan
+    password: 31c4bb80-5b92-11ee-870b-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US multi operator
+    server: layanan.ruangguru.com
+    port: 443
+    type: trojan
+    password: 31c4bb80-5b92-11ee-870b-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US axis opok
+    server: 104.17.58.20
+    port: 443
+    type: trojan
+    password: 31c4bb80-5b92-11ee-870b-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US axis xl opok
+    server: 104.17.58.20
+    port: 443
+    type: trojan
+    password: 31c4bb80-5b92-11ee-870b-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US xl opok
+    server: 104.18.12.65
+    port: 443
+    type: trojan
+    password: 31c4bb80-5b92-11ee-870b-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US musik spotify
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: 31c4bb80-5b92-11ee-870b-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US tsel multimedia
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: 31c4bb80-5b92-11ee-870b-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US XL Stream Live On1
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: 31c4bb80-5b92-11ee-870b-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US conference1
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: 31c4bb80-5b92-11ee-870b-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US xl WA Line Flex1
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: 31c4bb80-5b92-11ee-870b-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US akrab4
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: 31c4bb80-5b92-11ee-870b-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US conference2
+    server: blogs.microsoft.com
+    port: 443
+    type: trojan
+    password: 31c4bb80-5b92-11ee-870b-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US akrab5
+    server: blogs.microsoft.com
+    port: 443
+    type: trojan
+    password: 31c4bb80-5b92-11ee-870b-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US edukasi1
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: 31c4bb80-5b92-11ee-870b-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US akrab1
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: 31c4bb80-5b92-11ee-870b-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US edukasi2
+    server: 104.20.75.141
+    port: 443
+    type: trojan
+    password: 31c4bb80-5b92-11ee-870b-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US akrab2
+    server: 104.20.75.141
+    port: 443
+    type: trojan
+    password: 31c4bb80-5b92-11ee-870b-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US edukasi3
+    server: 104.18.21.226
+    port: 443
+    type: trojan
+    password: 31c4bb80-5b92-11ee-870b-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US akrab3
+    server: 104.18.21.226
+    port: 443
+    type: trojan
+    password: 31c4bb80-5b92-11ee-870b-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US video Netflix1
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: 31c4bb80-5b92-11ee-870b-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US XL Stream Live On2
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: 31c4bb80-5b92-11ee-870b-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Tsel OMG Nonton
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: 31c4bb80-5b92-11ee-870b-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US video Netflix2
+    server: updates.netflix.com
+    port: 443
+    type: trojan
+    password: 31c4bb80-5b92-11ee-870b-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US xl vision1
+    server: 104.21.235.172
+    port: 443
+    type: trojan
+    password: 31c4bb80-5b92-11ee-870b-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US xl vision2
+    server: sb.scorecardresearch.com
+    port: 443
+    type: trojan
+    password: 31c4bb80-5b92-11ee-870b-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US xl WA Line Flex3
+    server: sogood.linefriends.com
+    port: 443
+    type: trojan
+    password: 31c4bb80-5b92-11ee-870b-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Smartfren chat1
+    server: sogood.linefriends.com
+    port: 443
+    type: trojan
+    password: 31c4bb80-5b92-11ee-870b-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Indosat opok1
+    server: 172.67.70.101
+    port: 443
+    type: trojan
+    password: 31c4bb80-5b92-11ee-870b-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Tri Edukasi
+    server: udemy.com
+    port: 443
+    type: trojan
+    password: 31c4bb80-5b92-11ee-870b-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Indosat Edukasi1
+    server: udemy.com
+    port: 443
+    type: trojan
+    password: 31c4bb80-5b92-11ee-870b-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Indosat Edukasi2
+    server: 104.18.24.139
+    port: 443
+    type: trojan
+    password: 31c4bb80-5b92-11ee-870b-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Tsel ByU GGWP
+    server: 104.19.143.108
+    port: 443
+    type: trojan
+    password: 31c4bb80-5b92-11ee-870b-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Tsel Gamemax2
+    server: 104.19.143.108
+    port: 443
+    type: trojan
+    password: 31c4bb80-5b92-11ee-870b-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Tsel Gamemax1
+    server: cf-vod.nimo.tv
+    port: 443
+    type: trojan
+    password: 31c4bb80-5b92-11ee-870b-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Tsel Gamemax3
+    server: 104.18.13.120
+    port: 443
+    type: trojan
+    password: 31c4bb80-5b92-11ee-870b-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Smartfren Edukasi
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: 31c4bb80-5b92-11ee-870b-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Tsel ByU Edukasi
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: 31c4bb80-5b92-11ee-870b-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Tsel Ilped KB1
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: 31c4bb80-5b92-11ee-870b-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Tsel Ilped KB2
+    server: 104.18.24.139
+    port: 443
+    type: trojan
+    password: 31c4bb80-5b92-11ee-870b-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Tsel Ilped KB3
+    server: 104.22.24.131
+    port: 443
+    type: trojan
+    password: 31c4bb80-5b92-11ee-870b-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+
+
+
+####################### Bagian 3 ##################
+#proxies:
+  - name: US game
+    server: 104.19.142.89
+    port: 443
+    type: trojan
+    password: 74578470-5b92-11ee-bb6d-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US gaming
+    server: 104.16.108.96
+    port: 443
+    type: trojan
+    password: 74578470-5b92-11ee-bb6d-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US games
+    server: 104.18.20.94
+    port: 443
+    type: trojan
+    password: 74578470-5b92-11ee-bb6d-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US sushiroll
+    server: www.sushiroll.co.id 
+    port: 443
+    type: trojan
+    password: 74578470-5b92-11ee-bb6d-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US vidio
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: 74578470-5b92-11ee-bb6d-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US multi sc1
+    server: 162.159.138.6
+    port: 443
+    type: trojan
+    password: 74578470-5b92-11ee-bb6d-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US multi sc2
+    server: 162.159.128.7
+    port: 443
+    type: trojan
+    password: 74578470-5b92-11ee-bb6d-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US multi operator
+    server: layanan.ruangguru.com
+    port: 443
+    type: trojan
+    password: 74578470-5b92-11ee-bb6d-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US axis opok
+    server: 104.17.58.20
+    port: 443
+    type: trojan
+    password: 74578470-5b92-11ee-bb6d-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US axis xl opok
+    server: 104.17.58.20
+    port: 443
+    type: trojan
+    password: 74578470-5b92-11ee-bb6d-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US xl opok
+    server: 104.18.12.65
+    port: 443
+    type: trojan
+    password: 74578470-5b92-11ee-bb6d-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US musik spotify
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: 74578470-5b92-11ee-bb6d-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US tsel multimedia
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: 74578470-5b92-11ee-bb6d-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US XL Stream Live On1
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: 74578470-5b92-11ee-bb6d-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US conference1
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: 74578470-5b92-11ee-bb6d-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US xl WA Line Flex1
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: 74578470-5b92-11ee-bb6d-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US akrab4
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: 74578470-5b92-11ee-bb6d-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US conference2
+    server: blogs.microsoft.com
+    port: 443
+    type: trojan
+    password: 74578470-5b92-11ee-bb6d-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US akrab5
+    server: blogs.microsoft.com
+    port: 443
+    type: trojan
+    password: 74578470-5b92-11ee-bb6d-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US edukasi1
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: 74578470-5b92-11ee-bb6d-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US akrab1
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: 74578470-5b92-11ee-bb6d-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US edukasi2
+    server: 104.20.75.141
+    port: 443
+    type: trojan
+    password: 74578470-5b92-11ee-bb6d-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US akrab2
+    server: 104.20.75.141
+    port: 443
+    type: trojan
+    password: 74578470-5b92-11ee-bb6d-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US edukasi3
+    server: 104.18.21.226
+    port: 443
+    type: trojan
+    password: 74578470-5b92-11ee-bb6d-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US akrab3
+    server: 104.18.21.226
+    port: 443
+    type: trojan
+    password: 74578470-5b92-11ee-bb6d-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US video Netflix1
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: 74578470-5b92-11ee-bb6d-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US XL Stream Live On2
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: 74578470-5b92-11ee-bb6d-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Tsel OMG Nonton
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: 74578470-5b92-11ee-bb6d-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US video Netflix2
+    server: updates.netflix.com
+    port: 443
+    type: trojan
+    password: 74578470-5b92-11ee-bb6d-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US xl vision1
+    server: 104.21.235.172
+    port: 443
+    type: trojan
+    password: 74578470-5b92-11ee-bb6d-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US xl vision2
+    server: sb.scorecardresearch.com
+    port: 443
+    type: trojan
+    password: 74578470-5b92-11ee-bb6d-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US xl WA Line Flex3
+    server: sogood.linefriends.com
+    port: 443
+    type: trojan
+    password: 74578470-5b92-11ee-bb6d-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Smartfren chat1
+    server: sogood.linefriends.com
+    port: 443
+    type: trojan
+    password: 74578470-5b92-11ee-bb6d-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Indosat opok1
+    server: 172.67.70.101
+    port: 443
+    type: trojan
+    password: 74578470-5b92-11ee-bb6d-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Tri Edukasi
+    server: udemy.com
+    port: 443
+    type: trojan
+    password: 74578470-5b92-11ee-bb6d-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Indosat Edukasi1
+    server: udemy.com
+    port: 443
+    type: trojan
+    password: 74578470-5b92-11ee-bb6d-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Indosat Edukasi2
+    server: 104.18.24.139
+    port: 443
+    type: trojan
+    password: 74578470-5b92-11ee-bb6d-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Tsel ByU GGWP
+    server: 104.19.143.108
+    port: 443
+    type: trojan
+    password: 74578470-5b92-11ee-bb6d-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Tsel Gamemax2
+    server: 104.19.143.108
+    port: 443
+    type: trojan
+    password: 74578470-5b92-11ee-bb6d-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Tsel Gamemax1
+    server: cf-vod.nimo.tv
+    port: 443
+    type: trojan
+    password: 74578470-5b92-11ee-bb6d-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Tsel Gamemax3
+    server: 104.18.13.120
+    port: 443
+    type: trojan
+    password: 74578470-5b92-11ee-bb6d-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Smartfren Edukasi
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: 74578470-5b92-11ee-bb6d-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Tsel ByU Edukasi
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: 74578470-5b92-11ee-bb6d-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Tsel Ilped KB1
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: 74578470-5b92-11ee-bb6d-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Tsel Ilped KB2
+    server: 104.18.24.139
+    port: 443
+    type: trojan
+    password: 74578470-5b92-11ee-bb6d-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Tsel Ilped KB3
+    server: 104.22.24.131
+    port: 443
+    type: trojan
+    password: 74578470-5b92-11ee-bb6d-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+
+
+
+##################### Bagian 4 ##################
+#proxies:
+  - name: US game
+    server: 104.19.142.89
+    port: 443
+    type: trojan
+    password: a8a03100-5b92-11ee-bd68-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US gaming
+    server: 104.16.108.96
+    port: 443
+    type: trojan
+    password: a8a03100-5b92-11ee-bd68-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US games
+    server: 104.18.20.94
+    port: 443
+    type: trojan
+    password: a8a03100-5b92-11ee-bd68-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US sushiroll
+    server: www.sushiroll.co.id 
+    port: 443
+    type: trojan
+    password: a8a03100-5b92-11ee-bd68-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US vidio
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: a8a03100-5b92-11ee-bd68-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US multi sc1
+    server: 162.159.138.6
+    port: 443
+    type: trojan
+    password: a8a03100-5b92-11ee-bd68-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US multi sc2
+    server: 162.159.128.7
+    port: 443
+    type: trojan
+    password: a8a03100-5b92-11ee-bd68-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US multi operator
+    server: layanan.ruangguru.com
+    port: 443
+    type: trojan
+    password: a8a03100-5b92-11ee-bd68-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US axis opok
+    server: 104.17.58.20
+    port: 443
+    type: trojan
+    password: a8a03100-5b92-11ee-bd68-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US axis xl opok
+    server: 104.17.58.20
+    port: 443
+    type: trojan
+    password: a8a03100-5b92-11ee-bd68-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US xl opok
+    server: 104.18.12.65
+    port: 443
+    type: trojan
+    password: a8a03100-5b92-11ee-bd68-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US musik spotify
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: a8a03100-5b92-11ee-bd68-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US tsel multimedia
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: a8a03100-5b92-11ee-bd68-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US XL Stream Live On1
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: a8a03100-5b92-11ee-bd68-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US conference1
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: a8a03100-5b92-11ee-bd68-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US xl WA Line Flex1
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: a8a03100-5b92-11ee-bd68-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US akrab4
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: a8a03100-5b92-11ee-bd68-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US conference2
+    server: blogs.microsoft.com
+    port: 443
+    type: trojan
+    password: a8a03100-5b92-11ee-bd68-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US akrab5
+    server: blogs.microsoft.com
+    port: 443
+    type: trojan
+    password: a8a03100-5b92-11ee-bd68-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US edukasi1
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: a8a03100-5b92-11ee-bd68-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US akrab1
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: a8a03100-5b92-11ee-bd68-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US edukasi2
+    server: 104.20.75.141
+    port: 443
+    type: trojan
+    password: a8a03100-5b92-11ee-bd68-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US akrab2
+    server: 104.20.75.141
+    port: 443
+    type: trojan
+    password: a8a03100-5b92-11ee-bd68-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US edukasi3
+    server: 104.18.21.226
+    port: 443
+    type: trojan
+    password: a8a03100-5b92-11ee-bd68-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US akrab3
+    server: 104.18.21.226
+    port: 443
+    type: trojan
+    password: a8a03100-5b92-11ee-bd68-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US video Netflix1
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: a8a03100-5b92-11ee-bd68-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US XL Stream Live On2
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: a8a03100-5b92-11ee-bd68-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Tsel OMG Nonton
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: a8a03100-5b92-11ee-bd68-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US video Netflix2
+    server: updates.netflix.com
+    port: 443
+    type: trojan
+    password: a8a03100-5b92-11ee-bd68-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US xl vision1
+    server: 104.21.235.172
+    port: 443
+    type: trojan
+    password: a8a03100-5b92-11ee-bd68-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US xl vision2
+    server: sb.scorecardresearch.com
+    port: 443
+    type: trojan
+    password: a8a03100-5b92-11ee-bd68-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US xl WA Line Flex3
+    server: sogood.linefriends.com
+    port: 443
+    type: trojan
+    password: a8a03100-5b92-11ee-bd68-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Smartfren chat1
+    server: sogood.linefriends.com
+    port: 443
+    type: trojan
+    password: a8a03100-5b92-11ee-bd68-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Indosat opok1
+    server: 172.67.70.101
+    port: 443
+    type: trojan
+    password: a8a03100-5b92-11ee-bd68-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Tri Edukasi
+    server: udemy.com
+    port: 443
+    type: trojan
+    password: a8a03100-5b92-11ee-bd68-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Indosat Edukasi1
+    server: udemy.com
+    port: 443
+    type: trojan
+    password: a8a03100-5b92-11ee-bd68-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Indosat Edukasi2
+    server: 104.18.24.139
+    port: 443
+    type: trojan
+    password: a8a03100-5b92-11ee-bd68-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Tsel ByU GGWP
+    server: 104.19.143.108
+    port: 443
+    type: trojan
+    password: a8a03100-5b92-11ee-bd68-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Tsel Gamemax2
+    server: 104.19.143.108
+    port: 443
+    type: trojan
+    password: a8a03100-5b92-11ee-bd68-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Tsel Gamemax1
+    server: cf-vod.nimo.tv
+    port: 443
+    type: trojan
+    password: a8a03100-5b92-11ee-bd68-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Tsel Gamemax3
+    server: 104.18.13.120
+    port: 443
+    type: trojan
+    password: a8a03100-5b92-11ee-bd68-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Smartfren Edukasi
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: a8a03100-5b92-11ee-bd68-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Tsel ByU Edukasi
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: a8a03100-5b92-11ee-bd68-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Tsel Ilped KB1
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: a8a03100-5b92-11ee-bd68-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Tsel Ilped KB2
+    server: 104.18.24.139
+    port: 443
+    type: trojan
+    password: a8a03100-5b92-11ee-bd68-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Tsel Ilped KB3
+    server: 104.22.24.131
+    port: 443
+    type: trojan
+    password: a8a03100-5b92-11ee-bd68-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+
+
+###################### Bagian 5 ###################
+#proxies:
+  - name: US game
+    server: 104.19.142.89
+    port: 443
+    type: trojan
+    password: e783c490-5b92-11ee-8034-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US gaming
+    server: 104.16.108.96
+    port: 443
+    type: trojan
+    password: e783c490-5b92-11ee-8034-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US games
+    server: 104.18.20.94
+    port: 443
+    type: trojan
+    password: e783c490-5b92-11ee-8034-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US sushiroll
+    server: www.sushiroll.co.id 
+    port: 443
+    type: trojan
+    password: e783c490-5b92-11ee-8034-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US vidio
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: e783c490-5b92-11ee-8034-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US multi sc1
+    server: 162.159.138.6
+    port: 443
+    type: trojan
+    password: e783c490-5b92-11ee-8034-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US multi sc2
+    server: 162.159.128.7
+    port: 443
+    type: trojan
+    password: e783c490-5b92-11ee-8034-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US multi operator
+    server: layanan.ruangguru.com
+    port: 443
+    type: trojan
+    password: e783c490-5b92-11ee-8034-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US axis opok
+    server: 104.17.58.20
+    port: 443
+    type: trojan
+    password: e783c490-5b92-11ee-8034-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US axis xl opok
+    server: 104.17.58.20
+    port: 443
+    type: trojan
+    password: e783c490-5b92-11ee-8034-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US xl opok
+    server: 104.18.12.65
+    port: 443
+    type: trojan
+    password: e783c490-5b92-11ee-8034-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US musik spotify
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: e783c490-5b92-11ee-8034-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US tsel multimedia
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: e783c490-5b92-11ee-8034-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US XL Stream Live On1
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: e783c490-5b92-11ee-8034-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US conference1
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: e783c490-5b92-11ee-8034-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US xl WA Line Flex1
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: e783c490-5b92-11ee-8034-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US akrab4
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: e783c490-5b92-11ee-8034-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US conference2
+    server: blogs.microsoft.com
+    port: 443
+    type: trojan
+    password: e783c490-5b92-11ee-8034-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US akrab5
+    server: blogs.microsoft.com
+    port: 443
+    type: trojan
+    password: e783c490-5b92-11ee-8034-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US edukasi1
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: e783c490-5b92-11ee-8034-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US akrab1
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: e783c490-5b92-11ee-8034-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US edukasi2
+    server: 104.20.75.141
+    port: 443
+    type: trojan
+    password: e783c490-5b92-11ee-8034-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US akrab2
+    server: 104.20.75.141
+    port: 443
+    type: trojan
+    password: e783c490-5b92-11ee-8034-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US edukasi3
+    server: 104.18.21.226
+    port: 443
+    type: trojan
+    password: e783c490-5b92-11ee-8034-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US akrab3
+    server: 104.18.21.226
+    port: 443
+    type: trojan
+    password: e783c490-5b92-11ee-8034-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US video Netflix1
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: e783c490-5b92-11ee-8034-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US XL Stream Live On2
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: e783c490-5b92-11ee-8034-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Tsel OMG Nonton
+    server: npca.netflix.com
+    port: 443
+    type: trojan
+    password: e783c490-5b92-11ee-8034-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US video Netflix2
+    server: updates.netflix.com
+    port: 443
+    type: trojan
+    password: e783c490-5b92-11ee-8034-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US xl vision1
+    server: 104.21.235.172
+    port: 443
+    type: trojan
+    password: e783c490-5b92-11ee-8034-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US xl vision2
+    server: sb.scorecardresearch.com
+    port: 443
+    type: trojan
+    password: e783c490-5b92-11ee-8034-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US xl WA Line Flex3
+    server: sogood.linefriends.com
+    port: 443
+    type: trojan
+    password: e783c490-5b92-11ee-8034-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Smartfren chat1
+    server: sogood.linefriends.com
+    port: 443
+    type: trojan
+    password: e783c490-5b92-11ee-8034-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Indosat opok1
+    server: 172.67.70.101
+    port: 443
+    type: trojan
+    password: e783c490-5b92-11ee-8034-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Tri Edukasi
+    server: udemy.com
+    port: 443
+    type: trojan
+    password: e783c490-5b92-11ee-8034-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Indosat Edukasi1
+    server: udemy.com
+    port: 443
+    type: trojan
+    password: e783c490-5b92-11ee-8034-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Indosat Edukasi2
+    server: 104.18.24.139
+    port: 443
+    type: trojan
+    password: e783c490-5b92-11ee-8034-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Tsel ByU GGWP
+    server: 104.19.143.108
+    port: 443
+    type: trojan
+    password: e783c490-5b92-11ee-8034-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Tsel Gamemax2
+    server: 104.19.143.108
+    port: 443
+    type: trojan
+    password: e783c490-5b92-11ee-8034-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Tsel Gamemax1
+    server: cf-vod.nimo.tv
+    port: 443
+    type: trojan
+    password: e783c490-5b92-11ee-8034-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Tsel Gamemax3
+    server: 104.18.13.120
+    port: 443
+    type: trojan
+    password: e783c490-5b92-11ee-8034-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Smartfren Edukasi
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: e783c490-5b92-11ee-8034-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Tsel ByU Edukasi
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: e783c490-5b92-11ee-8034-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Tsel Ilped KB1
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: e783c490-5b92-11ee-8034-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Tsel Ilped KB2
+    server: 104.18.24.139
+    port: 443
+    type: trojan
+    password: e783c490-5b92-11ee-8034-1239d0255272
+    skip-cert-verify: true
+    sni: us1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us1.test3.net
+    udp: true
+  - name: US Tsel Ilped KB3
+    server: 104.22.24.131
+    port: 443
+    type: trojan
+    password: e783c490-5b92-11ee-8034-1239d0255272
     skip-cert-verify: true
     sni: us1.test3.net
     network: ws
