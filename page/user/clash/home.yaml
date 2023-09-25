@@ -91,7 +91,7 @@ proxy-groups:
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '600'
-    use:
+    proxies:
       - Server1
       - Server2
       - Server3
@@ -103,12 +103,12 @@ proxy-groups:
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '100'
-    use:
+    proxies:
       - Server1
       - Server2
       - Server3
       - Server4
-      - 🐎ID HERZA
+      - 🐎INDONESIA
       - 🐎SG AMP
       - 🐎CANADA
       - 🐎ROMANIA
@@ -126,12 +126,12 @@ proxy-groups:
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '50'
-    use:
+    proxies:
       - Server1
       - Server2
       - Server3
       - Server4
-      - 🐎ID HERZA
+      - 🐎INDONESIA
       - 🐎SG AMP
       - 🐎CANADA
       - 🐎ROMANIA
