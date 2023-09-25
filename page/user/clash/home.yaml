@@ -7,10 +7,8 @@ proxy-groups:
       - Alternatif
       - BestPing
       - 🕊️Utama
-      - Server1
-      - Server2
-      - Server3
-      - Server4
+      - 🕊️Cadangan
+      - 🐘Cadangan
       - 🐎INDONESIA
       - 🐎CANADA
       - 🐎ROMANIA
@@ -48,6 +46,8 @@ proxy-groups:
     proxies:
       - 🕊️Cadangan
       - 🐘Cadangan
+      - 🕊️Utama
+      - Alternatif
 
   - name: Alternatif
     type: fallback
@@ -84,6 +84,8 @@ proxy-groups:
     proxies:
       - 🕊️Cadangan
       - 🐘Cadangan
+      - 🕊️Utama
+      - Alternatif
 
 
   - name: 🕊️Utama
@@ -104,15 +106,15 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '100'
     proxies:
-      - Server1
-      - Server2
-      - Server3
       - Server4
-      - 🐎INDONESIA
-      - 🐎SG AMP
+      - Server3
+      - Server2
+      - Server1
       - 🐎CANADA
       - 🐎ROMANIA
       - 🐎NETHERLANDS
+      - 🐎INDONESIA
+      - 🐎SG AMP
       - 🐎US
       - 🐎FRANCIS
       - 🐎SG HE MUX
@@ -127,9 +129,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '50'
     proxies:
-      - Server1
-      - Server2
       - Server3
+      - Server2
+      - Server1
       - Server4
       - 🐎INDONESIA
       - 🐎SG AMP
