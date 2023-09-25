@@ -55,10 +55,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '200'
     proxies:
-      - Server1
       - Server2
       - Server3
       - Server4
+      - Server1
       - 🐎CANADA
       - 🐎ROMANIA
       - 🐎FRANCIS
