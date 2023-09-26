@@ -183,7 +183,7 @@ proxies:
         Host: ca1.test3.net
     udp: true
   - name: Canada conference1
-    server: 104.16.53.111
+    server: 104.26.4.126
     port: 443
     type: trojan
     password: f4ea0ec0-5315-11ee-bc89-1239d0255272
@@ -786,7 +786,7 @@ proxies:
         Host: ca1.test3.net
     udp: true
   - name: Canada conference1
-    server: 104.16.53.111
+    server: 104.26.4.126
     port: 443
     type: trojan
     password: a961a960-4b3a-11ee-a3ce-1239d0255272
@@ -1389,7 +1389,7 @@ proxies:
         Host: ca1.test3.net
     udp: true
   - name: Canada conference1
-    server: 104.16.53.111
+    server: 104.26.4.126
     port: 443
     type: trojan
     password: 6560e1e0-5316-11ee-8550-1239d0255272
@@ -1992,7 +1992,7 @@ proxies:
         Host: ca1.test3.net
     udp: true
   - name: Canada conference1
-    server: 104.16.53.111
+    server: 104.26.4.126
     port: 443
     type: trojan
     password: aad5db00-5316-11ee-8cb1-1239d0255272
@@ -2594,7 +2594,7 @@ proxies:
         Host: ca1.test3.net
     udp: true
   - name: Canada conference1
-    server: 104.16.53.111
+    server: 104.26.4.126
     port: 443
     type: trojan
     password: ea0a35c0-5316-11ee-af61-1239d0255272
