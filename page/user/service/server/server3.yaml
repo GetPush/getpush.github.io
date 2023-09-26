@@ -224,7 +224,7 @@ proxies:
         Host: sg3-v2ray.sshkit.org 
     udp: true
   - name: s3 conference1
-    server: 104.16.53.111
+    server: 104.26.4.126
     port: 80
     type: vmess 
     uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
