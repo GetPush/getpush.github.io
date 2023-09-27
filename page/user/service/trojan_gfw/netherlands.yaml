@@ -1,6 +1,6 @@
-#################### Bagian 1 ##################
+######################## Bagian 5 #########################
 proxies:
-  - name: Netherlands game
+  - name: Netherlands Games B1
     server: 104.19.142.89
     port: 443
     type: trojan
@@ -13,7 +13,7 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
-  - name: Netherlands gaming
+  - name: Netherlands Games B2
     server: 104.16.108.96
     port: 443
     type: trojan
@@ -26,7 +26,20 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
-  - name: Netherlands games
+  - name: Netherlands Games B3
+    server: spdsoporte.garena.com
+    port: 443
+    type: trojan
+    password: 0179fe60-5942-11ee-9aec-1239d0255272
+    skip-cert-verify: true
+    sni: nl.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: nl.test3.net
+    udp: true
+  - name: Netherlands Games Jatim
     server: 104.18.20.94
     port: 443
     type: trojan
@@ -39,8 +52,8 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
-  - name: Netherlands sushiroll
-    server: www.sushiroll.co.id 
+  - name: Netherlands Games non Jabar
+    server: cdn.appsflyer.com
     port: 443
     type: trojan
     password: 0179fe60-5942-11ee-9aec-1239d0255272
@@ -52,8 +65,8 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
-  - name: Netherlands vidio
-    server: quiz.vidio.com
+  - name: Netherlands Axis XL Opera B1
+    server: odsp-quic.op-mobile.opera.com
     port: 443
     type: trojan
     password: 0179fe60-5942-11ee-9aec-1239d0255272
@@ -65,8 +78,8 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
-  - name: Netherlands multi sc1
-    server: 162.159.138.6
+  - name: Netherlands Axis XL Opera B2
+    server: support-vpn-pro.opera.com
     port: 443
     type: trojan
     password: 0179fe60-5942-11ee-9aec-1239d0255272
@@ -78,8 +91,8 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
-  - name: Netherlands multi sc2
-    server: 162.159.128.7
+  - name: Netherlands Axis XL Conference B1
+    server: 104.26.4.126
     port: 443
     type: trojan
     password: 0179fe60-5942-11ee-9aec-1239d0255272
@@ -91,215 +104,7 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
-  - name: Netherlands multi operator
-    server: layanan.ruangguru.com
-    port: 443
-    type: trojan
-    password: 0179fe60-5942-11ee-9aec-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands axis opok
-    server: 104.17.58.20
-    port: 443
-    type: trojan
-    password: 0179fe60-5942-11ee-9aec-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands axis xl opok
-    server: 104.17.58.20
-    port: 443
-    type: trojan
-    password: 0179fe60-5942-11ee-9aec-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands xl opok
-    server: 104.18.12.65
-    port: 443
-    type: trojan
-    password: 0179fe60-5942-11ee-9aec-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands musik spotify
-    server: investors.spotify.com
-    port: 443
-    type: trojan
-    password: 0179fe60-5942-11ee-9aec-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands tsel multimedia
-    server: investors.spotify.com
-    port: 443
-    type: trojan
-    password: 0179fe60-5942-11ee-9aec-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands XL Stream Live On1
-    server: investors.spotify.com
-    port: 443
-    type: trojan
-    password: 0179fe60-5942-11ee-9aec-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands conference1
-    server: 104.16.53.111
-    port: 443
-    type: trojan
-    password: 0179fe60-5942-11ee-9aec-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands xl WA Line Flex1
-    server: 104.16.53.111
-    port: 443
-    type: trojan
-    password: 0179fe60-5942-11ee-9aec-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands akrab4
-    server: 104.16.53.111
-    port: 443
-    type: trojan
-    password: 0179fe60-5942-11ee-9aec-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands conference2
-    server: blogs.microsoft.com
-    port: 443
-    type: trojan
-    password: 0179fe60-5942-11ee-9aec-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands akrab5
-    server: blogs.microsoft.com
-    port: 443
-    type: trojan
-    password: 0179fe60-5942-11ee-9aec-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands edukasi1
-    server: 104.17.3.81
-    port: 443
-    type: trojan
-    password: 0179fe60-5942-11ee-9aec-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands akrab1
-    server: 104.17.3.81
-    port: 443
-    type: trojan
-    password: 0179fe60-5942-11ee-9aec-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands edukasi2
-    server: 104.20.75.141
-    port: 443
-    type: trojan
-    password: 0179fe60-5942-11ee-9aec-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands akrab2
-    server: 104.20.75.141
-    port: 443
-    type: trojan
-    password: 0179fe60-5942-11ee-9aec-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands edukasi3
+  - name: Netherlands Axis XL Conference B2
     server: 104.18.21.226
     port: 443
     type: trojan
@@ -312,8 +117,8 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
-  - name: Netherlands akrab3
-    server: 104.18.21.226
+  - name: Netherlands Axis XL Conference B3
+    server: cdn-cf.zoom.us
     port: 443
     type: trojan
     password: 0179fe60-5942-11ee-9aec-1239d0255272
@@ -325,8 +130,8 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
-  - name: Netherlands video Netflix1
-    server: npca.netflix.com
+  - name: Netherlands Axis Edukasi B1
+    server: www.udemy.com
     port: 443
     type: trojan
     password: 0179fe60-5942-11ee-9aec-1239d0255272
@@ -338,8 +143,8 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
-  - name: Netherlands XL Stream Live On2
-    server: npca.netflix.com
+  - name: Netherlands Axis Edukasi B2
+    server: cdn.ruangguru.com
     port: 443
     type: trojan
     password: 0179fe60-5942-11ee-9aec-1239d0255272
@@ -351,8 +156,8 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
-  - name: Netherlands Tsel OMG Nonton
-    server: npca.netflix.com
+  - name: Netherlands Axis Genflix
+    server: 104.21.30.242
     port: 443
     type: trojan
     password: 0179fe60-5942-11ee-9aec-1239d0255272
@@ -364,8 +169,8 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
-  - name: Netherlands video Netflix2
-    server: updates.netflix.com
+  - name: Netherlands Axis Line
+    server: tubsd1478a630640.zendesk.com
     port: 443
     type: trojan
     password: 0179fe60-5942-11ee-9aec-1239d0255272
@@ -377,8 +182,8 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
-  - name: Netherlands xl vision1
-    server: 104.21.235.172
+  - name: Netherlands Axis Musik B1
+    server: musical1.zendesk.com
     port: 443
     type: trojan
     password: 0179fe60-5942-11ee-9aec-1239d0255272
@@ -390,8 +195,8 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
-  - name: Netherlands xl vision2
-    server: sb.scorecardresearch.com
+  - name: Netherlands Axis Musik B2
+    server: investors.spotify.com
     port: 443
     type: trojan
     password: 0179fe60-5942-11ee-9aec-1239d0255272
@@ -403,8 +208,8 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
-  - name: Netherlands xl WA Line Flex3
-    server: sogood.linefriends.com
+  - name: Netherlands Axis MUSIK B3
+    server: login2.spotify.com
     port: 443
     type: trojan
     password: 0179fe60-5942-11ee-9aec-1239d0255272
@@ -416,8 +221,8 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
-  - name: Netherlands Smartfren chat1
-    server: sogood.linefriends.com
+  - name: Netherlands Axis Opok B1
+    server: api2.axisnet.id
     port: 443
     type: trojan
     password: 0179fe60-5942-11ee-9aec-1239d0255272
@@ -429,7 +234,228 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
-  - name: Netherlands Indosat opok1
+  - name: Netherlands Axis Opok B1
+    server: api2.axisnet.id
+    port: 443
+    type: trojan
+    password: 0179fe60-5942-11ee-9aec-1239d0255272
+    skip-cert-verify: true
+    sni: nl.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: nl.test3.net
+    udp: true
+  - name: Netherlands Axis Opok B2
+    server: www.axis.co.id
+    port: 443
+    type: trojan
+    password: 0179fe60-5942-11ee-9aec-1239d0255272
+    skip-cert-verify: true
+    sni: nl.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: nl.test3.net
+    udp: true
+  - name: Netherlands Axis Opok B3
+    server: 104.22.28.102
+    port: 443
+    type: trojan
+    password: 0179fe60-5942-11ee-9aec-1239d0255272
+    skip-cert-verify: true
+    sni: nl.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: nl.test3.net
+    udp: true
+  - name: Netherlands Axis Opok B4
+    server: manga.line.naver.jp
+    port: 443
+    type: trojan
+    password: 0179fe60-5942-11ee-9aec-1239d0255272
+    skip-cert-verify: true
+    sni: nl.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: nl.test3.net
+    udp: true
+  - name: Netherlands Axis XL Opok
+    server: 104.17.58.20
+    port: 443
+    type: trojan
+    password: 0179fe60-5942-11ee-9aec-1239d0255272
+    skip-cert-verify: true
+    sni: nl.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: nl.test3.net
+    udp: true
+  - name: Netherlands Axis Sosmed
+    server: www.help.tinder.com
+    port: 443
+    type: trojan
+    password: 0179fe60-5942-11ee-9aec-1239d0255272
+    skip-cert-verify: true
+    sni: nl.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: nl.test3.net
+    udp: true
+  - name: Netherlands Axis Video B1
+    server: 104.22.4.240
+    port: 443
+    type: trojan
+    password: 0179fe60-5942-11ee-9aec-1239d0255272
+    skip-cert-verify: true
+    sni: nl.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: nl.test3.net
+    udp: true
+  - name: Netherlands Axis Video B2
+    server: quiz.int.vidio.com
+    port: 443
+    type: trojan
+    password: 0179fe60-5942-11ee-9aec-1239d0255272
+    skip-cert-verify: true
+    sni: nl.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: nl.test3.net
+    udp: true
+  - name: Netherlands Axis Video B3
+    server: ncpa.netflix.com
+    port: 443
+    type: trojan
+    password: 0179fe60-5942-11ee-9aec-1239d0255272
+    skip-cert-verify: true
+    sni: nl.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: nl.test3.net
+    udp: true
+  - name: Netherlands By U Opok
+    server: space.byu.id
+    port: 443
+    type: trojan
+    password: 0179fe60-5942-11ee-9aec-1239d0255272
+    skip-cert-verify: true
+    sni: nl.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: nl.test3.net
+    udp: true
+  - name: Netherlands By U Belajar
+    server: cdn.ruangguru.com
+    port: 443
+    type: trojan
+    password: 0179fe60-5942-11ee-9aec-1239d0255272
+    skip-cert-verify: true
+    sni: nl.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: nl.test3.net
+    udp: true
+  - name: Netherlands By U Video
+    server: ncpa.netflix.com
+    port: 443
+    type: trojan
+    password: 0179fe60-5942-11ee-9aec-1239d0255272
+    skip-cert-verify: true
+    sni: nl.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: nl.test3.net
+    udp: true
+  - name: Netherlands IM3 Opok
+    server: 104.19.142.56
+    port: 443
+    type: trojan
+    password: 0179fe60-5942-11ee-9aec-1239d0255272
+    skip-cert-verify: true
+    sni: nl.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: nl.test3.net
+    udp: true
+  - name: Netherlands Indosat Edukasi B1
+    server: www.udemy.com
+    port: 443
+    type: trojan
+    password: 0179fe60-5942-11ee-9aec-1239d0255272
+    skip-cert-verify: true
+    sni: nl.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: nl.test3.net
+    udp: true
+  - name: Netherlands Indosat Edukasi B2
+    server: 104.17.2.81
+    port: 443
+    type: trojan
+    password: 0179fe60-5942-11ee-9aec-1239d0255272
+    skip-cert-verify: true
+    sni: nl.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: nl.test3.net
+    udp: true
+  - name: Netherlands Indosat Edukasi B3
+    server: 104.16.66.85
+    port: 443
+    type: trojan
+    password: 0179fe60-5942-11ee-9aec-1239d0255272
+    skip-cert-verify: true
+    sni: nl.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: nl.test3.net
+    udp: true
+  - name: Netherlands IMCLASS
+    server: cdn.ruangguru.com
+    port: 443
+    type: trojan
+    password: 0179fe60-5942-11ee-9aec-1239d0255272
+    skip-cert-verify: true
+    sni: nl.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: nl.test3.net
+    udp: true
+  - name: Netherlands Indosat Opok
     server: 172.67.70.101
     port: 443
     type: trojan
@@ -442,8 +468,8 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
-  - name: Netherlands Tri Edukasi
-    server: udemy.com
+  - name: Netherlands Live On Opok
+    server: 104.21.8.121
     port: 443
     type: trojan
     password: 0179fe60-5942-11ee-9aec-1239d0255272
@@ -455,8 +481,8 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
-  - name: Netherlands Indosat Edukasi1
-    server: udemy.com
+  - name: Netherlands Smartfren Opok
+    server: api.ovo.id
     port: 443
     type: trojan
     password: 0179fe60-5942-11ee-9aec-1239d0255272
@@ -468,8 +494,8 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
-  - name: Netherlands Indosat Edukasi2
-    server: 104.18.24.139
+  - name: Netherlands Smartfren Midnight
+    server: www.smartfren.com
     port: 443
     type: trojan
     password: 0179fe60-5942-11ee-9aec-1239d0255272
@@ -481,8 +507,8 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
-  - name: Netherlands Tsel ByU GGWP
-    server: 104.19.143.108
+  - name: Netherlands Telkomsel Gamemax B1
+    server: i.nimo.tv
     port: 443
     type: trojan
     password: 0179fe60-5942-11ee-9aec-1239d0255272
@@ -494,8 +520,8 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
-  - name: Netherlands Tsel Gamemax2
-    server: 104.19.143.108
+  - name: Netherlands Telkomsel Gamemax B2
+    server: ir.huya.com
     port: 443
     type: trojan
     password: 0179fe60-5942-11ee-9aec-1239d0255272
@@ -507,7 +533,7 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
-  - name: Netherlands Tsel Gamemax1
+  - name: Netherlands Telkomsel Gamemax B3
     server: cf-vod.nimo.tv
     port: 443
     type: trojan
@@ -520,8 +546,8 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
-  - name: Netherlands Tsel Gamemax3
-    server: 104.18.13.120
+  - name: Netherlands Telkomsel Gamemax B4
+    server: spdsoporte.garena.com
     port: 443
     type: trojan
     password: 0179fe60-5942-11ee-9aec-1239d0255272
@@ -533,8 +559,8 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
-  - name: Netherlands Smartfren Edukasi
-    server: 104.18.2.2
+  - name: Netherlands Telkomsel Ilmupedia B1
+    server: 104.26.6.171
     port: 443
     type: trojan
     password: 0179fe60-5942-11ee-9aec-1239d0255272
@@ -546,8 +572,8 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
-  - name: Netherlands Tsel ByU Edukasi
-    server: 104.18.2.2
+  - name: Netherlands Telkomsel Ilmupedia B2
+    server: 104.16.66.85
     port: 443
     type: trojan
     password: 0179fe60-5942-11ee-9aec-1239d0255272
@@ -559,8 +585,8 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
-  - name: Netherlands Tsel Ilped KB1
-    server: 104.18.2.2
+  - name: Netherlands Telkomsel Ilmupedia B3
+    server: cdn.ruangguru.com
     port: 443
     type: trojan
     password: 0179fe60-5942-11ee-9aec-1239d0255272
@@ -572,8 +598,8 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
-  - name: Netherlands Tsel Ilped KB2
-    server: 104.18.24.139
+  - name: Netherlands Telkomsel Multimedia B1
+    server: 104.16.51.111
     port: 443
     type: trojan
     password: 0179fe60-5942-11ee-9aec-1239d0255272
@@ -585,8 +611,8 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
-  - name: Netherlands Tsel Ilped KB3
-    server: 104.22.24.131
+  - name: Netherlands Telkomsel Multimedia B2
+    server: zendesk2.spotify.com
     port: 443
     type: trojan
     password: 0179fe60-5942-11ee-9aec-1239d0255272
@@ -598,16 +624,11 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
-
-
-
-################# Bagian 2 ################
-#proxies:
-  - name: Netherlands game
-    server: 104.19.142.89
+  - name: Netherlands Telkomsel Ruangguru
+    server: ruangguru.com
     port: 443
     type: trojan
-    password: e37ef730-5942-11ee-9fd8-1239d0255272
+    password: 0179fe60-5942-11ee-9aec-1239d0255272
     skip-cert-verify: true
     sni: nl.test3.net
     network: ws
@@ -616,11 +637,11 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
-  - name: Netherlands gaming
-    server: 104.16.108.96
+  - name: Netherlands Telkomsel Videomax
+    server: stats.vidiomax.com
     port: 443
     type: trojan
-    password: e37ef730-5942-11ee-9fd8-1239d0255272
+    password: 0179fe60-5942-11ee-9aec-1239d0255272
     skip-cert-verify: true
     sni: nl.test3.net
     network: ws
@@ -629,11 +650,11 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
-  - name: Netherlands games
-    server: 104.18.20.94
+  - name: Netherlands Telkomsel Youtubemax
+    server: login2.spotify.com
     port: 443
     type: trojan
-    password: e37ef730-5942-11ee-9fd8-1239d0255272
+    password: 0179fe60-5942-11ee-9aec-1239d0255272
     skip-cert-verify: true
     sni: nl.test3.net
     network: ws
@@ -642,11 +663,11 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
-  - name: Netherlands sushiroll
-    server: www.sushiroll.co.id 
+  - name: Netherlands Turbo Basic 1GB
+    server: zendesk3.grabtaxi.com
     port: 443
     type: trojan
-    password: e37ef730-5942-11ee-9fd8-1239d0255272
+    password: 0179fe60-5942-11ee-9aec-1239d0255272
     skip-cert-verify: true
     sni: nl.test3.net
     network: ws
@@ -655,11 +676,11 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
-  - name: Netherlands vidio
-    server: quiz.vidio.com
+  - name: Netherlands Turbo Basic 3GB
+    server: zendesk1.appsflyer.com
     port: 443
     type: trojan
-    password: e37ef730-5942-11ee-9fd8-1239d0255272
+    password: 0179fe60-5942-11ee-9aec-1239d0255272
     skip-cert-verify: true
     sni: nl.test3.net
     network: ws
@@ -668,11 +689,11 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
-  - name: Netherlands multi sc1
+  - name: Netherlands Turbo Basic Unlimited
     server: 162.159.138.6
     port: 443
     type: trojan
-    password: e37ef730-5942-11ee-9fd8-1239d0255272
+    password: 0179fe60-5942-11ee-9aec-1239d0255272
     skip-cert-verify: true
     sni: nl.test3.net
     network: ws
@@ -681,63 +702,11 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
-  - name: Netherlands multi sc2
-    server: 162.159.128.7
-    port: 443
-    type: trojan
-    password: e37ef730-5942-11ee-9fd8-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands multi operator
-    server: layanan.ruangguru.com
-    port: 443
-    type: trojan
-    password: e37ef730-5942-11ee-9fd8-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands axis opok
-    server: 104.17.58.20
-    port: 443
-    type: trojan
-    password: e37ef730-5942-11ee-9fd8-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands axis xl opok
-    server: 104.17.58.20
-    port: 443
-    type: trojan
-    password: e37ef730-5942-11ee-9fd8-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands xl opok
+  - name: Netherlands XL Opok
     server: 104.18.12.65
     port: 443
     type: trojan
-    password: e37ef730-5942-11ee-9fd8-1239d0255272
+    password: 0179fe60-5942-11ee-9aec-1239d0255272
     skip-cert-verify: true
     sni: nl.test3.net
     network: ws
@@ -746,115 +715,11 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
-  - name: Netherlands musik spotify
-    server: investors.spotify.com
-    port: 443
-    type: trojan
-    password: e37ef730-5942-11ee-9fd8-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands tsel multimedia
-    server: investors.spotify.com
-    port: 443
-    type: trojan
-    password: e37ef730-5942-11ee-9fd8-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands XL Stream Live On1
-    server: investors.spotify.com
-    port: 443
-    type: trojan
-    password: e37ef730-5942-11ee-9fd8-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands conference1
-    server: 104.16.53.111
-    port: 443
-    type: trojan
-    password: e37ef730-5942-11ee-9fd8-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands xl WA Line Flex1
-    server: 104.16.53.111
-    port: 443
-    type: trojan
-    password: e37ef730-5942-11ee-9fd8-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands akrab4
-    server: 104.16.53.111
-    port: 443
-    type: trojan
-    password: e37ef730-5942-11ee-9fd8-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands conference2
-    server: blogs.microsoft.com
-    port: 443
-    type: trojan
-    password: e37ef730-5942-11ee-9fd8-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands akrab5
-    server: blogs.microsoft.com
-    port: 443
-    type: trojan
-    password: e37ef730-5942-11ee-9fd8-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands edukasi1
+  - name: Netherlands XL Akrab B1
     server: 104.17.3.81
     port: 443
     type: trojan
-    password: e37ef730-5942-11ee-9fd8-1239d0255272
+    password: 0179fe60-5942-11ee-9aec-1239d0255272
     skip-cert-verify: true
     sni: nl.test3.net
     network: ws
@@ -863,50 +728,11 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
-  - name: Netherlands akrab1
-    server: 104.17.3.81
-    port: 443
-    type: trojan
-    password: e37ef730-5942-11ee-9fd8-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands edukasi2
-    server: 104.20.75.141
-    port: 443
-    type: trojan
-    password: e37ef730-5942-11ee-9fd8-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands akrab2
-    server: 104.20.75.141
-    port: 443
-    type: trojan
-    password: e37ef730-5942-11ee-9fd8-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands edukasi3
+  - name: Netherlands XL Akrab B2
     server: 104.18.21.226
     port: 443
     type: trojan
-    password: e37ef730-5942-11ee-9fd8-1239d0255272
+    password: 0179fe60-5942-11ee-9aec-1239d0255272
     skip-cert-verify: true
     sni: nl.test3.net
     network: ws
@@ -915,11 +741,37 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
-  - name: Netherlands akrab3
+  - name: Netherlands XL Akrab B3
+    server: www.noice.id
+    port: 443
+    type: trojan
+    password: 0179fe60-5942-11ee-9aec-1239d0255272
+    skip-cert-verify: true
+    sni: nl.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: nl.test3.net
+    udp: true
+  - name: Netherlands XL Axis Conference B1
+    server: 104.26.4.126
+    port: 443
+    type: trojan
+    password: 0179fe60-5942-11ee-9aec-1239d0255272
+    skip-cert-verify: true
+    sni: nl.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: nl.test3.net
+    udp: true
+  - name: Netherlands XL Axis Conference B2
     server: 104.18.21.226
     port: 443
     type: trojan
-    password: e37ef730-5942-11ee-9fd8-1239d0255272
+    password: 0179fe60-5942-11ee-9aec-1239d0255272
     skip-cert-verify: true
     sni: nl.test3.net
     network: ws
@@ -928,11 +780,11 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
-  - name: Netherlands video Netflix1
-    server: npca.netflix.com
+  - name: Netherlands XL Axis Conference B3
+    server: cdn-cf.zoom.us
     port: 443
     type: trojan
-    password: e37ef730-5942-11ee-9fd8-1239d0255272
+    password: 0179fe60-5942-11ee-9aec-1239d0255272
     skip-cert-verify: true
     sni: nl.test3.net
     network: ws
@@ -941,11 +793,11 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
-  - name: Netherlands XL Stream Live On2
-    server: npca.netflix.com
+  - name: Netherlands XL Edukasi B1
+    server: 172.64.149.82
     port: 443
     type: trojan
-    password: e37ef730-5942-11ee-9fd8-1239d0255272
+    password: 0179fe60-5942-11ee-9aec-1239d0255272
     skip-cert-verify: true
     sni: nl.test3.net
     network: ws
@@ -954,11 +806,11 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
-  - name: Netherlands Tsel OMG Nonton
-    server: npca.netflix.com
+  - name: Netherlands XL Edukasi B2
+    server: 104.20.75.141
     port: 443
     type: trojan
-    password: e37ef730-5942-11ee-9fd8-1239d0255272
+    password: 0179fe60-5942-11ee-9aec-1239d0255272
     skip-cert-verify: true
     sni: nl.test3.net
     network: ws
@@ -967,11 +819,11 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
-  - name: Netherlands video Netflix2
-    server: updates.netflix.com
+  - name: Netherlands XL Flex
+    server: v.whatsapp.com
     port: 443
     type: trojan
-    password: e37ef730-5942-11ee-9fd8-1239d0255272
+    password: 0179fe60-5942-11ee-9aec-1239d0255272
     skip-cert-verify: true
     sni: nl.test3.net
     network: ws
@@ -980,11 +832,11 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
-  - name: Netherlands xl vision1
-    server: 104.21.235.172
+  - name: Netherlands XL Meeting Belajar B1
+    server: 104.16.53.111
     port: 443
     type: trojan
-    password: e37ef730-5942-11ee-9fd8-1239d0255272
+    password: 0179fe60-5942-11ee-9aec-1239d0255272
     skip-cert-verify: true
     sni: nl.test3.net
     network: ws
@@ -993,11 +845,11 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
-  - name: Netherlands xl vision2
-    server: sb.scorecardresearch.com
+  - name: Netherlands XL Meeting Belajar B2
+    server: play.mobilelegends.com
     port: 443
     type: trojan
-    password: e37ef730-5942-11ee-9fd8-1239d0255272
+    password: 0179fe60-5942-11ee-9aec-1239d0255272
     skip-cert-verify: true
     sni: nl.test3.net
     network: ws
@@ -1006,11 +858,11 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
-  - name: Netherlands xl WA Line Flex3
-    server: sogood.linefriends.com
+  - name: Netherlands XL Video
+    server: quiz.int.vidio.com
     port: 443
     type: trojan
-    password: e37ef730-5942-11ee-9fd8-1239d0255272
+    password: 0179fe60-5942-11ee-9aec-1239d0255272
     skip-cert-verify: true
     sni: nl.test3.net
     network: ws
@@ -1019,11 +871,11 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
-  - name: Netherlands Smartfren chat1
-    server: sogood.linefriends.com
+  - name: Netherlands XL Vision
+    server: 104.21.235.171
     port: 443
     type: trojan
-    password: e37ef730-5942-11ee-9fd8-1239d0255272
+    password: 0179fe60-5942-11ee-9aec-1239d0255272
     skip-cert-verify: true
     sni: nl.test3.net
     network: ws
@@ -1032,11 +884,11 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
-  - name: Netherlands Indosat opok1
-    server: 172.67.70.101
+  - name: Netherlands XL Turbo
+    server: ncpa.netflix.com
     port: 443
     type: trojan
-    password: e37ef730-5942-11ee-9fd8-1239d0255272
+    password: 0179fe60-5942-11ee-9aec-1239d0255272
     skip-cert-verify: true
     sni: nl.test3.net
     network: ws
@@ -1045,237 +897,11 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
-  - name: Netherlands Tri Edukasi
-    server: udemy.com
-    port: 443
-    type: trojan
-    password: e37ef730-5942-11ee-9fd8-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands Indosat Edukasi1
-    server: udemy.com
-    port: 443
-    type: trojan
-    password: e37ef730-5942-11ee-9fd8-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands Indosat Edukasi2
-    server: 104.18.24.139
-    port: 443
-    type: trojan
-    password: e37ef730-5942-11ee-9fd8-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands Tsel ByU GGWP
-    server: 104.19.143.108
-    port: 443
-    type: trojan
-    password: e37ef730-5942-11ee-9fd8-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands Tsel Gamemax2
-    server: 104.19.143.108
-    port: 443
-    type: trojan
-    password: e37ef730-5942-11ee-9fd8-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands Tsel Gamemax1
-    server: cf-vod.nimo.tv
-    port: 443
-    type: trojan
-    password: e37ef730-5942-11ee-9fd8-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands Tsel Gamemax3
-    server: 104.18.13.120
-    port: 443
-    type: trojan
-    password: e37ef730-5942-11ee-9fd8-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands Smartfren Edukasi
-    server: 104.18.2.2
-    port: 443
-    type: trojan
-    password: e37ef730-5942-11ee-9fd8-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands Tsel ByU Edukasi
-    server: 104.18.2.2
-    port: 443
-    type: trojan
-    password: e37ef730-5942-11ee-9fd8-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands Tsel Ilped KB1
-    server: 104.18.2.2
-    port: 443
-    type: trojan
-    password: e37ef730-5942-11ee-9fd8-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands Tsel Ilped KB2
-    server: 104.18.24.139
-    port: 443
-    type: trojan
-    password: e37ef730-5942-11ee-9fd8-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands Tsel Ilped KB3
-    server: 104.22.24.131
-    port: 443
-    type: trojan
-    password: e37ef730-5942-11ee-9fd8-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-
-
-
-####################### Bagian 3 ##################
-#proxies:
-  - name: Netherlands game
-    server: 104.19.142.89
-    port: 443
-    type: trojan
-    password: 1459bef0-5943-11ee-8ba6-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands gaming
-    server: 104.16.108.96
-    port: 443
-    type: trojan
-    password: 1459bef0-5943-11ee-8ba6-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands games
-    server: 104.18.20.94
-    port: 443
-    type: trojan
-    password: 1459bef0-5943-11ee-8ba6-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands sushiroll
-    server: www.sushiroll.co.id 
-    port: 443
-    type: trojan
-    password: 1459bef0-5943-11ee-8ba6-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands vidio
-    server: quiz.vidio.com
-    port: 443
-    type: trojan
-    password: 1459bef0-5943-11ee-8ba6-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands multi sc1
+  - name: Netherlands All SC B1
     server: 162.159.138.6
     port: 443
     type: trojan
-    password: 1459bef0-5943-11ee-8ba6-1239d0255272
+    password: 0179fe60-5942-11ee-9aec-1239d0255272
     skip-cert-verify: true
     sni: nl.test3.net
     network: ws
@@ -1284,11 +910,11 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
-  - name: Netherlands multi sc2
+  - name: Netherlands All SC B2
     server: 162.159.128.7
     port: 443
     type: trojan
-    password: 1459bef0-5943-11ee-8ba6-1239d0255272
+    password: 0179fe60-5942-11ee-9aec-1239d0255272
     skip-cert-verify: true
     sni: nl.test3.net
     network: ws
@@ -1297,11 +923,11 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
-  - name: Netherlands multi operator
+  - name: Netherlands All SC B3
     server: layanan.ruangguru.com
     port: 443
     type: trojan
-    password: 1459bef0-5943-11ee-8ba6-1239d0255272
+    password: 0179fe60-5942-11ee-9aec-1239d0255272
     skip-cert-verify: true
     sni: nl.test3.net
     network: ws
@@ -1310,11 +936,11 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
-  - name: Netherlands axis opok
-    server: 104.17.58.20
+  - name: Netherlands All SC Genflix
+    server: beta.genflix.co.id
     port: 443
     type: trojan
-    password: 1459bef0-5943-11ee-8ba6-1239d0255272
+    password: 0179fe60-5942-11ee-9aec-1239d0255272
     skip-cert-verify: true
     sni: nl.test3.net
     network: ws
@@ -1323,11 +949,11 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
-  - name: Netherlands axis xl opok
-    server: 104.17.58.20
+  - name: Netherlands All SC Netflix
+    server: ncpa.netflix.com
     port: 443
     type: trojan
-    password: 1459bef0-5943-11ee-8ba6-1239d0255272
+    password: 0179fe60-5942-11ee-9aec-1239d0255272
     skip-cert-verify: true
     sni: nl.test3.net
     network: ws
@@ -1336,11 +962,11 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
-  - name: Netherlands xl opok
-    server: 104.18.12.65
+  - name: Netherlands All SC Vision
+    server: api.visionplus.id
     port: 443
     type: trojan
-    password: 1459bef0-5943-11ee-8ba6-1239d0255272
+    password: 0179fe60-5942-11ee-9aec-1239d0255272
     skip-cert-verify: true
     sni: nl.test3.net
     network: ws
@@ -1349,11 +975,11 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
-  - name: Netherlands musik spotify
-    server: investors.spotify.com
+  - name: Netherlands All SC Spotify
+    server: login2.spotify.com
     port: 443
     type: trojan
-    password: 1459bef0-5943-11ee-8ba6-1239d0255272
+    password: 0179fe60-5942-11ee-9aec-1239d0255272
     skip-cert-verify: true
     sni: nl.test3.net
     network: ws
@@ -1362,11 +988,11 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
-  - name: Netherlands tsel multimedia
-    server: investors.spotify.com
+  - name: Netherlands All SC Vidio
+    server: quiz.int.vidio.com
     port: 443
     type: trojan
-    password: 1459bef0-5943-11ee-8ba6-1239d0255272
+    password: 0179fe60-5942-11ee-9aec-1239d0255272
     skip-cert-verify: true
     sni: nl.test3.net
     network: ws
@@ -1375,1632 +1001,11 @@ proxies:
       headers:
         Host: nl.test3.net
     udp: true
-  - name: Netherlands XL Stream Live On1
-    server: investors.spotify.com
+  - name: Netherlands All SC Sushiroll
+    server: www.sushiroll.co.id
     port: 443
     type: trojan
-    password: 1459bef0-5943-11ee-8ba6-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands conference1
-    server: 104.16.53.111
-    port: 443
-    type: trojan
-    password: 1459bef0-5943-11ee-8ba6-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands xl WA Line Flex1
-    server: 104.16.53.111
-    port: 443
-    type: trojan
-    password: 1459bef0-5943-11ee-8ba6-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands akrab4
-    server: 104.16.53.111
-    port: 443
-    type: trojan
-    password: 1459bef0-5943-11ee-8ba6-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands conference2
-    server: blogs.microsoft.com
-    port: 443
-    type: trojan
-    password: 1459bef0-5943-11ee-8ba6-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands akrab5
-    server: blogs.microsoft.com
-    port: 443
-    type: trojan
-    password: 1459bef0-5943-11ee-8ba6-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands edukasi1
-    server: 104.17.3.81
-    port: 443
-    type: trojan
-    password: 1459bef0-5943-11ee-8ba6-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands akrab1
-    server: 104.17.3.81
-    port: 443
-    type: trojan
-    password: 1459bef0-5943-11ee-8ba6-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands edukasi2
-    server: 104.20.75.141
-    port: 443
-    type: trojan
-    password: 1459bef0-5943-11ee-8ba6-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands akrab2
-    server: 104.20.75.141
-    port: 443
-    type: trojan
-    password: 1459bef0-5943-11ee-8ba6-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands edukasi3
-    server: 104.18.21.226
-    port: 443
-    type: trojan
-    password: 1459bef0-5943-11ee-8ba6-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands akrab3
-    server: 104.18.21.226
-    port: 443
-    type: trojan
-    password: 1459bef0-5943-11ee-8ba6-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands video Netflix1
-    server: npca.netflix.com
-    port: 443
-    type: trojan
-    password: 1459bef0-5943-11ee-8ba6-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands XL Stream Live On2
-    server: npca.netflix.com
-    port: 443
-    type: trojan
-    password: 1459bef0-5943-11ee-8ba6-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands Tsel OMG Nonton
-    server: npca.netflix.com
-    port: 443
-    type: trojan
-    password: 1459bef0-5943-11ee-8ba6-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands video Netflix2
-    server: updates.netflix.com
-    port: 443
-    type: trojan
-    password: 1459bef0-5943-11ee-8ba6-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands xl vision1
-    server: 104.21.235.172
-    port: 443
-    type: trojan
-    password: 1459bef0-5943-11ee-8ba6-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands xl vision2
-    server: sb.scorecardresearch.com
-    port: 443
-    type: trojan
-    password: 1459bef0-5943-11ee-8ba6-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands xl WA Line Flex3
-    server: sogood.linefriends.com
-    port: 443
-    type: trojan
-    password: 1459bef0-5943-11ee-8ba6-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands Smartfren chat1
-    server: sogood.linefriends.com
-    port: 443
-    type: trojan
-    password: 1459bef0-5943-11ee-8ba6-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands Indosat opok1
-    server: 172.67.70.101
-    port: 443
-    type: trojan
-    password: 1459bef0-5943-11ee-8ba6-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands Tri Edukasi
-    server: udemy.com
-    port: 443
-    type: trojan
-    password: 1459bef0-5943-11ee-8ba6-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands Indosat Edukasi1
-    server: udemy.com
-    port: 443
-    type: trojan
-    password: 1459bef0-5943-11ee-8ba6-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands Indosat Edukasi2
-    server: 104.18.24.139
-    port: 443
-    type: trojan
-    password: 1459bef0-5943-11ee-8ba6-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands Tsel ByU GGWP
-    server: 104.19.143.108
-    port: 443
-    type: trojan
-    password: 1459bef0-5943-11ee-8ba6-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands Tsel Gamemax2
-    server: 104.19.143.108
-    port: 443
-    type: trojan
-    password: 1459bef0-5943-11ee-8ba6-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands Tsel Gamemax1
-    server: cf-vod.nimo.tv
-    port: 443
-    type: trojan
-    password: 1459bef0-5943-11ee-8ba6-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands Tsel Gamemax3
-    server: 104.18.13.120
-    port: 443
-    type: trojan
-    password: 1459bef0-5943-11ee-8ba6-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands Smartfren Edukasi
-    server: 104.18.2.2
-    port: 443
-    type: trojan
-    password: 1459bef0-5943-11ee-8ba6-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands Tsel ByU Edukasi
-    server: 104.18.2.2
-    port: 443
-    type: trojan
-    password: 1459bef0-5943-11ee-8ba6-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands Tsel Ilped KB1
-    server: 104.18.2.2
-    port: 443
-    type: trojan
-    password: 1459bef0-5943-11ee-8ba6-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands Tsel Ilped KB2
-    server: 104.18.24.139
-    port: 443
-    type: trojan
-    password: 1459bef0-5943-11ee-8ba6-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands Tsel Ilped KB3
-    server: 104.22.24.131
-    port: 443
-    type: trojan
-    password: 1459bef0-5943-11ee-8ba6-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-
-
-
-##################### Bagian 4 ##################
-#proxies:
-  - name: Netherlands game
-    server: 104.19.142.89
-    port: 443
-    type: trojan
-    password: 449a2820-5943-11ee-9ae0-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands gaming
-    server: 104.16.108.96
-    port: 443
-    type: trojan
-    password: 449a2820-5943-11ee-9ae0-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands games
-    server: 104.18.20.94
-    port: 443
-    type: trojan
-    password: 449a2820-5943-11ee-9ae0-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands sushiroll
-    server: www.sushiroll.co.id 
-    port: 443
-    type: trojan
-    password: 449a2820-5943-11ee-9ae0-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands vidio
-    server: quiz.vidio.com
-    port: 443
-    type: trojan
-    password: 449a2820-5943-11ee-9ae0-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands multi sc1
-    server: 162.159.138.6
-    port: 443
-    type: trojan
-    password: 449a2820-5943-11ee-9ae0-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands multi sc2
-    server: 162.159.128.7
-    port: 443
-    type: trojan
-    password: 449a2820-5943-11ee-9ae0-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands multi operator
-    server: layanan.ruangguru.com
-    port: 443
-    type: trojan
-    password: 449a2820-5943-11ee-9ae0-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands axis opok
-    server: 104.17.58.20
-    port: 443
-    type: trojan
-    password: 449a2820-5943-11ee-9ae0-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands axis xl opok
-    server: 104.17.58.20
-    port: 443
-    type: trojan
-    password: 449a2820-5943-11ee-9ae0-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands xl opok
-    server: 104.18.12.65
-    port: 443
-    type: trojan
-    password: 449a2820-5943-11ee-9ae0-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands musik spotify
-    server: investors.spotify.com
-    port: 443
-    type: trojan
-    password: 449a2820-5943-11ee-9ae0-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands tsel multimedia
-    server: investors.spotify.com
-    port: 443
-    type: trojan
-    password: 449a2820-5943-11ee-9ae0-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands XL Stream Live On1
-    server: investors.spotify.com
-    port: 443
-    type: trojan
-    password: 449a2820-5943-11ee-9ae0-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands conference1
-    server: 104.16.53.111
-    port: 443
-    type: trojan
-    password: 449a2820-5943-11ee-9ae0-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands xl WA Line Flex1
-    server: 104.16.53.111
-    port: 443
-    type: trojan
-    password: 449a2820-5943-11ee-9ae0-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands akrab4
-    server: 104.16.53.111
-    port: 443
-    type: trojan
-    password: 449a2820-5943-11ee-9ae0-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands conference2
-    server: blogs.microsoft.com
-    port: 443
-    type: trojan
-    password: 449a2820-5943-11ee-9ae0-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands akrab5
-    server: blogs.microsoft.com
-    port: 443
-    type: trojan
-    password: 449a2820-5943-11ee-9ae0-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands edukasi1
-    server: 104.17.3.81
-    port: 443
-    type: trojan
-    password: 449a2820-5943-11ee-9ae0-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands akrab1
-    server: 104.17.3.81
-    port: 443
-    type: trojan
-    password: 449a2820-5943-11ee-9ae0-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands edukasi2
-    server: 104.20.75.141
-    port: 443
-    type: trojan
-    password: 449a2820-5943-11ee-9ae0-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands akrab2
-    server: 104.20.75.141
-    port: 443
-    type: trojan
-    password: 449a2820-5943-11ee-9ae0-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands edukasi3
-    server: 104.18.21.226
-    port: 443
-    type: trojan
-    password: 449a2820-5943-11ee-9ae0-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands akrab3
-    server: 104.18.21.226
-    port: 443
-    type: trojan
-    password: 449a2820-5943-11ee-9ae0-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands video Netflix1
-    server: npca.netflix.com
-    port: 443
-    type: trojan
-    password: 449a2820-5943-11ee-9ae0-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands XL Stream Live On2
-    server: npca.netflix.com
-    port: 443
-    type: trojan
-    password: 449a2820-5943-11ee-9ae0-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands Tsel OMG Nonton
-    server: npca.netflix.com
-    port: 443
-    type: trojan
-    password: 449a2820-5943-11ee-9ae0-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands video Netflix2
-    server: updates.netflix.com
-    port: 443
-    type: trojan
-    password: 449a2820-5943-11ee-9ae0-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands xl vision1
-    server: 104.21.235.172
-    port: 443
-    type: trojan
-    password: 449a2820-5943-11ee-9ae0-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands xl vision2
-    server: sb.scorecardresearch.com
-    port: 443
-    type: trojan
-    password: 449a2820-5943-11ee-9ae0-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands xl WA Line Flex3
-    server: sogood.linefriends.com
-    port: 443
-    type: trojan
-    password: 449a2820-5943-11ee-9ae0-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands Smartfren chat1
-    server: sogood.linefriends.com
-    port: 443
-    type: trojan
-    password: 449a2820-5943-11ee-9ae0-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands Indosat opok1
-    server: 172.67.70.101
-    port: 443
-    type: trojan
-    password: 449a2820-5943-11ee-9ae0-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands Tri Edukasi
-    server: udemy.com
-    port: 443
-    type: trojan
-    password: 449a2820-5943-11ee-9ae0-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands Indosat Edukasi1
-    server: udemy.com
-    port: 443
-    type: trojan
-    password: 449a2820-5943-11ee-9ae0-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands Indosat Edukasi2
-    server: 104.18.24.139
-    port: 443
-    type: trojan
-    password: 449a2820-5943-11ee-9ae0-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands Tsel ByU GGWP
-    server: 104.19.143.108
-    port: 443
-    type: trojan
-    password: 449a2820-5943-11ee-9ae0-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands Tsel Gamemax2
-    server: 104.19.143.108
-    port: 443
-    type: trojan
-    password: 449a2820-5943-11ee-9ae0-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands Tsel Gamemax1
-    server: cf-vod.nimo.tv
-    port: 443
-    type: trojan
-    password: 449a2820-5943-11ee-9ae0-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands Tsel Gamemax3
-    server: 104.18.13.120
-    port: 443
-    type: trojan
-    password: 449a2820-5943-11ee-9ae0-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands Smartfren Edukasi
-    server: 104.18.2.2
-    port: 443
-    type: trojan
-    password: 449a2820-5943-11ee-9ae0-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands Tsel ByU Edukasi
-    server: 104.18.2.2
-    port: 443
-    type: trojan
-    password: 449a2820-5943-11ee-9ae0-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands Tsel Ilped KB1
-    server: 104.18.2.2
-    port: 443
-    type: trojan
-    password: 449a2820-5943-11ee-9ae0-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands Tsel Ilped KB2
-    server: 104.18.24.139
-    port: 443
-    type: trojan
-    password: 449a2820-5943-11ee-9ae0-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands Tsel Ilped KB3
-    server: 104.22.24.131
-    port: 443
-    type: trojan
-    password: 449a2820-5943-11ee-9ae0-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-
-
-###################### Bagian 5 ###################
-#proxies:
-  - name: Netherlands game
-    server: 104.19.142.89
-    port: 443
-    type: trojan
-    password: 6dbc3b40-5943-11ee-9403-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands gaming
-    server: 104.16.108.96
-    port: 443
-    type: trojan
-    password: 6dbc3b40-5943-11ee-9403-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands games
-    server: 104.18.20.94
-    port: 443
-    type: trojan
-    password: 6dbc3b40-5943-11ee-9403-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands sushiroll
-    server: www.sushiroll.co.id 
-    port: 443
-    type: trojan
-    password: 6dbc3b40-5943-11ee-9403-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands vidio
-    server: quiz.vidio.com
-    port: 443
-    type: trojan
-    password: 6dbc3b40-5943-11ee-9403-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands multi sc1
-    server: 162.159.138.6
-    port: 443
-    type: trojan
-    password: 6dbc3b40-5943-11ee-9403-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands multi sc2
-    server: 162.159.128.7
-    port: 443
-    type: trojan
-    password: 6dbc3b40-5943-11ee-9403-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands multi operator
-    server: layanan.ruangguru.com
-    port: 443
-    type: trojan
-    password: 6dbc3b40-5943-11ee-9403-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands axis opok
-    server: 104.17.58.20
-    port: 443
-    type: trojan
-    password: 6dbc3b40-5943-11ee-9403-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands axis xl opok
-    server: 104.17.58.20
-    port: 443
-    type: trojan
-    password: 6dbc3b40-5943-11ee-9403-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands xl opok
-    server: 104.18.12.65
-    port: 443
-    type: trojan
-    password: 6dbc3b40-5943-11ee-9403-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands musik spotify
-    server: investors.spotify.com
-    port: 443
-    type: trojan
-    password: 6dbc3b40-5943-11ee-9403-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands tsel multimedia
-    server: investors.spotify.com
-    port: 443
-    type: trojan
-    password: 6dbc3b40-5943-11ee-9403-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands XL Stream Live On1
-    server: investors.spotify.com
-    port: 443
-    type: trojan
-    password: 6dbc3b40-5943-11ee-9403-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands conference1
-    server: 104.16.53.111
-    port: 443
-    type: trojan
-    password: 6dbc3b40-5943-11ee-9403-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands xl WA Line Flex1
-    server: 104.16.53.111
-    port: 443
-    type: trojan
-    password: 6dbc3b40-5943-11ee-9403-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands akrab4
-    server: 104.16.53.111
-    port: 443
-    type: trojan
-    password: 6dbc3b40-5943-11ee-9403-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands conference2
-    server: blogs.microsoft.com
-    port: 443
-    type: trojan
-    password: 6dbc3b40-5943-11ee-9403-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands akrab5
-    server: blogs.microsoft.com
-    port: 443
-    type: trojan
-    password: 6dbc3b40-5943-11ee-9403-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands edukasi1
-    server: 104.17.3.81
-    port: 443
-    type: trojan
-    password: 6dbc3b40-5943-11ee-9403-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands akrab1
-    server: 104.17.3.81
-    port: 443
-    type: trojan
-    password: 6dbc3b40-5943-11ee-9403-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands edukasi2
-    server: 104.20.75.141
-    port: 443
-    type: trojan
-    password: 6dbc3b40-5943-11ee-9403-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands akrab2
-    server: 104.20.75.141
-    port: 443
-    type: trojan
-    password: 6dbc3b40-5943-11ee-9403-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands edukasi3
-    server: 104.18.21.226
-    port: 443
-    type: trojan
-    password: 6dbc3b40-5943-11ee-9403-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands akrab3
-    server: 104.18.21.226
-    port: 443
-    type: trojan
-    password: 6dbc3b40-5943-11ee-9403-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands video Netflix1
-    server: npca.netflix.com
-    port: 443
-    type: trojan
-    password: 6dbc3b40-5943-11ee-9403-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands XL Stream Live On2
-    server: npca.netflix.com
-    port: 443
-    type: trojan
-    password: 6dbc3b40-5943-11ee-9403-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands Tsel OMG Nonton
-    server: npca.netflix.com
-    port: 443
-    type: trojan
-    password: 6dbc3b40-5943-11ee-9403-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands video Netflix2
-    server: updates.netflix.com
-    port: 443
-    type: trojan
-    password: 6dbc3b40-5943-11ee-9403-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands xl vision1
-    server: 104.21.235.172
-    port: 443
-    type: trojan
-    password: 6dbc3b40-5943-11ee-9403-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands xl vision2
-    server: sb.scorecardresearch.com
-    port: 443
-    type: trojan
-    password: 6dbc3b40-5943-11ee-9403-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands xl WA Line Flex3
-    server: sogood.linefriends.com
-    port: 443
-    type: trojan
-    password: 6dbc3b40-5943-11ee-9403-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands Smartfren chat1
-    server: sogood.linefriends.com
-    port: 443
-    type: trojan
-    password: 6dbc3b40-5943-11ee-9403-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands Indosat opok1
-    server: 172.67.70.101
-    port: 443
-    type: trojan
-    password: 6dbc3b40-5943-11ee-9403-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands Tri Edukasi
-    server: udemy.com
-    port: 443
-    type: trojan
-    password: 6dbc3b40-5943-11ee-9403-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands Indosat Edukasi1
-    server: udemy.com
-    port: 443
-    type: trojan
-    password: 6dbc3b40-5943-11ee-9403-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands Indosat Edukasi2
-    server: 104.18.24.139
-    port: 443
-    type: trojan
-    password: 6dbc3b40-5943-11ee-9403-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands Tsel ByU GGWP
-    server: 104.19.143.108
-    port: 443
-    type: trojan
-    password: 6dbc3b40-5943-11ee-9403-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands Tsel Gamemax2
-    server: 104.19.143.108
-    port: 443
-    type: trojan
-    password: 6dbc3b40-5943-11ee-9403-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands Tsel Gamemax1
-    server: cf-vod.nimo.tv
-    port: 443
-    type: trojan
-    password: 6dbc3b40-5943-11ee-9403-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands Tsel Gamemax3
-    server: 104.18.13.120
-    port: 443
-    type: trojan
-    password: 6dbc3b40-5943-11ee-9403-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands Smartfren Edukasi
-    server: 104.18.2.2
-    port: 443
-    type: trojan
-    password: 6dbc3b40-5943-11ee-9403-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands Tsel ByU Edukasi
-    server: 104.18.2.2
-    port: 443
-    type: trojan
-    password: 6dbc3b40-5943-11ee-9403-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands Tsel Ilped KB1
-    server: 104.18.2.2
-    port: 443
-    type: trojan
-    password: 6dbc3b40-5943-11ee-9403-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands Tsel Ilped KB2
-    server: 104.18.24.139
-    port: 443
-    type: trojan
-    password: 6dbc3b40-5943-11ee-9403-1239d0255272
-    skip-cert-verify: true
-    sni: nl.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: nl.test3.net
-    udp: true
-  - name: Netherlands Tsel Ilped KB3
-    server: 104.22.24.131
-    port: 443
-    type: trojan
-    password: 6dbc3b40-5943-11ee-9403-1239d0255272
+    password: 0179fe60-5942-11ee-9aec-1239d0255272
     skip-cert-verify: true
     sni: nl.test3.net
     network: ws
