@@ -1,5 +1,5 @@
 proxies:
-  - name: s2 games
+  - name: S2 Games B1
     server: 104.19.142.89
     port: 80
     type: vmess
@@ -11,11 +11,11 @@ proxies:
     servername: sg2-v2ray.sshkit.org
     network: ws
     ws-opts:
-      path: /sshkit/1828396894/64eabbb09e39f/
+      path: /sshkit/1828396894/65140be96d74d/
       headers:
         Host: sg2-v2ray.sshkit.org
     udp: true
-  - name: s2 gaming
+  - name: S2 Games B2
     server: 104.16.108.96
     port: 80
     type: vmess
@@ -27,11 +27,27 @@ proxies:
     servername: sg2-v2ray.sshkit.org
     network: ws
     ws-opts:
-      path: /sshkit/1828396894/64eabbb09e39f/
+      path: /sshkit/1828396894/65140be96d74d/
       headers:
         Host: sg2-v2ray.sshkit.org
     udp: true
-  - name: s2 games
+  - name: S2 Games B3
+    server: spdsoporte.garena.com
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
+    udp: true
+  - name: S2 Games Jatim
     server: 104.18.20.94
     port: 80
     type: vmess
@@ -43,701 +59,1198 @@ proxies:
     servername: sg2-v2ray.sshkit.org
     network: ws
     ws-opts:
-      path: /sshkit/1828396894/64eabbb09e39f/
+      path: /sshkit/1828396894/65140be96d74d/
       headers:
         Host: sg2-v2ray.sshkit.org
     udp: true
-  - name: s2 sushiroll
-    server: www.sushiroll.co.id 
+  - name: S2 Games non Jabar
+    server: cdn.appsflyer.com
     port: 80
-    type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3 
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: sg2-v2ray.sshkit.org 
-    network: ws 
-    ws-opts: 
-      path: /sshkit/1828396894/64eabbb09e39f/
-      headers: 
-        Host: sg2-v2ray.sshkit.org 
-    udp: true
-  - name: s2 vidio
-    server: quiz.vidio.com
-    port: 80
-    type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3 
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: sg2-v2ray.sshkit.org 
-    network: ws 
-    ws-opts: 
-      path: /sshkit/1828396894/64eabbb09e39f/
-      headers: 
-        Host: sg2-v2ray.sshkit.org 
-    udp: true
-  - name: s2 multi sc1
-    server: 162.159.138.6
-    port: 80
-    type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3 
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: sg2-v2ray.sshkit.org 
-    network: ws 
-    ws-opts: 
-      path: /sshkit/1828396894/64eabbb09e39f/
-      headers: 
-        Host: sg2-v2ray.sshkit.org 
-    udp: true
-  - name: s2 multi sc2
-    server: 162.159.128.7
-    port: 80
-    type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3 
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: sg2-v2ray.sshkit.org 
-    network: ws 
-    ws-opts: 
-      path: /sshkit/1828396894/64eabbb09e39f/
-      headers: 
-        Host: sg2-v2ray.sshkit.org 
-    udp: true
-  - name: s2 multi operator
-    server: layanan.ruangguru.com
-    port: 80
-    type: vmess 
+    type: vmess
     uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: sg2-v2ray.sshkit.org 
-    network: ws 
-    ws-opts: 
-      path: /sshkit/1828396894/64eabbb09e39f/
-      headers: 
-        Host: sg2-v2ray.sshkit.org 
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
     udp: true
-  - name: s2 axis opok
-    server: 104.17.58.20
+  - name: S2 Axis XL Opera B1
+    server: odsp-quic.op-mobile.opera.com
     port: 80
-    type: vmess 
+    type: vmess
     uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: sg2-v2ray.sshkit.org 
-    network: ws 
-    ws-opts: 
-      path: /sshkit/1828396894/64eabbb09e39f/
-      headers: 
-        Host: sg2-v2ray.sshkit.org 
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
     udp: true
-  - name: s2 axis xl opok
-    server: 104.17.58.20
+  - name: S2 Axis XL Opera B2
+    server: support-vpn-pro.opera.com
     port: 80
-    type: vmess 
+    type: vmess
     uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: sg2-v2ray.sshkit.org 
-    network: ws 
-    ws-opts: 
-      path: /sshkit/1828396894/64eabbb09e39f/
-      headers: 
-        Host: sg2-v2ray.sshkit.org 
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
     udp: true
-  - name: s2 xl opok
-    server: 104.18.12.65
-    port: 80
-    type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: sg2-v2ray.sshkit.org 
-    network: ws 
-    ws-opts: 
-      path: /sshkit/1828396894/64eabbb09e39f/
-      headers: 
-        Host: sg2-v2ray.sshkit.org 
-    udp: true
-  - name: s2 musik spotify
-    server: investors.spotify.com
-    port: 80
-    type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: sg2-v2ray.sshkit.org 
-    network: ws 
-    ws-opts: 
-      path: /sshkit/1828396894/64eabbb09e39f/
-      headers: 
-        Host: sg2-v2ray.sshkit.org 
-    udp: true
-  - name: s2 tsel multimedia
-    server: investors.spotify.com
-    port: 80
-    type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: sg2-v2ray.sshkit.org 
-    network: ws 
-    ws-opts: 
-      path: /sshkit/1828396894/64eabbb09e39f/
-      headers: 
-        Host: sg2-v2ray.sshkit.org 
-    udp: true
-  - name: s2 XL Stream Live On1
-    server: investors.spotify.com
-    port: 80
-    type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: sg2-v2ray.sshkit.org 
-    network: ws 
-    ws-opts: 
-      path: /sshkit/1828396894/64eabbb09e39f/
-      headers: 
-        Host: sg2-v2ray.sshkit.org 
-    udp: true
-  - name: s2 conference1
+  - name: S2 Axis XL Conference B1
     server: 104.26.4.126
     port: 80
-    type: vmess 
+    type: vmess
     uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: sg2-v2ray.sshkit.org 
-    network: ws 
-    ws-opts: 
-      path: /sshkit/1828396894/64eabbb09e39f/
-      headers: 
-        Host: sg2-v2ray.sshkit.org 
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
     udp: true
-  - name: s2 xl WA Line Flex1
-    server: 104.16.53.111
-    port: 80
-    type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: sg2-v2ray.sshkit.org 
-    network: ws 
-    ws-opts: 
-      path: /sshkit/1828396894/64eabbb09e39f/
-      headers: 
-        Host: sg2-v2ray.sshkit.org 
-    udp: true
-  - name: s2 akrab4
-    server: 104.16.53.111
-    port: 80
-    type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: sg2-v2ray.sshkit.org 
-    network: ws 
-    ws-opts: 
-      path: /sshkit/1828396894/64eabbb09e39f/
-      headers: 
-        Host: sg2-v2ray.sshkit.org 
-    udp: true
-  - name: s2 conference2
-    server: blogs.microsoft.com
-    port: 80
-    type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: sg2-v2ray.sshkit.org 
-    network: ws 
-    ws-opts: 
-      path: /sshkit/1828396894/64eabbb09e39f/
-      headers: 
-        Host: sg2-v2ray.sshkit.org 
-    udp: true
-  - name: s2 akrab5
-    server: blogs.microsoft.com
-    port: 80
-    type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: sg2-v2ray.sshkit.org 
-    network: ws 
-    ws-opts: 
-      path: /sshkit/1828396894/64eabbb09e39f/
-      headers: 
-        Host: sg2-v2ray.sshkit.org 
-    udp: true
-  - name: s2 edukasi1
-    server: 104.17.3.81
-    port: 80
-    type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: sg2-v2ray.sshkit.org 
-    network: ws 
-    ws-opts: 
-      path: /sshkit/1828396894/64eabbb09e39f/
-      headers: 
-        Host: sg2-v2ray.sshkit.org 
-    udp: true
-  - name: s2 akrab1
-    server: 104.17.3.81
-    port: 80
-    type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: sg2-v2ray.sshkit.org 
-    network: ws 
-    ws-opts: 
-      path: /sshkit/1828396894/64eabbb09e39f/
-      headers: 
-        Host: sg2-v2ray.sshkit.org 
-    udp: true
-  - name: s2 edukasi2
-    server: 104.20.75.141
-    port: 80
-    type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: sg2-v2ray.sshkit.org 
-    network: ws 
-    ws-opts: 
-      path: /sshkit/1828396894/64eabbb09e39f/
-      headers: 
-        Host: sg2-v2ray.sshkit.org 
-    udp: true
-  - name: s2 akrab2
-    server: 104.20.75.141
-    port: 80
-    type: vmess 
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: sg2-v2ray.sshkit.org 
-    network: ws 
-    ws-opts: 
-      path: /sshkit/1828396894/64eabbb09e39f/
-      headers: 
-        Host: sg2-v2ray.sshkit.org 
-    udp: true
-  - name: s2 edukasi3
+  - name: S2 Axis XL Conference B2
     server: 104.18.21.226
     port: 80
-    type: vmess 
+    type: vmess
     uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: sg2-v2ray.sshkit.org 
-    network: ws 
-    ws-opts: 
-      path: /sshkit/1828396894/64eabbb09e39f/
-      headers: 
-        Host: sg2-v2ray.sshkit.org 
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
     udp: true
-  - name: s2 akrab3
-    server: 104.18.21.226
+  - name: S2 Axis XL Conference B3
+    server: cdn-cf.zoom.us
     port: 80
-    type: vmess 
+    type: vmess
     uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: sg2-v2ray.sshkit.org 
-    network: ws 
-    ws-opts: 
-      path: /sshkit/1828396894/64eabbb09e39f/
-      headers: 
-        Host: sg2-v2ray.sshkit.org 
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
     udp: true
-  - name: s2 video Netflix1
-    server: npca.netflix.com
+  - name: S2 Axis Edukasi B1
+    server: www.udemy.com
     port: 80
-    type: vmess 
+    type: vmess
     uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: sg2-v2ray.sshkit.org 
-    network: ws 
-    ws-opts: 
-      path: /sshkit/1828396894/64eabbb09e39f/
-      headers: 
-        Host: sg2-v2ray.sshkit.org 
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
     udp: true
-  - name: s2 XL Stream Live On2
-    server: npca.netflix.com
+  - name: S2 Axis Edukasi B2
+    server: cdn.ruangguru.com
     port: 80
-    type: vmess 
+    type: vmess
     uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: sg2-v2ray.sshkit.org 
-    network: ws 
-    ws-opts: 
-      path: /sshkit/1828396894/64eabbb09e39f/
-      headers: 
-        Host: sg2-v2ray.sshkit.org 
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
     udp: true
-  - name: s2 Tsel OMG Nonton
-    server: npca.netflix.com
+  - name: S2 Axis Genflix
+    server: 104.21.30.242
     port: 80
-    type: vmess 
+    type: vmess
     uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: sg2-v2ray.sshkit.org 
-    network: ws 
-    ws-opts: 
-      path: /sshkit/1828396894/64eabbb09e39f/
-      headers: 
-        Host: sg2-v2ray.sshkit.org 
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
     udp: true
-  - name: s2 video Netflix2
-    server: updates.netflix.com
+  - name: S2 Axis Line
+    server: tubsd1478a630640.zendesk.com
     port: 80
-    type: vmess 
+    type: vmess
     uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: sg2-v2ray.sshkit.org 
-    network: ws 
-    ws-opts: 
-      path: /sshkit/1828396894/64eabbb09e39f/
-      headers: 
-        Host: sg2-v2ray.sshkit.org 
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
     udp: true
-  - name: s2 xl vision1
-    server: 104.21.235.172
+  - name: S2 Axis Musik B1
+    server: musical1.zendesk.com
     port: 80
-    type: vmess 
+    type: vmess
     uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: sg2-v2ray.sshkit.org 
-    network: ws 
-    ws-opts: 
-      path: /sshkit/1828396894/64eabbb09e39f/
-      headers: 
-        Host: sg2-v2ray.sshkit.org 
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
     udp: true
-  - name: s2 xl vision2
-    server: sb.scorecardresearch.com
+  - name: S2 Axis Musik B2
+    server: investors.spotify.com
     port: 80
-    type: vmess 
+    type: vmess
     uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: sg2-v2ray.sshkit.org 
-    network: ws 
-    ws-opts: 
-      path: /sshkit/1828396894/64eabbb09e39f/
-      headers: 
-        Host: sg2-v2ray.sshkit.org 
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
     udp: true
-  - name: s2 xl WA Line Flex3
-    server: sogood.linefriends.com
+  - name: S2 Axis MUSIK B3
+    server: login2.spotify.com
     port: 80
-    type: vmess 
+    type: vmess
     uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: sg2-v2ray.sshkit.org 
-    network: ws 
-    ws-opts: 
-      path: /sshkit/1828396894/64eabbb09e39f/
-      headers: 
-        Host: sg2-v2ray.sshkit.org 
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
     udp: true
-  - name: s2 Smartfren chat1
-    server: sogood.linefriends.com
+  - name: S2 Axis Opok B1
+    server: api2.axisnet.id
     port: 80
-    type: vmess 
+    type: vmess
     uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: sg2-v2ray.sshkit.org 
-    network: ws 
-    ws-opts: 
-      path: /sshkit/1828396894/64eabbb09e39f/
-      headers: 
-        Host: sg2-v2ray.sshkit.org 
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
     udp: true
-  - name: s2 Indosat opok1
+  - name: S2 Axis Opok B1
+    server: api2.axisnet.id
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
+    udp: true
+  - name: S2 Axis Opok B2
+    server: www.axis.co.id
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
+    udp: true
+  - name: S2 Axis Opok B3
+    server: 104.22.28.102
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
+    udp: true
+  - name: S2 Axis Opok B4
+    server: manga.line.naver.jp
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
+    udp: true
+  - name: S2 Axis XL Opok
+    server: 104.17.58.20
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
+    udp: true
+  - name: S2 Axis Sosmed
+    server: www.help.tinder.com
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
+    udp: true
+  - name: S2 Axis Video B1
+    server: 104.22.4.240
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
+    udp: true
+  - name: S2 Axis Video B2
+    server: quiz.int.vidio.com
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
+    udp: true
+  - name: S2 Axis Video B3
+    server: ncpa.netflix.com
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
+    udp: true
+  - name: S2 By U Opok
+    server: space.byu.id
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
+    udp: true
+  - name: S2 By U Belajar
+    server: cdn.ruangguru.com
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
+    udp: true
+  - name: S2 By U Video
+    server: ncpa.netflix.com
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
+    udp: true
+  - name: S2 IM3 Opok
+    server: 104.19.142.56
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
+    udp: true
+  - name: S2 Indosat Edukasi B1
+    server: www.udemy.com
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
+    udp: true
+  - name: S2 Indosat Edukasi B2
+    server: 104.17.2.81
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
+    udp: true
+  - name: S2 Indosat Edukasi B3
+    server: 104.16.66.85
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
+    udp: true
+  - name: S2 IMCLASS
+    server: cdn.ruangguru.com
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
+    udp: true
+  - name: S2 Indosat Opok
     server: 172.67.70.101
     port: 80
-    type: vmess 
+    type: vmess
     uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: sg2-v2ray.sshkit.org 
-    network: ws 
-    ws-opts: 
-      path: /sshkit/1828396894/64eabbb09e39f/
-      headers: 
-        Host: sg2-v2ray.sshkit.org 
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
     udp: true
-  - name: s2 Tri Edukasi
-    server: udemy.com
+  - name: S2 Live On Opok
+    server: 104.21.8.121
     port: 80
-    type: vmess 
+    type: vmess
     uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: sg2-v2ray.sshkit.org 
-    network: ws 
-    ws-opts: 
-      path: /sshkit/1828396894/64eabbb09e39f/
-      headers: 
-        Host: sg2-v2ray.sshkit.org 
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
     udp: true
-  - name: s2 Indosat Edukasi1
-    server: udemy.com
+  - name: S2 Smartfren Opok
+    server: api.ovo.id
     port: 80
-    type: vmess 
+    type: vmess
     uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: sg2-v2ray.sshkit.org 
-    network: ws 
-    ws-opts: 
-      path: /sshkit/1828396894/64eabbb09e39f/
-      headers: 
-        Host: sg2-v2ray.sshkit.org 
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
     udp: true
-  - name: s2 Indosat Edukasi2
-    server: 104.18.24.139
+  - name: S2 Smartfren Midnight
+    server: www.smartfren.com
     port: 80
-    type: vmess 
+    type: vmess
     uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: sg2-v2ray.sshkit.org 
-    network: ws 
-    ws-opts: 
-      path: /sshkit/1828396894/64eabbb09e39f/
-      headers: 
-        Host: sg2-v2ray.sshkit.org 
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
     udp: true
-  - name: s2 Tsel ByU GGWP
-    server: 104.19.143.108
+  - name: S2 Telkomsel Gamemax B1
+    server: i.nimo.tv
     port: 80
-    type: vmess 
+    type: vmess
     uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: sg2-v2ray.sshkit.org 
-    network: ws 
-    ws-opts: 
-      path: /sshkit/1828396894/64eabbb09e39f/
-      headers: 
-        Host: sg2-v2ray.sshkit.org 
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
     udp: true
-  - name: s2 Tsel Gamemax2
-    server: 104.19.143.108
+  - name: S2 Telkomsel Gamemax B2
+    server: ir.huya.com
     port: 80
-    type: vmess 
+    type: vmess
     uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: sg2-v2ray.sshkit.org 
-    network: ws 
-    ws-opts: 
-      path: /sshkit/1828396894/64eabbb09e39f/
-      headers: 
-        Host: sg2-v2ray.sshkit.org 
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
     udp: true
-  - name: s2 Tsel Gamemax1
+  - name: S2 Telkomsel Gamemax B3
     server: cf-vod.nimo.tv
     port: 80
-    type: vmess 
+    type: vmess
     uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: sg2-v2ray.sshkit.org 
-    network: ws 
-    ws-opts: 
-      path: /sshkit/1828396894/64eabbb09e39f/
-      headers: 
-        Host: sg2-v2ray.sshkit.org 
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
     udp: true
-  - name: s2 Tsel Gamemax3
-    server: 104.18.13.120
+  - name: S2 Telkomsel Gamemax B4
+    server: spdsoporte.garena.com
     port: 80
-    type: vmess 
+    type: vmess
     uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: sg2-v2ray.sshkit.org 
-    network: ws 
-    ws-opts: 
-      path: /sshkit/1828396894/64eabbb09e39f/
-      headers: 
-        Host: sg2-v2ray.sshkit.org 
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
     udp: true
-  - name: s2 Smartfren Edukasi
-    server: 104.18.2.2
+  - name: S2 Telkomsel Ilmupedia B1
+    server: 104.26.6.171
     port: 80
-    type: vmess 
+    type: vmess
     uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: sg2-v2ray.sshkit.org 
-    network: ws 
-    ws-opts: 
-      path: /sshkit/1828396894/64eabbb09e39f/
-      headers: 
-        Host: sg2-v2ray.sshkit.org 
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
     udp: true
-  - name: s2 Tsel ByU Edukasi
-    server: 104.18.2.2
+  - name: S2 Telkomsel Ilmupedia B2
+    server: 104.16.66.85
     port: 80
-    type: vmess 
+    type: vmess
     uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: sg2-v2ray.sshkit.org 
-    network: ws 
-    ws-opts: 
-      path: /sshkit/1828396894/64eabbb09e39f/
-      headers: 
-        Host: sg2-v2ray.sshkit.org 
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
     udp: true
-  - name: s2 Tsel Ilped KB1
-    server: 104.18.2.2
+  - name: S2 Telkomsel Ilmupedia B3
+    server: cdn.ruangguru.com
     port: 80
-    type: vmess 
+    type: vmess
     uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: sg2-v2ray.sshkit.org 
-    network: ws 
-    ws-opts: 
-      path: /sshkit/1828396894/64eabbb09e39f/
-      headers: 
-        Host: sg2-v2ray.sshkit.org 
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
     udp: true
-  - name: s2 Tsel Ilped KB2
-    server: 104.18.24.139
+  - name: S2 Telkomsel Multimedia B1
+    server: 104.16.51.111
     port: 80
-    type: vmess 
+    type: vmess
     uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: sg2-v2ray.sshkit.org 
-    network: ws 
-    ws-opts: 
-      path: /sshkit/1828396894/64eabbb09e39f/
-      headers: 
-        Host: sg2-v2ray.sshkit.org 
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
     udp: true
-  - name: s2 Tsel Ilped KB3
-    server: 104.22.24.131
+  - name: S2 Telkomsel Multimedia B2
+    server: zendesk2.spotify.com
     port: 80
-    type: vmess 
+    type: vmess
     uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0 
-    cipher: auto 
-    tls: false 
-    skip-cert-verify: true 
-    servername: sg2-v2ray.sshkit.org 
-    network: ws 
-    ws-opts: 
-      path: /sshkit/1828396894/64eabbb09e39f/
-      headers: 
-        Host: sg2-v2ray.sshkit.org 
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
     udp: true
+  - name: S2 Telkomsel Ruangguru
+    server: ruangguru.com
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
+    udp: true
+  - name: S2 Telkomsel Videomax
+    server: stats.vidiomax.com
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
+    udp: true
+  - name: S2 Telkomsel Youtubemax
+    server: login2.spotify.com
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
+    udp: true
+  - name: S2 Turbo Basic 1GB
+    server: zendesk3.grabtaxi.com
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
+    udp: true
+  - name: S2 Turbo Basic 3GB
+    server: zendesk1.appsflyer.com
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
+    udp: true
+  - name: S2 Turbo Basic Unlimited
+    server: 162.159.138.6
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
+    udp: true
+  - name: S2 XL Opok
+    server: 104.18.12.65
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
+    udp: true
+  - name: S2 XL Akrab B1
+    server: 104.17.3.81
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
+    udp: true
+  - name: S2 XL Akrab B2
+    server: 104.18.21.226
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
+    udp: true
+  - name: S2 XL Akrab B3
+    server: www.noice.id
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
+    udp: true
+  - name: S2 XL Axis Conference B1
+    server: 104.26.4.126
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
+    udp: true
+  - name: S2 XL Axis Conference B2
+    server: 104.18.21.226
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
+    udp: true
+  - name: S2 XL Axis Conference B3
+    server: cdn-cf.zoom.us
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
+    udp: true
+  - name: S2 XL Edukasi B1
+    server: 172.64.149.82
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
+    udp: true
+  - name: S2 XL Edukasi B2
+    server: 104.20.75.141
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
+    udp: true
+  - name: S2 XL Flex
+    server: v.whatsapp.com
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
+    udp: true
+  - name: S2 XL Meeting Belajar B1
+    server: 104.16.53.111
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
+    udp: true
+  - name: S2 XL Meeting Belajar B2
+    server: play.mobilelegends.com
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
+    udp: true
+  - name: S2 XL Video
+    server: quiz.int.vidio.com
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
+    udp: true
+  - name: S2 XL Vision
+    server: 104.21.235.171
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
+    udp: true
+  - name: S2 XL Turbo
+    server: ncpa.netflix.com
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
+    udp: true
+  - name: S2 All SC B1
+    server: 162.159.138.6
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
+    udp: true
+  - name: S2 All SC B2
+    server: 162.159.128.7
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
+    udp: true
+  - name: S2 All SC B3
+    server: layanan.ruangguru.com
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
+    udp: true
+  - name: S2 All SC Genflix
+    server: beta.genflix.co.id
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
+    udp: true
+  - name: S2 All SC Netflix
+    server: ncpa.netflix.com
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
+    udp: true
+  - name: S2 All SC Vision
+    server: api.visionplus.id
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
+    udp: true
+  - name: S2 All SC Spotify
+    server: login2.spotify.com
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
+    udp: true
+  - name: S2 All SC Vidio
+    server: quiz.int.vidio.com
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
+    udp: true
+  - name: S2 All SC Sushiroll
+    server: www.sushiroll.co.id
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg2-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: sg2-v2ray.sshkit.org
+    udp: true
+
 #### SNI
   - name: Tsel byu opok unli
-    server: 162.159.138.78
+    server: sg2-v2ray.sshkit.org 
     port: 443
     type: vmess
     uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
@@ -745,17 +1258,17 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sg2-v2ray.sshkit.org
+    servername: 162.159.138.78
     network: ws
     ws-opts:
-      path: /sshkit/1828396894/64eabbb09e39f/
+      path: /sshkit/1828396894/65140be96d74d/
       headers:
         Host: space.byu.id
     udp: true
     max-early-data: 2048
     early-data-header-name: Sec-WebSocket-Protocol
-  - name: Tsel isat opok1
-    server: corona.jakarta.go.id
+  - name: Tsel Opok 200 Mb
+    server: sg2-v2ray.sshkit.org
     port: 443
     type: vmess
     uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
@@ -763,12 +1276,30 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sg2-v2ray.sshkit.org
+    servername: 104.18.18.229
     network: ws
     ws-opts:
-      path: /sshkit/1828396894/64eabbb09e39f/
+      path: /sshkit/1828396894/65140be96d74d/
       headers:
-        Host: corona.jakarta.go.id
+        Host: shopee.co.id
+    udp: true
+    max-early-data: 2048
+    early-data-header-name: Sec-WebSocket-Protocol
+  - name: Tsel Opok 500 Mb
+    server: sg2-v2ray.sshkit.org
+    port: 443
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 104.17.78.107
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65140be96d74d/
+      headers:
+        Host: dashboard.skul.id
     udp: true
     max-early-data: 2048
     early-data-header-name: Sec-WebSocket-Protocol
