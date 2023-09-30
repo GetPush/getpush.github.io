@@ -55,9 +55,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '200'
     proxies:
-      - Server2
-      - Server3
       - Server4
+      - Server3
+      - Server2
       - Server1
       - 🐎CANADA
       - 🐎ROMANIA
@@ -106,9 +106,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '100'
     proxies:
-      - Server4
-      - Server3
       - Server2
+      - Server3
+      - Server4
       - Server1
       - 🐎CANADA
       - 🐎ROMANIA
@@ -657,7 +657,7 @@ rules:
 - DST-PORT,80,🌍Online
 - DST-PORT,81,🌍Online
 - DST-PORT,143,🌍Online
-- DST-PORT,443,🌍Online 
+- DST-PORT,443,Alternatif 
 - DST-PORT,465,🌍Online
 - DST-PORT,587,🌍Online
 - DST-PORT,993,🌍Online
