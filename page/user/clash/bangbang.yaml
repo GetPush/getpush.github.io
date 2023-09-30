@@ -7,11 +7,8 @@ proxy-groups:
       - Alternatif
       - BestPing
       - 🕊️Utama
+      - 🕊️Cadangan
       - 🐘Cadangan
-      - Server1
-      - Server2
-      - Server3
-      - Server4
       - 🐎INDONESIA
       - 🐎CANADA
       - 🐎ROMANIA
@@ -47,19 +44,21 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '300'
     proxies:
-      - 🕊️Utama
+      - 🕊️Cadangan
       - 🐘Cadangan
+      - 🕊️Utama
+      - Alternatif
 
   - name: Alternatif
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '300'
+    interval: '200'
     proxies:
-      - Server1
-      - Server2
-      - Server3
       - Server4
+      - Server3
+      - Server2
+      - Server1
       - 🐎CANADA
       - 🐎ROMANIA
       - 🐎FRANCIS
@@ -83,40 +82,68 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '300'
     proxies:
-      - Server1
-      - Server2
-      - Server3
-      - Server4
+      - 🕊️Cadangan
+      - 🐘Cadangan
+      - 🕊️Utama
+      - Alternatif
 
 
   - name: 🕊️Utama
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '50'
-    use:
+    interval: '600'
+    proxies:
       - Server1
       - Server2
       - Server3
       - Server4
+
+
+  - name: 🕊️Cadangan
+    type: fallback
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '100'
+    proxies:
+      - Server2
+      - Server3
+      - Server4
+      - Server1
+      - 🐎CANADA
+      - 🐎ROMANIA
+      - 🐎NETHERLANDS
+      - 🐎INDONESIA
+      - 🐎SG AMP
+      - 🐎US
+      - 🐎FRANCIS
+      - 🐎SG HE MUX
+      - 🐎SG HE 1
+      - 🐎SG HE 2
+      #- 🐎SG MELBI
+      #- 🐎SG HE 3
 
   - name: 🐘Cadangan
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '50'
-    use:
+    proxies:
+      - Server3
+      - Server2
+      - Server1
+      - Server4
+      - 🐎INDONESIA
+      - 🐎SG AMP
       - 🐎CANADA
       - 🐎ROMANIA
-      - 🐎FRANCIS
       - 🐎NETHERLANDS
       - 🐎US
-      - 🐎ID HERZA
-      - 🐎SG AMP
-      #- 🐎SG MELBI
+      - 🐎FRANCIS
       - 🐎SG HE MUX
       - 🐎SG HE 1
       - 🐎SG HE 2
+      #- 🐎SG MELBI
       #- 🐎SG HE 3
       
 # seleksi server 
@@ -387,28 +414,28 @@ proxy-providers:
     path: ./server1.yaml
     health-check:
     enable: true
-    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/server1.yaml"
+    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/server/server1.yaml"
     interval: 1200
   Server2:
     type: http
     path: ./server2.yaml
     health-check:
     enable: true
-    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/server2.yaml"
+    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/server/server2.yaml"
     interval: 1200
   Server3:
     type: http
     path: ./server3.yaml
     health-check:
     enable: true
-    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/server3.yaml"
+    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/server/server3.yaml"
     interval: 1200
   Server4:
     type: http
     path: ./server4.yaml
     health-check:
     enable: true
-    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/server4.yaml"
+    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/server/server4.yaml"
     interval: 1200
 
 
@@ -596,7 +623,7 @@ profile:
   store-fake-ip: true
 
 rules:
-- DOMAIN-SUFFIX,safefileku.com,Alternatif
+- DOMAIN-SUFFIX,safefileku.com,🕊️Utama
 - DOMAIN-SUFFIX,github.com,Alternatif
 - DOMAIN-SUFFIX,api.github.com,Alternatif
 - DOMAIN-SUFFIX,avatars.githubusercontent.com,Alternatif
@@ -630,7 +657,7 @@ rules:
 - DST-PORT,80,🌍Online
 - DST-PORT,81,🌍Online
 - DST-PORT,143,🌍Online
-- DST-PORT,443,🌍Online 
+- DST-PORT,443,Alternatif 
 - DST-PORT,465,🌍Online
 - DST-PORT,587,🌍Online
 - DST-PORT,993,🌍Online
