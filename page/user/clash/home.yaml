@@ -25,6 +25,7 @@ proxy-groups:
       - 🐎SG HE 2
       - 🐎SG HE 3
       - 🐎US
+      - DIRECT
 
   - name: ADS💰
     type: select
