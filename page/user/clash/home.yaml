@@ -25,6 +25,7 @@ proxy-groups:
       - 🐎SG HE 2
       - 🐎SG HE 3
       - 🐎US
+      - Prioritas
       - DIRECT
 
   - name: ADS💰
@@ -88,6 +89,19 @@ proxy-groups:
       - 🕊️Utama
       - Alternatif
 
+
+  - name: Prioritas
+    type: fallback
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '600'
+    use:
+      - pServer1
+      - pServer2
+      - pServer3
+      - pServer4
+      - pCanada
+      - pIndo
 
   - name: 🕊️Utama
     type: fallback
@@ -437,6 +451,51 @@ proxy-providers:
     health-check:
     enable: true
     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/server/server4.yaml"
+    interval: 1200
+
+
+# ### Server prioritas ###
+  pServer1:
+    type: http
+    path: ./pserver1.yaml
+    health-check:
+    enable: true
+    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/prioritas/server1.yaml"
+    interval: 1200
+  pServer2:
+    type: http
+    path: ./pserver2.yaml
+    health-check:
+    enable: true
+    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/prioritas/server2.yaml"
+    interval: 1200
+  pServer3:
+    type: http
+    path: ./pserver3.yaml
+    health-check:
+    enable: true
+    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/prioritas/server3.yaml"
+    interval: 1200
+  pServer4:
+    type: http
+    path: ./pserver4.yaml
+    health-check:
+    enable: true
+    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/prioritas/server4.yaml"
+    interval: 1200
+  pCanada:
+    type: http
+    path: ./pCanada.yaml
+    health-check:
+    enable: true
+    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/prioritas/server4.yaml"
+    interval: 1200
+  pIndo:
+    type: http
+    path: ./pIndo.yaml
+    health-check:
+    enable: true
+    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/prioritas/server3.yaml"
     interval: 1200
 
 
