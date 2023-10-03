@@ -717,7 +717,7 @@ rules:
 - DST-PORT,80,🌍Online
 - DST-PORT,81,🌍Online
 - DST-PORT,143,🌍Online
-- DST-PORT,443,Alternatif 
+- DST-PORT,443,🌍Online 
 - DST-PORT,465,🌍Online
 - DST-PORT,587,🌍Online
 - DST-PORT,993,🌍Online
