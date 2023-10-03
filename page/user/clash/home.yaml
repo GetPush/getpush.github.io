@@ -488,14 +488,14 @@ proxy-providers:
     path: ./pCanada.yaml
     health-check:
     enable: true
-    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/prioritas/server4.yaml"
+    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/prioritas/Canada.yaml"
     interval: 1200
   pIndo:
     type: http
     path: ./pIndo.yaml
     health-check:
     enable: true
-    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/prioritas/server3.yaml"
+    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/prioritas/Indo.yaml"
     interval: 1200
 
 
