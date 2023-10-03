@@ -1,1 +1,209 @@
-
+proxies:
+  - name: S4 Games B3
+    server: spdsoporte.garena.com
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg4-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/651425023c8c6/
+      headers:
+        Host: sg4-v2ray.sshkit.org
+    udp: true
+  - name: S4 Axis XL Opera B2
+    server: support-vpn-pro.opera.com
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg4-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/651425023c8c6/
+      headers:
+        Host: sg4-v2ray.sshkit.org
+    udp: true
+  - name: S4 Axis Musik B1
+    server: musical1.zendesk.com
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg4-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/651425023c8c6/
+      headers:
+        Host: sg4-v2ray.sshkit.org
+    udp: true
+  - name: S4 Axis Sosmed
+    server: www.help.tinder.com
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg4-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/651425023c8c6/
+      headers:
+        Host: sg4-v2ray.sshkit.org
+    udp: true
+  - name: S4 Axis Line
+    server: tubsd1478a630640.zendesk.com
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg4-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/651425023c8c6/
+      headers:
+        Host: sg4-v2ray.sshkit.org
+    udp: true
+  - name: S4 Smartfren Opok
+    server: api.ovo.id
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg4-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/651425023c8c6/
+      headers:
+        Host: sg4-v2ray.sshkit.org
+    udp: true
+  - name: S4 Telkomsel Gamemax B4
+    server: spdsoporte.garena.com
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg4-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/651425023c8c6/
+      headers:
+        Host: sg4-v2ray.sshkit.org
+    udp: true
+  - name: S4 Telkomsel Multimedia B1
+    server: 104.16.51.111
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg4-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/651425023c8c6/
+      headers:
+        Host: sg4-v2ray.sshkit.org
+    udp: true
+  - name: S4 Telkomsel Multimedia B2
+    server: zendesk2.spotify.com
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg4-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/651425023c8c6/
+      headers:
+        Host: sg4-v2ray.sshkit.org
+    udp: true
+  - name: S4 Turbo Basic 1GB
+    server: zendesk3.grabtaxi.com
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg4-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/651425023c8c6/
+      headers:
+        Host: sg4-v2ray.sshkit.org
+    udp: true
+  - name: S4 Turbo Basic 3GB
+    server: zendesk1.appsflyer.com
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg4-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/651425023c8c6/
+      headers:
+        Host: sg4-v2ray.sshkit.org
+    udp: true
+  - name: S4 Turbo Basic Unlimited
+    server: 162.159.138.6
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg4-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/651425023c8c6/
+      headers:
+        Host: sg4-v2ray.sshkit.org
+    udp: true
+  - name: S4 XL Meeting Belajar B1
+    server: 104.16.53.111
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg4-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/651425023c8c6/
+      headers:
+        Host: sg4-v2ray.sshkit.org
+    udp: true
