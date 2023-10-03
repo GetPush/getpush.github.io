@@ -206,4 +206,4 @@ proxies:
       path: /sshkit/1828396894/65140be96d74d/
       headers:
         Host: sg2-v2ray.sshkit.org
-    udp: tru
+    udp: true
