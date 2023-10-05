@@ -62,6 +62,11 @@ proxy-groups:
       - Server2
       - Server1
       - 🐎CANADA
+      - 🐎CANADA1
+      - 🐎CANADA2
+      - 🐎CANADA3
+      - 🐎CANADA4
+      - 🐎CANADA5
       - 🐎ROMANIA
       - 🐎FRANCIS
       - 🐎THAILAND
@@ -192,6 +197,18 @@ proxy-groups:
       - Server4
 
 # seleksi Trojan
+  - name: 🐎CANADA
+    type: fallback
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '150'
+    use:
+      - 🐎CANADA
+      - 🐎CANADA1
+      - 🐎CANADA2
+      - 🐎CANADA3
+      - 🐎CANADA4
+      - 🐎CANADA5
   - name: 🐎ROMANIA
     type: fallback
     disable-udp: false
@@ -227,13 +244,6 @@ proxy-groups:
     interval: '150'
     use:
       - 🐎SG HE MUX
-  - name: 🐎CANADA
-    type: fallback
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '150'
-    use:
-      - 🐎CANADA
   - name: 🐎GERMANY
     type: fallback
     disable-udp: false
@@ -308,6 +318,48 @@ proxy-groups:
 
 proxy-providers:
 # ### Trojan Community ###
+  🐎CANADA: 
+     type: http 
+     path: ./🐎canada.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/canada.yaml"
+     interval: 1200
+  🐎CANADA1: 
+     type: http 
+     path: ./🐎canada1.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/Canada1.yaml"
+     interval: 1200
+  🐎CANADA2: 
+     type: http 
+     path: ./🐎canada2.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/Canada2.yaml"
+     interval: 1200
+  🐎CANADA3: 
+     type: http 
+     path: ./🐎canada3.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/Canada3.yaml"
+     interval: 1200
+  🐎CANADA4: 
+     type: http 
+     path: ./🐎canada4.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/Canada4.yaml"
+     interval: 1200
+  🐎CANADA5: 
+     type: http 
+     path: ./🐎canada5.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/Canada5.yaml"
+     interval: 1200
   🐎ROMANIA: 
      type: http 
      path: ./🐎romania.yaml 
@@ -342,13 +394,6 @@ proxy-providers:
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/sg%20he%20mux.yaml"
-     interval: 1200
-  🐎CANADA: 
-     type: http 
-     path: ./🐎canada.yaml 
-     health-check: 
-     enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/canada.yaml"
      interval: 1200
 #  🐎TURKEY: 
 #     type: http 
