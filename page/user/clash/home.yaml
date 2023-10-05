@@ -61,12 +61,12 @@ proxy-groups:
       - Server3
       - Server2
       - Server1
+      - 🐎Alternatif1
+      - 🐎Alternatif2
+      - 🐎Alternatif3
+      - 🐎Alternatif4
+      - 🐎Alternatif5
       - 🐎CANADA
-      - 🐎CANADA1
-      - 🐎CANADA2
-      - 🐎CANADA3
-      - 🐎CANADA4
-      - 🐎CANADA5
       - 🐎ROMANIA
       - 🐎FRANCIS
       - 🐎THAILAND
@@ -204,11 +204,6 @@ proxy-groups:
     interval: '150'
     use:
       - 🐎CANADA
-      - 🐎CANADA1
-      - 🐎CANADA2
-      - 🐎CANADA3
-      - 🐎CANADA4
-      - 🐎CANADA5
   - name: 🐎ROMANIA
     type: fallback
     disable-udp: false
@@ -325,40 +320,40 @@ proxy-providers:
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/canada.yaml"
      interval: 1200
-  🐎CANADA1: 
+  🐎Alternatif1: 
      type: http 
-     path: ./🐎canada1.yaml 
+     path: ./🐎Alternatif1.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/Canada1.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/Alternatif1.yaml"
      interval: 1200
-  🐎CANADA2: 
+  🐎Alternatif2: 
      type: http 
-     path: ./🐎canada2.yaml 
+     path: ./🐎Alternatif2.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/Canada2.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/Alternatif2.yaml"
      interval: 1200
-  🐎CANADA3: 
+  🐎Alternatif3: 
      type: http 
-     path: ./🐎canada3.yaml 
+     path: ./🐎Alternatif3.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/Canada3.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/Alternatif3.yaml"
      interval: 1200
-  🐎CANADA4: 
+  🐎Alternatif4: 
      type: http 
-     path: ./🐎canada4.yaml 
+     path: ./🐎Alternatif4.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/Canada4.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/Alternatif4.yaml"
      interval: 1200
-  🐎CANADA5: 
+  🐎Alternatif5: 
      type: http 
-     path: ./🐎canada5.yaml 
+     path: ./🐎Alternatif5.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/Canada5.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/Alternatif5.yaml"
      interval: 1200
   🐎ROMANIA: 
      type: http 
