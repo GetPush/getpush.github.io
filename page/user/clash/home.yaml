@@ -4,11 +4,8 @@ proxy-groups:
     type: select
     proxies:
       - SEIMBANG
-      - Alternatif
       - BestPing
       - 🕊️Utama
-      - 🕊️Cadangan
-      - 🐘Cadangan
       - 🐎INDONESIA
       - 🐎CANADA
       - 🐎ROMANIA
@@ -46,12 +43,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '300'
     proxies:
-      - 🕊️Cadangan
-      - 🐘Cadangan
       - 🕊️Utama
-      - Alternatif
+      - Support
 
-  - name: Alternatif
+  - name: Support
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
@@ -61,27 +56,11 @@ proxy-groups:
       - Server3
       - Server2
       - Server1
-      - 🐎Alternatif1
-      - 🐎Alternatif2
-      - 🐎Alternatif3
-      - 🐎Alternatif4
-      - 🐎Alternatif5
-      - 🐎CANADA
-      - 🐎ROMANIA
-      - 🐎FRANCIS
-      - 🐎THAILAND
-      - 🐎NETHERLANDS
-      - 🐎US
-#      - 🐎TURKEY
-      - 🐎GERMANY
-      - 🐎UNITED KINGDOM
-      - 🐎ID HERZA
-      - 🐎SG AMP
-      - 🐎SG MELBI
-      - 🐎SG HE MUX
-      - 🐎SG HE 1
-      - 🐎SG HE 2
-      - 🐎SG HE 3
+      - Support1
+      - Support2
+      - Support3
+      - Support4
+      - Support5
 
   - name: BestPing
     type: url-test
@@ -89,10 +68,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '300'
     proxies:
-      - 🕊️Cadangan
-      - 🐘Cadangan
       - 🕊️Utama
-      - Alternatif
+      - Support
 
 
   - name: Prioritas
@@ -118,53 +95,6 @@ proxy-groups:
       - Server2
       - Server3
       - Server4
-
-
-  - name: 🕊️Cadangan
-    type: fallback
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '100'
-    proxies:
-      - Server2
-      - Server3
-      - Server4
-      - Server1
-      - 🐎CANADA
-      - 🐎ROMANIA
-      - 🐎NETHERLANDS
-      - 🐎INDONESIA
-      - 🐎SG AMP
-      - 🐎US
-      - 🐎FRANCIS
-      - 🐎SG HE MUX
-      - 🐎SG HE 1
-      - 🐎SG HE 2
-      #- 🐎SG MELBI
-      #- 🐎SG HE 3
-
-  - name: 🐘Cadangan
-    type: fallback
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '50'
-    proxies:
-      - Server3
-      - Server2
-      - Server1
-      - Server4
-      - 🐎INDONESIA
-      - 🐎SG AMP
-      - 🐎CANADA
-      - 🐎ROMANIA
-      - 🐎NETHERLANDS
-      - 🐎US
-      - 🐎FRANCIS
-      - 🐎SG HE MUX
-      - 🐎SG HE 1
-      - 🐎SG HE 2
-      #- 🐎SG MELBI
-      #- 🐎SG HE 3
       
 # seleksi server 
   - name: Server1
@@ -320,41 +250,6 @@ proxy-providers:
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/canada.yaml"
      interval: 1200
-  🐎Alternatif1: 
-     type: http 
-     path: ./🐎Alternatif1.yaml 
-     health-check: 
-     enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/Alternatif1.yaml"
-     interval: 1200
-  🐎Alternatif2: 
-     type: http 
-     path: ./🐎Alternatif2.yaml 
-     health-check: 
-     enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/Alternatif2.yaml"
-     interval: 1200
-  🐎Alternatif3: 
-     type: http 
-     path: ./🐎Alternatif3.yaml 
-     health-check: 
-     enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/Alternatif3.yaml"
-     interval: 1200
-  🐎Alternatif4: 
-     type: http 
-     path: ./🐎Alternatif4.yaml 
-     health-check: 
-     enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/Alternatif4.yaml"
-     interval: 1200
-  🐎Alternatif5: 
-     type: http 
-     path: ./🐎Alternatif5.yaml 
-     health-check: 
-     enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/Alternatif5.yaml"
-     interval: 1200
   🐎ROMANIA: 
      type: http 
      path: ./🐎romania.yaml 
@@ -493,6 +388,43 @@ proxy-providers:
     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/server/server4.yaml"
     interval: 1200
 
+#Support
+
+  Support1: 
+     type: http 
+     path: ./Support1.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/Support1.yaml"
+     interval: 1200
+  Support2: 
+     type: http 
+     path: ./Support2.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/Support2.yaml"
+     interval: 1200
+  Support3: 
+     type: http 
+     path: ./Support3.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/Support3.yaml"
+     interval: 1200
+  Support4: 
+     type: http 
+     path: ./Support4.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/Support4.yaml"
+     interval: 1200
+  Support5: 
+     type: http 
+     path: ./Support5.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/Support5.yaml"
+     interval: 1200
 
 # ### Server prioritas ###
   pServer1:
@@ -724,11 +656,11 @@ profile:
 
 rules:
 - DOMAIN-SUFFIX,safefileku.com,🕊️Utama
-- DOMAIN-SUFFIX,github.com,Alternatif
-- DOMAIN-SUFFIX,api.github.com,Alternatif
-- DOMAIN-SUFFIX,avatars.githubusercontent.com,Alternatif
-- DOMAIN-SUFFIX,raw.githubusercontent.com,Alternatif
-- DOMAIN-SUFFIX,toppayofficial.vercel.app,Alternatif
+- DOMAIN-SUFFIX,github.com,Support
+- DOMAIN-SUFFIX,api.github.com,Support
+- DOMAIN-SUFFIX,avatars.githubusercontent.com,Support
+- DOMAIN-SUFFIX,raw.githubusercontent.com,Support
+- DOMAIN-SUFFIX,toppayofficial.vercel.app,Support
 - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
 - PROCESS-NAME,v2ray,DIRECT
 - PROCESS-NAME,xray,DIRECT
