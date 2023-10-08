@@ -229,112 +229,112 @@ proxy-providers:
      path: ./canada.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/service/canada.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/Service/canada.yaml"
      interval: 1200
   ROMANIA: 
      type: http 
      path: ./romania.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/service/romania.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/Service/romania.yaml"
      interval: 1200
   NETHERLANDS: 
      type: http 
      path: ./netherlands.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/service/netherlands.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/Service/netherlands.yaml"
      interval: 1200
   FRANCIS: 
      type: http 
      path: ./francis.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/service/francis.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/Service/francis.yaml"
      interval: 1200
   THAILAND: 
      type: http 
      path: ./thailand.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/service/thailand.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/Service/thailand.yaml"
      interval: 1200
   SG HE MUX: 
      type: http 
      path: ./sg he mux.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/service/sg%20he%20mux.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/Service/sg%20he%20mux.yaml"
      interval: 1200
 #  TURKEY: 
 #     type: http 
 #     path: ./turkey.yaml 
 #     health-check: 
 #     enable: true 
-#     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/service/turkey.yaml"
+#     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/Service/turkey.yaml"
 #     interval: 1200
   GERMANY: 
      type: http 
      path: ./germany.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/service/germany.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/Service/germany.yaml"
      interval: 1200
   UNITED KINGDOM: 
      type: http 
      path: ./united kingdom.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/service/united%20kingdom.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/Service/united%20kingdom.yaml"
      interval: 1200
   SG MELBI: 
      type: http 
      path: ./sg melbi.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/service/sg%20melbi.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/Service/sg%20melbi.yaml"
      interval: 1200
   SG HE 2: 
      type: http 
      path: ./sg he 2.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/service/sg%20he%202.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/Service/sg%20he%202.yaml"
      interval: 1200
   SG HE 3: 
      type: http 
      path: ./sg he 3.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/service/sg%20he%203.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/Service/sg%20he%203.yaml"
      interval: 1200
   US: 
      type: http 
      path: ./us.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/service/us.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/Service/us.yaml"
      interval: 1200
   SG HE 1: 
      type: http 
      path: ./sg he 1.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/service/sg%20he%201.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/Service/sg%20he%201.yaml"
      interval: 1200
   ID HERZA: 
      type: http 
      path: ./id herza.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/service/id%20herza.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/Service/id%20herza.yaml"
      interval: 1200
   SG AMP: 
      type: http 
      path: ./sg amp.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/service/sg%20amp.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/Service/sg%20amp.yaml"
      interval: 1200
 
 
@@ -345,28 +345,28 @@ proxy-providers:
     path: ./server1.yaml
     health-check:
     enable: true
-    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/service/server1.yaml"
+    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/Service/server1.yaml"
     interval: 1200
   Server2:
     type: http
     path: ./server2.yaml
     health-check:
     enable: true
-    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/service/server2.yaml"
+    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/Service/server2.yaml"
     interval: 1200
   Server3:
     type: http
     path: ./server3.yaml
     health-check:
     enable: true
-    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/service/server3.yaml"
+    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/Service/server3.yaml"
     interval: 1200
   Server4:
     type: http
     path: ./server4.yaml
     health-check:
     enable: true
-    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/service/server4.yaml"
+    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/Service/server4.yaml"
     interval: 1200
 
 #Support
