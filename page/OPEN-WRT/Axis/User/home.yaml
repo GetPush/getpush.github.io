@@ -6,6 +6,7 @@ proxy-groups:
       - SEIMBANG
       - BestPing
       - 🕊️Utama
+      - Support
       - INDONESIA
       - CANADA
       - ROMANIA
@@ -15,12 +16,7 @@ proxy-groups:
       - UNITED KINGDOM
 #      - TURKEY
       - GERMANY
-      - SG AMP
-      - SG MELBI
-      - SG HE MUX
-      - SG HE 1
-      - SG HE 2
-      - SG HE 3
+      - Singapore
       - US
       - DIRECT
 
@@ -143,13 +139,6 @@ proxy-groups:
     interval: '150'
     use:
       - THAILAND
-  - name: SG HE MUX
-    type: fallback
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '150'
-    use:
-      - SG HE MUX
   - name: GERMANY
     type: fallback
     disable-udp: false
@@ -171,27 +160,6 @@ proxy-groups:
     interval: '150'
     use:
       - UNITED KINGDOM
-  - name: SG MELBI
-    type: fallback
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '150'
-    use:
-      - SG MELBI
-  - name: SG HE 2
-    type: fallback
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '150'
-    use:
-      - SG HE 2
-  - name: SG HE 3
-    type: fallback
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '150'
-    use:
-      - SG HE 3
   - name: US
     type: fallback
     disable-udp: false
@@ -199,13 +167,6 @@ proxy-groups:
     interval: '150'
     use:
       - US
-  - name: SG HE 1
-    type: fallback
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '150'
-    use:
-      - SG HE 1
   - name: INDONESIA
     type: fallback
     disable-udp: false
@@ -213,13 +174,18 @@ proxy-groups:
     interval: '150'
     use:
       - ID HERZA
-  - name: SG AMP
+  - name: Singapore
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '150'
     use:
       - SG AMP
+      - SG MELBI
+      - SG HE MUX
+      - SG HE 1
+      - SG HE 2
+      - SG HE 3
 
 
 proxy-providers:
