@@ -29,7 +29,8 @@ button {
     <br>
     <!-- penutup konten -->
     <h1 style="font-size: 17px; font-weight: 400;"> untuk versi Prem silahkan contact admin kami !!!</h1>
-    <br><br>
+    <br>
+<br>
 <div style="text-align: center;">
   <!-- Tautan ke Media Sosial -->
   <a href="https://www.facebook.com/akun-facebook-anda" target="_blank" style="display: inline-block; margin-right: 10px;">
