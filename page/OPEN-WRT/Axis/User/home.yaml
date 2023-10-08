@@ -16,7 +16,7 @@ proxy-groups:
       - UNITED KINGDOM
 #      - TURKEY
       - GERMANY
-      - Singapore
+      - SINGAPORE
       - US
       - DIRECT
 
@@ -174,7 +174,7 @@ proxy-groups:
     interval: '150'
     use:
       - ID HERZA
-  - name: Singapore
+  - name: SINGAPORE
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
