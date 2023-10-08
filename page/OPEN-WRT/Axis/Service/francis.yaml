@@ -1,0 +1,1016 @@
+######################## Bagian 5 #########################
+proxies:
+  - name: Francis Games B1
+    server: 104.19.142.89
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis Games B2
+    server: 104.16.108.96
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis Games B3
+    server: spdsoporte.garena.com
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis Games Jatim
+    server: 104.18.20.94
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis Games non Jabar
+    server: cdn.appsflyer.com
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis Axis XL Opera B1
+    server: odsp-quic.op-mobile.opera.com
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis Axis XL Opera B2
+    server: support-vpn-pro.opera.com
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis Axis XL Conference B1
+    server: 104.26.4.126
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis Axis XL Conference B2
+    server: 104.18.21.226
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis Axis XL Conference B3
+    server: cdn-cf.zoom.us
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis Axis Edukasi B1
+    server: www.udemy.com
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis Axis Edukasi B2
+    server: cdn.ruangguru.com
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis Axis Genflix
+    server: 104.21.30.242
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis Axis Line
+    server: tubsd1478a630640.zendesk.com
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis Axis Musik B1
+    server: musical1.zendesk.com
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis Axis Musik B2
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis Axis MUSIK B3
+    server: login2.spotify.com
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis Axis Opok B1
+    server: api2.axisnet.id
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis Axis Opok B1
+    server: api2.axisnet.id
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis Axis Opok B2
+    server: www.axis.co.id
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis Axis Opok B3
+    server: 104.22.28.102
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis Axis Opok B4
+    server: manga.line.naver.jp
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis Axis XL Opok
+    server: 104.17.58.20
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis Axis Sosmed
+    server: www.help.tinder.com
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis Axis Video B1
+    server: 104.22.4.240
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis Axis Video B2
+    server: quiz.int.vidio.com
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis Axis Video B3
+    server: ncpa.netflix.com
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis By U Opok
+    server: space.byu.id
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis By U Belajar
+    server: cdn.ruangguru.com
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis By U Video
+    server: ncpa.netflix.com
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis IM3 Opok
+    server: 104.19.142.56
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis Indosat Edukasi B1
+    server: www.udemy.com
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis Indosat Edukasi B2
+    server: 104.17.2.81
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis Indosat Edukasi B3
+    server: 104.16.66.85
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis IMCLASS
+    server: cdn.ruangguru.com
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis Indosat Opok
+    server: 172.67.70.101
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis Live On Opok
+    server: 104.21.8.121
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis Smartfren Opok
+    server: api.ovo.id
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis Smartfren Midnight
+    server: www.smartfren.com
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis Telkomsel Gamemax B1
+    server: i.nimo.tv
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis Telkomsel Gamemax B2
+    server: ir.huya.com
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis Telkomsel Gamemax B3
+    server: cf-vod.nimo.tv
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis Telkomsel Gamemax B4
+    server: spdsoporte.garena.com
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis Telkomsel Ilmupedia B1
+    server: 104.26.6.171
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis Telkomsel Ilmupedia B2
+    server: 104.16.66.85
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis Telkomsel Ilmupedia B3
+    server: cdn.ruangguru.com
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis Telkomsel Multimedia B1
+    server: 104.16.51.111
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis Telkomsel Multimedia B2
+    server: zendesk2.spotify.com
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis Telkomsel Ruangguru
+    server: ruangguru.com
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis Telkomsel Videomax
+    server: stats.vidiomax.com
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis Telkomsel Youtubemax
+    server: login2.spotify.com
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis Turbo Basic 1GB
+    server: zendesk3.grabtaxi.com
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis Turbo Basic 3GB
+    server: zendesk1.appsflyer.com
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis Turbo Basic Unlimited
+    server: 162.159.138.6
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis XL Opok
+    server: 104.18.12.65
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis XL Akrab B1
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis XL Akrab B2
+    server: 104.18.21.226
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis XL Akrab B3
+    server: www.noice.id
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis XL Axis Conference B1
+    server: 104.26.4.126
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis XL Axis Conference B2
+    server: 104.18.21.226
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis XL Axis Conference B3
+    server: cdn-cf.zoom.us
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis XL Edukasi B1
+    server: 172.64.149.82
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis XL Edukasi B2
+    server: 104.20.75.141
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis XL Flex
+    server: v.whatsapp.com
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis XL Meeting Belajar B1
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis XL Meeting Belajar B2
+    server: play.mobilelegends.com
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis XL Video
+    server: quiz.int.vidio.com
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis XL Vision
+    server: 104.21.235.171
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis XL Turbo
+    server: ncpa.netflix.com
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis All SC B1
+    server: 162.159.138.6
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis All SC B2
+    server: 162.159.128.7
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis All SC B3
+    server: layanan.ruangguru.com
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis All SC Genflix
+    server: beta.genflix.co.id
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis All SC Netflix
+    server: ncpa.netflix.com
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis All SC Vision
+    server: api.visionplus.id
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis All SC Spotify
+    server: login2.spotify.com
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis All SC Vidio
+    server: quiz.int.vidio.com
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true
+  - name: Francis All SC Sushiroll
+    server: www.sushiroll.co.id
+    port: 443
+    type: trojan
+    password: 38eb0f20-4e18-11ee-9642-1239d0255272
+    skip-cert-verify: true
+    sni: fr1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: fr1.test3.net
+    udp: true

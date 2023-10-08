@@ -1,0 +1,19 @@
+proxies:
+  - name: NETFLIX US #US 4
+    server: 104.19.142.89
+    port: 80
+    type: vmess
+    uuid: f568be80-2b78-11ee-a881-1239d0255272
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: us4.socifiles.com
+    network: ws
+    ws-opts:
+      path: /vmws
+      headers:
+        Host: us4.socifiles.com
+    udp: true
+    max-early-data: 2048
+    early-data-header-name: Sec-WebSocket-Protocol

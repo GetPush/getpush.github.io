@@ -1,0 +1,93 @@
+proxies:
+########## Turkey ######
+  - name: Turkey A
+    server: 104.19.142.89
+    port: 443
+    type: trojan
+    password: 8fca38e0-4e41-11ee-ab46-1239d0255272
+    skip-cert-verify: true
+    sni: tr.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: tr.test3.net
+    udp: true
+  - name: Turkey B
+    server: www.sushiroll.co.id
+    port: 443
+    type: trojan
+    password: 8fca38e0-4e41-11ee-ab46-1239d0255272
+    skip-cert-verify: true
+    sni: tr.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: tr.test3.net
+    udp: true
+  - name: Turkey C
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: 8fca38e0-4e41-11ee-ab46-1239d0255272
+    skip-cert-verify: true
+    sni: tr.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: tr.test3.net
+    udp: true
+  - name: Turkey D
+    server: zendesk1.shopee.com
+    port: 443
+    type: trojan
+    password: 8fca38e0-4e41-11ee-ab46-1239d0255272
+    skip-cert-verify: true
+    sni: tr.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: tr.test3.net
+    udp: true
+  - name: Turkey E
+    server: 104.16.108.96
+    port: 443
+    type: trojan
+    password: 8fca38e0-4e41-11ee-ab46-1239d0255272
+    skip-cert-verify: true
+    sni: tr.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: tr.test3.net
+    udp: true
+  - name: Turkey F
+    server: 104.17.58.20
+    port: 443
+    type: trojan
+    password: 8fca38e0-4e41-11ee-ab46-1239d0255272
+    skip-cert-verify: true
+    sni: tr.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: tr.test3.net
+    udp: true
+  - name: Turkey G
+    server: layanan.ruangguru.com
+    port: 443
+    type: trojan
+    password: 8fca38e0-4e41-11ee-ab46-1239d0255272
+    skip-cert-verify: true
+    sni: tr.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: tr.test3.net
+    udp: true
