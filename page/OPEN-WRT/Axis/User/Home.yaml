@@ -376,35 +376,35 @@ proxy-providers:
      path: ./Support1.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/service/Support/Support1.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/Support/Support1.yaml"
      interval: 1200
   Support2: 
      type: http 
      path: ./Support2.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/service/Support/Support2.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/Support/Support2.yaml"
      interval: 1200
   Support3: 
      type: http 
      path: ./Support3.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/service/Support/Support3.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/Support/Support3.yaml"
      interval: 1200
   Support4: 
      type: http 
      path: ./Support4.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/service/Support/Support4.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/Support/Support4.yaml"
      interval: 1200
   Support5: 
      type: http 
      path: ./Support5.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/service/Support/Support5.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/Support/Support5.yaml"
      interval: 1200
 
 
