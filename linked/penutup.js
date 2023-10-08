@@ -34,22 +34,22 @@ button {
 <div style="text-align: center;">
   <!-- Tautan ke Media Sosial -->
   <a href="https://www.facebook.com/akun-facebook-anda" target="_blank" style="display: inline-block; margin-right: 10px;">
-    <img alt="Facebook Logo" height="32" src="https://link.ke/gambar-logo-facebook" width="32" /> Facebook
+    <img alt="Facebook Logo" height="32" src="https://link.ke/logo-facebook" width="32" /> Facebook
   </a>
   <a href="https://www.instagram.com/akun-instagram-anda" target="_blank" style="display: inline-block; margin-right: 10px;">
-    <img alt="Instagram Logo" height="32" src="https://link.ke/gambar-logo-instagram" width="32" /> Instagram
+    <img alt="Instagram Logo" height="32" src="https://link.ke/logo-instagram" width="32" /> Instagram
   </a>
   <a href="https://www.tiktok.com/@akun-tiktok-anda" target="_blank" style="display: inline-block; margin-right: 10px;">
-    <img alt="TikTok Logo" height="32" src="https://link.ke/gambar-logo-tiktok" width="32" /> TikTok
+    <img alt="TikTok Logo" height="32" src="https://link.ke/logo-tiktok" width="32" /> TikTok
   </a>
   <a href="https://www.snackvideo.com/@akun-snackvideo-anda" target="_blank" style="display: inline-block; margin-right: 10px;">
-    <img alt="SnackVideo Logo" height="32" src="https://link.ke/gambar-logo-snackvideo" width="32" /> SnackVideo
+    <img alt="SnackVideo Logo" height="32" src="https://link.ke/logo-snackvideo" width="32" /> SnackVideo
   </a>
   <a href="https://shopee.co.id/akun-shopee-anda" target="_blank" style="display: inline-block; margin-right: 10px;">
-    <img alt="Shopee Logo" height="32" src="https://link.ke/gambar-logo-shopee" width="32" /> Shopee
+    <img alt="Shopee Logo" height="32" src="https://link.ke/logo-shopee" width="32" /> Shopee
   </a>
   <a href="https://www.lazada.co.id/akun-lazada-anda" target="_blank" style="display: inline-block; margin-right: 10px;">
-    <img alt="Lazada Logo" height="32" src="https://link.ke/gambar-logo-lazada" width="32" /> Lazada
+    <img alt="Lazada Logo" height="32" src="https://link.ke/logo-lazada" width="32" /> Lazada
   </a>
 
   <!-- Tautan ke Kontak -->
@@ -63,6 +63,7 @@ button {
     <img alt="Telegram Logo" height="32" src="https://telegram.org/img/t_logo.svg" width="32" /> Telegram
   </a>
 </div>
+
 
     <h3 style="color: #3e005d;">
       <br /> We will revert you as soon as possible...!
