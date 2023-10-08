@@ -33,7 +33,7 @@ button {
 <br>
 <div style="text-align: center;">
   <!-- Tautan ke Media Sosial -->
-  <a href="https://www.facebook.com/akun-facebook-anda" target="_blank" style="display: inline-block; margin-right: 10px;">
+  <a href="https://www.facebook.com/Toppayofficial?mibextid=ZbWKwL" target="_blank" style="display: inline-block; margin-right: 10px;">
     <img alt="Facebook Logo" height="32" src="https://link.ke/logo-facebook" width="32" /> Facebook
   </a>
   <a href="https://www.instagram.com/akun-instagram-anda" target="_blank" style="display: inline-block; margin-right: 10px;">
@@ -51,6 +51,9 @@ button {
   <a href="https://www.lazada.co.id/akun-lazada-anda" target="_blank" style="display: inline-block; margin-right: 10px;">
     <img alt="Lazada Logo" height="32" src="https://link.ke/logo-lazada" width="32" /> Lazada
   </a>
+  <a href="https://www.youtube.com/channel/UCeMezZCLKzcpQyYFSiW6DCA" target="_blank" style="display: inline-block; margin-right: 10px;">
+    <img alt="YouTube Logo" height="32" src="https://link.ke/logo-youtube" width="32" /> YouTube
+  </a>
 
   <!-- Tautan ke Kontak -->
   <a href="mailto:munirggplay@gmail.com" style="display: inline-block; margin-right: 10px;">
@@ -63,7 +66,6 @@ button {
     <img alt="Telegram Logo" height="32" src="https://telegram.org/img/t_logo.svg" width="32" /> Telegram
   </a>
 </div>
-
 
     <h3 style="color: #3e005d;">
       <br /> We will revert you as soon as possible...!
