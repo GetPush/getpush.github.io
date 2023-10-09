@@ -153,11 +153,11 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
   text-decoration: none;
-  text-shadow: 0 0 10px white; /* Shadow teks di dalam tombol berwarna putih */
 }
 
 .glowing-button span {
   animation: blink 1s infinite; /* Animasi berkedip untuk teks dalam tombol */
+  font-size: 24px; /* Ukuran teks dalam tombol */
 }
 
 @keyframes blink {
