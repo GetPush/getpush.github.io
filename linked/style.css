@@ -140,19 +140,36 @@ body {
   margin: 10px;
   position: relative;
   background-color: transparent;
-  box-shadow: 0 0 20px 0 white; /* Mengubah warna shadow teks menjadi putih */
+  box-shadow: 0 0 20px red, 0 0 30px red, 0 0 40px red; /* Shadow button berwarna merah */
   border: 2px solid #f01f1f;
   background-color: transparent;
   transition: 0.4s;
-  font-size: 24px; /* Memperbesar ukuran font */
+  font-size: 24px; /* Ukuran teks lebih besar */
   cursor: pointer;
-  color: green;
+  color: green; /* Teks tetap hijau */
   z-index: 0;
-  min-width: 240px; /* Memperbesar ukuran tombol */
-  padding: 20px 30px; /* Memperbesar padding tombol */
+  min-width: 240px;
+  padding: 20px 30px;
   overflow: hidden;
   text-overflow: ellipsis;
   text-decoration: none;
+  text-shadow: 0 0 10px white; /* Shadow teks di dalam tombol berwarna putih */
+}
+
+.glowing-button span {
+  animation: blink 1s infinite; /* Animasi berkedip untuk teks dalam tombol */
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
   .logo {
