@@ -128,6 +128,33 @@ body {
     justify-content: center;
   }
 
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.glowing-button {
+  white-space: nowrap;
+  margin: 10px;
+  position: relative;
+  background-color: transparent;
+  box-shadow: 0 0 20px 0 white; /* Mengubah warna shadow teks menjadi putih */
+  border: 2px solid #f01f1f;
+  background-color: transparent;
+  transition: 0.4s;
+  font-size: 24px; /* Memperbesar ukuran font */
+  cursor: pointer;
+  color: green;
+  z-index: 0;
+  min-width: 240px; /* Memperbesar ukuran tombol */
+  padding: 20px 30px; /* Memperbesar padding tombol */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-decoration: none;
+}
+
   .logo {
     font-family: 'arial', sans-serif;
     font-size: 4rem;
