@@ -144,20 +144,32 @@ body {
   border: 2px solid #f01f1f;
   background-color: transparent;
   transition: 0.4s;
-  font-size: 30px; /* Ukuran teks lebih besar */
+  font-size: 24px; /* Ukuran teks lebih besar */
   cursor: pointer;
-  color: green; /* Teks tetap hijau */
+  color: black; /* Ganti warna teks menjadi hitam */
   z-index: 0;
   min-width: 240px;
   padding: 20px 30px;
   overflow: hidden;
   text-overflow: ellipsis;
   text-decoration: none;
+  text-align: center; /* Teks berada di tengah tombol */
+}
+
+.glowing-button::before {
+  content: ''; /* Membuat lapisan sebelum tombol */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(yellow, transparent); /* Efek sinar kuning */
+  z-index: -1; /* Letakkan di belakang tombol */
 }
 
 .glowing-button span {
-  animation: blink 3s infinite; /* Animasi berkedip untuk teks dalam tombol */
-  font-size: 50px; /* Ukuran teks dalam tombol */
+  animation: blink 1s infinite; /* Animasi berkedip untuk teks dalam tombol */
+  font-size: 24px; /* Ukuran teks dalam tombol */
 }
 
 @keyframes blink {
