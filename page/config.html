@@ -15,52 +15,47 @@
   <body>
      <div id="header"></div>
 
-    <div class="slider">
-        <div class="slide">
-            <img src="/assets/images/gambar1.png" alt="Gambar 1">
-        </div>
-        <div class="slide">
-            <img src="/assets/images/gambar2.png" alt="Gambar 2">
-        </div>
-        <div class="slide">
-            <img src="/assets/images/gambar3.png" alt="Gambar 3">
-        </div>
-        <div class="slide">
-            <img src="/assets/images/gambar4.png" alt="Gambar 4">
-        </div>
-        <div class="slide">
-            <img src="/assets/images/gambar5.png" alt="Gambar 5">
-        </div>
-        <div class="slide">
-            <img src="/assets/images/gambar6.png" alt="Gambar 6">
-        </div>
-        <div class="slide">
-            <img src="/assets/images/gambar7.png" alt="Gambar 7">
-        </div>
-    </div>
+<div class="slideshow-container">
+  <div class="mySlides frame">
+    <img src="gambar1.jpg" alt="Deskripsi Gambar 1">
+  </div>
+  <div class="mySlides frame">
+    <img src="gambar2.jpg" alt="Deskripsi Gambar 2">
+  </div>
+  <div class="mySlides frame">
+    <img src="gambar3.jpg" alt="Deskripsi Gambar 3">
+  </div>
+  <div class="mySlides frame">
+    <img src="gambar4.jpg" alt="Deskripsi Gambar 4">
+  </div>
+  <div class="mySlides frame">
+    <img src="gambar5.jpg" alt="Deskripsi Gambar 5">
+  </div>
+  <div class="mySlides frame">
+    <img src="gambar6.jpg" alt="Deskripsi Gambar 6">
+  </div>
+  <div class="mySlides frame">
+    <img src="gambar7.jpg" alt="Deskripsi Gambar 7">
+  </div>
+</div>
+
 <script>
-    let currentSlide = 0;
-    const slides = document.querySelectorAll('.slide');
+  // JavaScript untuk mengatur slide show
+  var slideIndex = 0;
+  showSlides();
 
-    function showSlide(slideIndex) {
-        if (slideIndex < 0) {
-            currentSlide = slides.length - 1;
-        } else if (slideIndex >= slides.length) {
-            currentSlide = 0;
-        }
-
-        slides.forEach((slide, index) => {
-            slide.style.transform = `translateX(${100 * (index - currentSlide)}%)`;
-        });
+  function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
     }
-
-    function autoSlide() {
-        showSlide(currentSlide + 1);
-    }
-
-    setInterval(autoSlide, 3000); // Ubah gambar setiap 3 detik (sesuaikan sesuai kebutuhan)
+    slideIndex++;
+    if (slideIndex > slides.length) { slideIndex = 1; }
+    slides[slideIndex - 1].style.display = "block";
+    setTimeout(showSlides, 2000); // Ganti gambar setiap 2 detik
+  }
 </script>
-
 <br>
     <!-- isi konten -->
     <p style="text-align: center;"><a class="logo">Update Gretongan</a></p>
