@@ -15,6 +15,49 @@
   <body>
      <div id="header"></div>
      <br>
+
+<div class="slideshow-container">
+  <div class="mySlides frame">
+    <img src="gambar1.jpg" alt="Deskripsi Gambar 1">
+  </div>
+  <div class="mySlides frame">
+    <img src="gambar2.jpg" alt="Deskripsi Gambar 2">
+  </div>
+  <div class="mySlides frame">
+    <img src="gambar3.jpg" alt="Deskripsi Gambar 3">
+  </div>
+  <div class="mySlides frame">
+    <img src="gambar4.jpg" alt="Deskripsi Gambar 4">
+  </div>
+  <div class="mySlides frame">
+    <img src="gambar5.jpg" alt="Deskripsi Gambar 5">
+  </div>
+  <div class="mySlides frame">
+    <img src="gambar6.jpg" alt="Deskripsi Gambar 6">
+  </div>
+  <div class="mySlides frame">
+    <img src="gambar7.jpg" alt="Deskripsi Gambar 7">
+  </div>
+</div>
+<br>
+
+<script>
+  // JavaScript untuk mengatur slide show
+  var slideIndex = 0;
+  showSlides();
+
+  function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) { slideIndex = 1; }
+    slides[slideIndex - 1].style.display = "block";
+    setTimeout(showSlides, 2000); // Ganti gambar setiap 2 detik
+  }
+</script>
     <!-- isi konten -->
     <p style="text-align: center;"><a class="logo">Update Gretongan</a></p>
     
