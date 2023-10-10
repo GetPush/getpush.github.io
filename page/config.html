@@ -14,7 +14,7 @@
   </head>
   <body>
      <div id="header"></div>
-     
+
 <div class="slideshow-container">
   <div class="mySlides">
     <img src="/assets/images/gambar1.png">
@@ -24,9 +24,24 @@
     <img src="/assets/images/gambar5.png">
     <img src="/assets/images/gambar6.png">
     <img src="/assets/images/gambar7.png">
- </div>
+  </div>
 </div>
 
+<script>
+  var slideIndex = 0;
+  showSlides();
+
+  function showSlides() {
+    var slides = document.querySelector('.mySlides');
+    slideIndex++;
+    if (slideIndex > slides.children.length) {
+      slideIndex = 1;
+    }
+    var translateX = -(slideIndex - 1) * 100;
+    slides.style.transform = 'translateX(' + translateX + '%)';
+    setTimeout(showSlides, 2000); // Ganti gambar setiap 2 detik
+  }
+</script>
 <br>
     <!-- isi konten -->
     <p style="text-align: center;"><a class="logo">Update Gretongan</a></p>
