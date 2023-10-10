@@ -39,20 +39,35 @@
   </div>
 </div>
 <script>
-var slideIndex = 0;
-showSlides();
+var currentSlide = 1;
+var slideContainer = document.querySelector('.slideshow-container');
 
-function showSlides() {
+function handleScroll(event) {
+  // Mendeteksi arah scroll
+  if (event.deltaX > 0) {
+    // Scroll ke kanan
+    showSlides(currentSlide += 1);
+  } else if (event.deltaX < 0) {
+    // Scroll ke kiri
+    showSlides(currentSlide -= 1);
+  }
+}
+
+function showSlides(n) {
   var slides = document.getElementsByClassName("mySlides");
+  
+  if (n > slides.length) {
+    currentSlide = 1;
+  }
+  if (n < 1) {
+    currentSlide = slides.length;
+  }
+  
   for (var i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
-  slideIndex++;
-  if (slideIndex > slides.length) {
-    slideIndex = 1;
-  }
-  slides[slideIndex - 1].style.display = "block";
-  setTimeout(showSlides, 2000); // Ubah gambar setiap 2 detik
+  
+  slides[currentSlide - 1].style.display = "inline-block";
 }
 
 </script>
