@@ -1,253 +1,407 @@
-<!DOCTYPE html> 
- <html lang="id"> 
-  <head> 
-   <meta charset="UTF-8"> 
-   <meta name="robots" content="index, follow"> 
-   <meta content='width=device-width, initial-scale=0.5' name='viewport' />
-<!-- toppayofficial.vercel.app -->
-<meta name="google-site-verification" content="SwoFsbLXLMMCeqw2MgNEI9STI6EsRmmuhm5Rog9woV0" />
-<!-- penainternet.vercel.app -->
-<meta name="google-site-verification" content="HjrZ2KJalwMXjbBRV_mcXC8r81O5Z8sTdbxuiVpYD8E" />
- <!-- bangmt.vercel.app -->
-<meta name="google-site-verification" content="b-xqMF9bPQ-B0jt85Ct7KUv9c-SaOWHjSzgY6oi-mvI" />
-   <link rel="stylesheet" type="text/css" href="/linked/style.css">
-<link rel="stylesheet" type="text/css" href="/linked/toko.css">
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+   <meta charset="UTF-8">
+    <meta name="robots" content="index, follow">
+     <meta content='width=device-width, initial-scale=0.5' name='viewport'/>
+    <link rel="stylesheet" type="text/css" href="/linked/style.css">
   <script src="/linked/base.js"></script> 
    <script src="/linked/penutup.js"></script>  
     <script src="/linked/names.js"></script>  
      <script src="/linked/speed.js"></script>  
       <script src="/linked/teks-config.js"></script>
-   <title>homepage</title> 
-  </head> 
-  <body>
-  <div id="header"></div>
-   <!-- isi konten --> 
+    <title>Update Config Aplikasi Gretongan</title>
 
- <h1>ألسلام عليهم ورحمة الله وبركاته</h1>  
-  <div id="teks1">Halo, selamat datang!</div> 
+  <style media="screen">
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: #7aacff;
+      }
+      .container-slide { 
+      width: 500px; 
+      margin: 0 auto; /* Ini akan mengatur elemen di tengah horizontal halaman */
+      overflow: hidden; 
+      border: 10px solid #ffffff; 
+      border-radius: 8px; 
+      box-shadow: 10px 25px 30px rgba(0, 0, 0, 0.3); 
+      }
+
+      .wrapper {
+        width: 500%; /* Mengatur lebar container untuk slide gambar */
+        display: flex;
+        animation: slide 16s infinite;
+      }
+      @keyframes slide {
+        0%, 100% {
+          transform: translateX(0);
+        }
+        25% {
+          transform: translateX(0);
+        }
+        30%, 50% {
+          transform: translateX(-25%);
+        }
+        55%, 75% {
+          transform: translateX(-50%);
+        }
+        80% {
+          transform: translateX(-75%);
+        }
+      }
+    </style>
+</head>
+<body>
+     <div id="header"></div>
+<br>
+    <div class="container-slide"> 
+       <div class="wrapper"> 
+             <img src="/assets/images/gambar1.png"> 
+             <img src="/assets/images/gambar2.png"> 
+             <img src="/assets/images/gambar3.png"> 
+             <img src="/assets/images/gambar4.png"> 
+             <img src="/assets/images/gambar5.png"> 
+         </div>
+    </div>
+  <br>
+<br>
+    <!-- isi konten -->
+    <p style="text-align: center;"><a class="logo">Update Gretongan</a></p>
+    
+    <br>
+    <!-- IP address -->
+    <div id="ip-container">
+      <p id="ip-address">Loading...</p>
+      </div>
+    <br>
+    <h1>Kecepatan Internet mu saat ini</h1>
+    <div onload="measureInternetSpeed()">
+      <p id="speed"></p>
+    </div>
+    
+    <p>Ambil Config di sini !!!</p>
+    
+    <h4 style="text-align: center;">
+  <span style="font-size: large"><p>Di Sini Tempatnya Update Config:</p>
+  </span>
+ <h4 style="text-align: left;">
+          <hr>
+          <p> 🚀 HTTP Custom</p>
+          <hr>
+          <p> 🚀 V2ray HTTP Custom</p>
+          <hr>
+          <p> 🚀 HTTP Injector</p>
+          <hr>
+          <p> 🚀 HA Tunnel Plus</p>
+          <hr>
+          <p> 🚀 Netmod Syna</p>
+          <hr>
+          <p> 🚀 Dark Tunnel</p>
+          <hr>
+          <p> 🚀 Open Tunnel</p>
+          <hr>
+          <p> 🚀 Napsternet</p>
+          <hr>
+          <p> 🚀 KPN Tunnel</p>
+          <hr>
+          <hr>
+          <p> 🚀 V2ray Dark Tunnel</p>
+          <hr>
+          <hr>
+          <p> 🚀 V2ray eV2ray</p>
+          <hr>
+          <hr>
+          <p> 🚀 V2ray HTTP Custom</p>
+          <hr>
+          <hr>
+    </h4>
+    <br>
+    <h3 style="text-align: center;">Tersedia Hanya Untuk Hari Ini</h3>
+    
+    <!-- menampilkan JS waktu -->
+    <!-- jam digital Untuk tampilan dua, menampilkan hari, tanggal, jam, menit, detik, dan AM/PM -->
 <hr>
+    <marquee>
+      <blink>
+        <span id="jam-dua"></span>
+      </blink>
+    </marquee>
 <hr>
- <div>• Semoga yang mengunjungi website ini, pada hari <span style="display: inline;">   
-        <div id="jam-sambutan" style="display: inline;"></div>   
-       </span> selalu diberikan kesehatan, keselamatan, dan kebahagiaan dalam hidupnya. </div>   
-<hr>
-<hr>
+<p>☕</p>
+    <!-- HTML untuk menampilkan jam analog -->
+    <div id="clock-container">
+      <canvas id="clock" width="300" height="300"></canvas>
+      <div class="hour-hand"></div>
+    </div>
+    
+    <br>
+    <h2>
+    <blockquote style="border: none; margin: 0px 0px 0px 60px; padding: 0px;">
+        <div class="separator" style="clear: both; text-align: left;">
+        Update Config Lengkap, All Operator, All Opok, All kuota, Support VC, Game & Lainnya
+      </blockquote>
+    </h2>
+    
+    <br>
+    <!-- password -->
+    <h1 style="text-align: center;">Jika Malas' Untuk Mendapatkan Password Di Video</h1>
+    <hr>
+    <div class="glowing-button-wrap"><article style="text-align: center;"><a class="logo" href="/page/password/direct.html"><span>password</span></a>
+    </article>
+    </div>
+    <hr>
+    <br>
+    <br>
+    <br>
+    <!-- teks config-->
+  <hr>
+ <div id="teks-config" style="font-size: 35px;"></div>
+ <hr>
+ <blink><h1>🗓️ Created 💲 Expired 🗓️</h1></blink>
+  <hr>
+    <p id="created" style="font-size: 35px;"></p>
+    <hr>
+    <p id="expired" style="font-size: 35px;"></p>
+    <hr>
+    <br>
+    <br>
+    <br>
+    <hr>
+ <div class="button-container">
+  <article style="text-align: center;"><a class="button" id="myButton" href="https://bukakios.link/register/?by=TPWRTGJKGUA"><span>Tembak kuota & Top Up</span></a>
+   </article>
  </div>
-<br>
-<hr>
-<hr>
-  <p>💲 SAAT INI DI UPDATE OLEH: [ <span id="randomNames1" style="font-size: 35px;"></span> ]</p>
-<hr>
-<hr>
-     <br> 
-   <p style="text-align: center;"> 
-    <a class="logo">HOMEPAGE</a> 
-   </p> 
-   <!-- IP address --> 
-   <div id="ip-container"> 
-    <h1>berjalan di IP address:</h1> 
-    <p id="ip-address">Loading...</p> 
-   </div> 
-   <br> 
-   <h1>Kecepatan Internet mu saat ini berapa ?</h1> 
-   <script> 
-    measureInternetSpeed("speed"); 
-   </script> 
-   <div id="speed"></div> 
-   <br> 
-   <!-- menampilkan JS waktu --> 
-   <!-- jam digital Untuk tampilan dua, yang berjalan --> 
-   <marquee> 
-    <blink> 
-     <span id="jam-dua"></span> 
-    </blink> 
-   </marquee> 
+ <hr>
+ <br>
+ <br> 
+ <br>
+ <h1 style="text-align: center;">Belum Punya Akun SSH</h1>
+  <b style="text-align: center;">Bikin Disini</b>
    <br>
-<p>🔻</p>
-   <!-- HTML untuk menampilkan jam analog --> 
-<br>
-   <div id="clock-container"> 
-    <canvas id="clock" width="300" height="300"></canvas> 
-    <div class="hour-hand"></div> 
-   </div> 
-   <br> 
-   <!-- teks config
-  <div id="teks-config" style="font-size: 35px;"></div> 
-
-   <h1>[Created and Expired Dates]</h1> 
-   <p id="created" style="font-size: 35px;"></p> 
-   <p id="expired" style="font-size: 35px;"></p> 
-   <br> -->
-<hr>
-<hr>
-<br>
-
-   <br> 
-   <blockquote style="border: none; margin: 0px 0px 0px 60px; padding: 0px;"> 
-    <div class="button-container"> 
-     <article style="text-align: left;"> 
-      <span style="font-size: large;"> 
-       <a class="button" href="https://bukakios.link/register/?by=TPWRTGJKGUA">Tembak kuota & Top Up</a> 
-      </span> 
-     </article> 
-     <br> 
-   </blockquote> 
-   <br> 
-<br>
-<br>
-   <blockquote style="border: none; margin: 0px 0px 0px 60px; padding: 0px;"> 
-    <div class="button-container"> 
-     <article style="text-align: left;"> 
-      <span style="font-size: large;"> 
-       <a class="button" href="/page/config.html">Update Config</a> 
-      </span> 
-     </article> 
-     <br> 
-   </blockquote> 
-   <br> 
-   <blockquote style="border: none; margin: 0px 0px 0px 60px; padding: 0px;"> 
-    <div class="button-container"> 
-     <article style="text-align: left;"> 
-      <span style="font-size: large;"> 
-       <a class="button" href="/page/ssh/direct.html">Create SSH</a> 
-      </span> 
-     </article> 
-     <br> 
-   </blockquote> 
-   <br> 
-   <blockquote style="border: none; margin: 0px 0px 0px 60px; padding: 0px;"> 
-    <div class="button-container"> 
-     <article style="text-align: left;"> 
-      <span style="font-size: large;"> 
-      <a class="button" href="/page/tutorial/direct.html">Tutorial</a> 
-      </span> 
-     </article> 
-     <br> 
-   </blockquote> 
-   <br> 
-   <blockquote style="border: none; margin: 0px 0px 0px 60px; padding: 0px;"> 
-    <div class="button-container"> 
-     <article style="text-align: left;"> 
-      <span style="font-size: large;"> 
-      <a class="button" href="/page/apps/direct.html">Aplikasi</a> 
-      </span> 
-     </article> 
-     <br> 
-   </blockquote> 
-<br>
-<hr>
-<hr>
-<div style="text-align: center;">
-<p> Di bawah ini halaman khusus No SL No ADS</p>
-    <div class="button-container"> 
-     <article style="text-align: center;"> 
-      <span style="font-size: large;"> 
-     <a class="button" href="/page/user/config/payment-config.html">Config No Ads</a> 
-      </span> 
-     </article> 
-     <br> 
-<hr>
-<hr>
-<br>
-<p>Layanan & Produk</p>
- <p>🔻</p>
-  <p>🔻</p>
-   <p>🔻</p>
-   <blockquote style="border: none; margin: 0px 0px 0px 60px; padding: 0px;"> 
-    <div class="button-container"> 
-     <article style="text-align: left;"> 
-      <span style="font-size: large;"> 
-      <a class="button" href="/page/toko.html">Toko</a> 
-      </span> 
-     </article> 
-   </blockquote> 
-<hr>
- <h2>produk & layanan 🔻</h2>
-     <div class="container"> 
-         <div> 
-             <h2 class="deskripsi">🔻 config:</h2> 
-             <div class="product-list"> 
-                 <div class="product-item"> 
-                     <img src="/linked/images/config.png" alt="Config Biasa"> 
-                     <p>Config biasa 30 hari Rp7000</p> 
-                     <hr> 
-                     <a class="checkout-button" href="cek_url_produk1">pesan</a> 
-                 </div> 
-  
-                 <div class="product-item"> 
-                     <img src="/linked/images/config.png" alt="Config V2ray"> 
-                     <p>Config V2ray 30 hari Rp15.000</p> 
-                     <hr> 
-                     <a class="checkout-button" href="cek_url_produk2">pesan</a> 
-                 </div> 
-  
-                 <div class="product-item"> 
-                     <img src="/linked/images/config.png" alt="Config Biasa"> 
-                     <p>Config biasa 7 hari Rp5000</p> 
-                     <hr> 
-                     <a class="checkout-button" href="cek_url_produk3">pesan</a> 
-                 </div> 
-  
-                 <div class="product-item"> 
-                     <img src="/linked/images/config.png" alt="Config V2ray"> 
-                     <p>Config V2ray 7 hari Rp10.000</p> 
-                     <hr> 
-                     <a class="checkout-button" href="cek_url_produk4">pesan</a> 
-                 </div> 
-             </div> 
-<br>
-<hr>
-<hr>
-             <h2 class="deskripsi">🔻 langganan clash:</h2> 
-<p>Open Clash, Clash For Android, Clash Meta For Android, Clash For Magisk/<p>
-             <div class="product-list"> 
-                 <div class="product-item"> 
-                     <img src="/linked/images/config.png" alt="Clash"> 
-                     <p>Clash Rp30.000 per-bulan 1 paket</p> 
-                     <hr> 
-                     <a class="checkout-button" href="cek_url_produk5">pesan</a> 
-                 </div> 
-  
-                 <div class="product-item"> 
-                     <img src="/linked/images/config.png" alt="Premium"> 
-                     <p>Premium Rp40.000 per-bulan 3 paket</p> 
-                     <hr> 
-                     <a class="checkout-button" href="cek_url_produk6">pesan</a> 
-                 </div> 
-  
-                 <div class="product-item"> 
-                     <img src="/linked/images/config.png" alt="VIP"> 
-                     <p>VIP Rp50.000 per-bulan Full paket</p> 
-                     <hr> 
-                     <a class="checkout-button" href="cek_url_produk7">pesan</a> 
-                 </div> 
-             </div> 
-         </div> 
-     </div>
-<br>
-<hr>
-<note style="text-align: left;">
-<h2>Cara Pemesanan:</h2>
-<p> Anda cukup klik tombol pesan, dan Anda akan di arahkan ke admin untuk menyelesaikan pembayaran dan negosiasi.</p>
-<h2>Pembayaran:</h2>
-<p>Anda bisa menggunakan dompet apa saja untuk melakukan pembayaran, karena kamu menggunakan scan QR yang support untuk semua dompet.</p>
-</note>
-<hr>
-  <br> 
- <!--<div id="video-youtube"> 
-    <iframe id="youtube-iframe" src="https://www.youtube.com/embed/XLj5Y9FB4xY?autoplay=1" frameborder="0" allowfullscreen></iframe> 
- </div> -->
-
-<div style="text-align: center;"> 
- <p>Buy Me ☕</p>  
-  <h3>QR Code Ini Support Untuk Semua Dompet</h3>  
+   <br>
+   <br>
+   <br>
+   <hr>
+<div class="button-container">
+ <article style="text-align: center;"><a class="button" id="myButton" href="/page/ssh/index.html"><span>Create Account SSH</span></a>
+ </article>
 </div>
-  <br>  
-      <img src="/linked/images/QRcode.png" alt="QR Code" width="400" height="400"> 
-<div>
+<hr>
 <br>
-   <p>💲 UCAPKAN TERIMAKASIH KEPADA: [ <span id="randomNames2" style="font-size: 35px;"></span> ]</p>  
-    <div id="penutup"></div>  
-  <a href="/page/home.html" class="shortlink">🏳️ Ke atas</a> 
-  </body> 
- </html>
+<hr>
+ <blockquote style="border: none; margin: 0px 0px 0px 60px; padding: 0px;">
+<h2 class="separator" style="clear: both; text-align: left;">CONFIG Aktif ✓</h2>
+  </blockquote>
+  <hr>
+      <!-- teks berjalan -->
+      <br>
+<hr>
+<marquee behavior="scroll" direction="left" style="font-size: 25px;">
+ <p>Jika Work Jangan Gak Like Dan Subscribe My YouTube Channel Oke !!!</p>
+</marquee>
+<hr>
+ <marquee behavior="scroll" direction="right" style="font-size: 25px;">
+  <p>Work Atau Tidak Work Saya Tunggu Laporannya Di Kolom Komentar</p>
+ </marquee>
+ <hr>
+ <br>
+      <!-- link menuju config -->
+ <br>
+ <br>
+ <hr>
+ <hr>
+ <br>
+ <p>Config Dark Tunnel</p>
+ <br>
+ <hr>
+ <br>
+ <div class="glowing-button-wrap">
+   <article style="text-align: center;"><a class="glowing-button" id="myButton" href="/config/dark-tunnel/direct.html"><span>Get Now</span></a>
+   </article>
+ </div>
+ <br>
+ <hr>
+ <br>
+ <p>Config HTTP Custom</p>
+ <br>
+ <hr>
+ <br>
+ <div class="glowing-button-wrap">
+  <article style="text-align: center;"><a class="glowing-button" id="myButton" href="/config/http-custom/direct.html"><span>Get Now</span></a>
+  </article>
+ </div>
+ <br>
+ <hr>
+ <br>
+ <p>Config HTTP Injector</p>
+ <br>
+ <hr>
+ <br>
+ <div class="glowing-button-wrap">
+   <article style="text-align: center;"><a class="glowing-button" id="myButton" href="/config/http-injector/direct.html"><span>Get Now</span></a>
+   </article>
+ </div>
+ <br>
+ <hr>
+ <br>
+ <p>Config Napsternet</p>
+ <br>
+ <hr>
+ <br>
+<div class="glowing-button-wrap">
+ <article style="text-align: center;"><a class="glowing-button" id="myButton" href="/config/napsternet/direct.html"><span>Get Now</apan></a>
+ </article>
+</div>
+ <br>
+ <hr>
+ <br>
+ <p>Config Netmod Syna</p>
+ <br>
+ <hr>
+ <br>
+ <div class="glowing-button-wrap">
+  <article style="text-align: center;"><a class="glowing-button" id="myButton" href="/config/netmod-syna/direct.html"><span>Get Now</span></a>
+  </article>
+ </div>
+ <br>
+ <hr>
+ <br>
+ <p>Config Open Tunnel</p>
+ <br>
+ <hr>
+ <br>
+<div class="glowing-button-wrap">
+  <article style="text-align: center;"><a class="glowing-button" id="myButton" href="/config/open-tunnel/direct.html"><span>Get Now</span></a>
+  </article>
+</div>
+ <br>
+ <hr>
+ <br>
+ <p>Config KPN Tunnel</p>
+ <br>
+ <hr>
+ <br>
+  <div class="glowing-button-wrap">
+<article style="text-align: center;"><a class="glowing-button" id="myButton" href="/config/kpn-tunnel/direct.html"><span>Get Now</span></a>
+</article>
+  </div>
+  <br>
+  <hr>
+  <br>
+ <br>
+ <br>
+ <br>
+ <br>
+     <hr>
+      <h1>Config V2RAY</h1>
+     <hr>
+ <br>
+ <hr>
+ <br>
+ <p>Config V2ray Dark Tunnel</p>
+ <br>
+ <hr>
+ <br>
+   <div class="glowing-button-wrap">
+ <article style="text-align: center;"><a class="glowing-button" id="myButton" href="/config/v2ray-dark-tunnel/direct.html"><span>Get Now</span></a>
+ </article>
+   </div>
+ <br>
+ <hr>
+ <br>
+ <p>Config eV2ray</p>
+ <br>
+ <hr>
+ <br>
+ <div class="glowing-button-wrap">
+   <article style="text-align: center;"><a class="glowing-button" id="myButton" href="/config/v2ray-ev2ray/direct.html"><span>Get Now</span></a>
+   </article>
+ </div>
+ <br>
+ <hr>
+ <br>
+ <p>Config V2ray HTTP Custom</p>
+ <br>
+ <hr>
+ <br>
+ <div class="glowing-button-wrap">
+ <article style="text-align: center;"><a class="glowing-button" id="myButton" href="/config/v2ray-http-custom/direct.html"><span>Get Now</span></a>
+ </article>
+ </div>
+ <br>
+ <hr>
+ <hr>
+ <br>
+ <br>
+ <br>
+ <br>
+<H1>Config Premium</h1>
+ <br>
+ <hr>
+ <hr>
+ <hr>
+ <br>
+  <div class="glowing-button-wrap">
+<article style="text-align: center;"><a class="glowing-button" id="myButton" href="https://wa.me/6283838367172"><span>Get Now</span></a>
+</article>
+  </div>
+  <br>
+ <hr>
+ <hr>
+ <hr>
+     <br>
+      <br>
+       <br>
+  <hr>
+  <hr>
+  <br>
+  <br>
+<p>Jika Work Jangan Lupa Like & Ikuti / Follow / Subscribe Yang Nge-Share Nya</p>
+<p>Dan Kasih laporan work atau atau tidak work pada kolom komentar</p>
+  <br>
+   <br>
+    <blockquote style="border: none; margin: 0px 0px 0px 40px; padding: 0px;">
+      <div class="separator" style="clear: both; text-align: left;"><p style="text-align: center;">
+        <a class="logo">Sekilas Informasi</a></p>
+    <br>
+ <h1>Config AKTIF 7 HARI</h1>
+<h2>Config ini menggunakan system cloud</h2>
+ <br>
+   <h2>HARAP CEK ULANG CONFIG INI SETELAH 6 HARI DARI Men-DOWNLOAD NYA.</h2>
+ <p>NAMUN ALANGKAH LEBIH BAIKNYA Download ULANG CONFIG INI SETIAP ADA UPDATE.</p>
+<br>
+<h1>SOLUSI UNTUK CONFIG</h1>
+  <p>Usahakan On Off dulu mode pesawat, sebelum menjalankan Config nya</p>
+ <br>
+   <h1>Solusi penggunaan:</h1>
+<p>Jika tidak support VC, Games dan lainnya, ubah port UDPGW (port UDP / UDP SSH) menggunakan port berikut:</p>
+<p>7300 7200 7400 7900</p>
+ <br>
+ <h2>Note:</h2>
+  <p>Jika di log muncul:</p>
+<p>Connection lost</p>
+<p>HTTP/1.1 400 Bad Request</p>
+<p>Status: 500 (Internal Server Error) Server Error</p>
+<p><b> SILAHKAN GANTI AKUN SSH NYA</b><p>
+<br>
+<p>Note:</p>
+<p>Jika di log muncul:</p>
+<p>Menerima respon: HTTP/1.1 302 Found</p>
+<p>Mengirim HTTP status 200 - HTTP/1.1 200 OK</p>
+<p>Menerima respon: HTTP/1.1 101 Switching Protocols</p>
+ <br>
+<p>INI TANDANYA CONFIG BERFUNGSI DENGAN BAIK & WORK, NAMUN SERVER SSH ATAU JARINGAN OPERATOR YANG SEDANG TIDAK STABIL.</p>
+ <br>
+<p>Jika Hal di atas sudah di lakukan, namun tidak konek.</p>
+<p>Coba kamu ganti APN (nama akses poin)</p>
+<p>Atau kamu bisa mengganti config yang serupa.</p>
+<p>Dan bila masih gak konek, tunggu update config selanjutnya.</p>
+<hr>
+<br>
+    <br>
+    <div id="penutup"></div>
+</body>
+</html>
