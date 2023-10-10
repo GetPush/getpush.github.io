@@ -13,45 +13,55 @@
     <title>Update Config Aplikasi Gretongan</title>
 
   <style media="screen">
-      * {
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-      }
-      body {
-        background-color: #7aacff;
-      }
-      .container-slide { 
-      width: 500px; 
-      margin: 0 auto; /* Ini akan mengatur elemen di tengah horizontal halaman */
-      overflow: hidden; 
-      border: 10px solid #ffffff; 
-      border-radius: 8px; 
-      box-shadow: 10px 25px 30px rgba(0, 0, 0, 0.3); 
-      }
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
-      .wrapper {
-        width: 500%; /* Mengatur lebar container untuk slide gambar */
-        display: flex;
-        animation: slide 16s infinite;
-      }
-      @keyframes slide {
-        0%, 100% {
-          transform: translateX(0);
-        }
-        25% {
-          transform: translateX(0);
-        }
-        30%, 50% {
-          transform: translateX(-25%);
-        }
-        55%, 75% {
-          transform: translateX(-50%);
-        }
-        80% {
-          transform: translateX(-75%);
-        }
-      }
+body {
+  background-color: #7aacff;
+}
+
+.container-slide {
+  max-width: 100%; /* Menggunakan max-width agar container responsif */
+  margin: 0 auto;
+  overflow: hidden;
+  border: 10px solid #ffffff;
+  border-radius: 8px;
+  box-shadow: 10px 25px 30px rgba(0, 0, 0, 0.3);
+}
+
+.wrapper {
+  width: 100%; /* Menggunakan persentase agar responsif */
+  display: flex;
+  animation: slide 16s infinite;
+}
+
+.slide {
+  flex: 1;
+  min-width: 100%; /* Menggunakan persentase agar responsif */
+  height: auto; /* Biarkan tinggi gambar menyesuaikan */
+}
+
+@keyframes slide {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(0);
+  }
+  30%, 50% {
+    transform: translateX(-25%);
+  }
+  55%, 75% {
+    transform: translateX(-50%);
+  }
+  80% {
+    transform: translateX(-75%);
+  }
+}
+
     </style>
 </head>
 <body>
@@ -152,45 +162,45 @@
     </article>
     </div>
     <hr>
-    <br>
-    <br>
-    <br>
+      <br>
+      <br>
+      <br>
     <!-- teks config-->
   <hr>
  <div id="teks-config" style="font-size: 35px;"></div>
- <hr>
+  <hr>
  <blink><h1>🗓️ Created 💲 Expired 🗓️</h1></blink>
   <hr>
     <p id="created" style="font-size: 35px;"></p>
     <hr>
     <p id="expired" style="font-size: 35px;"></p>
     <hr>
-    <br>
-    <br>
-    <br>
+  <br>
+  <br>
+  <br>
     <hr>
  <div class="button-container">
   <article style="text-align: center;"><a class="button" id="myButton" href="https://bukakios.link/register/?by=TPWRTGJKGUA"><span>Tembak kuota & Top Up</span></a>
    </article>
  </div>
  <hr>
- <br>
- <br> 
- <br>
+   <br>
+   <br> 
+   <br>
  <h1 style="text-align: center;">Belum Punya Akun SSH</h1>
   <b style="text-align: center;">Bikin Disini</b>
-   <br>
-   <br>
-   <br>
-   <br>
+       <br>
+       <br>
+       <br>
+       <br>
    <hr>
 <div class="button-container">
  <article style="text-align: center;"><a class="button" id="myButton" href="/page/ssh/index.html"><span>Create Account SSH</span></a>
  </article>
 </div>
-<hr>
+   <hr>
 <br>
-<hr>
+   <hr>
  <blockquote style="border: none; margin: 0px 0px 0px 60px; padding: 0px;">
 <h2 class="separator" style="clear: both; text-align: left;">CONFIG Aktif ✓</h2>
   </blockquote>
@@ -206,17 +216,17 @@
   <p>Work Atau Tidak Work Saya Tunggu Laporannya Di Kolom Komentar</p>
  </marquee>
  <hr>
- <br>
+   <br>
       <!-- link menuju config -->
- <br>
- <br>
+   <br>
+   <br>
  <hr>
  <hr>
- <br>
+   <br>
  <p>Config Dark Tunnel</p>
- <br>
+   <br>
  <hr>
- <br>
+   <br>
  <div class="glowing-button-wrap">
    <article style="text-align: center;"><a class="glowing-button" id="myButton" href="/config/dark-tunnel/direct.html"><span>Get Now</span></a>
    </article>
