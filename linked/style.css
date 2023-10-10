@@ -344,23 +344,24 @@ body {
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     }
 
+    /* Gaya CSS untuk slide show */
     .slideshow-container {
-      width: 85vmin;
-      position: absolute;
-      transform: translate(-50%, -50%);
-      top: 50%;
-      left: 50%;
-      overflow: hidden;
-      border: 10px solid #ffffff;
-      border-radius: 8px;
-      box-shadow: 10px 25px 30px rgba(0, 0, 0, 0.3);
+      max-width: 800px;
+      position: relative;
+      margin: auto;
     }
 
     .mySlides {
-      display: flex;
-      transition: transform 1s ease-in-out;
+      display: none;
     }
 
     img {
       width: 100%;
+      height: auto;
+    }
+
+    /* Gaya CSS untuk bingkai yang indah */
+    .frame {
+      border: 5px solid #333;
+      padding: 10px;
     }
