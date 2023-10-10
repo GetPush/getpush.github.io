@@ -343,10 +343,10 @@ body {
         width: 100%;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     }
-
 /* Gaya CSS untuk slide show */
 .slideshow-container {
-  max-width: 800px; /* Atur lebar slide show sesuai kebutuhan */
+  width: 600px; /* Atur lebar slide show sesuai kebutuhan */
+  height: 400px; /* Atur tinggi slide show sesuai kebutuhan */
   position: relative;
   margin: auto;
   overflow: hidden; /* Menambahkan overflow: hidden untuk memastikan gambar yang lebih besar tetap dalam batas slide show */
@@ -358,14 +358,7 @@ body {
 
 /* Gaya CSS untuk gambar dalam slide */
 .mySlides img {
-  max-width: 100%; /* Mengatur lebar gambar ke maksimum lebar slide show */
-  height: auto; /* Menjaga proporsi aspek gambar */
-}
-
-/* Gaya CSS untuk bingkai yang indah */
-.frame {
-  border: 5px solid #333;
-  padding: 10px;
-  text-align: center; /* Tengahkan konten bingkai */
-  background-color: #f0f0f0; /* Ganti warna latar belakang bingkai jika diinginkan */
+  width: 100%; /* Mengatur lebar gambar ke maksimum lebar slide show */
+  height: 100%; /* Mengatur tinggi gambar ke maksimum tinggi slide show */
+  object-fit: cover; /* Memastikan gambar mengisi kontainer tanpa mengubah proporsi aspek */
 }
