@@ -130,7 +130,7 @@ body {
 
 .button-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center; /* Untuk mengatur tombol di tengah */
   max-width: 800px;
   margin: 0 auto;
 }
@@ -148,12 +148,13 @@ body {
   cursor: pointer;
   color: black; /* Ganti warna teks menjadi hitam */
   z-index: 0;
-  min-width: 240px;
+  min-width: 200px; /* Ukuran tombol yang sesuai */
   padding: 20px 30px;
   overflow: hidden;
   text-overflow: ellipsis;
   text-decoration: none;
   text-align: center; /* Teks berada di tengah tombol */
+  font-family: Arial, sans-serif; /* Gaya font yang lebih umum */
 }
 
 .glowing-button::before {
@@ -170,6 +171,7 @@ body {
 .glowing-button span {
   animation: blink 1s infinite; /* Animasi berkedip untuk teks dalam tombol */
   font-size: 24px; /* Ukuran teks dalam tombol */
+  display: inline-block; /* Agar padding bisa berfungsi secara merata */
 }
 
 @keyframes blink {
