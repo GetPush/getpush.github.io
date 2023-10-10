@@ -344,29 +344,23 @@ body {
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     }
 
-/* Gaya CSS untuk slide show */
-.slideshow-container {
-  max-width: 800px; /* Atur lebar slide show sesuai kebutuhan */
-  position: relative;
-  margin: auto;
-  overflow: hidden;
-}
+    .slideshow-container {
+      width: 85vmin;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      top: 50%;
+      left: 50%;
+      overflow: hidden;
+      border: 10px solid #ffffff;
+      border-radius: 8px;
+      box-shadow: 10px 25px 30px rgba(0, 0, 0, 0.3);
+    }
 
-.mySlides {
-  display: none;
-}
+    .mySlides {
+      display: flex;
+      transition: transform 1s ease-in-out;
+    }
 
-/* Gaya CSS untuk gambar dalam slide */
-.mySlides img {
-  width: 300px; /* Atur lebar gambar sesuai yang Anda inginkan */
-  height: 200px; /* Atur tinggi gambar sesuai yang Anda inginkan */
-  object-fit: cover; /* Memastikan gambar mengisi kontainer tanpa mengubah proporsi aspek */
-}
-
-/* Gaya CSS untuk bingkai yang indah */
-.frame {
-  border: 5px solid #333; /* Warna dan ketebalan bingkai yang dapat disesuaikan */
-  padding: 10px; /* Ruang antara gambar dan bingkai */
-  text-align: center;
-  background-color: #f0f0f0; /* Latar belakang bingkai yang dapat disesuaikan */
-}
+    img {
+      width: 100%;
+    }
