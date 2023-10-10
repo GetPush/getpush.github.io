@@ -39,22 +39,22 @@
   </div>
 </div>
 <script>
-  // JavaScript untuk mengatur slide show
-  var slideIndex = 0;
-  var slides = document.getElementsByClassName("mySlides"); // Simpan referensi ke elemen slides di sini
+var slideIndex = 0;
+showSlides();
 
-  showSlides();
-
-  function showSlides() {
-    var i;
-    for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-    }
-    slideIndex++;
-    if (slideIndex > slides.length) { slideIndex = 1; }
-    slides[slideIndex - 1].style.display = "block";
-    setTimeout(showSlides, 2000); // Ganti gambar setiap 2 detik
+function showSlides() {
+  var slides = document.getElementsByClassName("mySlides");
+  for (var i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
   }
+  slideIndex++;
+  if (slideIndex > slides.length) {
+    slideIndex = 1;
+  }
+  slides[slideIndex - 1].style.display = "block";
+  setTimeout(showSlides, 2000); // Ubah gambar setiap 2 detik
+}
+
 </script>
 <br>
     <!-- isi konten -->
