@@ -346,7 +346,7 @@ body {
 
 /* Gaya CSS untuk slide show */
 .slideshow-container {
-  max-width: 800px;
+  max-width: 800px; /* Atur lebar slide show sesuai kebutuhan */
   position: relative;
   margin: auto;
   overflow: hidden; /* Menambahkan overflow: hidden untuk memastikan gambar yang lebih besar tetap dalam batas slide show */
@@ -356,9 +356,9 @@ body {
   display: none;
 }
 
-/* Mengatur ukuran slide */
+/* Gaya CSS untuk gambar dalam slide */
 .mySlides img {
-  width: 100%; /* Mengisi lebar slide show */
+  max-width: 100%; /* Mengatur lebar gambar ke maksimum lebar slide show */
   height: auto; /* Menjaga proporsi aspek gambar */
 }
 
