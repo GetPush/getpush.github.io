@@ -11,52 +11,63 @@
      <script src="/linked/speed.js"></script>  
       <script src="/linked/teks-config.js"></script>
     <title>Update Config Aplikasi Gretongan</title>
-  </head>
-  <body>
-     <div id="header"></div>
-<br>
-
-<div class="slideshow-container">
-  <div class="mySlides frame">
-    <img src="/assets/images/gambar1.png" alt="Deskripsi Gambar 1">
-  </div>
-  <div class="mySlides frame">
-    <img src="/assets/images/gambar2.png" alt="Deskripsi Gambar 2">
-  </div>
-  <div class="mySlides frame">
-    <img src="/assets/images/gambar3.png" alt="Deskripsi Gambar 3">
-  </div>
-  <div class="mySlides frame">
-    <img src="/assets/images/gambar4.png" alt="Deskripsi Gambar 4">
-  </div>
-  <div class="mySlides frame">
-    <img src="/assets/images/gambar5.png" alt="Deskripsi Gambar 5">
-  </div>
-  <div class="mySlides frame">
-    <img src="/assets/images/gambar6.png" alt="Deskripsi Gambar 6">
-  </div>
-  <div class="mySlides frame">
-    <img src="/assets/images/gambar7.png" alt="Deskripsi Gambar 7">
-  </div>
-</div>
-
-<script>
-  // JavaScript untuk mengatur slide show
-  var slideIndex = 0;
-  showSlides();
-
-  function showSlides() {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
+  <style media="screen">
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
     }
-    slideIndex++;
-    if (slideIndex > slides.length) { slideIndex = 1; }
-    slides[slideIndex - 1].style.display = "block";
-    setTimeout(showSlides, 2000); // Ganti gambar setiap 2 detik
-  }
-</script>
+    body {
+      background-color: #7aacff;
+    }
+    .container-slide {
+      width: 500px;
+      margin: 0 auto;
+      overflow: hidden;
+      border: 10px solid #ffffff;
+      border-radius: 8px;
+      box-shadow: 10px 25px 30px rgba(0, 0, 0, 0.3);
+    }
+    .wrapper {
+      width: 2000px; /* 4 kali lebar container untuk slide gambar */
+      display: flex;
+      animation: slide 16s infinite;
+    }
+    .wrapper img {
+      float: left;
+      margin-right: -4px;
+    }
+    @keyframes slide {
+      0%, 100% {
+        transform: translateX(0);
+      }
+      25% {
+        transform: translateX(0);
+      }
+      30%, 50% {
+        transform: translateX(-25%);
+      }
+      55%, 75% {
+        transform: translateX(-50%);
+      }
+      80% {
+        transform: translateX(-75%);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="header"></div>
+  <br>
+  <div class="container-slide">
+    <div class="wrapper">
+      <img src="/assets/images/gambar1.png" width="500" height="400">
+      <img src="/assets/images/gambar2.png" width="500" height="400">
+      <img src="/assets/images/gambar3.png" width="500" height="400">
+      <img src="/assets/images/gambar4.png" width="500" height="400">
+    </div>
+  </div>
+  <br>
 <br>
     <!-- isi konten -->
     <p style="text-align: center;"><a class="logo">Update Gretongan</a></p>
@@ -108,7 +119,6 @@
           <hr>
           <hr>
     </h4>
-    
     <br>
     <h3 style="text-align: center;">Tersedia Hanya Untuk Hari Ini</h3>
     
@@ -384,14 +394,15 @@
 <p>Mengirim HTTP status 200 - HTTP/1.1 200 OK</p>
 <p>Menerima respon: HTTP/1.1 101 Switching Protocols</p>
  <br>
-<hp>INI TANDANYA CONFIG BERFUNGSI DENGAN BAIK & WORK, NAMUN SERVER SSH ATAU JARINGAN OPERATOR YANG SEDANG TIDAK STABIL.</hp>
+<p>INI TANDANYA CONFIG BERFUNGSI DENGAN BAIK & WORK, NAMUN SERVER SSH ATAU JARINGAN OPERATOR YANG SEDANG TIDAK STABIL.</p>
  <br>
 <p>Jika Hal di atas sudah di lakukan, namun tidak konek.</p>
-<p>Coba kamu ganti APN (nama akses poin)</p>unn
+<p>Coba kamu ganti APN (nama akses poin)</p>
 <p>Atau kamu bisa mengganti config yang serupa.</p>
 <p>Dan bila masih gak konek, tunggu update config selanjutnya.</p>
 <hr>
 <br>
-       <div id="penutup"></div>  
-  </body>
+    <br>
+    <div id="penutup"></div>
+</body>
 </html>
