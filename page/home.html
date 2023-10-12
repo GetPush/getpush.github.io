@@ -11,62 +11,62 @@
      <script src="/linked/speed.js"></script>  
       <script src="/linked/teks-config.js"></script>
     <title>Update Config Aplikasi Gretongan</title>
-  <style media="screen">
-    * {
-      padding: 0;
-      margin: 0;
-      box-sizing: border-box;
+<style media="screen">
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #7aacff;
+  }
+  .container-slide {
+    max-width: 800px; /* Mengatur maksimum lebar sesuai kebutuhan */
+    margin: 0 auto;
+    overflow: hidden;
+    border: 10px solid #ffffff;
+    border-radius: 8px;
+    box-shadow: 10px 25px 30px rgba(0, 0, 0, 0.3);
+  }
+  .wrapper {
+    width: 3200px; /* 4 kali lebar container untuk slide gambar (800x4) */
+    display: flex;
+    animation: slide 16s infinite;
+  }
+  .wrapper img {
+    float: left;
+    margin-right: -4px;
+    width: 800px; /* Lebar gambar tetap 800px */
+    height: 500px; /* Tinggi gambar tetap 500px */
+  }
+  @keyframes slide {
+    0%, 100% {
+      transform: translateX(0);
     }
-    body {
-      background-color: #7aacff;
+    25% {
+      transform: translateX(0);
     }
-    .container-slide {
-      width: 700px; /* Ubah lebar sesuai kebutuhan */
-      margin: 0 auto;
-      overflow: hidden;
-      border: 10px solid #ffffff;
-      border-radius: 8px;
-      box-shadow: 10px 25px 30px rgba(0, 0, 0, 0.3);
+    30%, 50% {
+      transform: translateX(-25%);
     }
-    .wrapper {
-      width: 2800px; /* 4 kali lebar container untuk slide gambar (700x4) */
-      display: flex;
-      animation: slide 16s infinite;
+    55%, 75% {
+      transform: translateX(-50%);
     }
-    .wrapper img {
-      float: left;
-      margin-right: -4px;
-      max-width: 100%;
-      height: auto;
+    80% {
+      transform: translateX(-75%);
     }
-    @keyframes slide {
-      0%, 100% {
-        transform: translateX(0);
-      }
-      25% {
-        transform: translateX(0);
-      }
-      30%, 50% {
-        transform: translateX(-25%);
-      }
-      55%, 75% {
-        transform: translateX(-50%);
-      }
-      80% {
-        transform: translateX(-75%);
-      }
-    }
-  </style>
+  }
+</style>
 </head>
 <body>
   <div id="header"></div>
   <br>
   <div class="container-slide">
     <div class="wrapper">
-      <img src="/assets/images/gambar1.png" width="710" height="320">
-      <img src="/assets/images/gambar2.png" width="710" height="320">
-      <img src="/assets/images/gambar3.png" width="710" height="320">
-      <img src="/assets/images/gambar4.png" width="710" height="320">
+      <img src="/assets/images/gambar1.png" width="820" height="500">
+      <img src="/assets/images/gambar2.png" width="820" height="500">
+      <img src="/assets/images/gambar3.png" width="820" height="500">
+      <img src="/assets/images/gambar4.png" width="820" height="500">
     </div>
   </div>
   <br>
