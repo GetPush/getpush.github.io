@@ -21,7 +21,7 @@
     background-color: #7aacff;
   }
   .container-slide {
-    max-width: 800px; /* Mengatur maksimum lebar sesuai kebutuhan */
+    max-width: 800px;
     margin: 0 auto;
     overflow: hidden;
     border: 10px solid #ffffff;
@@ -29,31 +29,46 @@
     box-shadow: 10px 25px 30px rgba(0, 0, 0, 0.3);
   }
   .wrapper {
-    width: 3200px; /* 4 kali lebar container untuk slide gambar (800x4) */
+    width: 8000px; /* 10 kali lebar container untuk slide gambar (800x10) */
     display: flex;
-    animation: slide 16s infinite;
+    animation: slide 20s linear infinite; /* Durasi animasi ditambah karena ada 10 gambar dan ditetapkan ke linear */
   }
   .wrapper img {
     float: left;
     margin-right: -4px;
-    width: 800px; /* Lebar gambar tetap 800px */
-    height: 500px; /* Tinggi gambar tetap 500px */
+    width: 800px;
+    height: 500px;
   }
   @keyframes slide {
     0%, 100% {
       transform: translateX(0);
     }
-    25% {
+    10% {
       transform: translateX(0);
     }
-    30%, 50% {
-      transform: translateX(-25%);
+    20% {
+      transform: translateX(-10%);
     }
-    55%, 75% {
+    30% {
+      transform: translateX(-20%);
+    }
+    40% {
+      transform: translateX(-30%);
+    }
+    50% {
+      transform: translateX(-40%);
+    }
+    60% {
       transform: translateX(-50%);
     }
+    70% {
+      transform: translateX(-60%);
+    }
     80% {
-      transform: translateX(-75%);
+      transform: translateX(-70%);
+    }
+    90% {
+      transform: translateX(-80%);
     }
   }
 </style>
@@ -63,10 +78,16 @@
   <br>
   <div class="container-slide">
     <div class="wrapper">
-      <img src="/assets/images/gambar1.png" width="820" height="500">
-      <img src="/assets/images/gambar2.png" width="820" height="500">
-      <img src="/assets/images/gambar3.png" width="820" height="500">
-      <img src="/assets/images/gambar4.png" width="820" height="500">
+      <img src="/assets/images/gambar1.png" width="800" height="500">
+      <img src="/assets/images/gambar2.png" width="800" height="500">
+      <img src="/assets/images/gambar3.png" width="800" height="500">
+      <img src="/assets/images/gambar4.png" width="800" height="500">
+      <img src="/assets/images/gambar5.png" width="800" height="500">
+      <img src="/assets/images/gambar6.png" width="800" height="500">
+      <img src="/assets/images/gambar7.png" width="800" height="500">
+      <img src="/assets/images/gambar8.png" width="800" height="500">
+      <img src="/assets/images/gambar9.png" width="800" height="500">
+      <img src="/assets/images/gambar10.png" width="800" height="500">
     </div>
   </div>
   <br>
