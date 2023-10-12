@@ -31,46 +31,49 @@
   .wrapper {
     width: 8000px; /* 10 kali lebar container untuk slide gambar (800x10) */
     display: flex;
-    animation: slide 20s linear infinite; /* Durasi animasi ditambah karena ada 10 gambar dan ditetapkan ke linear */
   }
   .wrapper img {
     float: left;
     margin-right: -4px;
     width: 800px;
     height: 500px;
+    animation: slide 20s infinite; /* Durasi animasi 20 detik */
   }
-  @keyframes slide {
-    0%, 100% {
-      transform: translateX(0);
-    }
-    10% {
-      transform: translateX(0);
-    }
-    20% {
-      transform: translateX(-10%);
-    }
-    30% {
-      transform: translateX(-20%);
-    }
-    40% {
-      transform: translateX(-30%);
-    }
-    50% {
-      transform: translateX(-40%);
-    }
-    60% {
-      transform: translateX(-50%);
-    }
-    70% {
-      transform: translateX(-60%);
-    }
-    80% {
-      transform: translateX(-70%);
-    }
-    90% {
-      transform: translateX(-80%);
-    }
+@keyframes slide {
+  0%, 100% {
+    transform: translateX(0);
   }
+  10% {
+    transform: translateX(-100%);
+  }
+  20% {
+    transform: translateX(-200%);
+  }
+  30% {
+    transform: translateX(-300%);
+  }
+  40% {
+    transform: translateX(-400%);
+  }
+  50% {
+    transform: translateX(-500%);
+  }
+  60% {
+    transform: translateX(-600%);
+  }
+  70% {
+    transform: translateX(-700%);
+  }
+  80% {
+    transform: translateX(-800%);
+  }
+  90% {
+    transform: translateX(-900%);
+  }
+  100% {
+    transform: translateX(-1000%);
+  }
+}
 </style>
 </head>
 <body>
