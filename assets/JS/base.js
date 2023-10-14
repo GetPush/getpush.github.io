@@ -71,7 +71,7 @@ head.appendChild(linkFavicon);
 // Buat elemen link untuk CSS Stylesheets
 var linkStylesheet = document.createElement('link');
 linkStylesheet.setAttribute('rel', 'stylesheet');
-linkStylesheet.setAttribute('href', '/linked/style.css');
+linkStylesheet.setAttribute('href', '/assets/CSS/style.css');
 head.appendChild(linkStylesheet);
 
 // Mendapatkan judul halaman
@@ -191,15 +191,15 @@ const headerHTML = `
     }  
   
     var scriptsToLoad = [  
-      "/linked/bg_random_color.js", 
-      "/linked/favicon.js",
-      "/linked/google.js", 
-      "/linked/ip-address.js", 
-      "/linked/jam-digital.js",  
-      "/linked/jam-analog.js",
-   //   "/linked/scroll.js", 
-      "/linked/update.js", 
-      "/linked/whatsapp.js"
+      "/assets/JS/bg_random_color.js", 
+      "/assets/JS/favicon.js",
+      "/assets/JS/google.js", 
+      "/assets/JS/ip-address.js", 
+      "/assets/JS/jam-digital.js",  
+      "/assets/JS/jam-analog.js",
+   //   "/assets/JS/scroll.js", 
+      "/assets/JS/update.js", 
+      "/assets/JS/whatsapp.js"
     ];  
   
     window.onload = function() {  
