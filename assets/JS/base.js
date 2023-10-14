@@ -102,7 +102,7 @@ document.title = updatedTitle;
 const headerHTML = `   
    <script src="/assets/JS/penutup.js"></script>  
    <script src="/assets/JS/names.js"></script>  
-   <script src="/assets/JS/speed.js"></script>  
+   <script src="/assets/JS/speed.js"></script>  //
    <script src="/assets/JS/teks-config.js"></script>
 <hr>
 <hr>
@@ -194,11 +194,11 @@ const headerHTML = `
       "/assets/JS/bg_random_color.js", 
       "/assets/JS/favicon.js",
       "/assets/JS/google.js", 
-      "/assets/JS/ip-address.js", 
-      "/assets/JS/jam-digital.js",  
-      "/assets/JS/jam-analog.js",
+      "/assets/JS/ip-address.js", //
+      "/assets/JS/jam-digital.js",  //
+      "/assets/JS/jam-analog.js", //
    //   "/assets/JS/scroll.js", 
-      "/assets/JS/update.js", 
+      "/assets/JS/update.js", //
       "/assets/JS/whatsapp.js"
     ];  
   
