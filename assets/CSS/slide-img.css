@@ -24,7 +24,7 @@
     margin-right: -4px;
     width: 800px;
     height: 500px;
-    animation: slide 20s infinite; /* Durasi animasi 20 detik */
+    animation: slide 40s infinite; /* Durasi animasi 20 detik */
   }
 .element {
   animation: slide 10s linear infinite;
