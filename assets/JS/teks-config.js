@@ -7,6 +7,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
     "Update Config Dark Tunnel",
     "Update Config V2ray Dark Tunnel",
     "Update Config Open Tunnel",
+    "Update Config eV2ray",
     "Update Config Napsternet",
     "Update Config KPN Tunnel"
   ];
