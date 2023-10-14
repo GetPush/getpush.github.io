@@ -100,10 +100,10 @@ document.title = updatedTitle;
 
 // header
 const headerHTML = `   
-   <script src="/linked/penutup.js"></script>  
-     <script src="/linked/names.js"></script>  
-      <script src="/linked/speed.js"></script>  
-       <script src="/linked/teks-config.js"></script>
+   <script src="/assets/JS/penutup.js"></script>  
+   <script src="/assets/JS/names.js"></script>  
+   <script src="/assets/JS/speed.js"></script>  
+   <script src="/assets/JS/teks-config.js"></script>
 <hr>
 <hr>
 <header>
