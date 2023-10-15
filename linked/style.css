@@ -18,7 +18,7 @@ body {
   color: yellow;
   text-align: center;
   font-size: 27px;
- /* text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;*/
+  text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
 }
 
 .container {
@@ -26,17 +26,21 @@ body {
   width: 100%;
 }
 
-  header {
-    position: pixed;
-    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.2);
-    padding: 1em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-bottom: 3px solid #ccc;
-    font-size: 19px;
-  }
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 3px solid #ccc;
+  font-size: 19px;
+  background-color: transparant; /* Sesuaikan latar belakang sesuai kebutuhan Anda */
+}
 
   .nav-container {
     list-style: none;
@@ -122,69 +126,11 @@ body {
     border: #000 solid 5px;
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
     border-bottom: 3px solid #ccc;
-    background: linear-gradient(to right, #f44336, #ff9800, #ffeb3b, #4caf50, #2196f3, #9c27b0);
+    background: transparant; /*linear-gradient(to right, #f44336, #ff9800, #ffeb3b, #4caf50, #2196f3, #9c27b0);*/
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-
-.button-container {
-  display: flex;
-  justify-content: center; /* Untuk mengatur tombol di tengah */
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.glowing-button {
-  white-space: nowrap;
-  margin: 10px;
-  position: relative;
-  background-color: transparent;
-  box-shadow: 0 0 20px red, 0 0 30px red, 0 0 40px red; /* Shadow button berwarna merah */
-  border: 2px solid #f01f1f;
-  background-color: transparent;
-  transition: 0.4s;
-  font-size: 24px; /* Ukuran teks lebih besar */
-  cursor: pointer;
-  color: black; /* Ganti warna teks menjadi hitam */
-  z-index: 0;
-  min-width: 200px; /* Ukuran tombol yang sesuai */
-  padding: 20px 30px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  text-decoration: none;
-  text-align: center; /* Teks berada di tengah tombol */
-  font-family: Arial, sans-serif; /* Gaya font yang lebih umum */
-}
-
-.glowing-button::before {
-  content: ''; /* Membuat lapisan sebelum tombol */
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: radial-gradient(yellow, transparent); /* Efek sinar kuning */
-  z-index: -1; /* Letakkan di belakang tombol */
-}
-
-.glowing-button span {
-  animation: blink 1s infinite; /* Animasi berkedip untuk teks dalam tombol */
-  font-size: 24px; /* Ukuran teks dalam tombol */
-  display: inline-block; /* Agar padding bisa berfungsi secara merata */
-}
-
-@keyframes blink {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 
   .logo {
     font-family: 'arial', sans-serif;
