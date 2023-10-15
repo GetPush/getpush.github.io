@@ -1,6 +1,6 @@
 #sidenav {
   position: fixed;
-  top: 0;
+  top: 3;
   left: -150%;
   max-height: 100vh;
   height: 100vh;
