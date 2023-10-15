@@ -13,9 +13,10 @@
 
 #sidenav.active {
   left: 0; /* Atur posisi menjadi 0 saat aktif */
+  color: white;
   transition: all .3s ease-in-out;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
-  background-color: inherit; /* Latar belakang mengikuti yang telah diatur melalui JavaScript */
+  background-color: inherit; /* mengikuti melalui JavaScript */
 }
 
 /* Hamburger Menu (Sidebar Toggle) CSS */
