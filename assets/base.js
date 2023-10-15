@@ -124,10 +124,7 @@ const headerHTML = `
          </li>    
          <li>    
            <a href="qhttps://s.bankneo.co.id/iMl110/#register?r_code=D2TYA2">Cuan Legit</a>    
-         </li>   
-         <li>    
-           <a href="/page/tutorial.html">Tutorial</a>    
-         </li>    
+         </li> 
          <li>    
            <a href="https://apppintar.blogspot.com/">Selengkapnya =></a>    
          </li> 
