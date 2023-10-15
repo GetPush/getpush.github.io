@@ -42,6 +42,10 @@ header {
   background-color: transparant;
   z-index: 1000; /* Tambahkan z-index yang sesuai */
 }
+/* Tambahkan margin atas pada elemen pertama di bawah header */
+.content-below-header {
+  margin-top: 19;/* Tambahkan tinggi header di sini */;
+}
 
   .nav-container {
     list-style: none;
