@@ -21,9 +21,8 @@
   background: inherit;
   z-index: -1;
 }
-
 #sidenav.active {
-  background-color: transparent; /* Atur latar belakang menjadi transparan */
+  background-color: rgba(0, 0, 0, 0.3); /* 0.3 menunjukkan tingkat transparansi 30% */
   transition: all 0.3s ease-in-out;
   transform: translate(0, 0);
   -webkit-transform: translate(0, 0);
