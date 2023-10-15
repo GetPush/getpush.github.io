@@ -71,7 +71,7 @@ head.appendChild(linkFavicon);
 // Buat elemen link untuk CSS Stylesheets
 var linkStylesheet = document.createElement('link');
 linkStylesheet.setAttribute('rel', 'stylesheet');
-linkStylesheet.setAttribute('href', '/assets/style.css');
+linkStylesheet.setAttribute('href', '/assets/CSS/style.css');
 head.appendChild(linkStylesheet);
 
 // Mendapatkan judul halaman
