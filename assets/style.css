@@ -29,7 +29,7 @@ body {
 header {
   position: fixed;
   top: 0;
-  left: 0; /* Tambahkan left: 0 untuk memastikan header tetap di kiri */
+  left: 0;
   width: 100%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   padding: 1em;
@@ -39,7 +39,8 @@ header {
   align-items: center;
   border-bottom: 3px solid #ccc;
   font-size: 19px;
-  background-color: white; /* Sesuaikan latar belakang sesuai kebutuhan Anda */
+  background-color: white;
+  z-index: 1000; /* Tambahkan z-index yang sesuai */
 }
 
   .nav-container {
