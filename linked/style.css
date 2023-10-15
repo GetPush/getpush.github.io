@@ -27,7 +27,7 @@ body {
 }
 
   header {
-    position: relative;
+    position: pixed;
     box-shadow: 0 4px 8px rgb(0, 0, 0, 0.2);
     padding: 1em;
     display: flex;
