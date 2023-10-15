@@ -39,12 +39,7 @@ header {
   align-items: center;
   border-bottom: 3px solid #ccc;
   font-size: 19px;
-  background-color: transparant;
-  z-index: 1000; /* Tambahkan z-index yang sesuai */
-}
-/* Tambahkan margin atas pada elemen pertama di bawah header */
-.content-below-header {
-  margin-top: 19;/* Tambahkan tinggi header di sini */;
+  background-color: white; /* Sesuaikan latar belakang sesuai kebutuhan Anda */
 }
 
   .nav-container {
