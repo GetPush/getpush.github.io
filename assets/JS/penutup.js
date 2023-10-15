@@ -76,7 +76,7 @@ button {
       </p>
     </h1>
     </div>
-<header>
+<penulis>
     <div class="nav-row-3">
       <ul>
         <li>
@@ -99,7 +99,7 @@ button {
         </li>
       </ul>
     </div>
-</header>
+</penulis>
 <hr>
     <div class="footer">
       <footer>
