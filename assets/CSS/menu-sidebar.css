@@ -1,25 +1,4 @@
 
-  .header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .menu {
-    display: flex;
-    align-items: center;
-  }
-
-  .menu ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-  }
-
-  .menu li {
-    margin-right: 10px; /* Atur spasi antara menu items */
-  }
 		/*Additional Style */
 
 		/* ######## START FOCUS CSS CODE HERE */
