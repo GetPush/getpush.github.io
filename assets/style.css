@@ -39,7 +39,7 @@ header {
   align-items: center;
   border-bottom: 3px solid #ccc;
   font-size: 19px;
-  background-color: white;
+  background-color: transparant;
   z-index: 1000; /* Tambahkan z-index yang sesuai */
 }
 
