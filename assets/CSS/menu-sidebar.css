@@ -1,5 +1,7 @@
-/* Sidebar CSS */
 #sidenav {
+  position: fixed; /* Mengatur sidenav menjadi posisi tetap */
+  top: 0; /* Atur posisi di bagian atas */
+  left: -150%; /* Atur posisi awal di luar layar */
   max-height: 100vh;
   height: 100vh;
   max-width: 70vw;
@@ -7,16 +9,11 @@
   overflow-x: hidden;
   overflow-y: auto;
   transition: all .3s ease-in-out;
-  transform: translate(-150%, 0);
-  -webkit-transform: translate(-150%, 0);
-  -ms-transform: translate(-150%, 0);
 }
 
 #sidenav.active {
+  left: 0; /* Atur posisi menjadi 0 saat aktif */
   transition: all .3s ease-in-out;
-  transform: translate(0, 0);
-  -webkit-transform: translate(0, 0);
-  -ms-transform: translate(0, 0);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
   background-color: inherit; /* Latar belakang mengikuti yang telah diatur melalui JavaScript */
 }
