@@ -113,6 +113,9 @@ const headerHTML = `
            <a href="/page/home.html">Beranda</a>    
          </li>  
          <li>    
+           <a href="/linked/images/donasi.png">Donasi</a>    
+         </li>
+         <li>    
            <a href="https://www.youtube.com/channel/UCeMezZCLKzcpQyYFSiW6DCA?sub_confirmation=1">YouTube</a>    
          </li>    
          <li>    
@@ -122,8 +125,11 @@ const headerHTML = `
            <a href="qhttps://s.bankneo.co.id/iMl110/#register?r_code=D2TYA2">Cuan Legit</a>    
          </li>   
          <li>    
-           <a href="https://apppintar.blogspot.com/">Blog</a>    
+           <a href="/page/tutorial.html">Tutorial</a>    
          </li>    
+         <li>    
+           <a href="https://apppintar.blogspot.com/">Selengkapnya =></a>    
+         </li> 
          </ul>    
      </nav>    
   </div>    
@@ -138,20 +144,11 @@ const headerHTML = `
            <a href="/about/sosmed.html">Sosmed</a>    
          </li>    
          <li>    
-           <a href="/linked/images/donasi.png">Donasi</a>    
-         </li>
-         <li>    
            <a href="/about/grup-telegram.html">Telegram</a>    
          </li>
          <li>    
-           <a href="/page/tutorial.html">Tutorial</a>    
-         </li>    
-         <li>    
            <a href="/page/apps.html">Aplikasi</a>    
          </li>    
-         <li>    
-           <a href="https://apppintar.blogspot.com/">Selengkapnya =></a>    
-         </li> 
        </ul>    
      </nav>    
    </div>  -->
