@@ -104,6 +104,7 @@ const headerHTML = `
    <script src="/assets/JS/names.js"></script>  
    <script src="/assets/JS/speed.js"></script>  
    <script src="/assets/JS/teks-config.js"></script>
+<br>
 <header>
    <div class="nav-row-1">    
      <nav>    
@@ -153,6 +154,8 @@ const headerHTML = `
      </nav>    
    </div>  -->
 </header>
+<br>
+<br>
  `; 
   
    window.addEventListener("DOMContentLoaded", function () { 
