@@ -156,7 +156,6 @@ const headerHTML = `
      </nav>    
    </div>  -->
 </header>
-<hr>
  `; 
   
    window.addEventListener("DOMContentLoaded", function () { 
