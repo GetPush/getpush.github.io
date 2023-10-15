@@ -1,4 +1,4 @@
-  const penutupHTML = `
+  const sidebarnavHTML = `
 <!-- sidebar konten --> 
          <header class="bg-transparant px2 py1 m0 flex items-center white"> 
                  <div class="burger pointer flex flex-column justify-between mr2"> 
@@ -119,8 +119,8 @@
   `;
 
 document.addEventListener("DOMContentLoaded", function () {
-  var penutupElement = document.getElementById("sidebarnav");
-  if (penutupElement) {
-    penutupElement.innerHTML = penutupHTML;
+  var sidebarnavElement = document.getElementById("sidebarnav");
+  if (sidebarnavElement) {
+    sidebarnavElement.innerHTML = sidebarnavHTML;
   }
 });
