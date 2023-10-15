@@ -1,7 +1,7 @@
 #sidenav {
-  position: fixed; /* Mengatur sidenav menjadi posisi tetap */
-  top: 0; /* Atur posisi di bagian atas */
-  left: -150%; /* Atur posisi awal di luar layar */
+  position: fixed;
+  top: 0;
+  left: -150%;
   max-height: 100vh;
   height: 100vh;
   max-width: 70vw;
@@ -12,11 +12,14 @@
 }
 
 #sidenav.active {
-  left: 0; /* Atur posisi menjadi 0 saat aktif */
-  color: white;
+  left: 0;
   transition: all .3s ease-in-out;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
-  background-color: inherit; /* mengikuti melalui JavaScript */
+  background-color: rgba(0, 0, 0, 0.5); /* Latar belakang redup */
+}
+
+#sidenav.active-content {
+  color: white; /* Konten cerah */
 }
 
 /* Hamburger Menu (Sidebar Toggle) CSS */
