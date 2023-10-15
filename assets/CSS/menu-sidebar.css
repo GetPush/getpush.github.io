@@ -13,6 +13,7 @@
 }
 
 #sidenav.active {
+  background-color: #7aacff;
   transition: all 0.3s ease-in-out;
   transform: translate(0, 0);
   -webkit-transform: translate(0, 0);
