@@ -1,5 +1,4 @@
 /* Sidebar CSS */
-
 #sidenav {
   max-height: 100vh;
   height: 100vh;
@@ -19,7 +18,7 @@
   -webkit-transform: translate(0, 0);
   -ms-transform: translate(0, 0);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
-  background-color: inherit; /* Mengikuti latar belakang yang telah diatur melalui JavaScript */
+  background-color: inherit; /* Latar belakang mengikuti yang telah diatur melalui JavaScript */
 }
 
 /* Hamburger Menu (Sidebar Toggle) CSS */
