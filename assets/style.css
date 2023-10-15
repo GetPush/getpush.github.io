@@ -26,17 +26,20 @@ body {
   width: 100%;
 }
 
-  header {
-    position: pixed;
-    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.2);
-    padding: 1em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-bottom: 3px solid #ccc;
-    font-size: 19px;
-  }
+header {
+  position: fixed; /* Mengatur header menjadi posisi tetap */
+  top: 0; /* Atur posisi di bagian atas */
+  width: 100%; /* Lebar 100% untuk mengisi lebar tampilan */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 3px solid #ccc;
+  font-size: 19px;
+  background-color: white; /* Atur latar belakang sesuai kebutuhan Anda */
+}
 
   .nav-container {
     list-style: none;
