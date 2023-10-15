@@ -1,5 +1,5 @@
 
-		/*Additional Style sidebar */
+/*Additional Style sidebar */
 /* Sidebar CSS */
 #sidenav {
   max-height: 100vh;
@@ -26,8 +26,8 @@
 .burger {
   height: 16px;
   position: absolute;
-  left: 10px;
-  top: 10px;
+  left: 30px;
+  top: 30px;
 }
 
 		.burger span {
