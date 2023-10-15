@@ -21,7 +21,7 @@
   width: 100%;
   height: 100%;
   background: inherit; /* Mengambil warna latar belakang dari elemen di bawahnya */
-  filter: blur(10px); /* Efek blur */
+  filter: blur(77px); /* Efek blur */
   z-index: -1;
 }
 
