@@ -9,20 +9,22 @@
     <link rel="stylesheet" type="text/css" href="/assets/CSS/menu-sidebar.css">
     <link rel="stylesheet" type="text/css" href="/assets/CSS/slide-img.css">
 <script src="/assets/base.js"></script>
-	<script>
-		let burger = document.querySelector('.burger');
-		let close = document.querySelector('.close');
-		let sidenav = document.querySelector('#sidenav');
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    let burger = document.querySelector('.burger');
+    let close = document.querySelector('.close');
+    let sidenav = document.querySelector('#sidenav');
 
-		// Burger click function
-		burger.addEventListener('click', function () {
-			sidenav.classList.add('active');
-		});
-		// Close click function
-		close.addEventListener('click', function () {
-			sidenav.classList.remove('active');
-		});
-	</script>
+    // Burger click function
+    burger.addEventListener('click', function () {
+      sidenav.classList.add('active');
+    });
+    // Close click function
+    close.addEventListener('click', function () {
+      sidenav.classList.remove('active');
+    });
+  });
+</script>
 <script src="/assets/JS/penutup.js"></script>
 <script src="/assets/JS/names.js"></script>
 <title>Update Config Aplikasi Gretongan</title>
