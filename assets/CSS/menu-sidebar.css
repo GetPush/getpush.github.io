@@ -2,19 +2,21 @@
 		/*Additional Style sidebar */
 
 		/* ######## START FOCUS CSS CODE HERE */
-		#sidenav {
-			max-height: 100vh;
-			height: 100vh;
-			max-width: 70vw;
-			min-width: 300px;
-			overflow-x: hidden;
-			overflow-y: auto;
-			transition: all .3s ease-in-out;
-			transform: translate(-150%, 0px);
-			-webkit-transform: translate(-150%, 0px);
-			/* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-			-ms-transform: translate(-150%, 0px);
-		}
+#sidenav {
+  max-height: 100vh;
+  height: 100vh;
+  max-width: 70vw;
+  min-width: 300px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  transition: all .3s ease-in-out;
+  transform: translate(-100%, 0px); /* Ubah dari -150% menjadi -100% */
+  -webkit-transform: translate(-100%, 0px);
+  -ms-transform: translate(-100%, 0px);
+  position: absolute; /* Tambahkan ini */
+  left: 0; /* Tambahkan ini */
+  top: 0; /* Tambahkan ini */
+}
 		#sidenav.active {
 			transition: all .3s ease-in-out;
 			transform: translate(0%, 0px);
