@@ -1,7 +1,6 @@
 
 		/*Additional Style sidebar */
-
-		/* ######## START FOCUS CSS CODE HERE */
+/* Sidebar CSS */
 #sidenav {
   max-height: 100vh;
   height: 100vh;
@@ -10,26 +9,27 @@
   overflow-x: hidden;
   overflow-y: auto;
   transition: all .3s ease-in-out;
-  transform: translate(-100%, 0px); /* Ubah dari -150% menjadi -100% */
-  -webkit-transform: translate(-100%, 0px);
-  -ms-transform: translate(-100%, 0px);
-  position: absolute; /* Tambahkan ini */
-  left: 0; /* Tambahkan ini */
-  top: 0; /* Tambahkan ini */
+  transform: translate(-150%, 0px);
+  -webkit-transform: translate(-150%, 0px);
+  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -ms-transform: translate(-150%, 0px);
 }
-		#sidenav.active {
-			transition: all .3s ease-in-out;
-			transform: translate(0%, 0px);
-			-webkit-transform: translate(0%, 0px);
-			-ms-transform: translate(0%, 0px);
-			box-shadow: 0 4px 6px rgba(0, 0, 0, .4);
-		}
+#sidenav.active {
+  transition: all .3s ease-in-out;
+  transform: translate(0%, 0px);
+  -webkit-transform: translate(0%, 0px);
+  -ms-transform: translate(0%, 0px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, .4);
+}
 
-		/* ######## END FOCUS CSS CODE HERE */
+/* Hamburger Menu (Sidebar Toggle) CSS */
+.burger {
+  height: 16px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
 
-		.burger {
-			height: 16px
-		}
 		.burger span {
 			display: block;
 			width: 20px;
