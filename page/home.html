@@ -131,6 +131,22 @@
 		</ul>
 	</div>
 <!-- ######## END FOCUS SIDEBAR CODE HERE -->
+	<!-- ######## START FOCUS JS CODE HERE -->
+	<script>
+		let burger = document.querySelector('.burger');
+		let close = document.querySelector('.close');
+		let sidenav = document.querySelector('#sidenav');
+
+		// Burger click function
+		burger.addEventListener('click', function () {
+			sidenav.classList.add('active');
+		});
+		// Close click function
+		close.addEventListener('click', function () {
+			sidenav.classList.remove('active');
+		});
+	</script>
+	<!-- ######## /END FOCUS JS CODE HERE -->
   <div id="header"></div>
   <br>
     <p style="text-align: center;"><a class="logo">UPDATE</a></p>
