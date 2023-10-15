@@ -27,9 +27,10 @@ body {
 }
 
 header {
-  position: fixed; /* Mengatur header menjadi posisi tetap */
-  top: 0; /* Atur posisi di bagian atas */
-  width: 100%; /* Lebar 100% untuk mengisi lebar tampilan */
+  position: fixed;
+  top: 0;
+  left: 0; /* Tambahkan left: 0 untuk memastikan header tetap di kiri */
+  width: 100%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   padding: 1em;
   display: flex;
@@ -38,7 +39,7 @@ header {
   align-items: center;
   border-bottom: 3px solid #ccc;
   font-size: 19px;
-  background-color: white; /* Atur latar belakang sesuai kebutuhan Anda */
+  background-color: white; /* Sesuaikan latar belakang sesuai kebutuhan Anda */
 }
 
   .nav-container {
