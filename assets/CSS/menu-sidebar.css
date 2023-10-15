@@ -19,7 +19,7 @@
   width: 100%;
   height: 100%;
   background: inherit;
-  filter: blur(10px); /* Efek blur */
+  filter: blur(10px); /* Efek blur latar belakang situs web */
   z-index: -1;
 }
 
