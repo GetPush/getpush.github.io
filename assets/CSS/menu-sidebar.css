@@ -26,8 +26,6 @@
 		/* ######## END FOCUS CSS CODE HERE */
 
 		.burger {
-    /* Mengatur posisi ke kiri */
-    order: 1;
 			height: 16px
 		}
 		.burger span {
