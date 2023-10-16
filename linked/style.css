@@ -46,7 +46,7 @@ body {
 .main-header {
     position: -webkit-sticky;
     position: sticky;
-    top: 70; /* Atur sesuai kebutuhan */
+    top: 100; /* Atur sesuai kebutuhan */
   width: 100%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   padding: 1em;
