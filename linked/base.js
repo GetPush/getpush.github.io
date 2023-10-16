@@ -236,6 +236,8 @@ const headerHTML = `
                          sidenav.classList.remove('active'); 
                  }); 
          </script>
+<br>
+<br>
    <div class="nav-row-1">    
      <nav>    
        <ul class="nav-container">    
