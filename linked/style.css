@@ -39,7 +39,7 @@ body {
   align-items: center;
   border-bottom: 3px solid #ccc;
   font-size: 19px;
-  background-color: red; /* Sesuaikan latar belakang sesuai kebutuhan Anda */
+  background-color: red;
 }
 
 .main-header {
@@ -55,7 +55,7 @@ body {
   align-items: center;
   border-bottom: 3px solid #ccc;
   font-size: 19px;
-  background-color: red; /* Sesuaikan latar belakang sesuai kebutuhan Anda */
+  background-color: transparant;
 }
 
 .main-content {
