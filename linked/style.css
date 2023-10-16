@@ -39,7 +39,7 @@ body {
   align-items: center;
   border-bottom: 3px solid #ccc;
   font-size: 19px;
-  background-color: red;
+  background-color: transparant;
 }
 
 .main-header {
