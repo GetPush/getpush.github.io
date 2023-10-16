@@ -105,7 +105,7 @@ const headerHTML = `
    <script src="/assets/JS/speed.js"></script>  
    <script src="/assets/JS/teks-config.js"></script>
 <header>
-        <header class="bg-transparant px2 py1 m0 flex items-center white"> 
+        <div class="bg-transparant px2 py1 m0 flex items-center white"> 
                  <div class="burger pointer flex flex-column justify-between mr2"> 
                          <span class="bg-red"></span> 
                          <span class="bg-yellow"></span> 
@@ -119,7 +119,7 @@ const headerHTML = `
                                  <li class="inline-block btn p0">Blog</li> 
                          </ul> 
                  </nav> 
-         </header> 
+         </div> 
  <!-- ######## START FOCUS SIDEBAR CODE HERE --> 
          <div id="sidenav" class="fixed z4 top-0 left-0 bg-white p2"> 
                  <div class="close flex items-center justify-center relative pointer mb2 right"> 
