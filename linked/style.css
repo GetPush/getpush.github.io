@@ -39,7 +39,7 @@ header {
   align-items: center;
   border-bottom: 3px solid #ccc;
   font-size: 19px;
-  background-color: transparant; /* Sesuaikan latar belakang sesuai kebutuhan Anda */
+  background-color: red; /* Sesuaikan latar belakang sesuai kebutuhan Anda */
 }
 
   .nav-container {
