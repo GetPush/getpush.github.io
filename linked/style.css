@@ -46,6 +46,7 @@ body {
   position: -webkit-sticky;
   position: sticky;
   top: /* Tambahkan nilai tinggi sidebar-header di sini */ 3em;
+  left: 0;
   width: 100%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   padding: 1em;
