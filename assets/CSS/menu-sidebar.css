@@ -19,7 +19,7 @@
 }
 
 #sidenav.active-content {
-  color: white; /* Konten cerah */
+  color: red; /* Konten cerah */
 }
 
 /* Hamburger Menu (Sidebar Toggle) CSS */
