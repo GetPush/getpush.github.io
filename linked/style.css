@@ -38,6 +38,7 @@ body {
   justify-content: center;
   align-items: center;
   border-bottom: 3px solid #ccc;
+  color: white;
   font-size: 19px;
   background-color: transparant;
 }
