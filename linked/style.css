@@ -26,22 +26,6 @@ body {
   width: 100%;
 }
 
-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  padding: 1em;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-bottom: 3px solid #ccc;
-  font-size: 19px;
-  background-color: red; /* Sesuaikan latar belakang sesuai kebutuhan Anda */
-}
-
 .sidebar-header {
     position: fixed;
     top: 0;
