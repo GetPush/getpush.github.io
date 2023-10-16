@@ -104,7 +104,10 @@ const headerHTML = `
    <script src="/assets/JS/names.js"></script>  
    <script src="/assets/JS/speed.js"></script>  
    <script src="/assets/JS/teks-config.js"></script>
-<header>
+<br>
+<br>
+<br>
+<header class="main-header">
    <div class="nav-row-1">    
      <nav>    
        <ul class="nav-container">    
@@ -150,8 +153,6 @@ const headerHTML = `
      </nav>    
    </div>  -->
 </header>
-<br>
-<br>
 <br>
  `; 
   
