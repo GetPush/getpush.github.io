@@ -26,9 +26,6 @@ body {
   width: 100%;
 }
 
-/* CSS Anda */
-
-/* Elemen Sidebar (fixed di atas) */
 .sidebar-header {
     position: fixed;
     top: 0;
