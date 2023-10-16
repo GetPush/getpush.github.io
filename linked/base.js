@@ -119,7 +119,8 @@ const headerHTML = `
                                  <li class="inline-block btn p0">Blog</li> 
                          </ul> 
                  </nav> 
-         </header> 
+         </header>
+<br>
 <br>
 <br>
    <div class="nav-row-1">    
