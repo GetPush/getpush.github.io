@@ -26,30 +26,35 @@ body {
   width: 100%;
 }
 
+/* CSS Anda */
+
+/* Elemen Sidebar (fixed di atas) */
 .sidebar-header {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%; /* Atur lebar sesuai kebutuhan Anda */
-    /* Gaya header sidebar (tetap di atas layar) */
-    background-color: red;
-    z-index: 2; /* Untuk memastikan header tetap di atas konten */
+    width: 100%;
+    background-color: red; /* Sesuaikan sesuai kebutuhan */
+    padding: 1em;
+    text-align: center;
 }
 
+/* Elemen Main Header (sticky di bawah) */
 .main-header {
+    position: -webkit-sticky;
     position: sticky;
-    top: 60;
-    width: 100%; /* Atur lebar sesuai kebutuhan Anda */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    top: 0; /* Atur sesuai kebutuhan */
+    background-color: blue; /* Sesuaikan sesuai kebutuhan */
     padding: 1em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-bottom: 3px solid #ccc;
-    font-size: 19px;
-    /* Gaya header utama (akan menjadi sticky saat di scroll) */
+    text-align: center;
 }
+
+/* Konten Utama */
+.main-content {
+    /* Gaya untuk konten utama, seperti padding, margin, dsb. */
+    padding: 1em;
+}
+
 
 /* Anda dapat menambahkan properti CSS lainnya sesuai kebutuhan Anda */
 
