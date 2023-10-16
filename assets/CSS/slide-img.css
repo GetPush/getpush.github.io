@@ -27,7 +27,7 @@
     animation: slide 40s infinite; /* Durasi animasi 20 detik */
   }
 .element {
-  animation: slide 10s linear infinite;
+  animation: slide 40s linear infinite;
 }
 
 @keyframes slide {
