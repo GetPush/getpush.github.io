@@ -42,6 +42,73 @@ body {
   font-size: 19px;
   background-color: rgba(0, 0, 0, 0.5); /* Latar belakang redup */
 }
+#sidenav {
+  position: fixed;
+  top: 0;
+  left: -150%;
+  max-height: 100vh;
+  height: 100vh;
+  max-width: 70vw;
+  min-width: 300px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  transition: all .3s ease-in-out;
+}
+
+#sidenav.active {
+  left: 0;
+  transition: all .3s ease-in-out;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.5); /* Latar belakang redup */
+}
+
+#sidenav.active-content {
+  color: red; /* Konten cerah */
+}
+
+/* Hamburger Menu (Sidebar Toggle) CSS */
+.burger {
+  height: 20px;
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}
+
+.burger span {
+  display: block;
+  width: 20px;
+  height: 2px;
+  border-radius: 3px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.close {
+  width: 23px;
+  height: 23px;
+}
+
+.cross {
+  height: 23px;
+  width: 2px;
+  border-radius: 3px;
+}
+
+.cross.left {
+  transform: rotate(45deg);
+}
+
+.cross.right {
+  transform: rotate(-45deg);
+}
+
+.align-middle {
+  vertical-align: middle;
+}
+
+/*and for sidebar*/
 
 .main-header {
   position: -webkit-sticky;
