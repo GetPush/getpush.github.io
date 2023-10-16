@@ -188,6 +188,8 @@ const headerHTML = `
     var scriptsToLoad = [  
       "/assets/JS/bg_random_color.js", 
       "/assets/JS/sidenav.js", 
+      "/assets/JS/sidebarnav.js",
+      "/assets/JS/penutup.js",
       "/assets/JS/favicon.js",
       "/assets/JS/google.js", 
       "/assets/JS/ip-address.js", 
