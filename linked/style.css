@@ -28,7 +28,7 @@ body {
 
 header {
   position: fixed;
-  top: 70;
+  top: 60;
   left: 0;
   width: 100%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
