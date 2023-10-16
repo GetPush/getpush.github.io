@@ -30,10 +30,16 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    background-color: red; /* Sesuaikan sesuai kebutuhan */
-    padding: 1em;
-    text-align: center;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 3px solid #ccc;
+  font-size: 19px;
+  background-color: red; /* Sesuaikan latar belakang sesuai kebutuhan Anda */
 }
 
 /* Elemen Main Header (sticky di bawah) */
@@ -41,9 +47,16 @@ body {
     position: -webkit-sticky;
     position: sticky;
     top: 30; /* Atur sesuai kebutuhan */
-    background-color: blue; /* Sesuaikan sesuai kebutuhan */
-    padding: 1em;
-    text-align: center;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 3px solid #ccc;
+  font-size: 19px;
+  background-color: red; /* Sesuaikan latar belakang sesuai kebutuhan Anda */
 }
 
 /* Konten Utama */
