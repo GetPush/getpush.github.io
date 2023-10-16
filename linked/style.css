@@ -42,6 +42,33 @@ header {
   background-color: red; /* Sesuaikan latar belakang sesuai kebutuhan Anda */
 }
 
+.sidebar-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* Atur lebar sesuai kebutuhan Anda */
+    /* Gaya header sidebar (tetap di atas layar) */
+    background-color: red;
+    z-index: 2; /* Untuk memastikan header tetap di atas konten */
+}
+
+.main-header {
+    position: sticky;
+    top: 0;
+    width: 100%; /* Atur lebar sesuai kebutuhan Anda */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid #ccc;
+    font-size: 19px;
+    /* Gaya header utama (akan menjadi sticky saat di scroll) */
+}
+
+/* Anda dapat menambahkan properti CSS lainnya sesuai kebutuhan Anda */
+
   .nav-container {
     list-style: none;
     margin: 0;
