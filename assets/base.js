@@ -71,7 +71,7 @@ head.appendChild(linkFavicon);
 // Buat elemen link untuk CSS Stylesheets
 var linkStylesheet = document.createElement('link');
 linkStylesheet.setAttribute('rel', 'stylesheet');
-linkStylesheet.setAttribute('href', '/linked/style.css');
+linkStylesheet.setAttribute('href', 'href="https://unpkg.com/ace-css/css/ace.min.css');
 head.appendChild(linkStylesheet);
 
 // Mendapatkan judul halaman
@@ -188,6 +188,8 @@ const headerHTML = `
     var scriptsToLoad = [  
       "/assets/JS/bg_random_color.js", 
       "/assets/JS/sidenav.js", 
+      "/assets/JS/sidebarnav.js",
+      "/assets/JS/penutup.js",
       "/assets/JS/favicon.js",
       "/assets/JS/google.js", 
       "/assets/JS/ip-address.js", 
