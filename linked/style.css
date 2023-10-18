@@ -437,19 +437,22 @@ body {
         width: 100%;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     }
+/* Tombol Unduh Utama */
+.download-buttons {
+  text-align: center;
+}
 
-     download-buttons { 
-       display: flex; 
-       flex-direction: column; 
-       align-items: center; 
-     } 
-  
-     download-button { 
-     background-color: transparant; 
-     padding: 20px; 
-     border-radius: 40px; 
-     box-shadow: 0 0 40px rgba(0, 0, 0, 0.3); 
-     border-bottom: 3px solid #ccc; 
-     font-size: 2em; 
-     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); 
-     } 
+.download-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.download-button:hover {
+  background-color: #0056b3;
+}
