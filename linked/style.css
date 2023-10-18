@@ -438,6 +438,71 @@ body {
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     }
 
+ media="screen"
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #7aacff;
+  }
+  .container-slide {
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 10px solid #ffffff;
+    border-radius: 8px;
+    box-shadow: 10px 25px 30px rgba(0, 0, 0, 0.3);
+  }
+  .wrapper {
+    width: 8000px; /* 10 kali lebar container untuk slide gambar (800x10) */
+    display: flex;
+  }
+  .wrapper img {
+    float: left;
+    margin-right: -4px;
+    width: 800px;
+    height: 500px;
+    animation: slide 40s infinite; /* Durasi animasi 20 detik */
+  }
+.element {
+  animation: slide 40s linear infinite;
+}
+
+@keyframes slide {
+  0%, 95% {
+    transform: translateX(0);
+  }
+  5%, 90% {
+    transform: translateX(-100%);
+  }
+  10%, 85% {
+    transform: translateX(-200%);
+  }
+  15%, 80% {
+    transform: translateX(-300%);
+  }
+  20%, 75% {
+    transform: translateX(-400%);
+  }
+  25%, 70% {
+    transform: translateX(-500%);
+  }
+  30%, 65% {
+    transform: translateX(-600%);
+  }
+  35%, 60% {
+    transform: translateX(-700%);
+  }
+  40%, 55%{
+    transform: translateX(-800%);
+  }
+  45%, 50% {
+    transform: translateX(-900%);
+  }
+}
+
      download-buttons { 
        display: flex; 
        flex-direction: column; 
