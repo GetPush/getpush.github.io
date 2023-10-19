@@ -6,7 +6,7 @@
                          <span class="bg-green"></span> 
                  </div> 
  <!-- Atap website --> 
- <a class="white caps text-decoration-none h3 bold" href="#" style="text-align: left;">Logo</a> 
+ <a class="white caps text-decoration-none h3 bold" href="#" style="text-align: left;">•••</a> 
                  <nav class="ml-auto"> 
                          <ul class="list-reset m0 h5 caps"> 
                                  <li class="inline-block btn p0 mr1">About</li> 
