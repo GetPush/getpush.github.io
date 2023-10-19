@@ -15,7 +15,7 @@
                  </nav> 
          </header> 
  <!-- ######## START FOCUS SIDEBAR CODE HERE --> 
-         <div id="sidenav" class="fixed z4 top-0 left-0 bg-white p2"> 
+         <div id="sidenav" class="fixed z4 top-0 left-0 p2"> 
                  <div class="close flex items-center justify-center relative pointer mb2 right"> 
                          <div class="absolute cross bg-gray left"></div> 
                          <div class="absolute cross bg-gray right"></div> 
