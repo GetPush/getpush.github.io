@@ -1,20 +1,31 @@
-#sidenav {
-  position: fixed;
-  top: 0;
-  left: -150%;
-  max-height: 100vh;
-  height: 100vh;
-  max-width: 70vw;
-  min-width: 300px;
-  overflow-x: hidden;
-  overflow-y: auto;
-  transition: all .3s ease-in-out;
-  left: 0;
-  transition: all .3s ease-in-out;
+		/* ######## START FOCUS CSS CODE HERE */
+		#sidenav {
+			max-height: 100vh;
+			height: 100vh;
+			max-width: 70vw;
+			min-width: 300px;
+			overflow-x: hidden;
+			overflow-y: auto;
+			transition: all .3s ease-in-out;
+			transform: translate(-150%, 0px);
+			-webkit-transform: translate(-150%, 0px);
+			/* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+			-ms-transform: translate(-150%, 0px);
+		}
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
   background-color: rgba(0, 0, 0, 0.5); /* Latar belakang redup */
   color: red; /* Konten cerah */
 }
+
+		#sidenav.active {
+			transition: all .3s ease-in-out;
+			transform: translate(0%, 0px);
+			-webkit-transform: translate(0%, 0px);
+			-ms-transform: translate(0%, 0px);
+			box-shadow: 0 4px 6px rgba(0, 0, 0, .4);
+		}
+
+		/* ######## END FOCUS CSS CODE HERE */
 
 /* Hamburger Menu (Sidebar Toggle) CSS */
 .burger {
