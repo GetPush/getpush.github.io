@@ -6,23 +6,22 @@ proxy-groups:
       - SEIMBANG
       - BestPing
       - 🕊️Utama
-      - 🐎INDONESIA
-      - 🐎CANADA
-      - 🐎ROMANIA
-      - 🐎FRANCIS
-      - 🐎THAILAND
-      - 🐎NETHERLANDS
-      - 🐎UNITED KINGDOM
-#      - 🐎TURKEY
-      - 🐎GERMANY
-      - 🐎SG AMP
-      - 🐎SG MELBI
-      - 🐎SG HE MUX
-      - 🐎SG HE 1
-      - 🐎SG HE 2
-      - 🐎SG HE 3
-      - 🐎US
-      - Prioritas
+      - INDONESIA
+      - CANADA
+      - ROMANIA
+      - FRANCIS
+      - THAILAND
+      - NETHERLANDS
+      - UNITED KINGDOM
+#      - TURKEY
+      - GERMANY
+      - SG AMP
+      - SG MELBI
+      - SG HE MUX
+      - SG HE 1
+      - SG HE 2
+      - SG HE 3
+      - US
       - DIRECT
 
   - name: ADS💰
@@ -68,19 +67,6 @@ proxy-groups:
       - Support
 
 
-  - name: Prioritas
-    type: fallback
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '600'
-    use:
-      - pServer1
-      - pServer2
-      - pServer3
-      - pServer4
-      - pCanada
-      - pIndo
-
   - name: 🕊️Utama
     type: fallback
     disable-udp: false
@@ -123,234 +109,235 @@ proxy-groups:
       - Server4
 
 # seleksi Trojan
-  - name: 🐎CANADA
+  - name: CANADA
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '150'
     use:
-      - 🐎CANADA
-  - name: 🐎ROMANIA
+      - CANADA
+  - name: ROMANIA
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '150'
     use:
-      - 🐎ROMANIA
-  - name: 🐎NETHERLANDS
+      - ROMANIA
+  - name: NETHERLANDS
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '150'
     use:
-      - 🐎NETHERLANDS
-  - name: 🐎FRANCIS
+      - NETHERLANDS
+  - name: FRANCIS
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '150'
     use:
-      - 🐎FRANCIS
-  - name: 🐎THAILAND
+      - FRANCIS
+  - name: THAILAND
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '150'
     use:
-      - 🐎THAILAND
-  - name: 🐎SG HE MUX
+      - THAILAND
+  - name: SG HE MUX
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '150'
     use:
-      - 🐎SG HE MUX
-  - name: 🐎GERMANY
+      - SG HE MUX
+  - name: GERMANY
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '150'
     use:
-      - 🐎GERMANY
-#  - name: 🐎TURKEY
+      - GERMANY
+#  - name: TURKEY
 #    type: fallback
 #    disable-udp: false
 #    url: http://www.gstatic.com/generate_204
 #    interval: '150'
 #    use:
-#      - 🐎TURKEY
-  - name: 🐎UNITED KINGDOM
+#      - TURKEY
+  - name: UNITED KINGDOM
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '150'
     use:
-      - 🐎UNITED KINGDOM
-  - name: 🐎SG MELBI
+      - UNITED KINGDOM
+  - name: SG MELBI
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '150'
     use:
-      - 🐎SG MELBI
-  - name: 🐎SG HE 2
+      - SG MELBI
+  - name: SG HE 2
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '150'
     use:
-      - 🐎SG HE 2
-  - name: 🐎SG HE 3
+      - SG HE 2
+  - name: SG HE 3
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '150'
     use:
-      - 🐎SG HE 3
-  - name: 🐎US
+      - SG HE 3
+  - name: US
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '150'
     use:
-      - 🐎US
-  - name: 🐎SG HE 1
+      - US
+  - name: SG HE 1
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '150'
     use:
-      - 🐎SG HE 1
-  - name: 🐎INDONESIA
+      - SG HE 1
+  - name: INDONESIA
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '150'
     use:
-      - 🐎ID HERZA
-  - name: 🐎SG AMP
+      - ID HERZA
+  - name: SG AMP
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '150'
     use:
-      - 🐎SG AMP
+      - SG AMP
 
 
 proxy-providers:
 # ### Trojan Community ###
-  🐎CANADA: 
+  CANADA: 
      type: http 
-     path: ./🐎canada.yaml 
+     path: ./canada.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/canada.yaml"
      interval: 1200
-  🐎ROMANIA: 
+  ROMANIA: 
      type: http 
-     path: ./🐎romania.yaml 
+     path: ./romania.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/romania.yaml"
      interval: 1200
-  🐎NETHERLANDS: 
+  NETHERLANDS: 
      type: http 
-     path: ./🐎netherlands.yaml 
+     path: ./netherlands.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/netherlands.yaml"
      interval: 1200
-  🐎FRANCIS: 
+  FRANCIS: 
      type: http 
-     path: ./🐎francis.yaml 
+     path: ./francis.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/francis.yaml"
      interval: 1200
-  🐎THAILAND: 
+  THAILAND: 
      type: http 
-     path: ./🐎thailand.yaml 
+     path: ./thailand.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/thailand.yaml"
      interval: 1200
-  🐎SG HE MUX: 
+  SG HE MUX: 
      type: http 
-     path: ./🐎sg he mux.yaml 
+     path: ./sg he mux.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/sg%20he%20mux.yaml"
      interval: 1200
-#  🐎TURKEY: 
+#  TURKEY: 
 #     type: http 
-#     path: ./🐎turkey.yaml 
+#     path: ./turkey.yaml 
 #     health-check: 
 #     enable: true 
 #     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/turkey.yaml"
 #     interval: 1200
-  🐎GERMANY: 
+  GERMANY: 
      type: http 
-     path: ./🐎germany.yaml 
+     path: ./germany.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/germany.yaml"
      interval: 1200
-  🐎UNITED KINGDOM: 
+  UNITED KINGDOM: 
      type: http 
-     path: ./🐎united kingdom.yaml 
+     path: ./united kingdom.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/united%20kingdom.yaml"
      interval: 1200
-  🐎SG MELBI: 
+  SG MELBI: 
      type: http 
-     path: ./🐎sg melbi.yaml 
+     path: ./sg melbi.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/sg%20melbi.yaml"
      interval: 1200
-  🐎SG HE 2: 
+  SG HE 2: 
      type: http 
-     path: ./🐎sg he 2.yaml 
+     path: ./sg he 2.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/sg%20he%202.yaml"
      interval: 1200
-  🐎SG HE 3: 
+  SG HE 3: 
      type: http 
-     path: ./🐎sg he 3.yaml 
+     path: ./sg he 3.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/sg%20he%203.yaml"
      interval: 1200
-  🐎US: 
+  US: 
      type: http 
-     path: ./🐎us.yaml 
+     path: ./us.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/us.yaml"
      interval: 1200
-  🐎SG HE 1: 
+  SG HE 1: 
      type: http 
-     path: ./🐎sg he 1.yaml 
+     path: ./sg he 1.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/sg%20he%201.yaml"
      interval: 1200
-  🐎ID HERZA: 
+  ID HERZA: 
      type: http 
-     path: ./🐎id herza.yaml 
+     path: ./id herza.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/id%20herza.yaml"
      interval: 1200
-  🐎SG AMP: 
+  SG AMP: 
      type: http 
-     path: ./🐎sg amp.yaml 
+     path: ./sg amp.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/sg%20amp.yaml"
      interval: 1200
+
 
 
 
@@ -383,6 +370,8 @@ proxy-providers:
     enable: true
     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/server/server4.yaml"
     interval: 1200
+
+
 
 #Support
 
@@ -421,51 +410,6 @@ proxy-providers:
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/Support/Support5.yaml"
      interval: 1200
-
-# ### Server prioritas ###
-  pServer1:
-    type: http
-    path: ./pserver1.yaml
-    health-check:
-    enable: true
-    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/prioritas/server1.yaml"
-    interval: 1200
-  pServer2:
-    type: http
-    path: ./pserver2.yaml
-    health-check:
-    enable: true
-    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/prioritas/server2.yaml"
-    interval: 1200
-  pServer3:
-    type: http
-    path: ./pserver3.yaml
-    health-check:
-    enable: true
-    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/prioritas/server3.yaml"
-    interval: 1200
-  pServer4:
-    type: http
-    path: ./pserver4.yaml
-    health-check:
-    enable: true
-    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/prioritas/server4.yaml"
-    interval: 1200
-  pCanada:
-    type: http
-    path: ./pCanada.yaml
-    health-check:
-    enable: true
-    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/prioritas/Canada.yaml"
-    interval: 1200
-  pIndo:
-    type: http
-    path: ./pIndo.yaml
-    health-check:
-    enable: true
-    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/prioritas/Indo.yaml"
-    interval: 1200
-
 
 
 
