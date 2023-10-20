@@ -14,8 +14,10 @@
 }
 
 #sidenav.active {
-  left: 0;
-  transition: all .3s ease-in-out;
+			transition: all .3s ease-in-out;
+			transform: translate(0%, 0px);
+			-webkit-transform: translate(0%, 0px);
+			-ms-transform: translate(0%, 0px);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
   background-color: rgba(0, 0, 0, 0.5); /* Latar belakang redup */
 }
