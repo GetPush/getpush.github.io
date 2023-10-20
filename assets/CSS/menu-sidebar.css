@@ -1,69 +1,67 @@
-/* ######## START FOCUS CSS CODE HERE */
 #sidenav {
-    max-height: 100vh;
-    height: 100vh;
-    max-width: 70vw;
-    min-width: 300px;
-    overflow-x: hidden;
-    overflow-y: auto;
-    transition: all 0.3s ease-in-out;
-    transform: translate(-150%, 0px);
-    -webkit-transform: translate(-150%, 0px); /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-    -ms-transform: translate(-150%, 0px);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
-    background-color: rgba(0, 0, 0, 0.5); /* Latar belakang redup */
-    color: red; /* Konten cerah */
+  position: fixed;
+  top: 0;
+  left: -150%;
+  max-height: 100vh;
+  height: 100vh;
+  max-width: 70vw;
+  min-width: 300px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  transition: all .3s ease-in-out;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.5); /* Latar belakang redup */
 }
 
 #sidenav.active {
-    transition: all 0.3s ease-in-out;
-    transform: translate(0%, 0px);
-    -webkit-transform: translate(0%, 0px);
-    -ms-transform: translate(0%, 0px);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+  left: 0;
+  transition: all .3s ease-in-out;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.5); /* Latar belakang redup */
 }
 
-/* ######## END FOCUS CSS CODE HERE */
+#sidenav.active-content {
+  color: red; /* Konten cerah */
+}
 
 /* Hamburger Menu (Sidebar Toggle) CSS */
 .burger {
-    height: 20px;
-    position: absolute;
-    left: 30px;
-    top: 30px;
+  height: 20px;
+  position: absolute;
+  left: 30px;
+  top: 30px;
 }
 
 .burger span {
-    display: block;
-    width: 20px;
-    height: 2px;
-    border-radius: 3px;
+  display: block;
+  width: 20px;
+  height: 2px;
+  border-radius: 3px;
 }
 
 .pointer {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .close {
-    width: 23px;
-    height: 23px;
+  width: 23px;
+  height: 23px;
 }
 
 .cross {
-    height: 23px;
-    width: 2px;
-    border-radius: 3px;
+  height: 23px;
+  width: 2px;
+  border-radius: 3px;
 }
 
 .cross.left {
-    transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .cross.right {
-    transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .align-middle {
-    vertical-align: middle;
+  vertical-align: middle;
 }
-/*and for sidebar*/
