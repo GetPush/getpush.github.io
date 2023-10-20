@@ -228,13 +228,13 @@ body {
     text-transform: uppercase;
   }
 
-  img {
+/*  img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     border: #000 solid 1px;
     box-shadow: 1px 1px 0 #ffffff, -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff;
-  }
+  }*/
 
   .shortlink {
     color: transparent;
