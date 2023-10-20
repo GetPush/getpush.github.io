@@ -9,7 +9,7 @@
   overflow-x: hidden;
   overflow-y: auto;
   transition: all .3s ease-in-out;
-	 transform: translate(-150%, 0px);
+  transform: translate(-150%, 0px);
   -webkit-transform: translate(-150%, 0px);
 		/* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
 		-ms-transform: translate(-150%, 0px);
