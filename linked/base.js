@@ -113,7 +113,7 @@ const headerHTML = `
        <ul class="nav-container">    
          <h1 class="title"></h1>    
          <li>    
-           <a href="/page/home.html">Beranda</a>    
+           <a href="/dasboard.html">Beranda</a>    
          </li>  
          <li>    
            <a href="/linked/images/donasi.png">Donasi</a>    
