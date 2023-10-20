@@ -9,16 +9,10 @@
   overflow-x: hidden;
   overflow-y: auto;
   transition: all .3s ease-in-out;
-}
-
-#sidenav.active {
   left: 0;
   transition: all .3s ease-in-out;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
   background-color: rgba(0, 0, 0, 0.5); /* Latar belakang redup */
-}
-
-#sidenav.active-content {
   color: red; /* Konten cerah */
 }
 
