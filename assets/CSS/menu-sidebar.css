@@ -9,6 +9,10 @@
   overflow-x: hidden;
   overflow-y: auto;
   transition: all .3s ease-in-out;
+	 transform: translate(-150%, 0px);
+		-webkit-transform: translate(-150%, 0px);
+		/* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+		-ms-transform: translate(-150%, 0px);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
   background-color: rgba(0, 0, 0, 0.5); /* Latar belakang redup */
   color: red; /* Konten cerah */
