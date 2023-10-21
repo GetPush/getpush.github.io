@@ -113,7 +113,7 @@ const headerHTML = `
        <ul class="nav-container">    
          <h1 class="title"></h1>    
          <li>    
-           <a href="/page/home.html">Beranda</a>    
+           <a href="/">Beranda</a>    
          </li>  
          <li>    
            <a href="/linked/images/donasi.png">Donasi</a>    
@@ -188,7 +188,7 @@ const headerHTML = `
     var scriptsToLoad = [  
       "/assets/JS/bg_random_color.js", 
       "/assets/JS/sidenav.js", 
-      "/assets/JS/sidebarnav.js",
+  //    "/assets/JS/sidebarnav.js",
       "/assets/JS/penutup.js",
       "/assets/JS/favicon.js",
       "/assets/JS/google.js", 
