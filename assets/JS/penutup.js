@@ -115,7 +115,7 @@
                  </ul> 
     <br>
  <div class="button-container">
-  <article style="text-align: center;"><a class="button" id="myButton" href="/"><span>reset: 10:00 AM & PM</span></a>
+  <article style="text-align: center;"><a class="banner-bar" id="myButton" href="/"><span>reset: 10:00 AM & PM</span></a>
    </article>
  </div>
          </div> 
@@ -148,7 +148,7 @@ h1 {
 }
 
 #comment-input {
-    width: 300px;
+    width: 40px;
     height: 100px;
     resize: none;
 }
