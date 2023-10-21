@@ -5,8 +5,9 @@
     border-radius: 40px;
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
     border-bottom: 3px solid #ccc;
-    font-size: 2em;
+    font-size: 1em;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    color: white;
   }
 #sidenav {
   position: fixed;
@@ -25,7 +26,7 @@
 }
 
 #sidenav.active {
-  left: 50;
+  left: 10;
   transition: all .3s ease-in-out;
   transform: translate(0%, 0px);
   -webkit-transform: translate(0%, 0px);
