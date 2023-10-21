@@ -11,7 +11,7 @@
   transition: all .3s ease-in-out;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
   background-color: rgba(0, 0, 0, 0.5); /* Latar belakang redup */
-  color: red; /* Konten cerah */
+  color: white; /* Konten cerah */
 }
 
 #sidenav.active {
@@ -25,7 +25,7 @@
 }
 
 #sidenav.active-content {
-  color: red; /* Konten cerah */
+  color: green; /* Konten cerah */
 }
 
 /* Hamburger Menu (Sidebar Toggle) CSS */
