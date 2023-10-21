@@ -389,3 +389,16 @@ body {
 .download-button:hover {
   background-color: #0056b3;
 }
+
+/* CSS untuk container yang akan menampilkan kontennya dalam dua baris ke bawah */
+.two-rows-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* CSS untuk setiap elemen dalam container */
+.two-rows-content {
+    flex: 0 0 calc(50% - 10px); /* Atur lebar menjadi setengah dari container dengan jarak 10px */
+    margin-bottom: 20px; /* Jarak antara setiap elemen */
+}
