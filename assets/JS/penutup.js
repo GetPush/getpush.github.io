@@ -113,6 +113,11 @@
                                  <span class="align-middle">Category Item</span> 
                          </li> 
                  </ul> 
+    <br>
+ <div class="button-container">
+  <article style="text-align: center;"><a class="button" id="myButton" href="/"><span>reset: 10:00 AM & PM</span></a>
+   </article>
+ </div>
          </div> 
  <!-- ######## END FOCUS SIDEBAR CODE HERE --> 
          <!-- ######## START FOCUS JS CODE HERE --> 
