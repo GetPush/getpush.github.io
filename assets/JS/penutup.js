@@ -199,7 +199,7 @@ button {
   <a href="https://wa.me/6283838367172" rel="noopener noreferrer" target="_blank" style="display: inline-block; margin-right: 10px;">
     <img alt="WhatsApp Logo" height="32" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1200px-WhatsApp.svg.png" width="32" /> WhatsApp
   </a>
-  <a href="https://t.me/telgruptoppayofficial" target="_blank" style="display: inline-block;">
+  <a href="https://t.me/+8PktPL9pdJ1iYzJl" target="_blank" style="display: inline-block;">
     <img alt="Telegram Logo" height="32" src="https://telegram.org/img/t_logo.svg" width="32" /> Telegram
   </a>
 </div>
