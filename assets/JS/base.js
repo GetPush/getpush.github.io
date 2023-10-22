@@ -144,7 +144,7 @@ const headerHTML = `
            <a href="/about/sosmed.html">Sosmed</a>    
          </li>    
          <li>    
-           <a href="/about/grup-telegram.html">Telegram</a>    
+           <a href="https://t.me/+8PktPL9pdJ1iYzJl">Telegram</a>    
          </li>
          <li>    
            <a href="/page/apps.html">Aplikasi</a>    
