@@ -38,7 +38,7 @@
                          </svg> 
                  </div> 
                  <p class="m0 muted bold">nama menu sidebar icon</p> 
-  
+                 <br>
                  <hr> 
  <!-- menu sidebar bagian satu --> 
                  <ul class="list-reset muted m0"> 
