@@ -148,8 +148,8 @@ h1 {
 }
 
 #comment-input {
-    width: 40px;
-    height: 100px;
+    width: 1000px;
+    height: 40px;
     resize: none;
 }
 
