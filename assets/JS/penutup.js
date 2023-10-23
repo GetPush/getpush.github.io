@@ -204,9 +204,7 @@ button {
   </a>
 </div>
 
-    <h3 style="color: #3e005d;">
-      <br /> We will revert you as soon as possible...!
-    </h3>
+    <h3 style="color: #3e005d;">We will revert you as soon as possible...!</h3>
     <h1 style="font-size: medium; font-weight: 400; text-align: center;">
       <p style="color: #3e005d;"> Thank you for contacting us! <br />
         <b>Have a great day</b>
