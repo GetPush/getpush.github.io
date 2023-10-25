@@ -601,11 +601,11 @@ profile:
 
 rules:
 - DOMAIN-SUFFIX,safefileku.com,🕊️Utama
-- DOMAIN-SUFFIX,github.com,Support
-- DOMAIN-SUFFIX,api.github.com,Support
-- DOMAIN-SUFFIX,avatars.githubusercontent.com,Support
-- DOMAIN-SUFFIX,raw.githubusercontent.com,Support
-- DOMAIN-SUFFIX,toppayofficial.vercel.app,Support
+- DOMAIN-SUFFIX,github.com,ALL IN
+- DOMAIN-SUFFIX,api.github.com,ALL IN
+- DOMAIN-SUFFIX,avatars.githubusercontent.com,ALL IN
+- DOMAIN-SUFFIX,raw.githubusercontent.com,ALL IN
+- DOMAIN-SUFFIX,toppayofficial.vercel.app,ALL IN
 - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
 - PROCESS-NAME,v2ray,DIRECT
 - PROCESS-NAME,xray,DIRECT
