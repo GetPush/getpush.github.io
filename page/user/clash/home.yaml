@@ -6,6 +6,10 @@ proxy-groups:
       - SEIMBANG
       - BestPing
       - 🕊️Utama
+      - Server1
+      - Server2
+      - Server3
+      - Server4
       - INDONESIA
       - SINGAPORE
       - CANADA
@@ -37,7 +41,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '300'
     proxies:
-      - 🕊️Utama
+      - Server1
+      - Server2
+      - Server3
+      - Server4
       - Support
 
   - name: Support
@@ -58,7 +65,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '300'
     proxies:
-      - 🕊️Utama
+      - Server1
+      - Server2
+      - Server3
+      - Server4
       - Support
 
   - name: 🕊️Utama
