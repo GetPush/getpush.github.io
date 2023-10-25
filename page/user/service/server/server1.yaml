@@ -145,7 +145,7 @@ proxies:
         Host: sg1-v2ray.sshkit.org
     udp: true
   - name: S1 Axis_XL_Opera_B2
-    server: support-vpn-pro.opera.com:80
+    server: support-vpn-pro.opera.com
     port: 80
     type: vmess
     uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
@@ -465,7 +465,7 @@ proxies:
         Host: sg1-v2ray.sshkit.org
     udp: true
   - name: S1 Axis_YouTube
-    server: youtube.zendesk.com:80
+    server: youtube.zendesk.com
     port: 80
     type: vmess
     uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
@@ -497,9 +497,685 @@ proxies:
         Host: sg1-v2ray.sshkit.org
     udp: true
 
+# Config XL
+  - name: S1 Turbo_Bacic_1GB
+    server: zendesk3.grabtaxi.com
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/6513f58829562/
+      headers:
+        Host: sg1-v2ray.sshkit.org
+    udp: true
+  - name: S1 Turbo_Basic_3GB
+    server: zendesk1.appsflyer.com
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/6513f58829562/
+      headers:
+        Host: sg1-v2ray.sshkit.org
+    udp: true
+  - name: S1 Turbo_Basic_Unlimited
+    server: 162.159.138.6
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/6513f58829562/
+      headers:
+        Host: sg1-v2ray.sshkit.org
+    udp: true
+  - name: S1 XL_Opok_B1
+    server: 104.18.12.65
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/6513f58829562/
+      headers:
+        Host: sg1-v2ray.sshkit.org
+    udp: true
+  - name: S1 XL_Opok_B2
+    server: staging.games.axis.co.id
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/6513f58829562/
+      headers:
+        Host: sg1-v2ray.sshkit.org
+    udp: true
+  - name: S1 XL_Akrab_B1
+    server: 104.17.3.81
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/6513f58829562/
+      headers:
+        Host: sg1-v2ray.sshkit.org
+    udp: true
+  - name: S1 XL_Akrab_B2
+    server: 104.18.21.226
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/6513f58829562/
+      headers:
+        Host: sg1-v2ray.sshkit.org
+    udp: true
+  - name: S1 XL_Akrab_B3
+    server: www.noice.id
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/6513f58829562/
+      headers:
+        Host: sg1-v2ray.sshkit.org
+    udp: true
+  - name: S1 XL_Akrab_B4
+    server: 104.16.53.111
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/6513f58829562/
+      headers:
+        Host: sg1-v2ray.sshkit.org
+    udp: true
+  - name: S1 XL_Akrab_B5
+    server: cdn.onlymega.com
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/6513f58829562/
+      headers:
+        Host: sg1-v2ray.sshkit.org
+    udp: true
+  - name: S1 XL_Axis_Conference_B1
+    server: 104.26.4.126
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/6513f58829562/
+      headers:
+        Host: sg1-v2ray.sshkit.org
+    udp: true
+  - name: S1 XL_Axis_Conference_B2
+    server: 104.18.21.226
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/6513f58829562/
+      headers:
+        Host: sg1-v2ray.sshkit.org
+    udp: true
+  - name: S1 XL_Axis_Conference_B3
+    server: cdn-cf.zoom.us
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/6513f58829562/
+      headers:
+        Host: sg1-v2ray.sshkit.org
+    udp: true
+  - name: S1 XL_Edukasi_B1
+    server: 172.64.149.82
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/6513f58829562/
+      headers:
+        Host: sg1-v2ray.sshkit.org
+    udp: true
+  - name: S1 XL_Edukasi_B2
+    server: 104.20.75.141
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/6513f58829562/
+      headers:
+        Host: sg1-v2ray.sshkit.org
+    udp: true
+  - name: S1 XL_Edukasi_B3
+    server: inside165.udemy.com
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/6513f58829562/
+      headers:
+        Host: sg1-v2ray.sshkit.org
+    udp: true
+  - name: S1 XL_Axis_Instagram
+    server: z-p15.www.instagram.com
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/6513f58829562/
+      headers:
+        Host: sg1-v2ray.sshkit.org
+    udp: true
+  - name: S1 XL_Axis_Opera
+    server: odsp-test.op-mobile.opera.com
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/6513f58829562/
+      headers:
+        Host: sg1-v2ray.sshkit.org
+    udp: true
+  - name: S1 Live_on_Opok_B1
+    server: 104.21.8.121
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/6513f58829562/
+      headers:
+        Host: sg1-v2ray.sshkit.org
+    udp: true
+  - name: S1 Live_on_Opok_B2
+    server: 104.17.224.203
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/6513f58829562/
+      headers:
+        Host: sg1-v2ray.sshkit.org
+    udp: true
+  - name: S1 Live_on_Opok_B3
+    server: www.circles.asia
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/6513f58829562/
+      headers:
+        Host: sg1-v2ray.sshkit.org
+    udp: true
+  - name: S1 XL_WLG_FLEX_B1
+    server: 104.16.53.111
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/6513f58829562/
+      headers:
+        Host: sg1-v2ray.sshkit.org
+    udp: true
+  - name: S1 XL_WLG_FLEX_B2
+    server: 162.159.128.7
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/6513f58829562/
+      headers:
+        Host: sg1-v2ray.sshkit.org
+    udp: true
+  - name: S1 XL_Flex_WA_Line
+    server: support.centerline.net
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/6513f58829562/
+      headers:
+        Host: sg1-v2ray.sshkit.org
+    udp: true
+  - name: S1 XL_Flex_Unlimited
+    server: 104.21.71.112
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/6513f58829562/
+      headers:
+        Host: sg1-v2ray.sshkit.org
+    udp: true
+  - name: S1 XL_App
+    server: 162.159.138.6
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/6513f58829562/
+      headers:
+        Host: sg1-v2ray.sshkit.org
+    udp: true
+  - name: S1 XL_Meeting_Belajar_B1
+    server: partner.zoom.us
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/6513f58829562/
+      headers:
+        Host: sg1-v2ray.sshkit.org
+    udp: true
+  - name: S1 XL_Meeting_Belajar_B2
+    server: zoomcares.zoom.us
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/6513f58829562/
+      headers:
+        Host: sg1-v2ray.sshkit.org
+    udp: true
+  - name: S1 XL_Video
+    server: quiz.int.vidio.com
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/6513f58829562/
+      headers:
+        Host: sg1-v2ray.sshkit.org
+    udp: true
+  - name: S1 XL_Vision
+    server: 104.21.235.171
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/6513f58829562/
+      headers:
+        Host: sg1-v2ray.sshkit.org
+    udp: true
+  - name: S1 XL_Turbo
+    server: ncpa.netflix.com
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/6513f58829562/
+      headers:
+        Host: sg1-v2ray.sshkit.org
+    udp: true
+  - name: S1 XL_King
+    server: graph.facebook.com
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/6513f58829562/
+      headers:
+        Host: sg1-v2ray.sshkit.org
+    udp: true
+
+# Config Multi
+  - name: S1 Multi_B1
+    server: 162.159.138.6
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/6513f58829562/
+      headers:
+        Host: sg1-v2ray.sshkit.org
+    udp: true
+  - name: S1 Multi_B2
+    server: 162.159.128.7
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/6513f58829562/
+      headers:
+        Host: sg1-v2ray.sshkit.org
+    udp: true
+  - name: S1 Multi_B3
+    server: layanan.ruangguru.com
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/6513f58829562/
+      headers:
+        Host: sg1-v2ray.sshkit.org
+    udp: true
+  - name: S1 Genflix
+    server: beta.genflix.co.id
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/6513f58829562/
+      headers:
+        Host: sg1-v2ray.sshkit.org
+    udp: true
+  - name: S1 Netflix
+    server: ncpa.netflix.com
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/6513f58829562/
+      headers:
+        Host: sg1-v2ray.sshkit.org
+    udp: true
+  - name: S1 Vision
+    server: api.visionplus.id
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/6513f58829562/
+      headers:
+        Host: sg1-v2ray.sshkit.org
+    udp: true
+  - name: S1 Spotify
+    server: login2.spotify.com
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/6513f58829562/
+      headers:
+        Host: sg1-v2ray.sshkit.org
+    udp: true
+  - name: S1 Vidio
+    server: quiz.int.vidio.com
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/6513f58829562/
+      headers:
+        Host: sg1-v2ray.sshkit.org
+    udp: true
+  - name: S1 Sushiroll
+    server: www.sushiroll.co.id
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/6513f58829562/
+      headers:
+        Host: sg1-v2ray.sshkit.org
+    udp: true
+  - name: S1 WIFI_ID
+    server: 104.17.2.81
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/6513f58829562/
+      headers:
+        Host: sg1-v2ray.sshkit.org
+    udp: true
+
 # Config INDOSAT
   - name: S1 IM3_Opok
-    server: 104.19.142.56:80
+    server: 104.19.142.56
     port: 80
     type: vmess
     uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
@@ -645,7 +1321,7 @@ proxies:
         Host: sg1-v2ray.sshkit.org
     udp: true
   - name: S1 Smartfren_Chat
-    server: web.facebook.com:80
+    server: web.facebook.com
     port: 80
     type: vmess
     uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
