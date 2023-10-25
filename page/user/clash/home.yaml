@@ -4,8 +4,11 @@ proxy-groups:
     type: select
     proxies:
       - SEIMBANG
+      - ALL IN
       - BestPing
       - 🕊️Utama
+      - SUPPORT
+      - TROJAN
       - Server1
       - Server2
       - Server3
@@ -45,7 +48,7 @@ proxy-groups:
       - Server2
       - Server3
       - Server4
-      - Support
+      - SUPPORT
       - TROJAN
   - name: ALL IN
     type: fallback
