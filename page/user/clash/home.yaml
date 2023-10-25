@@ -46,19 +46,19 @@ proxy-groups:
       - Server3
       - Server4
       - Support
-
-  - name: Support
+      - TROJAN
+  - name: ALL IN
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '200'
-    use:
-      - Support1
-      - Support2
-      - Support3
-      - Support4
-      - Support5
-
+    interval: '600'
+    proxies:
+      - Server1
+      - Server2
+      - Server3
+      - Server4
+      - SUPPORT
+      - TROJAN
   - name: BestPing
     type: url-test
     disable-udp: false
@@ -81,6 +81,34 @@ proxy-groups:
       - Server2
       - Server3
       - Server4
+  - name: SUPPORT
+    type: fallback
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '200'
+    use:
+      - Support1
+      - Support2
+      - Support3
+      - Support4
+      - Support5
+  - name: TROJAN
+    type: fallback
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '200'
+    proxies:
+      - INDONESIA
+      - SINGAPORE
+      - CANADA
+      - ROMANIA
+      - FRANCIS
+      - THAILAND
+      - NETHERLANDS
+      - UNITED KINGDOM
+#      - TURKEY
+      - GERMANY
+      - US
       
 # seleksi server 
   - name: Server1
