@@ -72,7 +72,7 @@ proxy-groups:
       - Server2
       - Server3
       - Server4
-      - Support
+      - SUPPORT
 
   - name: 🕊️Utama
     type: fallback
