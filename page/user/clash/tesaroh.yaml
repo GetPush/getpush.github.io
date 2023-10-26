@@ -45,9 +45,9 @@ proxy-groups:
     interval: '300'
     proxies:
       - Server1
-      - Server2
-      - Server3
-      - Server4
+     # - Server2
+     # - Server3
+     # - Server4
       - SUPPORT
       - TROJAN
   - name: ALL IN
@@ -57,9 +57,9 @@ proxy-groups:
     interval: '600'
     proxies:
       - Server1
-      - Server2
-      - Server3
-      - Server4
+     # - Server2
+     # - Server3
+     # - Server4
       - SUPPORT
       - TROJAN
   - name: BestPing
@@ -69,9 +69,9 @@ proxy-groups:
     interval: '300'
     proxies:
       - Server1
-      - Server2
-      - Server3
-      - Server4
+     # - Server2
+     # - Server3
+     # - Server4
       - SUPPORT
 
   - name: 🕊️Utama
@@ -81,9 +81,9 @@ proxy-groups:
     interval: '600'
     proxies:
       - Server1
-      - Server2
-      - Server3
-      - Server4
+     # - Server2
+     # - Server3
+     # - Server4
   - name: SUPPORT
     type: fallback
     disable-udp: false
