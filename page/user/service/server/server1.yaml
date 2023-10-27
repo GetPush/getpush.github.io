@@ -400,7 +400,7 @@ proxies:
       headers:
         Host: vmess-sg1.sshkit.org
     udp: true
-  - name: S1 Axis_Sosmed
+  - name: S1 Axis_XL_Sosmed
     server: www.help.tinder.com
     port: 80
     type: vmess
