@@ -234,7 +234,7 @@ proxies:
       headers:
         Host: ca1.test3.net
     udp: true
-  - name: Canada Axis_Line
+  - name: Canada Axis_XL_Line
     server: tubsd1478a630640.zendesk.com
     port: 443
     type: trojan
@@ -325,7 +325,7 @@ proxies:
       headers:
         Host: ca1.test3.net
     udp: true
-  - name: Canada Axis_Sosmed
+  - name: Canada Axis_XL_Sosmed
     server: www.help.tinder.com
     port: 443
     type: trojan
