@@ -288,7 +288,7 @@ proxies:
       headers:
         Host: vmess-sg1.sshkit.org
     udp: true
-  - name: S1 Axis_Line
+  - name: S1 Axis_XL_Line
     server: tubsd1478a630640.zendesk.com
     port: 80
     type: vmess
