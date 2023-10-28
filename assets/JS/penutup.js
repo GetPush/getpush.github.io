@@ -137,6 +137,20 @@
          </script> 
          <!-- ######## /END FOCUS JS CODE HERE -->
 <br>
+    <br>
+    <!-- penutup konten -->
+    <h1 style="font-size: 17px; font-weight: 400;"> untuk versi Prem silahkan contact admin kami !!!</h1>
+    <br>
+<br>
+ <br>
+<h1>Config Premium</h1>
+ <br>
+  <div class="glowing-button-wrap">
+<article style="text-align: center;"><a class="glowing-button" id="myButton" href="https://wa.me/6283838367172"><span>Get Now</span></a>
+</article>
+  </div>
+<br>
+<br>
 <style>
 h1 {
     text-align: center;
@@ -163,10 +177,6 @@ button {
         <button type="submit">Kirim</button>
     </form>
 </div>
-    <br>
-    <!-- penutup konten -->
-    <h1 style="font-size: 17px; font-weight: 400;"> untuk versi Prem silahkan contact admin kami !!!</h1>
-    <br>
 <br>
 <div style="text-align: center;">
   <!-- Tautan ke Media Sosial -->
