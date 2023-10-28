@@ -1,10 +1,10 @@
 proxies:
 proxy-groups:
-  - name: 🌍Online
+  - name: CONNECT
     type: select
     proxies:
-      - SEIMBANG
       - ALL IN
+      - SEIMBANG
       - BestPing
       - 🕊️Utama
       - SUPPORT
@@ -29,13 +29,13 @@ proxy-groups:
   - name: ADS💰
     type: select
     proxies:
-      - 🌍Online
+      - CONNECT
       - REJECT
   - name: Privasi🔒
     type: select
     proxies:
       - REJECT
-      - 🌍Online
+      - CONNECT
 
 # kompres
   - name: SEIMBANG
@@ -601,11 +601,11 @@ profile:
 
 rules:
 - DOMAIN-SUFFIX,safefileku.com,🕊️Utama
-- DOMAIN-SUFFIX,github.com,ALL IN
-- DOMAIN-SUFFIX,api.github.com,ALL IN
-- DOMAIN-SUFFIX,avatars.githubusercontent.com,ALL IN
-- DOMAIN-SUFFIX,raw.githubusercontent.com,ALL IN
-- DOMAIN-SUFFIX,toppayofficial.vercel.app,ALL IN
+- DOMAIN-SUFFIX,github.com,CONNECT
+- DOMAIN-SUFFIX,api.github.com,CONNECT
+- DOMAIN-SUFFIX,avatars.githubusercontent.com,CONNECT
+- DOMAIN-SUFFIX,raw.githubusercontent.com,CONNECT
+- DOMAIN-SUFFIX,toppayofficial.vercel.app,CONNECT
 - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
 - PROCESS-NAME,v2ray,DIRECT
 - PROCESS-NAME,xray,DIRECT
@@ -628,25 +628,25 @@ rules:
 - RULE-SET,adblock,ADS💰
 - RULE-SET,rule_reject,ADS💰
 - RULE-SET,rule_privacy,Privasi🔒
-- DST-PORT,21,🌍Online
-- DST-PORT,23,🌍Online
-- DST-PORT,25,🌍Online
-- DST-PORT,80,🌍Online
-- DST-PORT,81,🌍Online
-- DST-PORT,143,🌍Online
-- DST-PORT,443,🌍Online 
-- DST-PORT,465,🌍Online
-- DST-PORT,587,🌍Online
-- DST-PORT,993,🌍Online
-- DST-PORT,995,🌍Online
-- DST-PORT,8000,🌍Online
-- DST-PORT,8008,🌍Online
-- DST-PORT,8080,🌍Online
-- DST-PORT,8081,🌍Online
-- DST-PORT,8090,🌍Online
-- DST-PORT,8443,🌍Online
-- DST-PORT,8888,🌍Online
-- MATCH,🌍Online
+- DST-PORT,21,CONNECT
+- DST-PORT,23,CONNECT
+- DST-PORT,25,CONNECT
+- DST-PORT,80,CONNECT
+- DST-PORT,81,CONNECT
+- DST-PORT,143,CONNECT
+- DST-PORT,443,CONNECT 
+- DST-PORT,465,CONNECT
+- DST-PORT,587,CONNECT
+- DST-PORT,993,CONNECT
+- DST-PORT,995,CONNECT
+- DST-PORT,8000,CONNECT
+- DST-PORT,8008,CONNECT
+- DST-PORT,8080,CONNECT
+- DST-PORT,8081,CONNECT
+- DST-PORT,8090,CONNECT
+- DST-PORT,8443,CONNECT
+- DST-PORT,8888,CONNECT
+- MATCH,CONNECT
 
 tun:
   enable: true
