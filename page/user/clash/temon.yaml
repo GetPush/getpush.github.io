@@ -1,13 +1,20 @@
 proxies:
 proxy-groups:
-  - name: 🌍Online
+  - name: CONNECT
     type: select
     proxies:
+      - ALL IN
       - SEIMBANG
       - BestPing
       - 🕊️Utama
-      - Support
+      - SUPPORT
+      - TROJAN
+      - Server1
+      - Server2
+      - Server3
+      - Server4
       - INDONESIA
+      - SINGAPORE
       - CANADA
       - ROMANIA
       - FRANCIS
@@ -16,20 +23,19 @@ proxy-groups:
       - UNITED KINGDOM
 #      - TURKEY
       - GERMANY
-      - SINGAPORE
       - US
       - DIRECT
 
   - name: ADS💰
     type: select
     proxies:
-      - 🌍Online
+      - CONNECT
       - REJECT
   - name: Privasi🔒
     type: select
     proxies:
       - REJECT
-      - 🌍Online
+      - CONNECT
 
 # kompres
   - name: SEIMBANG
@@ -38,10 +44,47 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '300'
     proxies:
-      - 🕊️Utama
-      - Support
+      - Server1
+     # - Server2
+     # - Server3
+     # - Server4
+      - SUPPORT
+      - TROJAN
+  - name: ALL IN
+    type: fallback
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '600'
+    proxies:
+      - Server1
+     # - Server2
+     # - Server3
+     # - Server4
+      - SUPPORT
+      - TROJAN
+  - name: BestPing
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '300'
+    proxies:
+      - Server1
+     # - Server2
+     # - Server3
+     # - Server4
+      - SUPPORT
 
-  - name: Support
+  - name: 🕊️Utama
+    type: fallback
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '600'
+    proxies:
+      - Server1
+     # - Server2
+     # - Server3
+     # - Server4
+  - name: SUPPORT
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
@@ -52,26 +95,23 @@ proxy-groups:
       - Support3
       - Support4
       - Support5
-
-  - name: BestPing
-    type: url-test
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '300'
-    proxies:
-      - 🕊️Utama
-      - Support
-
-  - name: 🕊️Utama
+  - name: TROJAN
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
-    interval: '600'
+    interval: '200'
     proxies:
-      - Server1
-      - Server2
-      - Server3
-      - Server4
+      - INDONESIA
+      - SINGAPORE
+      - CANADA
+      - ROMANIA
+      - FRANCIS
+      - THAILAND
+      - NETHERLANDS
+      - UNITED KINGDOM
+#      - TURKEY
+      - GERMANY
+      - US
       
 # seleksi server 
   - name: Server1
@@ -195,113 +235,114 @@ proxy-providers:
      path: ./canada.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/Service/canada.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/canada.yaml"
      interval: 1200
   ROMANIA: 
      type: http 
      path: ./romania.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/Service/romania.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/romania.yaml"
      interval: 1200
   NETHERLANDS: 
      type: http 
      path: ./netherlands.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/Service/netherlands.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/netherlands.yaml"
      interval: 1200
   FRANCIS: 
      type: http 
      path: ./francis.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/Service/francis.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/francis.yaml"
      interval: 1200
   THAILAND: 
      type: http 
      path: ./thailand.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/Service/thailand.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/thailand.yaml"
      interval: 1200
   SG HE MUX: 
      type: http 
      path: ./sg he mux.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/Service/sg%20he%20mux.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/sg%20he%20mux.yaml"
      interval: 1200
 #  TURKEY: 
 #     type: http 
 #     path: ./turkey.yaml 
 #     health-check: 
 #     enable: true 
-#     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/Service/turkey.yaml"
+#     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/turkey.yaml"
 #     interval: 1200
   GERMANY: 
      type: http 
      path: ./germany.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/Service/germany.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/germany.yaml"
      interval: 1200
   UNITED KINGDOM: 
      type: http 
      path: ./united kingdom.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/Service/united%20kingdom.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/united%20kingdom.yaml"
      interval: 1200
   SG MELBI: 
      type: http 
      path: ./sg melbi.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/Service/sg%20melbi.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/sg%20melbi.yaml"
      interval: 1200
   SG HE 2: 
      type: http 
      path: ./sg he 2.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/Service/sg%20he%202.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/sg%20he%202.yaml"
      interval: 1200
   SG HE 3: 
      type: http 
      path: ./sg he 3.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/Service/sg%20he%203.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/sg%20he%203.yaml"
      interval: 1200
   US: 
      type: http 
      path: ./us.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/Service/us.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/us.yaml"
      interval: 1200
   SG HE 1: 
      type: http 
      path: ./sg he 1.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/Service/sg%20he%201.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/sg%20he%201.yaml"
      interval: 1200
   ID HERZA: 
      type: http 
      path: ./id herza.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/Service/id%20herza.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/id%20herza.yaml"
      interval: 1200
   SG AMP: 
      type: http 
      path: ./sg amp.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/Service/sg%20amp.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/trojan_gfw/sg%20amp.yaml"
      interval: 1200
+
 
 
 
@@ -311,29 +352,31 @@ proxy-providers:
     path: ./server1.yaml
     health-check:
     enable: true
-    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/server1.yaml"
+    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/server/server1.yaml"
     interval: 1200
   Server2:
     type: http
     path: ./server2.yaml
     health-check:
     enable: true
-    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/server2.yaml"
+    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/server/server2.yaml"
     interval: 1200
   Server3:
     type: http
     path: ./server3.yaml
     health-check:
     enable: true
-    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/server3.yaml"
+    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/server/server3.yaml"
     interval: 1200
   Server4:
     type: http
     path: ./server4.yaml
     health-check:
     enable: true
-    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/server4.yaml"
+    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/server/server4.yaml"
     interval: 1200
+
+
 
 #Support
 
@@ -342,36 +385,37 @@ proxy-providers:
      path: ./Support1.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/Support/Support1.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/Support/Support1.yaml"
      interval: 1200
   Support2: 
      type: http 
      path: ./Support2.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/Support/Support2.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/Support/Support2.yaml"
      interval: 1200
   Support3: 
      type: http 
      path: ./Support3.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/Support/Support3.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/Support/Support3.yaml"
      interval: 1200
   Support4: 
      type: http 
      path: ./Support4.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/Support/Support4.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/Support/Support4.yaml"
      interval: 1200
   Support5: 
      type: http 
      path: ./Support5.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/OPEN-WRT/Axis/Support/Support5.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/Support/Support5.yaml"
      interval: 1200
+
 
 
 redir-port: 7892
@@ -557,11 +601,11 @@ profile:
 
 rules:
 - DOMAIN-SUFFIX,safefileku.com,🕊️Utama
-- DOMAIN-SUFFIX,github.com,Support
-- DOMAIN-SUFFIX,api.github.com,Support
-- DOMAIN-SUFFIX,avatars.githubusercontent.com,Support
-- DOMAIN-SUFFIX,raw.githubusercontent.com,Support
-- DOMAIN-SUFFIX,toppayofficial.vercel.app,Support
+- DOMAIN-SUFFIX,github.com,CONNECT
+- DOMAIN-SUFFIX,api.github.com,CONNECT
+- DOMAIN-SUFFIX,avatars.githubusercontent.com,CONNECT
+- DOMAIN-SUFFIX,raw.githubusercontent.com,CONNECT
+- DOMAIN-SUFFIX,toppayofficial.vercel.app,CONNECT
 - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
 - PROCESS-NAME,v2ray,DIRECT
 - PROCESS-NAME,xray,DIRECT
@@ -584,25 +628,25 @@ rules:
 - RULE-SET,adblock,ADS💰
 - RULE-SET,rule_reject,ADS💰
 - RULE-SET,rule_privacy,Privasi🔒
-- DST-PORT,21,🌍Online
-- DST-PORT,23,🌍Online
-- DST-PORT,25,🌍Online
-- DST-PORT,80,🌍Online
-- DST-PORT,81,🌍Online
-- DST-PORT,143,🌍Online
-- DST-PORT,443,🌍Online 
-- DST-PORT,465,🌍Online
-- DST-PORT,587,🌍Online
-- DST-PORT,993,🌍Online
-- DST-PORT,995,🌍Online
-- DST-PORT,8000,🌍Online
-- DST-PORT,8008,🌍Online
-- DST-PORT,8080,🌍Online
-- DST-PORT,8081,🌍Online
-- DST-PORT,8090,🌍Online
-- DST-PORT,8443,🌍Online
-- DST-PORT,8888,🌍Online
-- MATCH,🌍Online
+- DST-PORT,21,CONNECT
+- DST-PORT,23,CONNECT
+- DST-PORT,25,CONNECT
+- DST-PORT,80,CONNECT
+- DST-PORT,81,CONNECT
+- DST-PORT,143,CONNECT
+- DST-PORT,443,CONNECT 
+- DST-PORT,465,CONNECT
+- DST-PORT,587,CONNECT
+- DST-PORT,993,CONNECT
+- DST-PORT,995,CONNECT
+- DST-PORT,8000,CONNECT
+- DST-PORT,8008,CONNECT
+- DST-PORT,8080,CONNECT
+- DST-PORT,8081,CONNECT
+- DST-PORT,8090,CONNECT
+- DST-PORT,8443,CONNECT
+- DST-PORT,8888,CONNECT
+- MATCH,CONNECT
 
 tun:
   enable: true
