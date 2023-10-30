@@ -44,24 +44,24 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '300'
     proxies:
+      - SUPPORT
+      - TROJAN
       - Server1
      # - Server2
      # - Server3
      # - Server4
-      - SUPPORT
-      - TROJAN
   - name: ALL IN
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '600'
     proxies:
+      - SUPPORT
+      - TROJAN
       - Server1
      # - Server2
      # - Server3
      # - Server4
-      - SUPPORT
-      - TROJAN
   - name: BestPing
     type: url-test
     disable-udp: false
