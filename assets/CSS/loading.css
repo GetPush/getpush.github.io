@@ -1,3 +1,9 @@
+.loader-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .loader {
     position: relative;
     width: 100px;
@@ -56,8 +62,13 @@
     width: 200px;
 }
 
+.line-container {
+    display: flex;
+    align-items: center;
+}
+
 .line {
-    width: 200px;
+    flex: 1;
     height: 7px;
     background-color: #fff;
     position: relative;
