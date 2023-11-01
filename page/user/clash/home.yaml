@@ -3,8 +3,8 @@ proxy-groups:
   - name: CONNECT
     type: select
     proxies:
-      - ALL IN
       - SEIMBANG
+      - ALL IN
       - BestPing
       - 🕊️Utama
       - SUPPORT
@@ -45,7 +45,6 @@ proxy-groups:
     interval: '300'
     proxies:
       - SUPPORT
-      - TROJAN
       - Server1
      # - Server2
      # - Server3
