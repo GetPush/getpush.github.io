@@ -10,11 +10,13 @@
 
         .loader {
             position: relative;
-            text-align: center;
             width: 100px;
             height: 100px;
             margin: 0 10px 20px;
             animation: rotate 0.3s infinite linear;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
         }
 
         .loader:before,
