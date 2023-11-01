@@ -90,9 +90,11 @@
             width: 200px;
             height: 7px;
             background-color: #fff;
-            position: relative;
+            position: absolute;
             overflow: hidden;
-            margin: 0 10px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
         }
 
         .line:before {
