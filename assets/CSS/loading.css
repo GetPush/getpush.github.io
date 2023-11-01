@@ -1,11 +1,11 @@
         body {
             background-color: transparant;
-            display: flex;
+           /* display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
             overflow: hidden;
-            font-family: Arial, sans-serif;
+            font-family: Arial, sans-serif;*/
         }
 
         .loader {
