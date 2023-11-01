@@ -7,7 +7,7 @@
 .loader {
     position: relative;
     top: 50%;
-    left: 100%;
+    left: 50%;
     width: 100px;
     height: 100px;
     margin-right: 10px;
@@ -61,7 +61,7 @@
     font-size: 15px;
     position: relative;
     top: 50%;
-    left: 100%;
+    left: 50%;
     text-align: center;
     width: 200px;
 }
@@ -73,7 +73,7 @@
 
 .line {
     flex: 1;
-    height: 20px;
+    height: 7px;
     background-color: #fff;
     position: relative;
     top: 50%;
