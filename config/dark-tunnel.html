@@ -1,62 +1,169 @@
 <!DOCTYPE html>
 <html lang="id">
   <head>
+ <meta charset="UTF-8">
+ <meta name="robots" content="noindex, nofollow">
+ <meta content='width=device-width, initial-scale=0.5' name='viewport'/>
+<link rel="stylesheet" href="https://unpkg.com/ace-css/css/ace.min.css">
+<link rel="stylesheet" type="text/css" href="/assets/CSS/menu-sidebar.css">
+<link rel="stylesheet" type="text/css" href="/assets/CSS/slide-img.css">
+<link rel="stylesheet" type="text/css" href="/assets/CSS/style.css">
+                                <script src="/assets/JS/base.js"></script>
+   <script src="/assets/JS/penutup.js"></script>
+   <script src="/assets/JS/names.js"></script>
+<head>
     <meta charset="UTF-8">
-   <meta name="robots" content="noindex, nofollow">
-    <meta name="viewport" content="width=device-width, initial-scale=0.5">
-  <link rel="stylesheet" type="text/css" href="/linked/style.css">
-  <script src="/linked/base.js"></script> 
-   <script src="/linked/penutup.js"></script>  
-    <script src="/linked/names.js"></script>  
-     <script src="/linked/speed.js"></script>  
-      <script src="/linked/teks-config.js"></script>
-  <title></title>
- </head>
- <body>
-<!-- <div id="header"></div> 
-  <div id="penutup"></div> -->
-   <script>
-var urls = [
- // "/config/dark-tunnel/afile.html",
-  "/config/dark-tunnel/afile.sg1.html",
- // "/config/dark-tunnel/bfile.html",
-  "/config/dark-tunnel/bfile.sg1.html",
-];
+    <style>
+        body {
+            background-color: transparant;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+            font-family: Arial, sans-serif;
+        }
 
+        .loader {
+            position: relative;
+            width: 100px;
+            height: 100px;
+            margin: 0 10px 20px;
+            animation: rotate 0.3s infinite linear;
+        }
 
-var currentIndex = localStorage.getItem('currentIndex');
+        .loader:before,
+        .loader:after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            background: linear-gradient(45deg, #ff005e, #ff7f00, #f9ff00, #00ff33, #004cff, #a900ff);
+            animation: spin 2s infinite linear;
+        }
 
-if (currentIndex === null) {
-  currentIndex = 0;
-} else {
-  currentIndex = parseInt(currentIndex, 10);
-}
+        .loader:before {
+            animation-delay: -0.5s;
+        }
 
-function getNextUrl() {
-  var nextIndex = currentIndex + 1;
-  currentIndex = nextIndex % urls.length;
-  localStorage.setItem('currentIndex', currentIndex.toString());
-  return urls[currentIndex];
-}
+        @keyframes rotate {
+            0% {
+                transform: rotateZ(0deg);
+            }
+            100% {
+                transform: rotateZ(360deg);
+            }
+        }
 
-if (typeof history.pushState === "function") {
-  history.pushState("jibberish", null, null);
-  window.addEventListener("popstate", function () {
-    history.pushState("newjibberish", null, null);
-  });
-}
+        @keyframes spin {
+            0% {
+                transform: rotateZ(0deg) scale(0.2);
+                opacity: 0.4;
+            }
+            50% {
+                transform: rotateZ(180deg) scale(1);
+                opacity: 1;
+            }
+            100% {
+                transform: rotateZ(360deg) scale(0.2);
+                opacity: 0.4;
+            }
+        }
 
-document.addEventListener("DOMContentLoaded", function () {
-  var currentUrl = window.location.pathname;
-  var nextUrl = getNextUrl();
+        .loading-text {
+            margin-top: -10px;
+            color: #fff;
+            font-size: 15px;
+            position: absolute;
+            top: calc(50% - 10px);
+            left: 50%;
+            transform: translateX(-50%);
+            animation: pulse 3s infinite ease-in-out;
+        }
 
-  if (nextUrl === currentUrl) {
-    nextUrl = getNextUrl();
-  }
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+                opacity: 1;
+            }
+            50% {
+                transform: scale(1.2);
+                opacity: 0.8;
+            }
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
 
-  window.location.href = nextUrl;
-});
+        .line {
+            width: 200px;
+            height: 7px;
+            background-color: #fff;
+            position: relative;
+            overflow: hidden;
+            margin: 0 10px;
+        }
 
- </script>
-  </body>
+        .line:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #00ff33;
+            transform: translateX(-100%);
+            animation: progress 2s infinite linear;
+        }
+
+        @keyframes progress {
+            0% {
+                transform: translateX(-100%);
+            }
+            100% {
+                transform: translateX(100%);
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="loader"></div>
+<div class="loading-text">
+    <div id="loadingText">Loading...</div>
+</div>
+<div class="line">
+    <div class="line-before"></div>
+</div>
+<script>
+    // Simulate loading time
+    setTimeout(function () {
+        document.getElementById('loadingText').textContent = 'Unpacking...';
+        setTimeout(function () {
+            document.getElementById('loadingText').textContent = 'Repakeking...';
+            setTimeout(function () {
+                document.getElementById('loadingText').textContent = 'Success';
+                // Array of URLs
+                var urls = [
+                    "/config/dark-tunnel/afile.html",
+                    "/config/dark-tunnel/afile.sg1.html",
+                    "/config/dark-tunnel/bfile.html",
+                    "/config/dark-tunnel/bfile.sg1.html"
+                ];
+                // Randomly select a URL from the array
+                var randomUrl = urls[Math.floor(Math.random() * urls.length)];
+                // Redirect to the selected URL
+                redirect(randomUrl);
+            }, 2000);
+        }, 2000);
+    }, 1000);
+
+    function redirect(url) {
+        window.location.href = url;
+    }
+</script>
+</body>
 </html>
