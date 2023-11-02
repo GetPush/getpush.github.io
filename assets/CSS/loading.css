@@ -1,10 +1,8 @@
 .loader {
     display: flex;
-    top: 0;
-    left: 50%;
-    align-items: center;
-    justify-content: center;
-    height: 100vh; /* Sesuaikan dengan kebutuhan Anda */
+    top: 50;
+    left: 40%;
+    height: 200vh; /* Sesuaikan dengan kebutuhan Anda */
     align-items: center;
     justify-content: center;
     position: relative;
@@ -56,9 +54,9 @@
 }
 
 .loading-text {
-    margin-top: 20px;
+    margin-top: 10px;
     color: #fff;
-    font-size: 15px;
+    font-size: 30px;
     position: relative;
     text-align: center;
     width: 200px;
