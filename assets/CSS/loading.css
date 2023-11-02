@@ -5,8 +5,8 @@
     position: relative;
     top: 10;
     left: 0;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     margin-right: 10px;
     animation: rotate 0.3s infinite linear;
 }
@@ -79,7 +79,7 @@
 .line:before {
     content: '';
     position: absolute;
-    top: 1px;
+    top: 2px;
     left: 0;
     width: 90%; /* Sesuaikan lebar animasi sesuai kebutuhan Anda */
     height: 90%;
