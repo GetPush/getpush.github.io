@@ -6,8 +6,8 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    width: 100px;
-    height: 100px;
+    width: 150px; /* Ubah ukuran width sesuai kebutuhan Anda */
+    height: 150px; /* Ubah ukuran height sesuai kebutuhan Anda */
     margin-right: 10px;
     margin-top: 50%;
     animation: rotate 0.3s infinite linear;
