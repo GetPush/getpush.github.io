@@ -55,7 +55,7 @@
 
 .loading-text {
     font-size: 15px;
-    margin-top: 50px; /* Sesuaikan margin-top untuk menyesuaikan jarak antara teks loading dan line */
+    margin-top: 50px;
     color: #fff;
     text-align: center;
 }
@@ -69,6 +69,7 @@
     flex: 1;
     height: 30px; /* Sesuaikan lebar garis sesuai kebutuhan Anda */
     background-color: red;
+    margin-top: 50px;
     position: relative;
     overflow: hidden;
     border-radius: 50px; /* Tambahkan radius untuk ujung-ujung garis */
