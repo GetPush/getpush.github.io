@@ -1,7 +1,7 @@
 .loader {
     display: flex;
     top: 50;
-    left: 50%;
+    left: 45%;
     height: 200vh; /* Sesuaikan dengan kebutuhan Anda */
     align-items: center;
     justify-content: center;
@@ -79,7 +79,7 @@
     position: absolute;
     top: 5%; /* Sesuaikan posisi top agar line before berada di tengah */
     left: 5%; /* Sesuaikan posisi left agar line before berada di tengah */
-    width: 50%; /* Ubah lebar line before menjadi lebih kecil dari line utama */
+    width: 30%; /* Ubah lebar line before menjadi lebih kecil dari line utama */
     height: 90%; /* Ubah tinggi line before menjadi lebih kecil dari line utama */
     background-color: #00ff33;
     border-radius: 10px; /* Tambahkan radius untuk ujung-ujung elemen sebelumnya */
