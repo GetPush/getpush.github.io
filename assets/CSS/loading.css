@@ -70,7 +70,7 @@
 .line {
     flex: 1;
     height: 20px; /* Sesuaikan lebar garis sesuai kebutuhan Anda */
-    background-color: #fff;
+    background-color: red;
     position: relative;
     overflow: hidden;
     border-radius: 10px; /* Tambahkan radius untuk ujung-ujung garis */
