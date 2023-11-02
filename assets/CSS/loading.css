@@ -54,12 +54,12 @@
 }
 
 .loading-text {
-    margin-top: 10px;
     color: #fff;
     font-size: 15px;
+ /*   margin-top: 10px;
     position: relative;
     text-align: center;
-    width: 200px;
+    width: 200px;*/
 }
 
 .line-container {
@@ -69,7 +69,7 @@
 
 .line {
     flex: 1;
-    height: 20px; /* Sesuaikan lebar garis sesuai kebutuhan Anda */
+    height: 30px; /* Sesuaikan lebar garis sesuai kebutuhan Anda */
     background-color: red;
     position: relative;
     overflow: hidden;
@@ -81,7 +81,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 95%; /* Sesuaikan lebar animasi sesuai kebutuhan Anda */
+    width: 80%; /* Sesuaikan lebar animasi sesuai kebutuhan Anda */
     height: 100%;
     background-color: #00ff33;
     border-radius: 10px; /* Tambahkan radius untuk ujung-ujung elemen sebelumnya */
