@@ -3,6 +3,8 @@
     align-items: center;
     justify-content: center;
     position: relative;
+    top: 10;
+    left: 0;
     width: 100px;
     height: 100px;
     margin-right: 10px;
@@ -71,18 +73,18 @@
     background-color: #fff;
     position: relative;
     overflow: hidden;
-    border-radius: 10px; /* Tambahkan radius untuk ujung-ujung garis */
+    border-radius: 50px; /* Tambahkan radius untuk ujung-ujung garis */
 }
 
 .line:before {
     content: '';
     position: absolute;
-    top: 1%;
+    top: 1px;
     left: 0;
-    width: 50%; /* Sesuaikan lebar animasi sesuai kebutuhan Anda */
+    width: 90%; /* Sesuaikan lebar animasi sesuai kebutuhan Anda */
     height: 90%;
     background-color: #00ff33;
-    border-radius: 10px; /* Tambahkan radius untuk ujung-ujung elemen sebelumnya */
+    border-radius: 50px; /* Tambahkan radius untuk ujung-ujung elemen sebelumnya */
     transform: translateX(-100%); /* Sesuaikan agar animasi berjalan di tengah garis putih */
     animation: progress 2s infinite linear;
 }
