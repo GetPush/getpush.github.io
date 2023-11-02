@@ -125,7 +125,7 @@
     flex: 1;
     height: 30px; /* Sesuaikan lebar garis sesuai kebutuhan Anda */
     background-color: red;
-    margin-top: 50px;
+    margin-top: 40px;
     position: relative;
     overflow: hidden;
     border-radius: 50px; /* Tambahkan radius untuk ujung-ujung garis */
@@ -137,9 +137,9 @@
     top: 0; /* Sesuaikan posisi top agar line before berada di tengah */
     left: 0; /* Sesuaikan posisi left agar line before berada di tengah */
     width: 50%; /* Ubah lebar line before menjadi lebih kecil dari line utama */
-    height: 50%; /* Ubah tinggi line before menjadi lebih kecil dari line utama */
+    height: 90%; /* Ubah tinggi line before menjadi lebih kecil dari line utama */
     background-color: #00ff33;
-    border-radius: 10px; /* Tambahkan radius untuk ujung-ujung elemen sebelumnya */
+    border-radius: 50px; /* Tambahkan radius untuk ujung-ujung elemen sebelumnya */
     transform: translateX(-100%); /* Ubah transform agar line before berada di tengah */
     animation: progress 2s infinite linear;
 }
