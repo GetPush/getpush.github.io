@@ -73,7 +73,7 @@
     background-color: red;
     position: relative;
     overflow: hidden;
-    border-radius: 10px; /* Tambahkan radius untuk ujung-ujung garis */
+    border-radius: 50px; /* Tambahkan radius untuk ujung-ujung garis */
 }
 
 .line:before {
