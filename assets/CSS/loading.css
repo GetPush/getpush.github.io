@@ -79,8 +79,8 @@
 .line:before {
     content: '';
     position: absolute;
-    top: 5%; /* Sesuaikan posisi top agar line before berada di tengah */
-    left: 5%; /* Sesuaikan posisi left agar line before berada di tengah */
+    top: 0; /* Sesuaikan posisi top agar line before berada di tengah */
+    left: 0; /* Sesuaikan posisi left agar line before berada di tengah */
     width: 30%; /* Ubah lebar line before menjadi lebih kecil dari line utama */
     height: 90%; /* Ubah tinggi line before menjadi lebih kecil dari line utama */
     background-color: #00ff33;
