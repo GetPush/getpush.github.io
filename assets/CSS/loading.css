@@ -83,7 +83,7 @@
     height: 90%; /* Ubah tinggi line before menjadi lebih kecil dari line utama */
     background-color: #00ff33;
     border-radius: 10px; /* Tambahkan radius untuk ujung-ujung elemen sebelumnya */
-    transform: translate(-5%, -5%); /* Ubah transform agar line before berada di tengah */
+    transform: translate(100%); /* Ubah transform agar line before berada di tengah */
     animation: progress 2s infinite linear;
 }
 
