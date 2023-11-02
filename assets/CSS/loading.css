@@ -69,7 +69,7 @@
 
 .line {
     flex: 1;
-    height: 20px; /* Ubah lebar garis sesuai kebutuhan Anda */
+    height: 20px; /* Sesuaikan lebar garis sesuai kebutuhan Anda */
     background-color: #fff;
     position: relative;
     overflow: hidden;
@@ -78,12 +78,12 @@
 .line:before {
     content: '';
     position: absolute;
-    top: 50%;
-    left: 100%;
-    width: 200%; /* Ubah lebar animasi sesuai kebutuhan Anda */
+    top: 0;
+    left: 0;
+    width: 100%; /* Sesuaikan lebar animasi sesuai kebutuhan Anda */
     height: 100%;
     background-color: #00ff33;
-    transform: translateX(-50%);
+    transform: translateX(-100%); /* Sesuaikan agar animasi berjalan di tengah garis putih */
     animation: progress 2s infinite linear;
 }
 
