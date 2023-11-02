@@ -1,61 +1,55 @@
 <!DOCTYPE html>
 <html lang="id">
-  <head>
-    <meta charset="UTF-8">
-   <meta name="robots" content="noindex, nofollow">
-    <meta name="viewport" content="width=device-width, initial-scale=0.5">
-  <link rel="stylesheet" type="text/css" href="/linked/style.css">
-  <script src="/linked/base.js"></script> 
-   <script src="/linked/penutup.js"></script>  
-    <script src="/linked/names.js"></script>  
-     <script src="/linked/speed.js"></script>  
-      <script src="/linked/teks-config.js"></script>
-  <title></title>
- </head>
- <body>
-<!-- <div id="header"></div> 
-  <div id="penutup"></div> -->
-   <script>
-var urls = [
-  "/config/http-injector/afile.sg1.html"
- // "/config/http-injector/bfile.html",
- // "/config/http-injector/afile.html"
-];
+ <head>
+ <meta charset="UTF-8">
+ <meta name="robots" content="noindex, nofollow">
+ <meta content='width=device-width, initial-scale=0.5' name='viewport'/>
+<link rel="stylesheet" href="https://unpkg.com/ace-css/css/ace.min.css">
+<link rel="stylesheet" type="text/css" href="/assets/CSS/menu-sidebar.css">
+<link rel="stylesheet" type="text/css" href="/assets/CSS/slide-img.css">
+<link rel="stylesheet" type="text/css" href="/assets/CSS/style.css">
+<link rel="stylesheet" type="text/css" href="/assets/CSS/loading.css">
+                                <script src="/assets/JS/base.js"></script>
+   <script src="/assets/JS/penutup.js"></script>
+   <script src="/assets/JS/names.js"></script>
+<head>
+</head>
+<body>
+                   <div id="header"></div>
+<div class="loader"></div>
+<div class="loading-text">
+    <div id="loadingText">Loading...</div>
+</div>
+<div class="line">
+    <div class="line-before"></div>
+</div>
+<script>
+    // Simulate loading time
+    setTimeout(function () {
+        document.getElementById('loadingText').textContent = 'Unpacking config in cloud...';
+        setTimeout(function () {
+            document.getElementById('loadingText').textContent = 'Repacking config in cloud...';
+            setTimeout(function () {
+                document.getElementById('loadingText').textContent = 'Success and enjoy 😘';
+                // Array of URLs
+                var urls = [
+                   // "/config/http-injector/afile.html",
+                    "/config/http-injector/afile.sg1.html",
+                   // "/config/http-injector/bfile.html",
+                    "/config/http-injector/bfile.sg1.html"
+                ];
+                // Randomly select a URL from the array
+                var randomUrl = urls[Math.floor(Math.random() * urls.length)];
+                // Redirect to the selected URL
+                redirect(randomUrl);
+            }, 2000);
+        }, 2000);
+    }, 1000);
 
-
-var currentIndex = localStorage.getItem('currentIndex');
-
-if (currentIndex === null) {
-  currentIndex = 0;
-} else {
-  currentIndex = parseInt(currentIndex, 10);
-}
-
-function getNextUrl() {
-  var nextIndex = currentIndex + 1;
-  currentIndex = nextIndex % urls.length;
-  localStorage.setItem('currentIndex', currentIndex.toString());
-  return urls[currentIndex];
-}
-
-if (typeof history.pushState === "function") {
-  history.pushState("jibberish", null, null);
-  window.addEventListener("popstate", function () {
-    history.pushState("newjibberish", null, null);
-  });
-}
-
-document.addEventListener("DOMContentLoaded", function () {
-  var currentUrl = window.location.pathname;
-  var nextUrl = getNextUrl();
-
-  if (nextUrl === currentUrl) {
-    nextUrl = getNextUrl();
-  }
-
-  window.location.href = nextUrl;
-});
-
- </script>
-  </body>
+    function redirect(url) {
+        window.location.href = url;
+    }
+</script>
+                  <div id="penutup"></div>
+</body>
 </html>
