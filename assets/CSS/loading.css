@@ -85,7 +85,7 @@
     height: 90%; /* Ubah tinggi line before menjadi lebih kecil dari line utama */
     background-color: #00ff33;
     border-radius: 10px; /* Tambahkan radius untuk ujung-ujung elemen sebelumnya */
-    transform: translateY(-50%); /* Ubah transform menjadi translateY(-100%) */
+    transform: translateY(-100%);
     animation: progress 2s infinite linear;
 }
 
