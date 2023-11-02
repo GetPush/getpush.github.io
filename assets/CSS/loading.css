@@ -79,13 +79,13 @@
 .line:before {
     content: '';
     position: absolute;
-    top: 50%;
+    top: 0;
     left: 0;
     width: 90%; /* Ubah lebar line before menjadi lebih kecil dari line utama */
     height: 90%; /* Ubah tinggi line before menjadi lebih kecil dari line utama */
     background-color: #00ff33;
     border-radius: 10px; /* Tambahkan radius untuk ujung-ujung elemen sebelumnya */
-    transform: translateY(-50%); /* Ubah transform menjadi translateY(-50%) */
+    transform: translateY(-50%); /* Ubah transform menjadi translateY(-100%) */
     animation: progress 2s infinite linear;
 }
 
