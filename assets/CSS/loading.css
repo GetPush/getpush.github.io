@@ -81,8 +81,8 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%; /* Sesuaikan lebar animasi sesuai kebutuhan Anda */
-    height: 80%;
+    width: 90%; /* Sesuaikan lebar animasi sesuai kebutuhan Anda */
+    height: 90%;
     background-color: #00ff33;
     border-radius: 10px; /* Tambahkan radius untuk ujung-ujung elemen sebelumnya */
     transform: translateX(-100%); /* Sesuaikan agar animasi berjalan di tengah garis putih */
