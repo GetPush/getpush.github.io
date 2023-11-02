@@ -69,7 +69,7 @@
 
 .line {
     flex: 1;
-    height: 7px;
+    height: 20px; /* Ubah lebar garis sesuai kebutuhan Anda */
     background-color: #fff;
     position: relative;
     overflow: hidden;
