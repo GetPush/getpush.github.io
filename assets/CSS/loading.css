@@ -1,15 +1,11 @@
 .loader {
     display: flex;
-    top: 50;
-    left: 45%;
-    height: 200vh; /* Sesuaikan dengan kebutuhan Anda */
     align-items: center;
     justify-content: center;
     position: relative;
-    width: 150px; /* Ubah ukuran width sesuai kebutuhan Anda */
-    height: 150px; /* Ubah ukuran height sesuai kebutuhan Anda */
+    width: 100px;
+    height: 100px;
     margin-right: 10px;
-    margin-top: 30%;
     animation: rotate 0.3s infinite linear;
 }
 
@@ -22,7 +18,7 @@
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background: linear-gradient(45deg, #ff00a8, #ff7f00, #f9ff00, #00ff16, #0026ff, #e600ff);
+    background: linear-gradient(45deg, #ff005e, #ff7f00, #f9ff00, #00ff33, #004cff, #a900ff);
     animation: spin 2s infinite linear;
 }
 
@@ -53,67 +49,14 @@
         opacity: 0.4;
     }
 }
-.piring {
-    display: flex;
-    top: 50;
-    left: 45%;
-    height: 200vh; /* Sesuaikan dengan kebutuhan Anda */
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    width: 150px; /* Ubah ukuran width sesuai kebutuhan Anda */
-    height: 150px; /* Ubah ukuran height sesuai kebutuhan Anda */
-    margin-right: 10px;
-    margin-top: 30%;
-    animation: rotate 0.3s infinite linear;
-}
-
-.piring:before,
-.piring:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    background: linear-gradient(45deg, #ff005e, #ff7f00, #f9ff00, #00ff33, #004cff, #a900ff);
-    animation: spin 2s infinite linear;
-}
-
-.piring:before {
-    animation-delay: -0.5s;
-}
-
-@keyframes rotate {
-    0% {
-        transform: rotateZ(0deg);
-    }
-    100% {
-        transform: rotateZ(360deg);
-    }
-}
-
-@keyframes spin {
-    0% {
-        transform: rotateZ(0deg) scale(0.2);
-        opacity: 0.4;
-    }
-    50% {
-        transform: rotateZ(180deg) scale(1);
-        opacity: 1;
-    }
-    100% {
-        transform: rotateZ(360deg) scale(0.2);
-        opacity: 0.4;
-    }
-}
 
 .loading-text {
-    font-size: 30px;
-    margin-top: 50px;
+    margin-top: 10px;
     color: #fff;
+    font-size: 15px;
+    position: relative;
     text-align: center;
+    width: 200px;
 }
 
 .line-container {
@@ -123,24 +66,23 @@
 
 .line {
     flex: 1;
-    height: 30px; /* Sesuaikan lebar garis sesuai kebutuhan Anda */
-    background-color: red;
-    margin-top: 40px;
+    height: 20px; /* Sesuaikan lebar garis sesuai kebutuhan Anda */
+    background-color: #fff;
     position: relative;
     overflow: hidden;
-    border-radius: 50px; /* Tambahkan radius untuk ujung-ujung garis */
+    border-radius: 10px; /* Tambahkan radius untuk ujung-ujung garis */
 }
 
 .line:before {
     content: '';
     position: absolute;
-    top: 0; /* Sesuaikan posisi top agar line before berada di tengah */
-    left: 0; /* Sesuaikan posisi left agar line before berada di tengah */
-    width: 50%; /* Ubah lebar line before menjadi lebih kecil dari line utama */
-    height: 90%; /* Ubah tinggi line before menjadi lebih kecil dari line utama */
+    top: 0;
+    left: 0;
+    width: 50%; /* Sesuaikan lebar animasi sesuai kebutuhan Anda */
+    height: 90%;
     background-color: #00ff33;
-    border-radius: 50px; /* Tambahkan radius untuk ujung-ujung elemen sebelumnya */
-    transform: translateX(-100%); /* Ubah transform agar line before berada di tengah */
+    border-radius: 10px; /* Tambahkan radius untuk ujung-ujung elemen sebelumnya */
+    transform: translateX(-100%); /* Sesuaikan agar animasi berjalan di tengah garis putih */
     animation: progress 2s infinite linear;
 }
 
@@ -149,6 +91,6 @@
         transform: translateX(-100%);
     }
     100% {
-        transform: translateX(200%); /* Ubah transform akhir agar line before mencapai akhir */
+        transform: translateX(100%);
     }
 }
