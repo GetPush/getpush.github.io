@@ -42,8 +42,6 @@ proxy-groups:
     proxies:
       - SUPPORT
       - 🕊️Utama
-      - INDONESIA
-      - SINGAPORE
       - CANADA
       - ROMANIA
       - FRANCIS
@@ -53,6 +51,8 @@ proxy-groups:
 #      - TURKEY
       - GERMANY
       - US
+      - INDONESIA
+      - SINGAPORE
   - name: Otomatis
     type: fallback
     disable-udp: false
@@ -61,8 +61,6 @@ proxy-groups:
     proxies:
       - SUPPORT
       - 🕊️Utama
-      - INDONESIA
-      - SINGAPORE
       - CANADA
       - ROMANIA
       - FRANCIS
@@ -72,6 +70,8 @@ proxy-groups:
 #      - TURKEY
       - GERMANY
       - US
+      - INDONESIA
+      - SINGAPORE
   - name: BestPing
     type: url-test
     disable-udp: false
@@ -80,8 +80,6 @@ proxy-groups:
     proxies:
       - SUPPORT
       - 🕊️Utama
-      - INDONESIA
-      - SINGAPORE
       - CANADA
       - ROMANIA
       - FRANCIS
@@ -91,6 +89,8 @@ proxy-groups:
 #      - TURKEY
       - GERMANY
       - US
+      - INDONESIA
+      - SINGAPORE
 
   - name: 🕊️Utama
     type: fallback
