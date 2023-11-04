@@ -98,7 +98,7 @@ proxy-groups:
     interval: '600'
     use:
       - Server1
-     # - Server2
+      - Server2
      # - Server3
      # - Server4
   - name: SUPPORT
