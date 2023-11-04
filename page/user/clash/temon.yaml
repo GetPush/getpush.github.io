@@ -3,16 +3,11 @@ proxy-groups:
   - name: CONNECT
     type: select
     proxies:
-      - ALL IN
       - SEIMBANG
+      - Otomatis
       - BestPing
       - 🕊️Utama
       - SUPPORT
-      - TROJAN
-      - Server1
-      - Server2
-      - Server3
-      - Server4
       - INDONESIA
       - SINGAPORE
       - CANADA
@@ -44,46 +39,68 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '300'
     proxies:
-      - Server1
-     # - Server2
-     # - Server3
-     # - Server4
+      - 🕊️Utama
       - SUPPORT
-      - TROJAN
-  - name: ALL IN
+      - CANADA
+      - ROMANIA
+      - FRANCIS
+      - THAILAND
+      - NETHERLANDS
+      - UNITED KINGDOM
+#      - TURKEY
+      - GERMANY
+      - US
+      - INDONESIA
+      - SINGAPORE
+  - name: Otomatis
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '600'
     proxies:
-      - Server1
-     # - Server2
-     # - Server3
-     # - Server4
+      - 🕊️Utama
       - SUPPORT
-      - TROJAN
+      - CANADA
+      - ROMANIA
+      - FRANCIS
+      - THAILAND
+      - NETHERLANDS
+      - UNITED KINGDOM
+#      - TURKEY
+      - GERMANY
+      - US
+      - INDONESIA
+      - SINGAPORE
   - name: BestPing
     type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '300'
     proxies:
-      - Server1
-     # - Server2
-     # - Server3
-     # - Server4
+      - 🕊️Utama
       - SUPPORT
+      - CANADA
+      - ROMANIA
+      - FRANCIS
+      - THAILAND
+      - NETHERLANDS
+      - UNITED KINGDOM
+#      - TURKEY
+      - GERMANY
+      - US
+      - INDONESIA
+      - SINGAPORE
 
   - name: 🕊️Utama
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '600'
-    proxies:
+    use:
       - Server1
-     # - Server2
-     # - Server3
-     # - Server4
+      - Server2
+      - Server3
+      - Server4
   - name: SUPPORT
     type: fallback
     disable-udp: false
@@ -95,53 +112,6 @@ proxy-groups:
       - Support3
       - Support4
       - Support5
-  - name: TROJAN
-    type: fallback
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '200'
-    proxies:
-      - INDONESIA
-      - SINGAPORE
-      - CANADA
-      - ROMANIA
-      - FRANCIS
-      - THAILAND
-      - NETHERLANDS
-      - UNITED KINGDOM
-#      - TURKEY
-      - GERMANY
-      - US
-      
-# seleksi server 
-  - name: Server1
-    type: fallback
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '150'
-    use:
-      - Server1
-  - name: Server2
-    type: fallback
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '150'
-    use:
-      - Server2
-  - name: Server3
-    type: fallback
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '150'
-    use:
-      - Server3
-  - name: Server4
-    type: fallback
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '150'
-    use:
-      - Server4
 
 # seleksi Trojan
   - name: CANADA
