@@ -99,8 +99,8 @@ proxy-groups:
     use:
       - Server1
       - Server2
-     # - Server3
-     # - Server4
+      - Server3
+      - Server4
   - name: SUPPORT
     type: fallback
     disable-udp: false
