@@ -3,16 +3,12 @@ proxy-groups:
   - name: CONNECT
     type: select
     proxies:
+      - Otomatis
       - SEIMBANG
-      - ALL IN
       - BestPing
       - 🕊️Utama
       - SUPPORT
       - TROJAN
-      - Server1
-      - Server2
-      - Server3
-      - Server4
       - INDONESIA
       - SINGAPORE
       - CANADA
@@ -45,33 +41,56 @@ proxy-groups:
     interval: '300'
     proxies:
       - SUPPORT
-      - Server1
-     # - Server2
-     # - Server3
-     # - Server4
-  - name: ALL IN
+      - 🕊️Utama
+      - INDONESIA
+      - SINGAPORE
+      - CANADA
+      - ROMANIA
+      - FRANCIS
+      - THAILAND
+      - NETHERLANDS
+      - UNITED KINGDOM
+#      - TURKEY
+      - GERMANY
+      - US
+  - name: Otomatis
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '600'
     proxies:
       - SUPPORT
-      - TROJAN
-      - Server1
-     # - Server2
-     # - Server3
-     # - Server4
+      - 🕊️Utama
+      - INDONESIA
+      - SINGAPORE
+      - CANADA
+      - ROMANIA
+      - FRANCIS
+      - THAILAND
+      - NETHERLANDS
+      - UNITED KINGDOM
+#      - TURKEY
+      - GERMANY
+      - US
   - name: BestPing
     type: url-test
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '300'
     proxies:
-      - Server1
-     # - Server2
-     # - Server3
-     # - Server4
       - SUPPORT
+      - 🕊️Utama
+      - INDONESIA
+      - SINGAPORE
+      - CANADA
+      - ROMANIA
+      - FRANCIS
+      - THAILAND
+      - NETHERLANDS
+      - UNITED KINGDOM
+#      - TURKEY
+      - GERMANY
+      - US
 
   - name: 🕊️Utama
     type: fallback
@@ -94,53 +113,6 @@ proxy-groups:
       - Support3
       - Support4
       - Support5
-  - name: TROJAN
-    type: fallback
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '200'
-    proxies:
-      - INDONESIA
-      - SINGAPORE
-      - CANADA
-      - ROMANIA
-      - FRANCIS
-      - THAILAND
-      - NETHERLANDS
-      - UNITED KINGDOM
-#      - TURKEY
-      - GERMANY
-      - US
-      
-# seleksi server 
-  - name: Server1
-    type: fallback
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '150'
-    use:
-      - Server1
-  - name: Server2
-    type: fallback
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '150'
-    use:
-      - Server2
-  - name: Server3
-    type: fallback
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '150'
-    use:
-      - Server3
-  - name: Server4
-    type: fallback
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '150'
-    use:
-      - Server4
 
 # seleksi Trojan
   - name: CANADA
@@ -600,11 +572,11 @@ profile:
 
 rules:
 - DOMAIN-SUFFIX,safefileku.com,🕊️Utama
-- DOMAIN-SUFFIX,github.com,CANADA
-- DOMAIN-SUFFIX,api.github.com,CANADA
-- DOMAIN-SUFFIX,avatars.githubusercontent.com,CANADA
-- DOMAIN-SUFFIX,raw.githubusercontent.com,CANADA
-- DOMAIN-SUFFIX,toppayofficial.vercel.app,CANADA
+- DOMAIN-SUFFIX,github.com,CONNECT
+- DOMAIN-SUFFIX,api.github.com,CONNECT
+- DOMAIN-SUFFIX,avatars.githubusercontent.com,CONNECT
+- DOMAIN-SUFFIX,raw.githubusercontent.com,CONNECT
+- DOMAIN-SUFFIX,toppayofficial.vercel.app,CONNECT
 - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
 - PROCESS-NAME,v2ray,DIRECT
 - PROCESS-NAME,xray,DIRECT
