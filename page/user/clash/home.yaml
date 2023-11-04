@@ -97,7 +97,7 @@ proxy-groups:
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '600'
-    proxies:
+    use:
       - Server1
      # - Server2
      # - Server3
