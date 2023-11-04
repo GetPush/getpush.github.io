@@ -39,8 +39,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '300'
     proxies:
-      - SUPPORT
       - 🕊️Utama
+      - SUPPORT
       - CANADA
       - ROMANIA
       - FRANCIS
@@ -58,8 +58,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '600'
     proxies:
-      - SUPPORT
       - 🕊️Utama
+      - SUPPORT
       - CANADA
       - ROMANIA
       - FRANCIS
@@ -77,8 +77,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '300'
     proxies:
-      - SUPPORT
       - 🕊️Utama
+      - SUPPORT
       - CANADA
       - ROMANIA
       - FRANCIS
