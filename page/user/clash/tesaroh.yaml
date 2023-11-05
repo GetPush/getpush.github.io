@@ -3,8 +3,8 @@ proxy-groups:
   - name: CONNECT
     type: select
     proxies:
-      - SEIMBANG
       - Otomatis
+      - SEIMBANG
       - BestPing
       - 🕊️Utama
       - SUPPORT
