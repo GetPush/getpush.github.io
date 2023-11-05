@@ -8,7 +8,6 @@ proxy-groups:
       - BestPing
       - 🕊️Utama
       - SUPPORT
-      - INDONESIA
       - SINGAPORE
       - CANADA
       - ROMANIA
@@ -17,8 +16,10 @@ proxy-groups:
       - NETHERLANDS
       - UNITED KINGDOM
 #      - TURKEY
-      - GERMANY
       - US
+      - GERMANY
+      - INDONESIA
+      - Admin
       - DIRECT
 
   - name: ADS💰
@@ -197,6 +198,13 @@ proxy-groups:
       - SG HE 2
       - SG HE 3
 
+  - name: Admin
+    type: fallback
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '600'
+    use:
+      - Admin
 
 proxy-providers:
 # ### Trojan Community ###
@@ -317,6 +325,13 @@ proxy-providers:
 
 
 # ### Server Community ###
+  Admin:
+    type: http
+    path: ./Admin.yaml
+    health-check:
+    enable: true
+    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/page/user/service/server/server1.yaml"
+    interval: 1200
   Server1:
     type: http
     path: ./server1.yaml
