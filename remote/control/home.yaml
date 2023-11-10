@@ -217,35 +217,35 @@ proxy-providers:
      path: ./romania.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/romania.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/romania/romania.yaml"
      interval: 1200
   NETHERLANDS: 
      type: http 
      path: ./netherlands.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/netherlands.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/netherlands/netherlands.yaml"
      interval: 1200
   FRANCIS: 
      type: http 
      path: ./francis.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/francis.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/francis/francis.yaml"
      interval: 1200
   THAILAND: 
      type: http 
      path: ./thailand.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/thailand.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/thailand/thailand.yaml"
      interval: 1200
   SG HE MUX: 
      type: http 
      path: ./sg he mux.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/sg%20he%20mux.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/sg%20he%20mux/sg%20he%20mux.yaml"
      interval: 1200
 #  TURKEY: 
 #     type: http 
@@ -259,63 +259,63 @@ proxy-providers:
      path: ./germany.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/germany.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/germany/germany.yaml"
      interval: 1200
   UNITED KINGDOM: 
      type: http 
      path: ./united kingdom.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/united%20kingdom.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/united%20kingdom/united%20kingdom.yaml"
      interval: 1200
   SG MELBI: 
      type: http 
      path: ./sg melbi.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/sg%20melbi.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/sg%20melbi/sg%20melbi.yaml"
      interval: 1200
   SG HE 2: 
      type: http 
      path: ./sg he 2.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/sg%20he%202.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/sg%20he%202/sg%20he%202.yaml"
      interval: 1200
   SG HE 3: 
      type: http 
      path: ./sg he 3.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/sg%20he%203.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/sg%20he%203/sg%20he%203.yaml"
      interval: 1200
   US: 
      type: http 
-     path: ./us.yaml 
+     path: ./america.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/us.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/america/us.yaml"
      interval: 1200
   SG HE 1: 
      type: http 
      path: ./sg he 1.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/sg%20he%201.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/sg%20he%201/sg%20he%201.yaml"
      interval: 1200
   ID HERZA: 
      type: http 
      path: ./id herza.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/id%20herza.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/id%20herza/id%20herza.yaml"
      interval: 1200
   SG AMP: 
      type: http 
      path: ./sg amp.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/sg%20amp.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/sg%20amp/sg%20amp.yaml"
      interval: 1200
 
 
@@ -329,6 +329,7 @@ proxy-providers:
     enable: true
     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/admin.yaml"
     interval: 1200
+    
   Server1:
     type: http
     path: ./server1.yaml
