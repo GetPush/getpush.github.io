@@ -1,0 +1,681 @@
+proxies:
+proxy-groups:
+  - name: CONNECT
+    type: select
+    proxies:
+      - SEIMBANG
+      - Otomatis
+      - BestPing
+      - 🕊️Utama
+      - SUPPORT
+      - SINGAPORE
+      - CANADA
+      - ROMANIA
+      - FRANCIS
+      - THAILAND
+      - NETHERLANDS
+      - UNITED KINGDOM
+#      - TURKEY
+      - US
+      - GERMANY
+      - INDONESIA
+      - Admin
+      - DIRECT
+
+  - name: ADS💰
+    type: select
+    proxies:
+      - CONNECT
+      - REJECT
+  - name: Privasi🔒
+    type: select
+    proxies:
+      - REJECT
+      - CONNECT
+
+# kompres
+  - name: SEIMBANG
+    type: load-balance
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '300'
+    proxies:
+      - 🕊️Utama
+      - SUPPORT
+      - CANADA
+      - ROMANIA
+      - FRANCIS
+      - THAILAND
+      - NETHERLANDS
+      - UNITED KINGDOM
+#      - TURKEY
+      - GERMANY
+      - US
+      - INDONESIA
+      - SINGAPORE
+  - name: Otomatis
+    type: fallback
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '600'
+    proxies:
+      - 🕊️Utama
+      - SUPPORT
+      - CANADA
+      - ROMANIA
+      - FRANCIS
+      - THAILAND
+      - NETHERLANDS
+      - UNITED KINGDOM
+#      - TURKEY
+      - GERMANY
+      - US
+      - INDONESIA
+      - SINGAPORE
+  - name: BestPing
+    type: url-test
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '300'
+    proxies:
+      - 🕊️Utama
+      - SUPPORT
+      - CANADA
+      - ROMANIA
+      - FRANCIS
+      - THAILAND
+      - NETHERLANDS
+      - UNITED KINGDOM
+#      - TURKEY
+      - GERMANY
+      - US
+      - INDONESIA
+      - SINGAPORE
+
+  - name: 🕊️Utama
+    type: fallback
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '600'
+    use:
+      - Server1
+      - Server2
+      - Server3
+      - Server4
+  - name: SUPPORT
+    type: fallback
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '200'
+    use:
+      - Support1
+      - Support2
+      - Support3
+      - Support4
+      - Support5
+
+# seleksi Trojan
+  - name: CANADA
+    type: fallback
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '150'
+    use:
+      - CANADA
+  - name: ROMANIA
+    type: fallback
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '150'
+    use:
+      - ROMANIA
+  - name: NETHERLANDS
+    type: fallback
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '150'
+    use:
+      - NETHERLANDS
+  - name: FRANCIS
+    type: fallback
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '150'
+    use:
+      - FRANCIS
+  - name: THAILAND
+    type: fallback
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '150'
+    use:
+      - THAILAND
+  - name: GERMANY
+    type: fallback
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '150'
+    use:
+      - GERMANY
+#  - name: TURKEY
+#    type: fallback
+#    disable-udp: false
+#    url: http://www.gstatic.com/generate_204
+#    interval: '150'
+#    use:
+#      - TURKEY
+  - name: UNITED KINGDOM
+    type: fallback
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '150'
+    use:
+      - UNITED KINGDOM
+  - name: US
+    type: fallback
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '150'
+    use:
+      - US
+  - name: INDONESIA
+    type: fallback
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '150'
+    use:
+      - ID HERZA
+  - name: SINGAPORE
+    type: fallback
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '150'
+    use:
+      - SG AMP
+      - SG MELBI
+      - SG HE MUX
+      - SG HE 1
+      - SG HE 2
+      - SG HE 3
+
+  - name: Admin
+    type: fallback
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '600'
+    use:
+      - Admin
+
+proxy-providers:
+# ### Trojan Community ###
+  CANADA: 
+     type: http 
+     path: ./canada.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/control/providers/canada.yaml"
+     interval: 1200
+  ROMANIA: 
+     type: http 
+     path: ./romania.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/control/providers/romania.yaml"
+     interval: 1200
+  NETHERLANDS: 
+     type: http 
+     path: ./netherlands.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/control/providers/netherlands.yaml"
+     interval: 1200
+  FRANCIS: 
+     type: http 
+     path: ./francis.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/control/providers/francis.yaml"
+     interval: 1200
+  THAILAND: 
+     type: http 
+     path: ./thailand.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/control/providers/thailand.yaml"
+     interval: 1200
+  SG HE MUX: 
+     type: http 
+     path: ./sg he mux.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/control/providers/sg%20he%20mux.yaml"
+     interval: 1200
+#  TURKEY: 
+#     type: http 
+#     path: ./turkey.yaml 
+#     health-check: 
+#     enable: true 
+#     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/control/providers/turkey.yaml"
+#     interval: 1200
+  GERMANY: 
+     type: http 
+     path: ./germany.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/control/providers/germany.yaml"
+     interval: 1200
+  UNITED KINGDOM: 
+     type: http 
+     path: ./united kingdom.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/control/providers/united%20kingdom.yaml"
+     interval: 1200
+  SG MELBI: 
+     type: http 
+     path: ./sg melbi.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/control/providers/sg%20melbi.yaml"
+     interval: 1200
+  SG HE 2: 
+     type: http 
+     path: ./sg he 2.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/control/providers/sg%20he%202.yaml"
+     interval: 1200
+  SG HE 3: 
+     type: http 
+     path: ./sg he 3.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/control/providers/sg%20he%203.yaml"
+     interval: 1200
+  US: 
+     type: http 
+     path: ./us.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/control/providers/us.yaml"
+     interval: 1200
+  SG HE 1: 
+     type: http 
+     path: ./sg he 1.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/control/providers/sg%20he%201.yaml"
+     interval: 1200
+  ID HERZA: 
+     type: http 
+     path: ./id herza.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/control/providers/id%20herza.yaml"
+     interval: 1200
+  SG AMP: 
+     type: http 
+     path: ./sg amp.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/control/providers/sg%20amp.yaml"
+     interval: 1200
+
+
+
+
+# ### Server Community ###
+  Admin:
+    type: http
+    path: ./Admin.yaml
+    health-check:
+    enable: true
+    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/control/providers/admin.yaml"
+    interval: 1200
+  Server1:
+    type: http
+    path: ./server1.yaml
+    health-check:
+    enable: true
+    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/control/providers/server1.yaml"
+    interval: 1200
+  Server2:
+    type: http
+    path: ./server2.yaml
+    health-check:
+    enable: true
+    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/control/providers/server2.yaml"
+    interval: 1200
+  Server3:
+    type: http
+    path: ./server3.yaml
+    health-check:
+    enable: true
+    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/control/providers/server3.yaml"
+    interval: 1200
+  Server4:
+    type: http
+    path: ./server4.yaml
+    health-check:
+    enable: true
+    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/control/providers/server4.yaml"
+    interval: 1200
+
+
+
+#Support
+
+  Support1: 
+     type: http 
+     path: ./Support1.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/control/providers/support1.yaml"
+     interval: 1200
+  Support2: 
+     type: http 
+     path: ./Support2.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/control/providers/support2.yaml"
+     interval: 1200
+  Support3: 
+     type: http 
+     path: ./Support3.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/control/providers/support3.yaml"
+     interval: 1200
+  Support4: 
+     type: http 
+     path: ./Support4.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/control/providers/support4.yaml"
+     interval: 1200
+  Support5: 
+     type: http 
+     path: ./Support5.yaml 
+     health-check: 
+     enable: true 
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/control/providers/support5.yaml"
+     interval: 1200
+
+
+
+redir-port: 7892
+port: 7890
+socks-port: 7891
+mixed-port: 7893
+mode: rule
+log-level: info
+allow-lan: true
+external-controller: 0.0.0.0:3000
+secret: '123456'
+bind-address: "*"
+external-ui: "./"
+dns:
+  enable: true
+  ipv6: true
+  enhanced-mode: fake-ip
+  listen: 0.0.0.0:7874
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-Comotan:
+  - "*.lan"
+  - "*.localdomain"
+  - "*.example"
+  - "*.invalid"
+  - "*.localhost"
+  - "*.test"
+  - "*.local"
+  - "*.home.arpa"
+  - time.*.com
+  - time.*.gov
+  - time.*.edu.cn
+  - time.*.apple.com
+  - time1.*.com
+  - time2.*.com
+  - time3.*.com
+  - time4.*.com
+  - time5.*.com
+  - time6.*.com
+  - time7.*.com
+  - ntp.*.com
+  - ntp1.*.com
+  - ntp2.*.com
+  - ntp3.*.com
+  - ntp4.*.com
+  - ntp5.*.com
+  - ntp6.*.com
+  - ntp7.*.com
+  - "*.time.edu.cn"
+  - "*.ntp.org.cn"
+  - "+.pool.ntp.org"
+  - time1.cloud.tencent.com
+  - music.163.com
+  - "*.music.163.com"
+  - "*.126.net"
+  - musicapi.taihe.com
+  - music.taihe.com
+  - songsearch.kugou.com
+  - trackercdn.kugou.com
+  - "*.kuwo.cn"
+  - api-jooxtt.sanook.com
+  - api.joox.com
+  - joox.com
+  - y.qq.com
+  - "*.y.qq.com"
+  - streamoc.music.tc.qq.com
+  - mobileoc.music.tc.qq.com
+  - isure.stream.qqmusic.qq.com
+  - dl.stream.qqmusic.qq.com
+  - aqqmusic.tc.qq.com
+  - amobile.music.tc.qq.com
+  - "*.xiami.com"
+  - "*.music.migu.cn"
+  - music.migu.cn
+  - "+.msftconnecttest.com"
+  - "+.msftncsi.com"
+  - msftconnecttest.com
+  - msftncsi.com
+  - localhost.ptlogin2.qq.com
+  - localhost.sec.qq.com
+  - "+.srv.nintendo.net"
+  - "+.stun.playstation.net"
+  - xbox.*.microsoft.com
+  - xnotify.xboxlive.com
+  - "+.battlenet.com.cn"
+  - "+.wotgame.cn"
+  - "+.wggames.cn"
+  - "+.wowsgame.cn"
+  - "+.wargaming.net"
+  - proxy.golang.org
+  - stun.*.*
+  - stun.*.*.*
+  - "+.stun.*.*"
+  - "+.stun.*.*.*"
+  - "+.stun.*.*.*.*"
+  - heartbeat.belkin.com
+  - "*.linksys.com"
+  - "*.linksyssmartwifi.com"
+  - "*.router.asus.com"
+  - mesu.apple.com
+  - swscan.apple.com
+  - swquery.apple.com
+  - swdownload.apple.com
+  - swcdn.apple.com
+  - swdist.apple.com
+  - lens.l.google.com
+  - stun.l.google.com
+  - "+.nflxvideo.net"
+  - "*.square-enix.com"
+  - "*.finalfantasyxiv.com"
+  - "*.ffxiv.com"
+  - "*.mcdn.bilivideo.cn"
+  - "+.media.dssott.com"
+  default-nameserver:
+  - 8.8.8.8 #google
+  - 8.8.4.4 #google
+  - 1.1.1.1 #cloudflare
+  - 1.0.0.1 #cloudflare
+  - 9.9.9.9 #quaddns
+  - 9.9.9.11 #quaddns
+  - 192.168.170.28 #Tsel
+  - 192.168.178.28 #Tsel
+  - 192.168.130.28 #Tsel
+  - 112.215.220.254 #Axis
+  - 112.215.219.254 #Axis
+  - 140.213.82.253 #Axis
+  - 140.213.82.254 #Axis
+  - 112.215.203.248 #Axis
+  - 112.215.203.254 #Axis
+  - 112.215.37.182 #XL
+  - 112.215.37.183 #XL
+  fallback-Comotan:
+    geoip: true
+    geoip-code: ID
+    ipcidr:
+    - 0.0.0.0/8
+    - 10.0.0.0/8
+    - 150.64.0.0/10
+    - 127.0.0.0/8
+    - 169.254.0.0/16
+    - 172.16.0.0/12
+    - 192.0.0.0/24
+    - 192.0.2.0/24
+    - 192.88.99.0/24
+    - 192.168.0.0/16
+    - 198.18.0.0/15
+    - 198.51.150.0/24
+    - 203.0.113.0/24
+    - 224.0.0.0/4
+    - 240.0.0.0/4
+    - 255.255.255.255/32
+    domain:
+    - "+.google.com"
+    - "+.facebook.com"
+    - "+.youtube.com"
+    - "+.githubusercontent.com"
+    - "+.googlevideo.com"
+  nameserver:
+  - 8.8.8.8 #google
+  - 8.8.4.4 #google
+  - 1.1.1.1 #cloudflare
+  - 1.0.0.1 #cloudflare
+  - 9.9.9.9 #quaddns
+  - 9.9.9.11 #quaddns
+  - 192.168.170.28 #Tsel
+  - 192.168.178.28 #Tsel
+  - 192.168.130.28 #Tsel
+  - 112.215.220.254 #Axis
+  - 112.215.219.254 #Axis
+  - 140.213.82.253 #Axis
+  - 140.213.82.254 #Axis
+  - 112.215.203.248 #Axis
+  - 112.215.203.254 #Axis
+  - 112.215.37.182 #XL
+  - 112.215.37.183 #XL
+  fallback:
+  - 8.8.8.8
+  - 1.1.1.1
+  - 9.9.9.9
+profile:
+  store-selected: true
+  store-fakeip: true
+  store-fake-ip: true
+
+rules:
+- DOMAIN-SUFFIX,safefileku.com,🕊️Utama
+- DOMAIN-SUFFIX,github.com,CONNECT
+- DOMAIN-SUFFIX,api.github.com,CONNECT
+- DOMAIN-SUFFIX,avatars.githubusercontent.com,CONNECT
+- DOMAIN-SUFFIX,raw.githubusercontent.com,CONNECT
+- DOMAIN-SUFFIX,toppayofficial.vercel.app,CONNECT
+- IP-CIDR,198.18.0.1/16,REJECT,no-resolve
+- PROCESS-NAME,v2ray,DIRECT
+- PROCESS-NAME,xray,DIRECT
+- PROCESS-NAME,naive,DIRECT
+- PROCESS-NAME,trojan,DIRECT
+- PROCESS-NAME,trojan-go,DIRECT
+- PROCESS-NAME,ss-local,DIRECT
+- PROCESS-NAME,privoxy,DIRECT
+- PROCESS-NAME,leaf,DIRECT
+- PROCESS-NAME,v2ray.exe,DIRECT
+- PROCESS-NAME,xray.exe,DIRECT
+- PROCESS-NAME,naive.exe,DIRECT
+- PROCESS-NAME,trojan.exe,DIRECT
+- PROCESS-NAME,trojan-go.exe,DIRECT
+- PROCESS-NAME,ss-local.exe,DIRECT
+- PROCESS-NAME,privoxy.exe,DIRECT
+- DST-PORT,22,DIRECT,no-resolve
+- RULE-SET,xdomain,Privasi🔒
+- RULE-SET,rule_porn,Privasi🔒
+- RULE-SET,adblock,ADS💰
+- RULE-SET,rule_reject,ADS💰
+- RULE-SET,rule_privacy,Privasi🔒
+- DST-PORT,21,CONNECT
+- DST-PORT,23,CONNECT
+- DST-PORT,25,CONNECT
+- DST-PORT,80,CONNECT
+- DST-PORT,81,CONNECT
+- DST-PORT,143,CONNECT
+- DST-PORT,443,CONNECT 
+- DST-PORT,465,CONNECT
+- DST-PORT,587,CONNECT
+- DST-PORT,993,CONNECT
+- DST-PORT,995,CONNECT
+- DST-PORT,8000,CONNECT
+- DST-PORT,8008,CONNECT
+- DST-PORT,8080,CONNECT
+- DST-PORT,8081,CONNECT
+- DST-PORT,8090,CONNECT
+- DST-PORT,8443,CONNECT
+- DST-PORT,8888,CONNECT
+- MATCH,CONNECT
+
+tun:
+  enable: true
+  stack: system
+  dns-hijack:
+  - tcp://8.8.8.8:53
+  - tcp://8.8.4.4:53
+tproxy-port: 7895
+
+rule-providers:
+
+  adblock:
+    type: http
+    behavior: classical
+    path: "./adblock.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/ruleset/adblock.yaml
+    interval: 86400
+
+  rule_reject:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/ruleset/rule_reject.yaml
+    path: "./rule_reject.yaml"
+    interval: 86400
+
+  xdomain:
+    type: http
+    behavior: domain
+    path: "./xdomain.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/ruleset/xdomain.yaml
+    interval: 86400
+
+  rule_privacy:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/ruleset/rule_privacy.yaml
+    path: "./rule_privacy.yaml"
+    interval: 86400
+
+  rule_porn:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/ruleset/rule_porn.yaml
+    path: "./rule_porn.yaml"
+    interval: 86400
+
+ipv6: true
