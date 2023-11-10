@@ -3,8 +3,8 @@ proxy-groups:
   - name: CONNECT
     type: select
     proxies:
-      - SEIMBANG
       - Otomatis
+      - SEIMBANG
       - BestPing
       - 🕊️Utama
       - SUPPORT
@@ -40,7 +40,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '300'
     proxies:
-      - 🕊️Utama
       - SUPPORT
       - CANADA
       - ROMANIA
@@ -59,7 +58,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '600'
     proxies:
-      - 🕊️Utama
       - SUPPORT
       - CANADA
       - ROMANIA
@@ -78,7 +76,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '300'
     proxies:
-      - 🕊️Utama
       - SUPPORT
       - CANADA
       - ROMANIA
@@ -213,7 +210,7 @@ proxy-providers:
      path: ./canada.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/canada.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/canada/canada.yaml"
      interval: 1200
   ROMANIA: 
      type: http 
@@ -337,28 +334,28 @@ proxy-providers:
     path: ./server1.yaml
     health-check:
     enable: true
-    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/server1.yaml"
+    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/server/server1.yaml"
     interval: 1200
   Server2:
     type: http
     path: ./server2.yaml
     health-check:
     enable: true
-    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/server2.yaml"
+    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/server/server2.yaml"
     interval: 1200
   Server3:
     type: http
     path: ./server3.yaml
     health-check:
     enable: true
-    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/server3.yaml"
+    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/server/server3.yaml"
     interval: 1200
   Server4:
     type: http
     path: ./server4.yaml
     health-check:
     enable: true
-    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/server4.yaml"
+    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/server/server4.yaml"
     interval: 1200
 
 
