@@ -231,7 +231,7 @@ proxy-providers:
      path: ./francis.yaml 
      health-check: 
      enable: true 
-     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/francis/francis.yaml"
+     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/france/france.yaml"
      interval: 1200
   THAILAND: 
      type: http 
