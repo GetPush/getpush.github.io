@@ -1,0 +1,249 @@
+proxies:
+# Config AXIS
+  - name: SG HE MUX Axis_Games
+    server: 104.19.142.89
+    port: 443
+    type: trojan
+    password: ef6c8090-8c0c-11ee-af93-1239d0255272
+    skip-cert-verify: true
+    sni: sg-4.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-4.test3.net
+    udp: true
+  - name: SG HE MUX Axis_XL_Conference
+    server: 104.26.4.126
+    port: 443
+    type: trojan
+    password: ef6c8090-8c0c-11ee-af93-1239d0255272
+    skip-cert-verify: true
+    sni: sg-4.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-4.test3.net
+    udp: true
+  - name: SG HE MUX Axis_Edukasi
+    server: www.udemy.com
+    port: 443
+    type: trojan
+    password: ef6c8090-8c0c-11ee-af93-1239d0255272
+    skip-cert-verify: true
+    sni: sg-4.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-4.test3.net
+    udp: true
+  - name: SG HE MUX Axis_Genflix
+    server: 104.21.30.242
+    port: 443
+    type: trojan
+    password: ef6c8090-8c0c-11ee-af93-1239d0255272
+    skip-cert-verify: true
+    sni: sg-4.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-4.test3.net
+    udp: true
+  - name: SG HE MUX Axis_Line
+    server: tubsd1478a630640.zendesk.com
+    port: 443
+    type: trojan
+    password: ef6c8090-8c0c-11ee-af93-1239d0255272
+    skip-cert-verify: true
+    sni: sg-4.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-4.test3.net
+    udp: true
+  - name: SG HE MUX Axis_Musik
+    server: musical1.zendesk.com
+    port: 443
+    type: trojan
+    password: ef6c8090-8c0c-11ee-af93-1239d0255272
+    skip-cert-verify: true
+    sni: sg-4.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-4.test3.net
+    udp: true
+  - name: SG HE MUX Axis_Opok
+    server: www.axis.co.id
+    port: 443
+    type: trojan
+    password: ef6c8090-8c0c-11ee-af93-1239d0255272
+    skip-cert-verify: true
+    sni: sg-4.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-4.test3.net
+    udp: true
+  - name: SG HE MUX Axis_Sosmed
+    server: www.help.tinder.com
+    port: 443
+    type: trojan
+    password: ef6c8090-8c0c-11ee-af93-1239d0255272
+    skip-cert-verify: true
+    sni: sg-4.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-4.test3.net
+    udp: true
+  - name: SG HE MUX Axis_Video
+    server: 104.22.4.240
+    port: 443
+    type: trojan
+    password: ef6c8090-8c0c-11ee-af93-1239d0255272
+    skip-cert-verify: true
+    sni: sg-4.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-4.test3.net
+    udp: true
+  - name: SG HE MUX Axis_YouTube
+    server: youtube.zendesk.com
+    port: 443
+    type: trojan
+    password: ef6c8090-8c0c-11ee-af93-1239d0255272
+    skip-cert-verify: true
+    sni: sg-4.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-4.test3.net
+    udp: true
+  - name: SG HE MUX Axis_All_Booster
+    server: zendesk1.shopee.com
+    port: 443
+    type: trojan
+    password: ef6c8090-8c0c-11ee-af93-1239d0255272
+    skip-cert-verify: true
+    sni: sg-4.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-4.test3.net
+    udp: true
+  - name: SG HE MUX Multi
+    server: layanan.ruangguru.com
+    port: 443
+    type: trojan
+    password: ef6c8090-8c0c-11ee-af93-1239d0255272
+    skip-cert-verify: true
+    sni: sg-4.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-4.test3.net
+    udp: true
+  - name: SG HE MUX Genflix
+    server: beta.genflix.co.id
+    port: 443
+    type: trojan
+    password: ef6c8090-8c0c-11ee-af93-1239d0255272
+    skip-cert-verify: true
+    sni: sg-4.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-4.test3.net
+    udp: true
+  - name: SG HE MUX Netflix
+    server: ncpa.netflix.com
+    port: 443
+    type: trojan
+    password: ef6c8090-8c0c-11ee-af93-1239d0255272
+    skip-cert-verify: true
+    sni: sg-4.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-4.test3.net
+    udp: true
+  - name: SG HE MUX Vision
+    server: api.visionplus.id
+    port: 443
+    type: trojan
+    password: ef6c8090-8c0c-11ee-af93-1239d0255272
+    skip-cert-verify: true
+    sni: sg-4.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-4.test3.net
+    udp: true
+  - name: SG HE MUX Spotify
+    server: login2.spotify.com
+    port: 443
+    type: trojan
+    password: ef6c8090-8c0c-11ee-af93-1239d0255272
+    skip-cert-verify: true
+    sni: sg-4.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-4.test3.net
+    udp: true
+  - name: SG HE MUX Vidio
+    server: quiz.int.vidio.com
+    port: 443
+    type: trojan
+    password: ef6c8090-8c0c-11ee-af93-1239d0255272
+    skip-cert-verify: true
+    sni: sg-4.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-4.test3.net
+    udp: true
+  - name: SG HE MUX Sushiroll
+    server: www.sushiroll.co.id
+    port: 443
+    type: trojan
+    password: ef6c8090-8c0c-11ee-af93-1239d0255272
+    skip-cert-verify: true
+    sni: sg-4.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-4.test3.net
+    udp: true
+  - name: SG HE MUX WIFI_ID
+    server: 104.17.2.81
+    port: 443
+    type: trojan
+    password: ef6c8090-8c0c-11ee-af93-1239d0255272
+    skip-cert-verify: true
+    sni: sg-4.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-4.test3.net
+    udp: true
