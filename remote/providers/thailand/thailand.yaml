@@ -1,0 +1,249 @@
+proxies:
+# Config AXIS
+  - name: Thailand Axis_Games
+    server: 104.19.142.89
+    port: 443
+    type: trojan
+    password: acc0cde0-8c0c-11ee-8dd0-1239d0255272
+    skip-cert-verify: true
+    sni: sg-4.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-4.test3.net
+    udp: true
+  - name: Thailand Axis_XL_Conference
+    server: 104.26.4.126
+    port: 443
+    type: trojan
+    password: acc0cde0-8c0c-11ee-8dd0-1239d0255272
+    skip-cert-verify: true
+    sni: sg-4.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-4.test3.net
+    udp: true
+  - name: Thailand Axis_Edukasi
+    server: www.udemy.com
+    port: 443
+    type: trojan
+    password: acc0cde0-8c0c-11ee-8dd0-1239d0255272
+    skip-cert-verify: true
+    sni: sg-4.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-4.test3.net
+    udp: true
+  - name: Thailand Axis_Genflix
+    server: 104.21.30.242
+    port: 443
+    type: trojan
+    password: acc0cde0-8c0c-11ee-8dd0-1239d0255272
+    skip-cert-verify: true
+    sni: sg-4.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-4.test3.net
+    udp: true
+  - name: Thailand Axis_Line
+    server: tubsd1478a630640.zendesk.com
+    port: 443
+    type: trojan
+    password: acc0cde0-8c0c-11ee-8dd0-1239d0255272
+    skip-cert-verify: true
+    sni: sg-4.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-4.test3.net
+    udp: true
+  - name: Thailand Axis_Musik
+    server: musical1.zendesk.com
+    port: 443
+    type: trojan
+    password: acc0cde0-8c0c-11ee-8dd0-1239d0255272
+    skip-cert-verify: true
+    sni: sg-4.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-4.test3.net
+    udp: true
+  - name: Thailand Axis_Opok
+    server: www.axis.co.id
+    port: 443
+    type: trojan
+    password: acc0cde0-8c0c-11ee-8dd0-1239d0255272
+    skip-cert-verify: true
+    sni: sg-4.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-4.test3.net
+    udp: true
+  - name: Thailand Axis_Sosmed
+    server: www.help.tinder.com
+    port: 443
+    type: trojan
+    password: acc0cde0-8c0c-11ee-8dd0-1239d0255272
+    skip-cert-verify: true
+    sni: sg-4.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-4.test3.net
+    udp: true
+  - name: Thailand Axis_Video
+    server: 104.22.4.240
+    port: 443
+    type: trojan
+    password: acc0cde0-8c0c-11ee-8dd0-1239d0255272
+    skip-cert-verify: true
+    sni: sg-4.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-4.test3.net
+    udp: true
+  - name: Thailand Axis_YouTube
+    server: youtube.zendesk.com
+    port: 443
+    type: trojan
+    password: acc0cde0-8c0c-11ee-8dd0-1239d0255272
+    skip-cert-verify: true
+    sni: sg-4.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-4.test3.net
+    udp: true
+  - name: Thailand Axis_All_Booster
+    server: zendesk1.shopee.com
+    port: 443
+    type: trojan
+    password: acc0cde0-8c0c-11ee-8dd0-1239d0255272
+    skip-cert-verify: true
+    sni: sg-4.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-4.test3.net
+    udp: true
+  - name: Thailand Multi
+    server: layanan.ruangguru.com
+    port: 443
+    type: trojan
+    password: acc0cde0-8c0c-11ee-8dd0-1239d0255272
+    skip-cert-verify: true
+    sni: sg-4.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-4.test3.net
+    udp: true
+  - name: Thailand Genflix
+    server: beta.genflix.co.id
+    port: 443
+    type: trojan
+    password: acc0cde0-8c0c-11ee-8dd0-1239d0255272
+    skip-cert-verify: true
+    sni: sg-4.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-4.test3.net
+    udp: true
+  - name: Thailand Netflix
+    server: ncpa.netflix.com
+    port: 443
+    type: trojan
+    password: acc0cde0-8c0c-11ee-8dd0-1239d0255272
+    skip-cert-verify: true
+    sni: sg-4.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-4.test3.net
+    udp: true
+  - name: Thailand Vision
+    server: api.visionplus.id
+    port: 443
+    type: trojan
+    password: acc0cde0-8c0c-11ee-8dd0-1239d0255272
+    skip-cert-verify: true
+    sni: sg-4.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-4.test3.net
+    udp: true
+  - name: Thailand Spotify
+    server: login2.spotify.com
+    port: 443
+    type: trojan
+    password: acc0cde0-8c0c-11ee-8dd0-1239d0255272
+    skip-cert-verify: true
+    sni: sg-4.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-4.test3.net
+    udp: true
+  - name: Thailand Vidio
+    server: quiz.int.vidio.com
+    port: 443
+    type: trojan
+    password: acc0cde0-8c0c-11ee-8dd0-1239d0255272
+    skip-cert-verify: true
+    sni: sg-4.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-4.test3.net
+    udp: true
+  - name: Thailand Sushiroll
+    server: www.sushiroll.co.id
+    port: 443
+    type: trojan
+    password: acc0cde0-8c0c-11ee-8dd0-1239d0255272
+    skip-cert-verify: true
+    sni: sg-4.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-4.test3.net
+    udp: true
+  - name: Thailand WIFI_ID
+    server: 104.17.2.81
+    port: 443
+    type: trojan
+    password: acc0cde0-8c0c-11ee-8dd0-1239d0255272
+    skip-cert-verify: true
+    sni: sg-4.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-4.test3.net
+    udp: true
