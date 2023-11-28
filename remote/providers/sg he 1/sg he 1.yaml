@@ -1,6 +1,5 @@
 proxies:
-# Config AXIS
-  - name: SG HE 1 Axis_Games_B1
+  - name: SG HE 1 Axis_Games
     server: 104.19.142.89
     port: 443
     type: trojan
@@ -13,124 +12,7 @@ proxies:
       headers:
         Host: sg1-trojan.bonds.id
     udp: true
-  - name: SG HE 1 Axis_Games_B2
-    server: 104.16.108.96
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 Axis_Games_B3
-    server: spdsoporte.garena.com
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 Axis_Game_Jabar
-    server: 104.16.51.111
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 Axis_Games_Jatim_Jateng
-    server: 104.18.20.94
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 Axis_Games_non_jabar
-    server: cdn.appsflyer.com
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 Axis_Game_Jatim
-    server: jp-osa.devopsinsights.cloud.ibm.com
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 Axis_Game_Luar_Jawa
-    server: 104.16.51.111
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 Axis_XL_Opera_B1
-    server: odsp-quic.op-mobile.opera.com
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 Axis_XL_Opera_B2
-    server: support-vpn-pro.opera.com
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 Axis_XL_Conference_B1
+  - name: SG HE 1 Axis_XL_Conference
     server: 104.26.4.126
     port: 443
     type: trojan
@@ -143,73 +25,8 @@ proxies:
       headers:
         Host: sg1-trojan.bonds.id
     udp: true
-  - name: SG HE 1 Axis_XL_Conference_B2
-    server: 104.18.21.226
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 Axis_XL_Conference_B3
-    server: cdn-cf.zoom.us
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 Axis_Edukasi_B1
+  - name: SG HE 1 Axis_Edukasi
     server: www.udemy.com
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 Axis_Edukasi_B2
-    server: cdn.ruangguru.com
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 Axis_Edukasi_Jabar
-    server: 104.16.51.111
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 Edukasi_Luar_Jawa
-    server: cdn.appsflyer.com
     port: 443
     type: trojan
     password: 83390090-8756-11ee-bfe0-1239d0255272
@@ -234,6 +51,19 @@ proxies:
       headers:
         Host: sg1-trojan.bonds.id
     udp: true
+  - name: SG HE 1 Axis_Line
+    server: tubsd1478a630640.zendesk.com
+    port: 443
+    type: trojan
+    password: 83390090-8756-11ee-bfe0-1239d0255272
+    skip-cert-verify: true
+    sni: sg1-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg1-trojan.bonds.id
+    udp: true
   - name: SG HE 1 Axis_XL_Line
     server: tubsd1478a630640.zendesk.com
     port: 443
@@ -247,7 +77,7 @@ proxies:
       headers:
         Host: sg1-trojan.bonds.id
     udp: true
-  - name: SG HE 1 Axis_Musik_B1
+  - name: SG HE 1 Axis_Musik
     server: musical1.zendesk.com
     port: 443
     type: trojan
@@ -260,33 +90,7 @@ proxies:
       headers:
         Host: sg1-trojan.bonds.id
     udp: true
-  - name: SG HE 1 Axis_Musik_B2
-    server: investors.spotify.com
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 Axis_Musik_B3
-    server: login2.spotify.com
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 Axis_Opok_B1
+  - name: SG HE 1 Axis_Opok
     server: www.axis.co.id
     port: 443
     type: trojan
@@ -299,33 +103,7 @@ proxies:
       headers:
         Host: sg1-trojan.bonds.id
     udp: true
-  - name: SG HE 1 Axis_Opok_B2
-    server: 104.22.28.102
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 Axis_XL_Opok
-    server: 104.17.58.20
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 Axis_XL_Chat_Sosmed
+  - name: SG HE 1 Axis_Sosmed
     server: www.help.tinder.com
     port: 443
     type: trojan
@@ -338,34 +116,8 @@ proxies:
       headers:
         Host: sg1-trojan.bonds.id
     udp: true
-  - name: SG HE 1 Axis_Video_B1
+  - name: SG HE 1 Axis_Video
     server: 104.22.4.240
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 Axis_Video_B2
-    server: quiz.int.vidio.com
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 Axis_Video_B3
-    server: ncpa.netflix.com
     port: 443
     type: trojan
     password: 83390090-8756-11ee-bfe0-1239d0255272
@@ -403,453 +155,7 @@ proxies:
       headers:
         Host: sg1-trojan.bonds.id
     udp: true
-
-# Config XL
-  - name: SG HE 1 Turbo_Bacic_1GB
-    server: zendesk3.grabtaxi.com
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 Turbo_Basic_3GB
-    server: zendesk1.appsflyer.com
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 Turbo_Basic_Unlimited
-    server: 162.159.138.6
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 XL_Opok_B1
-    server: 104.18.12.65
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 XL_Opok_B2
-    server: staging.games.axis.co.id
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 XL_Akrab_B1
-    server: 104.17.3.81
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 XL_Akrab_B2
-    server: 104.18.21.226
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 XL_Akrab_B3
-    server: www.noice.id
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 XL_Akrab_B4
-    server: 104.16.53.111
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 XL_Akrab_B5
-    server: cdn.onlymega.com
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 XL_Axis_Conference_B1
-    server: 104.26.4.126
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 XL_Axis_Conference_B2
-    server: 104.18.21.226
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 XL_Axis_Conference_B3
-    server: cdn-cf.zoom.us
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 XL_Edukasi_B1
-    server: 172.64.149.82
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 XL_Edukasi_B2
-    server: 104.20.75.141
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 XL_Edukasi_B3
-    server: inside165.udemy.com
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 XL_Axis_Instagram
-    server: z-p15.www.instagram.com
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 XL_Axis_Opera
-    server: odsp-test.op-mobile.opera.com
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 Live_on_Opok_B1
-    server: 104.21.8.121
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 Live_on_Opok_B2
-    server: 104.17.224.203
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 Live_on_Opok_B3
-    server: www.circles.asia
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 XL_WLG_FLEX_B1
-    server: 104.16.53.111
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 XL_WLG_FLEX_B2
-    server: 162.159.128.7
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 XL_Flex_WA_Line
-    server: support.centerline.net
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 XL_Flex_Unlimited
-    server: 104.21.71.112
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 XL_App
-    server: 162.159.138.6
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 XL_Meeting_Belajar_B1
-    server: partner.zoom.us
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 XL_Meeting_Belajar_B2
-    server: zoomcares.zoom.us
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 XL_Video
-    server: quiz.int.vidio.com
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 XL_Vision
-    server: 104.21.235.171
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 XL_Turbo
-    server: ncpa.netflix.com
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 XL_King
-    server: graph.facebook.com
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-
-# Config Multi
-  - name: SG HE 1 Multi_B1
-    server: 162.159.138.6
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 Multi_B2
-    server: 162.159.128.7
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 Multi_B3
+  - name: SG HE 1 Multi
     server: layanan.ruangguru.com
     port: 443
     type: trojan
@@ -940,417 +246,112 @@ proxies:
       headers:
         Host: sg1-trojan.bonds.id
     udp: true
+  - name: SG HE 1 Turbo_Bacic_1GB
+    server: zendesk3.grabtaxi.com
+    port: 443
+    type: trojan
+    password: 83390090-8756-11ee-bfe0-1239d0255272
+    skip-cert-verify: true
+    sni: sg1-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg1-trojan.bonds.id
+    udp: true
+  - name: SG HE 1 Turbo_Basic_3GB
+    server: zendesk1.appsflyer.com
+    port: 443
+    type: trojan
+    password: 83390090-8756-11ee-bfe0-1239d0255272
+    skip-cert-verify: true
+    sni: sg1-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg1-trojan.bonds.id
+    udp: true
+  - name: SG HE 1 Turbo_Basic_Unlimited
+    server: 162.159.138.6
+    port: 443
+    type: trojan
+    password: 83390090-8756-11ee-bfe0-1239d0255272
+    skip-cert-verify: true
+    sni: sg1-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg1-trojan.bonds.id
+    udp: true
+  - name: SG HE 1 XL_WLG_FLEX_B2
+    server: 162.159.128.7
+    port: 443
+    type: trojan
+    password: 83390090-8756-11ee-bfe0-1239d0255272
+    skip-cert-verify: true
+    sni: sg1-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg1-trojan.bonds.id
+    udp: true
+  - name: SG HE 1 XL_App
+    server: 162.159.138.6
+    port: 443
+    type: trojan
+    password: 83390090-8756-11ee-bfe0-1239d0255272
+    skip-cert-verify: true
+    sni: sg1-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg1-trojan.bonds.id
+    udp: true
+  - name: SG HE 1 Axis_XL_Opok_B1
+    server: www.axis.co.id
+    port: 443
+    type: trojan
+    password: 83390090-8756-11ee-bfe0-1239d0255272
+    skip-cert-verify: true
+    sni: sg1-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg1-trojan.bonds.id
+    udp: true
+  - name: SG HE 1 Axis_XL_Opok_B2
+    server: 104.22.28.102
+    port: 443
+    type: trojan
+    password: 83390090-8756-11ee-bfe0-1239d0255272
+    skip-cert-verify: true
+    sni: sg1-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg1-trojan.bonds.id
+    udp: true
+  - name: SG HE 1 Axis_XL_Opok_B3
+    server: 104.17.58.20
+    port: 443
+    type: trojan
+    password: 83390090-8756-11ee-bfe0-1239d0255272
+    skip-cert-verify: true
+    sni: sg1-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg1-trojan.bonds.id
+    udp: true
   - name: SG HE 1 WIFI_ID
     server: 104.17.2.81
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-
-# Config INDOSAT
-  - name: SG HE 1 IM3_Opok
-    server: 104.19.142.56
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 Isat_Edukasi_B1
-    server: www.udemy.com
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 Isat_Edukasi_B2
-    server: 104.17.2.81
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 Isat_Edukasi_B3
-    server: 104.16.66.85
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 Isat_Edukasi_B4
-    server: azureinfo.microsoft.com
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 Isat_IMCLASS
-    server: cdn.ruangguru.com
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 Isat_Opok
-    server: 172.67.70.101
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-
-# Config Smartfren
-  - name: SG HE 1 Smartfren_Opok
-    server: api.ovo.id
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 Smartfren_Midnight
-    server: www.smartfren.com
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 Smartfren_Chat
-    server: web.facebook.com
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 Smartfren_Edukasi
-    server: kelas.ruangguru.com
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 Three_Opok
-    server: 104.21.22.52
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 By_U_Belajar
-    server: cdn.ruangguru.com
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 By_U_Video
-    server: ncpa.netflix.com
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 By_U_Game
-    server: 104.19.143.108
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-
-# Config TELKOMSEL
-  - name: SG HE 1 Tsel_Gamemax_B1
-    server: i.nimo.tv
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 Tsel_Gamemax_B2
-    server: ir.huya.com
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 Tsel_Gamemax_B3
-    server: cf-vod.nimo.tv
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 Tsel_Gamemax_B4
-    server: spdsoporte.garena.com
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 Tsel_Gamemax_B5
-    server: server-avatar.nimostatic.tv
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 Tsel_Ilmupedia_B1
-    server: 104.26.6.171
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 Tsel_Ilmupedia_B2
-    server: 104.16.66.85
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 Tsel_Ilmupedia_B3
-    server: cdn.ruangguru.com
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 Tsel_Ilmupedia_B4
-    server: 104.22.24.131
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 Tsel_Multimedia_B1
-    server: 104.16.51.111
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 Tsel_Multimedia_B2
-    server: zendesk2.spotify.com
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 Tsel_Multimedia_B3
-    server: ir.huya.com
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 Tsel_OMG_Nonton
-    server: investors.spotify.com
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 Tsel_Ruangguru
-    server: ruangguru.com
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 Tsel_Videomax
-    server: stats.vidiomax.com
-    port: 443
-    type: trojan
-    password: 83390090-8756-11ee-bfe0-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: SG HE 1 Tsel_Youtubemax
-    server: login2.spotify.com
     port: 443
     type: trojan
     password: 83390090-8756-11ee-bfe0-1239d0255272
