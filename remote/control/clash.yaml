@@ -6,7 +6,7 @@ proxy-groups:
       - Otomatis
       - SEIMBANG
       - BestPing
-      - 🕊️Utama
+      - SSHKIT
       - SUPPORT
       - SINGAPORE
       - CANADA
@@ -40,6 +40,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '300'
     proxies:
+      - SSHKIT
       - SUPPORT
       - CANADA
       - ROMANIA
@@ -58,6 +59,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '600'
     proxies:
+      - SSHKIT
       - SUPPORT
       - CANADA
       - ROMANIA
@@ -76,6 +78,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '300'
     proxies:
+      - SSHKIT
       - SUPPORT
       - CANADA
       - ROMANIA
@@ -97,7 +100,7 @@ proxy-groups:
     use:
       - Admin
 
-  - name: 🕊️Utama
+  - name: SSHKIT
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
@@ -439,7 +442,7 @@ rule-providers:
     
 
 rules:
-- DOMAIN-SUFFIX,safefileku.com,🕊️Utama
+- DOMAIN-SUFFIX,safefileku.com,SSHKIT
 - DOMAIN-SUFFIX,github.com,CONNECT
 - DOMAIN-SUFFIX,api.github.com,CONNECT
 - DOMAIN-SUFFIX,avatars.githubusercontent.com,CONNECT
