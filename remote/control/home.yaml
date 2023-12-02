@@ -6,7 +6,7 @@ proxy-groups:
       - Otomatis
       - SEIMBANG
       - BestPing
-      - 🕊️Utama
+      - SSHKIT
       - SUPPORT
       - SINGAPORE
       - CANADA
@@ -16,7 +16,7 @@ proxy-groups:
       - NETHERLANDS
       - UNITED KINGDOM
 #      - TURKEY
-      - US
+      - America
       - GERMANY
       - INDONESIA
       - Admin
@@ -40,6 +40,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '300'
     proxies:
+      - SSHKIT
       - SUPPORT
       - CANADA
       - ROMANIA
@@ -49,7 +50,7 @@ proxy-groups:
       - UNITED KINGDOM
 #      - TURKEY
       - GERMANY
-      - US
+      - America
       - INDONESIA
       - SINGAPORE
   - name: Otomatis
@@ -58,6 +59,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '600'
     proxies:
+      - SSHKIT
       - SUPPORT
       - CANADA
       - ROMANIA
@@ -67,7 +69,7 @@ proxy-groups:
       - UNITED KINGDOM
 #      - TURKEY
       - GERMANY
-      - US
+      - America
       - INDONESIA
       - SINGAPORE
   - name: BestPing
@@ -76,6 +78,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: '300'
     proxies:
+      - SSHKIT
       - SUPPORT
       - CANADA
       - ROMANIA
@@ -85,11 +88,19 @@ proxy-groups:
       - UNITED KINGDOM
 #      - TURKEY
       - GERMANY
-      - US
+      - America
       - INDONESIA
       - SINGAPORE
 
-  - name: 🕊️Utama
+  - name: Admin
+    type: load-balance
+    disable-udp: false
+    url: http://www.gstatic.com/generate_204
+    interval: '600'
+    use:
+      - Admin
+
+  - name: SSHKIT
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
@@ -168,13 +179,13 @@ proxy-groups:
     interval: '150'
     use:
       - UNITED KINGDOM
-  - name: US
+  - name: America
     type: fallback
     disable-udp: false
     url: http://www.gstatic.com/generate_204
     interval: '150'
     use:
-      - US
+      - America
   - name: INDONESIA
     type: fallback
     disable-udp: false
@@ -195,124 +206,116 @@ proxy-groups:
       - SG HE 2
       - SG HE 3
 
-  - name: Admin
-    type: fallback
-    disable-udp: false
-    url: http://www.gstatic.com/generate_204
-    interval: '600'
-    use:
-      - Admin
-
 proxy-providers:
 # ### Trojan Community ###
   CANADA: 
      type: http 
-     path: ./canada.yaml 
+     path: ./provide/Canada/canada.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/canada/canada.yaml"
      interval: 1200
   ROMANIA: 
      type: http 
-     path: ./romania.yaml 
+     path: ./provide/Romania/romania.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/romania/romania.yaml"
      interval: 1200
   NETHERLANDS: 
      type: http 
-     path: ./netherlands.yaml 
+     path: ./provide/Netherlands/netherlands.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/netherlands/netherlands.yaml"
      interval: 1200
   FRANCIS: 
      type: http 
-     path: ./francis.yaml 
+     path: ./provide/France/francis.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/france/france.yaml"
      interval: 1200
   THAILAND: 
      type: http 
-     path: ./thailand.yaml 
+     path: ./provide/Thailand/thailand.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/thailand/thailand.yaml"
      interval: 1200
   SG HE MUX: 
      type: http 
-     path: ./sg he mux.yaml 
+     path: ./provide/SG HE MUX/sg he mux.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/sg%20he%20mux/sg%20he%20mux.yaml"
      interval: 1200
 #  TURKEY: 
 #     type: http 
-#     path: ./turkey.yaml 
+#     path: ./provide/Turkey/turkey.yaml 
 #     health-check: 
 #     enable: true 
 #     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/turkey.yaml"
 #     interval: 1200
   GERMANY: 
      type: http 
-     path: ./germany.yaml 
+     path: ./provide/Germany/germany.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/germany/germany.yaml"
      interval: 1200
   UNITED KINGDOM: 
      type: http 
-     path: ./united kingdom.yaml 
+     path: ./provide/United Kingdom/united kingdom.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/united%20kingdom/united%20kingdom.yaml"
      interval: 1200
   SG MELBI: 
      type: http 
-     path: ./sg melbi.yaml 
+     path: ./provide/SG MELBI/sg melbi.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/sg%20melbi/sg%20melbi.yaml"
      interval: 1200
   SG HE 2: 
      type: http 
-     path: ./sg he 2.yaml 
+     path: ./provide/SG HE 2/sg he 2.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/sg%20he%202/sg%20he%202.yaml"
      interval: 1200
   SG HE 3: 
      type: http 
-     path: ./sg he 3.yaml 
+     path: ./provide/SG HE 3/sg he 3.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/sg%20he%203/sg%20he%203.yaml"
      interval: 1200
-  US: 
+  America: 
      type: http 
-     path: ./america.yaml 
+     path: ./provide/America/america.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/america/us.yaml"
      interval: 1200
   SG HE 1: 
      type: http 
-     path: ./sg he 1.yaml 
+     path: ./provide/SG HE 1/sg he 1.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/sg%20he%201/sg%20he%201.yaml"
      interval: 1200
   ID HERZA: 
      type: http 
-     path: ./id herza.yaml 
+     path: ./provide/ID HERZA/id herza.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/id%20herza/id%20herza.yaml"
      interval: 1200
   SG AMP: 
      type: http 
-     path: ./sg amp.yaml 
+     path: ./provide/SG AMP/sg amp.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/sg%20amp/sg%20amp.yaml"
@@ -323,8 +326,8 @@ proxy-providers:
 
 # ### Server Community ###
   Admin:
-    type: http
-    path: ./Admin.yaml
+    type: file
+    path: ./provide/Admin.yaml
     health-check:
     enable: true
     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/admin.yaml"
@@ -332,28 +335,28 @@ proxy-providers:
     
   Server1:
     type: http
-    path: ./server1.yaml
+    path: ./provide/Server/server1.yaml
     health-check:
     enable: true
     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/server/server1.yaml"
     interval: 1200
   Server2:
     type: http
-    path: ./server2.yaml
+    path: ./provide/Server/server2.yaml
     health-check:
     enable: true
     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/server/server2.yaml"
     interval: 1200
   Server3:
     type: http
-    path: ./server3.yaml
+    path: ./provide/Server/server3.yaml
     health-check:
     enable: true
     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/server/server3.yaml"
     interval: 1200
   Server4:
     type: http
-    path: ./server4.yaml
+    path: ./provide/Server/server4.yaml
     health-check:
     enable: true
     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/server/server4.yaml"
@@ -365,53 +368,143 @@ proxy-providers:
 
   Support1: 
      type: http 
-     path: ./Support1.yaml 
+     path: ./provide/Support/Support1.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/support1.yaml"
      interval: 1200
   Support2: 
      type: http 
-     path: ./Support2.yaml 
+     path: ./provide/Support/Support2.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/support2.yaml"
      interval: 1200
   Support3: 
      type: http 
-     path: ./Support3.yaml 
+     path: ./provide/Support/Support3.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/support3.yaml"
      interval: 1200
   Support4: 
      type: http 
-     path: ./Support4.yaml 
+     path: ./provide/Support/Support4.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/support4.yaml"
      interval: 1200
   Support5: 
      type: http 
-     path: ./Support5.yaml 
+     path: ./provide/Support/Support5.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/support5.yaml"
      interval: 1200
 
 
+rule-providers:
 
-redir-port: 7892
+  adblock:
+    type: http
+    behavior: classical
+    path: "./ruleset/adblock.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/ruleset/adblock.yaml
+    interval: 86400
+
+  rule_reject:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/ruleset/rule_reject.yaml
+    path: "./ruleset/rule_reject.yaml"
+    interval: 86400
+
+  xdomain:
+    type: http
+    behavior: domain
+    path: "./ruleset/xdomain.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/ruleset/xdomain.yaml
+    interval: 86400
+
+  rule_privacy:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/ruleset/rule_privacy.yaml
+    path: "./ruleset/rule_privacy.yaml"
+    interval: 86400
+
+  rule_porn:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/ruleset/rule_porn.yaml
+    path: "./ruleset/rule_porn.yaml"
+    interval: 86400
+    
+
+rules:
+- DOMAIN-SUFFIX,safefileku.com,SSHKIT
+- DOMAIN-SUFFIX,github.com,CONNECT
+- DOMAIN-SUFFIX,api.github.com,CONNECT
+- DOMAIN-SUFFIX,avatars.githubusercontent.com,CONNECT
+- DOMAIN-SUFFIX,raw.githubusercontent.com,CONNECT
+- DOMAIN-SUFFIX,toppayofficial.vercel.app,CONNECT
+- IP-CIDR,198.18.0.1/16,REJECT,no-resolve
+- PROCESS-NAME,v2ray,DIRECT
+- PROCESS-NAME,xray,DIRECT
+- PROCESS-NAME,naive,DIRECT
+- PROCESS-NAME,trojan,DIRECT
+- PROCESS-NAME,trojan-go,DIRECT
+- PROCESS-NAME,ss-local,DIRECT
+- PROCESS-NAME,privoxy,DIRECT
+- PROCESS-NAME,leaf,DIRECT
+- PROCESS-NAME,v2ray.exe,DIRECT
+- PROCESS-NAME,xray.exe,DIRECT
+- PROCESS-NAME,naive.exe,DIRECT
+- PROCESS-NAME,trojan.exe,DIRECT
+- PROCESS-NAME,trojan-go.exe,DIRECT
+- PROCESS-NAME,ss-local.exe,DIRECT
+- PROCESS-NAME,privoxy.exe,DIRECT
+- DST-PORT,22,DIRECT,no-resolve
+- RULE-SET,xdomain,Privasi🔒
+- RULE-SET,rule_porn,Privasi🔒
+- RULE-SET,adblock,ADS💰
+- RULE-SET,rule_reject,ADS💰
+- RULE-SET,rule_privacy,Privasi🔒
+- DST-PORT,21,CONNECT
+- DST-PORT,23,CONNECT
+- DST-PORT,25,CONNECT
+- DST-PORT,80,CONNECT
+- DST-PORT,81,CONNECT
+- DST-PORT,143,CONNECT
+- DST-PORT,443,CONNECT 
+- DST-PORT,465,CONNECT
+- DST-PORT,587,CONNECT
+- DST-PORT,993,CONNECT
+- DST-PORT,995,CONNECT
+- DST-PORT,8000,CONNECT
+- DST-PORT,8008,CONNECT
+- DST-PORT,8080,CONNECT
+- DST-PORT,8081,CONNECT
+- DST-PORT,8090,CONNECT
+- DST-PORT,8443,CONNECT
+- DST-PORT,8888,CONNECT
+- MATCH,CONNECT
+
+
+ipv6: true
+tproxy-port: 0
+redir-port: 9797
 port: 7890
 socks-port: 7891
 mixed-port: 7893
 mode: rule
 log-level: info
 allow-lan: true
-external-controller: 0.0.0.0:3000
-secret: '123456'
+external-controller: 0.0.0.0:9090 
+# secret: "123456"
+external-ui: /data/adb/box/clash/dashboard
 bind-address: "*"
-external-ui: "./"
+
 dns:
   enable: true
   ipv6: true
@@ -577,103 +670,28 @@ dns:
   - 8.8.8.8
   - 1.1.1.1
   - 9.9.9.9
+  
 profile:
   store-selected: true
   store-fakeip: true
   store-fake-ip: true
 
-rules:
-- DOMAIN-SUFFIX,safefileku.com,🕊️Utama
-- DOMAIN-SUFFIX,github.com,CONNECT
-- DOMAIN-SUFFIX,api.github.com,CONNECT
-- DOMAIN-SUFFIX,avatars.githubusercontent.com,CONNECT
-- DOMAIN-SUFFIX,raw.githubusercontent.com,CONNECT
-- DOMAIN-SUFFIX,toppayofficial.vercel.app,CONNECT
-- IP-CIDR,198.18.0.1/16,REJECT,no-resolve
-- PROCESS-NAME,v2ray,DIRECT
-- PROCESS-NAME,xray,DIRECT
-- PROCESS-NAME,naive,DIRECT
-- PROCESS-NAME,trojan,DIRECT
-- PROCESS-NAME,trojan-go,DIRECT
-- PROCESS-NAME,ss-local,DIRECT
-- PROCESS-NAME,privoxy,DIRECT
-- PROCESS-NAME,leaf,DIRECT
-- PROCESS-NAME,v2ray.exe,DIRECT
-- PROCESS-NAME,xray.exe,DIRECT
-- PROCESS-NAME,naive.exe,DIRECT
-- PROCESS-NAME,trojan.exe,DIRECT
-- PROCESS-NAME,trojan-go.exe,DIRECT
-- PROCESS-NAME,ss-local.exe,DIRECT
-- PROCESS-NAME,privoxy.exe,DIRECT
-- DST-PORT,22,DIRECT,no-resolve
-- RULE-SET,xdomain,Privasi🔒
-- RULE-SET,rule_porn,Privasi🔒
-- RULE-SET,adblock,ADS💰
-- RULE-SET,rule_reject,ADS💰
-- RULE-SET,rule_privacy,Privasi🔒
-- DST-PORT,21,CONNECT
-- DST-PORT,23,CONNECT
-- DST-PORT,25,CONNECT
-- DST-PORT,80,CONNECT
-- DST-PORT,81,CONNECT
-- DST-PORT,143,CONNECT
-- DST-PORT,443,CONNECT 
-- DST-PORT,465,CONNECT
-- DST-PORT,587,CONNECT
-- DST-PORT,993,CONNECT
-- DST-PORT,995,CONNECT
-- DST-PORT,8000,CONNECT
-- DST-PORT,8008,CONNECT
-- DST-PORT,8080,CONNECT
-- DST-PORT,8081,CONNECT
-- DST-PORT,8090,CONNECT
-- DST-PORT,8443,CONNECT
-- DST-PORT,8888,CONNECT
-- MATCH,CONNECT
-
 tun:
   enable: true
-  stack: system
+  device: utun
+  mtu: 9000
+  stack: system # gvisor / lwip / system
   dns-hijack:
-  - tcp://8.8.8.8:53
-  - tcp://8.8.4.4:53
-tproxy-port: 7895
-
-rule-providers:
-
-  adblock:
-    type: http
-    behavior: classical
-    path: "./adblock.yaml"
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/ruleset/adblock.yaml
-    interval: 86400
-
-  rule_reject:
-    type: http
-    behavior: domain
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/ruleset/rule_reject.yaml
-    path: "./rule_reject.yaml"
-    interval: 86400
-
-  xdomain:
-    type: http
-    behavior: domain
-    path: "./xdomain.yaml"
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/ruleset/xdomain.yaml
-    interval: 86400
-
-  rule_privacy:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/ruleset/rule_privacy.yaml
-    path: "./rule_privacy.yaml"
-    interval: 86400
-
-  rule_porn:
-    type: http
-    behavior: domain
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/ruleset/rule_porn.yaml
-    path: "./rule_porn.yaml"
-    interval: 86400
-
-ipv6: true
+    - any:53
+    - tcp://any:53
+    - tcp://8.8.8.8:53
+    - tcp://8.8.4.4:53
+  auto-route: true
+  auto-detect-interface: true
+  # include_android_user:
+    # - 0
+    # - 10
+  # include_package:
+  # - com.android.chrome
+  # exclude_package:
+    # - com.whatsapp
