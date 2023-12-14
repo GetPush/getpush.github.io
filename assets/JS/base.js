@@ -116,7 +116,7 @@ const headerHTML = `
            <a href="/">Beranda</a>    
          </li>  
          <li>    
-           <a href="/linked/images/donasi.png">Donasi</a>    
+           <a href="/about/donasi.html">Donasi</a>    
          </li>
          <li>    
            <a href="https://www.youtube.com/channel/UCeMezZCLKzcpQyYFSiW6DCA?sub_confirmation=1">YouTube</a>    
