@@ -1,4 +1,8 @@
+bug:
+    - &v zendesk1.shopee.com
+
 proxies:
+
   - name: Singapore Axis_Games_B1
     server: 104.19.142.89
     port: 80
@@ -11,11 +15,12 @@ proxies:
     servername: vmess-sg1.sshkit.org
     network: ws
     ws-opts:
-      path: /sshkit/1828396894/65465bbb9adca/
+      path: /sshkit/1828396894/6587ed4fe9f53/
       headers:
         Host: vmess-sg1.sshkit.org
     udp: true
-  - name: USA Axis_Games_B1
+
+  - name: America Axis_Games_B1
     server: 104.19.142.89
     port: 80
     type: vmess
@@ -27,10 +32,11 @@ proxies:
     servername: vmess-us1.sshkit.org
     network: ws
     ws-opts:
-      path: /sshkit/1828396894/65465df87ef1f/
+      path: /sshkit/1828396894/6587ed9c754f3/
       headers:
         Host: vmess-us1.sshkit.org
     udp: true
+
   - name: France Axis_Games_B1
     server: 104.19.142.89
     port: 80
@@ -43,10 +49,11 @@ proxies:
     servername: vmess-fr1.sshkit.org
     network: ws
     ws-opts:
-      path: /sshkit/1828396894/65465e1a02658/ 
+      path: /sshkit/1828396894/6587edcd457ac/
       headers:
         Host: vmess-fr1.sshkit.org
     udp: true
+
   - name: Netherlands Axis_Games_B1
     server: 104.19.142.89
     port: 80
@@ -59,20 +66,22 @@ proxies:
     servername: vmess-nl1.sshkit.org
     network: ws
     ws-opts:
-      path: /sshkit/1828396894/65465e3086655/
+      path: /sshkit/1828396894/6587ede6d755d/
       headers:
         Host: vmess-nl1.sshkit.org
     udp: true
-  - name: Canada Axis_Games_B1
+
+
+  - name: Admin SG MELBI
     server: 104.19.142.89
     port: 443
     type: trojan
-    password: da88f4f0-7b08-11ee-8258-1239d0255272
+    password: 294f6180-8c0e-11ee-b133-1239d0255272
     skip-cert-verify: true
-    sni: ca1.test3.net
+    sni: sg-4.test3.net
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: ca1.test3.net
+        Host: sg-4.test3.net
     udp: true
