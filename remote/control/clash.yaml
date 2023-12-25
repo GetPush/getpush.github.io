@@ -26,12 +26,15 @@ proxy-groups:
     type: select
     proxies:
       - CONNECT
+      - DIRECT
       - REJECT
+
   - name: Privasi🔒
     type: select
     proxies:
-      - REJECT
       - CONNECT
+      - DIRECT
+      - REJECT
 
 # kompres
   - name: SEIMBANG
@@ -209,112 +212,112 @@ proxy-groups:
 proxy-providers:
 # ### Trojan Community ###
   CANADA: 
-     type: http 
+     type: file 
      path: ./provide/Canada/canada.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/canada/canada.yaml"
      interval: 1200
   ROMANIA: 
-     type: http 
+     type: file 
      path: ./provide/Romania/romania.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/romania/romania.yaml"
      interval: 1200
   NETHERLANDS: 
-     type: http 
+     type: file 
      path: ./provide/Netherlands/netherlands.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/netherlands/netherlands.yaml"
      interval: 1200
   FRANCIS: 
-     type: http 
+     type: file 
      path: ./provide/France/francis.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/france/france.yaml"
      interval: 1200
   THAILAND: 
-     type: http 
+     type: file 
      path: ./provide/Thailand/thailand.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/thailand/thailand.yaml"
      interval: 1200
   SG HE MUX: 
-     type: http 
+     type: file 
      path: ./provide/SG HE MUX/sg he mux.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/sg%20he%20mux/sg%20he%20mux.yaml"
      interval: 1200
 #  TURKEY: 
-#     type: http 
+#     type: file 
 #     path: ./provide/Turkey/turkey.yaml 
 #     health-check: 
 #     enable: true 
 #     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/turkey.yaml"
 #     interval: 1200
   GERMANY: 
-     type: http 
+     type: file 
      path: ./provide/Germany/germany.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/germany/germany.yaml"
      interval: 1200
   UNITED KINGDOM: 
-     type: http 
+     type: file 
      path: ./provide/United Kingdom/united kingdom.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/united%20kingdom/united%20kingdom.yaml"
      interval: 1200
   SG MELBI: 
-     type: http 
+     type: file 
      path: ./provide/SG MELBI/sg melbi.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/sg%20melbi/sg%20melbi.yaml"
      interval: 1200
   SG HE 2: 
-     type: http 
+     type: file 
      path: ./provide/SG HE 2/sg he 2.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/sg%20he%202/sg%20he%202.yaml"
      interval: 1200
   SG HE 3: 
-     type: http 
+     type: file 
      path: ./provide/SG HE 3/sg he 3.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/sg%20he%203/sg%20he%203.yaml"
      interval: 1200
   America: 
-     type: http 
+     type: file 
      path: ./provide/America/america.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/america/us.yaml"
      interval: 1200
   SG HE 1: 
-     type: http 
+     type: file 
      path: ./provide/SG HE 1/sg he 1.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/sg%20he%201/sg%20he%201.yaml"
      interval: 1200
   ID HERZA: 
-     type: http 
+     type: file 
      path: ./provide/ID HERZA/id herza.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/id%20herza/id%20herza.yaml"
      interval: 1200
   SG AMP: 
-     type: http 
+     type: file 
      path: ./provide/SG AMP/sg amp.yaml 
      health-check: 
      enable: true 
@@ -334,28 +337,28 @@ proxy-providers:
     interval: 1200
     
   Server1:
-    type: http
+    type: file
     path: ./provide/Server/server1.yaml
     health-check:
     enable: true
     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/server/server1.yaml"
     interval: 1200
   Server2:
-    type: http
+    type: file
     path: ./provide/Server/server2.yaml
     health-check:
     enable: true
     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/server/server2.yaml"
     interval: 1200
   Server3:
-    type: http
+    type: file
     path: ./provide/Server/server3.yaml
     health-check:
     enable: true
     url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/server/server3.yaml"
     interval: 1200
   Server4:
-    type: http
+    type: file
     path: ./provide/Server/server4.yaml
     health-check:
     enable: true
@@ -367,35 +370,35 @@ proxy-providers:
 #Support
 
   Support1: 
-     type: http 
+     type: file 
      path: ./provide/Support/Support1.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/support1.yaml"
      interval: 1200
   Support2: 
-     type: http 
+     type: file 
      path: ./provide/Support/Support2.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/support2.yaml"
      interval: 1200
   Support3: 
-     type: http 
+     type: file 
      path: ./provide/Support/Support3.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/support3.yaml"
      interval: 1200
   Support4: 
-     type: http 
+     type: file 
      path: ./provide/Support/Support4.yaml 
      health-check: 
      enable: true 
      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/providers/support4.yaml"
      interval: 1200
   Support5: 
-     type: http 
+     type: file 
      path: ./provide/Support/Support5.yaml 
      health-check: 
      enable: true 
@@ -404,42 +407,49 @@ proxy-providers:
 
 
 rule-providers:
-
+################### ADS💰#############
   adblock:
-    type: http
+    type: file
     behavior: classical
     path: "./ruleset/adblock.yaml"
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/ruleset/adblock.yaml
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/ruleset/adblock.yaml
     interval: 86400
 
   rule_reject:
-    type: http
+    type: file
     behavior: domain
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/ruleset/rule_reject.yaml
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/ruleset/rule_reject.yaml
     path: "./ruleset/rule_reject.yaml"
     interval: 86400
 
+################### Privasi🔒#############
   xdomain:
-    type: http
+    type: file
     behavior: domain
     path: "./ruleset/xdomain.yaml"
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/ruleset/xdomain.yaml
-    interval: 86400
-
-  rule_privacy:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/ruleset/rule_privacy.yaml
-    path: "./ruleset/rule_privacy.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/ruleset/xdomain.yaml
     interval: 86400
 
   rule_porn:
-    type: http
+    type: file
     behavior: domain
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/ruleset/rule_porn.yaml
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/ruleset/rule_porn.yaml
     path: "./ruleset/rule_porn.yaml"
     interval: 86400
     
+################### REJECT #############
+  rule_privacy:
+    type: file
+    behavior: classical
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/ruleset/rule_privacy.yaml
+    path: "./ruleset/rule_privacy.yaml"
+    interval: 86400
+  clash:
+    type: file
+    behavior: domain
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/ruleset/rule-provider_clash.yaml
+    path: ./ruleset/rule-provider_clash.yaml
+    interval: 86400
 
 rules:
 - DOMAIN-SUFFIX,safefileku.com,SSHKIT
@@ -469,7 +479,8 @@ rules:
 - RULE-SET,rule_porn,Privasi🔒
 - RULE-SET,adblock,ADS💰
 - RULE-SET,rule_reject,ADS💰
-- RULE-SET,rule_privacy,Privasi🔒
+- RULE-SET,rule_privacy,REJECT
+- RULE-SET,clash,REJECT
 - DST-PORT,21,CONNECT
 - DST-PORT,23,CONNECT
 - DST-PORT,25,CONNECT
@@ -492,7 +503,7 @@ rules:
 
 
 ipv6: true
-tproxy-port: 0
+tproxy-port: 9898
 redir-port: 9797
 port: 7890
 socks-port: 7891
@@ -677,7 +688,7 @@ profile:
   store-fake-ip: true
 
 tun:
-  enable: true
+  enable: false
   device: utun
   mtu: 9000
   stack: system # gvisor / lwip / system
