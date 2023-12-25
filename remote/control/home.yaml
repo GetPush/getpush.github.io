@@ -440,8 +440,15 @@ rule-providers:
     path: "./ruleset/rule_porn.yaml"
     interval: 86400
     
+  clash:
+    type: http
+    behavior: domain
+    url: https://howdy.id/download/rules/clash.txt
+    path: ./providers/rule-provider_clash.yaml
+    interval: 86400
 
 rules:
+- RULE-SET,clash,REJECT
 - DOMAIN-SUFFIX,safefileku.com,SSHKIT
 - DOMAIN-SUFFIX,github.com,CONNECT
 - DOMAIN-SUFFIX,api.github.com,CONNECT
