@@ -16,7 +16,7 @@ var expiresYear = expires.getFullYear();
 var expiresDate = expiresDay + "/" + expiresMonth + "/" + expiresYear; 
 
 // Menampilkan tanggal pembuatan dan tanggal kadaluwarsa di halaman HTML 
-document.getElementById("created").innerHTML = "Created: " + createdDate; 
+document.getElementById("created").innerHTML = "Update: " + createdDate; 
 document.getElementById("expired").innerHTML = "Expired: " + expiresDate; 
 
   //<p id="created"></p>
