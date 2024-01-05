@@ -23,7 +23,7 @@
     float: left;
     margin-right: -4px;
     width: 500px;
-    height: 500px;
+    height: 250px;
     animation: slide 40s infinite; /* Durasi animasi 20 detik */
   }
 .element {
