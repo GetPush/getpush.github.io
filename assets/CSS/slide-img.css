@@ -8,7 +8,7 @@
     background-color: #7aacff;
   }
   .container-slide {
-    max-width: 600px;
+    max-width: 700px;
     margin: 0 auto;
     overflow: hidden;
     border: 10px solid #ffffff;
@@ -16,13 +16,13 @@
     box-shadow: 10px 25px 30px rgba(0, 0, 0, 0.3);
   }
   .wrapper {
-    width: 6000px; /* 10 kali lebar container untuk slide gambar (600x10) */
+    width: 7000px; /* 10 kali lebar container untuk slide gambar (600x10) */
     display: flex;
   }
   .wrapper img {
     float: left;
     margin-right: -4px;
-    width: 600px;
+    width: 700px;
     height: 400px;
     animation: slide 40s infinite; /* Durasi animasi 20 detik */
   }
