@@ -8,7 +8,7 @@
     background-color: #7aacff;
   }
   .container-slide {
-    max-width: 800px;
+    max-width: 400px;
     margin: 0 auto;
     overflow: hidden;
     border: 10px solid #ffffff;
@@ -16,14 +16,14 @@
     box-shadow: 10px 25px 30px rgba(0, 0, 0, 0.3);
   }
   .wrapper {
-    width: 8000px; /* 10 kali lebar container untuk slide gambar (800x10) */
+    width: 4000px; /* 10 kali lebar container untuk slide gambar (400x10) */
     display: flex;
   }
   .wrapper img {
     float: left;
     margin-right: -4px;
-    width: 800px;
-    height: 500px;
+    width: 400px;
+    height: 250px;
     animation: slide 40s infinite; /* Durasi animasi 20 detik */
   }
 .element {
@@ -47,7 +47,7 @@
     transform: translateX(-400%);
   }
   25%, 70% {
-    transform: translateX(-500%);
+    transform: translateX(-250%);
   }
   30%, 65% {
     transform: translateX(-600%);
@@ -56,7 +56,7 @@
     transform: translateX(-700%);
   }
   40%, 55%{
-    transform: translateX(-800%);
+    transform: translateX(-400%);
   }
   45%, 50% {
     transform: translateX(-900%);
