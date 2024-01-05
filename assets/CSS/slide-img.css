@@ -7,25 +7,28 @@
   body {
     background-color: #7aacff;
   }
-  .container-slide {
-    max-width: 400px;
-    margin: 0 auto;
-    overflow: hidden;
-    border: 10px solid #ffffff;
-    border-radius: 8px;
-    box-shadow: 10px 25px 30px rgba(0, 0, 0, 0.3);
-  }
-  .wrapper {
-    width: 4000px; /* 10 kali lebar container untuk slide gambar (400x10) */
-    display: flex;
-  }
-  .wrapper img {
-    float: left;
-    margin-right: -4px;
-    width: 400px;
-    height: 250px;
-    animation: slide 40s infinite; /* Durasi animasi 20 detik */
-  }
+ .container-slide {
+  max-width: 400px;
+  margin: 0 auto;
+  overflow: hidden;
+  border: 10px solid #ffffff;
+  border-radius: 8px;
+  box-shadow: 10px 25px 30px rgba(0, 0, 0, 0.3);
+}
+
+.wrapper {
+  width: 4000px; /* 10 kali lebar container untuk slide gambar (400x10) */
+  display: flex;
+}
+
+.wrapper img {
+  float: left;
+  margin-right: -4px;
+  width: calc(400px + 20%);
+  height: calc(250px + 20%);
+  animation: slide 40s infinite; /* Durasi animasi 20 detik */
+}
+
 .element {
   animation: slide 40s linear infinite;
 }
