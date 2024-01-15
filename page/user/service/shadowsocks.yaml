@@ -1,9 +1,0 @@
-proxies:
-#
-- name: "shadowsocks"
-  type: ss
-  server: aaa.bbb.ccc.ddd
-  port: 34963
-  cipher: chacha20-ietf-poly1305
-  password: passwordss
-  udp: true
