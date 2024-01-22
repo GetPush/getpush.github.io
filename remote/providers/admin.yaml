@@ -1,27 +1,6 @@
-bug:
-    - &v zendesk1.shopee.com
-
 proxies:
-
-  - name: Singapore Axis_Games_B1
-    server: 104.19.142.89
-    port: 80
-    type: vmess
-    uuid: e620d600-ee19-4012-a96c-968e85a52de9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vmess-sg1.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/1828396894/6587ed4fe9f53/
-      headers:
-        Host: vmess-sg1.sshkit.org
-    udp: true
-
   - name: America Axis_Games_B1
-    server: 104.19.142.89
+    server: quiz.int.vidio.com
     port: 80
     type: vmess
     uuid: e620d600-ee19-4012-a96c-968e85a52de9
@@ -35,53 +14,4 @@ proxies:
       path: /sshkit/1828396894/6587ed9c754f3/
       headers:
         Host: vmess-us1.sshkit.org
-    udp: true
-
-  - name: France Axis_Games_B1
-    server: 104.19.142.89
-    port: 80
-    type: vmess
-    uuid: e620d600-ee19-4012-a96c-968e85a52de9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vmess-fr1.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/1828396894/6587edcd457ac/
-      headers:
-        Host: vmess-fr1.sshkit.org
-    udp: true
-
-  - name: Netherlands Axis_Games_B1
-    server: 104.19.142.89
-    port: 80
-    type: vmess
-    uuid: e620d600-ee19-4012-a96c-968e85a52de9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vmess-nl1.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/1828396894/6587ede6d755d/
-      headers:
-        Host: vmess-nl1.sshkit.org
-    udp: true
-
-
-  - name: Admin SG MELBI
-    server: 104.19.142.89
-    port: 443
-    type: trojan
-    password: 294f6180-8c0e-11ee-b133-1239d0255272
-    skip-cert-verify: true
-    sni: sg-4.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg-4.test3.net
     udp: true
