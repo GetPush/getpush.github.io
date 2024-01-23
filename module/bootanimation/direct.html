@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta content='width=device-width, initial-scale=0.5' name='viewport'/>
+      <title></title>
+</head>
+<body>
+  <div id="header"></div>
+  <div id="penutup"></div>
+ <script>
+var urls = [
+//  "/module/bootanimation/snacklink.html",
+  "/module/bootanimation/bicolink.html",
+  "/module/bootanimation/arahlink.html",
+//  "/module/bootanimation/adbull.html",
+//  "/module/bootanimation/ouo.html",
+//  "/module/bootanimation/linkmonet.html",
+//  "/module/bootanimation/adpaylink.html"
+];
+
+function redirect() {
+  var randomIndex = Math.floor(Math.random() * urls.length);
+  var nextUrl = urls[randomIndex];
+  window.location.href = nextUrl;
+}
+
+if (typeof history.pushState === "function") {
+  history.pushState("jibberish", null, null);
+  window.addEventListener("popstate", function() {
+    history.pushState("newjibberish", null, null);
+  });
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+  redirect();
+});
+
+ </script>
+  </body>
+</html>
