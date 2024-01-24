@@ -1,6 +1,6 @@
 proxies:
-  - name: America Axis_Games_B1
-    server: quiz.int.vidio.com
+  - name: America Axis_All_Booster
+    server: zendesk1.shopee.com
     port: 80
     type: vmess
     uuid: e620d600-ee19-4012-a96c-968e85a52de9
@@ -11,7 +11,7 @@ proxies:
     servername: vmess-us1.sshkit.org
     network: ws
     ws-opts:
-      path: /sshkit/1828396894/6587ed9c754f3/
+      path: /sshkit/1828396894/65b0a42502180/
       headers:
         Host: vmess-us1.sshkit.org
     udp: true
