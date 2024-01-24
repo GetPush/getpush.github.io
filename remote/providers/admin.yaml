@@ -1,6 +1,6 @@
 proxies:
-  - name: America Axis_All_Booster
-    server: zendesk1.shopee.com
+  - name: update config
+    server: 104.19.142.89
     port: 80
     type: vmess
     uuid: e620d600-ee19-4012-a96c-968e85a52de9
