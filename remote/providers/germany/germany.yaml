@@ -4,6 +4,536 @@ proxies:
     server: 104.19.142.89
     port: 443
     type: trojan
+    password: 611e8770-bb45-11ee-a6e1-1239d0255272
+    skip-cert-verify: true
+    sni: de1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: de1.test3.net
+    udp: true
+  - name: Germany Axis_Games_B2
+    server: 104.16.108.96
+    port: 443
+    type: trojan
+    password: 611e8770-bb45-11ee-a6e1-1239d0255272
+    skip-cert-verify: true
+    sni: de1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: de1.test3.net
+    udp: true
+  - name: Germany Axis_Games_B3
+    server: spdsoporte.garena.com
+    port: 443
+    type: trojan
+    password: 611e8770-bb45-11ee-a6e1-1239d0255272
+    skip-cert-verify: true
+    sni: de1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: de1.test3.net
+    udp: true
+  - name: Germany Axis_Game_Jabar
+    server: 104.16.51.111
+    port: 443
+    type: trojan
+    password: 611e8770-bb45-11ee-a6e1-1239d0255272
+    skip-cert-verify: true
+    sni: de1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: de1.test3.net
+    udp: true
+  - name: Germany Axis_Games_Jatim_Jateng
+    server: 104.18.20.94
+    port: 443
+    type: trojan
+    password: 611e8770-bb45-11ee-a6e1-1239d0255272
+    skip-cert-verify: true
+    sni: de1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: de1.test3.net
+    udp: true
+  - name: Germany Axis_Games_non_jabar
+    server: cdn.appsflyer.com
+    port: 443
+    type: trojan
+    password: 611e8770-bb45-11ee-a6e1-1239d0255272
+    skip-cert-verify: true
+    sni: de1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: de1.test3.net
+    udp: true
+  - name: Germany Axis_Game_Jatim
+    server: jp-osa.devopsinsights.cloud.ibm.com
+    port: 443
+    type: trojan
+    password: 611e8770-bb45-11ee-a6e1-1239d0255272
+    skip-cert-verify: true
+    sni: de1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: de1.test3.net
+    udp: true
+  - name: Germany Axis_Game_Luar_Jawa
+    server: 104.16.51.111
+    port: 443
+    type: trojan
+    password: 611e8770-bb45-11ee-a6e1-1239d0255272
+    skip-cert-verify: true
+    sni: de1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: de1.test3.net
+    udp: true
+  - name: Germany Axis_XL_Opera_B1
+    server: odsp-quic.op-mobile.opera.com
+    port: 443
+    type: trojan
+    password: 611e8770-bb45-11ee-a6e1-1239d0255272
+    skip-cert-verify: true
+    sni: de1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: de1.test3.net
+    udp: true
+  - name: Germany Axis_XL_Opera_B2
+    server: support-vpn-pro.opera.com
+    port: 443
+    type: trojan
+    password: 611e8770-bb45-11ee-a6e1-1239d0255272
+    skip-cert-verify: true
+    sni: de1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: de1.test3.net
+    udp: true
+  - name: Germany Axis_XL_Conference_B1
+    server: 104.26.4.126
+    port: 443
+    type: trojan
+    password: 611e8770-bb45-11ee-a6e1-1239d0255272
+    skip-cert-verify: true
+    sni: de1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: de1.test3.net
+    udp: true
+  - name: Germany Axis_XL_Conference_B2
+    server: 104.18.21.226
+    port: 443
+    type: trojan
+    password: 611e8770-bb45-11ee-a6e1-1239d0255272
+    skip-cert-verify: true
+    sni: de1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: de1.test3.net
+    udp: true
+  - name: Germany Axis_XL_Conference_B3
+    server: cdn-cf.zoom.us
+    port: 443
+    type: trojan
+    password: 611e8770-bb45-11ee-a6e1-1239d0255272
+    skip-cert-verify: true
+    sni: de1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: de1.test3.net
+    udp: true
+  - name: Germany Axis_Edukasi_B1
+    server: www.udemy.com
+    port: 443
+    type: trojan
+    password: 611e8770-bb45-11ee-a6e1-1239d0255272
+    skip-cert-verify: true
+    sni: de1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: de1.test3.net
+    udp: true
+  - name: Germany Axis_Edukasi_B2
+    server: cdn.ruangguru.com
+    port: 443
+    type: trojan
+    password: 611e8770-bb45-11ee-a6e1-1239d0255272
+    skip-cert-verify: true
+    sni: de1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: de1.test3.net
+    udp: true
+  - name: Germany Axis_Edukasi_Jabar
+    server: 104.16.51.111
+    port: 443
+    type: trojan
+    password: 611e8770-bb45-11ee-a6e1-1239d0255272
+    skip-cert-verify: true
+    sni: de1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: de1.test3.net
+    udp: true
+  - name: Germany Axis_Edukasi_Luar_Jawa
+    server: cdn.appsflyer.com
+    port: 443
+    type: trojan
+    password: 611e8770-bb45-11ee-a6e1-1239d0255272
+    skip-cert-verify: true
+    sni: de1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: de1.test3.net
+    udp: true
+  - name: Germany Axis_Genflix
+    server: 104.21.30.242
+    port: 443
+    type: trojan
+    password: 611e8770-bb45-11ee-a6e1-1239d0255272
+    skip-cert-verify: true
+    sni: de1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: de1.test3.net
+    udp: true
+  - name: Germany Axis_XL_Line
+    server: tubsd1478a630640.zendesk.com
+    port: 443
+    type: trojan
+    password: 611e8770-bb45-11ee-a6e1-1239d0255272
+    skip-cert-verify: true
+    sni: de1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: de1.test3.net
+    udp: true
+  - name: Germany Axis_Musik_B1
+    server: musical1.zendesk.com
+    port: 443
+    type: trojan
+    password: 611e8770-bb45-11ee-a6e1-1239d0255272
+    skip-cert-verify: true
+    sni: de1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: de1.test3.net
+    udp: true
+  - name: Germany Axis_Musik_B2
+    server: investors.spotify.com
+    port: 443
+    type: trojan
+    password: 611e8770-bb45-11ee-a6e1-1239d0255272
+    skip-cert-verify: true
+    sni: de1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: de1.test3.net
+    udp: true
+  - name: Germany Axis_Musik_B3
+    server: login2.spotify.com
+    port: 443
+    type: trojan
+    password: 611e8770-bb45-11ee-a6e1-1239d0255272
+    skip-cert-verify: true
+    sni: de1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: de1.test3.net
+    udp: true
+  - name: Germany Axis_Opok_B1
+    server: www.axis.co.id
+    port: 443
+    type: trojan
+    password: 611e8770-bb45-11ee-a6e1-1239d0255272
+    skip-cert-verify: true
+    sni: de1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: de1.test3.net
+    udp: true
+  - name: Germany Axis_Opok_B2
+    server: 104.22.28.102
+    port: 443
+    type: trojan
+    password: 611e8770-bb45-11ee-a6e1-1239d0255272
+    skip-cert-verify: true
+    sni: de1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: de1.test3.net
+    udp: true
+  - name: Germany Axis_XL_Opok
+    server: 104.17.58.20
+    port: 443
+    type: trojan
+    password: 611e8770-bb45-11ee-a6e1-1239d0255272
+    skip-cert-verify: true
+    sni: de1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: de1.test3.net
+    udp: true
+  - name: Germany Axis_XL_Chat_Sosmed
+    server: www.help.tinder.com
+    port: 443
+    type: trojan
+    password: 611e8770-bb45-11ee-a6e1-1239d0255272
+    skip-cert-verify: true
+    sni: de1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: de1.test3.net
+    udp: true
+  - name: Germany Axis_Video_B1
+    server: 104.22.4.240
+    port: 443
+    type: trojan
+    password: 611e8770-bb45-11ee-a6e1-1239d0255272
+    skip-cert-verify: true
+    sni: de1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: de1.test3.net
+    udp: true
+  - name: Germany Axis_Video_B2
+    server: quiz.int.vidio.com
+    port: 443
+    type: trojan
+    password: 611e8770-bb45-11ee-a6e1-1239d0255272
+    skip-cert-verify: true
+    sni: de1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: de1.test3.net
+    udp: true
+  - name: Germany Axis_Video_B3
+    server: ncpa.netflix.com
+    port: 443
+    type: trojan
+    password: 611e8770-bb45-11ee-a6e1-1239d0255272
+    skip-cert-verify: true
+    sni: de1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: de1.test3.net
+    udp: true
+  - name: Germany Axis_YouTube
+    server: youtube.zendesk.com
+    port: 443
+    type: trojan
+    password: 611e8770-bb45-11ee-a6e1-1239d0255272
+    skip-cert-verify: true
+    sni: de1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: de1.test3.net
+    udp: true
+  - name: Germany Axis_All_Booster
+    server: zendesk1.shopee.com
+    port: 443
+    type: trojan
+    password: 611e8770-bb45-11ee-a6e1-1239d0255272
+    skip-cert-verify: true
+    sni: de1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: de1.test3.net
+    udp: true
+
+# Config Multi
+  - name: Germany Multi_B1
+    server: 162.159.138.6
+    port: 443
+    type: trojan
+    password: 611e8770-bb45-11ee-a6e1-1239d0255272
+    skip-cert-verify: true
+    sni: de1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: de1.test3.net
+    udp: true
+  - name: Germany Multi_B2
+    server: 162.159.128.7
+    port: 443
+    type: trojan
+    password: 611e8770-bb45-11ee-a6e1-1239d0255272
+    skip-cert-verify: true
+    sni: de1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: de1.test3.net
+    udp: true
+  - name: Germany Multi_B3
+    server: layanan.ruangguru.com
+    port: 443
+    type: trojan
+    password: 611e8770-bb45-11ee-a6e1-1239d0255272
+    skip-cert-verify: true
+    sni: de1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: de1.test3.net
+    udp: true
+  - name: Germany Genflix
+    server: beta.genflix.co.id
+    port: 443
+    type: trojan
+    password: 611e8770-bb45-11ee-a6e1-1239d0255272
+    skip-cert-verify: true
+    sni: de1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: de1.test3.net
+    udp: true
+  - name: Germany Netflix
+    server: ncpa.netflix.com
+    port: 443
+    type: trojan
+    password: 611e8770-bb45-11ee-a6e1-1239d0255272
+    skip-cert-verify: true
+    sni: de1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: de1.test3.net
+    udp: true
+  - name: Germany Vision
+    server: api.visionplus.id
+    port: 443
+    type: trojan
+    password: 611e8770-bb45-11ee-a6e1-1239d0255272
+    skip-cert-verify: true
+    sni: de1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: de1.test3.net
+    udp: true
+  - name: Germany Spotify
+    server: login2.spotify.com
+    port: 443
+    type: trojan
+    password: 611e8770-bb45-11ee-a6e1-1239d0255272
+    skip-cert-verify: true
+    sni: de1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: de1.test3.net
+    udp: true
+  - name: Germany Vidio
+    server: quiz.int.vidio.com
+    port: 443
+    type: trojan
+    password: 611e8770-bb45-11ee-a6e1-1239d0255272
+    skip-cert-verify: true
+    sni: de1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: de1.test3.net
+    udp: true
+  - name: Germany Sushiroll
+    server: www.sushiroll.co.id
+    port: 443
+    type: trojan
+    password: 611e8770-bb45-11ee-a6e1-1239d0255272
+    skip-cert-verify: true
+    sni: de1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: de1.test3.net
+    udp: true
+
+
+
+
+
+
+
+# Config AXIS de 2
+  - name: Germany Axis_Games_B1
+    server: 104.19.142.89
+    port: 443
+    type: trojan
     password: 23d00b60-bb3f-11ee-a07c-1239d0255272
     skip-cert-verify: true
     sni: de2.test3.net
