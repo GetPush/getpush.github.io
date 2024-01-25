@@ -208,7 +208,7 @@ proxies:
       headers:
         Host: de2.test3.net
     udp: true
-  - name: Germany Edukasi_Luar_Jawa
+  - name: Germany Axis_Edukasi_Luar_Jawa
     server: cdn.appsflyer.com
     port: 443
     type: trojan
