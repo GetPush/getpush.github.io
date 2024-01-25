@@ -522,16 +522,3 @@ proxies:
       headers:
         Host: de2.test3.net
     udp: true
-  - name: Germany WIFI_ID
-    server: 104.17.2.81
-    port: 443
-    type: trojan
-    password: 23d00b60-bb3f-11ee-a07c-1239d0255272
-    skip-cert-verify: true
-    sni: de2.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: de2.test3.net
-    udp: true
