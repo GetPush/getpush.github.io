@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+ <meta charset="UTF-8">
+ <meta name="robots" content="noindex, nofollow">
+ <meta content='width=device-width, initial-scale=0.5' name='viewport'/>
+<link rel="stylesheet" href="https://unpkg.com/ace-css/css/ace.min.css">
+<link rel="stylesheet" type="text/css" href="/assets/CSS/menu-sidebar.css">
+<link rel="stylesheet" type="text/css" href="/assets/CSS/slide-img.css">
+<link rel="stylesheet" type="text/css" href="/assets/CSS/style.css">
+<link rel="stylesheet" type="text/css" href="/assets/CSS/loading.css">
+                                <script src="/assets/JS/base.js"></script>
+   <script src="/assets/JS/penutup.js"></script>
+   <script src="/assets/JS/names.js"></script>
+<head>
+</head>
+<body>
+                   <div id="header"></div>
+<div class="loader"></div>
+<div class="loading-text">
+    <div id="loadingText">Loading...</div>
+</div>
+<div class="line">
+    <div class="line-before"></div>
+</div>
+<script>
+    // Simulate loading time
+    setTimeout(function () {
+        document.getElementById('loadingText').textContent = 'Unpacking config in cloud...';
+        setTimeout(function () {
+            document.getElementById('loadingText').textContent = 'Repacking config in cloud...';
+            setTimeout(function () {
+                document.getElementById('loadingText').textContent = 'Success and enjoy 😘';
+                // Array of URLs
+                var urls = [
+                    "/module/TurboPulseX/safefile.html",
+                    "/module/TurboPulseX/sfile.html"
+                ];
+                // Randomly select a URL from the array
+                var randomUrl = urls[Math.floor(Math.random() * urls.length)];
+                // Redirect to the selected URL
+                redirect(randomUrl);
+            }, 2000);
+        }, 2000);
+    }, 1000);
+
+    function redirect(url) {
+        window.location.href = url;
+    }
+</script>
+                  <div id="penutup"></div>
+</body>
+</html
