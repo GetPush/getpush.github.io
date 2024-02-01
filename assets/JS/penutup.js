@@ -143,10 +143,14 @@
     <br>
 <br>
  <br>
-<h1>Config Premium</h1>
+<h1>Tidak mau lewat link yang sudah di sediakan ?</h1>
+ <p>cukup sawer, klik donasi, yang ada di nav bar atas dan scan QR masukan nominal</p>
+<p>syarat dan ketentuan di grup telegram</p>
+<p>kirim SS sawer ke live chat telegram.</p>
+<p>klik live chat untuk kirim SS</p>
  <br>
   <div class="glowing-button-wrap">
-<article style="text-align: center;"><a class="glowing-button" id="myButton" href="https://wa.me/6283838367172"><span>Get Now</span></a>
+<article style="text-align: center;"><a class="glowing-button" id="myButton" href="https://t.me/GetPush_limited"><span>live chat</span></a>
 </article>
   </div>
 <br>
