@@ -1,0 +1,144 @@
+---
+rule-providers:
+  RP-Direct:
+    type: file
+    behavior: classical
+    path: "./rule_provider/direct.yaml"
+  RP-Gaming:
+    type: file
+    behavior: classical
+    path: "./rule_provider/gaming.yaml"
+  RP-Reject:
+    type: file
+    behavior: classical
+    path: "./rule_provider/reject.yaml"
+  RP-Sosmed:
+    type: file
+    behavior: classical
+    path: "./rule_provider/sosmed.yaml"
+  RP-Streaming:
+    type: file
+    behavior: classical
+    path: "./rule_provider/streaming.yaml"    
+# ================= REYRE-STB ==================
+proxy-providers:
+  PP-Universal:
+    type: file
+    path: "./proxy_provider/universal.yaml"
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+  PP-Gaming:
+    type: file
+    path: "./proxy_provider/gaming.yaml"
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+  PP-Sosmed:
+    type: file
+    path: "./proxy_provider/sosmed.yaml"
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+  PP-Streaming:
+    type: file
+    path: "./proxy_provider/streaming.yaml"
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+# ================= REYRE-STB ==================
+proxy-groups:
+- name: PG-Universal
+  type: load-balance
+  strategy: round-robin
+  disable-udp: false
+  use:
+  - PP-Universal
+  url: http://www.gstatic.com/generate_204
+  interval: '300'
+- name: PG-Gaming
+  type: load-balance
+  strategy: round-robin
+  disable-udp: false
+  use:
+  - PP-Gaming
+  url: http://www.gstatic.com/generate_204
+  interval: '300'
+- name: PG-Sosmed
+  type: load-balance
+  strategy: round-robin
+  disable-udp: false
+  use:
+  - PP-Sosmed
+  url: http://www.gstatic.com/generate_204
+  interval: '300'
+- name: PG-Streaming
+  type: load-balance
+  strategy: round-robin
+  disable-udp: false
+  use:
+  - PP-Streaming
+  url: http://www.gstatic.com/generate_204
+  interval: '300'
+# ================= REYRE-STB ==================
+dns:
+  nameserver:
+  - 192.168.8.1
+  - 192.168.9.1
+  - dhcp://"eth1"
+  - dhcp://"wwan0"
+  - https://dns.adguard.com/dns-query
+  - https://dns-google.com/dns-query
+  - tls://dns.adguard.com
+  - tls://dns-google.com/
+  enable: true
+  ipv6: false
+  enhanced-mode: redir-host
+  fake-ip-range: 198.18.0.1/16
+  listen: 127.0.0.1:7874
+  fake-ip-filter:
+  - "+.*"
+  default-nameserver:
+  - 192.168.9.1
+  - 192.168.8.1
+redir-port: 7892
+tproxy-port: 7895
+port: 7890
+socks-port: 7891
+mixed-port: 7893
+mode: rule
+log-level: silent
+allow-lan: true
+external-controller: 0.0.0.0:9090
+secret: reyre
+bind-address: "*"
+external-ui: "/usr/share/openclash/ui"
+ipv6: false
+tun:
+  enable: true
+  stack: system
+  auto-route: false
+  auto-detect-interface: false
+  dns-hijack:
+  - tcp://8.8.8.8:53
+  - tcp://8.8.4.4:53
+profile:
+  store-selected: true
+  store-fake-ip: true
+rules:
+- DST-PORT,7895,REJECT
+- DST-PORT,7892,REJECT
+- DST-PORT,7895,REJECT
+- DST-PORT,7892,REJECT
+- IP-CIDR,198.18.0.1/16,REJECT,no-resolve
+- RULE-SET,RP-Direct,DIRECT
+- RULE-SET,RP-Reject,REJECT
+- RULE-SET,RP-Gaming,PG-Gaming
+- RULE-SET,RP-Sosmed,PG-Sosmed
+- RULE-SET,RP-Streaming,PG-Streaming
+- MATCH,GLOBAL
+tcp-concurrent: true
