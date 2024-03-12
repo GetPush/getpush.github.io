@@ -1,0 +1,17 @@
+proxies:
+- name: Singapore
+  type: vmess
+  server: 104.19.142.89
+  port: 80
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: vmess-sg1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/65d9bfeaa22b7/
+    headers:
+      Host: vmess-sg1.sshkit.org
