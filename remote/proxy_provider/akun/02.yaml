@@ -641,7 +641,7 @@ proxies:
         Host: vmess-us1.sshkit.org
     udp: true
 
-  - name: US XL WGL FLEX B2
+  - name: US XL WGL  B2
     server: blog.clova.line.me
     port: 80
     type: vmess
@@ -660,6 +660,23 @@ proxies:
 
   - name: US XL WGL FLEX B3
     server: dukungan-whatsapp.zendesk.com
+    port: 80
+    type: vmess
+    uuid: e620d600-ee19-4012-a96c-968e85a52de9
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: vmess-us1.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/65d9c0184f9ae/
+      headers:
+        Host: vmess-us1.sshkit.org
+    udp: true
+
+  - name: US XL Chat Flex KZL
+    server: sogood.linefriends.com
     port: 80
     type: vmess
     uuid: e620d600-ee19-4012-a96c-968e85a52de9
