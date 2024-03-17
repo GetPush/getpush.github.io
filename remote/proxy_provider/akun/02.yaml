@@ -1,58 +1,5 @@
 proxies:
-
-
 ###### Xl Axiata
-  - name: US FLEX UNLI TURBO B1
-    server: zendesk4.grabtaxi.com
-    port: 80
-    type: vmess
-    uuid: e620d600-ee19-4012-a96c-968e85a52de9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vmess-us1.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/1828396894/65d9c0184f9ae/
-      headers:
-        Host: vmess-us1.sshkit.org
-    udp: true
-
-  - name: US FLEX UNLI TURBO B2
-    server: 162.159.138.6
-    port: 80
-    type: vmess
-    uuid: e620d600-ee19-4012-a96c-968e85a52de9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vmess-us1.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/1828396894/65d9c0184f9ae/
-      headers:
-        Host: vmess-us1.sshkit.org
-    udp: true
-
-  - name: US FLEX UNLI TURBO B3
-    server: 162.159.128.7
-    port: 80
-    type: vmess
-    uuid: e620d600-ee19-4012-a96c-968e85a52de9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vmess-us1.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/1828396894/65d9c0184f9ae/
-      headers:
-        Host: vmess-us1.sshkit.org
-    udp: true
-
   - name: US FLEX UNLI TURBO B4
     server: 104.22.2.25
     port: 80
@@ -69,42 +16,6 @@ proxies:
       headers:
         Host: vmess-us1.sshkit.org
     udp: true
-
-  - name: US FLEX UNLI TURBO B5
-    server: ncpa.netflix.com
-    port: 80
-    type: vmess
-    uuid: e620d600-ee19-4012-a96c-968e85a52de9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vmess-us1.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/1828396894/65d9c0184f9ae/
-      headers:
-        Host: vmess-us1.sshkit.org
-    udp: true
-
-
-  - name: US XL King
-    server: graph.facebook.com
-    port: 80
-    type: vmess
-    uuid: e620d600-ee19-4012-a96c-968e85a52de9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vmess-us1.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/1828396894/65d9c0184f9ae/
-      headers:
-        Host: vmess-us1.sshkit.org
-    udp: true
-
 
   - name: US AXIS GAME JABAR B1
     server: 104.19.142.89
@@ -139,42 +50,6 @@ proxies:
       headers:
         Host: vmess-us1.sshkit.org
     udp: true
-
-  - name: US AXIS GAME JABAR B3
-    server: game.injectionswestjava.my.id
-    port: 80
-    type: vmess
-    uuid: e620d600-ee19-4012-a96c-968e85a52de9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vmess-us1.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/1828396894/65d9c0184f9ae/
-      headers:
-        Host: vmess-us1.sshkit.org
-    udp: true
-
-
-  - name: US AXIS BOOSTER SOSMED
-    server: www.help.tinder.com
-    port: 80
-    type: vmess
-    uuid: e620d600-ee19-4012-a96c-968e85a52de9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vmess-us1.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/1828396894/65d9c0184f9ae/
-      headers:
-        Host: vmess-us1.sshkit.org
-    udp: true
-
 
   - name: US AXIS GAME JATIM
     server: 104.18.21.94
@@ -211,23 +86,6 @@ proxies:
         Host: vmess-us1.sshkit.org
     udp: true
 
-  - name: US AXIS GAME JATENG B2
-    server: main.aov.garena.co.id
-    port: 80
-    type: vmess
-    uuid: e620d600-ee19-4012-a96c-968e85a52de9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vmess-us1.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/1828396894/65d9c0184f9ae/
-      headers:
-        Host: vmess-us1.sshkit.org
-    udp: true
-
   - name: US AXIS GAME JATENG B3
     server: iheartcoupons.onesignal.com
     port: 80
@@ -246,23 +104,6 @@ proxies:
     udp: true
 
 
-  - name: US BOOSTER GAME B1
-    server: m.multissh.com
-    port: 80
-    type: vmess
-    uuid: e620d600-ee19-4012-a96c-968e85a52de9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vmess-us1.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/1828396894/65d9c0184f9ae/
-      headers:
-        Host: vmess-us1.sshkit.org
-    udp: true
-
   - name: US BOOSTER GAME B2
     server: web.poe.garena.com
     port: 80
@@ -280,23 +121,6 @@ proxies:
         Host: vmess-us1.sshkit.org
     udp: true
 
-
-  - name: US All BOOSTER
-    server: zendesk1.shopee.com
-    port: 80
-    type: vmess
-    uuid: e620d600-ee19-4012-a96c-968e85a52de9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vmess-us1.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/1828396894/65d9c0184f9ae/
-      headers:
-        Host: vmess-us1.sshkit.org
-    udp: true
 
 
   - name: US XL AKRAB NOICE B1
@@ -333,56 +157,6 @@ proxies:
         Host: vmess-us1.sshkit.org
     udp: true
 
-  - name: US XL AKRAB NOICE B3
-    server: 104.16.51.111
-    port: 80
-    type: vmess
-    uuid: e620d600-ee19-4012-a96c-968e85a52de9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vmess-us1.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/1828396894/65d9c0184f9ae/
-      headers:
-        Host: vmess-us1.sshkit.org
-    udp: true
-
-  - name: US XL AKRAB NOICE B4
-    server: support.kemkes.go.id
-    port: 80
-    type: vmess
-    uuid: e620d600-ee19-4012-a96c-968e85a52de9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vmess-us1.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/1828396894/65d9c0184f9ae/
-      headers:
-        Host: vmess-us1.sshkit.org
-    udp: true
-
-  - name: US XL AKRAB NOICE B5
-    server: cdn.noice.id
-    port: 80
-    type: vmess
-    uuid: e620d600-ee19-4012-a96c-968e85a52de9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vmess-us1.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/1828396894/65d9c0184f9ae/
-      headers:
-        Host: vmess-us1.sshkit.org
-    udp: true
 
   - name: US XL AKRAB NOICE B6
     server: 104.18.2.198
@@ -420,23 +194,6 @@ proxies:
 
   - name: US XL AKRAB NOICE B8
     server: api.midtrans.com
-    port: 80
-    type: vmess
-    uuid: e620d600-ee19-4012-a96c-968e85a52de9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vmess-us1.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/1828396894/65d9c0184f9ae/
-      headers:
-        Host: vmess-us1.sshkit.org
-    udp: true
-
-  - name: US XL AKRAB NOICE JABAR
-    server: store.zoom.us
     port: 80
     type: vmess
     uuid: e620d600-ee19-4012-a96c-968e85a52de9
@@ -520,40 +277,6 @@ proxies:
         Host: vmess-us1.sshkit.org
     udp: true
 
-  - name: US XL AKRAB B4
-    server: www.noice.id
-    port: 80
-    type: vmess
-    uuid: e620d600-ee19-4012-a96c-968e85a52de9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vmess-us1.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/1828396894/65d9c0184f9ae/
-      headers:
-        Host: vmess-us1.sshkit.org
-    udp: true
-
-  - name: US XL AKRAB B5
-    server: 104.16.53.111
-    port: 80
-    type: vmess
-    uuid: e620d600-ee19-4012-a96c-968e85a52de9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vmess-us1.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/1828396894/65d9c0184f9ae/
-      headers:
-        Host: vmess-us1.sshkit.org
-    udp: true
-
   - name: US XL AKRAB JATIM JATENG B1
     server: 104.26.4.10
     port: 80
@@ -606,74 +329,6 @@ proxies:
     udp: true
 
 
-  - name: US XL APP
-    server: 162.159.138.6
-    port: 80
-    type: vmess
-    uuid: e620d600-ee19-4012-a96c-968e85a52de9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vmess-us1.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/1828396894/65d9c0184f9ae/
-      headers:
-        Host: vmess-us1.sshkit.org
-    udp: true
-
-
-  - name: US XL WGL FLEX B1
-    server: 162.159.128.7
-    port: 80
-    type: vmess
-    uuid: e620d600-ee19-4012-a96c-968e85a52de9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vmess-us1.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/1828396894/65d9c0184f9ae/
-      headers:
-        Host: vmess-us1.sshkit.org
-    udp: true
-
-  - name: US XL WGL  B2
-    server: blog.clova.line.me
-    port: 80
-    type: vmess
-    uuid: e620d600-ee19-4012-a96c-968e85a52de9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vmess-us1.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/1828396894/65d9c0184f9ae/
-      headers:
-        Host: vmess-us1.sshkit.org
-    udp: true
-
-  - name: US XL WGL FLEX B3
-    server: dukungan-whatsapp.zendesk.com
-    port: 80
-    type: vmess
-    uuid: e620d600-ee19-4012-a96c-968e85a52de9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vmess-us1.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/1828396894/65d9c0184f9ae/
-      headers:
-        Host: vmess-us1.sshkit.org
-    udp: true
 
   - name: US XL Chat Flex KZL
     server: sogood.linefriends.com
@@ -712,24 +367,6 @@ proxies:
 
   - name: US XL FLX JTG JTM B2
     server: account.pmang.game.naver.com
-    port: 80
-    type: vmess
-    uuid: e620d600-ee19-4012-a96c-968e85a52de9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vmess-us1.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/1828396894/65d9c0184f9ae/
-      headers:
-        Host: vmess-us1.sshkit.org
-    udp: true
-
-
-  - name: US XL AXIS EDUKASI B1
-    server: www.udemy.com
     port: 80
     type: vmess
     uuid: e620d600-ee19-4012-a96c-968e85a52de9
@@ -1004,23 +641,6 @@ proxies:
         Host: vmess-us1.sshkit.org
     udp: true
 
-  - name: US Axis XL LINE
-    server: tubsd1478a630640.zendesk.com
-    port: 80
-    type: vmess
-    uuid: e620d600-ee19-4012-a96c-968e85a52de9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vmess-us1.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/1828396894/65d9c0184f9ae/
-      headers:
-        Host: vmess-us1.sshkit.org
-    udp: true
-
   - name: US XL VISION+ B1
     server: cdn.appsflyer.com
     port: 80
@@ -1090,77 +710,8 @@ proxies:
         Host: vmess-us1.sshkit.org
     udp: true
 
-  - name: US XL AXIS VIDEO B2
-    server: static-web.prod.videocdn.com
-    port: 80
-    type: vmess
-    uuid: e620d600-ee19-4012-a96c-968e85a52de9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vmess-us1.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/1828396894/65d9c0184f9ae/
-      headers:
-        Host: vmess-us1.sshkit.org
-    udp: true
-
   - name: US XL AXIS VIDEO B3
     server: 104.22.4.240
-    port: 80
-    type: vmess
-    uuid: e620d600-ee19-4012-a96c-968e85a52de9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vmess-us1.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/1828396894/65d9c0184f9ae/
-      headers:
-        Host: vmess-us1.sshkit.org
-    udp: true
-
-  - name: US XL AXIS VIDEO B4
-    server: ncpa.netflix.com
-    port: 80
-    type: vmess
-    uuid: e620d600-ee19-4012-a96c-968e85a52de9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vmess-us1.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/1828396894/65d9c0184f9ae/
-      headers:
-        Host: vmess-us1.sshkit.org
-    udp: true
-
-  - name: US XL AXIS VIDEO JABAR
-    server: quiz.staging.video.com
-    port: 80
-    type: vmess
-    uuid: e620d600-ee19-4012-a96c-968e85a52de9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vmess-us1.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/1828396894/65d9c0184f9ae/
-      headers:
-        Host: vmess-us1.sshkit.org
-    udp: true
-
-
-  - name: US Axis YouTube
-    server: youtube.zendesk.com
     port: 80
     type: vmess
     uuid: e620d600-ee19-4012-a96c-968e85a52de9
@@ -1196,76 +747,6 @@ proxies:
 
   - name: US XL AXIS SUSHIROLL B2
     server: 104.21.69.223
-    port: 80
-    type: vmess
-    uuid: e620d600-ee19-4012-a96c-968e85a52de9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vmess-us1.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/1828396894/65d9c0184f9ae/
-      headers:
-        Host: vmess-us1.sshkit.org
-    udp: true
-
-  - name: US XL AXIS SUSHIROLL B3
-    server: pangaidi.com
-    port: 80
-    type: vmess
-    uuid: e620d600-ee19-4012-a96c-968e85a52de9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vmess-us1.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/1828396894/65d9c0184f9ae/
-      headers:
-        Host: vmess-us1.sshkit.org
-    udp: true
-
-  - name: US XL AXIS SUSHIROLL B4
-    server: eventomgt.com
-    port: 80
-    type: vmess
-    uuid: e620d600-ee19-4012-a96c-968e85a52de9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vmess-us1.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/1828396894/65d9c0184f9ae/
-      headers:
-        Host: vmess-us1.sshkit.org
-    udp: true
-
-
-
-  - name: US XL AXIS VIU B1
-    server: cfcdn.viu.com
-    port: 80
-    type: vmess
-    uuid: e620d600-ee19-4012-a96c-968e85a52de9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vmess-us1.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/1828396894/65d9c0184f9ae/
-      headers:
-        Host: vmess-us1.sshkit.org
-    udp: true
-
-  - name: US XL AXIS VIU B2
-    server: prod-images.viu.com
     port: 80
     type: vmess
     uuid: e620d600-ee19-4012-a96c-968e85a52de9
@@ -1488,57 +969,6 @@ proxies:
     udp: true
 
 
-  - name: US XL Turbo Bacic 1GB
-    server: zendesk3.grabtaxi.com
-    port: 80
-    type: vmess
-    uuid: e620d600-ee19-4012-a96c-968e85a52de9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vmess-us1.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/1828396894/65d9c0184f9ae/
-      headers:
-        Host: vmess-us1.sshkit.org
-    udp: true
-
-  - name: US XL Turbo Bacic 3GB
-    server: zendesk1.appsflyer.com
-    port: 80
-    type: vmess
-    uuid: e620d600-ee19-4012-a96c-968e85a52de9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vmess-us1.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/1828396894/65d9c0184f9ae/
-      headers:
-        Host: vmess-us1.sshkit.org
-    udp: true
-
-  - name: US XL Turbo Bacic Unlimited
-    server: 162.159.138.6
-    port: 80
-    type: vmess
-    uuid: e620d600-ee19-4012-a96c-968e85a52de9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vmess-us1.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/1828396894/65d9c0184f9ae/
-      headers:
-        Host: vmess-us1.sshkit.org
-    udp: true
-
 
 ###### TELKOMSEL
   - name: US TSEL GAMEMAX B1
@@ -1557,24 +987,6 @@ proxies:
       headers:
         Host: vmess-us1.sshkit.org
     udp: true
-
-  - name: US TSEL GAMEMAX B2
-    server: cv-vod.nimo.tv
-    port: 80
-    type: vmess
-    uuid: e620d600-ee19-4012-a96c-968e85a52de9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vmess-us1.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/1828396894/65d9c0184f9ae/
-      headers:
-        Host: vmess-us1.sshkit.org
-    udp: true
-
 
   - name: US TSEL ILMUPEDIA B1
     server: ganecadigital.com
@@ -1953,61 +1365,9 @@ proxies:
         Host: vmess-us1.sshkit.org
     udp: true
 
-  - name: US TSEL BYU GAME Video
-    server: ncpa.netflix.com
-    port: 80
-    type: vmess
-    uuid: e620d600-ee19-4012-a96c-968e85a52de9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vmess-us1.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/1828396894/65d9c0184f9ae/
-      headers:
-        Host: vmess-us1.sshkit.org
-    udp: true
-
 
   - name: US TSEL RUANGGURU
     server: tracker.ruangguru.com
-    port: 80
-    type: vmess
-    uuid: e620d600-ee19-4012-a96c-968e85a52de9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vmess-us1.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/1828396894/65d9c0184f9ae/
-      headers:
-        Host: vmess-us1.sshkit.org
-    udp: true
-
-
-  - name: US TSEL MULTIMEDIA B1
-    server: zendesk2.spotify.com
-    port: 80
-    type: vmess
-    uuid: e620d600-ee19-4012-a96c-968e85a52de9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vmess-us1.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/1828396894/65d9c0184f9ae/
-      headers:
-        Host: vmess-us1.sshkit.org
-    udp: true
-
-  - name: US TSEL MULTIMEDIA B2
-    server: 104.16.51.111
     port: 80
     type: vmess
     uuid: e620d600-ee19-4012-a96c-968e85a52de9
@@ -2074,25 +1434,6 @@ proxies:
         Host: vmess-us1.sshkit.org
     udp: true
 
-  - name: US TSEL YOUTUBEMAX
-    server: login2.spotify.com
-    port: 80
-    type: vmess
-    uuid: e620d600-ee19-4012-a96c-968e85a52de9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vmess-us1.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/1828396894/65d9c0184f9ae/
-      headers:
-        Host: vmess-us1.sshkit.org
-    udp: true
-    
-    
-    
     
 ###### INDOSAT
   - name: US ISAT Opok
@@ -2129,22 +1470,6 @@ proxies:
         Host: vmess-us1.sshkit.org
     udp: true
 
-  - name: US ISAT IMCLASS
-    server: cdn.ruangguru.com
-    port: 80
-    type: vmess
-    uuid: e620d600-ee19-4012-a96c-968e85a52de9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vmess-us1.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/1828396894/65d9c0184f9ae/
-      headers:
-        Host: vmess-us1.sshkit.org
-    udp: true
 
   - name: US ISAT EDUKASI B1
     server: 104.17.2.81
@@ -2163,97 +1488,12 @@ proxies:
         Host: vmess-us1.sshkit.org
     udp: true
 
-  - name: US ISAT EDUKASI B2
-    server: suport.midtrans.com
-    port: 80
-    type: vmess
-    uuid: e620d600-ee19-4012-a96c-968e85a52de9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vmess-us1.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/1828396894/65d9c0184f9ae/
-      headers:
-        Host: vmess-us1.sshkit.org
-    udp: true
-
-  - name: US ISAT EDUKASI B3
-    server: www.ruangguru.com
-    port: 80
-    type: vmess
-    uuid: e620d600-ee19-4012-a96c-968e85a52de9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vmess-us1.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/1828396894/65d9c0184f9ae/
-      headers:
-        Host: vmess-us1.sshkit.org
-    udp: true
-
-  - name: US ISAT EDUKASI B4
-    server: meet.ruangguru.com
-    port: 80
-    type: vmess
-    uuid: e620d600-ee19-4012-a96c-968e85a52de9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vmess-us1.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/1828396894/65d9c0184f9ae/
-      headers:
-        Host: vmess-us1.sshkit.org
-    udp: true
-    
     
     
     
 ###### Smartfren
   - name: US Smartfren Opok
     server: api.ovo.id
-    port: 80
-    type: vmess
-    uuid: e620d600-ee19-4012-a96c-968e85a52de9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vmess-us1.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/1828396894/65d9c0184f9ae/
-      headers:
-        Host: vmess-us1.sshkit.org
-    udp: true
-
-  - name: US Smartfren Midnight
-    server: www.smartfren.com
-    port: 80
-    type: vmess
-    uuid: e620d600-ee19-4012-a96c-968e85a52de9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vmess-us1.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/1828396894/65d9c0184f9ae/
-      headers:
-        Host: vmess-us1.sshkit.org
-    udp: true
-
-  - name: US Smartfren Chat
-    server: web.facebook.com
     port: 80
     type: vmess
     uuid: e620d600-ee19-4012-a96c-968e85a52de9
@@ -2333,96 +1573,9 @@ proxies:
         Host: vmess-us1.sshkit.org
     udp: true
 
-  - name: US XL AXIS TSEL MULTIMEDIA MUSIC B2
-    server: musical1.zendesk.com
-    port: 80
-    type: vmess
-    uuid: e620d600-ee19-4012-a96c-968e85a52de9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vmess-us1.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/1828396894/65d9c0184f9ae/
-      headers:
-        Host: vmess-us1.sshkit.org
-    udp: true
-
-  - name: US XL AXIS TSEL MULTIMEDIA MUSIC B3
-    server: login2.spotify.com
-    port: 80
-    type: vmess
-    uuid: e620d600-ee19-4012-a96c-968e85a52de9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vmess-us1.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/1828396894/65d9c0184f9ae/
-      headers:
-        Host: vmess-us1.sshkit.org
-    udp: true
-
-
-
 
   - name: US GENFLIX
     server: beta.genflix.co.id
-    port: 80
-    type: vmess
-    uuid: e620d600-ee19-4012-a96c-968e85a52de9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vmess-us1.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/1828396894/65d9c0184f9ae/
-      headers:
-        Host: vmess-us1.sshkit.org
-    udp: true
-
-  - name: US Netflix
-    server: ncpa.netflix.com
-    port: 80
-    type: vmess
-    uuid: e620d600-ee19-4012-a96c-968e85a52de9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vmess-us1.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/1828396894/65d9c0184f9ae/
-      headers:
-        Host: vmess-us1.sshkit.org
-    udp: true
-
-  - name: US Netflix
-    server: api.visionplus.id
-    port: 80
-    type: vmess
-    uuid: e620d600-ee19-4012-a96c-968e85a52de9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vmess-us1.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/1828396894/65d9c0184f9ae/
-      headers:
-        Host: vmess-us1.sshkit.org
-    udp: true
-
-  - name: US Spotify
-    server: login2.spotify.com
     port: 80
     type: vmess
     uuid: e620d600-ee19-4012-a96c-968e85a52de9
@@ -2488,21 +1641,3 @@ proxies:
       headers:
         Host: vmess-us1.sshkit.org
     udp: true
-
-  - name: US SNAPCHAT
-    server: zendesk1.snapchat.com
-    port: 80
-    type: vmess
-    uuid: e620d600-ee19-4012-a96c-968e85a52de9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vmess-us1.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/1828396894/65d9c0184f9ae/
-      headers:
-        Host: vmess-us1.sshkit.org
-    udp: true
-    
