@@ -208,14 +208,14 @@ dns:
 proxies:
 proxy-providers:
   Trojan:
-    type: file
+    type: http
     path: "./proxy_provider/proxy/Trojan.yaml"
     health-check:
       enable: true
     url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/proxy/Trojan.yaml"
     interval: 86400
   Vmess:
-    type: file
+    type: http
     path: "./proxy_provider/proxy/Vmess.yaml"
     health-check:
       enable: true
