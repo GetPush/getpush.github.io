@@ -49,7 +49,7 @@ proxies:
     udp: true
   - name: tselopokunli (cfma) 🔴 ID
     server: vmess-sg1.sshkit.org
-    port: 80
+    port: 8080
     type: vmess
     uuid: e620d600-ee19-4012-a96c-968e85a52de9
     alterId: 0
@@ -81,7 +81,7 @@ proxies:
     udp: true
   - name: support2 ID
     server: vmess-sg1.sshkit.org
-    port: 443
+    port: 2083
     type: vmess
     uuid: e620d600-ee19-4012-a96c-968e85a52de9
     alterId: 0
@@ -97,7 +97,7 @@ proxies:
     udp: true
   - name: support3 ID
     server: vmess-sg1.sshkit.org
-    port: 443
+    port: 2087
     type: vmess
     uuid: e620d600-ee19-4012-a96c-968e85a52de9
     alterId: 0
@@ -145,7 +145,7 @@ proxies:
     udp: true
   - name: support6 ID
     server: vmess-sg1.sshkit.org
-    port: 80
+    port: 8080
     type: vmess
     uuid: e620d600-ee19-4012-a96c-968e85a52de9
     alterId: 0
@@ -161,7 +161,7 @@ proxies:
     udp: true
   - name: support7 ID
     server: vmess-sg1.sshkit.org
-    port: 80
+    port: 2086
     type: vmess
     uuid: e620d600-ee19-4012-a96c-968e85a52de9
     alterId: 0
@@ -177,7 +177,7 @@ proxies:
     udp: true
   - name: support8 ID
     server: vmess-sg1.sshkit.org
-    port: 80
+    port: 8880
     type: vmess
     uuid: e620d600-ee19-4012-a96c-968e85a52de9
     alterId: 0
@@ -193,7 +193,7 @@ proxies:
     udp: true
   - name: spotify1 🟣🔵 ID
     server: investors.spotify.com
-    port: 443
+    port: 2087
     type: vmess
     uuid: e620d600-ee19-4012-a96c-968e85a52de9
     alterId: 0
@@ -449,7 +449,7 @@ proxies:
     udp: true
   - name: axisgame3 🟣 ID
     server: 104.16.85.20
-    port: 80
+    port: 8880
     type: vmess
     uuid: e620d600-ee19-4012-a96c-968e85a52de9
     alterId: 0
@@ -465,7 +465,7 @@ proxies:
     udp: true
   - name: axisgame4 🟣 ID
     server: 104.16.108.96
-    port: 80
+    port: 8880
     type: vmess
     uuid: e620d600-ee19-4012-a96c-968e85a52de9
     alterId: 0
@@ -481,7 +481,7 @@ proxies:
     udp: true
   - name: axisgame5 🟣 ID
     server: 104.18.20.94
-    port: 80
+    port: 8880
     type: vmess
     uuid: e620d600-ee19-4012-a96c-968e85a52de9
     alterId: 0
@@ -753,7 +753,7 @@ proxies:
     udp: true
   - name: isatopok 🟡 ID
     server: 172.67.70.101
-    port: 80
+    port: 8880
     type: vmess
     uuid: e620d600-ee19-4012-a96c-968e85a52de9
     alterId: 0
