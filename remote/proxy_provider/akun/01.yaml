@@ -1591,8 +1591,59 @@ proxies:
     udp: true
 
 
-  - name: SG GENFLIX
+  - name: SG GENFLIX B1
     server: beta.genflix.co.id
+    port: 80
+    type: vmess
+    uuid: e620d600-ee19-4012-a96c-968e85a52de9
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: vmess-sg1.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/66020952406ba/
+      headers:
+        Host: vmess-sg1.sshkit.org
+    udp: true
+
+  - name: SG GENFLIX B2
+    server: app.genflix.co.id
+    port: 80
+    type: vmess
+    uuid: e620d600-ee19-4012-a96c-968e85a52de9
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: vmess-sg1.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/66020952406ba/
+      headers:
+        Host: vmess-sg1.sshkit.org
+    udp: true
+
+  - name: SG GENFLIX B3
+    server: 172.64.153.186
+    port: 80
+    type: vmess
+    uuid: e620d600-ee19-4012-a96c-968e85a52de9
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: vmess-sg1.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/66020952406ba/
+      headers:
+        Host: vmess-sg1.sshkit.org
+    udp: true
+
+  - name: SG GENFLIX B4
+    server: 104.18.34.70
     port: 80
     type: vmess
     uuid: e620d600-ee19-4012-a96c-968e85a52de9
