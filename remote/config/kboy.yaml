@@ -83,21 +83,21 @@ proxy-providers:
     health-check:
       enable: true
     url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/IPTUNNELS-ID.yaml
-      interval: 86400
+    interval: 86400
   IPTUNNELS-Inject:
     type: http
     path: "./proxy_provider/IPTUNNELS-Inject.yaml"
     health-check:
       enable: true
     url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/IPTUNNELS-Inject.yaml
-      interval: 86400
+    interval: 86400
   IPTUNNELS-GAME:
     type: http
     path: "./proxy_provider/IPTUNNELS-Game.yaml"
     health-check:
       enable: true
     url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/IPTUNNELS-Game.yaml
-      interval: 86400
+    interval: 86400
 
 
 proxy-groups:
