@@ -2,28 +2,28 @@
 proxy-providers:
 ## Trojan
   T-SG-MELBI:
-    type: file
+    type: http
     path: "./proxy_provider/Trojan/SG-MELBI.yaml"
     health-check:
       enable: true
     url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/Trojan/SG-MELBI.yaml"
     interval: 86400
   T-SG-HE1:
-    type: file
+    type: http
     path: "./proxy_provider/Trojan/SG-HE1.yaml"
     health-check:
       enable: true
     url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/Trojan/SG-HE1.yaml"
     interval: 86400
   T-SG-HE2:
-    type: file
+    type: http
     path: "./proxy_provider/Trojan/SG-HE2.yaml"
     health-check:
       enable: true
     url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/Trojan/SG-HE2.yaml"
     interval: 86400
   T-SG-HE3:
-    type: file
+    type: http
     path: "./proxy_provider/Trojan/SG-HE3.yaml"
     health-check:
       enable: true
@@ -32,14 +32,14 @@ proxy-providers:
 
 
   T-FR:
-    type: file
+    type: http
     path: "./proxy_provider/Trojan/France.yaml"
     health-check:
       enable: true
     url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/Trojan/France.yaml"
     interval: 86400
   T-US:
-    type: file
+    type: http
     path: "./proxy_provider/Trojan/America.yaml"
     health-check:
       enable: true
@@ -48,28 +48,28 @@ proxy-providers:
 
 ## server utama
   VMKIT-SG:
-    type: file
+    type: http
     path: "./proxy_provider/akun/Singapore.yaml"
     health-check:
       enable: true
     url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/akun/Singapore.yaml
     interval: 86400
   VMKIT-US:
-    type: file
+    type: http
     path: "./proxy_provider/akun/America.yaml"
     health-check:
       enable: true
     url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/akun/America.yaml
     interval: 86400
   VMKIT-FR:
-    type: file
+    type: http
     path: "./proxy_provider/akun/France.yaml"
     health-check:
       enable: true
     url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/akun/France.yaml
     interval: 86400
   VMKIT-NL:
-    type: file
+    type: http
     path: "./proxy_provider/akun/Netherlands.yaml"
     health-check:
       enable: true
@@ -78,26 +78,26 @@ proxy-providers:
 
 # akun khusus
   IPTUNNELS-ID:
-    type: file
+    type: http
     path: "./proxy_provider/IPTUNNELS-ID.yaml"
     health-check:
       enable: true
       url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/IPTUNNELS-ID.yaml
-      interval: 180
+      interval: 86400
   IPTUNNELS-Inject:
-    type: file
+    type: http
     path: "./proxy_provider/IPTUNNELS-Inject.yaml"
     health-check:
       enable: true
       url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/IPTUNNELS-Inject.yaml
-      interval: 180
+      interval: 86400
   IPTUNNELS-GAME:
-    type: file
+    type: http
     path: "./proxy_provider/IPTUNNELS-Game.yaml"
     health-check:
       enable: true
       url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/IPTUNNELS-Game.yaml
-      interval: 180
+      interval: 86400
 
 
 proxy-groups:
@@ -536,7 +536,7 @@ script:
     speedtest: network == "tcp" and match_provider("rule_Speedtest")
 rule-providers:
   rule_Direct:
-    type: file
+    type: http
     behavior: classical
     path: "./rule_provider/rule_direct.yaml"
   rule_umum:
