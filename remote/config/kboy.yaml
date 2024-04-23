@@ -6,28 +6,28 @@ proxy-providers:
     path: "./proxy_provider/Trojan/SG-MELBI.yaml"
     health-check:
       enable: true
-    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/Trojan/SG-MELBI.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/Trojan/SG-MELBI.yaml
     interval: 86400
   T-SG-HE1:
     type: http
     path: "./proxy_provider/Trojan/SG-HE1.yaml"
     health-check:
       enable: true
-    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/Trojan/SG-HE1.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/Trojan/SG-HE1.yaml
     interval: 86400
   T-SG-HE2:
     type: http
     path: "./proxy_provider/Trojan/SG-HE2.yaml"
     health-check:
       enable: true
-    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/Trojan/SG-HE2.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/Trojan/SG-HE2.yaml
     interval: 86400
   T-SG-HE3:
     type: http
     path: "./proxy_provider/Trojan/SG-HE3.yaml"
     health-check:
       enable: true
-    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/Trojan/SG-HE3.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/Trojan/SG-HE3.yaml
     interval: 86400
 
 
@@ -36,14 +36,14 @@ proxy-providers:
     path: "./proxy_provider/Trojan/France.yaml"
     health-check:
       enable: true
-    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/Trojan/France.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/Trojan/France.yaml
     interval: 86400
   T-US:
     type: http
     path: "./proxy_provider/Trojan/America.yaml"
     health-check:
       enable: true
-    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/Trojan/America.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/Trojan/America.yaml
     interval: 86400
 
 ## server utama
@@ -52,28 +52,28 @@ proxy-providers:
     path: "./proxy_provider/akun/Singapore.yaml"
     health-check:
       enable: true
-    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/akun/Singapore.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/akun/Singapore.yaml
     interval: 86400
   VMKIT-US:
     type: http
     path: "./proxy_provider/akun/America.yaml"
     health-check:
       enable: true
-    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/akun/America.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/akun/America.yaml
     interval: 86400
   VMKIT-FR:
     type: http
     path: "./proxy_provider/akun/France.yaml"
     health-check:
       enable: true
-    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/akun/France.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/akun/France.yaml
     interval: 86400
   VMKIT-NL:
     type: http
     path: "./proxy_provider/akun/Netherlands.yaml"
     health-check:
       enable: true
-    url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/akun/Netherlands.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/akun/Netherlands.yaml
     interval: 86400
 
 # akun khusus
@@ -82,21 +82,21 @@ proxy-providers:
     path: "./proxy_provider/IPTUNNELS-ID.yaml"
     health-check:
       enable: true
-      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/IPTUNNELS-ID.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/IPTUNNELS-ID.yaml
       interval: 86400
   IPTUNNELS-Inject:
     type: http
     path: "./proxy_provider/IPTUNNELS-Inject.yaml"
     health-check:
       enable: true
-      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/IPTUNNELS-Inject.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/IPTUNNELS-Inject.yaml
       interval: 86400
   IPTUNNELS-GAME:
     type: http
     path: "./proxy_provider/IPTUNNELS-Game.yaml"
     health-check:
       enable: true
-      url: "https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/IPTUNNELS-Game.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/IPTUNNELS-Game.yaml
       interval: 86400
 
 
