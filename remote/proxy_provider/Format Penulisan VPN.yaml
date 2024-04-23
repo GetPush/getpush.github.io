@@ -1,0 +1,142 @@
+By Saung Kancil Strore
+#========= Trojan GFW =========
+proxies:
+- name: TRojan
+  type: trojan
+  server: host/ip
+  port: 443
+  password: password
+  udp: true
+  sni: bug.com
+  skip-cert-verify: true
+#========= Trojan Ws/GO =========
+proxies:
+- name: TRojan-ws/GO
+  server: host/ip
+  port: 443
+  type: trojan
+  password: password
+  network: ws
+  sni: bug.com
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /vpnneo
+  headers:
+    Host: bug.com
+#========= Trojan grpc =========
+proxies:
+- name: TRojan-grpc
+  server: host/ip
+  port: 443
+  type: trojan
+  password: password
+  network: grpc
+  sni: bug.com
+  skip-cert-verify: true
+  udp: true
+  grpc-opts:
+    grpc-service-name: vpnneo
+#========= Vmess ws =========
+proxies:
+- name: vmes-ws
+  type: vmess
+  server: host/ip
+  port: 443
+  uuid: uuid
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bug.com
+  network: ws
+  ws-opts:
+    path: /vpnneo
+    headers:
+      Host: bug.com
+#=========Vmes grpc===========
+proxies:
+- name: vmess-grpc
+  server: server
+  port: 443
+  type: vmess
+  uuid: uuid
+  alterId: 0
+  cipher: auto
+  network: grpc
+  tls: true
+  servername: bug.com
+  skip-cert-verify: true
+  grpc-opts:
+    grpc-service-name: vpnneo
+#=========Vlees WS============
+proxies:
+- name: VlesKu
+  type: vless
+  server: server
+  port: 443
+  uuid: UUID
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: bug
+  network: ws
+  ws-opts:
+    path: "/vpnneo"
+
+
+
+proxies:
+- name: Vmess
+  type: vmess
+  server: 104.19.142.89
+  port: 80
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: vmess-us1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/65d9c0184f9ae/
+    headers:
+      Host: vmess-us1.sshkit.org
+
+
+- name: Vmess WSS (443)
+  server: BUG_IP
+  port: 443
+  type: vmess
+  uuid: UUID
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: BUG_HOST
+  network: ws
+  ws-opts:
+    path: GET-:wss://BUG_HOST/PATH/
+    headers:
+      Host: HOST_AKUN
+  udp: true
+
+
+- name: Vmess WS (80)
+  server: BUG_IP
+  port: 80
+  type: vmess
+  uuid: UUID
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: HOST_AKUN
+  network: ws
+  ws-opts:
+    path: GET-:wss://BUG_HOST/PATH/
+    headers:
+      Host: HOST_AKUN
+  udp: true
