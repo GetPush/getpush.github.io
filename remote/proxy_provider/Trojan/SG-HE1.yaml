@@ -1,1276 +1,1276 @@
 proxies:
 # config port 80
-  - name: T-US 💜 GAME JABAR B1
+  - name: T-SG-HE1 💜 GAME JABAR B1
     server: 104.19.142.89
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US 💜 GAME JABAR B2
+  - name: T-SG-HE1 💜 GAME JABAR B2
     server: 104.16.108.96
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US 💜 GAME JATIM
+  - name: T-SG-HE1 💜 GAME JATIM
     server: 104.18.21.94
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
 
-  - name: T-US 💜 GAME JATENG B1
+  - name: T-SG-HE1 💜 GAME JATENG B1
     server: cdn.appsflyer.com
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US 💜 GAME JATENG B3
+  - name: T-SG-HE1 💜 GAME JATENG B3
     server: iheartcoupons.onesignal.com
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US BOOSTER GAME B2
+  - name: T-SG-HE1 BOOSTER GAME B2
     server: web.poe.garena.com
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US FLEX UNLI TURBO B1
+  - name: T-SG-HE1 FLEX UNLI TURBO B1
     server: 104.22.2.25
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US FLEX UNLI TURBO B2
+  - name: T-SG-HE1 FLEX UNLI TURBO B2
     server: 104.16.17.120
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US 💙 AKRAB NOICE B1
+  - name: T-SG-HE1 💙 AKRAB NOICE B1
     server: 104.17.3.81
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US 💙 AKRAB NOICE B2
+  - name: T-SG-HE1 💙 AKRAB NOICE B2
     server: 104.17.2.81
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
 
-  - name: T-US 💙 AKRAB NOICE B6
+  - name: T-SG-HE1 💙 AKRAB NOICE B6
     server: 104.18.2.198
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US 💙 AKRAB NOICE B7
+  - name: T-SG-HE1 💙 AKRAB NOICE B7
     server: 104.18.3.198
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US 💙 AKRAB NOICE B8
+  - name: T-SG-HE1 💙 AKRAB NOICE B8
     server: api.midtrans.com
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US 💙 AKRAB NOICE JATIM JATENG
+  - name: T-SG-HE1 💙 AKRAB NOICE JATIM JATENG
     server: 104.18.1.196
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US 💙 AKRAB B1
+  - name: T-SG-HE1 💙 AKRAB B1
     server: 104.18.11.39
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US 💙 AKRAB B2
+  - name: T-SG-HE1 💙 AKRAB B2
     server: ruangguru.com
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US 💙 AKRAB B3
+  - name: T-SG-HE1 💙 AKRAB B3
     server: 104.18.21.226
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US 💙 AKRAB JATIM JATENG B1
+  - name: T-SG-HE1 💙 AKRAB JATIM JATENG B1
     server: 104.26.4.10
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US 💙 AKRAB JATIM JATENG B2
+  - name: T-SG-HE1 💙 AKRAB JATIM JATENG B2
     server: cdn.onlymega.com
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US 💙 AKRAB JATIM JATENG
+  - name: T-SG-HE1 💙 AKRAB JATIM JATENG
     server: api.fastworldpay.com
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
 
 
-  - name: T-US 💙 Chat Flex KZL
+  - name: T-SG-HE1 💙 Chat Flex KZL
     server: sogood.linefriends.com
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
 
-  - name: T-US 💙 FLX JTG JTM B1
+  - name: T-SG-HE1 💙 FLX JTG JTM B1
     server: ava.game.naver.com
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US 💙 FLX JTG JTM B2
+  - name: T-SG-HE1 💙 FLX JTG JTM B2
     server: account.pmang.game.naver.com
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US 💙 💜 EDUKASI B2
+  - name: T-SG-HE1 💙 💜 EDUKASI B2
     server: support.udemy.com
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US 💙 💜 EDUKASI B3
+  - name: T-SG-HE1 💙 💜 EDUKASI B3
     server: cdn.ruangguru.com
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US 💙 💜 EDUKASI JATIM
+  - name: T-SG-HE1 💙 💜 EDUKASI JATIM
     server: www.skillacademy.com
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US 💙 💜 EDUKASI JABAR
+  - name: T-SG-HE1 💙 💜 EDUKASI JABAR
     server: 104.16.51.111
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US 💙 💜 EDUKASI LUAR JAWA
+  - name: T-SG-HE1 💙 💜 EDUKASI LUAR JAWA
     server: cdn.appsflyer.com
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
 
 
-  - name: T-US 💜 EDUKASI B1
+  - name: T-SG-HE1 💜 EDUKASI B1
     server: layanan.ruangguru.com
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US 💜 EDUKASI B2
+  - name: T-SG-HE1 💜 EDUKASI B2
     server: io.ruangguru.com
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US 💜 EDUKASI B3
+  - name: T-SG-HE1 💜 EDUKASI B3
     server: 0.udemy.com
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US 💜 EDUKASI B4
+  - name: T-SG-HE1 💜 EDUKASI B4
     server: chat.sociomile.com
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US 💜 EDUKASI JATENG
+  - name: T-SG-HE1 💜 EDUKASI JATENG
     server: iainkendari.ac.id
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
 
 
-  - name: T-US 💜 💙 Conference B1
+  - name: T-SG-HE1 💜 💙 Conference B1
     server: 104.26.4.126
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US 💜 💙 Conference B2
+  - name: T-SG-HE1 💜 💙 Conference B2
     server: 104.18.21.226
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US 💜 💙 Conference B3
+  - name: T-SG-HE1 💜 💙 Conference B3
     server: cdn-cf.zoom.us
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US 💜 💙 Conference B4
+  - name: T-SG-HE1 💜 💙 Conference B4
     server: support.zoom.us
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US 💜 GENFLIX
+  - name: T-SG-HE1 💜 GENFLIX
     server: 104.21.30.242
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US 💙 VISION+ B1
+  - name: T-SG-HE1 💙 VISION+ B1
     server: cdn.appsflyer.com
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US 💙 VISION+ B2
+  - name: T-SG-HE1 💙 VISION+ B2
     server: 104.21.235.171
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US 💙 VISION+ B3
+  - name: T-SG-HE1 💙 VISION+ B3
     server: 104.21.235.172
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
 
-  - name: T-US 💙 💜 VIDEO B1
+  - name: T-SG-HE1 💙 💜 VIDEO B1
     server: quiz.vidio.com
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US 💙 💜 VIDEO B3
+  - name: T-SG-HE1 💙 💜 VIDEO B3
     server: 104.22.4.240
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
 
-  - name: T-US 💙 💜 SUSHIROLL B1
+  - name: T-SG-HE1 💙 💜 SUSHIROLL B1
     server: blog.sushiroll.co.id
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US 💙 💜 SUSHIROLL B2
+  - name: T-SG-HE1 💙 💜 SUSHIROLL B2
     server: 104.21.69.223
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US 💙 💜 VIU B3
+  - name: T-SG-HE1 💙 💜 VIU B3
     server: 104.18.0.139
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US 💙 LIVE ON OPOK B1
+  - name: T-SG-HE1 💙 LIVE ON OPOK B1
     server: 104.21.8.121
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US 💙 LIVE ON OPOK B2
+  - name: T-SG-HE1 💙 LIVE ON OPOK B2
     server: 172.67.139.111
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
 
 
-  - name: T-US 💙 💜 OPOK B1
+  - name: T-SG-HE1 💙 💜 OPOK B1
     server: www.ovo.id
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US 💙 💜 OPOK B2
+  - name: T-SG-HE1 💙 💜 OPOK B2
     server: Sit.comet.💙.co.id
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US 💙 💜 OPOK B3
+  - name: T-SG-HE1 💙 💜 OPOK B3
     server: Zeus.💙.co.id
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US 💙 💜 OPOK B4
+  - name: T-SG-HE1 💙 💜 OPOK B4
     server: support.liveon.id
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US 💙 💜 OPOK B5
+  - name: T-SG-HE1 💙 💜 OPOK B5
     server: www.💜.co.id
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US 💙 💜 OPOK B6
+  - name: T-SG-HE1 💙 💜 OPOK B6
     server: 104.22.28.102
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US 💙 💜 OPOK B7
+  - name: T-SG-HE1 💙 💜 OPOK B7
     server: 104.17.58.20
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US 💙 💜 OPOK B8
+  - name: T-SG-HE1 💙 💜 OPOK B8
     server: 104.18.12.65
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US 💙 💜 OPOK B9
+  - name: T-SG-HE1 💙 💜 OPOK B9
     server: staging.games.💜.co.id
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
 
 
 ###### ♥️
-  - name: T-US ♥️ GAMEMAX B1
+  - name: T-SG-HE1 ♥️ GAMEMAX B1
     server: 104.18.41.141
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US ♥️ ILMUPEDIA B1
+  - name: T-SG-HE1 ♥️ ILMUPEDIA B1
     server: ganecadigital.com
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US ♥️ ILMUPEDIA B2
+  - name: T-SG-HE1 ♥️ ILMUPEDIA B2
     server: 104.21.64.112
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US ♥️ ILMUPEDIA B3
+  - name: T-SG-HE1 ♥️ ILMUPEDIA B3
     server: 104.21.21.104
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US ♥️ ILMUPEDIA B4
-    server: 104.26.6.171
-    port: 443
-    type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
-    skip-cert-verify: true
-    sni: us1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: us1.test3.net
-    udp: true
-
-  - name: T-US ♥️ ILMUPEDIA B5
-    server: 104.18.2.81
-    port: 443
-    type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
-    skip-cert-verify: true
-    sni: us1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: us1.test3.net
-    udp: true
-
-  - name: T-US ♥️ ILMUPEDIA B6
-    server: 104.26.5.192
-    port: 443
-    type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
-    skip-cert-verify: true
-    sni: us1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: us1.test3.net
-    udp: true
-
-  - name: T-US ♥️ ILMUPEDIA B7
-    server: 104.22.25.131
-    port: 443
-    type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
-    skip-cert-verify: true
-    sni: us1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: us1.test3.net
-    udp: true
-
-
-  - name: T-US ♥️ ILMUPEDIA Jateng Jatim Sulawesi Kalimantan B1
-    server: 104.16.65.85
-    port: 443
-    type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
-    skip-cert-verify: true
-    sni: us1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: us1.test3.net
-    udp: true
-
-  - name: T-US ♥️ ILMUPEDIA Jateng Jatim Sulawesi Kalimantan B2
-    server: 104.18.3.2
-    port: 443
-    type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
-    skip-cert-verify: true
-    sni: us1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: us1.test3.net
-    udp: true
-
-  - name: T-US ♥️ ILMUPEDIA Jateng Jatim Sulawesi Kalimantan B3
-    server: 104.18.2.81
-    port: 443
-    type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
-    skip-cert-verify: true
-    sni: us1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: us1.test3.net
-    udp: true
-
-  - name: T-US ♥️ ILMUPEDIA Jabar Riau Sumatra Banten B1
-    server: 104.26.7.171
-    port: 443
-    type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
-    skip-cert-verify: true
-    sni: us1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: us1.test3.net
-    udp: true
-
-  - name: T-US ♥️ ILMUPEDIA Jabar Riau Sumatra Banten B2
+  - name: T-SG-HE1 ♥️ ILMUPEDIA B4
     server: 104.26.6.172
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US ♥️ ILMUPEDIA TKP Jabar B1
+  - name: T-SG-HE1 ♥️ ILMUPEDIA B5
+    server: 104.18.2.81
+    port: 443
+    type: trojan
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
+    skip-cert-verify: true
+    sni: sg1-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg1-trojan.bonds.id
+    udp: true
+
+  - name: T-SG-HE1 ♥️ ILMUPEDIA B6
+    server: 104.26.5.192
+    port: 443
+    type: trojan
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
+    skip-cert-verify: true
+    sni: sg1-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg1-trojan.bonds.id
+    udp: true
+
+  - name: T-SG-HE1 ♥️ ILMUPEDIA B7
+    server: 104.22.25.131
+    port: 443
+    type: trojan
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
+    skip-cert-verify: true
+    sni: sg1-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg1-trojan.bonds.id
+    udp: true
+
+
+  - name: T-SG-HE1 ♥️ ILMUPEDIA Jateng Jatim Sulawesi Kalimantan B1
+    server: 104.16.65.85
+    port: 443
+    type: trojan
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
+    skip-cert-verify: true
+    sni: sg1-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg1-trojan.bonds.id
+    udp: true
+
+  - name: T-SG-HE1 ♥️ ILMUPEDIA Jateng Jatim Sulawesi Kalimantan B2
+    server: 104.18.3.2
+    port: 443
+    type: trojan
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
+    skip-cert-verify: true
+    sni: sg1-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg1-trojan.bonds.id
+    udp: true
+
+  - name: T-SG-HE1 ♥️ ILMUPEDIA Jateng Jatim Sulawesi Kalimantan B3
+    server: 104.18.2.81
+    port: 443
+    type: trojan
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
+    skip-cert-verify: true
+    sni: sg1-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg1-trojan.bonds.id
+    udp: true
+
+  - name: T-SG-HE1 ♥️ ILMUPEDIA Jabar Riau Sumatra Banten B1
+    server: 104.26.7.171
+    port: 443
+    type: trojan
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
+    skip-cert-verify: true
+    sni: sg1-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg1-trojan.bonds.id
+    udp: true
+
+  - name: T-SG-HE1 ♥️ ILMUPEDIA Jabar Riau Sumatra Banten B2
+    server: 104.26.6.171
+    port: 443
+    type: trojan
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
+    skip-cert-verify: true
+    sni: sg1-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg1-trojan.bonds.id
+    udp: true
+
+  - name: T-SG-HE1 ♥️ ILMUPEDIA TKP Jabar B1
     server: wifi.allpuns.net
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US ♥️ ILMUPEDIA TKP Jabar B2
+  - name: T-SG-HE1 ♥️ ILMUPEDIA TKP Jabar B2
     server: portafirmas.universitasxxi.cloud
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US ♥️ ILMUPEDIA TKP Jabar B3
+  - name: T-SG-HE1 ♥️ ILMUPEDIA TKP Jabar B3
     server: my.launchcdn.com
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US ♥️ ILMUPEDIA TKP Jabar B4
+  - name: T-SG-HE1 ♥️ ILMUPEDIA TKP Jabar B4
     server: bimbel.ruangguru.com
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US ♥️ ILMUPEDIA TKP Jabar B5
+  - name: T-SG-HE1 ♥️ ILMUPEDIA TKP Jabar B5
     server: dashboard.midtrans.com
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US ♥️ ILMUPEDIA TKP Jabar B6
+  - name: T-SG-HE1 ♥️ ILMUPEDIA TKP Jabar B6
     server: www.udemy.com
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US ♥️ ILMUPEDIA TKP Jabar B7
+  - name: T-SG-HE1 ♥️ ILMUPEDIA TKP Jabar B7
     server: www.skillacademy.com
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US ♥️ ILMUPEDIA TKP Jabar B8
+  - name: T-SG-HE1 ♥️ ILMUPEDIA TKP Jabar B8
     server: vsb72.tawk.to
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
 
-  - name: T-US ♥️ 🩵 EDUKASI
+  - name: T-SG-HE1 ♥️ 🩵 EDUKASI
     server: orangtua.ruangguru.com
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
 
-  - name: T-US ♥️ 🩵 GAME GGWP
+  - name: T-SG-HE1 ♥️ 🩵 GAME GGWP
     server: 104.19.143.108
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
 
-  - name: T-US ♥️ RUANGGURU
+  - name: T-SG-HE1 ♥️ RUANGGURU
     server: tracker.ruangguru.com
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US ♥️ MULTIMEDIA B3
+  - name: T-SG-HE1 ♥️ MULTIMEDIA B3
     server: ir.huya.com
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US ♥️ OMG Nonton
+  - name: T-SG-HE1 ♥️ OMG Nonton
     server: investors.spotify.com
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US ♥️ VIDEOMAX
+  - name: T-SG-HE1 ♥️ VIDEOMAX
     server: stats.vidiomax.com
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
     
 ###### 💛
-  - name: T-US 💛 Opok
+  - name: T-SG-HE1 💛 Opok
     server: 172.67.70.101
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US 💛 Opok
+  - name: T-SG-HE1 💛 Opok
     server: 104.19.142.56
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
 
-  - name: T-US 💛 EDUKASI B1
+  - name: T-SG-HE1 💛 EDUKASI B1
     server: 104.17.2.81
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
     
     
     
 ###### 🩷
-  - name: T-US 🩷 Opok
+  - name: T-SG-HE1 🩷 Opok
     server: api.ovo.id
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
-  - name: T-US 🩷 Edukasi
+  - name: T-SG-HE1 🩷 Edukasi
     server: kelas.ruangguru.com
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
 
@@ -1282,173 +1282,173 @@ proxies:
 
 
 ###### 🧡
-  - name: T-US 🧡 Opok
+  - name: T-SG-HE1 🧡 Opok
     server: 104.21.22.52
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
     
     
     
     
 ###### All SC
-  - name: T-US 💙 💜 ♥️ MULTIMEDIA MUSIC B1
+  - name: T-SG-HE1 💙 💜 ♥️ MULTIMEDIA MUSIC B1
     server: investors.spotify.com
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
-  - name: T-US GENFLIX B1
+  - name: T-SG-HE1 GENFLIX B1
     server: beta.genflix.co.id
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
-  - name: T-US GENFLIX B2
+  - name: T-SG-HE1 GENFLIX B2
     server: app.genflix.co.id
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
-  - name: T-US GENFLIX B3
+  - name: T-SG-HE1 GENFLIX B3
     server: 172.64.153.186
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
-  - name: T-US GENFLIX B4
+  - name: T-SG-HE1 GENFLIX B4
     server: 104.18.34.70
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
-  - name: T-US Vidio
+  - name: T-SG-HE1 Vidio
     server: quiz.int.vidio.com
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
-  - name: T-US Sushiroll
+  - name: T-SG-HE1 Sushiroll
     server: www.sushiroll.co.id
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
-  - name: T-US WIFI.ID ⚪
+  - name: T-SG-HE1 WIFI.ID ⚪
     server: 104.17.2.81
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
   - name: support2
-    server: us1.test3.net
+    server: sg1-trojan.bonds.id
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
-  - name: T-US 💜 💙 Whatsapp2
+  - name: T-SG-HE1 💜 💙 Whatsapp2
     server: support-whatsapp.zendesk.com
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
-  - name: T-US 💜 💙 OPERA4
+  - name: T-SG-HE1 💜 💙 OPERA4
     server: img.email.cashback.opera.com
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
-  - name: T-US ♥️ 🩵 GGWP
+  - name: T-SG-HE1 ♥️ 🩵 GGWP
     server: 104.19.143.108
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
     sni: v27.tiktokcdn.com
     network: ws
@@ -1457,445 +1457,445 @@ proxies:
       headers:
         Host: v27.tiktokcdn.com
     udp: true
-  - name: T-US 💜 Game3
+  - name: T-SG-HE1 💜 Game3
     server: 104.16.85.20
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
-  - name: T-US 💜 Game4
+  - name: T-SG-HE1 💜 Game4
     server: 104.16.108.96
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
-  - name: T-US 💜 Game5
+  - name: T-SG-HE1 💜 Game5
     server: 104.18.20.94
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
-  - name: T-US 💜 💙 axiataedukasi2
+  - name: T-SG-HE1 💜 💙 axiataedukasi2
     server: 104.16.226.91
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
-  - name: T-US 💜 💙 axiataconference
+  - name: T-SG-HE1 💜 💙 axiataconference
     server: gomarketplacecontent-cf.zoom.us
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
 
 #config port 443
   - name: support1
-    server: us1.test3.net
+    server: sg1-trojan.bonds.id
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
-  - name: T-US 💜 💙 spotify1
+  - name: T-SG-HE1 💜 💙 spotify1
     server: investors.spotify.com
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
-  - name: T-US 💜 💙 Spotify2
+  - name: T-SG-HE1 💜 💙 Spotify2
     server: investors.spotify.com
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
-  - name: T-US 💜 💙 Gojek1
+  - name: T-SG-HE1 💜 💙 Gojek1
     server: 162.159.128.7
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
-  - name: T-US 💙 LIVEON
+  - name: T-SG-HE1 💙 LIVEON
     server: beacon.liveon.id
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
-  - name: T-US 💜 💙 Microsoft1
+  - name: T-SG-HE1 💜 💙 Microsoft1
     server: info.microsoft.com
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
-  - name: T-US 💜 💙 Whatsapp1 
+  - name: T-SG-HE1 💜 💙 Whatsapp1 
     server: support-whatsapp.zendesk.com
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
-  - name: T-US 💜 💙 OPERA2
+  - name: T-SG-HE1 💜 💙 OPERA2
     server: res-odx.op-mobile.opera.com
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
   - name: WIFI.ID ⚪ ID
     server: io.ruangguru.com
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
-  - name: T-US 💙 Turbo1
+  - name: T-SG-HE1 💙 Turbo1
     server: 162.159.138.6
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
-  - name: T-US 💙 Turbo2
+  - name: T-SG-HE1 💙 Turbo2
     server: 162.159.128.7
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
-  - name: T-US 💙 Turbo3
+  - name: T-SG-HE1 💙 Turbo3
     server: 104.16.51.111
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
-  - name: T-US 💙 Akrab1
+  - name: T-SG-HE1 💙 Akrab1
     server: 104.17.3.81
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
-  - name: T-US 💙 Akrab2
+  - name: T-SG-HE1 💙 Akrab2
     server: 172.64.149.82
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
-  - name: T-US 💜 Sushiroll
+  - name: T-SG-HE1 💜 Sushiroll
     server: www.sushiroll.co.id
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
-  - name: T-US 💜 Netflix
+  - name: T-SG-HE1 💜 Netflix
     server: creativeservices.netflix.com
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
-  - name: T-US 💜 Tiktok
+  - name: T-SG-HE1 💜 Tiktok
     server: tiktok1.zendesk.com
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
-  - name: T-US 💛 edukasi
+  - name: T-SG-HE1 💛 edukasi
     server: www.udemy.com
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
-  - name: T-US ♥️Ilped1
+  - name: T-SG-HE1 ♥️Ilped1
     server: io.ruangguru.com
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
-  - name: T-US ♥️Ilped2
+  - name: T-SG-HE1 ♥️Ilped2
     server: 104.26.7.171
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
-  - name: T-US ♥️Gamemax2
+  - name: T-SG-HE1 ♥️Gamemax2
     server: 104.18.41.141
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
-  - name: T-US 💙 FlexWLG1
+  - name: T-SG-HE1 💙 FlexWLG1
     server: sogood.linefriends.com
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
-  - name: T-US 🩵 Opok
+  - name: T-SG-HE1 🩵 Opok
     server: space.🩵.id
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
-  - name: T-US 🩵 Edukasi 
+  - name: T-SG-HE1 🩵 Edukasi 
     server: orangtua.ruangguru.com
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
-  - name: T-US 🩵 Game
+  - name: T-SG-HE1 🩵 Game
     server: 104.19.143.108
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
-  - name: T-US 💜 Youtube
+  - name: T-SG-HE1 💜 Youtube
     server: youtube.zendesk.com
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
-  - name: T-US 💜 Game2
+  - name: T-SG-HE1 💜 Game2
     server: cdn.appsflyer.com
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
-  - name: T-US 💙 Vision2
+  - name: T-SG-HE1 💙 Vision2
     server: cdnodeb.visionplus.id
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
 
 #http ssl
-  - name: T-US 💜 💙 Gojek2
-    server: us1.test3.net
+  - name: T-SG-HE1 💜 💙 Gojek2
+    server: sg1-trojan.bonds.id
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
     sni: food-merchant-help.grab.com
     network: ws
@@ -1904,11 +1904,11 @@ proxies:
       headers:
         Host: food-merchant-help.grab.com
     udp: true
-  - name: T-US 💜 💙 Whatsapp3
-    server: us1.test3.net
+  - name: T-SG-HE1 💜 💙 Whatsapp3
+    server: sg1-trojan.bonds.id
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
     sni: support-whatsapp.zendesk.com
     network: ws
@@ -1917,11 +1917,11 @@ proxies:
       headers:
         Host: support-whatsapp.zendesk.com
     udp: true
-  - name: T-US 💜 💙 Microsoft2
-    server: us1.test3.net
+  - name: T-SG-HE1 💜 💙 Microsoft2
+    server: sg1-trojan.bonds.id
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
     sni: info.microsoft.com
     network: ws
@@ -1930,11 +1930,11 @@ proxies:
       headers:
         Host: info.microsoft.com
     udp: true
-  - name: T-US 💜 💙 IDOPERA1ssl
-    server: us1.test3.net
+  - name: T-SG-HE1 💜 💙 IDOPERA1ssl
+    server: sg1-trojan.bonds.id
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
     sni: odsp-test.op-mobile.opera.com
     network: ws
@@ -1943,11 +1943,11 @@ proxies:
       headers:
         Host: odsp-test.op-mobile.opera.com
     udp: true
-  - name: T-US 💜 💙 OPERA3ssl
-    server: us1.test3.net
+  - name: T-SG-HE1 💜 💙 OPERA3ssl
+    server: sg1-trojan.bonds.id
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
     sni: img.email.cashback.opera.com
     network: ws
@@ -1956,11 +1956,11 @@ proxies:
       headers:
         Host: img.email.cashback.opera.com
     udp: true
-  - name: T-US ♥️Multimedia
-    server: us1.test3.net
+  - name: T-SG-HE1 ♥️Multimedia
+    server: sg1-trojan.bonds.id
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
     sni: v27.tiktokcdn.com
     network: ws
@@ -1969,11 +1969,11 @@ proxies:
       headers:
         Host: v27.tiktokcdn.com
     udp: true
-  - name: T-US 💜 game6
-    server: us1.test3.net
+  - name: T-SG-HE1 💜 game6
+    server: sg1-trojan.bonds.id
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
     sni: zendesk1.garena.com
     network: ws
@@ -1982,11 +1982,11 @@ proxies:
       headers:
         Host: zendesk1.garena.com
     udp: true
-  - name: T-US 💜 💙 edukasi1
-    server: us1.test3.net
+  - name: T-SG-HE1 💜 💙 edukasi1
+    server: sg1-trojan.bonds.id
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
     sni: support.zoom.us
     network: ws
@@ -1995,11 +1995,11 @@ proxies:
       headers:
         Host: support.zoom.us
     udp: true
-  - name: T-US 💜 Game1
-    server: us1.test3.net
+  - name: T-SG-HE1 💜 Game1
+    server: sg1-trojan.bonds.id
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
     sni: web.poe.garena.com
     network: ws
@@ -2008,11 +2008,11 @@ proxies:
       headers:
         Host: web.poe.garena.com
     udp: true
-  - name: T-US 💙 FlexWLG2
-    server: us1.test3.net
+  - name: T-SG-HE1 💙 FlexWLG2
+    server: sg1-trojan.bonds.id
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
     sni: sogood.linefriends.com
     network: ws
@@ -2021,11 +2021,11 @@ proxies:
       headers:
         Host: sogood.linefriends.com
     udp: true
-  - name: T-US ♥️Gamemax1
-    server: us1.test3.net
+  - name: T-SG-HE1 ♥️Gamemax1
+    server: sg1-trojan.bonds.id
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
     sni: m.nimo.tv
     network: ws
@@ -2034,11 +2034,11 @@ proxies:
       headers:
         Host: m.nimo.tv
     udp: true
-  - name: T-US 💙 Vision1
-    server: us1.test3.net
+  - name: T-SG-HE1 💙 Vision1
+    server: sg1-trojan.bonds.id
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
     sni: cdnodeb.visionplus.id
     network: ws
@@ -2050,10 +2050,10 @@ proxies:
 
 # config cf
   - name: Vmess WS (SNI)
-    server: us1.test3.net
+    server: sg1-trojan.bonds.id
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
     sni: support.zoom.us
     network: ws
@@ -2061,42 +2061,42 @@ proxies:
       path: wss://ssh-us1.sshkit.org/howdy
       headers:
         Host: support.zoom.us
-  - name: T-US ♥️opok500
+  - name: T-SG-HE1 ♥️opok500
     server: 104.16.85.20
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
-      path: http://us1.test3.net@http://skul.id/howdy
+      path: http://sg1-trojan.bonds.id@http://skul.id/howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
-  - name: T-US ♥️opok500
+  - name: T-SG-HE1 ♥️opok500
     server: 104.16.85.20
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: http://skul.id/howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
-  - name: T-US ♥️opokunli (cfma)
-    server: us1.test3.net
+  - name: T-SG-HE1 ♥️opokunli (cfma)
+    server: sg1-trojan.bonds.id
     port: 443
     type: trojan
-    password: 1f07c910-fe03-11ee-b210-1239d0255272
+    password: 2343bad0-004e-11ef-a3fe-1239d0255272
     skip-cert-verify: true
-    sni: us1.test3.net
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: http://tsel.me/worryfree/howdy
       headers:
-        Host: us1.test3.net
+        Host: sg1-trojan.bonds.id
     udp: true
