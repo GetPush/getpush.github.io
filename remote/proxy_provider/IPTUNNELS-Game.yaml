@@ -1,6 +1,6 @@
 proxies:
 #isi akun tunnel
-  - name: SG 💜 GAME JABAR B1
+  - name: SG 💜
     server: 104.19.142.89
     port: 80
     type: vmess
@@ -15,4 +15,52 @@ proxies:
       path: /sshkit/1828396894/66020952406ba/
       headers:
         Host: vmess-sg1.sshkit.org
+    udp: true
+
+  - name: NL 💜
+    server: 104.19.142.89
+    port: 80
+    type: vmess
+    uuid: e620d600-ee19-4012-a96c-968e85a52de9
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: vmess-nl1.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/660209d80a6c9/
+      headers:
+        Host: vmess-nl1.sshkit.org
+    udp: true
+
+  - name: FR 💜 
+    server: 104.19.142.89
+    port: 80
+    type: vmess
+    uuid: e620d600-ee19-4012-a96c-968e85a52de9
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: vmess-fr1.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1828396894/660209c02b32a/
+      headers:
+        Host: vmess-fr1.sshkit.org
+    udp: true
+
+  - name: T-SG-MELBI 💜
+    server: 104.19.142.89
+    port: 443
+    type: trojan
+    password: b9657400-0038-11ef-a34a-1239d0255272
+    skip-cert-verify: true
+    sni: sg-4.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-4.test3.net
     udp: true
