@@ -1,5 +1,4 @@
 proxies:
-proxies:
 - name: Vless WS (CDN) Non TLS
   server: 104.19.142.89
   port: 80
