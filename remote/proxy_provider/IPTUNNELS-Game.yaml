@@ -1,19 +1,20 @@
 proxies:
-  - name: Vless WS (CDN) Non TLS
-    server: 104.19.142.89
-    port: 80
-    type: vless
-    uuid: 358158dc-f5f9-44c4-bec0-6a0db164d092
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    servername: id1-vless.sshmax.xyz
-    network: ws
-    ws-opts:
-      path: /vless
-      headers:
-        Host: id1-vless.sshmax.xyz
-    udp: true
+proxies:
+- name: Vless WS (CDN) Non TLS
+  server: 104.19.142.89
+  port: 80
+  type: vless
+  uuid: 5c8644c8-9a07-4cbc-9312-d38bdfa2d7cb
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  servername: id1vless.ipservers.xyz
+  network: ws
+  ws-opts:
+    path: /jagoanssh
+    headers:
+      Host: id1vless.ipservers.xyz
+  udp: true
 
 #isi akun tunnel
   - name: US 💜
