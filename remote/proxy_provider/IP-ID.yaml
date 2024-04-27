@@ -1,22 +1,5 @@
 proxies:
 
-- name: US Kit
-  server: 104.19.142.89
-  port: 80
-  type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: vmess-us1.sshkit.org
-  network: ws
-  ws-opts:
-    path: /sshkit/1828396894/662b0b2a66ac7/
-    headers:
-      Host: vmess-us1.sshkit.org
-  udp: true
-
 - name: FR Kit
   server: 104.19.142.89
   port: 80
@@ -66,4 +49,21 @@ proxies:
     path: /sshkit/1828396894/662b0adc0bd58/
     headers:
       Host: vmess-sg1.sshkit.org
+  udp: true
+
+- name: US Kit
+  server: 104.19.142.89
+  port: 80
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vmess-us1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/662b0b2a66ac7/
+    headers:
+      Host: vmess-us1.sshkit.org
   udp: true
