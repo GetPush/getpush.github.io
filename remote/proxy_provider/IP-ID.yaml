@@ -1,16 +1,69 @@
 proxies:
-- name: Vless WS (CDN) Non TLS
+
+- name: US Kit
   server: 104.19.142.89
   port: 80
-  type: vless
-  uuid: 5c8644c8-9a07-4cbc-9312-d38bdfa2d7cb
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: false
-  servername: id1vless.ipservers.xyz
+  skip-cert-verify: true
+  servername: vmess-us1.sshkit.org
   network: ws
   ws-opts:
-    path: /jagoanssh
+    path: /sshkit/1828396894/662b0b2a66ac7/
     headers:
-      Host: id1vless.ipservers.xyz
+      Host: vmess-us1.sshkit.org
+  udp: true
+
+- name: FR Kit
+  server: 104.19.142.89
+  port: 80
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vmess-fr1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/662b0b6dcf82b/
+    headers:
+      Host: vmess-fr1.sshkit.org
+  udp: true
+
+- name: NL Kit
+  server: 104.19.142.89
+  port: 80
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vmess-nl1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/662b0b918b55e/
+    headers:
+      Host: vmess-nl1.sshkit.org
+  udp: true
+
+- name: SG Kit
+  server: 104.19.142.89
+  port: 80
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vmess-sg1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/662b0adc0bd58/
+    headers:
+      Host: vmess-sg1.sshkit.org
   udp: true
