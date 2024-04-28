@@ -344,7 +344,7 @@ proxies:
 
 
 
-- name: SG 💙 Chat Flex KZL
+- name: SG 💙 Chat Flex KZL WLG
   server: sogood.linefriends.com
   port: 80
   type: vmess
@@ -1763,22 +1763,6 @@ proxies:
     headers:
       Host: vmess-sg1.sshkit.org
   udp: true
-- name: SG 💜 Game4
-  server: 104.16.108.96
-  port: 80
-  type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
-  network: ws
-  ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
-    headers:
-      Host: vmess-sg1.sshkit.org
-  udp: true
 - name: SG 💜 Game5
   server: 104.18.20.94
   port: 80
@@ -2038,22 +2022,6 @@ proxies:
     headers:
       Host: vmess-sg1.sshkit.org
   udp: true
-- name: SG 💙 Akrab1
-  server: 104.17.3.81
-  port: 443
-  type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
-  network: ws
-  ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
-    headers:
-      Host: vmess-sg1.sshkit.org
-  udp: true
 - name: SG 💙 Akrab2
   server: 172.64.149.82
   port: 443
@@ -2182,22 +2150,6 @@ proxies:
     headers:
       Host: vmess-sg1.sshkit.org
   udp: true
-- name: SG 💙 FlexWLG1
-  server: sogood.linefriends.com
-  port: 443
-  type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
-  network: ws
-  ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
-    headers:
-      Host: vmess-sg1.sshkit.org
-  udp: true
 - name: SG 🩵 Opok
   server: space.byu.id
   port: 443
@@ -2248,22 +2200,6 @@ proxies:
   udp: true
 - name: SG 💜 Youtube
   server: youtube.zendesk.com
-  port: 443
-  type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
-  network: ws
-  ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
-    headers:
-      Host: vmess-sg1.sshkit.org
-  udp: true
-- name: SG 💜 Game2
-  server: cdn.appsflyer.com
   port: 443
   type: vmess
   uuid: e620d600-ee19-4012-a96c-968e85a52de9
