@@ -1,6 +1,6 @@
 proxies:
 # config port 80
-- name: SG 💜 GAME JABAR B1
+- name: FR 💜 GAME JABAR B1
   server: 104.19.142.89
   port: 80
   type: vmess
@@ -9,15 +9,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG 💜 GAME JABAR B2
+- name: FR 💜 GAME JABAR B2
   server: 104.16.108.96
   port: 80
   type: vmess
@@ -26,15 +26,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG 💜 GAME JATIM
+- name: FR 💜 GAME JATIM
   server: 104.18.21.94
   port: 80
   type: vmess
@@ -43,16 +43,16 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
 
-- name: SG 💜 GAME JATENG B1
+- name: FR 💜 GAME JATENG B1
   server: cdn.appsflyer.com
   port: 80
   type: vmess
@@ -61,15 +61,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG 💜 GAME JATENG B3
+- name: FR 💜 GAME JATENG B3
   server: iheartcoupons.onesignal.com
   port: 80
   type: vmess
@@ -78,15 +78,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG 💜 BOOSTER GAME B2
+- name: FR 💜 BOOSTER GAME B2
   server: web.poe.garena.com
   port: 80
   type: vmess
@@ -95,15 +95,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG 💙 FLEX UNLI TURBO B1
+- name: FR 💙 FLEX UNLI TURBO B1
   server: 104.22.2.25
   port: 80
   type: vmess
@@ -112,15 +112,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG 💙 FLEX UNLI TURBO B2
+- name: FR 💙 FLEX UNLI TURBO B2
   server: 104.16.17.120
   port: 80
   type: vmess
@@ -129,15 +129,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG 💙 AKRAB NOICE B1
+- name: FR 💙 AKRAB NOICE B1
   server: 104.17.3.81
   port: 80
   type: vmess
@@ -146,15 +146,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG 💙 AKRAB NOICE B2
+- name: FR 💙 AKRAB NOICE B2
   server: 104.17.2.81
   port: 80
   type: vmess
@@ -163,16 +163,16 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
 
-- name: SG 💙 AKRAB NOICE B6
+- name: FR 💙 AKRAB NOICE B6
   server: 104.18.2.198
   port: 80
   type: vmess
@@ -181,15 +181,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG 💙 AKRAB NOICE B7
+- name: FR 💙 AKRAB NOICE B7
   server: 104.18.3.198
   port: 80
   type: vmess
@@ -198,15 +198,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG 💙 AKRAB NOICE B8
+- name: FR 💙 AKRAB NOICE B8
   server: api.midtrans.com
   port: 80
   type: vmess
@@ -215,15 +215,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG 💙 AKRAB NOICE JATIM JATENG
+- name: FR 💙 AKRAB NOICE JATIM JATENG
   server: 104.18.1.196
   port: 80
   type: vmess
@@ -232,15 +232,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG 💙 AKRAB B1
+- name: FR 💙 AKRAB B1
   server: 104.18.11.39
   port: 80
   type: vmess
@@ -249,15 +249,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG 💙 AKRAB B2
+- name: FR 💙 AKRAB B2
   server: ruangguru.com
   port: 80
   type: vmess
@@ -266,15 +266,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG 💙 AKRAB B3
+- name: FR 💙 AKRAB B3
   server: 104.18.21.226
   port: 80
   type: vmess
@@ -283,15 +283,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG 💙 AKRAB JATIM JATENG B1
+- name: FR 💙 AKRAB JATIM JATENG B1
   server: 104.26.4.10
   port: 80
   type: vmess
@@ -300,15 +300,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG 💙 AKRAB JATIM JATENG B2
+- name: FR 💙 AKRAB JATIM JATENG B2
   server: cdn.onlymega.com
   port: 80
   type: vmess
@@ -317,15 +317,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG 💙 AKRAB JATIM JATENG
+- name: FR 💙 AKRAB JATIM JATENG
   server: api.fastworldpay.com
   port: 80
   type: vmess
@@ -334,17 +334,17 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
 
 
-- name: SG 💙 Chat Flex KZL WLG
+- name: FR 💙 Chat Flex KZL
   server: sogood.linefriends.com
   port: 80
   type: vmess
@@ -353,16 +353,16 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
 
-- name: SG 💙 FLX JTG JTM B1
+- name: FR 💙 FLX JTG JTM B1
   server: ava.game.naver.com
   port: 80
   type: vmess
@@ -371,15 +371,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG 💙 FLX JTG JTM B2
+- name: FR 💙 FLX JTG JTM B2
   server: account.pmang.game.naver.com
   port: 80
   type: vmess
@@ -388,15 +388,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG 💙 💜 EDUKASI B2
+- name: FR 💙 💜 EDUKASI B2
   server: support.udemy.com
   port: 80
   type: vmess
@@ -405,15 +405,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG 💙 💜 EDUKASI B3
+- name: FR 💙 💜 EDUKASI B3
   server: cdn.ruangguru.com
   port: 80
   type: vmess
@@ -422,15 +422,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG 💙 💜 EDUKASI JATIM
+- name: FR 💙 💜 EDUKASI JATIM
   server: www.skillacademy.com
   port: 80
   type: vmess
@@ -439,15 +439,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG 💙 💜 EDUKASI JABAR
+- name: FR 💙 💜 EDUKASI JABAR
   server: 104.16.51.111
   port: 80
   type: vmess
@@ -456,15 +456,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG 💙 💜 EDUKASI LUAR JAWA
+- name: FR 💙 💜 EDUKASI LUAR JAWA
   server: cdn.appsflyer.com
   port: 80
   type: vmess
@@ -473,17 +473,17 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
 
 
-- name: SG 💜 EDUKASI B1
+- name: FR 💜 EDUKASI B1
   server: layanan.ruangguru.com
   port: 80
   type: vmess
@@ -492,15 +492,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG 💜 EDUKASI B2
+- name: FR 💜 EDUKASI B2
   server: io.ruangguru.com
   port: 80
   type: vmess
@@ -509,15 +509,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG 💜 EDUKASI B3
+- name: FR 💜 EDUKASI B3
   server: 0.udemy.com
   port: 80
   type: vmess
@@ -526,15 +526,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG 💜 EDUKASI B4
+- name: FR 💜 EDUKASI B4
   server: chat.sociomile.com
   port: 80
   type: vmess
@@ -543,15 +543,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG 💜 EDUKASI JATENG
+- name: FR 💜 EDUKASI JATENG
   server: iainkendari.ac.id
   port: 80
   type: vmess
@@ -560,17 +560,17 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
 
 
-- name: SG 💜 💙 Conference B1
+- name: FR 💜 💙 Conference B1
   server: 104.26.4.126
   port: 80
   type: vmess
@@ -579,15 +579,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG 💜 💙 Conference B2
+- name: FR 💜 💙 Conference B2
   server: 104.18.21.226
   port: 80
   type: vmess
@@ -596,15 +596,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG 💜 💙 Conference B3
+- name: FR 💜 💙 Conference B3
   server: cdn-cf.zoom.us
   port: 80
   type: vmess
@@ -613,15 +613,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG 💜 💙 Conference B4
+- name: FR 💜 💙 Conference B4
   server: support.zoom.us
   port: 80
   type: vmess
@@ -630,15 +630,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG 💜 GENFLIX
+- name: FR 💜 GENFLIX
   server: 104.21.30.242
   port: 80
   type: vmess
@@ -647,15 +647,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG 💙 VISION+ B1
+- name: FR 💙 VISION+ B1
   server: cdn.appsflyer.com
   port: 80
   type: vmess
@@ -664,15 +664,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG 💙 VISION+ B2
+- name: FR 💙 VISION+ B2
   server: 104.21.235.171
   port: 80
   type: vmess
@@ -681,15 +681,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG 💙 VISION+ B3
+- name: FR 💙 VISION+ B3
   server: 104.21.235.172
   port: 80
   type: vmess
@@ -698,16 +698,16 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
 
-- name: SG 💙 💜 VIDEO B1
+- name: FR 💙 💜 VIDEO B1
   server: quiz.vidio.com
   port: 80
   type: vmess
@@ -716,15 +716,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG 💙 💜 VIDEO B3
+- name: FR 💙 💜 VIDEO B3
   server: 104.22.4.240
   port: 80
   type: vmess
@@ -733,16 +733,16 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
 
-- name: SG 💙 💜 SUSHIROLL B1
+- name: FR 💙 💜 SUSHIROLL B1
   server: blog.sushiroll.co.id
   port: 80
   type: vmess
@@ -751,15 +751,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG 💙 💜 SUSHIROLL B2
+- name: FR 💙 💜 SUSHIROLL B2
   server: 104.21.69.223
   port: 80
   type: vmess
@@ -768,15 +768,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG 💙 💜 VIU B3
+- name: FR 💙 💜 VIU B3
   server: 104.18.0.139
   port: 80
   type: vmess
@@ -785,15 +785,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG 💙 LIVE ON OPOK B1
+- name: FR 💙 LIVE ON OPOK B1
   server: 104.21.8.121
   port: 80
   type: vmess
@@ -802,15 +802,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG 💙 LIVE ON OPOK B2
+- name: FR 💙 LIVE ON OPOK B2
   server: 172.67.139.111
   port: 80
   type: vmess
@@ -819,17 +819,17 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
 
 
-- name: SG 💙 💜 OPOK B1
+- name: FR 💙 💜 OPOK B1
   server: www.ovo.id
   port: 80
   type: vmess
@@ -838,15 +838,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG 💙 💜 OPOK B2
+- name: FR 💙 💜 OPOK B2
   server: sit.comet.xl.co.id
   port: 80
   type: vmess
@@ -855,15 +855,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG 💙 💜 OPOK B3
+- name: FR 💙 💜 OPOK B3
   server: zeus.xl.co.id
   port: 80
   type: vmess
@@ -872,15 +872,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG 💙 💜 OPOK B4
+- name: FR 💙 💜 OPOK B4
   server: support.liveon.id
   port: 80
   type: vmess
@@ -889,15 +889,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG 💙 💜 OPOK B5
+- name: FR 💙 💜 OPOK B5
   server: www.xl.co.id
   port: 80
   type: vmess
@@ -906,15 +906,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG 💙 💜 OPOK B6
+- name: FR 💙 💜 OPOK B6
   server: 104.22.28.102
   port: 80
   type: vmess
@@ -923,15 +923,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG 💙 💜 OPOK B7
+- name: FR 💙 💜 OPOK B7
   server: 104.17.58.20
   port: 80
   type: vmess
@@ -940,15 +940,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG 💙 💜 OPOK B8
+- name: FR 💙 💜 OPOK B8
   server: 104.18.12.65
   port: 80
   type: vmess
@@ -957,15 +957,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG 💙 💜 OPOK B9
+- name: FR 💙 💜 OPOK B9
   server: staging.games.axis.co.id
   port: 80
   type: vmess
@@ -974,18 +974,18 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
 
 
 ###### ♥️
-- name: SG ♥️ GAMEMAX B1
+- name: FR ♥️ GAMEMAX B1
   server: 104.18.41.141
   port: 80
   type: vmess
@@ -994,15 +994,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG ♥️ ILMUPEDIA B1
+- name: FR ♥️ ILMUPEDIA B1
   server: ganecadigital.com
   port: 80
   type: vmess
@@ -1011,15 +1011,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG ♥️ ILMUPEDIA B2
+- name: FR ♥️ ILMUPEDIA B2
   server: 104.21.64.112
   port: 80
   type: vmess
@@ -1028,15 +1028,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG ♥️ ILMUPEDIA B3
+- name: FR ♥️ ILMUPEDIA B3
   server: 104.21.21.104
   port: 80
   type: vmess
@@ -1045,15 +1045,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG ♥️ ILMUPEDIA B4
+- name: FR ♥️ ILMUPEDIA B4
   server: 104.26.6.172
   port: 80
   type: vmess
@@ -1062,15 +1062,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG ♥️ ILMUPEDIA B5
+- name: FR ♥️ ILMUPEDIA B5
   server: 104.18.2.81
   port: 80
   type: vmess
@@ -1079,15 +1079,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG ♥️ ILMUPEDIA B6
+- name: FR ♥️ ILMUPEDIA B6
   server: 104.26.5.192
   port: 80
   type: vmess
@@ -1096,15 +1096,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG ♥️ ILMUPEDIA B7
+- name: FR ♥️ ILMUPEDIA B7
   server: 104.22.25.131
   port: 80
   type: vmess
@@ -1113,16 +1113,16 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
 
-- name: SG ♥️ ILMUPEDIA Jateng Jatim Sulawesi Kalimantan B1
+- name: FR ♥️ ILMUPEDIA Jateng Jatim Sulawesi Kalimantan B1
   server: 104.16.65.85
   port: 80
   type: vmess
@@ -1131,15 +1131,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG ♥️ ILMUPEDIA Jateng Jatim Sulawesi Kalimantan B2
+- name: FR ♥️ ILMUPEDIA Jateng Jatim Sulawesi Kalimantan B2
   server: 104.18.3.2
   port: 80
   type: vmess
@@ -1148,15 +1148,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG ♥️ ILMUPEDIA Jateng Jatim Sulawesi Kalimantan B3
+- name: FR ♥️ ILMUPEDIA Jateng Jatim Sulawesi Kalimantan B3
   server: 104.18.2.81
   port: 80
   type: vmess
@@ -1165,15 +1165,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG ♥️ ILMUPEDIA Jabar Riau Sumatra Banten B1
+- name: FR ♥️ ILMUPEDIA Jabar Riau Sumatra Banten B1
   server: 104.26.7.171
   port: 80
   type: vmess
@@ -1182,15 +1182,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG ♥️ ILMUPEDIA Jabar Riau Sumatra Banten B2
+- name: FR ♥️ ILMUPEDIA Jabar Riau Sumatra Banten B2
   server: 104.26.6.171
   port: 80
   type: vmess
@@ -1199,15 +1199,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG ♥️ ILMUPEDIA TKP Jabar B1
+- name: FR ♥️ ILMUPEDIA TKP Jabar B1
   server: wifi.allpuns.net
   port: 80
   type: vmess
@@ -1216,15 +1216,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG ♥️ ILMUPEDIA TKP Jabar B2
+- name: FR ♥️ ILMUPEDIA TKP Jabar B2
   server: portafirmas.universitasxxi.cloud
   port: 80
   type: vmess
@@ -1233,15 +1233,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG ♥️ ILMUPEDIA TKP Jabar B3
+- name: FR ♥️ ILMUPEDIA TKP Jabar B3
   server: my.launchcdn.com
   port: 80
   type: vmess
@@ -1250,15 +1250,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG ♥️ ILMUPEDIA TKP Jabar B4
+- name: FR ♥️ ILMUPEDIA TKP Jabar B4
   server: bimbel.ruangguru.com
   port: 80
   type: vmess
@@ -1267,15 +1267,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG ♥️ ILMUPEDIA TKP Jabar B5
+- name: FR ♥️ ILMUPEDIA TKP Jabar B5
   server: dashboard.midtrans.com
   port: 80
   type: vmess
@@ -1284,15 +1284,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG ♥️ ILMUPEDIA TKP Jabar B6
+- name: FR ♥️ ILMUPEDIA TKP Jabar B6
   server: www.udemy.com
   port: 80
   type: vmess
@@ -1301,15 +1301,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG ♥️ ILMUPEDIA TKP Jabar B7
+- name: FR ♥️ ILMUPEDIA TKP Jabar B7
   server: www.skillacademy.com
   port: 80
   type: vmess
@@ -1318,15 +1318,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG ♥️ ILMUPEDIA TKP Jabar B8
+- name: FR ♥️ ILMUPEDIA TKP Jabar B8
   server: vsb72.tawk.to
   port: 80
   type: vmess
@@ -1335,16 +1335,16 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
 
-- name: SG ♥️ 🩵 EDUKASI
+- name: FR ♥️ 🩵 EDUKASI
   server: orangtua.ruangguru.com
   port: 80
   type: vmess
@@ -1353,16 +1353,16 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
 
-- name: SG ♥️ 🩵 GAME GGWP
+- name: FR ♥️ 🩵 GAME GGWP
   server: 104.19.143.108
   port: 80
   type: vmess
@@ -1371,16 +1371,16 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
 
-- name: SG ♥️ RUANGGURU
+- name: FR ♥️ RUANGGURU
   server: tracker.ruangguru.com
   port: 80
   type: vmess
@@ -1389,15 +1389,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG ♥️ MULTIMEDIA B3
+- name: FR ♥️ MULTIMEDIA B3
   server: ir.huya.com
   port: 80
   type: vmess
@@ -1406,15 +1406,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG ♥️ OMG Nonton
+- name: FR ♥️ OMG Nonton
   server: investors.spotify.com
   port: 80
   type: vmess
@@ -1423,15 +1423,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG ♥️ VIDEOMAX
+- name: FR ♥️ VIDEOMAX
   server: stats.vidiomax.com
   port: 80
   type: vmess
@@ -1440,17 +1440,17 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
     
 ###### 💛
-- name: SG 💛 Opok
+- name: FR 💛 Opok
   server: 172.67.70.101
   port: 80
   type: vmess
@@ -1459,15 +1459,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG 💛 Opok
+- name: FR 💛 Opok
   server: 104.19.142.56
   port: 80
   type: vmess
@@ -1476,16 +1476,16 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
 
-- name: SG 💛 EDUKASI B1
+- name: FR 💛 EDUKASI B1
   server: 104.17.2.81
   port: 80
   type: vmess
@@ -1494,19 +1494,19 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
     
     
     
 ###### 🩷
-- name: SG 🩷 Opok
+- name: FR 🩷 Opok
   server: api.ovo.id
   port: 80
   type: vmess
@@ -1515,15 +1515,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG 🩷 Edukasi
+- name: FR 🩷 Edukasi
   server: kelas.ruangguru.com
   port: 80
   type: vmess
@@ -1532,12 +1532,12 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
 
@@ -1549,7 +1549,7 @@ proxies:
 
 
 ###### 🧡
-- name: SG 🧡 Opok
+- name: FR 🧡 Opok
   server: 104.21.22.52
   port: 80
   type: vmess
@@ -1558,19 +1558,19 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
     
     
     
     
 ###### All SC
-- name: SG 💙 💜 ♥️ MULTIMEDIA MUSIC B1
+- name: FR 💙 💜 ♥️ MULTIMEDIA MUSIC B1
   server: investors.spotify.com
   port: 80
   type: vmess
@@ -1579,14 +1579,14 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
-- name: SG GENFLIX B1
+- name: FR GENFLIX B1
   server: beta.genflix.co.id
   port: 80
   type: vmess
@@ -1595,14 +1595,14 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
-- name: SG GENFLIX B2
+- name: FR GENFLIX B2
   server: app.genflix.co.id
   port: 80
   type: vmess
@@ -1611,14 +1611,14 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
-- name: SG GENFLIX B3
+- name: FR GENFLIX B3
   server: 172.64.153.186
   port: 80
   type: vmess
@@ -1627,14 +1627,14 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
-- name: SG GENFLIX B4
+- name: FR GENFLIX B4
   server: 104.18.34.70
   port: 80
   type: vmess
@@ -1643,14 +1643,14 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
-- name: SG Vidio
+- name: FR Vidio
   server: quiz.int.vidio.com
   port: 80
   type: vmess
@@ -1659,14 +1659,14 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
-- name: SG Sushiroll
+- name: FR Sushiroll
   server: www.sushiroll.co.id
   port: 80
   type: vmess
@@ -1675,14 +1675,14 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
-- name: SG WIFI.ID ⚪
+- name: FR WIFI.ID ⚪
   server: 104.17.2.81
   port: 80
   type: vmess
@@ -1691,16 +1691,16 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
 - name: support2
-  server: vmess-sg1.sshkit.org
+  server: vmess-fr1.sshkit.org
   port: 80
   type: vmess
   uuid: e620d600-ee19-4012-a96c-968e85a52de9
@@ -1708,14 +1708,14 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
-- name: SG 💜 💙 Whatsapp2
+- name: FR 💜 💙 Whatsapp2
   server: support-whatsapp.zendesk.com
   port: 80
   type: vmess
@@ -1724,14 +1724,14 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
-- name: SG 💜 💙 OPERA4
+- name: FR 💜 💙 OPERA4
   server: img.email.cashback.opera.com
   port: 80
   type: vmess
@@ -1740,14 +1740,14 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
-- name: SG 💜 Game3
+- name: FR 💜 Game3
   server: 104.16.85.20
   port: 80
   type: vmess
@@ -1756,14 +1756,30 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
-- name: SG 💜 Game5
+- name: FR 💜 Game4
+  server: 104.16.108.96
+  port: 80
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vmess-fr1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/662b0b6dcf82b/
+    headers:
+      Host: vmess-fr1.sshkit.org
+  udp: true
+- name: FR 💜 Game5
   server: 104.18.20.94
   port: 80
   type: vmess
@@ -1772,14 +1788,14 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
-- name: SG 💜 💙 axiataedukasi2
+- name: FR 💜 💙 axiataedukasi2
   server: 104.16.226.91
   port: 80
   type: vmess
@@ -1788,14 +1804,14 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
-- name: SG 💜 💙 axiataconference
+- name: FR 💜 💙 axiataconference
   server: gomarketplacecontent-cf.zoom.us
   port: 80
   type: vmess
@@ -1804,15 +1820,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
-- name: SG ♥️ 🩵 GGWP
+- name: FR ♥️ 🩵 GGWP
   server: 104.19.143.108
   port: 80
   type: vmess
@@ -1824,14 +1840,14 @@ proxies:
   servername: v27.tiktokcdn.com
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
       Host: v27.tiktokcdn.com
   udp: true
 
 #config port 443
 - name: support1
-  server: vmess-sg1.sshkit.org
+  server: vmess-fr1.sshkit.org
   port: 443
   type: vmess
   uuid: e620d600-ee19-4012-a96c-968e85a52de9
@@ -1839,14 +1855,14 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
-- name: SG 💜 💙 spotify1
+- name: FR 💜 💙 spotify1
   server: investors.spotify.com
   port: 443
   type: vmess
@@ -1855,14 +1871,14 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
-- name: SG 💜 💙 Spotify2
+- name: FR 💜 💙 Spotify2
   server: investors.spotify.com
   port: 443
   type: vmess
@@ -1871,14 +1887,14 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
-- name: SG 💜 💙 Gojek1
+- name: FR 💜 💙 Gojek1
   server: 162.159.128.7
   port: 443
   type: vmess
@@ -1887,14 +1903,14 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
-- name: SG 💙 LIVEON
+- name: FR 💙 LIVEON
   server: beacon.liveon.id
   port: 443
   type: vmess
@@ -1903,14 +1919,14 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
-- name: SG 💜 💙 Microsoft1
+- name: FR 💜 💙 Microsoft1
   server: info.microsoft.com
   port: 443
   type: vmess
@@ -1919,14 +1935,14 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
-- name: SG 💜 💙 Whatsapp1 
+- name: FR 💜 💙 Whatsapp1 
   server: support-whatsapp.zendesk.com
   port: 443
   type: vmess
@@ -1935,14 +1951,14 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
-- name: SG 💜 💙 OPERA2
+- name: FR 💜 💙 OPERA2
   server: res-odx.op-mobile.opera.com
   port: 443
   type: vmess
@@ -1951,12 +1967,12 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 - name: WIFI.ID ⚪ ID
   server: io.ruangguru.com
@@ -1967,14 +1983,14 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
-- name: SG 💙 Turbo1
+- name: FR 💙 Turbo1
   server: 162.159.138.6
   port: 443
   type: vmess
@@ -1983,14 +1999,14 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
-- name: SG 💙 Turbo2
+- name: FR 💙 Turbo2
   server: 162.159.128.7
   port: 443
   type: vmess
@@ -1999,14 +2015,14 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
-- name: SG 💙 Turbo3
+- name: FR 💙 Turbo3
   server: 104.16.51.111
   port: 443
   type: vmess
@@ -2015,14 +2031,30 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
-- name: SG 💙 Akrab2
+- name: FR 💙 Akrab1
+  server: 104.17.3.81
+  port: 443
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: vmess-fr1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/662b0b6dcf82b/
+    headers:
+      Host: vmess-fr1.sshkit.org
+  udp: true
+- name: FR 💙 Akrab2
   server: 172.64.149.82
   port: 443
   type: vmess
@@ -2031,14 +2063,14 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
-- name: SG 💜 Sushiroll
+- name: FR 💜 Sushiroll
   server: www.sushiroll.co.id
   port: 443
   type: vmess
@@ -2047,14 +2079,14 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
-- name: SG 💜 Netflix
+- name: FR 💜 Netflix
   server: creativeservices.netflix.com
   port: 443
   type: vmess
@@ -2063,14 +2095,14 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
-- name: SG 💜 Tiktok
+- name: FR 💜 Tiktok
   server: tiktok1.zendesk.com
   port: 443
   type: vmess
@@ -2079,14 +2111,14 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
-- name: SG 💛 edukasi
+- name: FR 💛 edukasi
   server: www.udemy.com
   port: 443
   type: vmess
@@ -2095,14 +2127,14 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
-- name: SG ♥️Ilped1
+- name: FR ♥️Ilped1
   server: io.ruangguru.com
   port: 443
   type: vmess
@@ -2111,14 +2143,14 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
-- name: SG ♥️Ilped2
+- name: FR ♥️Ilped2
   server: 104.26.7.171
   port: 443
   type: vmess
@@ -2127,14 +2159,14 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
-- name: SG ♥️Gamemax2
+- name: FR ♥️Gamemax2
   server: 104.18.41.141
   port: 443
   type: vmess
@@ -2143,14 +2175,30 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
-- name: SG 🩵 Opok
+- name: FR 💙 FlexWLG1
+  server: sogood.linefriends.com
+  port: 443
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: vmess-fr1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/662b0b6dcf82b/
+    headers:
+      Host: vmess-fr1.sshkit.org
+  udp: true
+- name: FR 🩵 Opok
   server: space.byu.id
   port: 443
   type: vmess
@@ -2159,14 +2207,14 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
-- name: SG 🩵 Edukasi 
+- name: FR 🩵 Edukasi 
   server: orangtua.ruangguru.com
   port: 443
   type: vmess
@@ -2175,14 +2223,14 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
-- name: SG 🩵 Game
+- name: FR 🩵 Game
   server: 104.19.143.108
   port: 443
   type: vmess
@@ -2191,14 +2239,14 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
-- name: SG 💜 Youtube
+- name: FR 💜 Youtube
   server: youtube.zendesk.com
   port: 443
   type: vmess
@@ -2207,14 +2255,30 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
-- name: SG 💙 Vision2
+- name: FR 💜 Game2
+  server: cdn.appsflyer.com
+  port: 443
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: vmess-fr1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/662b0b6dcf82b/
+    headers:
+      Host: vmess-fr1.sshkit.org
+  udp: true
+- name: FR 💙 Vision2
   server: cdnodeb.visionplus.id
   port: 443
   type: vmess
@@ -2223,17 +2287,17 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
 
 ##ssl
-- name: SG 💜 💙 Gojek2
-  server: vmess-sg1.sshkit.org
+- name: FR 💜 💙 Gojek2
+  server: vmess-fr1.sshkit.org
   port: 443
   type: vmess
   uuid: e620d600-ee19-4012-a96c-968e85a52de9
@@ -2244,12 +2308,12 @@ proxies:
   servername: food-merchant-help.grab.com
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
       Host: food-merchant-help.grab.com
   udp: true
-- name: SG 💜 💙 Whatsapp3
-  server: vmess-sg1.sshkit.org
+- name: FR 💜 💙 Whatsapp3
+  server: vmess-fr1.sshkit.org
   port: 443
   type: vmess
   uuid: e620d600-ee19-4012-a96c-968e85a52de9
@@ -2260,12 +2324,12 @@ proxies:
   servername: support-whatsapp.zendesk.com
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
       Host: support-whatsapp.zendesk.com
   udp: true
-- name: SG 💜 💙 Microsoft2
-  server: vmess-sg1.sshkit.org
+- name: FR 💜 💙 Microsoft2
+  server: vmess-fr1.sshkit.org
   port: 443
   type: vmess
   uuid: e620d600-ee19-4012-a96c-968e85a52de9
@@ -2276,12 +2340,12 @@ proxies:
   servername: info.microsoft.com
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
       Host: info.microsoft.com
   udp: true
-- name: SG 💜 💙 IDOPERA1ssl
-  server: vmess-sg1.sshkit.org
+- name: FR 💜 💙 IDOPERA1ssl
+  server: vmess-fr1.sshkit.org
   port: 443
   type: vmess
   uuid: e620d600-ee19-4012-a96c-968e85a52de9
@@ -2292,12 +2356,12 @@ proxies:
   servername: odsp-test.op-mobile.opera.com
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
       Host: odsp-test.op-mobile.opera.com
   udp: true
-- name: SG 💜 💙 OPERA3ssl
-  server: vmess-sg1.sshkit.org
+- name: FR 💜 💙 OPERA3ssl
+  server: vmess-fr1.sshkit.org
   port: 443
   type: vmess
   uuid: e620d600-ee19-4012-a96c-968e85a52de9
@@ -2308,12 +2372,12 @@ proxies:
   servername: img.email.cashback.opera.com
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
       Host: img.email.cashback.opera.com
   udp: true
-- name: SG ♥️Multimedia
-  server: vmess-sg1.sshkit.org
+- name: FR ♥️Multimedia
+  server: vmess-fr1.sshkit.org
   port: 443
   type: vmess
   uuid: e620d600-ee19-4012-a96c-968e85a52de9
@@ -2324,12 +2388,12 @@ proxies:
   servername: v27.tiktokcdn.com
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
       Host: v27.tiktokcdn.com
   udp: true
-- name: SG 💜 game6
-  server: vmess-sg1.sshkit.org
+- name: FR 💜 game6
+  server: vmess-fr1.sshkit.org
   port: 443
   type: vmess
   uuid: e620d600-ee19-4012-a96c-968e85a52de9
@@ -2340,12 +2404,12 @@ proxies:
   servername: zendesk1.garena.com
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
       Host: zendesk1.garena.com
   udp: true
-- name: SG 💜 💙 edukasi1
-  server: vmess-sg1.sshkit.org
+- name: FR 💜 💙 edukasi1
+  server: vmess-fr1.sshkit.org
   port: 443
   type: vmess
   uuid: e620d600-ee19-4012-a96c-968e85a52de9
@@ -2356,12 +2420,12 @@ proxies:
   servername: support.zoom.us
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
       Host: support.zoom.us
   udp: true
-- name: SG 💜 Game1
-  server: vmess-sg1.sshkit.org
+- name: FR 💜 Game1
+  server: vmess-fr1.sshkit.org
   port: 443
   type: vmess
   uuid: e620d600-ee19-4012-a96c-968e85a52de9
@@ -2372,12 +2436,12 @@ proxies:
   servername: web.poe.garena.com
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
       Host: web.poe.garena.com
   udp: true
-- name: SG ♥️Gamemax1
-  server: vmess-sg1.sshkit.org
+- name: FR ♥️Gamemax1
+  server: vmess-fr1.sshkit.org
   port: 443
   type: vmess
   uuid: e620d600-ee19-4012-a96c-968e85a52de9
@@ -2388,12 +2452,12 @@ proxies:
   servername: m.nimo.tv
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
       Host: m.nimo.tv
   udp: true
-- name: SG 💙 FlexWLG2
-  server: vmess-sg1.sshkit.org
+- name: FR 💙 FlexWLG2
+  server: vmess-fr1.sshkit.org
   port: 443
   type: vmess
   uuid: e620d600-ee19-4012-a96c-968e85a52de9
@@ -2404,12 +2468,12 @@ proxies:
   servername: sogood.linefriends.com
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
       Host: sogood.linefriends.com
   udp: true
-- name: SG 💙 Vision1
-  server: vmess-sg1.sshkit.org
+- name: FR 💙 Vision1
+  server: vmess-fr1.sshkit.org
   port: 443
   type: vmess
   uuid: e620d600-ee19-4012-a96c-968e85a52de9
@@ -2420,7 +2484,7 @@ proxies:
   servername: cdnodeb.visionplus.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/662b0b6dcf82b/
     headers:
       Host: cdnodeb.visionplus.id
   udp: true
@@ -2428,7 +2492,7 @@ proxies:
 # config cf
 - name: Vmess WS (SNI)
   type: vmess
-  server: vmess-sg1.sshkit.org
+  server: vmess-fr1.sshkit.org
   port: 443
   uuid: e620d600-ee19-4012-a96c-968e85a52de9
   alterId: 0
@@ -2439,12 +2503,12 @@ proxies:
   servername: support.zoom.us
   network: ws
   ws-opts:
-    path: wss://ssh-us1.sshkit.org/sshkit/1828396894/662b0adc0bd58/
+    path: wss://ssh-us1.sshkit.org/sshkit/1828396894/662b0b6dcf82b/
     headers:
       Host: support.zoom.us
        
 
-- name: SG ♥️opok500
+- name: FR ♥️opok500
   server: 104.16.85.20
   port: 80
   type: vmess
@@ -2453,14 +2517,14 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: http://vmess-sg1.sshkit.org@http://skul.id/sshkit/1828396894/662b0adc0bd58/
+    path: http://vmess-fr1.sshkit.org@http://skul.id/sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
-- name: SG ♥️opok500
+- name: FR ♥️opok500
   server: 104.16.85.20
   port: 80
   type: vmess
@@ -2469,15 +2533,15 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: http://skul.id/sshkit/1828396894/662b0adc0bd58/
+    path: http://skul.id/sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
-- name: SG ♥️opokunli (cfma)
-  server: vmess-sg1.sshkit.org
+- name: FR ♥️opokunli (cfma)
+  server: vmess-fr1.sshkit.org
   port: 80
   type: vmess
   uuid: e620d600-ee19-4012-a96c-968e85a52de9
@@ -2485,10 +2549,10 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: http://tsel.me/worryfree/sshkit/1828396894/662b0adc0bd58/
+    path: http://tsel.me/worryfree/sshkit/1828396894/662b0b6dcf82b/
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: vmess-fr1.sshkit.org
   udp: true
