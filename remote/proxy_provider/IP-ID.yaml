@@ -1,5 +1,5 @@
 proxies:
-  - name: T-SG-MELBI 💜 GAME JABAR B1
+  - name: 💜 GAME JABAR B1
     server: 104.19.142.89
     port: 80
     type: vmess
@@ -15,7 +15,7 @@ proxies:
       headers:
         Host: idray.serverip.my.id
     udp: true
-  - name: T-SG-MELBI 💜 GAME JABAR B2
+  - name: 💜 GAME JABAR B2
     server: 104.16.108.96
     port: 80
     type: vmess
@@ -31,7 +31,7 @@ proxies:
       headers:
         Host: idray.serverip.my.id
     udp: true
-  - name: T-SG-MELBI 💜 GAME JATIM
+  - name: 💜 GAME JATIM
     server: 104.18.21.94
     port: 80
     type: vmess
@@ -47,7 +47,7 @@ proxies:
       headers:
         Host: idray.serverip.my.id
     udp: true
-  - name: T-SG-MELBI 💙 AKRAB NOICE B1
+  - name: 💙 AKRAB NOICE B1
     server: 104.17.3.81
     port: 80
     type: vmess
@@ -64,7 +64,7 @@ proxies:
         Host: idray.serverip.my.id
     udp: true
 
-  - name: T-SG-MELBI 💙 AKRAB NOICE B8
+  - name: 💙 AKRAB NOICE B8
     server: api.midtrans.com
     port: 80
     type: vmess
@@ -81,7 +81,7 @@ proxies:
         Host: idray.serverip.my.id
     udp: true
 
-  - name: T-SG-MELBI 💙 AKRAB B2
+  - name: 💙 AKRAB B2
     server: ruangguru.com
     port: 80
     type: vmess
@@ -98,7 +98,7 @@ proxies:
         Host: idray.serverip.my.id
     udp: true
 
-  - name: T-SG-MELBI 💜 EDUKASI B2
+  - name: 💜 EDUKASI B2
     server: io.ruangguru.com
     port: 80
     type: vmess
@@ -115,7 +115,7 @@ proxies:
         Host: idray.serverip.my.id
     udp: true
 
-  - name: T-SG-MELBI 💜 EDUKASI B4
+  - name: 💜 EDUKASI B4
     server: chat.sociomile.com
     port: 80
     type: vmess
@@ -131,7 +131,7 @@ proxies:
       headers:
         Host: idray.serverip.my.id
     udp: true
-  - name: T-SG-MELBI 💙 💜 OPOK B1
+  - name: 💙 💜 OPOK B1
     server: www.ovo.id
     port: 80
     type: vmess
@@ -147,7 +147,7 @@ proxies:
       headers:
         Host: idray.serverip.my.id
     udp: true
-  - name: T-SG-MELBI 💙 💜 OPOK B6
+  - name: 💙 💜 OPOK B6
     server: 104.22.28.102
     port: 80
     type: vmess
@@ -163,7 +163,7 @@ proxies:
       headers:
         Host: idray.serverip.my.id
     udp: true
-  - name: T-SG-MELBI 💙 💜 OPOK B7
+  - name: 💙 💜 OPOK B7
     server: 104.17.58.20
     port: 80
     type: vmess
@@ -179,7 +179,7 @@ proxies:
       headers:
         Host: idray.serverip.my.id
     udp: true
-  - name: T-SG-MELBI 🩷 Opok
+  - name: 🩷 Opok
     server: api.ovo.id
     port: 80
     type: vmess
@@ -196,7 +196,7 @@ proxies:
         Host: idray.serverip.my.id
     udp: true
 
-  - name: T-SG-MELBI 🩷 Edukasi
+  - name: 🩷 Edukasi
     server: kelas.ruangguru.com
     port: 80
     type: vmess
@@ -213,7 +213,7 @@ proxies:
         Host: idray.serverip.my.id
     udp: true
 
-  - name: T-SG-MELBI GENFLIX B2
+  - name: GENFLIX B2
     server: app.genflix.co.id
     port: 80
     type: vmess
@@ -229,7 +229,7 @@ proxies:
       headers:
         Host: idray.serverip.my.id
     udp: true
-  - name: T-SG-MELBI GENFLIX B3
+  - name: GENFLIX B3
     server: 172.64.153.186
     port: 80
     type: vmess
@@ -245,7 +245,7 @@ proxies:
       headers:
         Host: idray.serverip.my.id
     udp: true
-  - name: T-SG-MELBI GENFLIX B4
+  - name: GENFLIX B4
     server: 104.18.34.70
     port: 80
     type: vmess
@@ -262,7 +262,7 @@ proxies:
         Host: idray.serverip.my.id
     udp: true
 
-  - name: T-SG-MELBI ♥️ ILMUPEDIA TKP Jabar B4
+  - name: ♥️ ILMUPEDIA TKP Jabar B4
     server: bimbel.ruangguru.com
     port: 80
     type: vmess
@@ -279,7 +279,7 @@ proxies:
         Host: idray.serverip.my.id
     udp: true
 
-  - name: T-SG-MELBI ♥️ ILMUPEDIA TKP Jabar B5
+  - name: ♥️ ILMUPEDIA TKP Jabar B5
     server: dashboard.midtrans.com
     port: 80
     type: vmess
@@ -296,7 +296,7 @@ proxies:
         Host: idray.serverip.my.id
     udp: true
 
-  - name: T-SG-MELBI ♥️ RUANGGURU
+  - name: ♥️ RUANGGURU
     server: tracker.ruangguru.com
     port: 80
     type: vmess
@@ -313,7 +313,7 @@ proxies:
         Host: idray.serverip.my.id
     udp: true
 
-  - name: T-SG-MELBI 💙 Akrab1
+  - name: 💙 Akrab1
     server: 104.17.3.81
     port: 80
     type: vmess
@@ -330,7 +330,7 @@ proxies:
         Host: idray.serverip.my.id
     udp: true
 
-  - name: T-SG-MELBI ♥️Ilped1
+  - name: ♥️Ilped1
     server: io.ruangguru.com
     port: 80
     type: vmess
@@ -347,7 +347,7 @@ proxies:
         Host: idray.serverip.my.id
     udp: true
 
-  - name: T-SG-MELBI 🩵 Edukasi 
+  - name: 🩵 Edukasi 
     server: orangtua.ruangguru.com
     port: 80
     type: vmess
@@ -364,7 +364,7 @@ proxies:
         Host: idray.serverip.my.id
     udp: true
 
-  - name: T-SG-MELBI WIFI.ID ⚪
+  - name: WIFI.ID ⚪
     server: 104.17.2.81
     port: 80
     type: vmess
