@@ -38,6 +38,47 @@ proxies:
       headers:
         Host: sg-4.test3.net
     udp: true
+  - name: T-SG-MELBI 💜 GAME JATENG B1
+    server: cdn.appsflyer.com
+    port: 443
+    type: trojan
+    password: b9657400-0038-11ef-a34a-1239d0255272
+    skip-cert-verify: true
+    sni: sg-4.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-4.test3.net
+    udp: true
+  - name: T-SG-MELBI 💜 Game5
+    server: 104.18.20.94
+    port: 443
+    type: trojan
+    password: b9657400-0038-11ef-a34a-1239d0255272
+    skip-cert-verify: true
+    sni: sg-4.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-4.test3.net
+    udp: true
+
+  - name: T-SG-MELBI BOOSTER GAME B2
+    server: web.poe.garena.com
+    port: 443
+    type: trojan
+    password: b9657400-0038-11ef-a34a-1239d0255272
+    skip-cert-verify: true
+    sni: sg-4.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-4.test3.net
+    udp: true
+
   - name: T-SG-MELBI 💙 AKRAB NOICE B1
     server: 104.17.3.81
     port: 443
@@ -107,6 +148,21 @@ proxies:
       headers:
         Host: sg-4.test3.net
     udp: true
+
+  - name: T-SG-MELBI 💙 💜 EDUKASI LUAR JAWA
+    server: cdn.appsflyer.com
+    port: 443
+    type: trojan
+    password: b9657400-0038-11ef-a34a-1239d0255272
+    skip-cert-verify: true
+    sni: sg-4.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-4.test3.net
+    udp: true
+
   - name: T-SG-MELBI 💙 💜 OPOK B1
     server: www.ovo.id
     port: 443
@@ -135,6 +191,32 @@ proxies:
     udp: true
   - name: T-SG-MELBI 💙 💜 OPOK B7
     server: 104.17.58.20
+    port: 443
+    type: trojan
+    password: b9657400-0038-11ef-a34a-1239d0255272
+    skip-cert-verify: true
+    sni: sg-4.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-4.test3.net
+    udp: true
+  - name: T-SG-MELBI 💙 💜 OPOK B9
+    server: staging.games.axis.co.id
+    port: 443
+    type: trojan
+    password: b9657400-0038-11ef-a34a-1239d0255272
+    skip-cert-verify: true
+    sni: sg-4.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-4.test3.net
+    udp: true
+  - name: T-SG-MELBI 💜 💙 Microsoft1
+    server: info.microsoft.com
     port: 443
     type: trojan
     password: b9657400-0038-11ef-a34a-1239d0255272
@@ -255,35 +337,6 @@ proxies:
       headers:
         Host: sg-4.test3.net
     udp: true
-
-  - name: T-SG-MELBI WIFI.ID ⚪
-    server: 104.17.2.81
-    port: 443
-    type: trojan
-    password: b9657400-0038-11ef-a34a-1239d0255272
-    skip-cert-verify: true
-    sni: sg-4.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg-4.test3.net
-    udp: true
-
-  - name: T-SG-MELBI 💙 Akrab1
-    server: 104.17.3.81
-    port: 443
-    type: trojan
-    password: b9657400-0038-11ef-a34a-1239d0255272
-    skip-cert-verify: true
-    sni: sg-4.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg-4.test3.net
-    udp: true
-
   - name: T-SG-MELBI ♥️Ilped1
     server: io.ruangguru.com
     port: 443
@@ -300,6 +353,20 @@ proxies:
 
   - name: T-SG-MELBI 🩵 Edukasi 
     server: orangtua.ruangguru.com
+    port: 443
+    type: trojan
+    password: b9657400-0038-11ef-a34a-1239d0255272
+    skip-cert-verify: true
+    sni: sg-4.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-4.test3.net
+    udp: true
+
+  - name: T-SG-MELBI WIFI.ID ⚪
+    server: 104.17.2.81
     port: 443
     type: trojan
     password: b9657400-0038-11ef-a34a-1239d0255272
