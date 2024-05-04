@@ -83,47 +83,74 @@ proxy-providers:
     health-check:
       enable: true
     interval: 86400
+    
+  IP-Tuyul:
+    type: http
+    path: "./proxy_provider/IP-ID.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/IP-Tuyul.yaml
+    health-check:
+      enable: true
+    interval: 86400
 
 proxy-groups:
+- name: TrafficUmum
+  type: select
+  disable-udp: false
+  proxies:
+  - Clasher
+  - Route Balance
+  - Route BestPing
+  - Route FallBack
+  - Route ID
+  - Route Tuyul
+  - Direct Multi-WAN
 - name: TrafficRandom
-  type: load-balance
+  type: fallback
+  strategy: round-robin
+  lazy: true
+  disable-udp: false
+  proxies:
+  - TrafficUmum
+  - Direct Multi-WAN
+  url: http://www.gstatic.com/generate_204
+  interval: '10'
+- name: Clasher
+  type: fallback
   strategy: round-robin
   lazy: true
   disable-udp: false
   proxies:
   - Route Balance
-  - Direct Multi-WAN
+  - Route BestPing
+  - Route FallBack
+#  - Direct Multi-WAN
   url: http://www.gstatic.com/generate_204
   interval: '10'
-
 ######################### 🧡🩷💙💜💛♥️🩵
 - name: TrafficPortGames
   type: select
   disable-udp: false
   proxies:
-  - TrafficRandom
-  - Route BestPing
+  - TrafficUmum
+  - Route ID
+  - Direct Multi-WAN
   url: http://www.gstatic.com/generate_204
-  interval: '30'
+  interval: '100'
 - name: TrafficGaming
   type: select
   disable-udp: false
   proxies:
-  - Route BestPing
-  - TrafficRandom
-  use:
-  - IP-ID
-  url: http://www.gstatic.com/generate_204
-  interval: '30'
+  - TrafficUmum
+  - Route ID
+  - Direct Multi-WAN
 - name: TrafficAds
   type: select
   disable-udp: false
   proxies:
   - REJECT
-  - Route Balance
+  - TrafficUmum
   - Route FallBack
-  url: http://www.gstatic.com/generate_204
-  interval: '30'
+  - Direct Multi-WAN
 - name: TrafficPorn
   type: select
   disable-udp: false
@@ -131,51 +158,57 @@ proxy-groups:
   - REJECT
   - Route Balance
   - Route FallBack
-  url: http://www.gstatic.com/generate_204
-  interval: '30'
-
-- name: TrafficUmum
-  type: fallback
-  lazy: true
-  disable-udp: false
-  proxies:
-  - Route Balance
-  - Route FallBack
-  - Direct Multi-WAN
-  url: http://www.gstatic.com/generate_204
-  interval: '30'
 - name: TrafficIndo
   type: fallback
+  strategy: round-robin
   lazy: true
   disable-udp: false
   proxies:
+  - Route ID
+  - TrafficUmum
   - Route FallBack
-  - Route Balance
-  - TrafficRandom
   url: http://www.gstatic.com/generate_204
   interval: '30'
 - name: TrafficStreaming
   type: fallback
+  strategy: round-robin
   lazy: true
   disable-udp: false
   proxies:
-  - Route Balance
+  - TrafficUmum
   - Route FallBack
-  - Direct Multi-WAN
+  - Route ID
   url: http://www.gstatic.com/generate_204
   interval: '30'
 - name: TrafficSosmed
   type: fallback
+  strategy: round-robin
   lazy: true
   disable-udp: false
   proxies:
+  - TrafficUmum
   - Route FallBack
-  - Route Balance
-  - Direct Multi-WAN
+  - Route ID
   url: http://www.gstatic.com/generate_204
   interval: '30'
 
 
+- name: Route ID
+  type: load-balance
+  strategy: round-robin
+  disable-udp: false
+  use:
+  - IP-ID
+  url: http://www.gstatic.com/generate_204
+  interval: '360'
+- name: Route Tuyul
+  type: load-balance
+  strategy: round-robin
+  disable-udp: false
+  use:
+  - IP-Tuyul
+  url: http://www.gstatic.com/generate_204
+  interval: '360'
 ######################### router
 - name: Route FallBack
   type: fallback
@@ -186,7 +219,7 @@ proxy-groups:
   - VMESS
   - TROJAN
   url: http://www.gstatic.com/generate_204
-  interval: 360
+  interval: '30'
 - name: Route BestPing
   type: url-test
   strategy: round-robin
@@ -195,7 +228,7 @@ proxy-groups:
   - VMESS
   - TROJAN
   url: http://www.gstatic.com/generate_204
-  interval: 600
+  interval: '600'
 
 - name: Route Balance
   type: load-balance
@@ -208,7 +241,6 @@ proxy-groups:
   interval: '360'
 
 ### seleksi
-
 - name: VMESS
   type: load-balance
   strategy: round-robin
@@ -219,39 +251,39 @@ proxy-groups:
   - VMESS-SG
   - VMESS-US
   url: http://www.gstatic.com/generate_204
-  interval: '600'
+  interval: '360'
 - name: VMESS-SG
-  type: url-test
+  type: load-balance
   strategy: round-robin
   disable-udp: false
   use:
   - VMESS-SG
   url: http://www.gstatic.com/generate_204
-  interval: 600
+  interval: '360'
 - name: VMESS-US
-  type: url-test
+  type: load-balance
   strategy: round-robin
   disable-udp: false
   use:
   - VMESS-US
   url: http://www.gstatic.com/generate_204
-  interval: 600
+  interval: '360'
 - name: VMESS-NL
-  type: url-test
+  type: load-balance
   strategy: round-robin
   disable-udp: false
   use:
   - VMESS-NL
   url: http://www.gstatic.com/generate_204
-  interval: 600
+  interval: '360'
 - name: VMESS-FR
-  type: url-test
+  type: load-balance
   strategy: round-robin
   disable-udp: false
   use:
   - VMESS-FR
   url: http://www.gstatic.com/generate_204
-  interval: 600
+  interval: '360'
 
 ######################### DIRECT
 - name: Direct Multi-WAN
@@ -294,55 +326,54 @@ proxy-groups:
   - T-US
   url: http://www.gstatic.com/generate_204
   interval: '360'
-
 - name: T-SG-MELBI
-  type: url-test
+  type: load-balance
   strategy: round-robin
   disable-udp: false
   use:
   - T-SG-MELBI
   url: http://www.gstatic.com/generate_204
-  interval: 600
+  interval: '360'
 - name: T-SG-HE1
-  type: url-test
+  type: load-balance
   strategy: round-robin
   disable-udp: false
   use:
   - T-SG-HE1
   url: http://www.gstatic.com/generate_204
-  interval: 600
+  interval: '360'
 - name: T-SG-HE2
-  type: url-test
+  type: load-balance
   strategy: round-robin
   disable-udp: false
   use:
   - T-SG-HE2
   url: http://www.gstatic.com/generate_204
-  interval: 600
+  interval: '360'
 - name: T-SG-HE3
-  type: url-test
+  type: load-balance
   strategy: round-robin
   disable-udp: false
   use:
   - T-SG-HE3
   url: http://www.gstatic.com/generate_204
-  interval: 600
+  interval: '360'
 - name: T-FR
-  type: url-test
+  type: load-balance
   strategy: round-robin
   disable-udp: false
   use:
   - T-FR
   url: http://www.gstatic.com/generate_204
-  interval: 600
+  interval: '360'
 - name: T-US
-  type: url-test
+  type: load-balance
   strategy: round-robin
   disable-udp: false
   use:
   - T-US
   url: http://www.gstatic.com/generate_204
-  interval: 600
+  interval: '360'
 
 redir-port: 7892
 port: 7890
@@ -616,10 +647,10 @@ rules:
 - DST-PORT,7895,REJECT
 - DST-PORT,7892,REJECT
 
-- IP-CIDR,198.18.0.1/16,REJECT,no-resolve
+#- IP-CIDR,198.18.0.1/16,REJECT,no-resolve
 - DST-PORT,22,DIRECT
 
-- RULE-SET,clash,REJECT
+- RULE-SET,rule_clash,REJECT
 - RULE-SET,Direct,DIRECT
 
 - RULE-SET,rule_lancidr,DIRECT,no-resolve
@@ -648,6 +679,7 @@ rules:
 - RULE-SET,rule_primevideo,TrafficStreaming
 - RULE-SET,rule_twitch,TrafficStreaming
 - RULE-SET,rule_Youtube,TrafficStreaming
+- RULE-SET,rule_videoconferences,TrafficStreaming
 - RULE-SET,rule_Sosmed,TrafficSosmed
 - RULE-SET,rule_line,TrafficSosmed
 - RULE-SET,rule_metaverse,TrafficSosmed
@@ -655,7 +687,6 @@ rules:
 - RULE-SET,rule_twitter,TrafficSosmed
 - RULE-SET,rule_telegram,TrafficSosmed
 - RULE-SET,rule_telegramcidr,TrafficSosmed
-- RULE-SET,rule_videoconferences,TrafficStreaming
 - RULE-SET,rule_portgames,TrafficPortGames
 #- SCRIPT,TCPgames,TrafficPortGames
 #- SCRIPT,UDPgames,TrafficPortGames
@@ -740,15 +771,15 @@ script:
     speedtest: network == "tcp" and match_provider("rule_Speedtest")
 
 rule-providers:
-  clash:
-    type: file
+  rule_clash:
+    type: http
     behavior: domain
-    path: "./rule_provider/rule-provider_clash.yaml"
+    path: "./rule_provider/rule_clash.yaml"
     health-check:
       enable: true
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/rule_provider/rule-provider_clash.yaml
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/rule_provider/rule_clash.yaml
   Direct:
-    type: file
+    type: http
     behavior: classical
     path: "./rule_provider/direct.yaml"
     health-check:
@@ -756,233 +787,233 @@ rule-providers:
     url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/rule_provider/direct.yaml
 
   rule_Direct:
-    type: file
+    type: http
     behavior: classical
     path: "./rule_provider/rule_direct.yaml"
   rule_umum:
-    type: file
+    type: http
     behavior: classical
     path: "./rule_provider/rule_umum.yaml"
     url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_umum.yaml
     interval: 86400
   rule_portgames:
-    type: file
+    type: http
     behavior: classical
     path: "./rule_provider/rule_portgames.yaml"
     url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_portgames.yaml
     interval: 86400
   rule_videoconferences:
-    type: file
+    type: http
     behavior: classical
     path: "./rule_provider/rule_videoconferences.yaml"
     url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_videoconferences.yaml
     interval: 86400
   rule_Indo:
-    type: file
+    type: http
     behavior: classical
     path: "./rule_provider/rule_indo.yaml"
     url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_indo.yaml
     interval: 86400
   rule_Sosmed:
-    type: file
+    type: http
     behavior: classical
     path: "./rule_provider/rule_sosmed.yaml"
     url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_sosmed.yaml
     interval: 86400
   rule_Streaming:
-    type: file
+    type: http
     behavior: classical
     path: "./rule_provider/rule_streaming.yaml"
     url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_streaming.yaml
     interval: 86400
   rule_Gaming:
-    type: file
+    type: http
     behavior: classical
     path: "./rule_provider/rule_gaming.yaml"
     url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_gaming.yaml
     interval: 86400
   rule_Speedtest:
-    type: file
+    type: http
     behavior: classical
     url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_speedtest.yaml
     path: "./rule_provider/rule_speedtest.yaml"
     interval: 86400
   rule_discord:
-    type: file
+    type: http
     behavior: classical
     url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_discord.yaml
     path: "./rule_provider/rule_discord.yaml"
     interval: 86400
   rule_hijacking:
-    type: file
+    type: http
     behavior: classical
     path: "./rule_provider/rule_hijacking.yaml"
     url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_hijacking.yaml
     interval: 86400
   rule_privacy:
-    type: file
+    type: http
     behavior: classical
     url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_privacy.yaml
     path: "./rule_provider/rule_privacy.yaml"
     interval: 86400
   rule_basicads:
-    type: file
+    type: http
     behavior: domain
     url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_basicads.yaml
     path: "./rule_provider/rule_basicads.yaml"
     interval: 43200
   rule_personalads:
-    type: file
+    type: http
     behavior: classical
     url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_personalads.yaml
     path: "./rule_provider/rule_personalads.yaml"
     interval: 86400
   rule_malicious:
-    type: file
+    type: http
     behavior: domain
     url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_malicious.yaml
     path: "./rule_provider/rule_malicious.yaml"
     interval: 43200
   rule_maliciousip:
-    type: file
+    type: http
     behavior: ipcidr
     url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_maliciousip.yaml
     path: "./rule_provider/rule_maliciousip.yaml"
     interval: 43200
   rule_falsepositive:
-    type: file
+    type: http
     behavior: classical
     url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_falsepositive.yaml
     path: "./rule_provider/rule_falsepositive.yaml"
     interval: 86400
   rule_porn:
-    type: file
+    type: http
     behavior: domain
     url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_porn.yaml
     path: "./rule_provider/rule_porn.yaml"
     interval: 86400
   rule_nsfw:
-    type: file
+    type: http
     behavior: domain
     url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_nsfw.yaml
     path: "./rule_provider/rule_nsfw.yaml"
     interval: 43200
   rule_lancidr:
-    type: file
+    type: http
     behavior: ipcidr
     url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_lancidr.yaml
     path: "./rule_provider/rule_lancidr.yaml"
     interval: 86400
   rule_telegramcidr:
-    type: file
+    type: http
     behavior: ipcidr
     url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_telegramcidr.yaml
     path: "./rule_provider/rule_telegramcidr.yaml"
     interval: 86400
   rule_telegram:
-    type: file
+    type: http
     behavior: domain
     url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_telegram.yaml
     path: "./rule_provider/rule_telegram.yaml"
     interval: 86400
   rule_disneyplus:
-    type: file
+    type: http
     behavior: classical
     url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_disneyplus.yaml
     path: "./rule_provider/rule_disneyplus.yaml"
     interval: 86400
   rule_games:
-    type: file
+    type: http
     behavior: domain
     url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_games.yaml
     path: "./rule_provider/rule_games.yaml"
     interval: 86400
   rule_hbo:
-    type: file
+    type: http
     behavior: classical
     url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_hbo.yaml
     path: "./rule_provider/rule_hbo.yaml"
     interval: 86400
   rule_hboasia:
-    type: file
+    type: http
     behavior: classical
     url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_hboasia.yaml
     path: "./rule_provider/rule_hboasia.yaml"
     interval: 86400
   rule_hbohk:
-    type: file
+    type: http
     behavior: classical
     url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_hbohk.yaml
     path: "./rule_provider/rule_hbohk.yaml"
     interval: 86400
   rule_hbousa:
-    type: file
+    type: http
     behavior: classical
     url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_hbousa.yaml
     path: "./rule_provider/rule_hbousa.yaml"
     interval: 86400
   rule_iqiyi:
-    type: file
+    type: http
     behavior: classical
     url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_iqiyi.yaml
     path: "./rule_provider/rule_iqiyi.yaml"
     interval: 86400
   rule_iqiyiinter:
-    type: file
+    type: http
     behavior: classical
     url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_iqiyiinter.yaml
     path: "./rule_provider/rule_iqiyiinter.yaml"
     interval: 86400
   rule_line:
-    type: file
+    type: http
     behavior: domain
     url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_line.yaml
     path: "./rule_provider/rule_line.yaml"
     interval: 86400
   rule_metaverse:
-    type: file
+    type: http
     behavior: domain
     url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_metaverse.yaml
     path: "./rule_provider/rule_metaverse.yaml"
     interval: 86400
   rule_netflix:
-    type: file
+    type: http
     behavior: domain
     url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_netflix.yaml
     path: "./rule_provider/rule_netflix.yaml"
     interval: 86400
   rule_primevideo:
-    type: file
+    type: http
     behavior: domain
     url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_primevideo.yaml
     path: "./rule_provider/rule_primevideo.yaml"
     interval: 86400
   rule_playstore:
-    type: file
+    type: http
     behavior: domain
     url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_playstore.yaml
     path: "./rule_provider/rule_playstore.yaml"
     interval: 86400
   rule_tiktok:
-    type: file
+    type: http
     behavior: domain
     url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_tiktok.yaml
     path: "./rule_provider/rule_tiktok.yaml"
     interval: 86400
   rule_twitch:
-    type: file
+    type: http
     behavior: domain
     url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_twitch.yaml
     path: "./rule_provider/rule_twitch.yaml"
     interval: 86400
   rule_twitter:
-    type: file
+    type: http
     behavior: domain
     url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_twitter.yaml
     path: "./rule_provider/rule_twitter.yaml"
     interval: 86400
   rule_Youtube:
-    type: file
+    type: http
     behavior: domain
     url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_youtube.yaml
     path: "./rule_provider/rule_youtube.yaml"
