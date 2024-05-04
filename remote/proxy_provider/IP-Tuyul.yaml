@@ -1,5 +1,5 @@
 proxies:
-  - name: Jagoan US1 💜 GAME JABAR B1
+  - name: 11-05-2024 💜 GAME JABAR B1
     server: 104.19.142.89
     port: 80
     type: vmess
@@ -14,7 +14,7 @@ proxies:
       path: /JAGOANSSH/
       headers:
         Host: us-ray.ipservers.xyz
-  - name: Jagoan US1 💜 GAME JABAR B2
+  - name: 11-05-2024 💜 GAME JABAR B2
     server: 104.16.108.96
     port: 80
     type: vmess
@@ -29,7 +29,7 @@ proxies:
       path: /JAGOANSSH/
       headers:
         Host: us-ray.ipservers.xyz
-  - name: Jagoan US1 💜 GAME JATIM
+  - name: 11-05-2024 💜 GAME JATIM
     server: 104.18.21.94
     port: 80
     type: vmess
@@ -44,7 +44,7 @@ proxies:
       path: /JAGOANSSH/
       headers:
         Host: us-ray.ipservers.xyz
-  - name: Jagoan US1 💜 GAME JATENG B1
+  - name: 11-05-2024 💜 GAME JATENG B1
     server: cdn.appsflyer.com
     port: 80
     type: vmess
@@ -59,7 +59,7 @@ proxies:
       path: /JAGOANSSH/
       headers:
         Host: us-ray.ipservers.xyz
-  - name: Jagoan US1 💜 Game5
+  - name: 11-05-2024 💜 Game5
     server: 104.18.20.94
     port: 80
     type: vmess
@@ -75,7 +75,7 @@ proxies:
       headers:
         Host: us-ray.ipservers.xyz
 
-  - name: Jagoan US1 BOOSTER GAME B2
+  - name: 11-05-2024 BOOSTER GAME B2
     server: web.poe.garena.com
     port: 80
     type: vmess
@@ -91,7 +91,7 @@ proxies:
       headers:
         Host: us-ray.ipservers.xyz
 
-  - name: Jagoan US1 💙 AKRAB NOICE B1
+  - name: 11-05-2024 💙 AKRAB NOICE B1
     server: 104.17.3.81
     port: 80
     type: vmess
@@ -107,7 +107,7 @@ proxies:
       headers:
         Host: us-ray.ipservers.xyz
 
-  - name: Jagoan US1 💙 AKRAB NOICE B8
+  - name: 11-05-2024 💙 AKRAB NOICE B8
     server: api.midtrans.com
     port: 80
     type: vmess
@@ -123,7 +123,7 @@ proxies:
       headers:
         Host: us-ray.ipservers.xyz
 
-  - name: Jagoan US1 💙 AKRAB B2
+  - name: 11-05-2024 💙 AKRAB B2
     server: ruangguru.com
     port: 80
     type: vmess
@@ -139,7 +139,7 @@ proxies:
       headers:
         Host: us-ray.ipservers.xyz
 
-  - name: Jagoan US1 💜 EDUKASI B2
+  - name: 11-05-2024 💜 EDUKASI B2
     server: io.ruangguru.com
     port: 80
     type: vmess
@@ -155,7 +155,7 @@ proxies:
       headers:
         Host: us-ray.ipservers.xyz
 
-  - name: Jagoan US1 💜 EDUKASI B4
+  - name: 11-05-2024 💜 EDUKASI B4
     server: chat.sociomile.com
     port: 80
     type: vmess
@@ -171,7 +171,7 @@ proxies:
       headers:
         Host: us-ray.ipservers.xyz
 
-  - name: Jagoan US1 💙 💜 EDUKASI LUAR JAWA
+  - name: 11-05-2024 💙 💜 EDUKASI LUAR JAWA
     server: cdn.appsflyer.com
     port: 80
     type: vmess
@@ -187,7 +187,7 @@ proxies:
       headers:
         Host: us-ray.ipservers.xyz
 
-  - name: Jagoan US1 💙 💜 OPOK B1
+  - name: 11-05-2024 💙 💜 OPOK B1
     server: www.ovo.id
     port: 80
     type: vmess
@@ -202,7 +202,7 @@ proxies:
       path: /JAGOANSSH/
       headers:
         Host: us-ray.ipservers.xyz
-  - name: Jagoan US1 💙 💜 OPOK B6
+  - name: 11-05-2024 💙 💜 OPOK B6
     server: 104.22.28.102
     port: 80
     type: vmess
@@ -217,7 +217,7 @@ proxies:
       path: /JAGOANSSH/
       headers:
         Host: us-ray.ipservers.xyz
-  - name: Jagoan US1 💙 💜 OPOK B7
+  - name: 11-05-2024 💙 💜 OPOK B7
     server: 104.17.58.20
     port: 80
     type: vmess
@@ -232,7 +232,7 @@ proxies:
       path: /JAGOANSSH/
       headers:
         Host: us-ray.ipservers.xyz
-  - name: Jagoan US1 💙 💜 OPOK B9
+  - name: 11-05-2024 💙 💜 OPOK B9
     server: staging.games.axis.co.id
     port: 80
     type: vmess
@@ -247,7 +247,7 @@ proxies:
       path: /JAGOANSSH/
       headers:
         Host: us-ray.ipservers.xyz
-  - name: Jagoan US1 💜 💙 Microsoft1
+  - name: 11-05-2024 💜 💙 Microsoft1
     server: info.microsoft.com
     port: 80
     type: vmess
@@ -262,7 +262,7 @@ proxies:
       path: /JAGOANSSH/
       headers:
         Host: us-ray.ipservers.xyz
-  - name: Jagoan US1 🩷 Opok
+  - name: 11-05-2024 🩷 Opok
     server: api.ovo.id
     port: 80
     type: vmess
@@ -278,7 +278,7 @@ proxies:
       headers:
         Host: us-ray.ipservers.xyz
 
-  - name: Jagoan US1 🩷 Edukasi
+  - name: 11-05-2024 🩷 Edukasi
     server: kelas.ruangguru.com
     port: 80
     type: vmess
@@ -294,7 +294,7 @@ proxies:
       headers:
         Host: us-ray.ipservers.xyz
 
-  - name: Jagoan US1 GENFLIX B2
+  - name: 11-05-2024 GENFLIX B2
     server: app.genflix.co.id
     port: 80
     type: vmess
@@ -309,7 +309,7 @@ proxies:
       path: /JAGOANSSH/
       headers:
         Host: us-ray.ipservers.xyz
-  - name: Jagoan US1 GENFLIX B3
+  - name: 11-05-2024 GENFLIX B3
     server: 172.64.153.186
     port: 80
     type: vmess
@@ -324,7 +324,7 @@ proxies:
       path: /JAGOANSSH/
       headers:
         Host: us-ray.ipservers.xyz
-  - name: Jagoan US1 GENFLIX B4
+  - name: 11-05-2024 GENFLIX B4
     server: 104.18.34.70
     port: 80
     type: vmess
@@ -340,7 +340,7 @@ proxies:
       headers:
         Host: us-ray.ipservers.xyz
 
-  - name: Jagoan US1 ♥️ ILMUPEDIA TKP Jabar B4
+  - name: 11-05-2024 ♥️ ILMUPEDIA TKP Jabar B4
     server: bimbel.ruangguru.com
     port: 80
     type: vmess
@@ -356,7 +356,7 @@ proxies:
       headers:
         Host: us-ray.ipservers.xyz
 
-  - name: Jagoan US1 ♥️ ILMUPEDIA TKP Jabar B5
+  - name: 11-05-2024 ♥️ ILMUPEDIA TKP Jabar B5
     server: dashboard.midtrans.com
     port: 80
     type: vmess
@@ -372,7 +372,7 @@ proxies:
       headers:
         Host: us-ray.ipservers.xyz
 
-  - name: Jagoan US1 ♥️ RUANGGURU
+  - name: 11-05-2024 ♥️ RUANGGURU
     server: tracker.ruangguru.com
     port: 80
     type: vmess
@@ -387,7 +387,7 @@ proxies:
       path: /JAGOANSSH/
       headers:
         Host: us-ray.ipservers.xyz
-  - name: Jagoan US1 ♥️Ilped1
+  - name: 11-05-2024 ♥️Ilped1
     server: io.ruangguru.com
     port: 80
     type: vmess
@@ -403,7 +403,7 @@ proxies:
       headers:
         Host: us-ray.ipservers.xyz
 
-  - name: Jagoan US1 🩵 Edukasi 
+  - name: 11-05-2024 🩵 Edukasi 
     server: orangtua.ruangguru.com
     port: 80
     type: vmess
@@ -419,7 +419,7 @@ proxies:
       headers:
         Host: us-ray.ipservers.xyz
 
-  - name: Jagoan US1 WIFI.ID ⚪
+  - name: 11-05-2024 WIFI.ID ⚪
     server: 104.17.2.81
     port: 80
     type: vmess
