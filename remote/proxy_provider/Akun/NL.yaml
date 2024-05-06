@@ -1,0 +1,465 @@
+proxies:
+## Netherlands
+- name: Akun NL 💜 GAME JABAR B1
+  server: 104.19.142.89
+  port: 80
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vmess-nl1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/662b0b918b55e/
+    headers:
+      Host: vmess-nl1.sshkit.org
+  udp: true
+- name: Akun NL 💜 GAME JABAR B2
+  server: 104.16.108.96
+  port: 80
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vmess-nl1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/662b0b918b55e/
+    headers:
+      Host: vmess-nl1.sshkit.org
+  udp: true
+- name: Akun NL 💜 GAME JATIM
+  server: 104.18.21.94
+  port: 80
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vmess-nl1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/662b0b918b55e/
+    headers:
+      Host: vmess-nl1.sshkit.org
+  udp: true
+- name: Akun NL 💜 GAME JATENG B1
+  server: cdn.appsflyer.com
+  port: 80
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vmess-nl1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/662b0b918b55e/
+    headers:
+      Host: vmess-nl1.sshkit.org
+  udp: true
+- name: Akun NL 💜 Game5
+  server: 104.18.20.94
+  port: 80
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vmess-nl1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/662b0b918b55e/
+    headers:
+      Host: vmess-nl1.sshkit.org
+  udp: true
+
+- name: Akun NL BOOSTER GAME B2
+  server: web.poe.garena.com
+  port: 80
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vmess-nl1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/662b0b918b55e/
+    headers:
+      Host: vmess-nl1.sshkit.org
+  udp: true
+
+- name: Akun NL 💙 AKRAB NOICE B1
+  server: 104.17.3.81
+  port: 80
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vmess-nl1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/662b0b918b55e/
+    headers:
+      Host: vmess-nl1.sshkit.org
+  udp: true
+
+- name: Akun NL 💙 AKRAB NOICE B8
+  server: api.midtrans.com
+  port: 80
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vmess-nl1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/662b0b918b55e/
+    headers:
+      Host: vmess-nl1.sshkit.org
+  udp: true
+
+- name: Akun NL 💙 AKRAB B2
+  server: ruangguru.com
+  port: 80
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vmess-nl1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/662b0b918b55e/
+    headers:
+      Host: vmess-nl1.sshkit.org
+  udp: true
+
+- name: Akun NL 💜 EDUKASI B2
+  server: io.ruangguru.com
+  port: 80
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vmess-nl1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/662b0b918b55e/
+    headers:
+      Host: vmess-nl1.sshkit.org
+  udp: true
+
+- name: Akun NL 💜 EDUKASI B4
+  server: chat.sociomile.com
+  port: 80
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vmess-nl1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/662b0b918b55e/
+    headers:
+      Host: vmess-nl1.sshkit.org
+  udp: true
+
+- name: Akun NL 💙 💜 EDUKASI LUAR JAWA
+  server: cdn.appsflyer.com
+  port: 80
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vmess-nl1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/662b0b918b55e/
+    headers:
+      Host: vmess-nl1.sshkit.org
+  udp: true
+
+- name: Akun NL 💙 💜 OPOK B1
+  server: www.ovo.id
+  port: 80
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vmess-nl1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/662b0b918b55e/
+    headers:
+      Host: vmess-nl1.sshkit.org
+  udp: true
+- name: Akun NL 💙 💜 OPOK B6
+  server: 104.22.28.102
+  port: 80
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vmess-nl1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/662b0b918b55e/
+    headers:
+      Host: vmess-nl1.sshkit.org
+  udp: true
+- name: Akun NL 💙 💜 OPOK B7
+  server: 104.17.58.20
+  port: 80
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vmess-nl1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/662b0b918b55e/
+    headers:
+      Host: vmess-nl1.sshkit.org
+  udp: true
+- name: Akun NL 💙 💜 OPOK B9
+  server: staging.games.axis.co.id
+  port: 80
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vmess-nl1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/662b0b918b55e/
+    headers:
+      Host: vmess-nl1.sshkit.org
+  udp: true
+- name: Akun NL 💜 💙 Microsoft1
+  server: info.microsoft.com
+  port: 80
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vmess-nl1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/662b0b918b55e/
+    headers:
+      Host: vmess-nl1.sshkit.org
+  udp: true
+- name: Akun NL 🩷 Opok
+  server: api.ovo.id
+  port: 80
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vmess-nl1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/662b0b918b55e/
+    headers:
+      Host: vmess-nl1.sshkit.org
+  udp: true
+
+- name: Akun NL 🩷 Edukasi
+  server: kelas.ruangguru.com
+  port: 80
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vmess-nl1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/662b0b918b55e/
+    headers:
+      Host: vmess-nl1.sshkit.org
+  udp: true
+
+- name: Akun NL GENFLIX B2
+  server: app.genflix.co.id
+  port: 80
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vmess-nl1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/662b0b918b55e/
+    headers:
+      Host: vmess-nl1.sshkit.org
+  udp: true
+- name: Akun NL GENFLIX B3
+  server: 172.64.153.186
+  port: 80
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vmess-nl1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/662b0b918b55e/
+    headers:
+      Host: vmess-nl1.sshkit.org
+  udp: true
+- name: Akun NL GENFLIX B4
+  server: 104.18.34.70
+  port: 80
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vmess-nl1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/662b0b918b55e/
+    headers:
+      Host: vmess-nl1.sshkit.org
+  udp: true
+
+- name: Akun NL ♥️ ILMUPEDIA TKP Jabar B4
+  server: bimbel.ruangguru.com
+  port: 80
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vmess-nl1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/662b0b918b55e/
+    headers:
+      Host: vmess-nl1.sshkit.org
+  udp: true
+
+- name: Akun NL ♥️ ILMUPEDIA TKP Jabar B5
+  server: dashboard.midtrans.com
+  port: 80
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vmess-nl1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/662b0b918b55e/
+    headers:
+      Host: vmess-nl1.sshkit.org
+  udp: true
+
+- name: Akun NL ♥️ RUANGGURU
+  server: tracker.ruangguru.com
+  port: 80
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vmess-nl1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/662b0b918b55e/
+    headers:
+      Host: vmess-nl1.sshkit.org
+  udp: true
+- name: Akun NL ♥️Ilped1
+  server: io.ruangguru.com
+  port: 80
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vmess-nl1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/662b0b918b55e/
+    headers:
+      Host: vmess-nl1.sshkit.org
+  udp: true
+
+- name: Akun NL 🩵 Edukasi 
+  server: orangtua.ruangguru.com
+  port: 80
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vmess-nl1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/662b0b918b55e/
+    headers:
+      Host: vmess-nl1.sshkit.org
+  udp: true
+
+- name: Akun NL WIFI.ID ⚪
+  server: 104.17.2.81
+  port: 80
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vmess-nl1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/662b0b918b55e/
+    headers:
+      Host: vmess-nl1.sshkit.org
+  udp: true
