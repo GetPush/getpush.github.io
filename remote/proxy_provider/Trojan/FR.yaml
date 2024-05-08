@@ -1,10 +1,9 @@
 proxies:
-# France
-  - name: T-FR 💜 GAME JABAR B1
+  - name: TG-FR 💜 GAME JABAR B1
     server: 104.19.142.89
     port: 443
     type: trojan
-    password: 48974420-fe01-11ee-87a9-1239d0255272
+    password: d37ca540-0d19-11ef-8d0e-1239d0255272
     skip-cert-verify: true
     sni: fr1.test3.net
     network: ws
@@ -13,175 +12,11 @@ proxies:
       headers:
         Host: fr1.test3.net
     udp: true
-  - name: T-FR 💜 GAME JABAR B2
-    server: 104.16.108.96
-    port: 443
-    type: trojan
-    password: 48974420-fe01-11ee-87a9-1239d0255272
-    skip-cert-verify: true
-    sni: fr1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: fr1.test3.net
-    udp: true
-  - name: T-FR 💜 GAME JATIM
-    server: 104.18.21.94
-    port: 443
-    type: trojan
-    password: 48974420-fe01-11ee-87a9-1239d0255272
-    skip-cert-verify: true
-    sni: fr1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: fr1.test3.net
-    udp: true
-  - name: T-FR 💜 GAME JATENG B1
-    server: cdn.appsflyer.com
-    port: 443
-    type: trojan
-    password: 48974420-fe01-11ee-87a9-1239d0255272
-    skip-cert-verify: true
-    sni: fr1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: fr1.test3.net
-    udp: true
-  - name: T-FR 💜 Game5
-    server: 104.18.20.94
-    port: 443
-    type: trojan
-    password: 48974420-fe01-11ee-87a9-1239d0255272
-    skip-cert-verify: true
-    sni: fr1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: fr1.test3.net
-    udp: true
-
-  - name: T-FR BOOSTER GAME B2
-    server: web.poe.garena.com
-    port: 443
-    type: trojan
-    password: 48974420-fe01-11ee-87a9-1239d0255272
-    skip-cert-verify: true
-    sni: fr1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: fr1.test3.net
-    udp: true
-
-  - name: T-FR 💙 AKRAB NOICE B1
-    server: 104.17.3.81
-    port: 443
-    type: trojan
-    password: 48974420-fe01-11ee-87a9-1239d0255272
-    skip-cert-verify: true
-    sni: fr1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: fr1.test3.net
-    udp: true
-
-  - name: T-FR 💙 AKRAB NOICE B8
-    server: api.midtrans.com
-    port: 443
-    type: trojan
-    password: 48974420-fe01-11ee-87a9-1239d0255272
-    skip-cert-verify: true
-    sni: fr1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: fr1.test3.net
-    udp: true
-
-  - name: T-FR 💙 AKRAB B2
-    server: ruangguru.com
-    port: 443
-    type: trojan
-    password: 48974420-fe01-11ee-87a9-1239d0255272
-    skip-cert-verify: true
-    sni: fr1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: fr1.test3.net
-    udp: true
-
-  - name: T-FR 💜 EDUKASI B2
-    server: io.ruangguru.com
-    port: 443
-    type: trojan
-    password: 48974420-fe01-11ee-87a9-1239d0255272
-    skip-cert-verify: true
-    sni: fr1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: fr1.test3.net
-    udp: true
-
-  - name: T-FR 💜 EDUKASI B4
-    server: chat.sociomile.com
-    port: 443
-    type: trojan
-    password: 48974420-fe01-11ee-87a9-1239d0255272
-    skip-cert-verify: true
-    sni: fr1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: fr1.test3.net
-    udp: true
-
-  - name: T-FR 💙 💜 EDUKASI LUAR JAWA
-    server: cdn.appsflyer.com
-    port: 443
-    type: trojan
-    password: 48974420-fe01-11ee-87a9-1239d0255272
-    skip-cert-verify: true
-    sni: fr1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: fr1.test3.net
-    udp: true
-
-  - name: T-FR 💙 💜 OPOK B1
-    server: www.ovo.id
-    port: 443
-    type: trojan
-    password: 48974420-fe01-11ee-87a9-1239d0255272
-    skip-cert-verify: true
-    sni: fr1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: fr1.test3.net
-    udp: true
-  - name: T-FR 💙 💜 OPOK B6
+  - name: TG-FR 💙 💜 OPOK B6
     server: 104.22.28.102
     port: 443
     type: trojan
-    password: 48974420-fe01-11ee-87a9-1239d0255272
+    password: d37ca540-0d19-11ef-8d0e-1239d0255272
     skip-cert-verify: true
     sni: fr1.test3.net
     network: ws
@@ -190,11 +25,11 @@ proxies:
       headers:
         Host: fr1.test3.net
     udp: true
-  - name: T-FR 💙 💜 OPOK B7
+  - name: TG-FR 💙 💜 OPOK B7
     server: 104.17.58.20
     port: 443
     type: trojan
-    password: 48974420-fe01-11ee-87a9-1239d0255272
+    password: d37ca540-0d19-11ef-8d0e-1239d0255272
     skip-cert-verify: true
     sni: fr1.test3.net
     network: ws
@@ -203,78 +38,11 @@ proxies:
       headers:
         Host: fr1.test3.net
     udp: true
-  - name: T-FR 💙 💜 OPOK B9
-    server: staging.games.axis.co.id
-    port: 443
-    type: trojan
-    password: 48974420-fe01-11ee-87a9-1239d0255272
-    skip-cert-verify: true
-    sni: fr1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: fr1.test3.net
-    udp: true
-  - name: T-FR 💜 💙 Microsoft1
-    server: info.microsoft.com
-    port: 443
-    type: trojan
-    password: 48974420-fe01-11ee-87a9-1239d0255272
-    skip-cert-verify: true
-    sni: fr1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: fr1.test3.net
-    udp: true
-  - name: T-FR 🩷 Opok
-    server: api.ovo.id
-    port: 443
-    type: trojan
-    password: 48974420-fe01-11ee-87a9-1239d0255272
-    skip-cert-verify: true
-    sni: fr1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: fr1.test3.net
-    udp: true
-
-  - name: T-FR 🩷 Edukasi
-    server: kelas.ruangguru.com
-    port: 443
-    type: trojan
-    password: 48974420-fe01-11ee-87a9-1239d0255272
-    skip-cert-verify: true
-    sni: fr1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: fr1.test3.net
-    udp: true
-
-  - name: T-FR GENFLIX B2
-    server: app.genflix.co.id
-    port: 443
-    type: trojan
-    password: 48974420-fe01-11ee-87a9-1239d0255272
-    skip-cert-verify: true
-    sni: fr1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: fr1.test3.net
-    udp: true
-  - name: T-FR GENFLIX B3
+  - name: TG-FR GENFLIX B3
     server: 172.64.153.186
     port: 443
     type: trojan
-    password: 48974420-fe01-11ee-87a9-1239d0255272
+    password: d37ca540-0d19-11ef-8d0e-1239d0255272
     skip-cert-verify: true
     sni: fr1.test3.net
     network: ws
@@ -283,94 +51,11 @@ proxies:
       headers:
         Host: fr1.test3.net
     udp: true
-  - name: T-FR GENFLIX B4
+  - name: TG-FR GENFLIX B4
     server: 104.18.34.70
     port: 443
     type: trojan
-    password: 48974420-fe01-11ee-87a9-1239d0255272
-    skip-cert-verify: true
-    sni: fr1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: fr1.test3.net
-    udp: true
-
-  - name: T-FR ♥️ ILMUPEDIA TKP Jabar B4
-    server: bimbel.ruangguru.com
-    port: 443
-    type: trojan
-    password: 48974420-fe01-11ee-87a9-1239d0255272
-    skip-cert-verify: true
-    sni: fr1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: fr1.test3.net
-    udp: true
-
-  - name: T-FR ♥️ ILMUPEDIA TKP Jabar B5
-    server: dashboard.midtrans.com
-    port: 443
-    type: trojan
-    password: 48974420-fe01-11ee-87a9-1239d0255272
-    skip-cert-verify: true
-    sni: fr1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: fr1.test3.net
-    udp: true
-
-  - name: T-FR ♥️ RUANGGURU
-    server: tracker.ruangguru.com
-    port: 443
-    type: trojan
-    password: 48974420-fe01-11ee-87a9-1239d0255272
-    skip-cert-verify: true
-    sni: fr1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: fr1.test3.net
-    udp: true
-  - name: T-FR ♥️Ilped1
-    server: io.ruangguru.com
-    port: 443
-    type: trojan
-    password: 48974420-fe01-11ee-87a9-1239d0255272
-    skip-cert-verify: true
-    sni: fr1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: fr1.test3.net
-    udp: true
-
-  - name: T-FR 🩵 Edukasi 
-    server: orangtua.ruangguru.com
-    port: 443
-    type: trojan
-    password: 48974420-fe01-11ee-87a9-1239d0255272
-    skip-cert-verify: true
-    sni: fr1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: fr1.test3.net
-    udp: true
-
-  - name: T-FR WIFI.ID ⚪
-    server: 104.17.2.81
-    port: 443
-    type: trojan
-    password: 48974420-fe01-11ee-87a9-1239d0255272
+    password: d37ca540-0d19-11ef-8d0e-1239d0255272
     skip-cert-verify: true
     sni: fr1.test3.net
     network: ws
