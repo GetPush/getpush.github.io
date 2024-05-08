@@ -1,10 +1,9 @@
 proxies:
-# SG-HE1
-  - name: T-SG-HE1 💜 GAME JABAR B1
+  - name: TG-SGHE1 💜 GAME JABAR B1
     server: 104.19.142.89
     port: 443
     type: trojan
-    password: 2343bad0-004e-11ef-a3fe-1239d0255272
+    password: 40695840-0d1c-11ef-9a47-1239d0255272
     skip-cert-verify: true
     sni: sg1-trojan.bonds.id
     network: ws
@@ -13,175 +12,11 @@ proxies:
       headers:
         Host: sg1-trojan.bonds.id
     udp: true
-  - name: T-SG-HE1 💜 GAME JABAR B2
-    server: 104.16.108.96
-    port: 443
-    type: trojan
-    password: 2343bad0-004e-11ef-a3fe-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: T-SG-HE1 💜 GAME JATIM
-    server: 104.18.21.94
-    port: 443
-    type: trojan
-    password: 2343bad0-004e-11ef-a3fe-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: T-SG-HE1 💜 GAME JATENG B1
-    server: cdn.appsflyer.com
-    port: 443
-    type: trojan
-    password: 2343bad0-004e-11ef-a3fe-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: T-SG-HE1 💜 Game5
-    server: 104.18.20.94
-    port: 443
-    type: trojan
-    password: 2343bad0-004e-11ef-a3fe-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-
-  - name: T-SG-HE1 BOOSTER GAME B2
-    server: web.poe.garena.com
-    port: 443
-    type: trojan
-    password: 2343bad0-004e-11ef-a3fe-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-
-  - name: T-SG-HE1 💙 AKRAB NOICE B1
-    server: 104.17.3.81
-    port: 443
-    type: trojan
-    password: 2343bad0-004e-11ef-a3fe-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-
-  - name: T-SG-HE1 💙 AKRAB NOICE B8
-    server: api.midtrans.com
-    port: 443
-    type: trojan
-    password: 2343bad0-004e-11ef-a3fe-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-
-  - name: T-SG-HE1 💙 AKRAB B2
-    server: ruangguru.com
-    port: 443
-    type: trojan
-    password: 2343bad0-004e-11ef-a3fe-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-
-  - name: T-SG-HE1 💜 EDUKASI B2
-    server: io.ruangguru.com
-    port: 443
-    type: trojan
-    password: 2343bad0-004e-11ef-a3fe-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-
-  - name: T-SG-HE1 💜 EDUKASI B4
-    server: chat.sociomile.com
-    port: 443
-    type: trojan
-    password: 2343bad0-004e-11ef-a3fe-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-
-  - name: T-SG-HE1 💙 💜 EDUKASI LUAR JAWA
-    server: cdn.appsflyer.com
-    port: 443
-    type: trojan
-    password: 2343bad0-004e-11ef-a3fe-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-
-  - name: T-SG-HE1 💙 💜 OPOK B1
-    server: www.ovo.id
-    port: 443
-    type: trojan
-    password: 2343bad0-004e-11ef-a3fe-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: T-SG-HE1 💙 💜 OPOK B6
+  - name: TG-SGHE1 💙 💜 OPOK B6
     server: 104.22.28.102
     port: 443
     type: trojan
-    password: 2343bad0-004e-11ef-a3fe-1239d0255272
+    password: 40695840-0d1c-11ef-9a47-1239d0255272
     skip-cert-verify: true
     sni: sg1-trojan.bonds.id
     network: ws
@@ -190,11 +25,11 @@ proxies:
       headers:
         Host: sg1-trojan.bonds.id
     udp: true
-  - name: T-SG-HE1 💙 💜 OPOK B7
+  - name: TG-SGHE1 💙 💜 OPOK B7
     server: 104.17.58.20
     port: 443
     type: trojan
-    password: 2343bad0-004e-11ef-a3fe-1239d0255272
+    password: 40695840-0d1c-11ef-9a47-1239d0255272
     skip-cert-verify: true
     sni: sg1-trojan.bonds.id
     network: ws
@@ -203,78 +38,11 @@ proxies:
       headers:
         Host: sg1-trojan.bonds.id
     udp: true
-  - name: T-SG-HE1 💙 💜 OPOK B9
-    server: staging.games.axis.co.id
-    port: 443
-    type: trojan
-    password: 2343bad0-004e-11ef-a3fe-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: T-SG-HE1 💜 💙 Microsoft1
-    server: info.microsoft.com
-    port: 443
-    type: trojan
-    password: 2343bad0-004e-11ef-a3fe-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: T-SG-HE1 🩷 Opok
-    server: api.ovo.id
-    port: 443
-    type: trojan
-    password: 2343bad0-004e-11ef-a3fe-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-
-  - name: T-SG-HE1 🩷 Edukasi
-    server: kelas.ruangguru.com
-    port: 443
-    type: trojan
-    password: 2343bad0-004e-11ef-a3fe-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-
-  - name: T-SG-HE1 GENFLIX B2
-    server: app.genflix.co.id
-    port: 443
-    type: trojan
-    password: 2343bad0-004e-11ef-a3fe-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: T-SG-HE1 GENFLIX B3
+  - name: TG-SGHE1 GENFLIX B3
     server: 172.64.153.186
     port: 443
     type: trojan
-    password: 2343bad0-004e-11ef-a3fe-1239d0255272
+    password: 40695840-0d1c-11ef-9a47-1239d0255272
     skip-cert-verify: true
     sni: sg1-trojan.bonds.id
     network: ws
@@ -283,94 +51,11 @@ proxies:
       headers:
         Host: sg1-trojan.bonds.id
     udp: true
-  - name: T-SG-HE1 GENFLIX B4
+  - name: TG-SGHE1 GENFLIX B4
     server: 104.18.34.70
     port: 443
     type: trojan
-    password: 2343bad0-004e-11ef-a3fe-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-
-  - name: T-SG-HE1 ♥️ ILMUPEDIA TKP Jabar B4
-    server: bimbel.ruangguru.com
-    port: 443
-    type: trojan
-    password: 2343bad0-004e-11ef-a3fe-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-
-  - name: T-SG-HE1 ♥️ ILMUPEDIA TKP Jabar B5
-    server: dashboard.midtrans.com
-    port: 443
-    type: trojan
-    password: 2343bad0-004e-11ef-a3fe-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-
-  - name: T-SG-HE1 ♥️ RUANGGURU
-    server: tracker.ruangguru.com
-    port: 443
-    type: trojan
-    password: 2343bad0-004e-11ef-a3fe-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: T-SG-HE1 ♥️Ilped1
-    server: io.ruangguru.com
-    port: 443
-    type: trojan
-    password: 2343bad0-004e-11ef-a3fe-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-
-  - name: T-SG-HE1 🩵 Edukasi 
-    server: orangtua.ruangguru.com
-    port: 443
-    type: trojan
-    password: 2343bad0-004e-11ef-a3fe-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-
-  - name: T-SG-HE1 WIFI.ID ⚪
-    server: 104.17.2.81
-    port: 443
-    type: trojan
-    password: 2343bad0-004e-11ef-a3fe-1239d0255272
+    password: 40695840-0d1c-11ef-9a47-1239d0255272
     skip-cert-verify: true
     sni: sg1-trojan.bonds.id
     network: ws
