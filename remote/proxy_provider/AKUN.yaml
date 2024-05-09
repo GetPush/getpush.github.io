@@ -1,6 +1,6 @@
 proxies:
 # config port 80
-- name: SG 💜 GAME JABAR B1
+- name: AKUN 💜 GAME JABAR B1
   server: 104.19.142.89
   port: 80
   type: vmess
@@ -17,7 +17,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG 💜 GAME JABAR B2
+- name: AKUN 💜 GAME JABAR B2
   server: 104.16.108.96
   port: 80
   type: vmess
@@ -34,7 +34,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG 💜 GAME JATIM
+- name: AKUN 💜 GAME JATIM
   server: 104.18.21.94
   port: 80
   type: vmess
@@ -52,7 +52,7 @@ proxies:
   udp: true
 
 
-- name: SG 💜 GAME JATENG B1
+- name: AKUN 💜 GAME JATENG B1
   server: cdn.appsflyer.com
   port: 80
   type: vmess
@@ -69,7 +69,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG 💜 GAME JATENG B3
+- name: AKUN 💜 GAME JATENG B3
   server: iheartcoupons.onesignal.com
   port: 80
   type: vmess
@@ -86,7 +86,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG 💜 BOOSTER GAME B2
+- name: AKUN 💜 BOOSTER GAME B2
   server: web.poe.garena.com
   port: 80
   type: vmess
@@ -103,7 +103,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG 💙 FLEX UNLI TURBO B1
+- name: AKUN 💙 FLEX UNLI TURBO B1
   server: 104.22.2.25
   port: 80
   type: vmess
@@ -120,7 +120,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG 💙 FLEX UNLI TURBO B2
+- name: AKUN 💙 FLEX UNLI TURBO B2
   server: 104.16.17.120
   port: 80
   type: vmess
@@ -137,7 +137,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG 💙 AKRAB NOICE B1
+- name: AKUN 💙 AKRAB NOICE B1
   server: 104.17.3.81
   port: 80
   type: vmess
@@ -154,7 +154,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG 💙 AKRAB NOICE B2
+- name: AKUN 💙 AKRAB NOICE B2
   server: 104.17.2.81
   port: 80
   type: vmess
@@ -172,7 +172,7 @@ proxies:
   udp: true
 
 
-- name: SG 💙 AKRAB NOICE B6
+- name: AKUN 💙 AKRAB NOICE B6
   server: 104.18.2.198
   port: 80
   type: vmess
@@ -189,7 +189,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG 💙 AKRAB NOICE B7
+- name: AKUN 💙 AKRAB NOICE B7
   server: 104.18.3.198
   port: 80
   type: vmess
@@ -206,7 +206,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG 💙 AKRAB NOICE B8
+- name: AKUN 💙 AKRAB NOICE B8
   server: api.midtrans.com
   port: 80
   type: vmess
@@ -223,7 +223,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG 💙 AKRAB NOICE JATIM JATENG
+- name: AKUN 💙 AKRAB NOICE JATIM JATENG
   server: 104.18.1.196
   port: 80
   type: vmess
@@ -240,7 +240,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG 💙 AKRAB B1
+- name: AKUN 💙 AKRAB B1
   server: 104.18.11.39
   port: 80
   type: vmess
@@ -257,7 +257,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG 💙 AKRAB B2
+- name: AKUN 💙 AKRAB B2
   server: ruangguru.com
   port: 80
   type: vmess
@@ -274,7 +274,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG 💙 AKRAB B3
+- name: AKUN 💙 AKRAB B3
   server: 104.18.21.226
   port: 80
   type: vmess
@@ -291,7 +291,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG 💙 AKRAB JATIM JATENG B1
+- name: AKUN 💙 AKRAB JATIM JATENG B1
   server: 104.26.4.10
   port: 80
   type: vmess
@@ -308,7 +308,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG 💙 AKRAB JATIM JATENG B2
+- name: AKUN 💙 AKRAB JATIM JATENG B2
   server: cdn.onlymega.com
   port: 80
   type: vmess
@@ -325,7 +325,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG 💙 AKRAB JATIM JATENG
+- name: AKUN 💙 AKRAB JATIM JATENG
   server: api.fastworldpay.com
   port: 80
   type: vmess
@@ -344,7 +344,7 @@ proxies:
 
 
 
-- name: SG 💙 Chat Flex KZL WLG
+- name: AKUN 💙 Chat Flex KZL WLG
   server: sogood.linefriends.com
   port: 80
   type: vmess
@@ -362,7 +362,7 @@ proxies:
   udp: true
 
 
-- name: SG 💙 FLX JTG JTM B1
+- name: AKUN 💙 FLX JTG JTM B1
   server: ava.game.naver.com
   port: 80
   type: vmess
@@ -379,7 +379,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG 💙 FLX JTG JTM B2
+- name: AKUN 💙 FLX JTG JTM B2
   server: account.pmang.game.naver.com
   port: 80
   type: vmess
@@ -396,7 +396,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG 💙 💜 EDUKASI B2
+- name: AKUN 💙 💜 EDUKASI B2
   server: support.udemy.com
   port: 80
   type: vmess
@@ -413,7 +413,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG 💙 💜 EDUKASI B3
+- name: AKUN 💙 💜 EDUKASI B3
   server: cdn.ruangguru.com
   port: 80
   type: vmess
@@ -430,7 +430,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG 💙 💜 EDUKASI JATIM
+- name: AKUN 💙 💜 EDUKASI JATIM
   server: www.skillacademy.com
   port: 80
   type: vmess
@@ -447,7 +447,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG 💙 💜 EDUKASI JABAR
+- name: AKUN 💙 💜 EDUKASI JABAR
   server: 104.16.51.111
   port: 80
   type: vmess
@@ -464,7 +464,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG 💙 💜 EDUKASI LUAR JAWA
+- name: AKUN 💙 💜 EDUKASI LUAR JAWA
   server: cdn.appsflyer.com
   port: 80
   type: vmess
@@ -483,7 +483,7 @@ proxies:
 
 
 
-- name: SG 💜 EDUKASI B1
+- name: AKUN 💜 EDUKASI B1
   server: layanan.ruangguru.com
   port: 80
   type: vmess
@@ -500,7 +500,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG 💜 EDUKASI B2
+- name: AKUN 💜 EDUKASI B2
   server: io.ruangguru.com
   port: 80
   type: vmess
@@ -517,7 +517,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG 💜 EDUKASI B3
+- name: AKUN 💜 EDUKASI B3
   server: 0.udemy.com
   port: 80
   type: vmess
@@ -534,7 +534,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG 💜 EDUKASI B4
+- name: AKUN 💜 EDUKASI B4
   server: chat.sociomile.com
   port: 80
   type: vmess
@@ -551,7 +551,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG 💜 EDUKASI JATENG
+- name: AKUN 💜 EDUKASI JATENG
   server: iainkendari.ac.id
   port: 80
   type: vmess
@@ -570,7 +570,7 @@ proxies:
 
 
 
-- name: SG 💜 💙 Conference B1
+- name: AKUN 💜 💙 Conference B1
   server: 104.26.4.126
   port: 80
   type: vmess
@@ -587,7 +587,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG 💜 💙 Conference B2
+- name: AKUN 💜 💙 Conference B2
   server: 104.18.21.226
   port: 80
   type: vmess
@@ -604,7 +604,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG 💜 💙 Conference B3
+- name: AKUN 💜 💙 Conference B3
   server: cdn-cf.zoom.us
   port: 80
   type: vmess
@@ -621,7 +621,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG 💜 💙 Conference B4
+- name: AKUN 💜 💙 Conference B4
   server: support.zoom.us
   port: 80
   type: vmess
@@ -638,7 +638,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG 💜 GENFLIX
+- name: AKUN 💜 GENFLIX
   server: 104.21.30.242
   port: 80
   type: vmess
@@ -655,7 +655,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG 💙 VISION+ B1
+- name: AKUN 💙 VISION+ B1
   server: cdn.appsflyer.com
   port: 80
   type: vmess
@@ -672,7 +672,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG 💙 VISION+ B2
+- name: AKUN 💙 VISION+ B2
   server: 104.21.235.171
   port: 80
   type: vmess
@@ -689,7 +689,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG 💙 VISION+ B3
+- name: AKUN 💙 VISION+ B3
   server: 104.21.235.172
   port: 80
   type: vmess
@@ -707,7 +707,7 @@ proxies:
   udp: true
 
 
-- name: SG 💙 💜 VIDEO B1
+- name: AKUN 💙 💜 VIDEO B1
   server: quiz.vidio.com
   port: 80
   type: vmess
@@ -724,7 +724,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG 💙 💜 VIDEO B3
+- name: AKUN 💙 💜 VIDEO B3
   server: 104.22.4.240
   port: 80
   type: vmess
@@ -742,7 +742,7 @@ proxies:
   udp: true
 
 
-- name: SG 💙 💜 SUSHIROLL B1
+- name: AKUN 💙 💜 SUSHIROLL B1
   server: blog.sushiroll.co.id
   port: 80
   type: vmess
@@ -759,7 +759,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG 💙 💜 SUSHIROLL B2
+- name: AKUN 💙 💜 SUSHIROLL B2
   server: 104.21.69.223
   port: 80
   type: vmess
@@ -776,7 +776,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG 💙 💜 VIU B3
+- name: AKUN 💙 💜 VIU B3
   server: 104.18.0.139
   port: 80
   type: vmess
@@ -793,7 +793,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG 💙 LIVE ON OPOK B1
+- name: AKUN 💙 LIVE ON OPOK B1
   server: 104.21.8.121
   port: 80
   type: vmess
@@ -810,7 +810,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG 💙 LIVE ON OPOK B2
+- name: AKUN 💙 LIVE ON OPOK B2
   server: 172.67.139.111
   port: 80
   type: vmess
@@ -829,7 +829,7 @@ proxies:
 
 
 
-- name: SG 💙 💜 OPOK B1
+- name: AKUN 💙 💜 OPOK B1
   server: www.ovo.id
   port: 80
   type: vmess
@@ -846,7 +846,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG 💙 💜 OPOK B2
+- name: AKUN 💙 💜 OPOK B2
   server: sit.comet.xl.co.id
   port: 80
   type: vmess
@@ -863,7 +863,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG 💙 💜 OPOK B3
+- name: AKUN 💙 💜 OPOK B3
   server: zeus.xl.co.id
   port: 80
   type: vmess
@@ -880,7 +880,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG 💙 💜 OPOK B4
+- name: AKUN 💙 💜 OPOK B4
   server: support.liveon.id
   port: 80
   type: vmess
@@ -897,7 +897,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG 💙 💜 OPOK B5
+- name: AKUN 💙 💜 OPOK B5
   server: www.xl.co.id
   port: 80
   type: vmess
@@ -914,7 +914,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG 💙 💜 OPOK B6
+- name: AKUN 💙 💜 OPOK B6
   server: 104.22.28.102
   port: 80
   type: vmess
@@ -931,7 +931,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG 💙 💜 OPOK B7
+- name: AKUN 💙 💜 OPOK B7
   server: 104.17.58.20
   port: 80
   type: vmess
@@ -948,7 +948,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG 💙 💜 OPOK B8
+- name: AKUN 💙 💜 OPOK B8
   server: 104.18.12.65
   port: 80
   type: vmess
@@ -965,7 +965,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG 💙 💜 OPOK B9
+- name: AKUN 💙 💜 OPOK B9
   server: staging.games.axis.co.id
   port: 80
   type: vmess
@@ -985,7 +985,7 @@ proxies:
 
 
 ###### ♥️
-- name: SG ♥️ GAMEMAX B1
+- name: AKUN ♥️ GAMEMAX B1
   server: 104.18.41.141
   port: 80
   type: vmess
@@ -1002,7 +1002,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG ♥️ ILMUPEDIA B1
+- name: AKUN ♥️ ILMUPEDIA B1
   server: ganecadigital.com
   port: 80
   type: vmess
@@ -1019,7 +1019,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG ♥️ ILMUPEDIA B2
+- name: AKUN ♥️ ILMUPEDIA B2
   server: 104.21.64.112
   port: 80
   type: vmess
@@ -1036,7 +1036,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG ♥️ ILMUPEDIA B3
+- name: AKUN ♥️ ILMUPEDIA B3
   server: 104.21.21.104
   port: 80
   type: vmess
@@ -1053,7 +1053,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG ♥️ ILMUPEDIA B4
+- name: AKUN ♥️ ILMUPEDIA B4
   server: 104.26.6.172
   port: 80
   type: vmess
@@ -1070,7 +1070,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG ♥️ ILMUPEDIA B5
+- name: AKUN ♥️ ILMUPEDIA B5
   server: 104.18.2.81
   port: 80
   type: vmess
@@ -1087,7 +1087,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG ♥️ ILMUPEDIA B6
+- name: AKUN ♥️ ILMUPEDIA B6
   server: 104.26.5.192
   port: 80
   type: vmess
@@ -1104,7 +1104,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG ♥️ ILMUPEDIA B7
+- name: AKUN ♥️ ILMUPEDIA B7
   server: 104.22.25.131
   port: 80
   type: vmess
@@ -1122,7 +1122,7 @@ proxies:
   udp: true
 
 
-- name: SG ♥️ ILMUPEDIA Jateng Jatim Sulawesi Kalimantan B1
+- name: AKUN ♥️ ILMUPEDIA Jateng Jatim Sulawesi Kalimantan B1
   server: 104.16.65.85
   port: 80
   type: vmess
@@ -1139,7 +1139,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG ♥️ ILMUPEDIA Jateng Jatim Sulawesi Kalimantan B2
+- name: AKUN ♥️ ILMUPEDIA Jateng Jatim Sulawesi Kalimantan B2
   server: 104.18.3.2
   port: 80
   type: vmess
@@ -1156,7 +1156,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG ♥️ ILMUPEDIA Jateng Jatim Sulawesi Kalimantan B3
+- name: AKUN ♥️ ILMUPEDIA Jateng Jatim Sulawesi Kalimantan B3
   server: 104.18.2.81
   port: 80
   type: vmess
@@ -1173,7 +1173,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG ♥️ ILMUPEDIA Jabar Riau Sumatra Banten B1
+- name: AKUN ♥️ ILMUPEDIA Jabar Riau Sumatra Banten B1
   server: 104.26.7.171
   port: 80
   type: vmess
@@ -1190,7 +1190,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG ♥️ ILMUPEDIA Jabar Riau Sumatra Banten B2
+- name: AKUN ♥️ ILMUPEDIA Jabar Riau Sumatra Banten B2
   server: 104.26.6.171
   port: 80
   type: vmess
@@ -1207,7 +1207,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG ♥️ ILMUPEDIA TKP Jabar B1
+- name: AKUN ♥️ ILMUPEDIA TKP Jabar B1
   server: wifi.allpuns.net
   port: 80
   type: vmess
@@ -1224,7 +1224,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG ♥️ ILMUPEDIA TKP Jabar B2
+- name: AKUN ♥️ ILMUPEDIA TKP Jabar B2
   server: portafirmas.universitasxxi.cloud
   port: 80
   type: vmess
@@ -1241,7 +1241,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG ♥️ ILMUPEDIA TKP Jabar B3
+- name: AKUN ♥️ ILMUPEDIA TKP Jabar B3
   server: my.launchcdn.com
   port: 80
   type: vmess
@@ -1258,7 +1258,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG ♥️ ILMUPEDIA TKP Jabar B4
+- name: AKUN ♥️ ILMUPEDIA TKP Jabar B4
   server: bimbel.ruangguru.com
   port: 80
   type: vmess
@@ -1275,7 +1275,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG ♥️ ILMUPEDIA TKP Jabar B5
+- name: AKUN ♥️ ILMUPEDIA TKP Jabar B5
   server: dashboard.midtrans.com
   port: 80
   type: vmess
@@ -1292,7 +1292,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG ♥️ ILMUPEDIA TKP Jabar B6
+- name: AKUN ♥️ ILMUPEDIA TKP Jabar B6
   server: www.udemy.com
   port: 80
   type: vmess
@@ -1309,7 +1309,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG ♥️ ILMUPEDIA TKP Jabar B7
+- name: AKUN ♥️ ILMUPEDIA TKP Jabar B7
   server: www.skillacademy.com
   port: 80
   type: vmess
@@ -1326,7 +1326,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG ♥️ ILMUPEDIA TKP Jabar B8
+- name: AKUN ♥️ ILMUPEDIA TKP Jabar B8
   server: vsb72.tawk.to
   port: 80
   type: vmess
@@ -1344,7 +1344,7 @@ proxies:
   udp: true
 
 
-- name: SG ♥️ 🩵 EDUKASI
+- name: AKUN ♥️ 🩵 EDUKASI
   server: orangtua.ruangguru.com
   port: 80
   type: vmess
@@ -1362,7 +1362,7 @@ proxies:
   udp: true
 
 
-- name: SG ♥️ 🩵 GAME GGWP
+- name: AKUN ♥️ 🩵 GAME GGWP
   server: 104.19.143.108
   port: 80
   type: vmess
@@ -1380,7 +1380,7 @@ proxies:
   udp: true
 
 
-- name: SG ♥️ RUANGGURU
+- name: AKUN ♥️ RUANGGURU
   server: tracker.ruangguru.com
   port: 80
   type: vmess
@@ -1397,7 +1397,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG ♥️ MULTIMEDIA B3
+- name: AKUN ♥️ MULTIMEDIA B3
   server: ir.huya.com
   port: 80
   type: vmess
@@ -1414,7 +1414,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG ♥️ OMG Nonton
+- name: AKUN ♥️ OMG Nonton
   server: investors.spotify.com
   port: 80
   type: vmess
@@ -1431,7 +1431,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG ♥️ VIDEOMAX
+- name: AKUN ♥️ VIDEOMAX
   server: stats.vidiomax.com
   port: 80
   type: vmess
@@ -1450,7 +1450,7 @@ proxies:
 
     
 ###### 💛
-- name: SG 💛 Opok
+- name: AKUN 💛 Opok
   server: 172.67.70.101
   port: 80
   type: vmess
@@ -1467,7 +1467,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG 💛 Opok
+- name: AKUN 💛 Opok
   server: 104.19.142.56
   port: 80
   type: vmess
@@ -1485,7 +1485,7 @@ proxies:
   udp: true
 
 
-- name: SG 💛 EDUKASI B1
+- name: AKUN 💛 EDUKASI B1
   server: 104.17.2.81
   port: 80
   type: vmess
@@ -1506,7 +1506,7 @@ proxies:
     
     
 ###### 🩷
-- name: SG 🩷 Opok
+- name: AKUN 🩷 Opok
   server: api.ovo.id
   port: 80
   type: vmess
@@ -1523,7 +1523,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG 🩷 Edukasi
+- name: AKUN 🩷 Edukasi
   server: kelas.ruangguru.com
   port: 80
   type: vmess
@@ -1549,7 +1549,7 @@ proxies:
 
 
 ###### 🧡
-- name: SG 🧡 Opok
+- name: AKUN 🧡 Opok
   server: 104.21.22.52
   port: 80
   type: vmess
@@ -1570,7 +1570,7 @@ proxies:
     
     
 ###### All SC
-- name: SG 💙 💜 ♥️ MULTIMEDIA MUSIC B1
+- name: AKUN 💙 💜 ♥️ MULTIMEDIA MUSIC B1
   server: investors.spotify.com
   port: 80
   type: vmess
@@ -1586,7 +1586,7 @@ proxies:
     headers:
       Host: rizky.vpnstoree.my.id
   udp: true
-- name: SG GENFLIX B1
+- name: AKUN GENFLIX B1
   server: beta.genflix.co.id
   port: 80
   type: vmess
@@ -1602,7 +1602,7 @@ proxies:
     headers:
       Host: rizky.vpnstoree.my.id
   udp: true
-- name: SG GENFLIX B2
+- name: AKUN GENFLIX B2
   server: app.genflix.co.id
   port: 80
   type: vmess
@@ -1618,7 +1618,7 @@ proxies:
     headers:
       Host: rizky.vpnstoree.my.id
   udp: true
-- name: SG GENFLIX B3
+- name: AKUN GENFLIX B3
   server: 172.64.153.186
   port: 80
   type: vmess
@@ -1634,7 +1634,7 @@ proxies:
     headers:
       Host: rizky.vpnstoree.my.id
   udp: true
-- name: SG GENFLIX B4
+- name: AKUN GENFLIX B4
   server: 104.18.34.70
   port: 80
   type: vmess
@@ -1650,7 +1650,7 @@ proxies:
     headers:
       Host: rizky.vpnstoree.my.id
   udp: true
-- name: SG Vidio
+- name: AKUN Vidio
   server: quiz.int.vidio.com
   port: 80
   type: vmess
@@ -1666,7 +1666,7 @@ proxies:
     headers:
       Host: rizky.vpnstoree.my.id
   udp: true
-- name: SG Sushiroll
+- name: AKUN Sushiroll
   server: www.sushiroll.co.id
   port: 80
   type: vmess
@@ -1682,7 +1682,7 @@ proxies:
     headers:
       Host: rizky.vpnstoree.my.id
   udp: true
-- name: SG WIFI.ID ⚪
+- name: AKUN WIFI.ID ⚪
   server: 104.17.2.81
   port: 80
   type: vmess
@@ -1698,7 +1698,7 @@ proxies:
     headers:
       Host: rizky.vpnstoree.my.id
   udp: true
-- name: SG 💜 💙 Whatsapp2
+- name: AKUN 💜 💙 Whatsapp2
   server: support-whatsapp.zendesk.com
   port: 80
   type: vmess
@@ -1714,7 +1714,7 @@ proxies:
     headers:
       Host: rizky.vpnstoree.my.id
   udp: true
-- name: SG 💜 💙 OPERA4
+- name: AKUN 💜 💙 OPERA4
   server: img.email.cashback.opera.com
   port: 80
   type: vmess
@@ -1730,7 +1730,7 @@ proxies:
     headers:
       Host: rizky.vpnstoree.my.id
   udp: true
-- name: SG 💜 Game3
+- name: AKUN 💜 Game3
   server: 104.16.85.20
   port: 80
   type: vmess
@@ -1746,7 +1746,7 @@ proxies:
     headers:
       Host: rizky.vpnstoree.my.id
   udp: true
-- name: SG 💜 Game5
+- name: AKUN 💜 Game5
   server: 104.18.20.94
   port: 80
   type: vmess
@@ -1762,7 +1762,7 @@ proxies:
     headers:
       Host: rizky.vpnstoree.my.id
   udp: true
-- name: SG 💜 💙 axiataedukasi2
+- name: AKUN 💜 💙 axiataedukasi2
   server: 104.16.226.91
   port: 80
   type: vmess
@@ -1778,7 +1778,7 @@ proxies:
     headers:
       Host: rizky.vpnstoree.my.id
   udp: true
-- name: SG 💜 💙 axiataconference
+- name: AKUN 💜 💙 axiataconference
   server: gomarketplacecontent-cf.zoom.us
   port: 80
   type: vmess
@@ -1795,7 +1795,7 @@ proxies:
       Host: rizky.vpnstoree.my.id
   udp: true
 
-- name: SG ♥️ 🩵 GGWP
+- name: AKUN ♥️ 🩵 GGWP
   server: 104.19.143.108
   port: 80
   type: vmess
@@ -1813,7 +1813,7 @@ proxies:
   udp: true
 
 #config port 443
-- name: SG 💜 💙 spotify1
+- name: AKUN 💜 💙 spotify1
   server: investors.spotify.com
   port: 443
   type: vmess
@@ -1829,7 +1829,7 @@ proxies:
     headers:
       Host: rizky.vpnstoree.my.id
   udp: true
-- name: SG 💜 💙 Spotify2
+- name: AKUN 💜 💙 Spotify2
   server: investors.spotify.com
   port: 443
   type: vmess
@@ -1845,7 +1845,7 @@ proxies:
     headers:
       Host: rizky.vpnstoree.my.id
   udp: true
-- name: SG 💜 💙 Gojek1
+- name: AKUN 💜 💙 Gojek1
   server: 162.159.128.7
   port: 443
   type: vmess
@@ -1861,7 +1861,7 @@ proxies:
     headers:
       Host: rizky.vpnstoree.my.id
   udp: true
-- name: SG 💙 LIVEON
+- name: AKUN 💙 LIVEON
   server: beacon.liveon.id
   port: 443
   type: vmess
@@ -1877,7 +1877,7 @@ proxies:
     headers:
       Host: rizky.vpnstoree.my.id
   udp: true
-- name: SG 💜 💙 Microsoft1
+- name: AKUN 💜 💙 Microsoft1
   server: info.microsoft.com
   port: 443
   type: vmess
@@ -1893,7 +1893,7 @@ proxies:
     headers:
       Host: rizky.vpnstoree.my.id
   udp: true
-- name: SG 💜 💙 Whatsapp1 
+- name: AKUN 💜 💙 Whatsapp1 
   server: support-whatsapp.zendesk.com
   port: 443
   type: vmess
@@ -1909,7 +1909,7 @@ proxies:
     headers:
       Host: rizky.vpnstoree.my.id
   udp: true
-- name: SG 💜 💙 OPERA2
+- name: AKUN 💜 💙 OPERA2
   server: res-odx.op-mobile.opera.com
   port: 443
   type: vmess
@@ -1941,7 +1941,7 @@ proxies:
     headers:
       Host: rizky.vpnstoree.my.id
   udp: true
-- name: SG 💙 Turbo1
+- name: AKUN 💙 Turbo1
   server: 162.159.138.6
   port: 443
   type: vmess
@@ -1957,7 +1957,7 @@ proxies:
     headers:
       Host: rizky.vpnstoree.my.id
   udp: true
-- name: SG 💙 Turbo2
+- name: AKUN 💙 Turbo2
   server: 162.159.128.7
   port: 443
   type: vmess
@@ -1973,7 +1973,7 @@ proxies:
     headers:
       Host: rizky.vpnstoree.my.id
   udp: true
-- name: SG 💙 Turbo3
+- name: AKUN 💙 Turbo3
   server: 104.16.51.111
   port: 443
   type: vmess
@@ -1989,7 +1989,7 @@ proxies:
     headers:
       Host: rizky.vpnstoree.my.id
   udp: true
-- name: SG 💙 Akrab2
+- name: AKUN 💙 Akrab2
   server: 172.64.149.82
   port: 443
   type: vmess
@@ -2005,7 +2005,7 @@ proxies:
     headers:
       Host: rizky.vpnstoree.my.id
   udp: true
-- name: SG 💜 Sushiroll
+- name: AKUN 💜 Sushiroll
   server: www.sushiroll.co.id
   port: 443
   type: vmess
@@ -2021,7 +2021,7 @@ proxies:
     headers:
       Host: rizky.vpnstoree.my.id
   udp: true
-- name: SG 💜 Netflix
+- name: AKUN 💜 Netflix
   server: creativeservices.netflix.com
   port: 443
   type: vmess
@@ -2037,7 +2037,7 @@ proxies:
     headers:
       Host: rizky.vpnstoree.my.id
   udp: true
-- name: SG 💜 Tiktok
+- name: AKUN 💜 Tiktok
   server: tiktok1.zendesk.com
   port: 443
   type: vmess
@@ -2053,7 +2053,7 @@ proxies:
     headers:
       Host: rizky.vpnstoree.my.id
   udp: true
-- name: SG 💛 edukasi
+- name: AKUN 💛 edukasi
   server: www.udemy.com
   port: 443
   type: vmess
@@ -2069,7 +2069,7 @@ proxies:
     headers:
       Host: rizky.vpnstoree.my.id
   udp: true
-- name: SG ♥️Ilped1
+- name: AKUN ♥️Ilped1
   server: io.ruangguru.com
   port: 443
   type: vmess
@@ -2085,7 +2085,7 @@ proxies:
     headers:
       Host: rizky.vpnstoree.my.id
   udp: true
-- name: SG ♥️Ilped2
+- name: AKUN ♥️Ilped2
   server: 104.26.7.171
   port: 443
   type: vmess
@@ -2101,7 +2101,7 @@ proxies:
     headers:
       Host: rizky.vpnstoree.my.id
   udp: true
-- name: SG ♥️Gamemax2
+- name: AKUN ♥️Gamemax2
   server: 104.18.41.141
   port: 443
   type: vmess
@@ -2117,7 +2117,7 @@ proxies:
     headers:
       Host: rizky.vpnstoree.my.id
   udp: true
-- name: SG 🩵 Opok
+- name: AKUN 🩵 Opok
   server: space.byu.id
   port: 443
   type: vmess
@@ -2133,7 +2133,7 @@ proxies:
     headers:
       Host: rizky.vpnstoree.my.id
   udp: true
-- name: SG 🩵 Edukasi 
+- name: AKUN 🩵 Edukasi 
   server: orangtua.ruangguru.com
   port: 443
   type: vmess
@@ -2149,7 +2149,7 @@ proxies:
     headers:
       Host: rizky.vpnstoree.my.id
   udp: true
-- name: SG 🩵 Game
+- name: AKUN 🩵 Game
   server: 104.19.143.108
   port: 443
   type: vmess
@@ -2165,7 +2165,7 @@ proxies:
     headers:
       Host: rizky.vpnstoree.my.id
   udp: true
-- name: SG 💜 Youtube
+- name: AKUN 💜 Youtube
   server: youtube.zendesk.com
   port: 443
   type: vmess
@@ -2181,7 +2181,7 @@ proxies:
     headers:
       Host: rizky.vpnstoree.my.id
   udp: true
-- name: SG 💙 Vision2
+- name: AKUN 💙 Vision2
   server: cdnodeb.visionplus.id
   port: 443
   type: vmess
@@ -2199,7 +2199,7 @@ proxies:
   udp: true
 
 ##ssl
-- name: SG 💜 💙 Gojek2
+- name: AKUN 💜 💙 Gojek2
   server: rizky.vpnstoree.my.id
   port: 443
   type: vmess
@@ -2215,7 +2215,7 @@ proxies:
     headers:
       Host: food-merchant-help.grab.com
   udp: true
-- name: SG 💜 💙 Whatsapp3
+- name: AKUN 💜 💙 Whatsapp3
   server: rizky.vpnstoree.my.id
   port: 443
   type: vmess
@@ -2231,7 +2231,7 @@ proxies:
     headers:
       Host: support-whatsapp.zendesk.com
   udp: true
-- name: SG 💜 💙 Microsoft2
+- name: AKUN 💜 💙 Microsoft2
   server: rizky.vpnstoree.my.id
   port: 443
   type: vmess
@@ -2247,7 +2247,7 @@ proxies:
     headers:
       Host: info.microsoft.com
   udp: true
-- name: SG 💜 💙 IDOPERA1ssl
+- name: AKUN 💜 💙 IDOPERA1ssl
   server: rizky.vpnstoree.my.id
   port: 443
   type: vmess
@@ -2263,7 +2263,7 @@ proxies:
     headers:
       Host: odsp-test.op-mobile.opera.com
   udp: true
-- name: SG 💜 💙 OPERA3ssl
+- name: AKUN 💜 💙 OPERA3ssl
   server: rizky.vpnstoree.my.id
   port: 443
   type: vmess
@@ -2279,7 +2279,7 @@ proxies:
     headers:
       Host: img.email.cashback.opera.com
   udp: true
-- name: SG ♥️Multimedia
+- name: AKUN ♥️Multimedia
   server: rizky.vpnstoree.my.id
   port: 443
   type: vmess
@@ -2295,7 +2295,7 @@ proxies:
     headers:
       Host: v27.tiktokcdn.com
   udp: true
-- name: SG 💜 game6
+- name: AKUN 💜 game6
   server: rizky.vpnstoree.my.id
   port: 443
   type: vmess
@@ -2311,7 +2311,7 @@ proxies:
     headers:
       Host: zendesk1.garena.com
   udp: true
-- name: SG 💜 💙 edukasi1
+- name: AKUN 💜 💙 edukasi1
   server: rizky.vpnstoree.my.id
   port: 443
   type: vmess
@@ -2327,7 +2327,7 @@ proxies:
     headers:
       Host: support.zoom.us
   udp: true
-- name: SG 💜 Game1
+- name: AKUN 💜 Game1
   server: rizky.vpnstoree.my.id
   port: 443
   type: vmess
@@ -2343,7 +2343,7 @@ proxies:
     headers:
       Host: web.poe.garena.com
   udp: true
-- name: SG ♥️Gamemax1
+- name: AKUN ♥️Gamemax1
   server: rizky.vpnstoree.my.id
   port: 443
   type: vmess
@@ -2359,7 +2359,7 @@ proxies:
     headers:
       Host: m.nimo.tv
   udp: true
-- name: SG 💙 FlexWLG2
+- name: AKUN 💙 FlexWLG2
   server: rizky.vpnstoree.my.id
   port: 443
   type: vmess
@@ -2375,7 +2375,7 @@ proxies:
     headers:
       Host: sogood.linefriends.com
   udp: true
-- name: SG 💙 Vision1
+- name: AKUN 💙 Vision1
   server: rizky.vpnstoree.my.id
   port: 443
   type: vmess
@@ -2411,7 +2411,7 @@ proxies:
       Host: support.zoom.us
        
 
-- name: SG ♥️opok500
+- name: AKUN ♥️opok500
   server: 104.16.85.20
   port: 80
   type: vmess
@@ -2427,7 +2427,7 @@ proxies:
     headers:
       Host: rizky.vpnstoree.my.id
   udp: true
-- name: SG ♥️opok500
+- name: AKUN ♥️opok500
   server: 104.16.85.20
   port: 80
   type: vmess
@@ -2443,7 +2443,7 @@ proxies:
     headers:
       Host: rizky.vpnstoree.my.id
   udp: true
-- name: SG ♥️opokunli (cfma)
+- name: AKUN ♥️opokunli (cfma)
   server: rizky.vpnstoree.my.id
   port: 80
   type: vmess
