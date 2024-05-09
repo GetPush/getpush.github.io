@@ -1,66 +1,79 @@
 proxies:
-  - name: TG-SGHE3 💜 GAME JABAR B1
-    server: 104.19.142.89
-    port: 443
-    type: trojan
-    password: 455c4aa0-0d1a-11ef-afb4-1239d0255272
-    skip-cert-verify: true
-    sni: sg3-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg3-trojan.bonds.id
-    udp: true
-  - name: TG-SGHE3 💙 💜 OPOK B6
-    server: 104.22.28.102
-    port: 443
-    type: trojan
-    password: 455c4aa0-0d1a-11ef-afb4-1239d0255272
-    skip-cert-verify: true
-    sni: sg3-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg3-trojan.bonds.id
-    udp: true
-  - name: TG-SGHE3 💙 💜 OPOK B7
-    server: 104.17.58.20
-    port: 443
-    type: trojan
-    password: 455c4aa0-0d1a-11ef-afb4-1239d0255272
-    skip-cert-verify: true
-    sni: sg3-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg3-trojan.bonds.id
-    udp: true
-  - name: TG-SGHE3 GENFLIX B3
-    server: 172.64.153.186
-    port: 443
-    type: trojan
-    password: 455c4aa0-0d1a-11ef-afb4-1239d0255272
-    skip-cert-verify: true
-    sni: sg3-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg3-trojan.bonds.id
-    udp: true
-  - name: TG-SGHE3 GENFLIX B4
-    server: 104.18.34.70
-    port: 443
-    type: trojan
-    password: 455c4aa0-0d1a-11ef-afb4-1239d0255272
-    skip-cert-verify: true
-    sni: sg3-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg3-trojan.bonds.id
-    udp: true
+- name: TG-SGHE3 💜 GAME JABAR B1
+  server: 104.19.142.89
+  port: 443
+  type: trojan
+  password: 455c4aa0-0d1a-11ef-afb4-1239d0255272
+  skip-cert-verify: true
+  sni: sg3-trojan.bonds.id
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sg3-trojan.bonds.id
+  udp: true
+- name: TG-SGHE3 💜 GAME JATIM
+  server: 104.18.21.94
+  port: 443
+  type: trojan
+  password: 455c4aa0-0d1a-11ef-afb4-1239d0255272
+  skip-cert-verify: true
+  sni: sg3-trojan.bonds.id
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sg3-trojan.bonds.id
+  udp: true
+- name: TG-SGHE3 💙 💜 OPOK B6
+  server: 104.22.28.102
+  port: 443
+  type: trojan
+  password: 455c4aa0-0d1a-11ef-afb4-1239d0255272
+  skip-cert-verify: true
+  sni: sg3-trojan.bonds.id
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sg3-trojan.bonds.id
+  udp: true
+- name: TG-SGHE3 💙 💜 OPOK B7
+  server: 104.17.58.20
+  port: 443
+  type: trojan
+  password: 455c4aa0-0d1a-11ef-afb4-1239d0255272
+  skip-cert-verify: true
+  sni: sg3-trojan.bonds.id
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sg3-trojan.bonds.id
+  udp: true
+- name: TG-SGHE3 GENFLIX B3
+  server: 172.64.153.186
+  port: 443
+  type: trojan
+  password: 455c4aa0-0d1a-11ef-afb4-1239d0255272
+  skip-cert-verify: true
+  sni: sg3-trojan.bonds.id
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sg3-trojan.bonds.id
+  udp: true
+- name: TG-SGHE3 GENFLIX B4
+  server: 104.18.34.70
+  port: 443
+  type: trojan
+  password: 455c4aa0-0d1a-11ef-afb4-1239d0255272
+  skip-cert-verify: true
+  sni: sg3-trojan.bonds.id
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sg3-trojan.bonds.id
+  udp: true

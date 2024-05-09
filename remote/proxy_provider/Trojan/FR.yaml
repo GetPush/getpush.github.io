@@ -1,66 +1,79 @@
 proxies:
-  - name: TG-FR 💜 GAME JABAR B1
-    server: 104.19.142.89
-    port: 443
-    type: trojan
-    password: d37ca540-0d19-11ef-8d0e-1239d0255272
-    skip-cert-verify: true
-    sni: fr1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: fr1.test3.net
-    udp: true
-  - name: TG-FR 💙 💜 OPOK B6
-    server: 104.22.28.102
-    port: 443
-    type: trojan
-    password: d37ca540-0d19-11ef-8d0e-1239d0255272
-    skip-cert-verify: true
-    sni: fr1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: fr1.test3.net
-    udp: true
-  - name: TG-FR 💙 💜 OPOK B7
-    server: 104.17.58.20
-    port: 443
-    type: trojan
-    password: d37ca540-0d19-11ef-8d0e-1239d0255272
-    skip-cert-verify: true
-    sni: fr1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: fr1.test3.net
-    udp: true
-  - name: TG-FR GENFLIX B3
-    server: 172.64.153.186
-    port: 443
-    type: trojan
-    password: d37ca540-0d19-11ef-8d0e-1239d0255272
-    skip-cert-verify: true
-    sni: fr1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: fr1.test3.net
-    udp: true
-  - name: TG-FR GENFLIX B4
-    server: 104.18.34.70
-    port: 443
-    type: trojan
-    password: d37ca540-0d19-11ef-8d0e-1239d0255272
-    skip-cert-verify: true
-    sni: fr1.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: fr1.test3.net
-    udp: true
+- name: TG-FR 💜 GAME JABAR B1
+  server: 104.19.142.89
+  port: 443
+  type: trojan
+  password: d37ca540-0d19-11ef-8d0e-1239d0255272
+  skip-cert-verify: true
+  sni: fr1.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: fr1.test3.net
+  udp: true
+- name: TG-FR 💜 GAME JATIM
+  server: 104.18.21.94
+  port: 443
+  type: trojan
+  password: d37ca540-0d19-11ef-8d0e-1239d0255272
+  skip-cert-verify: true
+  sni: fr1.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: fr1.test3.net
+  udp: true
+- name: TG-FR 💙 💜 OPOK B6
+  server: 104.22.28.102
+  port: 443
+  type: trojan
+  password: d37ca540-0d19-11ef-8d0e-1239d0255272
+  skip-cert-verify: true
+  sni: fr1.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: fr1.test3.net
+  udp: true
+- name: TG-FR 💙 💜 OPOK B7
+  server: 104.17.58.20
+  port: 443
+  type: trojan
+  password: d37ca540-0d19-11ef-8d0e-1239d0255272
+  skip-cert-verify: true
+  sni: fr1.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: fr1.test3.net
+  udp: true
+- name: TG-FR GENFLIX B3
+  server: 172.64.153.186
+  port: 443
+  type: trojan
+  password: d37ca540-0d19-11ef-8d0e-1239d0255272
+  skip-cert-verify: true
+  sni: fr1.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: fr1.test3.net
+  udp: true
+- name: TG-FR GENFLIX B4
+  server: 104.18.34.70
+  port: 443
+  type: trojan
+  password: d37ca540-0d19-11ef-8d0e-1239d0255272
+  skip-cert-verify: true
+  sni: fr1.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: fr1.test3.net
+  udp: true

@@ -1,66 +1,79 @@
 proxies:
-  - name: T-SG-MELBI 💜 GAME JABAR B1
-    server: 104.19.142.89
-    port: 443
-    type: trojan
-    password: a1ca8fe0-0b4e-11ef-ba9e-1239d0255272
-    skip-cert-verify: true
-    sni: sg-4.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg-4.test3.net
-    udp: true
-  - name: T-SG-MELBI 💙 💜 OPOK B6
-    server: 104.22.28.102
-    port: 443
-    type: trojan
-    password: a1ca8fe0-0b4e-11ef-ba9e-1239d0255272
-    skip-cert-verify: true
-    sni: sg-4.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg-4.test3.net
-    udp: true
-  - name: T-SG-MELBI 💙 💜 OPOK B7
-    server: 104.17.58.20
-    port: 443
-    type: trojan
-    password: a1ca8fe0-0b4e-11ef-ba9e-1239d0255272
-    skip-cert-verify: true
-    sni: sg-4.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg-4.test3.net
-    udp: true
-  - name: T-SG-MELBI GENFLIX B3
-    server: 172.64.153.186
-    port: 443
-    type: trojan
-    password: a1ca8fe0-0b4e-11ef-ba9e-1239d0255272
-    skip-cert-verify: true
-    sni: sg-4.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg-4.test3.net
-    udp: true
-  - name: T-SG-MELBI GENFLIX B4
-    server: 104.18.34.70
-    port: 443
-    type: trojan
-    password: a1ca8fe0-0b4e-11ef-ba9e-1239d0255272
-    skip-cert-verify: true
-    sni: sg-4.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg-4.test3.net
-    udp: true
+- name: SG-MELBI 💜 GAME JABAR B1
+  server: 104.19.142.89
+  port: 443
+  type: trojan
+  password: a1ca8fe0-0b4e-11ef-ba9e-1239d0255272
+  skip-cert-verify: true
+  sni: sg-4.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sg-4.test3.net
+  udp: true
+- name: SG-MELBI 💜 GAME JATIM
+  server: 104.18.21.94
+  port: 443
+  type: trojan
+  password: a1ca8fe0-0b4e-11ef-ba9e-1239d0255272
+  skip-cert-verify: true
+  sni: sg-4.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sg-4.test3.net
+  udp: true
+- name: SG-MELBI 💙 💜 OPOK B6
+  server: 104.22.28.102
+  port: 443
+  type: trojan
+  password: a1ca8fe0-0b4e-11ef-ba9e-1239d0255272
+  skip-cert-verify: true
+  sni: sg-4.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sg-4.test3.net
+  udp: true
+- name: SG-MELBI 💙 💜 OPOK B7
+  server: 104.17.58.20
+  port: 443
+  type: trojan
+  password: a1ca8fe0-0b4e-11ef-ba9e-1239d0255272
+  skip-cert-verify: true
+  sni: sg-4.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sg-4.test3.net
+  udp: true
+- name: SG-MELBI GENFLIX B3
+  server: 172.64.153.186
+  port: 443
+  type: trojan
+  password: a1ca8fe0-0b4e-11ef-ba9e-1239d0255272
+  skip-cert-verify: true
+  sni: sg-4.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sg-4.test3.net
+  udp: true
+- name: SG-MELBI GENFLIX B4
+  server: 104.18.34.70
+  port: 443
+  type: trojan
+  password: a1ca8fe0-0b4e-11ef-ba9e-1239d0255272
+  skip-cert-verify: true
+  sni: sg-4.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sg-4.test3.net
+  udp: true
