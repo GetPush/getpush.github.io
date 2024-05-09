@@ -4,51 +4,51 @@ proxies:
   server: 104.19.142.89
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG 💜 GAME JABAR B2
   server: 104.16.108.96
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG 💜 GAME JATIM
   server: 104.18.21.94
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 
@@ -56,119 +56,119 @@ proxies:
   server: cdn.appsflyer.com
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG 💜 GAME JATENG B3
   server: iheartcoupons.onesignal.com
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG 💜 BOOSTER GAME B2
   server: web.poe.garena.com
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG 💙 FLEX UNLI TURBO B1
   server: 104.22.2.25
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG 💙 FLEX UNLI TURBO B2
   server: 104.16.17.120
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG 💙 AKRAB NOICE B1
   server: 104.17.3.81
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG 💙 AKRAB NOICE B2
   server: 104.17.2.81
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 
@@ -176,170 +176,170 @@ proxies:
   server: 104.18.2.198
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG 💙 AKRAB NOICE B7
   server: 104.18.3.198
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG 💙 AKRAB NOICE B8
   server: api.midtrans.com
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG 💙 AKRAB NOICE JATIM JATENG
   server: 104.18.1.196
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG 💙 AKRAB B1
   server: 104.18.11.39
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG 💙 AKRAB B2
   server: ruangguru.com
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG 💙 AKRAB B3
   server: 104.18.21.226
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG 💙 AKRAB JATIM JATENG B1
   server: 104.26.4.10
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG 💙 AKRAB JATIM JATENG B2
   server: cdn.onlymega.com
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG 💙 AKRAB JATIM JATENG
   server: api.fastworldpay.com
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 
@@ -348,17 +348,17 @@ proxies:
   server: sogood.linefriends.com
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 
@@ -366,119 +366,119 @@ proxies:
   server: ava.game.naver.com
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG 💙 FLX JTG JTM B2
   server: account.pmang.game.naver.com
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG 💙 💜 EDUKASI B2
   server: support.udemy.com
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG 💙 💜 EDUKASI B3
   server: cdn.ruangguru.com
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG 💙 💜 EDUKASI JATIM
   server: www.skillacademy.com
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG 💙 💜 EDUKASI JABAR
   server: 104.16.51.111
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG 💙 💜 EDUKASI LUAR JAWA
   server: cdn.appsflyer.com
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 
@@ -487,85 +487,85 @@ proxies:
   server: layanan.ruangguru.com
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG 💜 EDUKASI B2
   server: io.ruangguru.com
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG 💜 EDUKASI B3
   server: 0.udemy.com
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG 💜 EDUKASI B4
   server: chat.sociomile.com
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG 💜 EDUKASI JATENG
   server: iainkendari.ac.id
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 
@@ -574,136 +574,136 @@ proxies:
   server: 104.26.4.126
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG 💜 💙 Conference B2
   server: 104.18.21.226
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG 💜 💙 Conference B3
   server: cdn-cf.zoom.us
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG 💜 💙 Conference B4
   server: support.zoom.us
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG 💜 GENFLIX
   server: 104.21.30.242
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG 💙 VISION+ B1
   server: cdn.appsflyer.com
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG 💙 VISION+ B2
   server: 104.21.235.171
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG 💙 VISION+ B3
   server: 104.21.235.172
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 
@@ -711,34 +711,34 @@ proxies:
   server: quiz.vidio.com
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG 💙 💜 VIDEO B3
   server: 104.22.4.240
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 
@@ -746,85 +746,85 @@ proxies:
   server: blog.sushiroll.co.id
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG 💙 💜 SUSHIROLL B2
   server: 104.21.69.223
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG 💙 💜 VIU B3
   server: 104.18.0.139
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG 💙 LIVE ON OPOK B1
   server: 104.21.8.121
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG 💙 LIVE ON OPOK B2
   server: 172.67.139.111
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 
@@ -833,153 +833,153 @@ proxies:
   server: www.ovo.id
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG 💙 💜 OPOK B2
   server: sit.comet.xl.co.id
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG 💙 💜 OPOK B3
   server: zeus.xl.co.id
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG 💙 💜 OPOK B4
   server: support.liveon.id
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG 💙 💜 OPOK B5
   server: www.xl.co.id
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG 💙 💜 OPOK B6
   server: 104.22.28.102
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG 💙 💜 OPOK B7
   server: 104.17.58.20
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG 💙 💜 OPOK B8
   server: 104.18.12.65
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG 💙 💜 OPOK B9
   server: staging.games.axis.co.id
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 
@@ -989,136 +989,136 @@ proxies:
   server: 104.18.41.141
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG ♥️ ILMUPEDIA B1
   server: ganecadigital.com
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG ♥️ ILMUPEDIA B2
   server: 104.21.64.112
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG ♥️ ILMUPEDIA B3
   server: 104.21.21.104
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG ♥️ ILMUPEDIA B4
   server: 104.26.6.172
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG ♥️ ILMUPEDIA B5
   server: 104.18.2.81
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG ♥️ ILMUPEDIA B6
   server: 104.26.5.192
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG ♥️ ILMUPEDIA B7
   server: 104.22.25.131
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 
@@ -1126,221 +1126,221 @@ proxies:
   server: 104.16.65.85
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG ♥️ ILMUPEDIA Jateng Jatim Sulawesi Kalimantan B2
   server: 104.18.3.2
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG ♥️ ILMUPEDIA Jateng Jatim Sulawesi Kalimantan B3
   server: 104.18.2.81
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG ♥️ ILMUPEDIA Jabar Riau Sumatra Banten B1
   server: 104.26.7.171
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG ♥️ ILMUPEDIA Jabar Riau Sumatra Banten B2
   server: 104.26.6.171
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG ♥️ ILMUPEDIA TKP Jabar B1
   server: wifi.allpuns.net
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG ♥️ ILMUPEDIA TKP Jabar B2
   server: portafirmas.universitasxxi.cloud
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG ♥️ ILMUPEDIA TKP Jabar B3
   server: my.launchcdn.com
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG ♥️ ILMUPEDIA TKP Jabar B4
   server: bimbel.ruangguru.com
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG ♥️ ILMUPEDIA TKP Jabar B5
   server: dashboard.midtrans.com
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG ♥️ ILMUPEDIA TKP Jabar B6
   server: www.udemy.com
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG ♥️ ILMUPEDIA TKP Jabar B7
   server: www.skillacademy.com
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG ♥️ ILMUPEDIA TKP Jabar B8
   server: vsb72.tawk.to
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 
@@ -1348,17 +1348,17 @@ proxies:
   server: orangtua.ruangguru.com
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 
@@ -1366,17 +1366,17 @@ proxies:
   server: 104.19.143.108
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 
@@ -1384,68 +1384,68 @@ proxies:
   server: tracker.ruangguru.com
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG ♥️ MULTIMEDIA B3
   server: ir.huya.com
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG ♥️ OMG Nonton
   server: investors.spotify.com
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG ♥️ VIDEOMAX
   server: stats.vidiomax.com
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
     
@@ -1454,34 +1454,34 @@ proxies:
   server: 172.67.70.101
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG 💛 Opok
   server: 104.19.142.56
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 
@@ -1489,17 +1489,17 @@ proxies:
   server: 104.17.2.81
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
     
@@ -1510,34 +1510,34 @@ proxies:
   server: api.ovo.id
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG 🩷 Edukasi
   server: kelas.ruangguru.com
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 
@@ -1553,17 +1553,17 @@ proxies:
   server: 104.21.22.52
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
     
     
@@ -1574,232 +1574,232 @@ proxies:
   server: investors.spotify.com
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 - name: SG GENFLIX B1
   server: beta.genflix.co.id
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 - name: SG GENFLIX B2
   server: app.genflix.co.id
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 - name: SG GENFLIX B3
   server: 172.64.153.186
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 - name: SG GENFLIX B4
   server: 104.18.34.70
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 - name: SG Vidio
   server: quiz.int.vidio.com
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 - name: SG Sushiroll
   server: www.sushiroll.co.id
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 - name: SG WIFI.ID ⚪
   server: 104.17.2.81
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 - name: SG 💜 💙 Whatsapp2
   server: support-whatsapp.zendesk.com
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 - name: SG 💜 💙 OPERA4
   server: img.email.cashback.opera.com
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 - name: SG 💜 Game3
   server: 104.16.85.20
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 - name: SG 💜 Game5
   server: 104.18.20.94
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 - name: SG 💜 💙 axiataedukasi2
   server: 104.16.226.91
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 - name: SG 💜 💙 axiataconference
   server: gomarketplacecontent-cf.zoom.us
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 - name: SG ♥️ 🩵 GGWP
   server: 104.19.143.108
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
@@ -1807,7 +1807,7 @@ proxies:
   servername: v27.tiktokcdn.com
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
       Host: v27.tiktokcdn.com
   udp: true
@@ -1817,393 +1817,393 @@ proxies:
   server: investors.spotify.com
   port: 443
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 - name: SG 💜 💙 Spotify2
   server: investors.spotify.com
   port: 443
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 - name: SG 💜 💙 Gojek1
   server: 162.159.128.7
   port: 443
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 - name: SG 💙 LIVEON
   server: beacon.liveon.id
   port: 443
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 - name: SG 💜 💙 Microsoft1
   server: info.microsoft.com
   port: 443
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 - name: SG 💜 💙 Whatsapp1 
   server: support-whatsapp.zendesk.com
   port: 443
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 - name: SG 💜 💙 OPERA2
   server: res-odx.op-mobile.opera.com
   port: 443
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 - name: WIFI.ID ⚪ ID
   server: io.ruangguru.com
   port: 443
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 - name: SG 💙 Turbo1
   server: 162.159.138.6
   port: 443
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 - name: SG 💙 Turbo2
   server: 162.159.128.7
   port: 443
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 - name: SG 💙 Turbo3
   server: 104.16.51.111
   port: 443
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 - name: SG 💙 Akrab2
   server: 172.64.149.82
   port: 443
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 - name: SG 💜 Sushiroll
   server: www.sushiroll.co.id
   port: 443
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 - name: SG 💜 Netflix
   server: creativeservices.netflix.com
   port: 443
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 - name: SG 💜 Tiktok
   server: tiktok1.zendesk.com
   port: 443
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 - name: SG 💛 edukasi
   server: www.udemy.com
   port: 443
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 - name: SG ♥️Ilped1
   server: io.ruangguru.com
   port: 443
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 - name: SG ♥️Ilped2
   server: 104.26.7.171
   port: 443
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 - name: SG ♥️Gamemax2
   server: 104.18.41.141
   port: 443
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 - name: SG 🩵 Opok
   server: space.byu.id
   port: 443
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 - name: SG 🩵 Edukasi 
   server: orangtua.ruangguru.com
   port: 443
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 - name: SG 🩵 Game
   server: 104.19.143.108
   port: 443
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 - name: SG 💜 Youtube
   server: youtube.zendesk.com
   port: 443
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 - name: SG 💙 Vision2
   server: cdnodeb.visionplus.id
   port: 443
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 
 ##ssl
 - name: SG 💜 💙 Gojek2
-  server: vmess-sg1.sshkit.org
+  server: rizky.vpnstoree.my.id
   port: 443
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: true
@@ -2211,15 +2211,15 @@ proxies:
   servername: food-merchant-help.grab.com
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
       Host: food-merchant-help.grab.com
   udp: true
 - name: SG 💜 💙 Whatsapp3
-  server: vmess-sg1.sshkit.org
+  server: rizky.vpnstoree.my.id
   port: 443
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: true
@@ -2227,15 +2227,15 @@ proxies:
   servername: support-whatsapp.zendesk.com
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
       Host: support-whatsapp.zendesk.com
   udp: true
 - name: SG 💜 💙 Microsoft2
-  server: vmess-sg1.sshkit.org
+  server: rizky.vpnstoree.my.id
   port: 443
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: true
@@ -2243,15 +2243,15 @@ proxies:
   servername: info.microsoft.com
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
       Host: info.microsoft.com
   udp: true
 - name: SG 💜 💙 IDOPERA1ssl
-  server: vmess-sg1.sshkit.org
+  server: rizky.vpnstoree.my.id
   port: 443
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: true
@@ -2259,15 +2259,15 @@ proxies:
   servername: odsp-test.op-mobile.opera.com
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
       Host: odsp-test.op-mobile.opera.com
   udp: true
 - name: SG 💜 💙 OPERA3ssl
-  server: vmess-sg1.sshkit.org
+  server: rizky.vpnstoree.my.id
   port: 443
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: true
@@ -2275,15 +2275,15 @@ proxies:
   servername: img.email.cashback.opera.com
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
       Host: img.email.cashback.opera.com
   udp: true
 - name: SG ♥️Multimedia
-  server: vmess-sg1.sshkit.org
+  server: rizky.vpnstoree.my.id
   port: 443
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: true
@@ -2291,15 +2291,15 @@ proxies:
   servername: v27.tiktokcdn.com
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
       Host: v27.tiktokcdn.com
   udp: true
 - name: SG 💜 game6
-  server: vmess-sg1.sshkit.org
+  server: rizky.vpnstoree.my.id
   port: 443
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: true
@@ -2307,15 +2307,15 @@ proxies:
   servername: zendesk1.garena.com
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
       Host: zendesk1.garena.com
   udp: true
 - name: SG 💜 💙 edukasi1
-  server: vmess-sg1.sshkit.org
+  server: rizky.vpnstoree.my.id
   port: 443
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: true
@@ -2323,15 +2323,15 @@ proxies:
   servername: support.zoom.us
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
       Host: support.zoom.us
   udp: true
 - name: SG 💜 Game1
-  server: vmess-sg1.sshkit.org
+  server: rizky.vpnstoree.my.id
   port: 443
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: true
@@ -2339,15 +2339,15 @@ proxies:
   servername: web.poe.garena.com
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
       Host: web.poe.garena.com
   udp: true
 - name: SG ♥️Gamemax1
-  server: vmess-sg1.sshkit.org
+  server: rizky.vpnstoree.my.id
   port: 443
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: true
@@ -2355,15 +2355,15 @@ proxies:
   servername: m.nimo.tv
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
       Host: m.nimo.tv
   udp: true
 - name: SG 💙 FlexWLG2
-  server: vmess-sg1.sshkit.org
+  server: rizky.vpnstoree.my.id
   port: 443
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: true
@@ -2371,15 +2371,15 @@ proxies:
   servername: sogood.linefriends.com
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
       Host: sogood.linefriends.com
   udp: true
 - name: SG 💙 Vision1
-  server: vmess-sg1.sshkit.org
+  server: rizky.vpnstoree.my.id
   port: 443
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: true
@@ -2387,7 +2387,7 @@ proxies:
   servername: cdnodeb.visionplus.id
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /vmess
     headers:
       Host: cdnodeb.visionplus.id
   udp: true
@@ -2395,9 +2395,9 @@ proxies:
 # config cf
 - name: Vmess WS (SNI)
   type: vmess
-  server: vmess-sg1.sshkit.org
+  server: rizky.vpnstoree.my.id
   port: 443
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   udp: true
@@ -2406,7 +2406,7 @@ proxies:
   servername: support.zoom.us
   network: ws
   ws-opts:
-    path: wss://ssh-us1.sshkit.org/sshkit/1828396894/662b0adc0bd58/
+    path: wss://rizky.vpnstoree.my.id/vmess
     headers:
       Host: support.zoom.us
        
@@ -2415,47 +2415,47 @@ proxies:
   server: 104.16.85.20
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: http://vmess-sg1.sshkit.org@http://skul.id/sshkit/1828396894/662b0adc0bd58/
+    path: http://rizky.vpnstoree.my.id@http://skul.id/vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 - name: SG ♥️opok500
   server: 104.16.85.20
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: http://skul.id/sshkit/1828396894/662b0adc0bd58/
+    path: http://skul.id/vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
 - name: SG ♥️opokunli (cfma)
-  server: vmess-sg1.sshkit.org
+  server: rizky.vpnstoree.my.id
   port: 80
   type: vmess
-  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  uuid: 7492f639-349b-48b4-9dfc-546be39c8f4e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg1.sshkit.org
+  servername: rizky.vpnstoree.my.id
   network: ws
   ws-opts:
-    path: http://tsel.me/worryfree/sshkit/1828396894/662b0adc0bd58/
+    path: http://tsel.me/worryfree/vmess
     headers:
-      Host: vmess-sg1.sshkit.org
+      Host: rizky.vpnstoree.my.id
   udp: true
