@@ -1,93 +1,98 @@
 ---
 proxy-providers:
-## Trojan
-  T-SG-MELBI:
-    type: http
-    path: "./proxy_provider/Trojan/SG-MELBI.yaml"
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/Trojan/SG-MELBI.yaml
+  AKUN:
+    type: file
+    path: "./Akun.yaml"
+    url: http://www.gstatic.com/generate_204
     health-check:
       enable: true
     interval: 86400
-  T-SG-HE1:
+  AK-FR:
     type: http
-    path: "./proxy_provider/Trojan/SG-HE1.yaml"
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/Trojan/SG-HE1.yaml
+    path: "./proxy_provider/Akun/AK-FR.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/Akun/FR.yaml
     health-check:
       enable: true
     interval: 86400
-  T-SG-HE2:
+  AK-NL:
     type: http
-    path: "./proxy_provider/Trojan/SG-HE2.yaml"
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/Trojan/SG-HE2.yaml
+    path: "./proxy_provider/Akun/AK-NL.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/Akun/NL.yaml
     health-check:
       enable: true
     interval: 86400
-  T-SG-HE3:
+  AK-SG:
     type: http
-    path: "./proxy_provider/Trojan/SG-HE3.yaml"
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/Trojan/SG-HE3.yaml
+    path: "./proxy_provider/Akun/AK-SG.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/Akun/SG.yaml
+    health-check:
+      enable: true
+    interval: 86400
+  AK-US:
+    type: http
+    path: "./proxy_provider/Akun/AK-US.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/Akun/US.yaml
+    health-check:
+      enable: true
+    interval: 86400
+
+### TROJAN
+  TROJAN:
+    type: http
+    path: "./proxy_provider/Trojan.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/Trojan.yaml
+    health-check:
+      enable: true
+    interval: 86400
+  TR-FR:
+    type: http
+    path: "./proxy_provider/Trojan/FR.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/Trojan/FR.yaml
+    health-check:
+      enable: true
+    interval: 86400
+  TR-SGHE1:
+    type: http
+    path: "./proxy_provider/Trojan/SGHE1.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/Trojan/SGHE1.yaml
+    health-check:
+      enable: true
+    interval: 86400
+  TR-SGHE2:
+    type: http
+    path: "./proxy_provider/Trojan/SGHE2.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/Trojan/SGHE2.yaml
+    health-check:
+      enable: true
+    interval: 86400
+  TR-SGHE3:
+    type: http
+    path: "./proxy_provider/Trojan/SGHE3.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/Trojan/SGHE3.yaml
+    health-check:
+      enable: true
+    interval: 86400
+  TR-SGMELBI:
+    type: http
+    path: "./proxy_provider/Trojan/SGMELBI.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/Trojan/SGMELBI.yaml
     health-check:
       enable: true
     interval: 86400
 
 
-  T-FR:
+  IP-GAMEX:
     type: http
-    path: "./proxy_provider/Trojan/France.yaml"
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/Trojan/France.yaml
-    health-check:
-      enable: true
-    interval: 86400
-  T-US:
-    type: http
-    path: "./proxy_provider/Trojan/America.yaml"
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/Trojan/America.yaml
-    health-check:
-      enable: true
-    interval: 86400
-
-## server utama
-  VMESS-SG:
-    type: http
-    path: "./proxy_provider/Vmess/Singapore.yaml"
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/Vmess/Singapore.yaml
-    health-check:
-      enable: true
-    interval: 86400
-  VMESS-US:
-    type: http
-    path: "./proxy_provider/Vmess/America.yaml"
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/Vmess/America.yaml
-    health-check:
-      enable: true
-    interval: 86400
-  VMESS-FR:
-    type: http
-    path: "./proxy_provider/Vmess/France.yaml"
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/Vmess/France.yaml
-    health-check:
-      enable: true
-    interval: 86400
-  VMESS-NL:
-    type: http
-    path: "./proxy_provider/Vmess/Netherlands.yaml"
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/Vmess/Netherlands.yaml
-    health-check:
-      enable: true
-    interval: 86400
-
-  IP-ID:
-    type: http
-    path: "./proxy_provider/IP-ID.yaml"
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/IP-ID.yaml
+    path: "./proxy_provider/IP-GAMEX.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/IP-GAMEX.yaml
     health-check:
       enable: true
     interval: 86400
     
-  IP-Tuyul:
+  JAGOAN:
     type: http
-    path: "./proxy_provider/IP-ID.yaml"
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/IP-Tuyul.yaml
+    path: "./proxy_provider/Jagoan.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/Jagoan.yaml
     health-check:
       enable: true
     interval: 86400
@@ -98,12 +103,134 @@ proxy-groups:
   disable-udp: false
   proxies:
   - Clasher
-  - Route Balance
-  - Route BestPing
-  - Route FallBack
-  - Route ID
-  - Route Tuyul
+  - Route GAMEX
+  - Route JAGOAN
   - Direct Multi-WAN
+  use:
+  - IP-GAMEX
+- name: Clasher
+  type: fallback
+  strategy: round-robin
+  lazy: true
+  disable-udp: false
+  proxies:
+  - AKUN
+  - TROJAN
+  - Route GAMEX
+  - Route JAGOAN
+  url: http://www.gstatic.com/generate_204
+  interval: '10'
+
+######################### 🧡🩷💙💜💛♥️🩵
+- name: TrafficGaming
+  type: select
+  disable-udp: false
+  proxies:
+  - TrafficUmum
+  - Direct Multi-WAN
+  use:
+  - IP-GAMEX
+- name: TrafficPortGames
+  type: select
+  disable-udp: false
+  proxies:
+  - TrafficGaming
+  - Direct Multi-WAN
+- name: TrafficAds
+  type: select
+  disable-udp: false
+  proxies:
+  - TrafficUmum
+  - REJECT
+- name: TrafficPorn
+  type: select
+  disable-udp: false
+  proxies:
+  - REJECT
+  - TrafficUmum
+######################### 🧡🩷💙💜💛♥️🩵
+- name: TrafficStreaming
+  type: fallback
+  lazy: true
+  disable-udp: false
+  proxies:
+  - AKUN
+  - TROJAN
+  - Route GAMEX
+  - Route JAGOAN
+  - Direct Multi-WAN
+  url: http://www.gstatic.com/generate_204
+  interval: '30'
+- name: TrafficIndo
+  type: fallback
+  lazy: true
+  disable-udp: false
+  proxies:
+  - Route GAMEX
+  - AKUN
+  - TROJAN
+  - Route JAGOAN
+  - Direct Multi-WAN
+  url: http://www.gstatic.com/generate_204
+  interval: '30'
+- name: TrafficSosmed
+  type: fallback
+  lazy: true
+  disable-udp: false
+  proxies:
+  - AKUN
+  - TROJAN
+  - Route JAGOAN
+  - Direct Multi-WAN
+  url: http://www.gstatic.com/generate_204
+  interval: '30'
+
+######################### router
+- name: AKUN
+  type: load-balance
+  strategy: round-robin
+  disable-udp: false
+  use:
+  - AK-FR
+  - AK-NL
+  - AK-SG
+  - AK-US
+  - AKUN
+  url: http://www.gstatic.com/generate_204
+  interval: '360'
+- name: TROJAN
+  type: url-test
+  strategy: round-robin
+  disable-udp: false
+  use:
+  - TR-SGMELBI
+  - TR-SGHE1
+  - TR-SGHE2
+  - TR-SGHE3
+  - TROJAN
+  url: http://www.gstatic.com/generate_204
+  interval: '600'
+
+- name: Route JAGOAN
+  type: load-balance
+  strategy: round-robin
+  disable-udp: false
+  use:
+  - JAGOAN
+  url: http://www.gstatic.com/generate_204
+  interval: '360'
+
+- name: Route GAMEX
+  type: fallback
+  strategy: round-robin
+  lazy: true
+  disable-udp: false
+  use:
+  - IP-GAMEX
+  url: http://www.gstatic.com/generate_204
+  interval: '30'
+
+
 - name: TrafficRandom
   type: fallback
   strategy: round-robin
@@ -114,185 +241,20 @@ proxy-groups:
   - Direct Multi-WAN
   url: http://www.gstatic.com/generate_204
   interval: '10'
-- name: Clasher
-  type: fallback
-  strategy: round-robin
-  lazy: true
-  disable-udp: false
-  proxies:
-  - Route Balance
-  - Route BestPing
-  - Route FallBack
-#  - Direct Multi-WAN
-  url: http://www.gstatic.com/generate_204
-  interval: '10'
-######################### 🧡🩷💙💜💛♥️🩵
-- name: TrafficPortGames
-  type: select
-  disable-udp: false
-  proxies:
-  - TrafficUmum
-  - Route ID
-  - Direct Multi-WAN
-  url: http://www.gstatic.com/generate_204
-  interval: '100'
-- name: TrafficGaming
-  type: select
-  disable-udp: false
-  proxies:
-  - TrafficUmum
-  - Route ID
-  - Direct Multi-WAN
-- name: TrafficAds
-  type: select
-  disable-udp: false
-  proxies:
-  - REJECT
-  - TrafficUmum
-  - Route FallBack
-  - Direct Multi-WAN
-- name: TrafficPorn
-  type: select
-  disable-udp: false
-  proxies:
-  - REJECT
-  - Route Balance
-  - Route FallBack
-- name: TrafficIndo
-  type: fallback
-  strategy: round-robin
-  lazy: true
-  disable-udp: false
-  proxies:
-  - Route ID
-  - TrafficUmum
-  - Route FallBack
-  url: http://www.gstatic.com/generate_204
-  interval: '30'
-- name: TrafficStreaming
-  type: fallback
-  strategy: round-robin
-  lazy: true
-  disable-udp: false
-  proxies:
-  - TrafficUmum
-  - Route FallBack
-  - Route ID
-  url: http://www.gstatic.com/generate_204
-  interval: '30'
-- name: TrafficSosmed
-  type: fallback
-  strategy: round-robin
-  lazy: true
-  disable-udp: false
-  proxies:
-  - TrafficUmum
-  - Route FallBack
-  - Route ID
-  url: http://www.gstatic.com/generate_204
-  interval: '30'
-
-
-- name: Route ID
-  type: load-balance
-  strategy: round-robin
-  disable-udp: false
-  use:
-  - IP-ID
-  url: http://www.gstatic.com/generate_204
-  interval: '360'
-- name: Route Tuyul
-  type: load-balance
-  strategy: round-robin
-  disable-udp: false
-  use:
-  - IP-Tuyul
-  url: http://www.gstatic.com/generate_204
-  interval: '360'
-######################### router
-- name: Route FallBack
-  type: fallback
-  strategy: round-robin
-  lazy: true
-  disable-udp: false
-  proxies:
-  - VMESS
-  - TROJAN
-  url: http://www.gstatic.com/generate_204
-  interval: '30'
-- name: Route BestPing
-  type: url-test
-  strategy: round-robin
-  disable-udp: false
-  proxies:
-  - VMESS
-  - TROJAN
-  url: http://www.gstatic.com/generate_204
-  interval: '600'
-
-- name: Route Balance
-  type: load-balance
-  strategy: round-robin
-  disable-udp: false
-  proxies:
-  - VMESS
-  - TROJAN
-  url: http://www.gstatic.com/generate_204
-  interval: '360'
-
-### seleksi
-- name: VMESS
-  type: load-balance
-  strategy: round-robin
-  disable-udp: false
-  proxies:
-  - VMESS-NL
-  - VMESS-FR
-  - VMESS-SG
-  - VMESS-US
-  url: http://www.gstatic.com/generate_204
-  interval: '360'
-- name: VMESS-SG
-  type: load-balance
-  strategy: round-robin
-  disable-udp: false
-  use:
-  - VMESS-SG
-  url: http://www.gstatic.com/generate_204
-  interval: '360'
-- name: VMESS-US
-  type: load-balance
-  strategy: round-robin
-  disable-udp: false
-  use:
-  - VMESS-US
-  url: http://www.gstatic.com/generate_204
-  interval: '360'
-- name: VMESS-NL
-  type: load-balance
-  strategy: round-robin
-  disable-udp: false
-  use:
-  - VMESS-NL
-  url: http://www.gstatic.com/generate_204
-  interval: '360'
-- name: VMESS-FR
-  type: load-balance
-  strategy: round-robin
-  disable-udp: false
-  use:
-  - VMESS-FR
-  url: http://www.gstatic.com/generate_204
-  interval: '360'
-
 ######################### DIRECT
 - name: Direct Multi-WAN
   type: select
   disable-udp: false
   proxies:
+  - Direct Interface
   - Direct WAN A
   - Direct WAN B
   - Direct WAN C
+- name: Direct Interface
+  type: select
+  disable-udp: false
+  proxies:
+  - DIRECT
 - name: Direct WAN A
   type: select
   disable-udp: false
@@ -312,68 +274,403 @@ proxy-groups:
   proxies:
   - DIRECT
 
-######################### TROJAN
-- name: TROJAN
-  type: load-balance
-  strategy: round-robin
-  disable-udp: false
-  proxies:
-  - T-SG-MELBI
-  - T-SG-HE1
-  - T-SG-HE2
-  - T-SG-HE3
-  - T-FR
-  - T-US
-  url: http://www.gstatic.com/generate_204
-  interval: '360'
-- name: T-SG-MELBI
-  type: load-balance
-  strategy: round-robin
-  disable-udp: false
-  use:
-  - T-SG-MELBI
-  url: http://www.gstatic.com/generate_204
-  interval: '360'
-- name: T-SG-HE1
-  type: load-balance
-  strategy: round-robin
-  disable-udp: false
-  use:
-  - T-SG-HE1
-  url: http://www.gstatic.com/generate_204
-  interval: '360'
-- name: T-SG-HE2
-  type: load-balance
-  strategy: round-robin
-  disable-udp: false
-  use:
-  - T-SG-HE2
-  url: http://www.gstatic.com/generate_204
-  interval: '360'
-- name: T-SG-HE3
-  type: load-balance
-  strategy: round-robin
-  disable-udp: false
-  use:
-  - T-SG-HE3
-  url: http://www.gstatic.com/generate_204
-  interval: '360'
-- name: T-FR
-  type: load-balance
-  strategy: round-robin
-  disable-udp: false
-  use:
-  - T-FR
-  url: http://www.gstatic.com/generate_204
-  interval: '360'
-- name: T-US
-  type: load-balance
-  strategy: round-robin
-  disable-udp: false
-  use:
-  - T-US
-  url: http://www.gstatic.com/generate_204
-  interval: '360'
+
+rule-providers:
+  rule_clash:
+    type: file
+    behavior: domain
+    path: "./rule_provider/rule_clash.yaml"
+    health-check:
+      enable: true
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/rule_provider/rule_clash.yaml
+  Direct:
+    type: file
+    behavior: classical
+    path: "./rule_provider/direct.yaml"
+    health-check:
+      enable: true
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/rule_provider/direct.yaml
+
+  rule_Direct:
+    type: file
+    behavior: classical
+    path: "./rule_provider/rule_direct.yaml"
+  rule_umum:
+    type: file
+    behavior: classical
+    path: "./rule_provider/rule_umum.yaml"
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_umum.yaml
+    interval: 86400
+  rule_portgames:
+    type: file
+    behavior: classical
+    path: "./rule_provider/rule_portgames.yaml"
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_portgames.yaml
+    interval: 86400
+  rule_videoconferences:
+    type: file
+    behavior: classical
+    path: "./rule_provider/rule_videoconferences.yaml"
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_videoconferences.yaml
+    interval: 86400
+  rule_Indo:
+    type: file
+    behavior: classical
+    path: "./rule_provider/rule_indo.yaml"
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_indo.yaml
+    interval: 86400
+  rule_Sosmed:
+    type: file
+    behavior: classical
+    path: "./rule_provider/rule_sosmed.yaml"
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_sosmed.yaml
+    interval: 86400
+  rule_Streaming:
+    type: file
+    behavior: classical
+    path: "./rule_provider/rule_streaming.yaml"
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_streaming.yaml
+    interval: 86400
+  rule_Gaming:
+    type: file
+    behavior: classical
+    path: "./rule_provider/rule_gaming.yaml"
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_gaming.yaml
+    interval: 86400
+  rule_Speedtest:
+    type: file
+    behavior: classical
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_speedtest.yaml
+    path: "./rule_provider/rule_speedtest.yaml"
+    interval: 86400
+  rule_discord:
+    type: file
+    behavior: classical
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_discord.yaml
+    path: "./rule_provider/rule_discord.yaml"
+    interval: 86400
+  rule_hijacking:
+    type: file
+    behavior: classical
+    path: "./rule_provider/rule_hijacking.yaml"
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_hijacking.yaml
+    interval: 86400
+  rule_privacy:
+    type: file
+    behavior: classical
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_privacy.yaml
+    path: "./rule_provider/rule_privacy.yaml"
+    interval: 86400
+  rule_basicads:
+    type: file
+    behavior: domain
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_basicads.yaml
+    path: "./rule_provider/rule_basicads.yaml"
+    interval: 43200
+  rule_personalads:
+    type: file
+    behavior: classical
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_personalads.yaml
+    path: "./rule_provider/rule_personalads.yaml"
+    interval: 86400
+  rule_malicious:
+    type: file
+    behavior: domain
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_malicious.yaml
+    path: "./rule_provider/rule_malicious.yaml"
+    interval: 43200
+  rule_maliciousip:
+    type: file
+    behavior: ipcidr
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_maliciousip.yaml
+    path: "./rule_provider/rule_maliciousip.yaml"
+    interval: 43200
+  rule_falsepositive:
+    type: file
+    behavior: classical
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_falsepositive.yaml
+    path: "./rule_provider/rule_falsepositive.yaml"
+    interval: 86400
+  rule_porn:
+    type: file
+    behavior: domain
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_porn.yaml
+    path: "./rule_provider/rule_porn.yaml"
+    interval: 86400
+  rule_nsfw:
+    type: file
+    behavior: domain
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_nsfw.yaml
+    path: "./rule_provider/rule_nsfw.yaml"
+    interval: 43200
+  rule_lancidr:
+    type: file
+    behavior: ipcidr
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_lancidr.yaml
+    path: "./rule_provider/rule_lancidr.yaml"
+    interval: 86400
+  rule_telegramcidr:
+    type: file
+    behavior: ipcidr
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_telegramcidr.yaml
+    path: "./rule_provider/rule_telegramcidr.yaml"
+    interval: 86400
+  rule_telegram:
+    type: file
+    behavior: domain
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_telegram.yaml
+    path: "./rule_provider/rule_telegram.yaml"
+    interval: 86400
+  rule_disneyplus:
+    type: file
+    behavior: classical
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_disneyplus.yaml
+    path: "./rule_provider/rule_disneyplus.yaml"
+    interval: 86400
+  rule_games:
+    type: file
+    behavior: domain
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_games.yaml
+    path: "./rule_provider/rule_games.yaml"
+    interval: 86400
+  rule_hbo:
+    type: file
+    behavior: classical
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_hbo.yaml
+    path: "./rule_provider/rule_hbo.yaml"
+    interval: 86400
+  rule_hboasia:
+    type: file
+    behavior: classical
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_hboasia.yaml
+    path: "./rule_provider/rule_hboasia.yaml"
+    interval: 86400
+  rule_hbohk:
+    type: file
+    behavior: classical
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_hbohk.yaml
+    path: "./rule_provider/rule_hbohk.yaml"
+    interval: 86400
+  rule_hbousa:
+    type: file
+    behavior: classical
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_hbousa.yaml
+    path: "./rule_provider/rule_hbousa.yaml"
+    interval: 86400
+  rule_iqiyi:
+    type: file
+    behavior: classical
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_iqiyi.yaml
+    path: "./rule_provider/rule_iqiyi.yaml"
+    interval: 86400
+  rule_iqiyiinter:
+    type: file
+    behavior: classical
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_iqiyiinter.yaml
+    path: "./rule_provider/rule_iqiyiinter.yaml"
+    interval: 86400
+  rule_line:
+    type: file
+    behavior: domain
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_line.yaml
+    path: "./rule_provider/rule_line.yaml"
+    interval: 86400
+  rule_metaverse:
+    type: file
+    behavior: domain
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_metaverse.yaml
+    path: "./rule_provider/rule_metaverse.yaml"
+    interval: 86400
+  rule_netflix:
+    type: file
+    behavior: domain
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_netflix.yaml
+    path: "./rule_provider/rule_netflix.yaml"
+    interval: 86400
+  rule_primevideo:
+    type: file
+    behavior: domain
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_primevideo.yaml
+    path: "./rule_provider/rule_primevideo.yaml"
+    interval: 86400
+  rule_playstore:
+    type: file
+    behavior: domain
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_playstore.yaml
+    path: "./rule_provider/rule_playstore.yaml"
+    interval: 86400
+  rule_tiktok:
+    type: file
+    behavior: domain
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_tiktok.yaml
+    path: "./rule_provider/rule_tiktok.yaml"
+    interval: 86400
+  rule_twitch:
+    type: file
+    behavior: domain
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_twitch.yaml
+    path: "./rule_provider/rule_twitch.yaml"
+    interval: 86400
+  rule_twitter:
+    type: file
+    behavior: domain
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_twitter.yaml
+    path: "./rule_provider/rule_twitter.yaml"
+    interval: 86400
+  rule_Youtube:
+    type: file
+    behavior: domain
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_youtube.yaml
+    path: "./rule_provider/rule_youtube.yaml"
+    interval: 86400
+
+
+rules:
+  ## direct FCM
+- AND,((NETWORK,TCP),(DST-PORT,5228-5230)),DIRECT
+- AND,((NETWORK,TCP),(DST-PORT,5228-5230),(OR,((DOMAIN-KEYWORD,google)))),DIRECT
+ 
+  ## block udp/quic YouTube
+- AND,((NETWORK,udp),(OR,((DST-PORT,443/80),(GEOSITE,youtube)))),REJECT
+- AND,((NETWORK,udp),(GEOSITE,youtube)),REJECT
+
+
+  # # fix dnsleak
+- IP-CIDR,127.0.0.1/32,REJECT,no-resolve
+- IP-CIDR,198.18.0.1/16,REJECT,no-resolve
+- IP-CIDR,28.0.0.1/8,REJECT,no-resolve
+- IP-CIDR6,::1/128,REJECT,no-resolve
+  
+  ## rules telegram
+- GEOIP,telegram,TrafficUmum
+- GEOSITE,telegram,TrafficUmum
+
+  ## direct ntp
+- AND,((NETWORK,UDP),(DST-PORT,123)),DIRECT
+- DST-PORT,123/136/137-139,DIRECT,udp
+
+  ## rules inner, recommended untuk non kuota reguler
+- AND,((PROCESS-NAME,clash),(NOT,((IN-TYPE,inner)))),REJECT
+- IN-TYPE,inner,TrafficUmum
+
+
+ ## final
+- DST-PORT,7895,REJECT
+- DST-PORT,7892,REJECT
+- DST-PORT,7895,REJECT
+- DST-PORT,7892,REJECT
+
+#- IP-CIDR,198.18.0.1/16,REJECT,no-resolve
+- DST-PORT,22,DIRECT
+
+- RULE-SET,rule_clash,REJECT
+- RULE-SET,Direct,DIRECT
+
+- RULE-SET,rule_lancidr,DIRECT,no-resolve
+
+- RULE-SET,rule_malicious,REJECT
+- RULE-SET,rule_maliciousip,REJECT
+
+- RULE-SET,rule_personalads,TrafficAds
+- RULE-SET,rule_basicads,TrafficAds
+- RULE-SET,rule_hijacking,TrafficAds
+- RULE-SET,rule_privacy,TrafficAds
+
+- RULE-SET,rule_porn,TrafficPorn
+- RULE-SET,rule_nsfw,TrafficPorn
+- RULE-SET,rule_Direct,TrafficRandom
+
+#- SCRIPT,speedtest,TrafficUmum
+- RULE-SET,rule_falsepositive,TrafficUmum
+- RULE-SET,rule_playstore,TrafficUmum
+
+- RULE-SET,rule_disneyplus,TrafficIndo
+- RULE-SET,rule_netflix,TrafficIndo
+- RULE-SET,rule_Indo,TrafficIndo
+- RULE-SET,rule_hbo,TrafficIndo
+- RULE-SET,rule_hboasia,TrafficIndo
+- RULE-SET,rule_hbohk,TrafficIndo
+- RULE-SET,rule_hbousa,TrafficIndo
+
+- RULE-SET,rule_Streaming,TrafficStreaming
+- RULE-SET,rule_iqiyi,TrafficStreaming
+- RULE-SET,rule_iqiyiinter,TrafficStreaming
+- RULE-SET,rule_primevideo,TrafficStreaming
+- RULE-SET,rule_twitch,TrafficStreaming
+- RULE-SET,rule_Youtube,TrafficStreaming
+- RULE-SET,rule_videoconferences,TrafficStreaming
+
+- RULE-SET,rule_Sosmed,TrafficSosmed
+- RULE-SET,rule_line,TrafficSosmed
+- RULE-SET,rule_metaverse,TrafficSosmed
+- RULE-SET,rule_tiktok,TrafficSosmed
+- RULE-SET,rule_twitter,TrafficSosmed
+- RULE-SET,rule_telegram,TrafficSosmed
+- RULE-SET,rule_telegramcidr,TrafficSosmed
+
+- RULE-SET,rule_portgames,TrafficPortGames
+#- SCRIPT,TCPgames,TrafficPortGames
+#- SCRIPT,UDPgames,TrafficPortGames
+- RULE-SET,rule_Gaming,TrafficGaming
+- RULE-SET,rule_games,TrafficGaming
+- RULE-SET,rule_discord,TrafficGaming
+- RULE-SET,rule_umum,TrafficUmum
+- MATCH,GLOBAL
+
+
+#VideoConference
+- DST-PORT,3478-3497/8801-8810/16384-16387/1853/8200/5004/9000/5090-5091/5349/10000/19302-19309/5938/5060-5061/500/4500,TrafficStreaming
+
+
+#MLBB
+- DST-PORT,5000-5221/5224-5227/5229-5241/5243-5287/5289-5352/5354-5509/5517/5520-5529/5551-5559/5601-5700/8443/9000-9010/9443/10003/30000-30300,TrafficPortGames,tcp
+- DST-PORT,5517-5529/5551-5559/5601-5700/8001/8130/8443/9000-9010/9120/9992/10003/30000-30300,TrafficPortGames,udp
+#FF
+- DST-PORT,6006/6008/6674/7006-7008/7889/8001-8012/9006/9137/10000-10012/11000-11019/12006/12008/13006/15006/20561/39003/39006/39698/39779/39800,TrafficPortGames,tcp
+- DST-PORT,6006/6008/6674/7006-7008/7889/8008/8001-8012/8130/8443/9008/9120/10000-10015/10100/11000-11019/12008/13008,TrafficPortGames,udp
+#PUBG
+- DST-PORT,7889/10012/13004/14000/17000/17500/18081/20000-20002/20371,TrafficPortGames,tcp
+- DST-PORT,8011/9030/10491/10612/12235/13004/13748/17000/17500/20000-20002/7086-7995/10039/10096/11455/12070-12460/13894/13972/41182-41192,TrafficPortGames,udp
+#CODM
+- DST-PORT,3013/10000-10019/18082/50000/65010/65050,TrafficPortGames,tcp
+- DST-PORT,7085-7995/8700/9030/10010-10019/17000-20100,TrafficPortGames,udp
+#AOV
+- DST-PORT,10001-10094,TrafficPortGames,tcp
+- DST-PORT,10101-10201/10080-10110/17000-18000,TrafficPortGames,udp
+#Stumble Guys
+- DST-PORT,5055-5058,TrafficPortGames,udp
+#Genshin Impact
+- DST-PORT,42472,TrafficPortGames,tcp
+- DST-PORT,42472/22101-22102,TrafficPortGames,udp
+#Clash of Clans (COC) & Clash Royale
+- DST-PORT,9330-9340,TrafficPortGames,tcp
+- DST-PORT,9330-9340,TrafficPortGames,udp
+#League of Legends (LOL) Mobile
+- DST-PORT,2080-2099,TrafficPortGames,tcp
+- DST-PORT,5100,TrafficPortGames,udp
+#DOTA2
+- DST-PORT,9100-9200/8230-8250/8110-8120/27000-28998,TrafficPortGames,tcp
+- DST-PORT,27000-28998/39000,TrafficPortGames,udp
+#FIFA ONLINE
+- DST-PORT,7770-7790,TrafficPortGames,tcp
+- DST-PORT,16300-16350,TrafficPortGames,udp
+#Point Blank Mobile (PB-Mobile)
+- DST-PORT,44590-44610,TrafficPortGames,tcp
+- DST-PORT,40000-40010,TrafficPortGames,udp
+#LINE Let’s Get Rich
+- DST-PORT,10500-10515,TrafficPortGames,tcp
+#Dream League Soccer
+- DST-PORT,60970-60980,TrafficPortGames,udp
+#Among Us
+- DST-PORT,27015-27030/27036-27037,TrafficPortGames,tcp
+- DST-PORT,4380/27000-27031/27036,TrafficPortGames,udp
+#Bleach ES
+- DST-PORT,14422,TrafficPortGames
+# growrtopia
+- DST-PORT,16999,TrafficPortGames
+# apex|ff|mlbbb
+- DST-PORT,8888,TrafficPortGames
+
 
 redir-port: 7892
 port: 7890
@@ -383,6 +680,7 @@ mode: rule
 log-level: info
 allow-lan: true
 unified-delay: true
+ipv6: true
 
 geodata-mode: true
 geodata-loader: memconservative
@@ -612,145 +910,6 @@ sniffer:
   - 443
   - 80
 
-rules:
-  ## direct FCM
-- AND,((NETWORK,TCP),(DST-PORT,5228-5230)),DIRECT
-- AND,((NETWORK,TCP),(DST-PORT,5228-5230),(OR,((DOMAIN-KEYWORD,google)))),DIRECT
- 
-  ## block udp/quic YouTube
-- AND,((NETWORK,udp),(OR,((DST-PORT,443/80),(GEOSITE,youtube)))),REJECT
-- AND,((NETWORK,udp),(GEOSITE,youtube)),REJECT
-
-
-  # # fix dnsleak
-- IP-CIDR,127.0.0.1/32,REJECT,no-resolve
-- IP-CIDR,198.18.0.1/16,REJECT,no-resolve
-- IP-CIDR,28.0.0.1/8,REJECT,no-resolve
-- IP-CIDR6,::1/128,REJECT,no-resolve
-  
-  ## rules telegram
-- GEOIP,telegram,TrafficUmum
-- GEOSITE,telegram,TrafficUmum
-
-  ## direct ntp
-- AND,((NETWORK,UDP),(DST-PORT,123)),DIRECT
-- DST-PORT,123/136/137-139,DIRECT,udp
-
-  ## rules inner, recommended untuk non kuota reguler
-- AND,((PROCESS-NAME,clash),(NOT,((IN-TYPE,inner)))),REJECT
-- IN-TYPE,inner,TrafficUmum
-
-
- ## final
-- DST-PORT,7895,REJECT
-- DST-PORT,7892,REJECT
-- DST-PORT,7895,REJECT
-- DST-PORT,7892,REJECT
-
-#- IP-CIDR,198.18.0.1/16,REJECT,no-resolve
-- DST-PORT,22,DIRECT
-
-- RULE-SET,rule_clash,REJECT
-- RULE-SET,Direct,DIRECT
-
-- RULE-SET,rule_lancidr,DIRECT,no-resolve
-- RULE-SET,rule_falsepositive,TrafficUmum
-- RULE-SET,rule_malicious,REJECT
-- RULE-SET,rule_maliciousip,REJECT
-- RULE-SET,rule_personalads,TrafficAds
-- RULE-SET,rule_basicads,TrafficAds
-- RULE-SET,rule_hijacking,TrafficAds
-- RULE-SET,rule_privacy,TrafficAds
-- RULE-SET,rule_porn,TrafficPorn
-- RULE-SET,rule_nsfw,TrafficPorn
-- RULE-SET,rule_Direct,TrafficRandom
-#- SCRIPT,speedtest,TrafficUmum
-- RULE-SET,rule_playstore,TrafficUmum
-- RULE-SET,rule_disneyplus,TrafficIndo
-- RULE-SET,rule_netflix,TrafficIndo
-- RULE-SET,rule_Indo,TrafficIndo
-- RULE-SET,rule_hbo,TrafficIndo
-- RULE-SET,rule_hboasia,TrafficIndo
-- RULE-SET,rule_hbohk,TrafficIndo
-- RULE-SET,rule_hbousa,TrafficIndo
-- RULE-SET,rule_Streaming,TrafficStreaming
-- RULE-SET,rule_iqiyi,TrafficStreaming
-- RULE-SET,rule_iqiyiinter,TrafficStreaming
-- RULE-SET,rule_primevideo,TrafficStreaming
-- RULE-SET,rule_twitch,TrafficStreaming
-- RULE-SET,rule_Youtube,TrafficStreaming
-- RULE-SET,rule_videoconferences,TrafficStreaming
-- RULE-SET,rule_Sosmed,TrafficSosmed
-- RULE-SET,rule_line,TrafficSosmed
-- RULE-SET,rule_metaverse,TrafficSosmed
-- RULE-SET,rule_tiktok,TrafficSosmed
-- RULE-SET,rule_twitter,TrafficSosmed
-- RULE-SET,rule_telegram,TrafficSosmed
-- RULE-SET,rule_telegramcidr,TrafficSosmed
-- RULE-SET,rule_portgames,TrafficPortGames
-#- SCRIPT,TCPgames,TrafficPortGames
-#- SCRIPT,UDPgames,TrafficPortGames
-- RULE-SET,rule_Gaming,TrafficGaming
-- RULE-SET,rule_games,TrafficGaming
-- RULE-SET,rule_discord,TrafficGaming
-- RULE-SET,rule_umum,TrafficUmum
-- MATCH,GLOBAL
-
-
-#VideoConference
-- DST-PORT,3478-3497/8801-8810/16384-16387/1853/8200/5004/9000/5090-5091/5349/10000/19302-19309/5938/5060-5061/500/4500,TrafficStreaming
-
-
-#MLBB
-- DST-PORT,5000-5221/5224-5227/5229-5241/5243-5287/5289-5352/5354-5509/5517/5520-5529/5551-5559/5601-5700/8443/9000-9010/9443/10003/30000-30300,TrafficPortGames,tcp
-- DST-PORT,5517-5529/5551-5559/5601-5700/8001/8130/8443/9000-9010/9120/9992/10003/30000-30300,TrafficPortGames,udp
-#FF
-- DST-PORT,6006/6008/6674/7006-7008/7889/8001-8012/9006/9137/10000-10012/11000-11019/12006/12008/13006/15006/20561/39003/39006/39698/39779/39800,TrafficPortGames,tcp
-- DST-PORT,6006/6008/6674/7006-7008/7889/8008/8001-8012/8130/8443/9008/9120/10000-10015/10100/11000-11019/12008/13008,TrafficPortGames,udp
-#PUBG
-- DST-PORT,7889/10012/13004/14000/17000/17500/18081/20000-20002/20371,TrafficPortGames,tcp
-- DST-PORT,8011/9030/10491/10612/12235/13004/13748/17000/17500/20000-20002/7086-7995/10039/10096/11455/12070-12460/13894/13972/41182-41192,TrafficPortGames,udp
-#CODM
-- DST-PORT,3013/10000-10019/18082/50000/65010/65050,TrafficPortGames,tcp
-- DST-PORT,7085-7995/8700/9030/10010-10019/17000-20100,TrafficPortGames,udp
-#AOV
-- DST-PORT,10001-10094,TrafficPortGames,tcp
-- DST-PORT,10101-10201/10080-10110/17000-18000,TrafficPortGames,udp
-#Stumble Guys
-- DST-PORT,5055-5058,TrafficPortGames,udp
-#Genshin Impact
-- DST-PORT,42472,TrafficPortGames,tcp
-- DST-PORT,42472/22101-22102,TrafficPortGames,udp
-#Clash of Clans (COC) & Clash Royale
-- DST-PORT,9330-9340,TrafficPortGames,tcp
-- DST-PORT,9330-9340,TrafficPortGames,udp
-#League of Legends (LOL) Mobile
-- DST-PORT,2080-2099,TrafficPortGames,tcp
-- DST-PORT,5100,TrafficPortGames,udp
-#DOTA2
-- DST-PORT,9100-9200/8230-8250/8110-8120/27000-28998,TrafficPortGames,tcp
-- DST-PORT,27000-28998/39000,TrafficPortGames,udp
-#FIFA ONLINE
-- DST-PORT,7770-7790,TrafficPortGames,tcp
-- DST-PORT,16300-16350,TrafficPortGames,udp
-#Point Blank Mobile (PB-Mobile)
-- DST-PORT,44590-44610,TrafficPortGames,tcp
-- DST-PORT,40000-40010,TrafficPortGames,udp
-#LINE Let’s Get Rich
-- DST-PORT,10500-10515,TrafficPortGames,tcp
-#Dream League Soccer
-- DST-PORT,60970-60980,TrafficPortGames,udp
-#Among Us
-- DST-PORT,27015-27030/27036-27037,TrafficPortGames,tcp
-- DST-PORT,4380/27000-27031/27036,TrafficPortGames,udp
-#Bleach ES
-- DST-PORT,14422,TrafficPortGames
-# growrtopia
-- DST-PORT,16999,TrafficPortGames
-# apex|ff|mlbbb
-- DST-PORT,8888,TrafficPortGames
-
-
 tun:
   enable: true
   device: utun
@@ -769,253 +928,3 @@ script:
     TCPgames: network == 'tcp' and dst_port not in [21, 22, 23, 53, 80, 123, 143, 194, 443, 465, 587, 853, 993, 995, 998, 2052, 2053, 2082, 2083, 2086, 2095, 2096, 5222, 5228, 5229, 5230, 8080, 8443, 8880, 8883, 8888, 8889]
     UDPgames: network == 'udp' and dst_port not in [21, 22, 23, 53, 80, 123, 143, 194, 443, 465, 587, 853, 993, 995, 998, 2052, 2053, 2082, 2083, 2086, 2095, 2096, 5222, 5228, 5229, 5230, 8080, 8443, 8880, 8883, 8888, 8889]
     speedtest: network == "tcp" and match_provider("rule_Speedtest")
-
-rule-providers:
-  rule_clash:
-    type: http
-    behavior: domain
-    path: "./rule_provider/rule_clash.yaml"
-    health-check:
-      enable: true
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/rule_provider/rule_clash.yaml
-  Direct:
-    type: http
-    behavior: classical
-    path: "./rule_provider/direct.yaml"
-    health-check:
-      enable: true
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/rule_provider/direct.yaml
-
-  rule_Direct:
-    type: http
-    behavior: classical
-    path: "./rule_provider/rule_direct.yaml"
-  rule_umum:
-    type: http
-    behavior: classical
-    path: "./rule_provider/rule_umum.yaml"
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_umum.yaml
-    interval: 86400
-  rule_portgames:
-    type: http
-    behavior: classical
-    path: "./rule_provider/rule_portgames.yaml"
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_portgames.yaml
-    interval: 86400
-  rule_videoconferences:
-    type: http
-    behavior: classical
-    path: "./rule_provider/rule_videoconferences.yaml"
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_videoconferences.yaml
-    interval: 86400
-  rule_Indo:
-    type: http
-    behavior: classical
-    path: "./rule_provider/rule_indo.yaml"
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_indo.yaml
-    interval: 86400
-  rule_Sosmed:
-    type: http
-    behavior: classical
-    path: "./rule_provider/rule_sosmed.yaml"
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_sosmed.yaml
-    interval: 86400
-  rule_Streaming:
-    type: http
-    behavior: classical
-    path: "./rule_provider/rule_streaming.yaml"
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_streaming.yaml
-    interval: 86400
-  rule_Gaming:
-    type: http
-    behavior: classical
-    path: "./rule_provider/rule_gaming.yaml"
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_gaming.yaml
-    interval: 86400
-  rule_Speedtest:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_speedtest.yaml
-    path: "./rule_provider/rule_speedtest.yaml"
-    interval: 86400
-  rule_discord:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_discord.yaml
-    path: "./rule_provider/rule_discord.yaml"
-    interval: 86400
-  rule_hijacking:
-    type: http
-    behavior: classical
-    path: "./rule_provider/rule_hijacking.yaml"
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_hijacking.yaml
-    interval: 86400
-  rule_privacy:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_privacy.yaml
-    path: "./rule_provider/rule_privacy.yaml"
-    interval: 86400
-  rule_basicads:
-    type: http
-    behavior: domain
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_basicads.yaml
-    path: "./rule_provider/rule_basicads.yaml"
-    interval: 43200
-  rule_personalads:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_personalads.yaml
-    path: "./rule_provider/rule_personalads.yaml"
-    interval: 86400
-  rule_malicious:
-    type: http
-    behavior: domain
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_malicious.yaml
-    path: "./rule_provider/rule_malicious.yaml"
-    interval: 43200
-  rule_maliciousip:
-    type: http
-    behavior: ipcidr
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_maliciousip.yaml
-    path: "./rule_provider/rule_maliciousip.yaml"
-    interval: 43200
-  rule_falsepositive:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_falsepositive.yaml
-    path: "./rule_provider/rule_falsepositive.yaml"
-    interval: 86400
-  rule_porn:
-    type: http
-    behavior: domain
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_porn.yaml
-    path: "./rule_provider/rule_porn.yaml"
-    interval: 86400
-  rule_nsfw:
-    type: http
-    behavior: domain
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_nsfw.yaml
-    path: "./rule_provider/rule_nsfw.yaml"
-    interval: 43200
-  rule_lancidr:
-    type: http
-    behavior: ipcidr
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_lancidr.yaml
-    path: "./rule_provider/rule_lancidr.yaml"
-    interval: 86400
-  rule_telegramcidr:
-    type: http
-    behavior: ipcidr
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_telegramcidr.yaml
-    path: "./rule_provider/rule_telegramcidr.yaml"
-    interval: 86400
-  rule_telegram:
-    type: http
-    behavior: domain
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_telegram.yaml
-    path: "./rule_provider/rule_telegram.yaml"
-    interval: 86400
-  rule_disneyplus:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_disneyplus.yaml
-    path: "./rule_provider/rule_disneyplus.yaml"
-    interval: 86400
-  rule_games:
-    type: http
-    behavior: domain
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_games.yaml
-    path: "./rule_provider/rule_games.yaml"
-    interval: 86400
-  rule_hbo:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_hbo.yaml
-    path: "./rule_provider/rule_hbo.yaml"
-    interval: 86400
-  rule_hboasia:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_hboasia.yaml
-    path: "./rule_provider/rule_hboasia.yaml"
-    interval: 86400
-  rule_hbohk:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_hbohk.yaml
-    path: "./rule_provider/rule_hbohk.yaml"
-    interval: 86400
-  rule_hbousa:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_hbousa.yaml
-    path: "./rule_provider/rule_hbousa.yaml"
-    interval: 86400
-  rule_iqiyi:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_iqiyi.yaml
-    path: "./rule_provider/rule_iqiyi.yaml"
-    interval: 86400
-  rule_iqiyiinter:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_iqiyiinter.yaml
-    path: "./rule_provider/rule_iqiyiinter.yaml"
-    interval: 86400
-  rule_line:
-    type: http
-    behavior: domain
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_line.yaml
-    path: "./rule_provider/rule_line.yaml"
-    interval: 86400
-  rule_metaverse:
-    type: http
-    behavior: domain
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_metaverse.yaml
-    path: "./rule_provider/rule_metaverse.yaml"
-    interval: 86400
-  rule_netflix:
-    type: http
-    behavior: domain
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_netflix.yaml
-    path: "./rule_provider/rule_netflix.yaml"
-    interval: 86400
-  rule_primevideo:
-    type: http
-    behavior: domain
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_primevideo.yaml
-    path: "./rule_provider/rule_primevideo.yaml"
-    interval: 86400
-  rule_playstore:
-    type: http
-    behavior: domain
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_playstore.yaml
-    path: "./rule_provider/rule_playstore.yaml"
-    interval: 86400
-  rule_tiktok:
-    type: http
-    behavior: domain
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_tiktok.yaml
-    path: "./rule_provider/rule_tiktok.yaml"
-    interval: 86400
-  rule_twitch:
-    type: http
-    behavior: domain
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_twitch.yaml
-    path: "./rule_provider/rule_twitch.yaml"
-    interval: 86400
-  rule_twitter:
-    type: http
-    behavior: domain
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_twitter.yaml
-    path: "./rule_provider/rule_twitter.yaml"
-    interval: 86400
-  rule_Youtube:
-    type: http
-    behavior: domain
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_youtube.yaml
-    path: "./rule_provider/rule_youtube.yaml"
-    interval: 86400
-ipv6: true
