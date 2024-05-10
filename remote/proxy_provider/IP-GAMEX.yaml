@@ -32,3 +32,20 @@ proxies:
     headers:
       Host: us-21.hihu.net
   udp: true
+
+- name: Singapore HE-1 Limit 2024-05-17
+  server: 104.19.142.89
+  port: 80
+  type: vmess
+  uuid: 55055830-0e82-11ef-b334-205c6d5f5d78
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: us-21.hihu.net
+  network: ws
+  ws-opts:
+    path: /1ntwdg3r
+    headers:
+      Host: sg-1.hihu.net
+  udp: true
