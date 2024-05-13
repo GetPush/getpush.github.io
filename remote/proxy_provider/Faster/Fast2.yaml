@@ -1,6 +1,6 @@
 proxies:
 - name: USA Virginia 2024-05-17
-  server: 104.19.142.89
+  server: 104.18.34.70
   port: 80
   type: vmess
   uuid: a98ece20-0e7d-11ef-b134-205c6d5f5d78
@@ -17,7 +17,7 @@ proxies:
   udp: true
 
 - name: USA LA 2024-05-17
-  server: 104.19.142.89
+  server: 104.18.34.70
   port: 80
   type: vmess
   uuid: dc47f560-0e7d-11ef-b030-205c6d5f5d78
@@ -35,7 +35,7 @@ proxies:
 
 
 - name: ocean us1 18 May 2024
-  server: 104.19.142.89
+  server: 104.18.34.70
   port: 80
   type: vmess
   uuid: 18d028b9-0ddb-4e9f-abdd-4da91e655daa
@@ -52,7 +52,7 @@ proxies:
   udp: true
 
 - name: ocean us2 18 May 2024
-  server: 104.19.142.89
+  server: 104.18.34.70
   port: 80
   type: vmess
   uuid: d9b12c51-f87e-4451-88e8-8b88b41864cd
