@@ -137,6 +137,25 @@ proxy-groups:
 
 rule-providers:
 #─────────────────◉ For WARNET ◉─────────────────
+  d3ward:
+    type: file
+    behavior: domain
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/d3ward.yaml
+    path: "./rule_provider/d3ward.yaml"
+    interval: 86400
+  rule_clash:
+    type: file
+    behavior: domain
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/rule_provider/rule_clash.yaml
+    path: "./rule_provider/rule_clash.yaml"
+    interval: 86400
+  Direct:
+    type: file
+    behavior: classical
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/rule_provider/direct.yaml
+    path: "./rule_provider/direct.yaml"
+    interval: 86400
+
   rule_falsepositive:
     type: file
     behavior: classical
@@ -155,25 +174,6 @@ rule-providers:
     path: "./rule_provider/rule_umum.yaml"
     url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_umum.yaml
     interval: 86400
-
-  d3ward:
-    type: file
-    behavior: domain
-    path: "./rule_provider/d3ward.yaml"
-  rule_clash:
-    type: file
-    behavior: domain
-    path: "./rule_provider/rule_clash.yaml"
-    health-check:
-      enable: true
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/rule_provider/rule_clash.yaml
-  Direct:
-    type: file
-    behavior: classical
-    path: "./rule_provider/direct.yaml"
-    health-check:
-      enable: true
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/rule_provider/direct.yaml
   rule_lancidr:
     type: file
     behavior: ipcidr
