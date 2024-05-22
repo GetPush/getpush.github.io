@@ -133,8 +133,6 @@ proxy-groups:
   disable-udp: false
   use:
   - VIP-US
-  - Faster1
-  - Faster2
   url: https://cp.cloudflare.com/generate_204
   interval: '150'
 - name: Trojan
