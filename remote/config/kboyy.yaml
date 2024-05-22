@@ -61,6 +61,7 @@ proxy-providers:
 
 
 proxy-groups:
+#─────────────────◉ For WARNET ◉─────────────────
 - name: CLASH FOCUS
   type: select
   proxies:
@@ -69,11 +70,11 @@ proxy-groups:
   - EROPA
   - AMERICA
   - Trojan
-  - DIRECT
+  - Direct Multi-WAN
   url: https://cp.cloudflare.com/generate_204
   interval: '150'
 - name: CLASH BOOST
-  type: fallback
+  type: load-balance
   lazy: true
   disable-udp: false
   proxies:
@@ -81,9 +82,20 @@ proxy-groups:
   - EROPA
   - AMERICA
   - Trojan
-  - DIRECT
+  - Direct Multi-WAN
   url: https://cp.cloudflare.com/generate_204
-  interval: '30'
+  interval: '150'
+
+- name: SMATCH
+  type: load-balance
+  strategy: round-robin
+  lazy: true
+  disable-udp: false
+  proxies:
+  - CLASH FOCUS
+  - Direct Multi-WAN
+  url: https://cp.cloudflare.com/generate_204
+  interval: '150'
 
 - name: IKLAN
   type: select
@@ -106,14 +118,6 @@ proxy-groups:
   - VIP-SG
   url: https://cp.cloudflare.com/generate_204
   interval: '150'
-- name: AMERICA
-  type: load-balance
-  strategy: round-robin
-  disable-udp: false
-  use:
-  - VIP-US
-  url: https://cp.cloudflare.com/generate_204
-  interval: '150'
 - name: EROPA
   type: load-balance
   strategy: round-robin
@@ -121,6 +125,16 @@ proxy-groups:
   use:
   - VIP-FR
   - VIP-NL
+  url: https://cp.cloudflare.com/generate_204
+  interval: '150'
+- name: AMERICA
+  type: load-balance
+  strategy: round-robin
+  disable-udp: false
+  use:
+  - VIP-US
+  - Faster1
+  - Faster2
   url: https://cp.cloudflare.com/generate_204
   interval: '150'
 - name: Trojan
@@ -137,6 +151,21 @@ proxy-groups:
 
 rule-providers:
 #─────────────────◉ For WARNET ◉─────────────────
+
+  Direct:
+    type: file
+    behavior: classical
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/rule_provider/direct.yaml
+    path: "./rule_provider/direct.yaml"
+    interval: 86400
+
+  rule_Direct:
+    type: file
+    behavior: classical
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/rule_provider/rule_direct.yaml
+    path: "./rule_provider/rule_direct.yaml"
+    interval: 86400
+
   d3ward:
     type: file
     behavior: domain
@@ -148,12 +177,6 @@ rule-providers:
     behavior: domain
     url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/rule_provider/rule_clash.yaml
     path: "./rule_provider/rule_clash.yaml"
-    interval: 86400
-  Direct:
-    type: file
-    behavior: classical
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/rule_provider/direct.yaml
-    path: "./rule_provider/direct.yaml"
     interval: 86400
 
   rule_falsepositive:
@@ -228,79 +251,6 @@ rule-providers:
     url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_nsfw.yaml
     path: "./rule_provider/rule_nsfw.yaml"
     interval: 43200
-
-rules:
-  ## block ads
-- DOMAIN-SUFFIX,googlesyndication.com,IKLAN
-- DOMAIN-SUFFIX,pagead2.googlesyndication.com,REJECT
-- DOMAIN-SUFFIX,pagead2.googleadservices.com,REJECT
-- DOMAIN-SUFFIX,afs.googlesyndication.com,REJECT
-- DOMAIN-SUFFIX,analytics.google.com,REJECT
-- DOMAIN-SUFFIX,udcm.yahoo.com,REJECT
-
-- AND,((GEOSITE,category-ads-all),(NOT,((DOMAIN-SUFFIX,googlesyndication.com)))),IKLAN
-- GEOSITE,category-ads-all,IKLAN
-
-  ## direct FCM
-- AND,((NETWORK,TCP),(DST-PORT,5228-5230)),DIRECT
-- AND,((NETWORK,TCP),(DST-PORT,5228-5230),(OR,((DOMAIN-KEYWORD,google)))),DIRECT
- 
-  ## block udp/quic YouTube
-- AND,((NETWORK,udp),(OR,((DST-PORT,443/80),(GEOSITE,youtube)))),REJECT
-- AND,((NETWORK,udp),(GEOSITE,youtube)),REJECT
-
-
-  # # fix dnsleak
-- IP-CIDR,127.0.0.1/32,REJECT,no-resolve
-- IP-CIDR,198.18.0.1/16,REJECT,no-resolve
-- IP-CIDR,28.0.0.1/8,REJECT,no-resolve
-- IP-CIDR6,::1/128,REJECT,no-resolve
-
-  ## rules telegram
-- GEOIP,telegram,CLASH FOCUS
-- GEOSITE,telegram,CLASH FOCUS
-
-  ## direct ntp
-- AND,((NETWORK,UDP),(DST-PORT,123)),DIRECT
-- DST-PORT,123/136/137-139,DIRECT,udp
-
-  ## rules inner, recommended untuk non kuota reguler
-- AND,((PROCESS-NAME,clash),(NOT,((IN-TYPE,inner)))),REJECT
-- IN-TYPE,inner,CLASH FOCUS
-
-
- ## final
-- DST-PORT,7895,REJECT
-- DST-PORT,7892,REJECT
-- DST-PORT,7895,REJECT
-- DST-PORT,7892,REJECT
-
-#- IP-CIDR,198.18.0.1/16,REJECT,no-resolve
-- DST-PORT,22,DIRECT
-
-- RULE-SET,rule_clash,REJECT
-- RULE-SET,Direct,DIRECT
-
-- RULE-SET,rule_lancidr,DIRECT,no-resolve
-- RULE-SET,rule_falsepositive,CLASH FOCUS
-- RULE-SET,rule_malicious,REJECT
-- RULE-SET,rule_maliciousip,REJECT
-- RULE-SET,rule_personalads,IKLAN
-- RULE-SET,rule_basicads,IKLAN
-- RULE-SET,rule_hijacking,IKLAN
-- RULE-SET,rule_privacy,IKLAN
-- RULE-SET,rule_porn,TrafficPorn
-- RULE-SET,rule_nsfw,TrafficPorn
-- RULE-SET,rule_playstore,CLASH FOCUS
-- RULE-SET,rule_umum,CLASH FOCUS
-
-- DST-PORT,9993,GLOBAL
-- RULE-SET,d3ward,IKLAN
-- GEOSITE,oisd-full,IKLAN
-- GEOSITE,rule-ads,IKLAN
-- DOMAIN-KEYWORD,pagead2.googlesyndication.com,GLOBAL
-- MATCH,GLOBAL
-
 
 port: 7890
 socks-port: 7891
@@ -535,3 +485,79 @@ sniffer:
   port-whitelist:
   - 443
   - 80
+
+rules:
+  ## block ads
+- DOMAIN-SUFFIX,googlesyndication.com,IKLAN
+- DOMAIN-SUFFIX,pagead2.googlesyndication.com,REJECT
+- DOMAIN-SUFFIX,pagead2.googleadservices.com,REJECT
+- DOMAIN-SUFFIX,afs.googlesyndication.com,REJECT
+- DOMAIN-SUFFIX,analytics.google.com,REJECT
+- DOMAIN-SUFFIX,udcm.yahoo.com,REJECT
+
+- AND,((GEOSITE,category-ads-all),(NOT,((DOMAIN-SUFFIX,googlesyndication.com)))),IKLAN
+- GEOSITE,category-ads-all,IKLAN
+
+  ## direct FCM
+- AND,((NETWORK,TCP),(DST-PORT,5228-5230)),DIRECT
+- AND,((NETWORK,TCP),(DST-PORT,5228-5230),(OR,((DOMAIN-KEYWORD,google)))),DIRECT
+ 
+  ## block udp/quic YouTube
+- AND,((NETWORK,udp),(OR,((DST-PORT,443/80),(GEOSITE,youtube)))),REJECT
+- AND,((NETWORK,udp),(GEOSITE,youtube)),REJECT
+
+
+  # # fix dnsleak
+- IP-CIDR,127.0.0.1/32,REJECT,no-resolve
+- IP-CIDR,198.18.0.1/16,REJECT,no-resolve
+- IP-CIDR,28.0.0.1/8,REJECT,no-resolve
+- IP-CIDR6,::1/128,REJECT,no-resolve
+
+  ## rules telegram
+- GEOIP,telegram,CLASH FOCUS
+- GEOSITE,telegram,CLASH FOCUS
+
+  ## direct ntp
+- AND,((NETWORK,UDP),(DST-PORT,123)),DIRECT
+- DST-PORT,123/136/137-139,DIRECT,udp
+
+  ## rules inner, recommended untuk non kuota reguler
+- AND,((PROCESS-NAME,clash),(NOT,((IN-TYPE,inner)))),REJECT
+- IN-TYPE,inner,CLASH FOCUS
+
+
+ ## final
+- DST-PORT,7895,REJECT
+- DST-PORT,7892,REJECT
+- DST-PORT,7895,REJECT
+- DST-PORT,7892,REJECT
+
+- DST-PORT,9993,GLOBAL
+- RULE-SET,d3ward,IKLAN
+- GEOSITE,oisd-full,IKLAN
+- GEOSITE,rule-ads,IKLAN
+- DOMAIN-KEYWORD,pagead2.googlesyndication.com,GLOBAL
+
+#- IP-CIDR,198.18.0.1/16,REJECT,no-resolve
+- DST-PORT,22,DIRECT
+
+- RULE-SET,rule_clash,REJECT
+- RULE-SET,Direct,DIRECT
+
+- RULE-SET,rule_lancidr,DIRECT,no-resolve
+- RULE-SET,rule_falsepositive,CLASH FOCUS
+- RULE-SET,rule_malicious,REJECT
+- RULE-SET,rule_maliciousip,REJECT
+- RULE-SET,rule_personalads,IKLAN
+- RULE-SET,rule_basicads,IKLAN
+- RULE-SET,rule_hijacking,IKLAN
+- RULE-SET,rule_privacy,IKLAN
+- RULE-SET,rule_porn,TrafficPorn
+- RULE-SET,rule_nsfw,TrafficPorn
+- RULE-SET,rule_playstore,CLASH FOCUS
+- RULE-SET,rule_umum,CLASH FOCUS
+
+- GEOSITE,whatsapp,SMATCH
+- RULE-SET,rule_Direct,SMATCH
+
+- MATCH,GLOBAL
