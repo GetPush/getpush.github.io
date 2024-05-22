@@ -533,7 +533,7 @@ rules:
 - DST-PORT,9993,GLOBAL
 - RULE-SET,d3ward,IKLAN
 #- GEOSITE,oisd-full,IKLAN
-- GEOSITE,rule-ads,IKLAN
+#- GEOSITE,rule-ads,IKLAN
 - DOMAIN-KEYWORD,pagead2.googlesyndication.com,GLOBAL
 
 #- IP-CIDR,198.18.0.1/16,REJECT,no-resolve
