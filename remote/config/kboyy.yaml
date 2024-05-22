@@ -70,7 +70,7 @@ proxy-groups:
   - EROPA
   - AMERICA
   - Trojan
-  - Direct Multi-WAN
+  - DIRECT
   url: https://cp.cloudflare.com/generate_204
   interval: '150'
 - name: CLASH BOOST
@@ -82,7 +82,7 @@ proxy-groups:
   - EROPA
   - AMERICA
   - Trojan
-  - Direct Multi-WAN
+  - DIRECT
   url: https://cp.cloudflare.com/generate_204
   interval: '150'
 
@@ -93,7 +93,7 @@ proxy-groups:
   disable-udp: false
   proxies:
   - CLASH FOCUS
-  - Direct Multi-WAN
+  - DIRECT
   url: https://cp.cloudflare.com/generate_204
   interval: '150'
 
