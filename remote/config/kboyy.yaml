@@ -558,4 +558,4 @@ rules:
 - GEOSITE,whatsapp,SMATCH
 - RULE-SET,rule_Direct,SMATCH
 
-- MATCH,GLOBAL
+- MATCH,SMATCH
