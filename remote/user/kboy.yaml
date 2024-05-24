@@ -3,28 +3,28 @@ proxy-providers:
   VIP-FR:
     type: http
     path: "./proxy_provider/Akun/VIP-FR.yaml"
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/Akun/AK-FR.yaml
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/Akun/VIP-FR.yaml
     health-check:
       enable: true
     interval: 86400
   VIP-NL:
     type: http
     path: "./proxy_provider/Akun/VIP-NL.yaml"
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/Akun/AK-NL.yaml
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/Akun/VIP-NL.yaml
     health-check:
       enable: true
     interval: 86400
   VIP-SG:
     type: http
     path: "./proxy_provider/Akun/VIP-SG.yaml"
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/Akun/AK-SG.yaml
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/Akun/VIP-SG.yaml
     health-check:
       enable: true
     interval: 86400
   VIP-US:
     type: http
     path: "./proxy_provider/Akun/VIP-US.yaml"
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/Akun/AK-US.yaml
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/Akun/VIP-US.yaml
     health-check:
       enable: true
     interval: 86400
