@@ -1,0 +1,119 @@
+proxies:
+- name: AXIS All BOOSTER B1
+  server: 172.64.153.186
+  port: 80
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vmess-us1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/662b0b2a66ac7/
+    headers:
+      Host: vmess-us1.sshkit.org
+  udp: true
+
+- name: AXIS All BOOSTER B2
+  server: 104.18.34.70
+  port: 80
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vmess-us1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/662b0b2a66ac7/
+    headers:
+      Host: vmess-us1.sshkit.org
+  udp: true
+
+- name: AXIS GAME JBR B1
+  server: 104.19.142.89
+  port: 80
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vmess-us1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/662b0b2a66ac7/
+    headers:
+      Host: vmess-us1.sshkit.org
+  udp: true
+
+- name: AXIS GAME JBR B2
+  server: 104.16.108.96
+  port: 80
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vmess-us1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/662b0b2a66ac7/
+    headers:
+      Host: vmess-us1.sshkit.org
+  udp: true
+
+- name: AXIS GAME JTM
+  server: 104.18.21.94
+  port: 80
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vmess-us1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/662b0b2a66ac7/
+    headers:
+      Host: vmess-us1.sshkit.org
+  udp: true
+
+- name: AXIS GAME B2
+  server: 104.18.20.94
+  port: 80
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vmess-us1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/662b0b2a66ac7/
+    headers:
+      Host: vmess-us1.sshkit.org
+  udp: true
+
+- name: XL AXIS OPOK B7
+  server: 104.17.58.20
+  port: 80
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vmess-us1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/662b0b2a66ac7/
+    headers:
+      Host: vmess-us1.sshkit.org
+  udp: true
