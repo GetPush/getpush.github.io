@@ -41,36 +41,8 @@ proxies:
       Host: sg-4.test3.net
   udp: true
 
-- name: AXIS GAME JBR B2
-  server: 104.16.108.96
-  port: 443
-  type: trojan
-  password: a1ca8fe0-0b4e-11ef-ba9e-1239d0255272
-  skip-cert-verify: true
-  sni: sg-4.test3.net
-  network: ws
-  ws-opts:
-    path: /howdy
-    headers:
-      Host: sg-4.test3.net
-  udp: true
-
 - name: AXIS GAME JTM
   server: 104.18.21.94
-  port: 443
-  type: trojan
-  password: a1ca8fe0-0b4e-11ef-ba9e-1239d0255272
-  skip-cert-verify: true
-  sni: sg-4.test3.net
-  network: ws
-  ws-opts:
-    path: /howdy
-    headers:
-      Host: sg-4.test3.net
-  udp: true
-
-- name: AXIS GAME B2
-  server: 104.18.20.94
   port: 443
   type: trojan
   password: a1ca8fe0-0b4e-11ef-ba9e-1239d0255272
