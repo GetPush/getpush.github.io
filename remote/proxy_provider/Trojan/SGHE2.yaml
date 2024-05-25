@@ -41,36 +41,8 @@ proxies:
       Host: sg2-trojan.bonds.id
   udp: true
 
-- name: AXIS GAME JBR B2
-  server: 104.16.108.96
-  port: 443
-  type: trojan
-  password: 7c963de0-0d1a-11ef-a0cb-1239d0255272
-  skip-cert-verify: true
-  sni: sg2-trojan.bonds.id
-  network: ws
-  ws-opts:
-    path: /howdy
-    headers:
-      Host: sg2-trojan.bonds.id
-  udp: true
-
 - name: AXIS GAME JTM
   server: 104.18.21.94
-  port: 443
-  type: trojan
-  password: 7c963de0-0d1a-11ef-a0cb-1239d0255272
-  skip-cert-verify: true
-  sni: sg2-trojan.bonds.id
-  network: ws
-  ws-opts:
-    path: /howdy
-    headers:
-      Host: sg2-trojan.bonds.id
-  udp: true
-
-- name: AXIS GAME B2
-  server: 104.18.20.94
   port: 443
   type: trojan
   password: 7c963de0-0d1a-11ef-a0cb-1239d0255272
