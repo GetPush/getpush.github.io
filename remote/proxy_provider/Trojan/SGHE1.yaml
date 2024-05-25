@@ -69,20 +69,6 @@ proxies:
       Host: sg1-trojan.bonds.id
   udp: true
 
-- name: AXIS GAME B2
-  server: 104.18.20.94
-  port: 443
-  type: trojan
-  password: 40695840-0d1c-11ef-9a47-1239d0255272
-  skip-cert-verify: true
-  sni: sg1-trojan.bonds.id
-  network: ws
-  ws-opts:
-    path: /howdy
-    headers:
-      Host: sg1-trojan.bonds.id
-  udp: true
-
 - name: XL AXIS OPOK B7
   server: 104.17.58.20
   port: 443
