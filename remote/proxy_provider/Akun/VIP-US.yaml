@@ -11,7 +11,7 @@ proxies:
   servername: vmess-us1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0b2a66ac7/
+    path: /sshkit/1828396894/66541fcec0734/
     headers:
       Host: vmess-us1.sshkit.org
   udp: true
@@ -28,7 +28,7 @@ proxies:
   servername: vmess-us1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0b2a66ac7/
+    path: /sshkit/1828396894/66541fcec0734/
     headers:
       Host: vmess-us1.sshkit.org
   udp: true
@@ -45,7 +45,7 @@ proxies:
   servername: vmess-us1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0b2a66ac7/
+    path: /sshkit/1828396894/66541fcec0734/
     headers:
       Host: vmess-us1.sshkit.org
   udp: true
@@ -62,7 +62,7 @@ proxies:
   servername: vmess-us1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0b2a66ac7/
+    path: /sshkit/1828396894/66541fcec0734/
     headers:
       Host: vmess-us1.sshkit.org
   udp: true
@@ -79,7 +79,7 @@ proxies:
   servername: vmess-us1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0b2a66ac7/
+    path: /sshkit/1828396894/66541fcec0734/
     headers:
       Host: vmess-us1.sshkit.org
   udp: true
@@ -96,7 +96,7 @@ proxies:
   servername: vmess-us1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0b2a66ac7/
+    path: /sshkit/1828396894/66541fcec0734/
     headers:
       Host: vmess-us1.sshkit.org
   udp: true
@@ -113,7 +113,7 @@ proxies:
   servername: vmess-us1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0b2a66ac7/
+    path: /sshkit/1828396894/66541fcec0734/
     headers:
       Host: vmess-us1.sshkit.org
   udp: true
@@ -130,7 +130,7 @@ proxies:
   servername: vmess-us1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0b2a66ac7/
+    path: /sshkit/1828396894/66541fcec0734/
     headers:
       Host: vmess-us1.sshkit.org
   udp: true
