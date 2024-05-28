@@ -1,6 +1,6 @@
 proxies:
 - name: AK-FR AXIS All BOOSTER B2
-  server: 104.18.160.90
+  server: 104.18.34.70
   port: 80
   type: vmess
   uuid: e620d600-ee19-4012-a96c-968e85a52de9
@@ -11,12 +11,12 @@ proxies:
   servername: vmess-fr1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0b6dcf82b/
+    path: /sshkit/1828396894/66542014c65d2/
     headers:
       Host: vmess-fr1.sshkit.org
   udp: true
 - name: AK-SG AXIS All BOOSTER B2
-  server: 104.18.160.90
+  server: 104.18.34.70
   port: 80
   type: vmess
   uuid: e620d600-ee19-4012-a96c-968e85a52de9
@@ -27,12 +27,12 @@ proxies:
   servername: vmess-sg1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0adc0bd58/
+    path: /sshkit/1828396894/66541f2a32722/
     headers:
       Host: vmess-sg1.sshkit.org
   udp: true
 - name: AK-NL AXIS All BOOSTER B2
-  server: 104.18.160.90
+  server: 104.18.34.70
   port: 80
   type: vmess
   uuid: e620d600-ee19-4012-a96c-968e85a52de9
@@ -43,7 +43,7 @@ proxies:
   servername: vmess-nl1.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/1828396894/662b0b918b55e/
+    path: /sshkit/1828396894/6654205ede26b/
     headers:
       Host: vmess-nl1.sshkit.org
   udp: true
