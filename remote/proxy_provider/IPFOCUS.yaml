@@ -1,4 +1,21 @@
 proxies:
+- name: ex 6 juni
+  server: 104.18.34.70
+  port: 443
+  type: vmess
+  uuid: 7f126063-4fa3-4b7f-b859-6bda225c16a2
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: id1.v2vmess.site
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: id1.v2vmess.site
+  udp: true
+
 - name: AXIS XL EDUKASI EC1
   server: edu.ruangguru.com
   port: 80
