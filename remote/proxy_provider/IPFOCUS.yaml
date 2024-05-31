@@ -18,12 +18,12 @@ proxies:
 
 - name: AXIS XL EDUKASI EC1
   server: edu.ruangguru.com
-  port: 80
+  port: 443
   type: vmess
   uuid: e620d600-ee19-4012-a96c-968e85a52de9
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: true
   servername: vmess-sg1.sshkit.org
   network: ws
@@ -35,12 +35,12 @@ proxies:
 
 - name: AXIS XL APP CONFERENCE CHAT LINE WA MEETING EC
   server: sogood.linefriends.com
-  port: 80
+  port: 443
   type: vmess
   uuid: e620d600-ee19-4012-a96c-968e85a52de9
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: true
   servername: vmess-sg1.sshkit.org
   network: ws
@@ -52,12 +52,12 @@ proxies:
 
 - name: AXIS CONFERENCE EC1
   server: cdn-cf.zoom.us
-  port: 80
+  port: 443
   type: vmess
   uuid: e620d600-ee19-4012-a96c-968e85a52de9
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: true
   servername: vmess-sg1.sshkit.org
   network: ws
@@ -69,12 +69,12 @@ proxies:
 
 - name: AXIS CONFERENCE EC3
   server: 141.193.213.10
-  port: 80
+  port: 443
   type: vmess
   uuid: e620d600-ee19-4012-a96c-968e85a52de9
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: true
   servername: vmess-sg1.sshkit.org
   network: ws
@@ -86,12 +86,12 @@ proxies:
 
 - name: AXIS GAME ALL TKP EC
   server: cdn.appsflyer.com
-  port: 80
+  port: 443
   type: vmess
   uuid: e620d600-ee19-4012-a96c-968e85a52de9
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: true
   servername: vmess-sg1.sshkit.org
   network: ws
@@ -103,12 +103,12 @@ proxies:
 
 - name: AXIS GENFLIX EC
   server: 104.21.30.242
-  port: 80
+  port: 443
   type: vmess
   uuid: e620d600-ee19-4012-a96c-968e85a52de9
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: true
   servername: vmess-sg1.sshkit.org
   network: ws
@@ -120,12 +120,12 @@ proxies:
 
 - name: AXIS MUSIK EC
   server: investors.spotify.com
-  port: 80
+  port: 443
   type: vmess
   uuid: e620d600-ee19-4012-a96c-968e85a52de9
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: true
   servername: vmess-sg1.sshkit.org
   network: ws
@@ -137,12 +137,12 @@ proxies:
 
 - name: AXIS SOSMED EC
   server: 104.16.51.111
-  port: 80
+  port: 443
   type: vmess
   uuid: e620d600-ee19-4012-a96c-968e85a52de9
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: true
   servername: vmess-sg1.sshkit.org
   network: ws
@@ -154,12 +154,12 @@ proxies:
 
 - name: AXIS SUSHIROLL EC
   server: blog.sushiroll.co.id
-  port: 80
+  port: 443
   type: vmess
   uuid: e620d600-ee19-4012-a96c-968e85a52de9
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: true
   servername: vmess-sg1.sshkit.org
   network: ws
@@ -171,12 +171,12 @@ proxies:
 
 - name: AXIS VIDIO EC
   server: quiz.vidio.com
-  port: 80
+  port: 443
   type: vmess
   uuid: e620d600-ee19-4012-a96c-968e85a52de9
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: true
   servername: vmess-sg1.sshkit.org
   network: ws
@@ -188,12 +188,12 @@ proxies:
 
 - name: AXIS VIU EC
   server: 104.18.0.139
-  port: 80
+  port: 443
   type: vmess
   uuid: e620d600-ee19-4012-a96c-968e85a52de9
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: true
   servername: vmess-sg1.sshkit.org
   network: ws
