@@ -1,5 +1,5 @@
 proxies:
-- name: ex 6 juni
+- name: id1 ex 6 juni
   server: 104.18.34.70
   port: 443
   type: vmess
@@ -16,19 +16,19 @@ proxies:
       Host: id1.v2vmess.site
   udp: true
 
-- name: ex 7 juni
+- name: id2 ex 9 juni
   server: 104.18.34.70
   port: 443
   type: vmess
-  uuid: 154f6e78-bac8-4718-a5e2-3a1ad44c0cfe
+  uuid: f2524758-98a9-4165-820c-f2cae53e4eb0
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: id2-ray.ipservers.xyz
+  servername: id2.v2vmess.site
   network: ws
   ws-opts:
-    path: /JAGOANSSH/
+    path: /vmess
     headers:
-      Host: id2-ray.ipservers.xyz
+      Host: id2.v2vmess.site
   udp: true
