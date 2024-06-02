@@ -1,18 +1,4 @@
 proxies:
-- name: AXIS All BOOSTER B1
-  server: 172.64.153.186
-  port: 443
-  type: trojan
-  password: 40695840-0d1c-11ef-9a47-1239d0255272
-  skip-cert-verify: true
-  sni: sg1-trojan.bonds.id
-  network: ws
-  ws-opts:
-    path: /howdy
-    headers:
-      Host: sg1-trojan.bonds.id
-  udp: true
-
 - name: AXIS All BOOSTER B2
   server: 104.18.34.70
   port: 443
