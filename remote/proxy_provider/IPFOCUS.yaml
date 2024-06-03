@@ -49,3 +49,55 @@ proxies:
     headers:
       Host: id3.v2vmess.site
   udp: true
+
+#game jbr b1
+- name: id1 b1 ex 6 juni
+  server: 104.19.142.89
+  port: 443
+  type: vmess
+  uuid: 7f126063-4fa3-4b7f-b859-6bda225c16a2
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: id1.v2vmess.site
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: id1.v2vmess.site
+  udp: true
+
+- name: id2 b1 ex 9 juni
+  server: 104.19.142.89
+  port: 443
+  type: vmess
+  uuid: f2524758-98a9-4165-820c-f2cae53e4eb0
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: id2.v2vmess.site
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: id2.v2vmess.site
+  udp: true
+
+- name: id3 b1 ex 9 juni
+  server: 104.19.142.89
+  port: 443
+  type: vmess
+  uuid: 5b646fcc-d238-48e9-bd1f-b99dad21bd84
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: id3.v2vmess.site
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: id3.v2vmess.site
+  udp: true
