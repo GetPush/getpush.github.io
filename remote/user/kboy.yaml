@@ -1,4 +1,5 @@
 ---
+proxies:
 proxy-providers:
   VIP-FR:
     type: http
