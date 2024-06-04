@@ -897,14 +897,14 @@ rules:
 - RULE-SET,rule_hbohk,Traffic 🇮🇩
 - RULE-SET,rule_hbousa,Traffic 🇮🇩
 
-- GEOSITE,whatsapp,Clash😹
+#- GEOSITE,whatsapp,Clash😹
 - RULE-SET,rule_Direct,Clash😹
 
 - MATCH,GLOBAL
 #─────────────────◉ WARNET and ◉─────────────────
-- GEOSITE,rule-streaming,TrafficStreaming
-- GEOSITE,videoconference,TrafficStreaming
-- GEOSITE,rule-sosmed,TrafficSosmed
+#- GEOSITE,rule-streaming,TrafficStreaming
+#- GEOSITE,videoconference,TrafficStreaming
+#- GEOSITE,rule-sosmed,TrafficSosmed
 - GEOIP,facebook,TrafficSosmed
 - GEOIP,twitter,TrafficSosmed
 - GEOIP,netflix,TrafficStreaming
