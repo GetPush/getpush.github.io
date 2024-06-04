@@ -1,5 +1,4 @@
-#---
-proxies:
+---
 proxy-providers:
   VIP-FR:
     type: http
@@ -559,10 +558,10 @@ external-ui: /data/adb/box/clash/ui #external-ui: /usr/share/openclash/ui
 experimental:
   ignore-resolve-fail: true
 
- geox-url:
-   mmdb: "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb"
-   geoip: "https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/geoip.dat"
-   geosite: "https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/geosite.dat"
+# geox-url:
+  # mmdb: "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb"
+  # geoip: "https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/geoip.dat"
+  # geosite: "https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/geosite.dat"
 
 profile:
   store-selected: true
@@ -978,3 +977,4 @@ script:
     TCPgames: network == 'tcp' and dst_port not in [21, 22, 23, 53, 80, 123, 143, 194, 443, 465, 587, 853, 993, 995, 998, 2052, 2053, 2082, 2083, 2086, 2095, 2096, 5222, 5228, 5229, 5230, 8080, 8443, 8880, 8883, 8888, 8889]
     UDPgames: network == 'udp' and dst_port not in [21, 22, 23, 53, 80, 123, 143, 194, 443, 465, 587, 853, 993, 995, 998, 2052, 2053, 2082, 2083, 2086, 2095, 2096, 5222, 5228, 5229, 5230, 8080, 8443, 8880, 8883, 8888, 8889]
     speedtest: network == "tcp" and match_provider("rule_Speedtest")
+
