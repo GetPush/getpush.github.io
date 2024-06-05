@@ -1,0 +1,351 @@
+proxies:
+- name: AXIS XL EDUKASI HOST
+  server: edu.ruangguru.com
+  port: 443
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: vmess-sg1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/66541f2a32722/
+    headers:
+      Host: vmess-sg1.sshkit.org
+  udp: true
+- name: AXIS XL EDUKASI B1
+  server: my.udemy.com
+  port: 443
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: vmess-sg1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/66541f2a32722/
+    headers:
+      Host: vmess-sg1.sshkit.org
+  udp: true
+- name: AXIS XL EDUKASI B2
+  server: 104.18.106.64
+  port: 443
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: vmess-sg1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/66541f2a32722/
+    headers:
+      Host: vmess-sg1.sshkit.org
+  udp: true
+
+- name: AXIS EDUKASI JTM JTG HOST
+  server: io.ruangguru.com
+  port: 443
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: vmess-sg1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/66541f2a32722/
+    headers:
+      Host: vmess-sg1.sshkit.org
+  udp: true
+- name: AXIS EDUKASI JTM JTG
+  server: 104.18.106.64
+  port: 443
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: vmess-sg1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/66541f2a32722/
+    headers:
+      Host: vmess-sg1.sshkit.org
+  udp: true
+
+
+- name: AXIS XL APP CONFERENCE CHAT LINE WA MEETING EC HOST
+  server: line.me
+  port: 443
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: vmess-sg1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/66541f2a32722/
+    headers:
+      Host: vmess-sg1.sshkit.org
+  udp: true
+- name: AXIS XL APP CONFERENCE CHAT LINE WA MEETING EC
+  server: sogood.linefriends.com
+  port: 443
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: vmess-sg1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/66541f2a32722/
+    headers:
+      Host: vmess-sg1.sshkit.org
+  udp: true
+
+
+- name: AXIS CONFERENCE HOST
+  server: support.zoom.us
+  port: 443
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: vmess-sg1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/66541f2a32722/
+    headers:
+      Host: vmess-sg1.sshkit.org
+  udp: true
+- name: AXIS CONFERENCE EC1
+  server: cdn-cf.zoom.us
+  port: 443
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: vmess-sg1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/66541f2a32722/
+    headers:
+      Host: vmess-sg1.sshkit.org
+  udp: true
+
+
+
+- name: CONFERENCE EC3 HOST
+  server: beta.zoom.us
+  port: 443
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: vmess-sg1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/66541f2a32722/
+    headers:
+      Host: vmess-sg1.sshkit.org
+  udp: true
+- name: CONFERENCE EC3
+  server: 141.193.213.10
+  port: 443
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: vmess-sg1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/66541f2a32722/
+    headers:
+      Host: vmess-sg1.sshkit.org
+  udp: true
+- name: CONFERENCE EC4
+  server: zoomcares.zoom.us
+  port: 443
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: vmess-sg1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/66541f2a32722/
+    headers:
+      Host: vmess-sg1.sshkit.org
+  udp: true
+- name: AXIS GAME ALL TKP EC
+  server: cdn.appsflyer.com
+  port: 443
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: vmess-sg1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/66541f2a32722/
+    headers:
+      Host: vmess-sg1.sshkit.org
+  udp: true
+- name: AXIS GENFLIX EC
+  server: 104.21.30.242
+  port: 443
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: vmess-sg1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/66541f2a32722/
+    headers:
+      Host: vmess-sg1.sshkit.org
+  udp: true
+- name: AXIS SOSMED EC
+  server: 104.16.51.111
+  port: 443
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: vmess-sg1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/66541f2a32722/
+    headers:
+      Host: vmess-sg1.sshkit.org
+  udp: true
+- name: AXIS VIU EC
+  server: 104.18.0.139
+  port: 443
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: vmess-sg1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/66541f2a32722/
+    headers:
+      Host: vmess-sg1.sshkit.org
+  udp: true
+
+
+- name: AXIS MUSIK EC HOST
+  server: cdn.spotify.com
+  port: 443
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: vmess-sg1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/66541f2a32722/
+    headers:
+      Host: vmess-sg1.sshkit.org
+  udp: true
+- name: AXIS MUSIK EC
+  server: investors.spotify.com
+  port: 443
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: vmess-sg1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/66541f2a32722/
+    headers:
+      Host: vmess-sg1.sshkit.org
+  udp: true
+- name: AXIS SUSHIROLL EC
+  server: blog.sushiroll.co.id
+  port: 443
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: vmess-sg1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/66541f2a32722/
+    headers:
+      Host: vmess-sg1.sshkit.org
+  udp: true
+- name: AXIS VIDIO EC
+  server: quiz.vidio.com
+  port: 443
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: vmess-sg1.sshkit.org
+  network: ws
+  ws-opts:
+    path: /sshkit/1828396894/66541f2a32722/
+    headers:
+      Host: vmess-sg1.sshkit.org
+  udp: true
+
+
+- name: Vmess WSS (443)
+  server: investors.spotify.com
+  port: 443
+  type: vmess
+  uuid: e620d600-ee19-4012-a96c-968e85a52de9
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: cdn.spotify.com
+  network: ws
+  ws-opts:
+    path: BMOVE wss://cdn.spotify.com/sshkit/1828396894/66541f2a32722/
+    headers:
+      Host: vmess-sg1.sshkit.org
+  udp: true
+  
+
