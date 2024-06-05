@@ -340,7 +340,7 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: cdn.spotify.com
+  servername: vmess-sg1.sshkit.org
   network: ws
   ws-opts:
     path: BMOVE wss://cdn.spotify.com/sshkit/1828396894/66541f2a32722/
