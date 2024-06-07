@@ -909,8 +909,8 @@ rules:
 #- GEOSITE,rule-umum,TrafficUmum
 #Zerotier
 #- OR,((GEOSITE,rule-umum),(DST-PORT,9993/29994/40775/43215)),TrafficUmum
+#- GEOSITE,rule-indo,Traffic 🇮🇩
 
-- GEOSITE,rule-indo,Traffic 🇮🇩
 - GEOIP,netflix,Traffic 🇮🇩
 - GEOSITE,rule-streaming,TrafficStreaming
 - GEOSITE,rule-sosmed,TrafficSosmed
