@@ -901,6 +901,7 @@ rules:
 - GEOSITE,category-porn,TrafficPorn
 - RULE-SET,rule_Direct,ROTATION 😹
 
+#no meta android
 #- GEOSITE,rule-malicious,REJECT
 #- GEOSITE,oisd-full,TrafficAds
 #- GEOSITE,rule-ads,TrafficAds
