@@ -900,7 +900,7 @@ rules:
 - AND,((NETWORK,udp),(GEOSITE,youtube)),REJECT
 
 - GEOIP,private,DIRECT,no-resolve
-- GEOSITE,rule-malicious,REJECT
+#- GEOSITE,rule-malicious,REJECT
 #- GEOSITE,oisd-full,TrafficAds
 #- GEOSITE,rule-ads,TrafficAds
 - GEOSITE,oisd-nsfw,TrafficPorn
