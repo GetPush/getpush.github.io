@@ -19,12 +19,11 @@ payload:
 - +.analyticsengine.s3.amazonaws.com
 - +.analytics.s3.amazonaws.com
 - +.advice-ads.s3.amazonaws.com
+- +.advertising-api-eu.amazon.com
 
 # --- Google Ads
-- +.pagead2.googlesyndication.com
 - +.adservice.google.com
 - +.pagead2.googleadservices.com
-- +.afs.googlesyndication.com
 
 # --- Doubleclick.net
 - +.stats.g.doubleclick.net
@@ -122,6 +121,7 @@ payload:
 - +.log.pinterest.com
 - +.analytics.pinterest.com
 - +.trk.pinterest.com
+- +.widgets.pinterest.com
 
 # --- Reddit
 - +.events.reddit.com
@@ -148,6 +148,7 @@ payload:
 - +.geo.yahoo.com
 - +.udc.yahoo.com
 - +.udcm.yahoo.com
+- +.advertising.yahoo.com
 - +.analytics.query.yahoo.com
 - +.partnerads.ysm.yahoo.com
 - +.log.fc.yahoo.com
@@ -159,6 +160,7 @@ payload:
 - +.appmetrica.yandex.ru
 - +.adfstat.yandex.ru
 - +.metrika.yandex.ru
+- +.advertising.yandex.ru
 - +.offerwall.yandex.net
 - +.adfox.yandex.ru
 
@@ -212,6 +214,7 @@ payload:
 - +.analytics-api.samsunghealthcn.com
 
 # --- Apple
+- +.advertising.apple.com
 - +.iadsdk.apple.com
 - +.metrics.icloud.com
 - +.metrics.mzstatic.com
