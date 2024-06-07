@@ -2,6 +2,7 @@ payload:
   - DOMAIN-KEYWORD,whatsapp
   - DOMAIN-SUFFIX,media-cgk2-1.cdn.whatsapp.net
   - DOMAIN-SUFFIX,media-sin6-1.cdn.whatsapp.net
+  - DOMAIN-SUFFIX,g.whatsapp.net
 
   # Mulai baris ini kebawah bisa di edit/hapus
 # > Whatsapp direct
