@@ -900,15 +900,17 @@ rules:
 - AND,((NETWORK,udp),(GEOSITE,youtube)),REJECT
 
 - GEOIP,private,DIRECT,no-resolve
+- GEOSITE,category-porn,TrafficPorn
+- RULE-SET,rule_Direct,ROTATION 😹
+
 #- GEOSITE,rule-malicious,REJECT
 #- GEOSITE,oisd-full,TrafficAds
 #- GEOSITE,rule-ads,TrafficAds
 #- GEOSITE,oisd-nsfw,TrafficPorn
-- GEOSITE,category-porn,TrafficPorn
-- RULE-SET,rule_Direct,ROTATION 😹
-- GEOSITE,rule-umum,TrafficUmum
+#- GEOSITE,rule-umum,TrafficUmum
 #Zerotier
-- OR,((GEOSITE,rule-umum),(DST-PORT,9993/29994/40775/43215)),TrafficUmum
+#- OR,((GEOSITE,rule-umum),(DST-PORT,9993/29994/40775/43215)),TrafficUmum
+
 - GEOSITE,rule-indo,Traffic 🇮🇩
 - GEOIP,netflix,Traffic 🇮🇩
 - GEOSITE,rule-streaming,TrafficStreaming
