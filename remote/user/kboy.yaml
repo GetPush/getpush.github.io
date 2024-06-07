@@ -2,78 +2,58 @@ proxies:
 proxy-providers:
   VIP-FR:
     type: http
-    path: "./proxy_provider/Akun/VIP-FR.yaml"
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/Akun/VIP-FR.yaml
+    path: "./proxy_provider/VIP/VIP-FR.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/VIP/VIP-FR.yaml
     health-check:
       enable: true
     interval: 86400
   VIP-NL:
     type: http
-    path: "./proxy_provider/Akun/VIP-NL.yaml"
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/Akun/VIP-NL.yaml
+    path: "./proxy_provider/VIP/VIP-NL.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/VIP/VIP-NL.yaml
     health-check:
       enable: true
     interval: 86400
   VIP-SG:
     type: http
-    path: "./proxy_provider/Akun/VIP-SG.yaml"
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/Akun/VIP-SG.yaml
+    path: "./proxy_provider/VIP/VIP-SG.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/VIP/VIP-SG.yaml
     health-check:
       enable: true
     interval: 86400
   VIP-US:
     type: http
-    path: "./proxy_provider/Akun/VIP-US.yaml"
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/Akun/VIP-US.yaml
+    path: "./proxy_provider/VIP/VIP-US.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/VIP/VIP-US.yaml
     health-check:
       enable: true
     interval: 86400
 
-#─────────────────◉ WARNET & OpenWrt ◉─────────────────
+#──────────────◉ WARNET & OpenWrt ◉──────────────
 #Trojan
-  TR-SGHE1:
+  TROJAN:
     type: http
-    path: "./proxy_provider/Trojan/SGHE1.yaml"
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/Trojan/SGHE1.yaml
-    health-check:
-      enable: true
-    interval: 86400
-  TR-SGHE2:
-    type: http
-    path: "./proxy_provider/Trojan/SGHE2.yaml"
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/Trojan/SGHE2.yaml
-    health-check:
-      enable: true
-    interval: 86400
-  TR-SGHE3:
-    type: http
-    path: "./proxy_provider/Trojan/SGHE3.yaml"
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/Trojan/SGHE3.yaml
-    health-check:
-      enable: true
-    interval: 86400
-  TR-SGMELBI:
-    type: http
-    path: "./proxy_provider/Trojan/SGMELBI.yaml"
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/Trojan/SGMELBI.yaml
+    path: "./proxy_provider/TROJAN.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/TROJAN.yaml
     health-check:
       enable: true
     interval: 86400
 
-  IPFOCUS:
+  IPIndo:
     type: http
-    path: "./proxy_provider/IPFOCUS.yaml"
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/IPFOCUS.yaml
+    path: "./proxy_provider/IPIndo.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/IPIndo.yaml
     health-check:
       enable: true
     interval: 86400
 
 proxy-groups:
-- name: OpenClash
+- name: TrafficUmum
   type: select
   proxies:
-  - Clash😹
-  - BOOST🚀
+  - ROTATION 😹
+  - STABLE 💡
+  - BOOSTER 🚀
   - SG 🇸🇬
   - NL 🇳🇱
   - FR 🇫🇷
@@ -91,15 +71,15 @@ proxy-groups:
   strategy: round-robin
   disable-udp: false
   use:
-  - IPFOCUS
+  - IPIndo
   url: https://cp.cloudflare.com/generate_204
   interval: '50'
 
-- name: IKLAN
+- name: TrafficAds
   type: select
   disable-udp: false
   proxies:
-  - OpenClash
+  - TrafficUmum
   - REJECT
   url: https://cp.cloudflare.com/generate_204
   interval: '50'
@@ -108,9 +88,10 @@ proxy-groups:
   disable-udp: false
   proxies:
   - REJECT
-  - Clash😹
-  - BOOST🚀
-  - OpenClash
+  - ROTATION 😹
+  - STABLE 💡
+  - BOOSTER 🚀
+  - TrafficUmum
   url: https://cp.cloudflare.com/generate_204
   interval: '50'
 
@@ -120,26 +101,92 @@ proxy-groups:
   lazy: true
   disable-udp: false
   proxies:
-  - OpenClash
-  - BOOST🚀
-  - Clash😹
+  - STABLE 💡
+  - BOOSTER 🚀
+  - TrafficUmum
   - Route 🇮🇩
   - DIRECT
   - DIRECT Interface
-  - REJECT
   url: https://cp.cloudflare.com/generate_204
   interval: '30'
+
+- name: TrafficGaming
+  type: select
+  disable-udp: false
+  proxies:
+  - Route 🇮🇩
+  - IPFOCUS
+  - TrafficUmum
+  - STABLE 💡
+  - BOOSTER 🚀
+  - Trojan
+  - DIRECT
+  - DIRECT Interface
+  url: https://cp.cloudflare.com/generate_204
+  interval: '50'
+
+- name: TrafficStreaming
+  type: select
+  strategy: round-robin
+  lazy: true
+  disable-udp: false
+  proxies:
+  - STABLE 💡
+  - BOOSTER 🚀
+  - TrafficUmum
+  - DIRECT
+  - DIRECT Interface
+  url: https://cp.cloudflare.com/generate_204
+  interval: '30'
+- name: TrafficSosmed
+  type: select
+  strategy: round-robin
+  lazy: true
+  disable-udp: false
+  proxies:
+  - STABLE 💡
+  - BOOSTER 🚀
+  - TrafficUmum
+  - DIRECT
+  - DIRECT Interface
+  url: https://cp.cloudflare.com/generate_204
+  interval: '30'
+
+- name: TrafficPortGames
+  type: fallback
+  strategy: round-robin
+  lazy: true
+  disable-udp: false
+  proxies:
+  - TrafficGaming
+  url: https://cp.cloudflare.com/generate_204
+  interval: '50'
+
 - name: Route 🇮🇩
   type: load-balance
+  strategy: round-robin
   lazy: true
   disable-udp: false
   use:
-  - IPFOCUS
+  - IPIndo
   url: https://cp.cloudflare.com/generate_204
-  interval: '150'
-
-- name: BOOST🚀
+  interval: '50'
+- name: ROTATION 😹
+  type: fallback
+  strategy: round-robin
+  lazy: true
+  disable-udp: false
+  proxies:
+  - BOOSTER 🚀
+  - STABLE 💡
+  - Trojan
+  - DIRECT
+  - DIRECT Interface
+  url: https://cp.cloudflare.com/generate_204
+  interval: '30'
+- name: STABLE 💡
   type: load-balance
+  strategy: round-robin
   lazy: true
   disable-udp: false
   proxies:
@@ -149,6 +196,19 @@ proxy-groups:
   - US 🇺🇸
   url: https://cp.cloudflare.com/generate_204
   interval: '150'
+- name: BOOSTER 🚀
+  type: url-test
+  strategy: round-robin
+  lazy: true
+  disable-udp: false
+  proxies:
+  - SG 🇸🇬
+  - NL 🇳🇱
+  - FR 🇫🇷
+  - US 🇺🇸
+  url: https://cp.cloudflare.com/generate_204
+  interval: '100'
+
 - name: SG 🇸🇬
   type: load-balance
   strategy: round-robin
@@ -186,89 +246,15 @@ proxy-groups:
   strategy: round-robin
   disable-udp: false
   use:
-  - TR-SGHE1
-  - TR-SGHE2
-  - TR-SGHE3
-  - TR-SGMELBI
+  - TROJAN
   url: https://cp.cloudflare.com/generate_204
   interval: '150'
-
-- name: Clash😹
-  type: fallback
-  strategy: round-robin
-  lazy: true
-  disable-udp: false
-  proxies:
-  - BOOST🚀
-  - Route 🇮🇩
-  - Trojan
-  - IPFOCUS
-  - DIRECT
-  - DIRECT Interface
-  url: https://cp.cloudflare.com/generate_204
-  interval: '30'
-
-#─────────────────◉ And War & Wrt ◉─────────────────
-- name: TrafficGaming
-  type: select
-  disable-udp: false
-  proxies:
-  - IPFOCUS
-  - Route 🇮🇩
-  - DIRECT
-  - DIRECT Interface
-  - OpenClash
-  - Trojan
-  url: https://cp.cloudflare.com/generate_204
-  interval: '50'
-
-- name: TrafficStreaming
-  type: select
-  strategy: round-robin
-  lazy: true
-  disable-udp: false
-  proxies:
-  - OpenClash
-  - BOOST🚀
-  - Clash😹
-  - IPFOCUS
-  - DIRECT
-  - DIRECT Interface
-  - REJECT
-  url: https://cp.cloudflare.com/generate_204
-  interval: '30'
-- name: TrafficSosmed
-  type: select
-  strategy: round-robin
-  lazy: true
-  disable-udp: false
-  proxies:
-  - OpenClash
-  - BOOST🚀
-  - Clash😹
-  - IPFOCUS
-  - DIRECT
-  - DIRECT Interface
-  - REJECT
-  url: https://cp.cloudflare.com/generate_204
-  interval: '30'
-
-- name: TrafficPortGames
-  type: select
-  disable-udp: false
-  proxies:
-  - TrafficGaming
-  - DIRECT
-  - DIRECT Interface
-  url: https://cp.cloudflare.com/generate_204
-  interval: '50'
-
 
 - name: DIRECT Interface
   type: select
   disable-udp: false
   interface-name: usb0
- # (usb0) ubah sesuai interface yg mau direct: eth1 wlan0 eth2 usb0
+ # (usb0) interface: eth1 wlan0 eth2 usb0
   proxies:
   - DIRECT
   url: https://cp.cloudflare.com/generate_204
@@ -547,13 +533,13 @@ allow-lan: true
 bind-address: '*'
 log-level: info
 ipv6: false
-geodata-mode: false
+geodata-mode: true
 geodata-loader: memconservative
 unified-delay: true
 
 external-controller: 0.0.0.0:9090 #external-controller: 127.0.0.1:9090
 # secret: "123456"
-external-ui: /data/adb/box/clash/ui #external-ui: /usr/share/openclash/ui
+external-ui: /data/adb/box/clash/ui #external-ui: /usr/share/TrafficUmum/ui
 
 experimental:
   ignore-resolve-fail: true
@@ -819,24 +805,9 @@ sniffer:
   - 80
 
 rules:
-  ## block ads
-- DOMAIN-SUFFIX,googlesyndication.com,IKLAN
-- DOMAIN-SUFFIX,pagead2.googlesyndication.com,REJECT
-- DOMAIN-SUFFIX,pagead2.googleadservices.com,REJECT
-- DOMAIN-SUFFIX,afs.googlesyndication.com,REJECT
-- DOMAIN-SUFFIX,analytics.google.com,REJECT
-- DOMAIN-SUFFIX,udcm.yahoo.com,REJECT
-
-- AND,((GEOSITE,category-ads-all),(NOT,((DOMAIN-SUFFIX,googlesyndication.com)))),IKLAN
-- GEOSITE,category-ads-all,IKLAN
-
   ## direct FCM
 - AND,((NETWORK,TCP),(DST-PORT,5228-5230)),DIRECT
 - AND,((NETWORK,TCP),(DST-PORT,5228-5230),(OR,((DOMAIN-KEYWORD,google)))),DIRECT
- 
-  ## block udp/quic YouTube
-- AND,((NETWORK,udp),(OR,((DST-PORT,443/80),(GEOSITE,youtube)))),REJECT
-- AND,((NETWORK,udp),(GEOSITE,youtube)),REJECT
 
 
   # # fix dnsleak
@@ -845,17 +816,13 @@ rules:
 - IP-CIDR,28.0.0.1/8,REJECT,no-resolve
 - IP-CIDR6,::1/128,REJECT,no-resolve
 
-  ## rules telegram
-- GEOIP,telegram,OpenClash
-- GEOSITE,telegram,OpenClash
-
   ## direct ntp
 - AND,((NETWORK,UDP),(DST-PORT,123)),DIRECT
 - DST-PORT,123/136/137-139,DIRECT,udp
 
   ## rules inner, recommended untuk non kuota reguler
 - AND,((PROCESS-NAME,clash),(NOT,((IN-TYPE,inner)))),REJECT
-- IN-TYPE,inner,OpenClash
+- IN-TYPE,inner,TrafficUmum
 
 
  ## final
@@ -865,10 +832,16 @@ rules:
 - DST-PORT,7892,REJECT
 
 - DST-PORT,9993,GLOBAL
-- RULE-SET,d3ward,IKLAN
-#- GEOSITE,oisd-full,IKLAN
-#- GEOSITE,rule-ads,IKLAN
+- RULE-SET,d3ward,TrafficAds
 - DOMAIN-KEYWORD,pagead2.googlesyndication.com,GLOBAL
+
+  ## block ads
+- DOMAIN-SUFFIX,googlesyndication.com,TrafficAds
+- DOMAIN-SUFFIX,pagead2.googlesyndication.com,REJECT
+- DOMAIN-SUFFIX,pagead2.googleadservices.com,REJECT
+- DOMAIN-SUFFIX,afs.googlesyndication.com,REJECT
+- DOMAIN-SUFFIX,analytics.google.com,REJECT
+- DOMAIN-SUFFIX,udcm.yahoo.com,REJECT
 
 #- IP-CIDR,198.18.0.1/16,REJECT,no-resolve
 - DST-PORT,22,DIRECT
@@ -877,17 +850,17 @@ rules:
 - RULE-SET,Direct,DIRECT
 
 - RULE-SET,rule_lancidr,DIRECT,no-resolve
-- RULE-SET,rule_falsepositive,OpenClash
+- RULE-SET,rule_falsepositive,TrafficUmum
 - RULE-SET,rule_malicious,REJECT
 - RULE-SET,rule_maliciousip,REJECT
-- RULE-SET,rule_personalads,IKLAN
-- RULE-SET,rule_basicads,IKLAN
-- RULE-SET,rule_hijacking,IKLAN
-- RULE-SET,rule_privacy,IKLAN
+- RULE-SET,rule_personalads,TrafficAds
+- RULE-SET,rule_basicads,TrafficAds
+- RULE-SET,rule_hijacking,TrafficAds
+- RULE-SET,rule_privacy,TrafficAds
 - RULE-SET,rule_porn,TrafficPorn
 - RULE-SET,rule_nsfw,TrafficPorn
-- RULE-SET,rule_playstore,OpenClash
-- RULE-SET,rule_umum,OpenClash
+- RULE-SET,rule_playstore,TrafficUmum
+- RULE-SET,rule_umum,TrafficUmum
 
 - RULE-SET,rule_disneyplus,Traffic 🇮🇩
 - RULE-SET,rule_netflix,Traffic 🇮🇩
@@ -897,18 +870,7 @@ rules:
 - RULE-SET,rule_hbohk,Traffic 🇮🇩
 - RULE-SET,rule_hbousa,Traffic 🇮🇩
 
-#- GEOSITE,whatsapp,Clash😹
-- RULE-SET,rule_Direct,Clash😹
-
-- MATCH,GLOBAL
-#─────────────────◉ WARNET and ◉─────────────────
-#- GEOSITE,rule-streaming,TrafficStreaming
-#- GEOSITE,videoconference,TrafficStreaming
-#- GEOSITE,rule-sosmed,TrafficSosmed
-- GEOIP,facebook,TrafficSosmed
-- GEOIP,twitter,TrafficSosmed
-- GEOIP,netflix,TrafficStreaming
-
+- DOMAIN-SUFFIX,googlevideo.com,TrafficStreaming
 - RULE-SET,rule_Streaming,TrafficStreaming
 - RULE-SET,rule_iqiyi,TrafficStreaming
 - RULE-SET,rule_iqiyiinter,TrafficStreaming
@@ -927,12 +889,36 @@ rules:
 
 - RULE-SET,rule_portgames,TrafficPortGames
 
-#- SCRIPT,speedtest,OpenClash
-#- SCRIPT,TCPgames,TrafficPortGames
-#- SCRIPT,UDPgames,TrafficPortGames
 - RULE-SET,rule_Gaming,TrafficGaming
 - RULE-SET,rule_games,TrafficGaming
 - RULE-SET,rule_discord,TrafficGaming
+
+- AND,((GEOSITE,category-ads-all),(NOT,((DOMAIN-SUFFIX,googlesyndication.com)))),TrafficAds
+- GEOSITE,category-ads-all,TrafficAds
+  ## block udp/quic YouTube
+- AND,((NETWORK,udp),(OR,((DST-PORT,443/80),(GEOSITE,youtube)))),REJECT
+- AND,((NETWORK,udp),(GEOSITE,youtube)),REJECT
+
+- GEOIP,private,DIRECT,no-resolve
+- GEOSITE,rule-malicious,REJECT
+#- GEOSITE,oisd-full,TrafficAds
+#- GEOSITE,rule-ads,TrafficAds
+- GEOSITE,oisd-nsfw,TrafficPorn
+- GEOSITE,category-porn,TrafficPorn
+- RULE-SET,rule_Direct,ROTATION 😹
+- GEOSITE,rule-umum,TrafficUmum
+#Zerotier
+- OR,((GEOSITE,rule-umum),(DST-PORT,9993/29994/40775/43215)),TrafficUmum
+- GEOSITE,rule-indo,Traffic 🇮🇩
+- GEOIP,netflix,Traffic 🇮🇩
+- GEOSITE,rule-streaming,TrafficStreaming
+- GEOSITE,rule-sosmed,TrafficSosmed
+- GEOIP,facebook,TrafficSosmed
+- GEOIP,twitter,TrafficSosmed
+- GEOIP,telegram,TrafficSosmed
+- GEOSITE,telegram,TrafficSosmed
+- GEOSITE,whatsapp,TrafficSosmed
+- GEOSITE,videoconference,TrafficStreaming
 
 #VideoConference
 - DST-PORT,3478-3497/8801-8810/16384-16387/1853/8200/5004/9000/5090-5091/5349/10000/19302-19309/5938/5060-5061/500/4500,TrafficStreaming
@@ -987,9 +973,14 @@ rules:
 # apex|ff|mlbbb
 - DST-PORT,8888,TrafficPortGames
 
+- MATCH,GLOBAL
+
+#- SCRIPT,speedtest,TrafficUmum
+#- SCRIPT,TCPgames,TrafficPortGames
+#- SCRIPT,UDPgames,TrafficPortGames
+
 script:
   shortcuts:
     TCPgames: network == 'tcp' and dst_port not in [21, 22, 23, 53, 80, 123, 143, 194, 443, 465, 587, 853, 993, 995, 998, 2052, 2053, 2082, 2083, 2086, 2095, 2096, 5222, 5228, 5229, 5230, 8080, 8443, 8880, 8883, 8888, 8889]
     UDPgames: network == 'udp' and dst_port not in [21, 22, 23, 53, 80, 123, 143, 194, 443, 465, 587, 853, 993, 995, 998, 2052, 2053, 2082, 2083, 2086, 2095, 2096, 5222, 5228, 5229, 5230, 8080, 8443, 8880, 8883, 8888, 8889]
     speedtest: network == "tcp" and match_provider("rule_Speedtest")
-
