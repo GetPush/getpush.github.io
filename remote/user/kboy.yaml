@@ -903,7 +903,7 @@ rules:
 #- GEOSITE,rule-malicious,REJECT
 #- GEOSITE,oisd-full,TrafficAds
 #- GEOSITE,rule-ads,TrafficAds
-- GEOSITE,oisd-nsfw,TrafficPorn
+#- GEOSITE,oisd-nsfw,TrafficPorn
 - GEOSITE,category-porn,TrafficPorn
 - RULE-SET,rule_Direct,ROTATION 😹
 - GEOSITE,rule-umum,TrafficUmum
