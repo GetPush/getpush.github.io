@@ -913,7 +913,7 @@ rules:
 #- GEOSITE,rule-streaming,TrafficStreaming
 
 - GEOIP,netflix,Traffic 🇮🇩
-- GEOSITE,rule-sosmed,TrafficSosmed
+#- GEOSITE,rule-sosmed,TrafficSosmed
 - GEOIP,facebook,TrafficSosmed
 - GEOIP,twitter,TrafficSosmed
 - GEOIP,telegram,TrafficSosmed
