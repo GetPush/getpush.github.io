@@ -470,7 +470,7 @@ dns:
     geoip: true
     geoip-code: ID
     geosite:
-    - rule-indo
+#    - rule-indo
     - gfw
     ipcidr:
     - 0.0.0.0/8
