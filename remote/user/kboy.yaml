@@ -1,86 +1,76 @@
-proxies:
+---
 proxy-providers:
-  VIP-FR:
+  France:
     type: http
-    path: "./proxy_provider/VIP/VIP-FR.yaml"
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/VIP/VIP-FR.yaml
+    path: "./proxy_provider/Online/France.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/provide/Online/France.yaml
     health-check:
       enable: true
     interval: 86400
-  VIP-NL:
+  Netherlands:
     type: http
-    path: "./proxy_provider/VIP/VIP-NL.yaml"
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/VIP/VIP-NL.yaml
+    path: "./proxy_provider/Online/Netherlands.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/provide/Online/Netherlands.yaml
     health-check:
       enable: true
     interval: 86400
-  VIP-SG:
+  Singapore:
     type: http
-    path: "./proxy_provider/VIP/VIP-SG.yaml"
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/VIP/VIP-SG.yaml
+    path: "./proxy_provider/Online/Singapore.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/provide/Online/Singapore.yaml
     health-check:
       enable: true
     interval: 86400
-  VIP-US:
+  America:
     type: http
-    path: "./proxy_provider/VIP/VIP-US.yaml"
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/VIP/VIP-US.yaml
+    path: "./proxy_provider/Online/America.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/provide/Online/America.yaml
     health-check:
       enable: true
     interval: 86400
 
-#──────────────◉ WARNET & OpenWrt ◉──────────────
 #Trojan
-  TROJAN:
+  Trojan:
     type: http
-    path: "./proxy_provider/TROJAN.yaml"
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/TROJAN.yaml
+    path: "./proxy_provider/Online/Trojan.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/provide/Online/Trojan.yaml
     health-check:
       enable: true
     interval: 86400
 
-  IPIndo:
+  Indonesia:
     type: http
-    path: "./proxy_provider/IPIndo.yaml"
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/proxy_provider/IPIndo.yaml
+    path: "./proxy_provider/Online/Indonesia.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/provide/Online/Indonesia.yaml
     health-check:
       enable: true
     interval: 86400
 
 proxy-groups:
-- name: TrafficUmum
+- name: Opsi On📡
   type: select
   proxies:
-  - ROTATION 😹
-  - STABLE 💡
-  - BOOSTER 🚀
-  - SG 🇸🇬
-  - NL 🇳🇱
-  - FR 🇫🇷
-  - US 🇺🇸
-  - Route 🇮🇩
-  - IPFOCUS
-  - Trojan
-  - DIRECT
+  - LB On📡
+  - FB On📡
+  - UT On📡
+  - SG 🇸🇬🛰️
+  - NL 🇳🇱🛰️
+  - FR 🇫🇷🛰️
+  - US 🇺🇸🛰️
+  - ID 🇮🇩🛰️
+  - By One🛰️
+  - Enhancer🛰️
   - DIRECT Interface
   url: https://cp.cloudflare.com/generate_204
   interval: '30'
-
-- name: IPFOCUS
-  type: select
-  strategy: round-robin
-  disable-udp: false
-  use:
-  - IPIndo
-  url: https://cp.cloudflare.com/generate_204
-  interval: '50'
 
 - name: TrafficAds
   type: select
   disable-udp: false
   proxies:
-  - TrafficUmum
+  - Opsi On📡
   - REJECT
+  - DIRECT Interface
   url: https://cp.cloudflare.com/generate_204
   interval: '50'
 - name: TrafficPorn
@@ -88,463 +78,230 @@ proxy-groups:
   disable-udp: false
   proxies:
   - REJECT
-  - ROTATION 😹
-  - STABLE 💡
-  - BOOSTER 🚀
-  - TrafficUmum
-  url: https://cp.cloudflare.com/generate_204
-  interval: '50'
-
-- name: Traffic 🇮🇩
-  type: select
-  strategy: round-robin
-  lazy: true
-  disable-udp: false
-  proxies:
-  - STABLE 💡
-  - BOOSTER 🚀
-  - TrafficUmum
-  - Route 🇮🇩
-  - DIRECT
-  - DIRECT Interface
-  url: https://cp.cloudflare.com/generate_204
-  interval: '30'
-
-- name: TrafficGaming
-  type: select
-  disable-udp: false
-  proxies:
-  - Route 🇮🇩
-  - IPFOCUS
-  - TrafficUmum
-  - STABLE 💡
-  - BOOSTER 🚀
-  - Trojan
-  - DIRECT
+  - Opsi On📡
   - DIRECT Interface
   url: https://cp.cloudflare.com/generate_204
   interval: '50'
-
-- name: TrafficStreaming
+- name: By One🛰️
   type: select
-  strategy: round-robin
-  lazy: true
-  disable-udp: false
-  proxies:
-  - STABLE 💡
-  - BOOSTER 🚀
-  - TrafficUmum
-  - DIRECT
-  - DIRECT Interface
-  url: https://cp.cloudflare.com/generate_204
-  interval: '30'
-- name: TrafficSosmed
-  type: select
-  strategy: round-robin
-  lazy: true
-  disable-udp: false
-  proxies:
-  - STABLE 💡
-  - BOOSTER 🚀
-  - TrafficUmum
-  - DIRECT
-  - DIRECT Interface
-  url: https://cp.cloudflare.com/generate_204
-  interval: '30'
-
-- name: TrafficPortGames
-  type: fallback
-  strategy: round-robin
-  lazy: true
-  disable-udp: false
-  proxies:
-  - TrafficGaming
-  url: https://cp.cloudflare.com/generate_204
-  interval: '50'
-
-- name: Route 🇮🇩
-  type: load-balance
   strategy: round-robin
   lazy: true
   disable-udp: false
   use:
-  - IPIndo
+  - Indonesia
   url: https://cp.cloudflare.com/generate_204
   interval: '50'
-- name: ROTATION 😹
+- name: 🇮🇩INDO🇮🇩
+  type: select
+  strategy: round-robin
+  lazy: true
+  disable-udp: false
+  proxies:
+  - Opsi On📡
+  - ID 🇮🇩🛰️
+  - Enhancer🛰️
+  - DIRECT Interface
+  url: https://cp.cloudflare.com/generate_204
+  interval: '30'
+
+- name: GAMES🎮
+  type: select
+  disable-udp: false
+  proxies:
+  - Opsi On📡
+  - Enhancer🛰️
+  - ID 🇮🇩🛰️
+  - By One🛰️
+  - DIRECT Interface
+  url: https://cp.cloudflare.com/generate_204
+  interval: '50'
+
+- name: STREAMING📺
+  type: select
+  strategy: round-robin
+  lazy: true
+  disable-udp: false
+  proxies:
+  - Opsi On📡
+  - Enhancer🛰️
+  - DIRECT Interface
+  url: https://cp.cloudflare.com/generate_204
+  interval: '30'
+- name: SOSMED📱📲
+  type: select
+  strategy: round-robin
+  lazy: true
+  disable-udp: false
+  proxies:
+  - Opsi On📡
+  - Enhancer🛰️
+  - DIRECT Interface
+  url: https://cp.cloudflare.com/generate_204
+  interval: '30'
+- name: CHAT📤📥
+  type: select
+  strategy: round-robin
+  lazy: true
+  disable-udp: false
+  proxies:
+  - Opsi On📡
+  - Enhancer🛰️
+  - DIRECT Interface
+  url: https://cp.cloudflare.com/generate_204
+  interval: '30'
+
+- name: ID 🇮🇩🛰️
+  type: fallback
+  strategy: round-robin
+  lazy: true
+  disable-udp: false
+  use:
+  - Indonesia
+  url: https://cp.cloudflare.com/generate_204
+  interval: '50'
+- name: Enhancer🛰️
   type: fallback
   strategy: round-robin
   lazy: true
   disable-udp: false
   proxies:
-  - BOOSTER 🚀
-  - STABLE 💡
-  - Trojan
+  - FB On📡
+  - LB On📡
+  - UT On📡
+  - 🛰️ Trojan
+  - ID 🇮🇩🛰️
   - DIRECT
-  - DIRECT Interface
   url: https://cp.cloudflare.com/generate_204
   interval: '30'
-- name: STABLE 💡
+- name: FB On📡
+  type: fallback
+  strategy: round-robin
+  lazy: true
+  disable-udp: false
+  proxies:
+  - SG 🇸🇬🛰️
+  - NL 🇳🇱🛰️
+  - FR 🇫🇷🛰️
+  - US 🇺🇸🛰️
+  url: https://cp.cloudflare.com/generate_204
+  interval: '50'
+- name: LB On📡
   type: load-balance
   strategy: round-robin
   lazy: true
   disable-udp: false
   proxies:
-  - SG 🇸🇬
-  - NL 🇳🇱
-  - FR 🇫🇷
-  - US 🇺🇸
+  - UT On📡
+  - FB On📡
   url: https://cp.cloudflare.com/generate_204
-  interval: '150'
-- name: BOOSTER 🚀
+  interval: '100'
+- name: UT On📡
   type: url-test
   strategy: round-robin
   lazy: true
   disable-udp: false
   proxies:
-  - SG 🇸🇬
-  - NL 🇳🇱
-  - FR 🇫🇷
-  - US 🇺🇸
+  - SG 🇸🇬🛰️
+  - NL 🇳🇱🛰️
+  - FR 🇫🇷🛰️
+  - US 🇺🇸🛰️
+  url: https://cp.cloudflare.com/generate_204
+  interval: '150'
+
+- name: SG 🇸🇬🛰️
+  type: load-balance
+  strategy: round-robin
+  lazy: true
+  disable-udp: false
+  use:
+  - Singapore
+  url: https://cp.cloudflare.com/generate_204
+  interval: '150'
+- name: FR 🇫🇷🛰️
+  type: load-balance
+  strategy: round-robin
+  lazy: true
+  disable-udp: false
+  use:
+  - France
+  url: https://cp.cloudflare.com/generate_204
+  interval: '120'
+- name: NL 🇳🇱🛰️
+  type: load-balance
+  strategy: round-robin
+  lazy: true
+  disable-udp: false
+  use:
+  - Netherlands
+  url: https://cp.cloudflare.com/generate_204
+  interval: '40'
+- name: US 🇺🇸🛰️
+  type: fallback
+  strategy: round-robin
+  lazy: true
+  disable-udp: false
+  use:
+  - America
+  url: https://cp.cloudflare.com/generate_204
+  interval: '40'
+- name: 🛰️ Trojan
+  type: url-test
+  strategy: round-robin
+  lazy: true
+  disable-udp: false
+  use:
+  - Trojan
   url: https://cp.cloudflare.com/generate_204
   interval: '100'
 
-- name: SG 🇸🇬
-  type: load-balance
-  strategy: round-robin
-  disable-udp: false
-  use:
-  - VIP-SG
-  url: https://cp.cloudflare.com/generate_204
-  interval: '150'
-- name: FR 🇫🇷
-  type: load-balance
-  strategy: round-robin
-  disable-udp: false
-  use:
-  - VIP-FR
-  url: https://cp.cloudflare.com/generate_204
-  interval: '150'
-- name: NL 🇳🇱
-  type: load-balance
-  strategy: round-robin
-  disable-udp: false
-  use:
-  - VIP-NL
-  url: https://cp.cloudflare.com/generate_204
-  interval: '150'
-- name: US 🇺🇸
-  type: load-balance
-  strategy: round-robin
-  disable-udp: false
-  use:
-  - VIP-US
-  url: https://cp.cloudflare.com/generate_204
-  interval: '150'
-- name: Trojan
-  type: load-balance
-  strategy: round-robin
-  disable-udp: false
-  use:
-  - TROJAN
-  url: https://cp.cloudflare.com/generate_204
-  interval: '150'
-
+ # (usb0) interface: eth1 wlan0 eth2 usb0
 - name: DIRECT Interface
   type: select
   disable-udp: false
+  proxies:
+  - DIRECT eth1
+  - DIRECT usb0
+  url: https://cp.cloudflare.com/generate_204
+  interval: '100'
+- name: DIRECT eth1
+  type: select
+  disable-udp: false
+  interface-name: eth1
+  proxies:
+  - DIRECT
+  url: https://cp.cloudflare.com/generate_204
+  interval: '100'
+- name: DIRECT usb0
+  type: select
+  disable-udp: false
   interface-name: usb0
- # (usb0) interface: eth1 wlan0 eth2 usb0
   proxies:
   - DIRECT
   url: https://cp.cloudflare.com/generate_204
   interval: '100'
 
-#─────────────────◉ Router And ◉─────────────────
-
-rule-providers:
-  rule_portgames:
-    type: file
-    behavior: classical
-    path: "./rule_provider/rule_portgames.yaml"
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_portgames.yaml
-    interval: 86400
-  rule_videoconferences:
-    type: file
-    behavior: classical
-    path: "./rule_provider/rule_videoconferences.yaml"
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_videoconferences.yaml
-    interval: 86400
-  rule_Sosmed:
-    type: file
-    behavior: classical
-    path: "./rule_provider/rule_sosmed.yaml"
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_sosmed.yaml
-    interval: 86400
-  rule_Streaming:
-    type: file
-    behavior: classical
-    path: "./rule_provider/rule_streaming.yaml"
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_streaming.yaml
-    interval: 86400
-  rule_Gaming:
-    type: file
-    behavior: classical
-    path: "./rule_provider/rule_gaming.yaml"
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_gaming.yaml
-    interval: 86400
-  rule_Speedtest:
-    type: file
-    behavior: classical
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_speedtest.yaml
-    path: "./rule_provider/rule_speedtest.yaml"
-    interval: 86400
-  rule_discord:
-    type: file
-    behavior: classical
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_discord.yaml
-    path: "./rule_provider/rule_discord.yaml"
-    interval: 86400
-  rule_telegramcidr:
-    type: file
-    behavior: ipcidr
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_telegramcidr.yaml
-    path: "./rule_provider/rule_telegramcidr.yaml"
-    interval: 86400
-  rule_telegram:
-    type: file
-    behavior: domain
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_telegram.yaml
-    path: "./rule_provider/rule_telegram.yaml"
-    interval: 86400
-  rule_games:
-    type: file
-    behavior: domain
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_games.yaml
-    path: "./rule_provider/rule_games.yaml"
-    interval: 86400
-  rule_iqiyi:
-    type: file
-    behavior: classical
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_iqiyi.yaml
-    path: "./rule_provider/rule_iqiyi.yaml"
-    interval: 86400
-  rule_iqiyiinter:
-    type: file
-    behavior: classical
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_iqiyiinter.yaml
-    path: "./rule_provider/rule_iqiyiinter.yaml"
-    interval: 86400
-  rule_line:
-    type: file
-    behavior: domain
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_line.yaml
-    path: "./rule_provider/rule_line.yaml"
-    interval: 86400
-  rule_metaverse:
-    type: file
-    behavior: domain
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_metaverse.yaml
-    path: "./rule_provider/rule_metaverse.yaml"
-    interval: 86400
-  rule_primevideo:
-    type: file
-    behavior: domain
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_primevideo.yaml
-    path: "./rule_provider/rule_primevideo.yaml"
-    interval: 86400
-  rule_tiktok:
-    type: file
-    behavior: domain
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_tiktok.yaml
-    path: "./rule_provider/rule_tiktok.yaml"
-    interval: 86400
-  rule_twitch:
-    type: file
-    behavior: domain
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_twitch.yaml
-    path: "./rule_provider/rule_twitch.yaml"
-    interval: 86400
-  rule_twitter:
-    type: file
-    behavior: domain
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_twitter.yaml
-    path: "./rule_provider/rule_twitter.yaml"
-    interval: 86400
-  rule_Youtube:
-    type: file
-    behavior: domain
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_youtube.yaml
-    path: "./rule_provider/rule_youtube.yaml"
-    interval: 86400
-
-#─────────────────◉ WARNET & OpenWrt ◉─────────────────
-#Traffic 🇮🇩
-  rule_disneyplus:
-    type: file
-    behavior: classical
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_disneyplus.yaml
-    path: "./rule_provider/rule_disneyplus.yaml"
-    interval: 86400
-  rule_netflix:
-    type: file
-    behavior: domain
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_netflix.yaml
-    path: "./rule_provider/rule_netflix.yaml"
-    interval: 86400
-  rule_Indo:
-    type: file
-    behavior: classical
-    path: "./rule_provider/rule_indo.yaml"
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_indo.yaml
-    interval: 86400
-  rule_hbo:
-    type: file
-    behavior: classical
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_hbo.yaml
-    path: "./rule_provider/rule_hbo.yaml"
-    interval: 86400
-  rule_hboasia:
-    type: file
-    behavior: classical
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_hboasia.yaml
-    path: "./rule_provider/rule_hboasia.yaml"
-    interval: 86400
-  rule_hbohk:
-    type: file
-    behavior: classical
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_hbohk.yaml
-    path: "./rule_provider/rule_hbohk.yaml"
-    interval: 86400
-  rule_hbousa:
-    type: file
-    behavior: classical
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_hbousa.yaml
-    path: "./rule_provider/rule_hbousa.yaml"
-    interval: 86400
-
-  Direct:
-    type: file
-    behavior: classical
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/rule_provider/direct.yaml
-    path: "./rule_provider/direct.yaml"
-    interval: 86400
-
-  rule_Direct:
-    type: file
-    behavior: classical
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/rule_provider/rule_direct.yaml
-    path: "./rule_provider/rule_direct.yaml"
-    interval: 86400
-  d3ward:
-    type: file
-    behavior: domain
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/d3ward.yaml
-    path: "./rule_provider/d3ward.yaml"
-    interval: 86400
-  rule_clash:
-    type: file
-    behavior: domain
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/rule_provider/rule_clash.yaml
-    path: "./rule_provider/rule_clash.yaml"
-    interval: 86400
-
-  rule_falsepositive:
-    type: file
-    behavior: classical
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_falsepositive.yaml
-    path: "./rule_provider/rule_falsepositive.yaml"
-    interval: 86400
-  rule_playstore:
-    type: file
-    behavior: domain
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_playstore.yaml
-    path: "./rule_provider/rule_playstore.yaml"
-    interval: 86400
-  rule_umum:
-    type: file
-    behavior: classical
-    path: "./rule_provider/rule_umum.yaml"
-    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/remote/rule_provider/rule_umum.yaml
-    interval: 86400
-  rule_lancidr:
-    type: file
-    behavior: ipcidr
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_lancidr.yaml
-    path: "./rule_provider/rule_lancidr.yaml"
-    interval: 86400
-  rule_malicious:
-    type: file
-    behavior: domain
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_malicious.yaml
-    path: "./rule_provider/rule_malicious.yaml"
-    interval: 43200
-  rule_maliciousip:
-    type: file
-    behavior: ipcidr
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_maliciousip.yaml
-    path: "./rule_provider/rule_maliciousip.yaml"
-    interval: 43200
-  rule_personalads:
-    type: file
-    behavior: classical
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_personalads.yaml
-    path: "./rule_provider/rule_personalads.yaml"
-    interval: 86400
-  rule_basicads:
-    type: file
-    behavior: domain
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_basicads.yaml
-    path: "./rule_provider/rule_basicads.yaml"
-    interval: 43200
-  rule_hijacking:
-    type: file
-    behavior: classical
-    path: "./rule_provider/rule_hijacking.yaml"
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_hijacking.yaml
-    interval: 86400
-  rule_privacy:
-    type: file
-    behavior: classical
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_privacy.yaml
-    path: "./rule_provider/rule_privacy.yaml"
-    interval: 86400
-  rule_porn:
-    type: file
-    behavior: domain
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_porn.yaml
-    path: "./rule_provider/rule_porn.yaml"
-    interval: 86400
-  rule_nsfw:
-    type: file
-    behavior: domain
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_nsfw.yaml
-    path: "./rule_provider/rule_nsfw.yaml"
-    interval: 43200
 
 redir-port: 9797
-tproxy-port: 9898
 port: 7890
 socks-port: 7891
 mixed-port: 7893
-
+tproxy-port: 9898
+ipv6: true
 mode: rule
 allow-lan: true
-bind-address: '*'
 log-level: info
-ipv6: false
 geodata-mode: true
 geodata-loader: memconservative
 unified-delay: true
 
-external-controller: 0.0.0.0:9090 #external-controller: 127.0.0.1:9090
+external-controller: 0.0.0.0:9090
 # secret: "123456"
-external-ui: /data/adb/box/clash/ui #external-ui: /usr/share/TrafficUmum/ui
-
+bind-address: "*"
+external-ui: /data/adb/box/clash/ui
 experimental:
   ignore-resolve-fail: true
 
-tcp-concurrent: false
+tcp-concurrent: true
 
 # 目前仅用于 API 的 https
 tls:
@@ -552,17 +309,11 @@ tls:
   private-key: string # 证书对应的私钥 PEM 格式，或者私钥路径
 
 # 全局 TLS 指纹，优先低于 proxy 内的 client-fingerprint。
-# 目前支持开启 TLS 传输的 TCP/grpc/WS/HTTP , 支持协议有 VLESS,Vmess 和 trojan.
+# 目前支持开启 TLS 传输的 TCP/grpc/WS/HTTP , 支持协议有 VLESS,Vmess 和 Trojan.
 global-client-fingerprint: random
 # Note:
 # 可选："chrome", "firefox", "safari", "iOS", "android", "edge", "360"," qq", "random"
 # 若选择 "random", 则按 Cloudflare Radar 数据按概率生成一个现代浏览器指纹。
-
-geox-url:
-  mmdb: "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb"
-  geoip: "https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/geoip.dat"
-  geosite: "https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/geosite.dat"
-
 
 profile:
   store-selected: true
@@ -570,56 +321,25 @@ profile:
 
 tun:
   enable: true
+  mtu: 9000 # 65535 # 9000
   device: utun
-  stack: system # gvisor / lwip / system
-  mtu: 65535 # 9000
-  auto-route: true
-  auto-detect-interface: true
+  stack: system # mixed / gvisor / system / lwip
   dns-hijack:
-  - any:53
-  - tcp://any:53
-
+    - any:53
+    - tcp://any:53
+  auto-route: true
+  strict-route: false
+  auto-detect-interface: true
+  include-android-user: [0, 10]
+  exclude-package: []
+  include-package: []
+ 
 dns:
   enable: true
-  ipv6: true
+  ipv6: false
   default-nameserver:
-  - 8.8.8.8
   - 1.1.1.1
-
-# google
-#  - 8.8.8.8
-#  - 8.8.4.4
-# cloudflare
-#  - 1.1.1.1
-#  - 1.0.0.1
-# XL / AXIS / LIVE.ON
-#  - 112.215.198.248
-#  - 112.215.198.254
-#  - '[2400:9800:2:2::245]'
-#  - '[2400:9800:2:2::246]'
-# Tsel
-#  - 192.168.130.30
-#  - '[2404:c0:1000::a:0:1]'
-# modem
-#  - 192.168.8.1
-#  - 192.168.0.1
-# ???
-#  - 9.9.9.9
-#  - 112.215.203.254
-#  - 149.112.112.112
-#  - 208.67.222.222
-#  - 208.67.220.220
-#  - 185.228.168.9
-#  - 185.228.169.168
-#  - 76.76.2.0
-#  - 76.76.10.0
-#  - 94.140.14.140
-#  - 94.140.14.141
-#  - 172.105.216.54
-
- # - 114.114.114.114
- # - tls://223.5.5.5:853
- # - https://223.5.5.5/dns-query
+  - 8.8.8.8
 
   listen: 0.0.0.0:1053
   use-hosts: true
@@ -743,43 +463,41 @@ dns:
   'geosite:cn': https://doh.pub/dns-query
 
   fallback:
-  - 1.1.1.1
-  - 8.8.8.8
-  #- 9.9.9.9
-  - tls://8.8.4.4
-  - tls://1.1.1.1
+  - https://dns.bebasid.com/dns-query
+  - tls://dns.bebasid.com
 
   fallback-filter:
-  geoip: true
-  geoip-code: ID
-  geosite:
-  - gfw
-  ipcidr:
-  - 0.0.0.0/8
-  - 10.0.0.0/8
-  - 100.64.0.0/10
-  - 127.0.0.0/8
-  - 169.254.0.0/16
-  - 172.16.0.0/12
-  - 192.0.0.0/24
-  - 192.0.2.0/24
-  - 192.88.99.0/24
-  - 192.168.0.0/16
-  - 198.18.0.0/15
-  - 198.51.100.0/24
-  - 203.0.113.0/24
-  - 224.0.0.0/4
-  - 240.0.0.0/4
-  - 255.255.255.255/32
-  domain:
-  - "+.google.com"
-  - "+.facebook.com"
-  - "+.youtube.com"
-  - "+.githubusercontent.com"
-  - "+.googlevideo.com"
-  - "+.msftconnecttest.com"
-  - "+.msftncsi.com"
-  - "+.*"
+    geoip: true
+    geoip-code: ID
+    geosite:
+    - rule-indo
+    - gfw
+    ipcidr:
+    - 0.0.0.0/8
+    - 10.0.0.0/8
+    - 100.64.0.0/10
+    - 127.0.0.0/8
+    - 169.254.0.0/16
+    - 172.16.0.0/12
+    - 192.0.0.0/24
+    - 192.0.2.0/24
+    - 192.88.99.0/24
+    - 192.168.0.0/16
+    - 198.18.0.0/15
+    - 198.51.100.0/24
+    - 203.0.113.0/24
+    - 224.0.0.0/4
+    - 240.0.0.0/4
+    - 255.255.255.255/32
+    domain:
+    - "+.google.com"
+    - "+.facebook.com"
+    - "+.youtube.com"
+    - "+.githubusercontent.com"
+    - "+.googlevideo.com"
+    - "+.msftconnecttest.com"
+    - "+.msftncsi.com"
+    - "+.*"
 
 sniffer:
   enable: false
@@ -821,7 +539,7 @@ rules:
 
   ## rules inner, recommended untuk non kuota reguler
 - AND,((PROCESS-NAME,clash),(NOT,((IN-TYPE,inner)))),REJECT
-- IN-TYPE,inner,TrafficUmum
+- IN-TYPE,inner,Enhancer🛰️
 
  ## final
 - DST-PORT,7895,REJECT
@@ -830,25 +548,36 @@ rules:
 - DST-PORT,7892,REJECT
 
 - DST-PORT,9993,GLOBAL
-- RULE-SET,d3ward,TrafficAds
-- DOMAIN-KEYWORD,pagead2.googlesyndication.com,GLOBAL
 
-  ## block ads
-- DOMAIN-SUFFIX,googlesyndication.com,TrafficAds
-- DOMAIN-SUFFIX,pagead2.googlesyndication.com,REJECT
-- DOMAIN-SUFFIX,pagead2.googleadservices.com,REJECT
-- DOMAIN-SUFFIX,afs.googlesyndication.com,REJECT
-- DOMAIN-SUFFIX,analytics.google.com,REJECT
-- DOMAIN-SUFFIX,udcm.yahoo.com,REJECT
+- AND,((GEOSITE,category-ads-all),(NOT,((DOMAIN-SUFFIX,googlesyndication.com)))),TrafficAds
+- GEOSITE,category-ads-all,TrafficAds
+  ## block udp/quic YouTube
+- AND,((NETWORK,udp),(OR,((DST-PORT,443/80),(GEOSITE,youtube)))),REJECT
+- AND,((NETWORK,udp),(GEOSITE,youtube)),REJECT
 
 #- IP-CIDR,198.18.0.1/16,REJECT,no-resolve
 - DST-PORT,22,DIRECT
 
-- RULE-SET,rule_clash,REJECT
-- RULE-SET,Direct,DIRECT
+- DST-PORT,3478,SOSMED📱📲
+- DST-PORT,4244,SOSMED📱📲
+- DST-PORT,53,SOSMED📱📲
+- DST-PORT,40020,SOSMED📱📲
+- DST-PORT,57923,SOSMED📱📲
 
+- RULE-SET,rule_PortTCP,GAMES🎮
+- RULE-SET,rule_PortUDP,GAMES🎮
+- RULE-SET,rule_Olshop,🇮🇩INDO🇮🇩
+- RULE-SET,rule_Banking,🇮🇩INDO🇮🇩
+- RULE-SET,rule_Id.only,STREAMING📺
+- RULE-SET,rule_18+,TrafficPorn
+- RULE-SET,rule_Zerotier,Opsi On📡
+
+- RULE-SET,easylist_adservers,REJECT
+
+- RULE-SET,rule_modem,DIRECT
+- RULE-SET,rule_d3ward,TrafficAds
 - RULE-SET,rule_lancidr,DIRECT,no-resolve
-- RULE-SET,rule_falsepositive,TrafficUmum
+- RULE-SET,rule_falsepositive,Opsi On📡
 - RULE-SET,rule_malicious,REJECT
 - RULE-SET,rule_maliciousip,REJECT
 - RULE-SET,rule_personalads,TrafficAds
@@ -857,131 +586,334 @@ rules:
 - RULE-SET,rule_privacy,TrafficAds
 - RULE-SET,rule_porn,TrafficPorn
 - RULE-SET,rule_nsfw,TrafficPorn
-- RULE-SET,rule_playstore,TrafficUmum
-- RULE-SET,rule_umum,TrafficUmum
-
-- RULE-SET,rule_disneyplus,Traffic 🇮🇩
-- RULE-SET,rule_netflix,Traffic 🇮🇩
-- RULE-SET,rule_Indo,Traffic 🇮🇩
-- RULE-SET,rule_hbo,Traffic 🇮🇩
-- RULE-SET,rule_hboasia,Traffic 🇮🇩
-- RULE-SET,rule_hbohk,Traffic 🇮🇩
-- RULE-SET,rule_hbousa,Traffic 🇮🇩
-
-- DOMAIN-SUFFIX,googlevideo.com,TrafficStreaming
-- RULE-SET,rule_Streaming,TrafficStreaming
-- RULE-SET,rule_iqiyi,TrafficStreaming
-- RULE-SET,rule_iqiyiinter,TrafficStreaming
-- RULE-SET,rule_primevideo,TrafficStreaming
-- RULE-SET,rule_twitch,TrafficStreaming
-- RULE-SET,rule_Youtube,TrafficStreaming
-- RULE-SET,rule_videoconferences,TrafficStreaming
-
-- RULE-SET,rule_Sosmed,TrafficSosmed
-- RULE-SET,rule_line,TrafficSosmed
-- RULE-SET,rule_metaverse,TrafficSosmed
-- RULE-SET,rule_tiktok,TrafficSosmed
-- RULE-SET,rule_twitter,TrafficSosmed
-- RULE-SET,rule_telegram,TrafficSosmed
-- RULE-SET,rule_telegramcidr,TrafficSosmed
-
-- RULE-SET,rule_portgames,TrafficPortGames
-
-- RULE-SET,rule_Gaming,TrafficGaming
-- RULE-SET,rule_games,TrafficGaming
-- RULE-SET,rule_discord,TrafficGaming
-
-- AND,((GEOSITE,category-ads-all),(NOT,((DOMAIN-SUFFIX,googlesyndication.com)))),TrafficAds
-- GEOSITE,category-ads-all,TrafficAds
-  ## block udp/quic YouTube
-- AND,((NETWORK,udp),(OR,((DST-PORT,443/80),(GEOSITE,youtube)))),REJECT
-- AND,((NETWORK,udp),(GEOSITE,youtube)),REJECT
-
-- GEOIP,private,DIRECT,no-resolve
-- GEOSITE,category-porn,TrafficPorn
-- RULE-SET,rule_Direct,ROTATION 😹
-
-# tidak untuk meta android
-#- GEOSITE,rule-malicious,REJECT
-#- GEOSITE,oisd-full,TrafficAds
-#- GEOSITE,rule-ads,TrafficAds
-#- GEOSITE,oisd-nsfw,TrafficPorn
-#- GEOSITE,rule-umum,TrafficUmum
-#Zerotier
-#- OR,((GEOSITE,rule-umum),(DST-PORT,9993/29994/40775/43215)),TrafficUmum
-#- GEOSITE,rule-indo,Traffic 🇮🇩
-#- GEOSITE,rule-streaming,TrafficStreaming
-#- GEOSITE,rule-sosmed,TrafficSosmed
-#- GEOSITE,videoconference,TrafficStreaming
-
-- GEOIP,netflix,Traffic 🇮🇩
-- GEOIP,facebook,TrafficSosmed
-- GEOIP,twitter,TrafficSosmed
-- GEOIP,telegram,TrafficSosmed
-- GEOSITE,telegram,TrafficSosmed
-- GEOSITE,whatsapp,TrafficSosmed
-
-#VideoConference
-- DST-PORT,3478-3497/8801-8810/16384-16387/1853/8200/5004/9000/5090-5091/5349/10000/19302-19309/5938/5060-5061/500/4500,TrafficStreaming
-
-
-#MLBB
-- DST-PORT,5000-5221/5224-5227/5229-5241/5243-5287/5289-5352/5354-5509/5517/5520-5529/5551-5559/5601-5700/8443/9000-9010/9443/10003/30000-30300,TrafficPortGames,tcp
-- DST-PORT,5517-5529/5551-5559/5601-5700/8001/8130/8443/9000-9010/9120/9992/10003/30000-30300,TrafficPortGames,udp
-#FF
-- DST-PORT,6006/6008/6674/7006-7008/7889/8001-8012/9006/9137/10000-10012/11000-11019/12006/12008/13006/15006/20561/39003/39006/39698/39779/39800,TrafficPortGames,tcp
-- DST-PORT,6006/6008/6674/7006-7008/7889/8008/8001-8012/8130/8443/9008/9120/10000-10015/10100/11000-11019/12008/13008,TrafficPortGames,udp
-#PUBG
-- DST-PORT,7889/10012/13004/14000/17000/17500/18081/20000-20002/20371,TrafficPortGames,tcp
-- DST-PORT,8011/9030/10491/10612/12235/13004/13748/17000/17500/20000-20002/7086-7995/10039/10096/11455/12070-12460/13894/13972/41182-41192,TrafficPortGames,udp
-#CODM
-- DST-PORT,3013/10000-10019/18082/50000/65010/65050,TrafficPortGames,tcp
-- DST-PORT,7085-7995/8700/9030/10010-10019/17000-20100,TrafficPortGames,udp
-#AOV
-- DST-PORT,10001-10094,TrafficPortGames,tcp
-- DST-PORT,10101-10201/10080-10110/17000-18000,TrafficPortGames,udp
-#Stumble Guys
-- DST-PORT,5055-5058,TrafficPortGames,udp
-#Genshin Impact
-- DST-PORT,42472,TrafficPortGames,tcp
-- DST-PORT,42472/22101-22102,TrafficPortGames,udp
-#Clash of Clans (COC) & Clash Royale
-- DST-PORT,9330-9340,TrafficPortGames,tcp
-- DST-PORT,9330-9340,TrafficPortGames,udp
-#League of Legends (LOL) Mobile
-- DST-PORT,2080-2099,TrafficPortGames,tcp
-- DST-PORT,5100,TrafficPortGames,udp
-#DOTA2
-- DST-PORT,9100-9200/8230-8250/8110-8120/27000-28998,TrafficPortGames,tcp
-- DST-PORT,27000-28998/39000,TrafficPortGames,udp
-#FIFA ONLINE
-- DST-PORT,7770-7790,TrafficPortGames,tcp
-- DST-PORT,16300-16350,TrafficPortGames,udp
-#Point Blank Mobile (PB-Mobile)
-- DST-PORT,44590-44610,TrafficPortGames,tcp
-- DST-PORT,40000-40010,TrafficPortGames,udp
-#LINE Let’s Get Rich
-- DST-PORT,10500-10515,TrafficPortGames,tcp
-#Dream League Soccer
-- DST-PORT,60970-60980,TrafficPortGames,udp
-#Among Us
-- DST-PORT,27015-27030/27036-27037,TrafficPortGames,tcp
-- DST-PORT,4380/27000-27031/27036,TrafficPortGames,udp
-#Bleach ES
-- DST-PORT,14422,TrafficPortGames
-# growrtopia
-- DST-PORT,16999,TrafficPortGames
-# apex|ff|mlbbb
-- DST-PORT,8888,TrafficPortGames
-
+- RULE-SET,rule_whatsapp,CHAT📤📥
+- RULE-SET,rule_playstore,Opsi On📡
+- RULE-SET,rule_disneyplus,🇮🇩INDO🇮🇩
+- RULE-SET,rule_netflix,🇮🇩INDO🇮🇩
+- RULE-SET,rule_Indo,🇮🇩INDO🇮🇩
+- RULE-SET,rule_hbo,🇮🇩INDO🇮🇩
+- RULE-SET,rule_hboasia,🇮🇩INDO🇮🇩
+- RULE-SET,rule_hbohk,🇮🇩INDO🇮🇩
+- RULE-SET,rule_hbousa,🇮🇩INDO🇮🇩
+- RULE-SET,rule_Streaming,STREAMING📺
+- RULE-SET,rule_iqiyi,STREAMING📺
+- RULE-SET,rule_iqiyiinter,STREAMING📺
+- RULE-SET,rule_primevideo,STREAMING📺
+- RULE-SET,rule_twitch,STREAMING📺
+- RULE-SET,rule_Youtube,STREAMING📺
+- RULE-SET,rule_Sosmed,SOSMED📱📲
+- RULE-SET,rule_line,SOSMED📱📲
+- RULE-SET,rule_metaverse,SOSMED📱📲
+- RULE-SET,rule_tiktok,SOSMED📱📲
+- RULE-SET,rule_twitter,SOSMED📱📲
+- RULE-SET,rule_telegram,SOSMED📱📲
+- RULE-SET,rule_telegramcidr,SOSMED📱📲
+- RULE-SET,rule_videoconferences,STREAMING📺
+- RULE-SET,rule_portgames,GAMES🎮
+- RULE-SET,rule_Gaming,GAMES🎮
+- RULE-SET,rule_games,GAMES🎮
+- RULE-SET,rule_discord,GAMES🎮
+- RULE-SET,rule_umum,Opsi On📡
 - MATCH,GLOBAL
 
-#- SCRIPT,speedtest,TrafficUmum
-#- SCRIPT,TCPgames,TrafficPortGames
-#- SCRIPT,UDPgames,TrafficPortGames
+#────────────◉ rule-providers
+rule-providers:
+  rule_PortTCP:
+    type: file
+    behavior: classical
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/rules/games/rule_PortTCP.yaml
+    path: "./rule_provider/games/rule_PortTCP.yaml"
+    interval: 86400
+  rule_PortUDP:
+    type: file
+    behavior: classical
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/rules/games/rule_PortUDP.yaml
+    path: "./rule_provider/games/rule_PortUDP.yaml"
+    interval: 86400
+  rule_games:
+    type: file
+    behavior: domain
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/rules/games/rule_games.yaml
+    path: "./rule_provider/games/rule_games.yaml"
+    interval: 86400
+  rule_Gaming:
+    type: file
+    behavior: classical
+    path: "./rule_provider/games/rule_gaming.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/rules/games/rule_gaming.yaml
+    interval: 86400
+  rule_portgames:
+    type: file
+    behavior: classical
+    path: "./rule_provider/games/rule_portgames.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/rules/games/rule_portgames.yam
+    interval: 86400
+    
+  rule_modem:
+    type: file
+    behavior: classical
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/rules/traffic/rule_modem.yaml
+    path: "./rule_provider/traffic/rule_modem.yaml"
+    interval: 86400
 
-script:
-  shortcuts:
-    TCPgames: network == 'tcp' and dst_port not in [21, 22, 23, 53, 80, 123, 143, 194, 443, 465, 587, 853, 993, 995, 998, 2052, 2053, 2082, 2083, 2086, 2095, 2096, 5222, 5228, 5229, 5230, 8080, 8443, 8880, 8883, 8888, 8889]
-    UDPgames: network == 'udp' and dst_port not in [21, 22, 23, 53, 80, 123, 143, 194, 443, 465, 587, 853, 993, 995, 998, 2052, 2053, 2082, 2083, 2086, 2095, 2096, 5222, 5228, 5229, 5230, 8080, 8443, 8880, 8883, 8888, 8889]
-    speedtest: network == "tcp" and match_provider("rule_Speedtest")
+  rule_Olshop:
+    type: file
+    behavior: domain
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/rules/traffic/rule_olshop.yaml
+    path: "./rule_provider/traffic/rule_olshop.yaml"
+    interval: 86400
+  rule_Banking:
+    type: file
+    behavior: domain
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/rules/traffic/rule_banking.yaml
+    path: "./rule_provider/traffic/rule_banking.yaml"
+    interval: 86400
+  rule_Id.only:
+    type: file
+    behavior: domain
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/rules/traffic/rule_idonly.yaml
+    path: "./rule_provider/traffic/rule_idonly.yaml"
+    interval: 86400
+  rule_Zerotier:
+    type: file
+    behavior: classical
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/rules/traffic/rule_zerotier.yaml
+    path: "./rule_provider/traffic/rule_zerotier.yaml"
+    interval: 86400
+  rule_18+:
+    type: file
+    behavior: domain
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/rules/traffic/rule_18+.yaml
+    path: "./rule_provider/traffic/rule_18+.yaml"
+    interval: 86400
+
+  easylist_adservers:
+    type: file
+    behavior: classical
+    path: "./rule_provider/traffic/easylist_adservers.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/rules/traffic/easylist_adservers.yaml
+    interval: 86400
+
+  rule_whatsapp:
+    type: file
+    behavior: classical
+    path: "./rule_provider/traffic/rule_whatsapp.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/rules/traffic/rule_whatsapp.yaml
+    interval: 86400
+  rule_d3ward:
+    type: file
+    behavior: domain
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/rules/traffic/d3ward.yaml
+    path: "./rule_provider/traffic/d3ward.yaml"
+    interval: 86400
+
+  rule_umum:
+    type: file
+    behavior: classical
+    path: "./rule_provider/traffic/rule_umum.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/rules/traffic/rule_umum.yaml
+    interval: 86400
+  rule_videoconferences:
+    type: file
+    behavior: classical
+    path: "./rule_provider/traffic/rule_videoconferences.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/rules/traffic/rule_videoconferences.yaml
+    interval: 86400
+  rule_Indo:
+    type: file
+    behavior: classical
+    path: "./rule_provider/traffic/rule_indo.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/rules/traffic/rule_indo.yaml
+    interval: 86400
+  rule_Sosmed:
+    type: file
+    behavior: classical
+    path: "./rule_provider/traffic/rule_sosmed.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/rules/traffic/rule_sosmed.yaml
+    interval: 86400
+  rule_Streaming:
+    type: file
+    behavior: classical
+    path: "./rule_provider/traffic/rule_streaming.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/rules/traffic/rule_streaming.yaml
+    interval: 86400
+  rule_Speedtest:
+    type: file
+    behavior: classical
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/rules/traffic/rule_speedtest.yaml
+    path: "./rule_provider/traffic/rule_speedtest.yaml"
+    interval: 86400
+  rule_discord:
+    type: file
+    behavior: classical
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/rules/traffic/rule_discord.yaml
+    path: "./rule_provider/traffic/rule_discord.yaml"
+    interval: 86400
+  rule_hijacking:
+    type: file
+    behavior: classical
+    path: "./rule_provider/traffic/rule_hijacking.yaml"
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/rules/traffic/rule_hijacking.yaml
+    interval: 86400
+  rule_privacy:
+    type: file
+    behavior: classical
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/rules/traffic/rule_privacy.yaml
+    path: "./rule_provider/traffic/rule_privacy.yaml"
+    interval: 86400
+  rule_basicads:
+    type: file
+    behavior: domain
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/rules/traffic/rule_basicads.yaml
+    path: "./rule_provider/traffic/rule_basicads.yaml"
+    interval: 43200
+  rule_personalads:
+    type: file
+    behavior: classical
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/rules/traffic/rule_personalads.yaml
+    path: "./rule_provider/traffic/rule_personalads.yaml"
+    interval: 86400
+  rule_malicious:
+    type: file
+    behavior: domain
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/rules/traffic/rule_malicious.yaml
+    path: "./rule_provider/traffic/rule_malicious.yaml"
+    interval: 43200
+  rule_maliciousip:
+    type: file
+    behavior: ipcidr
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/rules/traffic/rule_maliciousip.yaml
+    path: "./rule_provider/traffic/rule_maliciousip.yaml"
+    interval: 43200
+  rule_falsepositive:
+    type: file
+    behavior: classical
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/rules/traffic/rule_falsepositive.yaml
+    path: "./rule_provider/traffic/rule_falsepositive.yaml"
+    interval: 86400
+  rule_porn:
+    type: file
+    behavior: domain
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/rules/traffic/rule_porn.yaml
+    path: "./rule_provider/traffic/rule_porn.yaml"
+    interval: 86400
+  rule_nsfw:
+    type: file
+    behavior: domain
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/rules/traffic/rule_nsfw.yaml
+    path: "./rule_provider/traffic/rule_nsfw.yaml"
+    interval: 43200
+  rule_lancidr:
+    type: file
+    behavior: ipcidr
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/rules/traffic/rule_lancidr.yaml
+    path: "./rule_provider/traffic/rule_lancidr.yaml"
+    interval: 86400
+  rule_telegramcidr:
+    type: file
+    behavior: ipcidr
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/rules/traffic/rule_telegramcidr.yaml
+    path: "./rule_provider/traffic/rule_telegramcidr.yaml"
+    interval: 86400
+  rule_telegram:
+    type: file
+    behavior: domain
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/rules/traffic/rule_telegram.yaml
+    path: "./rule_provider/traffic/rule_telegram.yaml"
+    interval: 86400
+  rule_disneyplus:
+    type: file
+    behavior: classical
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/rules/traffic/rule_disneyplus.yaml
+    path: "./rule_provider/traffic/rule_disneyplus.yaml"
+    interval: 86400
+  rule_hbo:
+    type: file
+    behavior: classical
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/rules/traffic/rule_hbo.yaml
+    path: "./rule_provider/traffic/rule_hbo.yaml"
+    interval: 86400
+  rule_hboasia:
+    type: file
+    behavior: classical
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/rules/traffic/rule_hboasia.yaml
+    path: "./rule_provider/traffic/rule_hboasia.yaml"
+    interval: 86400
+  rule_hbohk:
+    type: file
+    behavior: classical
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/rules/traffic/rule_hbohk.yaml
+    path: "./rule_provider/traffic/rule_hbohk.yaml"
+    interval: 86400
+  rule_hbousa:
+    type: file
+    behavior: classical
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/rules/traffic/rule_hbousa.yaml
+    path: "./rule_provider/traffic/rule_hbousa.yaml"
+    interval: 86400
+  rule_iqiyi:
+    type: file
+    behavior: classical
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/rules/traffic/rule_iqiyi.yaml
+    path: "./rule_provider/traffic/rule_iqiyi.yaml"
+    interval: 86400
+  rule_iqiyiinter:
+    type: file
+    behavior: classical
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/rules/traffic/rule_iqiyiinter.yaml
+    path: "./rule_provider/traffic/rule_iqiyiinter.yaml"
+    interval: 86400
+  rule_line:
+    type: file
+    behavior: domain
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/rules/traffic/rule_line.yaml
+    path: "./rule_provider/traffic/rule_line.yaml"
+    interval: 86400
+  rule_metaverse:
+    type: file
+    behavior: domain
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/rules/traffic/rule_metaverse.yaml
+    path: "./rule_provider/traffic/rule_metaverse.yaml"
+    interval: 86400
+  rule_netflix:
+    type: file
+    behavior: domain
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/rules/traffic/rule_netflix.yaml
+    path: "./rule_provider/traffic/rule_netflix.yaml"
+    interval: 86400
+  rule_primevideo:
+    type: file
+    behavior: domain
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/rules/traffic/rule_primevideo.yaml
+    path: "./rule_provider/traffic/rule_primevideo.yaml"
+    interval: 86400
+  rule_playstore:
+    type: file
+    behavior: domain
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/rules/traffic/rule_playstore.yaml
+    path: "./rule_provider/traffic/rule_playstore.yaml"
+    interval: 86400
+  rule_tiktok:
+    type: file
+    behavior: domain
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/rules/traffic/rule_tiktok.yaml
+    path: "./rule_provider/traffic/rule_tiktok.yaml"
+    interval: 86400
+  rule_twitch:
+    type: file
+    behavior: domain
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/rules/traffic/rule_twitch.yaml
+    path: "./rule_provider/traffic/rule_twitch.yaml"
+    interval: 86400
+  rule_twitter:
+    type: file
+    behavior: domain
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/rules/traffic/rule_twitter.yaml
+    path: "./rule_provider/traffic/rule_twitter.yaml"
+    interval: 86400
+  rule_Youtube:
+    type: file
+    behavior: domain
+    url: https://raw.githubusercontent.com/GetPush/getpush.github.io/master/rules/traffic/rule_youtube.yaml
+    path: "./rule_provider/traffic/rule_youtube.yaml"
+    interval: 86400
