@@ -1,21 +1,5 @@
 proxies:
-- name: id1 b1 ex 15 juni
-  server: 104.18.34.70
-  port: 443
-  type: vmess
-  uuid: e2c342e1-c9d1-4d03-82f8-3b576ae10f5d
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: id1.v2vmess.site
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: id1.v2vmess.site
-  udp: true
-- name: id1 b2 ex 15 juni
+- name: 🇮🇩 1 Game ex 15 juni
   server: 104.19.142.89
   port: 443
   type: vmess
@@ -31,25 +15,25 @@ proxies:
     headers:
       Host: id1.v2vmess.site
   udp: true
-
-
-- name: id2 b1 ex 16 juni
+- name: 🇮🇩 1 Boost ex 15 juni
   server: 104.18.34.70
   port: 443
   type: vmess
-  uuid: c2784c26-3318-450f-80d5-244921036c71
+  uuid: e2c342e1-c9d1-4d03-82f8-3b576ae10f5d
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: id2.v2vmess.site
+  servername: id1.v2vmess.site
   network: ws
   ws-opts:
     path: /vmess
     headers:
-      Host: id2.v2vmess.site
+      Host: id1.v2vmess.site
   udp: true
-- name: id2 b2 ex 16 juni
+
+
+- name: 🇮🇩 2 Game ex 16 juni
   server: 104.19.142.89
   port: 443
   type: vmess
@@ -65,36 +49,19 @@ proxies:
     headers:
       Host: id2.v2vmess.site
   udp: true
-
-- name: id3 b1 ex 9 juni
+- name: 🇮🇩 2 Boost ex 16 juni
   server: 104.18.34.70
   port: 443
   type: vmess
-  uuid: 5b646fcc-d238-48e9-bd1f-b99dad21bd84
+  uuid: c2784c26-3318-450f-80d5-244921036c71
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: id3.v2vmess.site
+  servername: id2.v2vmess.site
   network: ws
   ws-opts:
     path: /vmess
     headers:
-      Host: id3.v2vmess.site
-  udp: true
-- name: id3 b2 ex 9 juni
-  server: 104.19.142.89
-  port: 443
-  type: vmess
-  uuid: 5b646fcc-d238-48e9-bd1f-b99dad21bd84
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: id3.v2vmess.site
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: id3.v2vmess.site
+      Host: id2.v2vmess.site
   udp: true
