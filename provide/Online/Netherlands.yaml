@@ -1,5 +1,5 @@
 proxies:
-- name: AXIS All BOOSTER B2
+- name: 🇳🇱 AXIS All BOOSTER B2
   server: 104.18.34.70
   port: 443
   type: vmess
@@ -16,7 +16,7 @@ proxies:
       Host: vmess-nl1.sshkit.org
   udp: true
 
-- name: AXIS GAME JBR B1
+- name: 🇳🇱 AXIS GAME JBR B1
   server: 104.19.142.89
   port: 443
   type: vmess
@@ -33,7 +33,7 @@ proxies:
       Host: vmess-nl1.sshkit.org
   udp: true
 
-- name: AXIS GAME JTM
+- name: 🇳🇱 AXIS GAME JTM
   server: 104.18.21.94
   port: 443
   type: vmess
@@ -50,7 +50,7 @@ proxies:
       Host: vmess-nl1.sshkit.org
   udp: true
 
-- name: XL AXIS OPOK B6
+- name: 🇳🇱 XL AXIS OPOK B6
   server: 104.22.28.102
   port: 443
   type: vmess
@@ -67,7 +67,7 @@ proxies:
       Host: vmess-nl1.sshkit.org
   udp: true
 
-- name: XL AXIS OPOK B7
+- name: 🇳🇱 XL AXIS OPOK B7
   server: 104.17.58.20
   port: 443
   type: vmess
