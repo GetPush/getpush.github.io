@@ -1,5 +1,5 @@
 proxies:
-- name: 🇮🇩 1 Game ex 15 juni
+- name: 🇮🇩 1 Game 21 juni
   server: 104.19.142.89
   port: 443
   type: vmess
@@ -15,7 +15,7 @@ proxies:
     headers:
       Host: id1.v2vmess.site
   udp: true
-- name: 🇮🇩 1 Boost ex 15 juni
+- name: 🇮🇩 1 Boost 21 juni
   server: 104.18.34.70
   port: 443
   type: vmess
