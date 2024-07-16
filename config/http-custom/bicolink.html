@@ -13,20 +13,26 @@
                                 <script src="/assets/JS/names.js"></script>
       <title></title>
 <script>
-// Array yang berisi semua jalur yang ingin Anda random
-var paths = [
-  "/config/http-custom/snacklink.html",
-  "/config/http-custom/bicolink.html",
-  "/config/http-custom/arahlink.html"
-];
+// Memeriksa apakah sudah ada status pengalihan di session storage
+var redirected = sessionStorage.getItem('redirected');
 
-// Memilih jalur secara acak dari array paths
-var randomPath = paths[Math.floor(Math.random() * paths.length)];
+// Jika belum diarahkan sebelumnya, maka arahkan secara acak dan tandai sudah diarahkan
+if (!redirected) {
+  var paths = [
+    "/config/http-custom/snacklink.html",
+    "/config/http-custom/bicolink.html",
+    "/config/http-custom/arahlink.html"
+  ];
 
-// Melakukan redirect ke jalur yang terpilih secara acak
-window.location.replace(randomPath);
+  var randomPath = paths[Math.floor(Math.random() * paths.length)];
+  
+  // Melakukan redirect ke jalur yang terpilih secara acak
+  window.location.replace(randomPath);
+  
+  // Menyimpan status pengalihan ke session storage
+  sessionStorage.setItem('redirected', true);
+}
 </script>
-
 </head>
 <body>
   <div id="header"></div>
