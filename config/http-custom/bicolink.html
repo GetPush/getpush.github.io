@@ -12,12 +12,21 @@
                                 <script src="/assets/JS/penutup.js"></script>
                                 <script src="/assets/JS/names.js"></script>
       <title></title>
-    <script>
-        // JavaScript untuk mengarahkan ke link yang ditentukan
-        window.onload = function() {
-            window.location.href = "/config/http-custom/direct.html";
-        }
-    </script>
+<script>
+// Array yang berisi semua jalur yang ingin Anda random
+var paths = [
+  "/config/http-custom/snacklink.html",
+  "/config/http-custom/bicolink.html",
+  "/config/http-custom/arahlink.html"
+];
+
+// Memilih jalur secara acak dari array paths
+var randomPath = paths[Math.floor(Math.random() * paths.length)];
+
+// Melakukan redirect ke jalur yang terpilih secara acak
+window.location.replace(randomPath);
+</script>
+
 </head>
 <body>
   <div id="header"></div>
