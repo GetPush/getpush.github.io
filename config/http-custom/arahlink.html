@@ -13,20 +13,29 @@
                                 <script src="/assets/JS/names.js"></script>
       <title></title>
 <script>
-    window.onload = function() {
+    // Cek apakah sudah ada parameter 'redirect=false' dalam URL
+    var urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.has('redirect') && urlParams.get('redirect') === 'false') {
+        // Jika ada parameter 'redirect=false', tidak lakukan pengalihan
+    } else {
         // Array yang berisi path yang ingin diarahkan
         var paths = [
             "/config/http-custom/snacklink.html",
             "/config/http-custom/bicolink.html",
-            "/config/http-custom/arahlink.html"
+            //"/config/http-custom/arahlink.html"
         ];
         
-        // Pilih secara acak path dari array
-        var randomIndex = Math.floor(Math.random() * paths.length);
-        var randomPath = paths[randomIndex];
-        
-        // Redirect ke path yang terpilih
-        window.location.href = randomPath;
+        // Pengecekan apakah halaman sedang di-refresh
+        var isPageRefreshed = performance.navigation.type === 1;
+
+        // Jika halaman di-refresh, pilih secara acak path dari array
+        if (isPageRefreshed) {
+            var randomIndex = Math.floor(Math.random() * paths.length);
+            var randomPath = paths[randomIndex];
+            
+            // Redirect ke path yang terpilih
+            window.location.href = randomPath;
+        }
     }
 </script>
 </head>
