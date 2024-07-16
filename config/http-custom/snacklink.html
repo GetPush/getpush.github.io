@@ -13,25 +13,21 @@
                                 <script src="/assets/JS/names.js"></script>
       <title></title>
 <script>
-// Memeriksa apakah sudah ada status pengalihan di session storage
-var redirected = sessionStorage.getItem('redirected');
-
-// Jika belum diarahkan sebelumnya, maka arahkan secara acak dan tandai sudah diarahkan
-if (!redirected) {
-  var paths = [
-//    "/config/http-custom/snacklink.html",
-    "/config/http-custom/bicolink.html",
-    "/config/http-custom/arahlink.html"
-  ];
-
-  var randomPath = paths[Math.floor(Math.random() * paths.length)];
-  
-  // Melakukan redirect ke jalur yang terpilih secara acak
-  window.location.replace(randomPath);
-  
-  // Menyimpan status pengalihan ke session storage
-  sessionStorage.setItem('redirected', true);
-}
+    window.onload = function() {
+        // Array yang berisi path yang ingin diarahkan
+        var paths = [
+            "/config/http-custom/snacklink.html",
+            "/config/http-custom/bicolink.html",
+            "/config/http-custom/arahlink.html"
+        ];
+        
+        // Pilih secara acak path dari array
+        var randomIndex = Math.floor(Math.random() * paths.length);
+        var randomPath = paths[randomIndex];
+        
+        // Redirect ke path yang terpilih
+        window.location.href = randomPath;
+    }
 </script>
 </head>
 <body>
